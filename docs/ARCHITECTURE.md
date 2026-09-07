@@ -1,6 +1,6 @@
 # invest — architecture
 
-A private, compounding research corpus built from a strict 12-account X allowlist,
+A private, compounding research corpus built from a strict 13-account X allowlist,
 plus a daily human-readable briefing.
 
 The lasting asset is the **structured corpus**, not the prose. The questions worth
@@ -92,6 +92,14 @@ same values, verified by a canonical hash over a deterministic sort. Raw is writ
 **Price facts have exactly one source, and it is not the model.** `ytd`/`mtd`/`yoy` are
 computed in `src/prices/` from cached closes. The extraction lane is forbidden from
 importing the price layer — enforced by `no-restricted-imports` in `eslint.config.js`.
+
+**Bare tickers are an allowlist, not the universe.** Roughly 41 ordinary English
+words are live listed tickers — `HOLD`, `NOW`, `TOP`, `OPEN`, `TIME`, `LOW`, `HIGH`,
+`PLAY`, `CASH`, `ALL`, `IT`, `ON`. Accepting every universe symbol written bare would put
+a false mention in nearly every post, and one false mention corrupts recurrence, lead/lag
+and hit-rate at the same time. So `$CASHTAG` always resolves, while a bare token resolves
+only if it is in `ref/bare_allowlist.csv`. Listed-but-not-allowlisted tokens land in the
+`unresolved` column, which is how the allowlist grows from evidence rather than guesswork.
 
 **Attribution excludes echoes.** A retweet is not a call, and an LLM-inferred mention is
 not testimony. `mention_events` filters both out, or the lead/lag leaderboard is quietly

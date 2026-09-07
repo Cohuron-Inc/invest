@@ -9,26 +9,31 @@
 --      than overwriting, THE SAME post_id APPEARS IN MORE THAN ONE FILE.
 --      Never read the parquet directly. Always read through these views.
 
+-- @layer posts
 CREATE OR REPLACE VIEW posts_v AS
 SELECT * FROM read_parquet('{{DATA}}/posts/*/*.parquet',
                            hive_partitioning => true, union_by_name => true)
 QUALIFY row_number() OVER (PARTITION BY post_id ORDER BY ingest_dt, ingested_at) = 1;
 
+-- @layer mentions
 CREATE OR REPLACE VIEW mentions_v AS
 SELECT * FROM read_parquet('{{DATA}}/mentions/*/*.parquet',
                            hive_partitioning => true, union_by_name => true)
 QUALIFY row_number() OVER (PARTITION BY mention_id ORDER BY ingest_dt) = 1;
 
+-- @layer picks
 CREATE OR REPLACE VIEW picks_v AS
 SELECT * FROM read_parquet('{{DATA}}/picks/*/*.parquet',
                            hive_partitioning => true, union_by_name => true);
 
+-- @layer pick_tags
 CREATE OR REPLACE VIEW pick_tags_v AS
 SELECT * FROM read_parquet('{{DATA}}/pick_tags/*/*.parquet',
                            hive_partitioning => true, union_by_name => true);
 
 -- Adjusted closes change retroactively after splits/dividends, so the price
 -- layer is append-only and we take the most recent observation of each bar.
+-- @layer prices
 CREATE OR REPLACE VIEW prices_v AS
 SELECT * FROM read_parquet('{{DATA}}/prices/*/*.parquet',
                            hive_partitioning => true, union_by_name => true)
@@ -43,6 +48,7 @@ QUALIFY row_number() OVER (
 -- A retweet is an echo, not a call. Including retweets makes any lead/lag
 -- leaderboard meaningless. LLM-inferred mentions are excluded too: they are
 -- useful for narrative but must not earn first-mover credit.
+-- @layer mentions
 CREATE OR REPLACE VIEW mention_events AS
 SELECT symbol, author_id, author_username, post_id, created_at
 FROM mentions_v
@@ -52,6 +58,7 @@ WHERE post_type <> 'retweet'
 -- Sessionize into episodes. Without this, "lag vs. the first mention" is
 -- measured against a single mention from months ago and every number after
 -- week one is meaningless. A gap > 7 days on a symbol starts a new episode.
+-- @layer mentions
 CREATE OR REPLACE VIEW mention_episodes AS
 WITH gapped AS (
   SELECT *,
@@ -66,6 +73,7 @@ SELECT *,
                                    ROWS UNBOUNDED PRECEDING) AS episode_no
 FROM gapped;
 
+-- @layer mentions
 CREATE OR REPLACE VIEW author_episode_entry AS
 WITH per_author AS (
   SELECT symbol, episode_no, author_id, author_username,

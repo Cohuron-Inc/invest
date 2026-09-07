@@ -1,5 +1,5 @@
 import { DuckDBInstance, type DuckDBConnection } from '@duckdb/node-api'
-import { readFileSync } from 'node:fs'
+import { readFileSync, existsSync, readdirSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, resolve } from 'node:path'
 
@@ -20,11 +20,58 @@ export function refRoot(): string {
   return process.env.INVEST_REF_ROOT ?? resolve(repoRoot, 'ref')
 }
 
-/** Renders sql/views.sql against the active roots. */
+/**
+ * Where rendered markdown is written. Parameterised for the same reason the
+ * data root is: so a test run never writes into the working tree.
+ */
+export function outputRoot(): string {
+  return process.env.INVEST_OUTPUT_ROOT ?? repoRoot
+}
+
+/** Layers that currently have at least one parquet file on disk. */
+export function availableLayers(data = dataRoot()): Set<string> {
+  const present = new Set<string>()
+  for (const layer of ['posts', 'mentions', 'picks', 'pick_tags', 'prices']) {
+    const base = resolve(data, layer)
+    if (!existsSync(base)) continue
+    const hasFile = readdirSync(base).some((partition) => {
+      const dir = resolve(base, partition)
+      try { return readdirSync(dir).some((f) => f.endsWith('.parquet')) } catch { return false }
+    })
+    if (hasFile) present.add(layer)
+  }
+  return present
+}
+
+/**
+ * Renders sql/views.sql against the active roots, omitting views whose layer
+ * has no data yet.
+ *
+ * The corpus is built up one layer at a time - capture and normalize run for
+ * days before the first extraction - so a hard requirement that every layer
+ * exist would make the query surface unusable exactly when it is most useful.
+ * Each statement declares its layer with a `-- @layer` marker.
+ */
 export function renderViews(data = dataRoot(), ref = refRoot()): string {
-  return readFileSync(resolve(repoRoot, 'sql/views.sql'), 'utf8')
-    .replaceAll('{{DATA}}', data)
-    .replaceAll('{{REF}}', ref)
+  const available = availableLayers(data)
+  const raw = readFileSync(resolve(repoRoot, 'sql/views.sql'), 'utf8')
+  const kept = raw
+    .split(/\n(?=-- @layer )/)
+    .filter((block) => {
+      const match = block.match(/^-- @layer (\w+)/m)
+      return !match || available.has(match[1]!)
+    })
+    .join('\n')
+  return kept.replaceAll('{{DATA}}', data).replaceAll('{{REF}}', ref)
+}
+
+/** Layers a caller depends on, with a clear error rather than a SQL surprise. */
+export function requireLayers(layers: string[], data = dataRoot()): void {
+  const available = availableLayers(data)
+  const missing = layers.filter((l) => !available.has(l))
+  if (missing.length > 0) {
+    throw new Error(`corpus layer(s) not built yet: ${missing.join(', ')}. Run the earlier pipeline stages first.`)
+  }
 }
 
 /** Opens an in-process DuckDB with every corpus view already created. */

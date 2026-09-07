@@ -1,0 +1,132 @@
+name: daily
+
+on:
+  schedule:
+    # 20:15 UTC = 16:15 ET during EDT. The capture is cursor-based rather than
+    # window-based, so a drift of an hour under EST loses nothing.
+    - cron: "15 20 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Run even if this session was already captured"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Never cancel in progress: a cancelled capture spends money and commits
+# nothing, and the posts it read cannot be re-read for free.
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+env:
+  NODE_VERSION: "20"
+  PNPM_VERSION: "8.15.1"
+
+jobs:
+  # Capture is separated from everything downstream because its failure mode is
+  # different in kind: reads cost money and cannot be replayed past 7 days,
+  # while every derived stage can be re-run for free. Raw is committed before
+  # any analysis runs, so a render bug can never cost a day of paid data.
+  capture:
+    runs-on: ubuntu-latest
+    outputs:
+      posts_read: ${{ steps.capture.outputs.posts_read }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Capture
+        id: capture
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+        run: |
+          set -euo pipefail
+          pnpm task:capture
+          posts=$(cat data/raw/*/_manifest-*.json | jq -s 'map(.posts_read) | add // 0')
+          echo "posts_read=${posts}" >> "$GITHUB_OUTPUT"
+
+      # Durability before the commit is attempted. If the runner dies between
+      # the paid read and the push, these bytes are the only copy.
+      - name: Upload raw as an artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-${{ github.run_id }}-${{ github.run_attempt }}
+          path: data/raw/
+          retention-days: 90
+          if-no-files-found: ignore
+
+      - name: Commit raw
+        run: |
+          set -euo pipefail
+          git config user.name "invest-bot"
+          git config user.email "noreply@cohuron.com"
+          git add data/raw
+          if git diff --cached --quiet; then
+            echo "::notice::no new raw data"
+            exit 0
+          fi
+          n=$(git diff --cached --numstat | wc -l)
+          git commit -m "data(raw): capture $(date -u +%F) (${n} files) [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin main && exit 0
+            echo "::warning::push attempt ${i} failed, retrying"
+            sleep $((i * 5))
+          done
+          echo "::error::could not push raw data after 3 attempts"
+          exit 1
+
+  # Everything here is replayable at zero data cost, so it runs second and its
+  # failure is recoverable with a workflow_dispatch re-run.
+  derive:
+    needs: capture
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main # fresh, so it sees the commit the capture job just pushed
+      - uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - run: pnpm task:normalize
+      - name: Extract
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: pnpm task:extract
+      - run: pnpm task:enrich
+      - run: pnpm task:render
+
+      - name: Commit derived
+        run: |
+          set -euo pipefail
+          git config user.name "invest-bot"
+          git config user.email "noreply@cohuron.com"
+          git add data daily tickers INDEX.md
+          if git diff --cached --quiet; then
+            echo "::notice::nothing derived changed"
+            exit 0
+          fi
+          git commit -m "data(derived): rebuild $(date -u +%F) [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin main && exit 0
+            echo "::warning::push attempt ${i} failed, retrying"
+            sleep $((i * 5))
+          done
+          echo "::error::could not push derived data after 3 attempts"
+          exit 1

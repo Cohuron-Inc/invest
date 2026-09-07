@@ -1,0 +1,39 @@
+symbol,note
+# Tickers recognised WITHOUT a leading '$'.
+#
+# Bare uppercase matching is inverted to an allowlist because ~41 ordinary
+# English words are live tickers (HOLD, NOW, TOP, OPEN, TIME, PLAY, LOW, HIGH,
+# CASH, RISK-adjacent words and more). Recognising every universe symbol bare
+# would put a false mention in nearly every post, and a false mention corrupts
+# recurrence, lead/lag and hit-rate simultaneously.
+#
+# Precision is worth far more than recall here: a missed bare mention of an
+# obscure ticker costs one row, and the $CASHTAG path still catches every
+# explicit reference. Add symbols people habitually write bare.
+AAPL,
+AMZN,
+GOOG,
+GOOGL,
+META,
+MSFT,
+NVDA,
+TSLA,
+AMD,
+NFLX,
+AVGO,
+MU,
+INTC,
+SMCI,
+PLTR,
+COIN,
+MSTR,
+SPY,
+QQQ,
+IWM,
+DIA,
+TLT,
+GLD,
+SMH,
+ARKK,
+VIX,
+SPX,

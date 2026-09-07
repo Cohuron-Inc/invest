@@ -5,7 +5,10 @@
   "type": "module",
   "description": "Daily X-feed research corpus for a curated market-commentary allowlist.",
   "packageManager": "pnpm@8.15.1",
-  "engines": { "node": ">=20.0.0", "pnpm": ">=8.0.0" },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
@@ -14,6 +17,7 @@
     "lint": "eslint src --max-warnings=0",
     "clean": "rm -rf dist node_modules",
     "task:resolve-accounts": "tsx src/x/resolve-accounts.ts",
+    "task:sync-universe": "tsx src/lib/universe.ts",
     "task:capture": "tsx src/capture/index.ts",
     "task:normalize": "tsx src/normalize/index.ts",
     "task:extract": "tsx src/extract/index.ts",

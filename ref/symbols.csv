@@ -1,0 +1,10 @@
+symbol,asset_class,security_name,alias_of,valid_from,valid_to,note
+SPX,index,S&P 500 Index,,1957-03-04,,
+VIX,index,CBOE Volatility Index,,1990-01-02,,
+DXY,macro,US Dollar Index,,1973-03-01,,
+TNX,macro,CBOE 10-Year Treasury Yield,,1990-01-02,,
+FB,equity,Meta Platforms (renamed),META,2012-05-18,2022-06-09,Ticker renamed; historical mentions must map forward
+OPENAI,private,OpenAI,,2015-12-11,,No public listing - price fields stay NULL by design
+SPACEX,private,SpaceX,,2002-03-14,,No public listing - price fields stay NULL by design
+ANTHROPIC,private,Anthropic,,2021-01-01,,No public listing - price fields stay NULL by design
+STRIPE,private,Stripe,,2010-01-01,,No public listing - price fields stay NULL by design

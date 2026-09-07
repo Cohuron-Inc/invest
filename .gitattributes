@@ -1,0 +1,3 @@
+# Parquet and gzipped JSONL are binary — do not let git try to diff or normalize them.
+*.parquet binary
+*.jsonl.gz binary

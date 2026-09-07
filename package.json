@@ -1,0 +1,41 @@
+{
+  "name": "invest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily X-feed research corpus for a curated market-commentary allowlist.",
+  "packageManager": "pnpm@8.15.1",
+  "engines": { "node": ">=20.0.0", "pnpm": ">=8.0.0" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src --max-warnings=0",
+    "clean": "rm -rf dist node_modules",
+    "task:resolve-accounts": "tsx src/x/resolve-accounts.ts",
+    "task:capture": "tsx src/capture/index.ts",
+    "task:normalize": "tsx src/normalize/index.ts",
+    "task:extract": "tsx src/extract/index.ts",
+    "task:enrich": "tsx src/prices/index.ts",
+    "task:render": "tsx src/render/index.ts",
+    "rebuild": "tsx src/rebuild.ts",
+    "repl": "tsx src/duck/repl.ts",
+    "q": "tsx src/duck/q.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.124.0",
+    "@duckdb/node-api": "^1.5.5-r.4",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.4.1",
+    "eslint": "^10.10.0",
+    "globals": "^17.12.0",
+    "tsx": "^4.23.13",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.69.0",
+    "vitest": "~4.1.11"
+  }
+}

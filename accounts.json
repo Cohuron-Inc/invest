@@ -1,0 +1,17 @@
+{
+  "$comment": "The strict allowlist. user_id is the join key everywhere; handles are mutable and are recorded only as a point-in-time observation. Populate user_id once via `pnpm task:resolve-accounts` (needs X_BEARER_TOKEN), then commit. A null user_id is a hard error at capture time.",
+  "accounts": [
+    { "handle": "deerpointmacro",  "user_id": null },
+    { "handle": "stocktalkweekly", "user_id": null },
+    { "handle": "LogicalThesis",   "user_id": null },
+    { "handle": "StockSavvyShay",  "user_id": null },
+    { "handle": "CEOStockWatcher", "user_id": null },
+    { "handle": "TheLongInvest",   "user_id": null },
+    { "handle": "MarcosMillaYT",   "user_id": null },
+    { "handle": "FeroceResearch",  "user_id": null },
+    { "handle": "davevermilion",   "user_id": null },
+    { "handle": "TradexWhisperer", "user_id": null },
+    { "handle": "RealJGBanks",     "user_id": null },
+    { "handle": "JaguarAnalytics", "user_id": null }
+  ]
+}

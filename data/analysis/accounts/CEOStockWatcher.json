@@ -1,0 +1,212 @@
+{
+  "window_start": "2026-07-07",
+  "window_end": "2026-09-06",
+  "model": "claude-opus-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "f6376d04ad14fb3e",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-07T02:00:51.859Z",
+  "account": "CEOStockWatcher",
+  "profile": {
+    "beat": "A near-real-time feed of US insider transactions (Form 4 buys and sells) across the entire listed market, from micro-caps to mega-caps, with a heavy tilt toward multi-insider cluster buys and post-earnings dip buys. Alongside the feed the author markets a paid research product - the 'CEO Watcher' High Signal List, CEO Watcher Portfolio and a quarterly Insider Trading Report.",
+    "style": "Almost all output is descriptive reporting of a filing, not a stance: who bought or sold, in what role, whether it was a dip buy or a rip sell, and how many other insiders acted. Conviction language is essentially absent - there is no position sizing talk, no price targets and no 'I am long X'. The rare cases where the author does commit read as one editorial clause appended to a filing report ('but is super cheap', 'stock chart has started to finally inflect as well') or as a disclosure that a name sits in the paid CEO Watcher Portfolio or High Signal List. The framework is systematically fundamental/behavioral rather than chart-based: the author argues explicitly that insider signal quality comes from cluster buying, dip buying, reversals from selling to buying, and below-median valuations, not from purchase size.",
+    "cadence": "Extremely high frequency and mechanical: roughly ten posts on most trading days, near-hourly during market hours, each a standalone one-to-three line filing summary with an attached screenshot link. Interspersed are aggregate/market-structure posts (insider buying by industry, hit-rate scoreboards for their own lists) and recurring promotional posts for the Q2 Insider Trading Report and the insider-data platform. Threads are rare; replies are rare (10 in two months) and are mostly one-line responses or platform plugs.",
+    "revisits": "Yes, but as tracking rather than as re-underwriting. The author follows the same insider story across many posts (51Talk $COE at 2075203849027977355, 2077015787466887575, 2079567855150936540, 2080655031762550786, 2082074120125141469, 2083176379487539531, 2087177999707738125; Amrize $AMRZ at 2090107055193350462, 2093065798415774206, 2095859958025801882; Ken Dart at Flutter across 2081726843506372651, 2082089251815006629, 2087532817328521225, 2089336983583605243). Revisits of their own product picks are almost entirely retrospective victory laps after a good print - $SMWB 2088687687989448961, $SPT 2086150989669613887, $AEYE 2089004332368761127, $ULBI 2089033730773889062, $EFOR 2083960292535304429, $ARQ 2088641896373534795. No instance in this window of the author reversing, downgrading or closing a previously stated view.",
+    "caveats": "Substantial. The overwhelming majority of this account's output is not stance-taking: of 666 posts, roughly 470 distinct tickers are named, and nearly all of those mentions are a neutral report of somebody else's filing - the author is relaying an insider's action, not making a call. Under the 'a mention is not a pick' rule almost the entire feed is uncountable, and any attempt to score this account by treating ticker mentions as calls would fabricate a track record that the author never claimed. Second, the account is commercial: the High Signal List, CEO Watcher Portfolio and quarterly report are the product being sold, and the performance claims made for them (2076033559534428166, 2078540846224359451, 2088671347262046355, 2075249155602030830) are self-reported, self-selected, unaudited, and stated in max-return or average terms with no methodology, no entry rules and no losers highlighted. Third, the specific-name commentary is overwhelmingly backward-looking: names are surfaced after they have already worked, which biases any casual reading of the feed. Fourth, the actual portfolio constituents are paywalled - the account discloses ownership only after the fact, so a reader cannot act on the underlying picks from the feed itself. Finally, the feed does not distinguish informative insider trades from routine or scheduled ones consistently, and the author himself concedes in 2085694842345050225 and 2083568519518544356 that basic insider buying and especially insider selling are mostly noise."
+  },
+  "narrative": "The two months are dominated by one macro claim that the author states early and never abandons: insider buying had clustered in software after a drawdown while insider selling had clustered in AI, semiconductors and the highest-momentum, lowest-quality names, and he expected the first group to work and the second to break. He pushes this in the first week (2074917040637292746, 2074952698957308169, 2075975808120680643, 2076366529025765887), arguing the insider signal is value-oriented and carries essentially no AI exposure, in contrast with a momentum-led index. Through mid-July he reinforces it with scoreboard posts on his own ranked lists and with the observation that a large share of the most insider-sold companies are AI names (2076768917452701801). The AI sell-off at the start of August is treated as confirmation, and it is the one moment where his tone hardens: in 2083568519518544356 he concedes insider selling is normally the trickier signal but claims this drawdown was pre-signalled by the insider-selling lists. From early August onward the account shifts from thesis-building to victory laps on individual software and small-cap names that had reported well - Sprout Social, SimilarWeb, AudioEye, Ultralife, Everforth - all framed as prior additions to the paid product. The one visible tension he does not resolve is SimilarWeb, where he touts ownership on 2026-08-15 and then three days later reports the CEO selling into the run-up (2089722018648199211) without revisiting the thesis. The late-August and September posts drift back to pure filing reporting, with the recurring threads being cluster dip buys after earnings (Amrize, Resideo, Elanco, comScore, loanDepot) and heavy insider selling in restaurants, healthcare services and crypto-adjacent names. He never states a view on the market's overall direction, only on where insider behaviour was concentrated.",
+  "picks": [
+    {
+      "symbol": "SMWB",
+      "direction": "long",
+      "prospect": "Continued upside in a software name the author says he owns in his paid portfolio, driven by earnings beats following a period of clustered insider buying off the lows.",
+      "risk_reward": "The author never framed downside for this name. He did report, without comment or any change of view, that the CEO sold into the run-up days after touting the position - which is the only bearish datapoint he surfaces.",
+      "thesis": "Part of his broader software-insider-buying thesis: insiders bought a beaten-down software company, the author's product added it, and it has since delivered earnings beats. He treats insider cluster buying after a drawdown as the core signal.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-07-12",
+      "sources": [
+        {
+          "post_id": "2076320768296628692",
+          "quote": "SimilarWeb $SMWB was already up 70% from the bottom when insiders started buying"
+        },
+        {
+          "post_id": "2088687687989448961",
+          "quote": "a software company we own in the CEO Watcher Portfolio and wrote about in the Q2 Insider Trading Report"
+        },
+        {
+          "post_id": "2089722018648199211",
+          "quote": "CEO at SimilarWeb $SMWB taking advantage of the 100% run-up to sell $6m"
+        }
+      ]
+    },
+    {
+      "symbol": "SPT",
+      "direction": "long",
+      "prospect": "Further upside after an earnings-driven re-rating, on the view that the stock is still cheap on a sales multiple despite the move.",
+      "risk_reward": "The author never addressed risk for this pick. He states only the valuation argument for continued upside and gives no downside case.",
+      "thesis": "One of the software names his Q2 report flagged on insider buying and that his paid portfolio holds; after a strong earnings reaction he argues the valuation is still undemanding, so the re-rating is unfinished.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "value",
+        "catalyst-driven"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-08-08",
+      "sources": [
+        {
+          "post_id": "2086150989669613887",
+          "quote": "It's one of the software stocks we highlighted in our Q2 Insider Trading Report and is up over 50% since we added it to the CEO Watcher Portfolio"
+        },
+        {
+          "post_id": "2086150989669613887",
+          "quote": "Still trades at 1x sales"
+        }
+      ]
+    },
+    {
+      "symbol": "BWMX",
+      "direction": "long",
+      "prospect": "A re-rating in a stock the author calls cheap, with fresh insider buying as the trigger he is watching for.",
+      "risk_reward": "The author acknowledges the stock has repeatedly failed to sustain a move up, which is the implied risk - the cheapness has not been rewarded - but he sets no downside level and no stop.",
+      "thesis": "A new director joining existing insider buying at a company he independently judges to be inexpensive; cluster insider buying plus a low valuation is the exact combination he argues elsewhere is the highest-quality insider signal.",
+      "time_frame": "position",
+      "tags": [
+        "value"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-07-30",
+      "sources": [
+        {
+          "post_id": "2082813995371708830",
+          "quote": "The stock refuses to make a sustained move up, but is super cheap"
+        }
+      ]
+    },
+    {
+      "symbol": "COE",
+      "direction": "long",
+      "prospect": "Upside on a persistent, unusually repetitive CEO buying programme, with the author noting the price action has finally started to cooperate.",
+      "risk_reward": "The author never addressed risk for this pick. He tracks only the buying cadence and the eventual price response.",
+      "thesis": "The single most-repeated insider story on the account: the CEO buys the stock over and over across months. The author's stated framework treats sustained, repeated insider purchases - especially an insider building through weakness - as signal, and he flags the turn in the chart as confirmation.",
+      "time_frame": "position",
+      "tags": [
+        "speculative"
+      ],
+      "conviction": 0.35,
+      "first_seen": "2026-07-09",
+      "sources": [
+        {
+          "post_id": "2075203849027977355",
+          "quote": "CEO at 51Talk Online Education Group $COE continues buying the stock."
+        },
+        {
+          "post_id": "2079567855150936540",
+          "quote": "The CEO at 51Talk Online Education Group $COE continues buying the stock"
+        },
+        {
+          "post_id": "2087177999707738125",
+          "quote": "21 purchases since April. Stock has also finally started to move in the right direction"
+        }
+      ]
+    },
+    {
+      "symbol": "AMRZ",
+      "direction": "long",
+      "prospect": "Recovery in a post-spin-off name where multiple insiders keep buying into weakness; the author expects the industry headwind rather than a company-specific problem to be what is holding it back.",
+      "risk_reward": "The author frames the risk as sector-wide rather than company-specific, and offers that as the reason to stay with the insiders. He does not say what would invalidate the view.",
+      "thesis": "Multi-insider cluster dip buying after earnings and after a spin-off, which is his highest-rated signal type; he explicitly rules out an idiosyncratic problem by pointing to the whole housing and construction materials group being weak.",
+      "time_frame": "position",
+      "tags": [
+        "value"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-08-19",
+      "sources": [
+        {
+          "post_id": "2090107055193350462",
+          "quote": "6 insiders have now bought the post-earnings dip at Amrize $AMRZ"
+        },
+        {
+          "post_id": "2093065798415774206",
+          "quote": "Insiders continue buying the post-spin dip at Amrize $AMRZ"
+        },
+        {
+          "post_id": "2095859958025801882",
+          "quote": "The entire housing/construction materials industry has struggled, so it's not $AMRZ specific"
+        }
+      ]
+    },
+    {
+      "symbol": "CCB",
+      "direction": "long",
+      "prospect": "Recovery from an earnings gap-down that the author is inclined to treat as an overreaction, siding with the insiders who bought it.",
+      "risk_reward": "Unusually for this account he states both sides: management characterises the credit-loss event as a one-off while the market is pricing something more persistent. If the market is right the buy fails; he gives no sizing or stop.",
+      "thesis": "Three insiders bought the post-earnings dip after a surprise loss tied to a banking-as-a-service partner; his framework treats a multi-insider post-earnings dip buy as one of the strongest configurations, and he leans toward management's one-off explanation.",
+      "time_frame": "swing",
+      "tags": [
+        "catalyst-driven",
+        "value"
+      ],
+      "conviction": 0.35,
+      "first_seen": "2026-08-15",
+      "sources": [
+        {
+          "post_id": "2088717137246310597",
+          "quote": "$CCB is off to a good start after 3 insiders bought the post-earnings dip"
+        },
+        {
+          "post_id": "2088717137246310597",
+          "quote": "Mgmt says it's a one-off, market seems more concerned"
+        }
+      ]
+    },
+    {
+      "symbol": "CSGP",
+      "direction": "long",
+      "prospect": "A turn higher, with the author reading the chart as beginning to inflect while the CEO keeps adding on weakness.",
+      "risk_reward": "The author never addressed risk for this pick. He notes only that the CEO's earlier attempts to buy the dip had not yet worked.",
+      "thesis": "A repeated CEO dip buy - an insider averaging down through a drawdown - now being confirmed, in his reading, by price action starting to turn.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum"
+      ],
+      "conviction": 0.3,
+      "first_seen": "2026-08-11",
+      "sources": [
+        {
+          "post_id": "2087167573532008905",
+          "quote": "CEO is trying to buy the dip at CoStar Group $CSGP for the 3rd time"
+        },
+        {
+          "post_id": "2087167573532008905",
+          "quote": "Stock chart has started to finally inflect as well"
+        }
+      ]
+    },
+    {
+      "symbol": "ARQ",
+      "direction": "long",
+      "prospect": "A delayed payoff on a cluster insider dip buy, with the author reading a good earnings report as the first evidence the thesis is starting to work.",
+      "risk_reward": "The author never addressed risk for this pick, beyond conceding the stock had not yet responded to the insider buying.",
+      "thesis": "Four insiders bought a post-earnings dip earlier in the year and the name went nowhere; a subsequent good report is treated as the setup finally beginning to resolve in the insiders' favour.",
+      "time_frame": "position",
+      "tags": [
+        "catalyst-driven"
+      ],
+      "conviction": 0.3,
+      "first_seen": "2026-08-15",
+      "sources": [
+        {
+          "post_id": "2088641896373534795",
+          "quote": "It's a step in the right direction after four insiders bought the post-earnings dip in March"
+        }
+      ]
+    }
+  ]
+}

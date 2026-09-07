@@ -1,0 +1,187 @@
+<title>September Corpus Probe</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper: #F4F6F8; --paper-2: #EAEEF2; --ink: #17222E; --ink-2: #4A5866; --ink-3: #7B8794; --rule: #CDD5DD;
+    --core: #1F6F62; --core-bg: #DFEEEA; --watch: #A8731A; --watch-bg: #F3E8D2; --sat: #A3463A; --sat-bg: #F2DDD9;
+    --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+      --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+    --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.55; margin: 0; }
+  .page { max-width: 76ch; margin: 0 auto; padding: 40px 24px 96px; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+  h1 { font-size: 2.35rem; line-height: 1.1; }
+  h2 { font-size: 1.45rem; line-height: 1.2; margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1.1rem; margin-top: 28px; }
+  p { margin: 12px 0; max-width: 68ch; }
+  .eyebrow { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+  .lede { font-size: 1.1rem; color: var(--ink-2); max-width: 64ch; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 18px; font-family: var(--mono); font-size: 0.78rem; color: var(--ink-3); }
+  .meta b { color: var(--ink-2); font-weight: 500; }
+  ul, ol { padding-left: 22px; margin: 10px 0; max-width: 68ch; }
+  li { margin: 6px 0; }
+  li b, p b { font-weight: 600; }
+  .t { font-family: var(--mono); font-weight: 500; font-size: 0.92em; }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 0.92em; }
+  .tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 24px; }
+  @media (max-width: 640px) { .tiers { grid-template-columns: 1fr; } }
+  .tier { padding: 14px 16px 16px; border-top: 3px solid; background: var(--paper-2); }
+  .tier.core { border-color: var(--core); } .tier.watch { border-color: var(--watch); } .tier.sat { border-color: var(--sat); }
+  .tier .eyebrow { margin-bottom: 6px; }
+  .tier.core .eyebrow { color: var(--core); } .tier.watch .eyebrow { color: var(--watch); } .tier.sat .eyebrow { color: var(--sat); }
+  .tier .names { font-family: var(--mono); font-size: 0.9rem; line-height: 1.7; }
+  .tier small { display: block; color: var(--ink-2); font-size: 0.82rem; margin-top: 8px; line-height: 1.45; }
+  .pill { display: inline-block; font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 7px; border-radius: 3px; vertical-align: middle; }
+  .pill.core { color: var(--core); background: var(--core-bg); } .pill.watch { color: var(--watch); background: var(--watch-bg); } .pill.sat { color: var(--sat); background: var(--sat-bg); }
+  .tablewrap { overflow-x: auto; margin: 18px 0 8px; border: 1px solid var(--rule); }
+  table { border-collapse: collapse; width: 100%; min-width: 880px; font-size: 0.86rem; line-height: 1.4; }
+  th { text-align: left; font-family: var(--mono); font-weight: 500; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); padding: 10px 10px; border-bottom: 1px solid var(--rule); background: var(--paper-2); position: sticky; top: 0; }
+  td { padding: 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  td.tk { font-family: var(--mono); font-weight: 500; white-space: nowrap; }
+  td.risk { white-space: nowrap; font-family: var(--mono); font-size: 0.78rem; }
+  .src { color: var(--ink-3); font-size: 0.8rem; }
+  .callout { border-left: 3px solid var(--core); background: var(--paper-2); padding: 12px 16px; margin: 18px 0; max-width: 68ch; }
+  .callout.warn { border-color: var(--watch); }
+  dl.acct { display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; margin: 14px 0; max-width: 72ch; }
+  dl.acct dt { font-family: var(--mono); font-size: 0.85rem; font-weight: 500; }
+  dl.acct dd { margin: 0; font-size: 0.92rem; color: var(--ink-2); }
+  .foot { margin-top: 48px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 0.8rem; color: var(--ink-3); max-width: 70ch; }
+  a:focus-visible { outline: 2px solid var(--core); outline-offset: 2px; }
+</style>
+
+<div class="page">
+  <div class="eyebrow">Invest corpus · six-account window · 7 Jul to 6 Sep 2026</div>
+  <h1 style="margin-top:10px">September Corpus Probe</h1>
+  <p class="lede">What a medium-to-long-horizon, medium-to-low-risk book should take from six X commentators, after reading past their pick lists into the earnings scorecards, sell-side relays and Form 4 clusters buried in 4,551 raw posts.</p>
+  <div class="meta">
+    <span><b>Mandate</b> high return, medium-to-low risk, 1 to 3 years</span>
+    <span><b>Posts read</b> 4,551</span>
+    <span><b>Formal picks</b> 108 across 6 accounts</span>
+    <span><b>Price layer</b> not built yet, so no returns are quoted</span>
+  </div>
+
+  <div class="tiers">
+    <div class="tier core">
+      <div class="eyebrow">Core · earnings-confirmed</div>
+      <div class="names">GOOGL · AMZN · MSFT · AVGO · PFE · CRM · UNH · PANW · SNOW · DELL · DT · NVO</div>
+      <small>Real prints in the corpus, valuations already reset or FCF visible, no binary event. Size these.</small>
+    </div>
+    <div class="tier watch">
+      <div class="eyebrow">Watch · deep-inside signals</div>
+      <div class="names">BSX · FLUT · AMRZ · ELAN · APTV · VST · ELV · KLAR · MITK · KURA · CSGP · META · ORCL · MU</div>
+      <small>No account made most of these a formal pick. Insider clusters or split views. Do your own work before sizing.</small>
+    </div>
+    <div class="tier sat">
+      <div class="eyebrow">Satellite · high conviction, high beta</div>
+      <div class="names">ASTS · RKLB · CRDO · WGS · STLN · HIMS · OSCR · BABA · SE · NBIS · TSLA</div>
+      <small>The accounts' loudest calls. Some have strong prints, but each carries a risk the mandate cannot absorb at core size.</small>
+    </div>
+  </div>
+
+  <h2>The lens the corpus itself supplies</h2>
+  <p>Read together, the six accounts describe one market. The ten-year sits near 4.7% and oil near $90 after tanker strikes in the Strait of Hormuz. The Fed under Warsh held at 3.50 to 3.75% on 29 July with three dissents for a hike, and by 31 August overnight-index swaps priced a 56% chance of a September hike. Payrolls printed +162K against +55K expected on 4 September. Momentum unwound in July at the worst pace since 2009 by Goldman's high-beta index. Chinese models (Kimi K3, Qwen 3.8 Max) pushed stocktalkweekly, an AI bull for three years, to question frontier-lab pricing power. deerpointmacro spent the whole window underweight long-dated hyperscaler bonds because issuance volume, not credit quality, is widening spreads.</p>
+  <div class="callout">
+    <b>Portfolio implication.</b> With 30-year single-A industrial paper yielding 6.02% (deerpointmacro, 5 Sep), the hurdle for equity is a real free-cash-flow yield or a demonstrated earnings inflection. Long-duration stories with commercialization years away are the wrong shape for this rate regime, however good the story. That rule alone moves ASTS, RKLB and ADUR out of core regardless of conviction.
+  </div>
+  <p>Two accounts are worth noting as counterweights. LogicalThesis argues tech chops through year-end because the market now punishes capex even when the return on it shows up, and wrote on 28 August that AI usage growth may decelerate as heavy users plateau. TheLongInvest expects an index correction from September and says only names that already completed their own correction are safe. Both views push toward the same place: de-rated quality with prints behind it.</p>
+
+  <h2>How each name was probed</h2>
+  <ul>
+    <li><b>Theme.</b> Is the driver structural (cloud consumption, security, GLP-1, memory scarcity) or a flow story?</li>
+    <li><b>Sentiment.</b> Where is the name on the hated-to-crowded axis, and does more than one account agree?</li>
+    <li><b>Earnings.</b> Is there an actual print with consensus comparisons in the corpus, or only a chart?</li>
+    <li><b>Analyst and insider.</b> Any sell-side initiation, target change or Form 4 cluster relayed by an account.</li>
+    <li><b>Risk.</b> Balance sheet, binary events, concentration, and how reliable the sponsoring account is.</li>
+  </ul>
+
+  <h2>Core: the names that pass all five probes</h2>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Name</th><th>Theme</th><th>Sentiment</th><th>Earnings evidence</th><th>Analyst / insider</th><th>Risk</th><th>Verdict</th></tr></thead>
+      <tbody>
+        <tr><td class="tk">GOOGL</td><td>Cloud plus TPU silicon; Waymo optionality</td><td>Punished on capex despite the beat. TLI is waiting for a pullback to $250; stocktalkweekly posted the print without a stance.</td><td>Q2 revenue <span class="num">$119.8B</span> vs <span class="num">$117.0B</span>; Cloud <span class="num">$24.8B</span> vs <span class="num">$22.5B</span> (82% growth vs 64% expected per LogicalThesis); EPS ex-gain <span class="num">$2.85</span> vs <span class="num">$2.90</span>. Capex guide raised $15B to $195 to 205B; first negative-FCF quarter.</td><td>Ad-tech remedy on 2 Sep avoided a forced sale. TPU v8i shipping through Broadcom with a further 5 GW Anthropic deployment in 2027. Bear datapoint: Bernstein says Meta may pass Search in ad revenue by year-end.</td><td class="risk">medium-low</td><td>The most evidence-dense name in the corpus. Accumulate on capex scares.</td></tr>
+        <tr><td class="tk">AMZN</td><td>AWS at $170B run-rate growing ~40%, still only ~20% of revenue</td><td>Neutral. stocktalkweekly calls it possibly the greatest business ever and holds it; TLI cites it as a 200 WMA winner.</td><td>Q2 sales <span class="num">$200.6B</span> vs <span class="num">$197.0B</span>; AWS <span class="num">$42.2B</span> vs <span class="num">$40.6B</span>; operating income <span class="num">$27.5B</span> vs <span class="num">$23.6B</span>.</td><td>None in corpus. New YouTube product-tagging tie-up flagged by StockSavvyShay as fixing Amazon's discovery weakness.</td><td class="risk">medium-low</td><td>Core. Same capex overhang as GOOGL, better cash generation.</td></tr>
+        <tr><td class="tk">MSFT</td><td>Enterprise AI monetizing now: Copilot revenue +60% q/q, deployments +75% q/q</td><td>Recovered. TLI: consolidated at the 200 WMA for months, then bounced on the print.</td><td>Q4 FY26 call: FY27 revenue up double digits; backlog +25%; 90% of cloud revenue from non-frontier-lab customers; FCF rebounded; capex growth eased.</td><td>FY27 reporting restructured so Agents &amp; Infrastructure is one of two core segments.</td><td class="risk">low-medium</td><td>Core. Least exposed to the frontier-lab counterparty worry.</td></tr>
+        <tr><td class="tk">AVGO</td><td>Custom silicon for Google, Meta, OpenAI, Anthropic at once</td><td>Sold off on the print; StockSavvyShay called the reaction "bonkers".</td><td>Q3 revenue <span class="num">$29.6B</span> vs <span class="num">$29.5B</span>; EPS <span class="num">$3.32</span> vs <span class="num">$3.24</span>; AI semis <span class="num">$16.7B</span> (+221%). Q4 guide <span class="num">$34.8B</span> vs <span class="num">$35.1B</span>. Sees AI semis $115B FY27 and $230B FY28 with supply secured.</td><td>Insiders sold ~$300M in June and July (CEOStockWatcher). Profit now ~$173M per day.</td><td class="risk">medium</td><td>Best-quality way to own the capex cycle. Core-plus, but size for a cycle, not forever.</td></tr>
+        <tr><td class="tk">PFE</td><td>Income anchor with a pharma pipeline call option</td><td>Ignored. TLI lists it on his Berkshire Q2 shortlist and as a safe haven; nobody made it a pick.</td><td>Q2 print on 4 Aug, TLI reaction "nice". Up 14% YTD with a ~6% dividend by 6 Sep.</td><td>Four insiders bought in August including the CEO at $1M, plus two directors at $1M each, all below the 200 WMA (CEOStockWatcher, 6 and 13 Aug).</td><td class="risk">low</td><td>The cleanest deep-inside find. Core income position.</td></tr>
+        <tr><td class="tk">CRM</td><td>SaaS survivor of the AI-kills-software scare</td><td>From hated to recovered in two months. TLI built the position in the selloff; stocktalkweekly says the print widens software leadership.</td><td>Q2 on 27 Aug: +18% on the day, "strong report". Rule-of-40 "Great" bucket on Shay's comp sheet.</td><td>None.</td><td class="risk">medium-low</td><td>Most of the easy recovery is done. Core-lite; buy pullbacks, do not chase.</td></tr>
+        <tr><td class="tk">UNH</td><td>Managed care recovery</td><td>Was hated, now consensus. TLI calls it his safest buy and wants a dip to $360 before adding.</td><td>Q2 on 16 Jul: strong, reclaimed the 200 WMA the same day.</td><td>Ten board members bought in April (TLI, 24 Aug). Elevance's CEO also bought its earnings dip in July, a sector echo.</td><td class="risk">low-medium</td><td>Hold. The return profile is now ordinary; add only on a pullback.</td></tr>
+        <tr><td class="tk">PANW</td><td>Platform cybersecurity riding the AI-agent demand cycle</td><td>Cyber back in leadership after OKTA and CRWD reactions (stocktalkweekly, 27 Aug).</td><td>Q4 revenue <span class="num">$3.41B</span> vs <span class="num">$3.35B</span>; NGS ARR <span class="num">$9.1B</span> (+63%), nearly $1B net new in a quarter; FY27 guide above consensus.</td><td>Six insiders sold in the 30 days to 9 July (CEOStockWatcher).</td><td class="risk">medium</td><td>Core-lite. Fundamentals strongest in the group; insider selling caps the size.</td></tr>
+        <tr><td class="tk">SNOW</td><td>Governed data layer for agents; value shifts to data as models commoditize</td><td>StockSavvyShay 0.70 conviction, ten-day window only.</td><td>Q2 revenue <span class="num">$1.55B</span> vs <span class="num">$1.48B</span>; EPS <span class="num">$0.62</span> vs <span class="num">$0.45</span>; NRR 126%; RPO <span class="num">$9.0B</span> (+30%); FY27 product revenue guide <span class="num">$6.1B</span> vs <span class="num">$5.8B</span>. FCF missed.</td><td>Rule-of-40 "Elite" bucket.</td><td class="risk">medium</td><td>Growth core. The FCF miss is the thing to watch next print.</td></tr>
+        <tr><td class="tk">DELL</td><td>AI servers at scale</td><td>Barely discussed; only the scorecard exists.</td><td>Q2 revenue <span class="num">$46.7B</span> vs <span class="num">$44.8B</span>; EPS <span class="num">$7.04</span> vs <span class="num">$4.97</span>; AI server <span class="num">$16.4B</span>. FY27 revenue <span class="num">$192B</span> vs <span class="num">$173B</span>, EPS <span class="num">$25.50</span> vs <span class="num">$18.90</span>.</td><td>None.</td><td class="risk">medium</td><td>The largest guide raise in the corpus. Core-lite; thin margins are the risk.</td></tr>
+        <tr><td class="tk">DT</td><td>Observability demand healthiest since 2022</td><td>Quiet. A low-conviction stocktalkweekly basket holding.</td><td>None in corpus.</td><td>Morgan Stanley upgraded to Overweight with a $65 target from $58 on 25 Aug, citing a multiyear enterprise build cycle.</td><td class="risk">medium-low</td><td>Sell-side driven, not account driven. Core-lite software with lower beta.</td></tr>
+        <tr><td class="tk">NVO</td><td>Obesity market leader at trough sentiment</td><td>Hated. TLI 0.85 conviction, calls it the name he would give a family member, and warns the wait may take years.</td><td>None in corpus beyond the HIMS distribution deal.</td><td>None.</td><td class="risk">medium-low</td><td>Single-source. Start small; let a print confirm before core size.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="src">Figures are as posted by the accounts (StockSavvyShay and stocktalkweekly scorecards, TheLongInvest reactions). They have not been checked against filings.</p>
+
+  <h2>Deep-inside signals no account turned into a pick</h2>
+  <p>CEOStockWatcher reports filings, not stances, so the extraction correctly refused to count its feed as calls. Read as data, the feed holds the best medium-risk leads in the corpus. Each needs the one question the corpus cannot answer: why the stock was down.</p>
+  <ul>
+    <li><b><span class="t">BSX</span> Boston Scientific.</b> CEO bought $9M on 6 Aug, his first purchase in 4,263 days after 29 straight sales, with three other insiders following. Stock was down 48% in six months. A reversal of that size at a large-cap medtech is the single strongest insider signal in the window. Verify the cause of the drawdown first.</li>
+    <li><b><span class="t">FLUT</span> Flutter.</b> Ken Dart, a 10% owner, crossed $2B accumulated, including $160M of swaps on 10 Aug, with the stock down 66% in a year.</li>
+    <li><b><span class="t">AMRZ</span> Amrize.</b> Six or more insiders bought the post-earnings, post-spin dip through August and September. CEOStockWatcher frames the weakness as sector-wide construction materials, not company-specific.</li>
+    <li><b><span class="t">ELAN</span> Elanco.</b> Five insiders bought the post-earnings dip; a director's largest-ever purchase on 24 Aug.</li>
+    <li><b><span class="t">APTV</span> Aptiv.</b> A director's $5M and the CEO's $2.5M, both largest-ever, after a 21% monthly drop.</li>
+    <li><b><span class="t">VST</span> Vistra.</b> CEO bought twice in 30 days, the second his largest ever at $903K. TLI reports heavy reader demand for the chart. The AI-power theme with an insider behind it.</li>
+    <li><b><span class="t">KLAR</span> Klarna.</b> CEO bought $10M after the earnings drop, the first insider trade in the company's listed life.</li>
+    <li><b><span class="t">MITK</span> Mitek.</b> stocktalkweekly's fundamental case: 84% gross margin, 17x FCF, ~20% growth with the SaaS segment at +36%, a top-five US bank displacing its incumbent after a pilot. Small cap, but the numbers are value-shaped.</li>
+    <li><b><span class="t">KURA</span> Kura Oncology.</b> The one cross-account corroboration among small caps: LogicalThesis pitched it at 0.80 conviction on a sub-$200M enterprise value for an approved product, and CEOStockWatcher logged the CEO's $1.24M buy plus two other insiders on 25 Aug. Biotech risk keeps it out of core.</li>
+    <li><b><span class="t">CSGP</span> CoStar.</b> Founder-CEO's third dip buy at $2.5M with the stock down 69% in a year. Homes.com spending is the unanswered question.</li>
+    <li><b><span class="t">ELV</span> · <span class="t">TSCO</span> · <span class="t">CEG</span> · <span class="t">HUBS</span></b> each show a CEO or multi-insider dip buy in the window, at lower intensity.</li>
+  </ul>
+
+  <h2>Contested names, and how to read the disagreement</h2>
+  <dl class="acct">
+    <dt>MU</dt><dd>Five accounts. StockSavvyShay is long the cycle (UBS models a near-tripling to $379B by FY28; Samsung committed ~70% of memory capacity through 2031; spot HBM3E ~5x contract). TheLongInvest is short on wave structure and by 4 Sep says the bulls must flip $1,000. SK Hynix missed on 29 July, and BofA's July survey had 82% calling long semis the most crowded trade. Read: a trade with excellent fundamentals and crowded positioning. Not core for this mandate.</dd>
+    <dt>META</dt><dd>StockSavvyShay relays Bernstein (nearly half of incremental digital ad dollars captured in Q2, could pass Search by year-end) and BofA (agentic distribution to billions). TheLongInvest says FCF is falling and price follows it to the 200 WMA near $488. Both can be right in sequence. Wait for the FCF argument to resolve.</dd>
+    <dt>ZETA</dt><dd>TheLongInvest's 2026 top pick (21 consecutive beat-and-raises, FCF +78% YoY). stocktalkweekly calls it a value trap and a retail cult. Small-cap ad-tech with a promotional sponsor; skip for the mandate.</dd>
+    <dt>ORCL</dt><dd>Below its 200 WMA in July, Burry short, and StockSavvyShay notes ~6x 2028 estimated profit. LogicalThesis recalls it was punished 60% on OpenAI fears. Debt-funded capex plus frontier-lab counterparty exposure is exactly the risk stocktalkweekly flagged in Nvidia's vendor financing. Cheap for a reason; deep-value satellite at most.</dd>
+    <dt>NVDA</dt><dd>Baird's $500 target and JPMorgan's "could more than double without supply constraints" sit against stocktalkweekly's red flag that Nvidia is extending credit to frontier labs to buy its own product, and LogicalThesis's observation that QQQ went nowhere after a monster quarter. Hold at existing size. Not an add.</dd>
+    <dt>NBIS</dt><dd>Three accounts long; the highest mention-level convergence in the corpus. Contracted book ~$5.9B across Microsoft and Meta. stocktalkweekly, who holds it, says neoclouds are the hardest part of the buildout to value because GPU depreciation and rental pricing are unknowable. Satellite only.</dd>
+  </dl>
+
+  <h2>Satellites: the accounts' loudest calls</h2>
+  <p>These have real evidence but a risk the mandate cannot carry at core size. Cap the sleeve.</p>
+  <ul>
+    <li><b><span class="t">ASTS</span></b> and <b><span class="t">RKLB</span></b> both got Berenberg Buy initiations on 2 Sep (targets $92 and $83). Two accounts hold ASTS at 0.91 average conviction. Rocket Lab's backlog is up 137% to $2.36B with Iridium adding ~$900M of recurring revenue. Still long-duration in a 4.7% ten-year world.</li>
+    <li><b><span class="t">CRDO</span></b> beat and guided above (Q1 revenue $479M vs $472M, Q2 guide $530M vs $517M) but operating income missed and two customers are over half of revenue. StockSavvyShay's top growth add.</li>
+    <li><b><span class="t">WGS</span> · <span class="t">STLN</span> · <span class="t">XGN</span></b> are LogicalThesis's earnings-gap winners with fundamentals he actually argued (WGS at 4x sales, 70% gross margin, 30% growth; STLN capitated revenue doubling to $300M at 30% margin). He runs margin and stops fast, and he owned a loss on QTRX the same month. Small-cap healthcare sleeve, not core.</li>
+    <li><b><span class="t">HIMS</span></b> raised FY26 revenue guidance to $3.1 to 3.3B and adjusted EBITDA to $275 to 325M; BofA nudged its target to $37 in July. <b><span class="t">OSCR</span></b> grew revenue 70% and members 30% with Q2 FCF of $2.1B versus $0.5B a year earlier. Both are high-beta and TLI-sponsored.</li>
+    <li><b><span class="t">BABA</span></b> (cloud +45 to 53%, capex +75%, 62% below its 2020 high) and <b><span class="t">SE</span></b> (Q2 revenue +48%, gross profit +47%) have hard numbers behind TLI's targets. Geopolitics sets the size.</li>
+    <li><b><span class="t">TSLA</span></b> beat on revenue, missed on EPS and gross margin. Two accounts long on robotaxi and robotics. Story stock.</li>
+    <li><b><span class="t">ADUR</span></b> has TLI's highest conviction and no earnings evidence anywhere in the corpus. Pass. <b><span class="t">NKE</span></b> and <b><span class="t">LULU</span></b> are turnaround bets where even TLI concedes the cost is time; LULU fell 18% on its print on 4 Sep.</li>
+  </ul>
+
+  <h2>How much to trust each account</h2>
+  <dl class="acct">
+    <dt>LogicalThesis</dt><dd>Most rigorous. Argues in EV/sales and EV/gross-profit, publishes losses and reversals. Runs margin, trades illiquid names his following can move.</dd>
+    <dt>stocktalkweekly</dt><dd>Honest about mistakes and macro-aware; the AI-pricing-power essay is the best piece of thinking in the window. Hides sells behind a paid Discord.</dd>
+    <dt>deerpointmacro</dt><dd>Research-desk quality on rates and credit. No equities, but the best read on the regime.</dd>
+    <dt>StockSavvyShay</dt><dd>Only ten days captured. Useful as an analyst-note relay and for earnings scorecards. Growth book in a 40% drawdown; everything is one correlated AI trade.</dd>
+    <dt>CEOStockWatcher</dt><dd>A filing feed with a product to sell. Treat the feed as data, ignore the scoreboards.</dd>
+    <dt>TheLongInvest</dt><dd>Highest conviction, most promotional. No stops, attributes drawdowns to manipulation. His large-cap 200 WMA entries (UNH, CRM, MSFT, AMZN) did coincide with earnings-confirmed recoveries. Use the ideas, discard the framing.</dd>
+  </dl>
+
+  <h2>What this probe cannot tell you yet</h2>
+  <div class="callout warn">
+    The corpus has no price layer, so nothing here is a return, and none of the account performance claims were checked. Every figure is what an account posted. StockSavvyShay covers ten days, not two months. Before acting on the insider names, confirm the cause of each drawdown from filings; the feed reports the buy, never the reason for the dip.
+  </div>
+  <p>Three next steps would make the next probe sharper: run the price enrichment so 200 WMA and post-earnings claims can be scored; promote CEOStockWatcher's filings to a first-class insider layer rather than treating them as posts; and re-run the account extraction for StockSavvyShay once the timeline endpoint paginates past 29 August.</p>
+
+  <div class="foot">Sources are the six account analyses in data/analysis/accounts and the raw session posts they were built from. Dates are trading days. Nothing here is investment advice.</div>
+</div>

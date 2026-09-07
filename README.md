@@ -20,12 +20,47 @@ pnpm task:extract            # one claude-opus-5 call per session
 pnpm task:enrich             # end-of-day closes -> YTD/MTD/YoY
 pnpm task:render             # daily/*.md, tickers/*.md, INDEX.md
 
+# historical backfill — user timeline, NOT recent search, so it reaches past 7 days
+pnpm task:backfill --start 2026-07-07T00:00:00Z --max-posts 16000
+                             # metered, one-off; --max-posts is a real spend cap
+
+# analysis without an API key: one subagent per account, inside a Claude Code session
+pnpm task:session-dump       # corpus -> data/_session/<handle>.posts.jsonl (+ SPEC.md)
+                             # ...run one subagent per bundle, writing data/_session/out/<handle>.json
+pnpm task:session-ingest     # validates citations, then -> picks/pick_tags + data/analysis/accounts/
+
 # any time
 pnpm rebuild --from 2026-09-08   # re-derives posts/mentions/markdown only
 pnpm repl                        # DuckDB with every view pre-created
 pnpm q account-lead-lag          # saved analyses
 pnpm q first-mention --symbol NVDA
+pnpm q account-convergence       # names more than one account took a position on
+pnpm q account-repertoire        # what each account actually does
+
+# mandate-driven read across the account analyses, published as an artifact
+# (Claude Code skill: .claude/skills/corpus-probe) -> data/analysis/probes/<window_end>-probe.html
+/corpus-probe "high return, medium-to-low risk, 1 to 3 years"
 ```
+
+### Two capture paths, and why
+
+`task:capture` is the daily incremental one: `search/recent`, one cursor, ~7-day reach.
+`task:backfill` walks each account's **user timeline**, which has no 7-day wall, and is the
+only affordable way to acquire history recent search has already dropped. Both write the
+same `data/raw/` layout, so nothing downstream can tell them apart. Backfill is not
+incremental — re-running it re-reads and re-pays — which is why it takes an explicit
+`--max-posts` cap and writes its manifest even when the run dies mid-sweep.
+
+### Two extraction lanes, one contract
+
+`task:extract` sends one trading session to the Anthropic API. The session lane slices by
+**author** instead and runs inside an interactive Claude Code session, so it needs no API
+key and no per-call billing — the trade is that it answers "how does this commentator
+operate" rather than "what happened today". Both land in the same `picks` layer, tagged by
+`prompt_version` (`v1` vs `v1-acct`) so they never overwrite each other. The lane swaps the
+model call, **not** the validation: `task:session-ingest` re-checks every citation against
+the corpus and additionally requires each quote to appear verbatim in the exact post it
+cites.
 
 Two facts govern the design: X API reads cost ~$0.005 each, and recent search only
 reaches back 7 days. So captured data is expensive and unrepurchasable, while everything

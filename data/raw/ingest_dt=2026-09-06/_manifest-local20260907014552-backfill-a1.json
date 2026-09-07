@@ -1,0 +1,344 @@
+{
+  "run_id": "local20260907014552",
+  "attempt": 1,
+  "ingest_dt": "2026-09-06",
+  "mode": "backfill",
+  "started_at": "2026-09-07T01:45:52Z",
+  "finished_at": "2026-09-07T01:46:08Z",
+  "start_time": "2026-07-07T00:00:00Z",
+  "end_time": "2026-09-07T01:45:52Z",
+  "accounts": [
+    {
+      "handle": "deerpointmacro",
+      "user_id": "1158811321963614209",
+      "posts": 147,
+      "pages": 3,
+      "oldest": "2026-07-07T19:15:03.000Z",
+      "newest": "2026-09-06T18:30:26.000Z",
+      "truncated": false
+    },
+    {
+      "handle": "stocktalkweekly",
+      "user_id": "1289823541098143744",
+      "posts": 497,
+      "pages": 5,
+      "oldest": "2026-07-07T00:51:28.000Z",
+      "newest": "2026-09-06T20:32:27.000Z",
+      "truncated": false
+    },
+    {
+      "handle": "LogicalThesis",
+      "user_id": "3236384046",
+      "posts": 1130,
+      "pages": 12,
+      "oldest": "2026-07-07T19:24:19.000Z",
+      "newest": "2026-09-06T22:31:18.000Z",
+      "truncated": false
+    },
+    {
+      "handle": "StockSavvyShay",
+      "user_id": "1096436452576047104",
+      "posts": 253,
+      "pages": 4,
+      "oldest": "2026-08-29T15:57:10.000Z",
+      "newest": "2026-09-07T01:27:27.000Z",
+      "truncated": false
+    },
+    {
+      "handle": "CEOStockWatcher",
+      "user_id": "1617590989811482649",
+      "posts": 672,
+      "pages": 7,
+      "oldest": "2026-07-07T12:24:20.000Z",
+      "newest": "2026-09-06T19:59:07.000Z",
+      "truncated": false
+    },
+    {
+      "handle": "TheLongInvest",
+      "user_id": "1378993399844442112",
+      "posts": 2293,
+      "pages": 24,
+      "oldest": "2026-07-07T15:12:25.000Z",
+      "newest": "2026-09-06T22:27:55.000Z",
+      "truncated": false
+    }
+  ],
+  "pages": 55,
+  "posts_read": 4992,
+  "estimated_cost_usd": 24.96,
+  "files": [
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p001.jsonl.gz",
+      "bytes": 16968,
+      "posts": 65
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p002.jsonl.gz",
+      "bytes": 15444,
+      "posts": 62
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p003.jsonl.gz",
+      "bytes": 5402,
+      "posts": 20
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p004.jsonl.gz",
+      "bytes": 18678,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p005.jsonl.gz",
+      "bytes": 15403,
+      "posts": 99
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p006.jsonl.gz",
+      "bytes": 18726,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p007.jsonl.gz",
+      "bytes": 21960,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p008.jsonl.gz",
+      "bytes": 15624,
+      "posts": 98
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p009.jsonl.gz",
+      "bytes": 14936,
+      "posts": 99
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p010.jsonl.gz",
+      "bytes": 14525,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p011.jsonl.gz",
+      "bytes": 12590,
+      "posts": 98
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p012.jsonl.gz",
+      "bytes": 13097,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p013.jsonl.gz",
+      "bytes": 12045,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p014.jsonl.gz",
+      "bytes": 14285,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p015.jsonl.gz",
+      "bytes": 12612,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p016.jsonl.gz",
+      "bytes": 12983,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p017.jsonl.gz",
+      "bytes": 14564,
+      "posts": 97
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p018.jsonl.gz",
+      "bytes": 13134,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p019.jsonl.gz",
+      "bytes": 14871,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p020.jsonl.gz",
+      "bytes": 5967,
+      "posts": 36
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p021.jsonl.gz",
+      "bytes": 19090,
+      "posts": 82
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p022.jsonl.gz",
+      "bytes": 21617,
+      "posts": 87
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p023.jsonl.gz",
+      "bytes": 20565,
+      "posts": 84
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p025.jsonl.gz",
+      "bytes": 16092,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p026.jsonl.gz",
+      "bytes": 15419,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p027.jsonl.gz",
+      "bytes": 15644,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p028.jsonl.gz",
+      "bytes": 15817,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p029.jsonl.gz",
+      "bytes": 15764,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p030.jsonl.gz",
+      "bytes": 15689,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p031.jsonl.gz",
+      "bytes": 12088,
+      "posts": 72
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p032.jsonl.gz",
+      "bytes": 14553,
+      "posts": 95
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p033.jsonl.gz",
+      "bytes": 14835,
+      "posts": 97
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p034.jsonl.gz",
+      "bytes": 15950,
+      "posts": 94
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p035.jsonl.gz",
+      "bytes": 15658,
+      "posts": 95
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p036.jsonl.gz",
+      "bytes": 15658,
+      "posts": 94
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p037.jsonl.gz",
+      "bytes": 13104,
+      "posts": 96
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p038.jsonl.gz",
+      "bytes": 13658,
+      "posts": 97
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p039.jsonl.gz",
+      "bytes": 16457,
+      "posts": 96
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p040.jsonl.gz",
+      "bytes": 15644,
+      "posts": 93
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p041.jsonl.gz",
+      "bytes": 15171,
+      "posts": 95
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p042.jsonl.gz",
+      "bytes": 16268,
+      "posts": 96
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p043.jsonl.gz",
+      "bytes": 15059,
+      "posts": 96
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p044.jsonl.gz",
+      "bytes": 14348,
+      "posts": 98
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p045.jsonl.gz",
+      "bytes": 14813,
+      "posts": 92
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p046.jsonl.gz",
+      "bytes": 15135,
+      "posts": 97
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p047.jsonl.gz",
+      "bytes": 15611,
+      "posts": 98
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p048.jsonl.gz",
+      "bytes": 16263,
+      "posts": 96
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p049.jsonl.gz",
+      "bytes": 16337,
+      "posts": 97
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p050.jsonl.gz",
+      "bytes": 14060,
+      "posts": 95
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p051.jsonl.gz",
+      "bytes": 15857,
+      "posts": 96
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p052.jsonl.gz",
+      "bytes": 15037,
+      "posts": 95
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p053.jsonl.gz",
+      "bytes": 15386,
+      "posts": 95
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p054.jsonl.gz",
+      "bytes": 14536,
+      "posts": 95
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-06/posts-local20260907014552-a1-p055.jsonl.gz",
+      "bytes": 14080,
+      "posts": 95
+    }
+  ],
+  "status": "aborted_error",
+  "error": "XApiError: X API 402 on /users/1951170851052945408/tweets (credits depleted)",
+  "_note": "Manifest RECONSTRUCTED from the raw files on disk after the run crashed on a 402 before writing one. Page counts come from the run log; every other field is derived from the captured bytes. src/capture/backfill.ts now writes a manifest before rethrowing, so this recovery is not repeatable."
+}

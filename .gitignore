@@ -4,3 +4,7 @@ dist/
 .env
 .env.local
 .DS_Store
+
+# Subagent working directory: regenerable from the corpus by `pnpm task:session-dump`.
+# The durable outputs are data/analysis/accounts/ and the picks layer.
+data/_session/

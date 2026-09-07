@@ -179,8 +179,9 @@ materialised, deterministic sort.
 provider overload. Provenance (`model`, `prompt_version`, `prompt_sha256`, `schema_hash`,
 `llm_response_sha256`) travels with every pick.
 
-**enrich** — Stooq (free, no key, no signup; full daily history in one CSV request) behind
-a one-function provider interface. Finnhub is the named alternative.
+**enrich** — behind a one-function provider interface. Stooq (free, no key, no signup; full
+daily history in one CSV request) was the day-one provider and is **currently blocked** — see
+§7.1. Finnhub is the named alternative.
 
 **render** — daily briefings, rolling per-ticker pages, index. Idempotent.
 
@@ -293,6 +294,50 @@ Three things the implementation contradicted:
 Two dependency traps caught before installing: `typescript-eslint` does not support
 TypeScript 7, and vitest 5 requires Node ≥22. Pinned TypeScript 5.9.3 and vitest 4.1.11.
 
+### 7.1 Stooq stopped serving CSV to scripts (observed 2026-09-06)
+
+`https://stooq.com/q/d/l/` now answers with **HTTP 200 and a JavaScript proof-of-work
+challenge page** rather than CSV, for every symbol. A first enrich run over 698 corpus
+symbols wrote zero rows.
+
+The provider interface did its job: `fetchDaily` checks that the body starts with `Date,`
+and returns `null` otherwise, so 698 unusable responses produced 698 skips, no exception,
+and no garbage in the price layer. The `Bar[] | null` contract — "null means no series, not
+an error" — is what kept a vendor outage from becoming a data-corruption event.
+
+Not done, deliberately: the challenge is a hashcash the client could solve in a few lines.
+Defeating a site's bot control to keep taking its free data is not a dependency, it is a
+liability. The price layer stays empty until a provider we are actually entitled to query
+is wired in.
+
+**Consequence:** `ytd`/`mtd`/`yoy` render as em dashes, which is the designed behaviour for
+absent data (§5) and not a silent zero. Nothing else in the corpus depends on prices, so
+capture, normalize, extract and render are unaffected.
+
+### 7.2 X's cashtag entities are not all cashtags (found in the first backfill)
+
+`entities.cashtags` from the X API is looser than the name implies. In a post reading
+"CFO sold $1.77M of stock" it returns `1.77M` as a cashtag entity — and an insider-filing
+feed is nothing but such sentences.
+
+The resolver's own `CASHTAG_RE` already required a letter-initial token of at most six
+characters, so the text-scanning path had always rejected these. The entity path skipped
+the check entirely, so **the two paths disagreed about what a ticker is**, and the looser
+one won whenever X supplied an entity. Each money amount became a distinct "symbol" with
+its own ticker page and its own mention history.
+
+Real cost in the 4,992-post backfill: 11 fabricated symbols out of 698 — 0.3% of mentions.
+Small, but exactly the class of error §5 says corrupts recurrence and lead/lag, and it
+scales with how much of the corpus is filing-style commentary.
+
+Fixed by extracting the shape rule into `isTickerShaped()` and applying it to both paths.
+The span is still masked when rejected, so a discarded `$25MM` cannot reappear as a bare
+`MM` match. Private names (ANTHROPIC, OPENAI, SPACEX) resolve through the security-name
+path and are unaffected by the six-character cap.
+
+**Only `mentions` had to be rebuilt** — no re-reading, no re-payment. This is the
+append-only/derived split doing the job it was designed for.
+
 ---
 
 ## 8. Deployment
@@ -374,10 +419,14 @@ restrict redistribution of post content. Nothing here is investment advice.
    nothing currently enforces this. A periodic re-check that drops content for posts which
    no longer resolve is the fix; it conflicts with strict append-only, and the resolution is
    probably a tombstone list plus a filter in the views rather than mutating raw.
-4. Grow `ref/bare_allowlist.csv` from the `unresolved` column as real data accumulates.
-5. **Second copy.** For a dataset costing ~$450/yr to acquire and unrecoverable past 7
+4. **Replace the price provider.** Stooq is blocked (§7.1); the layer is empty. Finnhub's
+   free tier needs a key and a signup, which is the cost of a source that wants to be
+   queried. `toStooqSymbol` is the only Stooq-shaped thing outside the provider, so the
+   swap is one file.
+5. Grow `ref/bare_allowlist.csv` from the `unresolved` column as real data accumulates.
+6. **Second copy.** For a dataset costing ~$450/yr to acquire and unrecoverable past 7
    days, one copy is not a backup. Nightly `rclone` to R2 (10 GB free tier) is the
    escape hatch and a future UI backend at the same time.
-6. Weekly integrity job: gunzip every raw file, verify counts against manifests, assert
+7. Weekly integrity job: gunzip every raw file, verify counts against manifests, assert
    every `posts.raw_sha256` resolves.
-7. Sparse-checkout in CI before the working tree grows enough to matter.
+8. Sparse-checkout in CI before the working tree grows enough to matter.

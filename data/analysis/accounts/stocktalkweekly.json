@@ -1,0 +1,412 @@
+{
+  "window_start": "2026-07-07",
+  "window_end": "2026-09-06",
+  "model": "claude-opus-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "f6376d04ad14fb3e",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-07T02:00:51.898Z",
+  "account": "stocktalkweekly",
+  "profile": {
+    "beat": "A high-beta SMID-cap position trader who runs a thematic basket portfolio (AI infrastructure/neocloud, edge-inference hardware, enterprise software/cybersecurity, solar) and pairs it with a heavy market-wire feed of macro headlines - Fed/Warsh, treasury yields, oil and the Iran war, tariffs, and the Korean market. Roughly half the timeline is verbatim headline reposting and earnings prints; the stance-bearing content sits in his replies and occasional long-form essays.",
+    "style": "Theme first, then a subset with pricing power, then names validated on his self-described three pillars: fundamental valuation, technical health, thematic relevance. He talks constantly about position sizing, cost basis and 'incrementally moving the exposure meter' rather than binary calls, and he is explicit that he sells into weakness to protect the equity curve. Conviction language is direct and combative in replies ('I still believe is a value-trap', 'my horse has been $NBIS since last May'), and he freely admits mistakes in sizing, leverage and options. He argues valuation matters even inside momentum themes, but rejects the label of value investor.",
+    "cadence": "Very high volume and reply-dominated - 357 of 495 posts are replies. Recurring formats: all-caps newswire headlines with an asterisk prefix, earnings beat/miss scorecards, a weekly 'Portfolio update posted at...' post pointing to a paid Discord, long weekend essays on market structure or AI capex, and chart/level commentary on the indexes.",
+    "revisits": "Yes, persistently. He tracks the same names across weeks - NBIS from 2077193789907534038 to 2079599935893147953 to 2088310222817243397 to 2089497613762498989, the software basket from 2077178812945584456 to 2077821873975423246 to 2086896512160895347, AMKR through 2080404461961261127 and 2081835606171115732 - and he publicly revises his own framework, notably reversing his long-standing dismissal of AI bear arguments in 2077912967803256905 and following up his own thesis with a rebuttal thread in 2077986379292700750.",
+    "caveats": "Heavy conflict of interest: he runs a paid Discord and states outright that he does not share his portfolio, entries, exits or sizing on X (2077194343215984654) - the public feed is a marketing surface for a subscription. Performance claims are self-reported brokerage screenshots that cannot be verified from the text. Names frequently surface publicly only after they have already worked, framed as victory laps citing a much earlier private entry (TENB in 2075237173675077936, OSS in 2077255869079679102, NBIS in 2087568715067887736), which biases any measured public record upward at entry and downward at exit. He also repeatedly announces that he cut or exited positions without naming them (2080339947723059428, 2080393281662308427, 2087573933138563529), so the public timeline systematically misses his sells. Many posts are pure headline reposts with no stance at all, and several stance-bearing replies omit the ticker, so they are only interpretable from the thread context."
+  },
+  "narrative": "The window opens with him already in a painful drawdown from a historic momentum unwind: he describes the Goldman and Morgan Stanley momentum indexes posting their worst readings on record (2077528883184726028), and frames his own book as AI/hardware names unwinding while a newer enterprise-software basket acts as shelter (2077821873975423246). His central intellectual turn comes on July 16-20, when China's Moonshot 'Kimi K3' and Alibaba's 'Qwen 3.8 Max' land: after three years of, in his words, whistling past the bearish arguments, he starts questioning the pricing power of U.S. frontier labs and the durability of the capex that the whole AI trade discounts (2077878579166134622, 2077912967803256905). He explicitly refuses the AI-bear label and instead lands on a 'decentralization of compute' framework - compute demand is fine, but the capex burden fragments away from the hyperscalers, which he reads as structurally bullish for cloud compute broadly (2079146204714188912). Through late July he acts on the drawdown rather than debating it, cutting peripheral, weak-cost-basis positions while holding core names, and blaming his own leverage and single-stock risk rules rather than the market (2080339947723059428, 2080762894556217708). From the end of July the driver of his commentary switches from AI narrative to macro: he decides yields and oil, not the capex debate, are what is actually pressuring stocks (2080469549783056650), and repeats that treasury yields must fall before risk appetite returns (2083202728474337499). August is spent almost entirely on the bond vigilantes, Warsh and the Iran war, which he argues is the single accessible kill-switch for rates (2093414141801202008). His book-level positioning by late August is still very net long but with cash raised and ready to redeploy if yields cooperate (2092742658368151867). Individual-name conviction ends the window higher rather than lower: NBIS squeezes and he takes a victory lap on it, he publishes a detailed fundamental case for MITK, and after OKTA/CRWD/CRM prints he calls software and cybersecurity back into leadership.",
+  "picks": [
+    {
+      "symbol": "NBIS",
+      "direction": "long",
+      "prospect": "Continued upside in the one neocloud he is willing to own, on the strength of its team, execution and contracted backlog as compute demand keeps broadening.",
+      "risk_reward": "He addressed the risk directly and unusually well: neoclouds are the hardest part of the AI buildout to value because GPU depreciation and long-term rental pricing are still unknowable, and anything capex-reliant worries him. He offsets that by holding it as a deliberately small, speculative sleeve and by a deep cost-basis advantage that lets him sit through drawdowns.",
+      "thesis": "Of all the neoclouds he screens, only one clears his bar on team, talent, execution and quality of contracted backlog, so he concentrates his entire neocloud exposure in it rather than spreading across the group. He treats it as an investment position rather than a trade and has held it since well before the window.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "speculative",
+        "innovation"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-07-15",
+      "sources": [
+        {
+          "post_id": "2077193789907534038",
+          "quote": "I am not *buying more* NBIS here, but I have owned it since last May, and still holding."
+        },
+        {
+          "post_id": "2079599935893147953",
+          "quote": "My horse has been $NBIS since last May, still is."
+        },
+        {
+          "post_id": "2088310222817243397",
+          "quote": "Have stood by this name as the best neocloud since Day 1, and they continue to impress."
+        },
+        {
+          "post_id": "2089497613762498989",
+          "quote": "It's part of the reason why I don't have several neocloud names and only have one that I think has the best team, talent, execution & quality of contracted backlog."
+        }
+      ]
+    },
+    {
+      "symbol": "TENB",
+      "direction": "long",
+      "prospect": "A fast-working cybersecurity long inside his enterprise-software basket, expected to keep outperforming while AI hardware names unwind.",
+      "risk_reward": "He never addressed downside risk for this name. The only framing offered is that the software basket has been 'shelter from the storm' relative to his AI holdings.",
+      "thesis": "Part of a deliberate rotation into enterprise software after the momentum sell-off in AI hardware; he treats cybersecurity as a place where the fundamentals are still being discovered by the market, and later argues the whole cybersecurity group is being pushed back into market leadership.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-07-09",
+      "sources": [
+        {
+          "post_id": "2075237173675077936",
+          "quote": "This stock was Tenable $TENB"
+        },
+        {
+          "post_id": "2077178812945584456",
+          "quote": "Add my software portfolio holdings to the list! $TENB $MITK $AMPL $FIVN $DT $CRNC"
+        },
+        {
+          "post_id": "2077821873975423246",
+          "quote": "My software basket $MITK $TENB $AMPL $FIVN $DT has been shelter from the storm over the past month"
+        }
+      ]
+    },
+    {
+      "symbol": "MITK",
+      "direction": "long",
+      "prospect": "Re-rating as the legacy check-verification business converts into an AI fraud and identity business, with large bank wins validating the transition.",
+      "risk_reward": "He never stated a downside case. The implied support is the profitability and cash-flow profile he cites, which he presents as leaving little valuation risk relative to the growth in the SaaS segment.",
+      "thesis": "Decades-old relationships with the largest financial institutions act as ready-made distribution rails for new fraud and identity products, so the new product set can be sold into an installed base rather than won from scratch - evidenced by a Top 5 U.S. bank displacing its legacy vendor after a pilot. His longest-held name in the software basket.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "value",
+        "innovation"
+      ],
+      "conviction": 0.75,
+      "first_seen": "2026-07-15",
+      "sources": [
+        {
+          "post_id": "2077255869079679102",
+          "quote": "I held $MITK since beginning of year, up a lot on those contracts"
+        },
+        {
+          "post_id": "2077821873975423246",
+          "quote": "My software basket $MITK $TENB $AMPL $FIVN $DT has been shelter from the storm over the past month"
+        },
+        {
+          "post_id": "2086896512160895347",
+          "quote": "Mitek $MITK transition of their legacy verification check business to their AI fraud business is unique, because of their decades-long relationships with the biggest names in finance, which are serving as direct distribution rails for their fraud & identity products."
+        }
+      ]
+    },
+    {
+      "symbol": "FIVN",
+      "direction": "long",
+      "prospect": "Continued relative strength and technical breakout behaviour while the broader market chops, on a thesis of a platform embedded in enterprise AI deployments.",
+      "risk_reward": "He never addressed downside risk for this name; the case is made on relative strength and on the position already carrying a cushion.",
+      "thesis": "Held since before the drawdown as part of the enterprise-software basket that he rotated into as AI hardware unwound; he points to the chart holding up through market-wide volatility as validation of the fundamental setup.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-07-15",
+      "sources": [
+        {
+          "post_id": "2077255869079679102",
+          "quote": "$FIVN since May and cons are a double already"
+        },
+        {
+          "post_id": "2077821873975423246",
+          "quote": "My software basket $MITK $TENB $AMPL $FIVN $DT has been shelter from the storm over the past month"
+        },
+        {
+          "post_id": "2078172421845111285",
+          "quote": "Five9 $FIVN has been acting like a beast through all this market volatility."
+        }
+      ]
+    },
+    {
+      "symbol": "AMPL",
+      "direction": "long",
+      "prospect": "A held software-basket position expected to keep working as the market rotates from semiconductors into software.",
+      "risk_reward": "He never addressed risk for this name.",
+      "thesis": "One of the newer additions to the enterprise-software basket he built as a defensive rotation out of AI hardware; he reports it building a cushion quickly and groups it with the names that cushioned his drawdown.",
+      "time_frame": "position",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.45,
+      "first_seen": "2026-07-15",
+      "sources": [
+        {
+          "post_id": "2077178812945584456",
+          "quote": "Add my software portfolio holdings to the list! $TENB $MITK $AMPL $FIVN $DT $CRNC"
+        },
+        {
+          "post_id": "2077821873975423246",
+          "quote": "My software basket $MITK $TENB $AMPL $FIVN $DT has been shelter from the storm over the past month"
+        }
+      ]
+    },
+    {
+      "symbol": "DT",
+      "direction": "long",
+      "prospect": "A held observability position within the software basket, with an expected demand acceleration as enterprises build out AI workloads.",
+      "risk_reward": "He never addressed risk for this name. Note the most detailed bull case he published for it is a quoted sell-side upgrade, not his own analysis.",
+      "thesis": "Part of the enterprise-software rotation; the supporting argument he chose to amplify is that observability demand is at its healthiest in years and that this vendor is next in line for a durable growth acceleration as a platform consolidator.",
+      "time_frame": "position",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-07-15",
+      "sources": [
+        {
+          "post_id": "2077178812945584456",
+          "quote": "Add my software portfolio holdings to the list! $TENB $MITK $AMPL $FIVN $DT $CRNC"
+        },
+        {
+          "post_id": "2077821873975423246",
+          "quote": "My software basket $MITK $TENB $AMPL $FIVN $DT has been shelter from the storm over the past month"
+        }
+      ]
+    },
+    {
+      "symbol": "SHLS",
+      "direction": "long",
+      "prospect": "Upside as U.S. solar and storage deployment keeps compounding regardless of the hostile political rhetoric, with backlog conversion and new end-markets driving results.",
+      "risk_reward": "He never put a downside case on this name. The risk he does name for the theme is political and sentiment-driven rather than demand-driven, which is precisely the gap he thinks is mispriced.",
+      "thesis": "A long-held holding in his solar basket, built on his central observation that political sentiment toward solar and the actual pace of investment and deployment have diverged sharply, and that deployment is what ultimately shows up in the numbers.",
+      "time_frame": "position",
+      "tags": [
+        "value"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-07-15",
+      "sources": [
+        {
+          "post_id": "2077177968233759057",
+          "quote": "Been long SHLS for a while, also have FSLR, yes, and TE also."
+        }
+      ]
+    },
+    {
+      "symbol": "FSLR",
+      "direction": "long",
+      "prospect": "Benefit from domestic solar demand and from policy that favours U.S.-sourced panels, as solar and storage take a growing share of new capacity additions.",
+      "risk_reward": "He never addressed a downside case for this name specifically; the thematic risk he acknowledges is political hostility to solar, which he argues is disconnected from actual deployment.",
+      "thesis": "Held in the same solar basket. His framing is a sentiment-versus-reality disconnect: solar and storage are already dominating new capacity additions and are forecast to keep doing so, so the political noise is not the operative variable.",
+      "time_frame": "position",
+      "tags": [
+        "value"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-07-15",
+      "sources": [
+        {
+          "post_id": "2077177968233759057",
+          "quote": "Been long SHLS for a while, also have FSLR, yes, and TE also."
+        }
+      ]
+    },
+    {
+      "symbol": "AMKR",
+      "direction": "long",
+      "prospect": "Re-rating on a multi-year advanced-packaging partnership with its largest AI customer, backed by a prepayment he considers transformative relative to the company's size.",
+      "risk_reward": "He never laid out a downside case in his own words. His own earnings scorecard for the quarter showed a revenue guide below consensus alongside beats elsewhere, which he posted without softening.",
+      "thesis": "A long-held name he says he has been loud about since well before the window. The bull case is that the prepayment and roadmap alignment with the dominant AI chip vendor are enormous relative to the company's market capitalisation and revenue base, effectively locking in the U.S. advanced-packaging capacity build.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "catalyst-driven"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-07-24",
+      "sources": [
+        {
+          "post_id": "2080404461961261127",
+          "quote": "Yes we are the AMKR OGs"
+        },
+        {
+          "post_id": "2080405028112662967",
+          "quote": "It’s 10% of their market cap and over 20% of their revenue in a single payment…"
+        },
+        {
+          "post_id": "2080401252194582634",
+          "quote": "There's a reason I've held this one thru all the volatility time and time again..."
+        }
+      ]
+    },
+    {
+      "symbol": "OSS",
+      "direction": "long",
+      "prospect": "Continued wins in rugged edge computing as inference moves to the edge, with customer validation contracts as the proof points.",
+      "risk_reward": "He never addressed downside risk for this name.",
+      "thesis": "His original and first pick in a multi-month edge and chip-inference theme; he argues the company is winning a defensible niche in rugged edge hardware, evidenced by validation contracts with autonomous mining and construction customers. He does flag that the broader edge/inference category has become crowded.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation",
+        "speculative"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-07-15",
+      "sources": [
+        {
+          "post_id": "2077255869079679102",
+          "quote": "i’ve been in the edge/chip inference trade for 10+ months now $OSS was my first pick"
+        },
+        {
+          "post_id": "2079600946657571063",
+          "quote": "great validation contract this morning with their autonomous mining/construction customer. They are winning their rugged edge niche."
+        }
+      ]
+    },
+    {
+      "symbol": "ZETA",
+      "direction": "short",
+      "prospect": "He expects the stock to keep disappointing holders who are anchored to an optically cheap multiple; he sees no fundamental re-rating coming.",
+      "risk_reward": "He never addressed the risk of being wrong here, and he did not say he is short - this is a stated negative opinion, not a disclosed position. The obvious unaddressed risk is that a retail-favoured name can squeeze hard.",
+      "thesis": "He classifies it as a value trap - cheap on the screen but without the fundamentals to support a re-rating - whose shareholder base is a retail cult rather than fundamental buyers.",
+      "time_frame": "position",
+      "tags": [
+        "value"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-07-17",
+      "sources": [
+        {
+          "post_id": "2078174783288565779",
+          "quote": "ZETA I still believe is a value-trap and retail cult stock"
+        }
+      ]
+    },
+    {
+      "symbol": "EOSE",
+      "direction": "neutral",
+      "prospect": "He acknowledges a genuinely improving story but is not willing to own it until the financials and valuation clean up.",
+      "risk_reward": "He named the risk himself - the financials and the valuation - and set it against an improving operating story. He gave no upside target.",
+      "thesis": "Story improvement is real and recent, but he requires fundamental justification alongside theme and chart before taking a position, and this name fails the fundamental leg.",
+      "time_frame": "position",
+      "tags": [
+        "speculative"
+      ],
+      "conviction": 0.25,
+      "first_seen": "2026-07-17",
+      "sources": [
+        {
+          "post_id": "2078174783288565779",
+          "quote": "EOSE story has improved materially recently, but financials and valuation are still messy..."
+        }
+      ]
+    },
+    {
+      "symbol": "SPY",
+      "direction": "neutral",
+      "prospect": "Chop continues until treasury yields come down; he wants the index to reclaim its moving averages and prior highs before trusting the tape, and stays net long with raised cash in the meantime.",
+      "risk_reward": "Risk is explicitly macro - yields at multi-year highs, oil, and the Iran war suppressing risk appetite. The upside case is conditional: yields fall, speculation revives. He hedges by holding cash rather than by shorting.",
+      "thesis": "He argues the AI capex debate stopped being the marginal driver after the momentum sell-off already happened, and that rates are now what is holding the market down. Until the bond market relents, he treats index strength as unproven and manages exposure rather than making a directional index bet.",
+      "time_frame": "swing",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-07-30",
+      "sources": [
+        {
+          "post_id": "2082897226733371427",
+          "quote": "$SPY pushing into the overhead 9ema at the highs. Bulls would like to see a close over."
+        },
+        {
+          "post_id": "2083202728474337499",
+          "quote": "Pretty straightforward: treasury yields must come down in order to revive risk appetite."
+        },
+        {
+          "post_id": "2092742658368151867",
+          "quote": "I’m still very net long, but I’ve raised enough cash to remain flexible and ready for anything. I will feel more comfortable re-deploying some of that cash if yields come down."
+        }
+      ]
+    },
+    {
+      "symbol": "IGV",
+      "direction": "long",
+      "prospect": "Software, and cybersecurity within it, retakes market leadership from semiconductors after a run of strong earnings reactions.",
+      "risk_reward": "He never addressed downside risk for this call. It is a leadership-rotation call made immediately after the prints, so it depends on those reactions holding.",
+      "thesis": "Earnings reactions in cybersecurity plus a strong print from the largest applications vendor are enough, in his read, to flip the market's 'hot potato' between semiconductors and software decisively toward software. This is consistent with his own basket positioning through the window.",
+      "time_frame": "swing",
+      "tags": [
+        "tech",
+        "momentum",
+        "catalyst-driven"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-08-27",
+      "sources": [
+        {
+          "post_id": "2092714780284854553",
+          "quote": "Strong report from $CRM likely widens that impact to $IGV more broadly."
+        }
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "direction": "long",
+      "prospect": "Continued compounding from a cloud business growing fast off an already large base while the retail business remains the bulk of revenue.",
+      "risk_reward": "He never addressed risk for this name.",
+      "thesis": "He frames the business quality as best-in-class: a very large, fast-growing, highly profitable cloud segment that still represents only a minority of total revenue, sitting on top of an enormous retail business. He also indicates it is one of his actual holdings.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-07-19",
+      "sources": [
+        {
+          "post_id": "2078580713863967184",
+          "quote": "there’s not a single name correct on here except for AMZN"
+        },
+        {
+          "post_id": "2082949064346222602",
+          "quote": "Amazon might be the greatest business ever..."
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "neutral",
+      "prospect": "He defends the quarter as excellent and rejects the argument that it was mediocre, but explicitly does not own it and does not forecast the stock.",
+      "risk_reward": "He named the risk himself and unusually precisely: vendor financing extended to frontier labs so they can buy the product creates real counterparty risk if those labs are stretched on both valuation and ability to spend. Against that, he sees the company selling everything it can produce with accelerating growth.",
+      "thesis": "Fundamentally the print was strong and demand is not the issue; the issue is the quality of the buyer. This sits inside his broader window-long argument that frontier-lab pricing power and spending capacity are the weak link in the whole AI capex chain.",
+      "time_frame": "position",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.35,
+      "first_seen": "2026-08-27",
+      "sources": [
+        {
+          "post_id": "2092743596390633766",
+          "quote": "they’re selling out of everything they can produce nonetheless and accelerating growth also"
+        },
+        {
+          "post_id": "2092746158644854800",
+          "quote": "I’m not commenting on what the stock will do, I don’t own it and I have limited semiconductor exposure as is."
+        },
+        {
+          "post_id": "2092776385261560305",
+          "quote": "It was a fantastic print overall. Only red flag is the admission of providing credit to frontier labs to buy their own products."
+        }
+      ]
+    }
+  ]
+}

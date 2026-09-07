@@ -1,0 +1,464 @@
+{
+  "window_start": "2026-07-07",
+  "window_end": "2026-09-06",
+  "model": "claude-opus-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "f6376d04ad14fb3e",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-07T02:00:51.893Z",
+  "account": "deerpointmacro",
+  "profile": {
+    "beat": "US and global fixed income from a rates-and-credit desk perspective: Treasury and swap curves, SOFR options and the option-implied distribution of Fed policy, investment grade, high yield, leveraged loan and EM credit spreads, plus FX volatility and the dollar. Almost no single-stock content - when equities appear it is as a macro signal such as cyclicals versus defensives, or as the credit consequence of AI capex.",
+    "style": "Writes like sell-side research rather than a trader talking his book: first-person plural 'we favor', 'we remain OW', 'our forecasts below', with views expressed as specific instruments - curve steepeners and flatteners, asset-swap flies, skew, SOFR futures spreads - rather than as buy or sell. He leans on option-implied distributions, OAS decompositions and economic surprise data, and he frequently names the single condition that would invalidate a trade ('Main risk: ...'). Conviction language is measured and hedged - 'appears', 'looks attractive', 'probably limited' - and he almost never talks about position size, entries or stops. He is willing to argue methodology in replies, including pushing back on his own measure's centering.",
+    "cadence": "Near-daily, with one substantive original post most evenings around the 18:00-18:30 ET slot, plus clusters of technical replies in other people's threads. Recurring formats: CPI and PCE forecasts published ahead of the print then scored against the release, weekly credit spread and CDX recaps, repeated payer-skew and SOFR-surface updates, a Substack he links to, and occasional non-market posts - country music, pickup trucks, a follow-Friday list, and a German rhyme in a reply.",
+    "revisits": "Yes, persistently. The hyperscaler and AI credit supply theme is updated at least half a dozen times (2076702300572156224, 2082182310774874513, 2087623312272953629, 2089710278262833235, 2092303504798790076, 2095218234563993707). He publishes a CPI forecast (2086807282168340797) and then marks it against the actual decomposition (2087539294617403838). Curve steepeners are carried and re-argued from 2077084717669867578 through 2087973716806271140 and 2090231098328396085, and the payer-skew view runs from 2075648862694568303 to 2081518715510665453. He also concedes when a counterpart was right (2079888698485727546).",
+    "caveats": "He never gives entry levels, sizing or exits, and most views are expressed in instruments - skew, asset-swap flies, SOFR calendar spreads, OAS baskets - that do not map onto any closing price, so this record cannot be scored the way an equity call can. The 'we' framing suggests a research house view rather than a personal book, and it is not always clear whether he holds the trades. There is at least one internal tension: he favored curve steepeners in the 7Y sector on 2026-07-19 (2078906535368155209) and called a 5s30s flattener the most attractive expression of his curve view the next day (2079272635062694327). His mid-August call that hikes were a fade and short-rate vol had peaked (2090869147647230033) was overtaken within two weeks by his own more hawkish end-of-August framing (2094494042557919283). Roughly a third of the posts are banter, follows, chart-source answers or jokes with no view in them."
+  },
+  "narrative": "July opened with a hawkish Fed under a new chair and a Middle East escalation, and his core claim was that the market had over-paid for that hawkishness: front-end payer skew had richened as investors bought high-strike protection, and he argued the implied distribution was priced more hawkishly than what would actually materialise, so skew should normalise and receiver skew richen. Around that he built the rest of the July book - curve steepeners with positive carry and roll in the 7Y sector, SOFR futures steepeners, and long volatility spreads in FX rather than spot - on a Goldilocks growth view in which the labour market was tight, breakeven payrolls were low and the output gap was closing. In credit he was constructive but not for spread compression: with spread the smallest component of all-in yield in decades he owned the carry, warned that this left spreads unusually exposed to any macro shock, and kept the one active underweight in long-duration hyperscaler and AI-related bonds, which he insisted all summer was a supply overhang and not a fundamental problem - a distinction he defended repeatedly against people reading the widening as the AI trade cracking. Through the first half of August the data softened, the terminal rate repriced lower, and he pushed the dovish side of his view hardest: hikes were a fade, short-rate volatility had locally peaked now that the chair had pulled back forward guidance and left the market to trade the data, and the nearer SOFR contract should outperform. That was the high-water mark of the dovish call. By the end of August it had reversed: he read Jackson Hole as modestly hawkish, argued the soft prints should be looked through, and flipped to saying the market was not pricing enough tightening further out, favouring a steeper September-to-January swap pricing spread. Then oil did the rest - tankers struck in the Strait of Hormuz, a global bear-steepening selloff, and a long end that sold off hard - and his September posts stopped arguing about the front end almost entirely. The September book is a duration and carry book: long-end and 7-10y corporate bonds are attractive because all-in yields now do the work, credit curves are dislocated against the Treasury curve, and the instruction to credit investors is to look at the index ex-AI because hyperscaler supply is distorting the aggregate. In FX the arc barely moved - dollar strength through the euro leg, and a yen he expects to stay structurally weak regardless of BoJ hike expectations, retesting intervention territory.",
+  "picks": [
+    {
+      "symbol": "HYPERSCALER IG CREDIT",
+      "direction": "short",
+      "prospect": "AI/hyperscaler-linked investment grade bonds, especially long-dated ones, keep underperforming the broader IG index as a heavy new-issue calendar has to be absorbed and investors reprice AI funding needs and concentration risk.",
+      "risk_reward": "The author frames the downside explicitly: this is a supply technical, not credit deterioration, so balance sheets stay strong and the trade can be squeezed if issuance slows or investor appetite returns after earnings; he stays neutral rather than short on front-end paper for that reason.",
+      "thesis": "A wave of hyperscaler issuance concentrated in long maturities created a supply overhang, so the sector's spreads widened and its curves steepened at the same time - a combination he reads as issuance-driven rather than fundamental, and one that persists until the buyer base clears the paper.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "tech"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-07-13",
+      "sources": [
+        {
+          "post_id": "2076702300572156224",
+          "quote": "We favor an underweight stance on long-duration hyperscaler bonds, where supply absorption challenges are likely to persist, while remaining more neutral on front-end exposure given strong balance sheets and resilient fundamentals."
+        },
+        {
+          "post_id": "2076732505449795867",
+          "quote": "The combination of wider spreads and steeper curves suggests that hyperscaler issuance dynamics are creating pressure across both the sector’s spread profile and maturity structure."
+        },
+        {
+          "post_id": "2082182310774874513",
+          "quote": "Most of the widening is coming from supply which is what people miss."
+        },
+        {
+          "post_id": "2087623312272953629",
+          "quote": "we believe the relative underperformance can persist as investors continue to reprice the funding requirements and concentration risk associated with the AI complex"
+        },
+        {
+          "post_id": "2092303504798790076",
+          "quote": "AI-related spreads have underperformed and widened as elevated market concentration and a wave of new issuance made investors more reluctant to add long exposure."
+        },
+        {
+          "post_id": "2095218234563993707",
+          "quote": "the key theme will be to focus on the indexes ex-AI, as the sheer volume of AI-related supply has placed significant pressure on overall IG spreads"
+        }
+      ]
+    },
+    {
+      "symbol": "US IG CREDIT",
+      "direction": "long",
+      "prospect": "Investment grade corporate bonds keep attracting demand on all-in yield and carry even with spreads near cycle tights, with the intermediate part of the curve his preferred place to own the risk by early September.",
+      "risk_reward": "He states the risk plainly and repeatedly: because spread is the smallest share of all-in yield in decades, investors are paid little for taking credit risk, which leaves spreads very sensitive to any macro shock or hint of slowdown; the offset is that carry buffers moderate widening and net rating actions were still favourable.",
+      "thesis": "Fundamentals and rating migration are supportive, the BBB-versus-A basis shows no fear of fallen angels, and buyers of income keep showing up for yield levels that were unavailable for most of the post-GFC period, so the asset class is carried rather than traded for spread compression.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "value"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-07-08",
+      "sources": [
+        {
+          "post_id": "2074909021551682036",
+          "quote": "Despite spreads near cycle tights, corporate credit remains supported by all-in yields above 5%. Higher carry provides a buffer against spread widening, while resilient fundamentals keep demand broad-based."
+        },
+        {
+          "post_id": "2075274760305385523",
+          "quote": "investors are receiving little compensation for risk, leaving spreads increasingly sensitive to macro shocks."
+        },
+        {
+          "post_id": "2082175640875172290",
+          "quote": "Overall upgrades-downgrades are net upgrades at this moment. Threat of fundamental deterioration remains low."
+        },
+        {
+          "post_id": "2093405808193306629",
+          "quote": "Demand for fixed-income reflects the appeal of higher fixed-income yields"
+        },
+        {
+          "post_id": "2096289951843246552",
+          "quote": "Elevated all-in yields should enhance the appeal of long-duration corporate bonds, particularly for long-term buyers such as life insurers and pension funds."
+        },
+        {
+          "post_id": "2096667357456294057",
+          "quote": "7y duration remains attractive from carry and roll down, as well as a total return perspective."
+        }
+      ]
+    },
+    {
+      "symbol": "7S30S",
+      "direction": "long",
+      "prospect": "The Treasury curve steepens as policy normalises, with the 7Y sector his preferred leg because the steepener earns positive carry and roll while it waits.",
+      "risk_reward": "He names the risk himself: sticky inflation or a resilient labour market that delays Fed easing and keeps the curve flatter. Against that he argues carry and roll on this steepener are near the best available, and that it is less crowded than the steepeners other investors piled into.",
+      "thesis": "A policy rate normalising toward the effective funds rate should steepen the curve, and because the timing of that is uncertain you want the expression that pays you to hold it rather than one that bleeds.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-07-19",
+      "sources": [
+        {
+          "post_id": "2078906535368155209",
+          "quote": "A normalization of the policy rate toward the effective fed funds rate should support a steeper Treasury curve. Given timing uncertainty, favor curve steepeners with positive carry/roll, particularly in the 7Y sector."
+        },
+        {
+          "post_id": "2078906535368155209",
+          "quote": "Main risk: sticky inflation or resilient labor markets delaying Fed easing and keeping the curve flatter."
+        },
+        {
+          "post_id": "2090231098328396085",
+          "quote": "Carry and roll for the 7s30s curve steepener, on a volatility-adjusted basis, sits near its highest levels in recent years."
+        },
+        {
+          "post_id": "2090231098328396085",
+          "quote": "we think continued preference for steepeners is warranted, particularly relative to other steepening trades that investors have crowded into."
+        }
+      ]
+    },
+    {
+      "symbol": "5S30S",
+      "direction": "short",
+      "prospect": "The 5s30s segment compresses - a flattener - as policy expectations normalise and inflation stays contained.",
+      "risk_reward": "He addresses risk only by comparison: he prefers this to a front-end flattener because near-term hike pricing is a larger headwind there. He does not state a downside for the 5s30s expression itself.",
+      "thesis": "The segment sits elevated relative to where it traded through the prior tightening cycle, leaving room for it to compress once policy expectations settle.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-07-20",
+      "sources": [
+        {
+          "post_id": "2079272635062694327",
+          "quote": "5s30s flattener as the most attractive expression of our curve view. The segment remains elevated relative to the levels seen during the 2022–2024 tightening cycle, leaving room for further compression as policy expectations normalize and inflation remains contained."
+        },
+        {
+          "post_id": "2079272635062694327",
+          "quote": "It has a more attractive profile than front-end flatteners, where near-term rate hike pricing creates a larger headwind."
+        }
+      ]
+    },
+    {
+      "symbol": "SFRZ6M7",
+      "direction": "long",
+      "prospect": "The SOFR futures spread between the Z6 and M7 contracts re-steepens after flattening on firmer consumer spending and a payrolls retracement.",
+      "risk_reward": "He gives the condition that would kill the trade - a material deterioration in the data with positive economic surprises fading - and otherwise argues surprises still skew to the upside. No downside magnitude is discussed.",
+      "thesis": "The flattening came from data he is willing to look through, while the broader economic surprise picture still skews positive, so the steepener should re-assert itself.",
+      "time_frame": "swing",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-07-14",
+      "sources": [
+        {
+          "post_id": "2077084717669867578",
+          "quote": "SFRZ6M7 steepeners still look like an attractive trade."
+        },
+        {
+          "post_id": "2077084717669867578",
+          "quote": "Unless there is a material deterioration in the data and positive surprises begin to fade, steepeners remain an attractive positioning"
+        }
+      ]
+    },
+    {
+      "symbol": "SFRM7M8",
+      "direction": "long",
+      "prospect": "The M7 contract outperforms M8 as hike risk is stripped out of the front end following softer inflation, reversing several months of hawkish repricing.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Moderating inflation removes the hike premium that had been depressing the nearer contract, so the spread should retrace the hawkish-repricing move.",
+      "time_frame": "swing",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-08-12",
+      "sources": [
+        {
+          "post_id": "2087364741228314878",
+          "quote": "M7M8 steepeners also looking 🔥"
+        },
+        {
+          "post_id": "2087973716806271140",
+          "quote": "With inflation moderating, further removal of hike risk from rates should support M7 outperformance versus M8 after three months of underperformance driven by hawkish Fed repricing."
+        }
+      ]
+    },
+    {
+      "symbol": "1Y1Y PAYER SKEW",
+      "direction": "short",
+      "prospect": "Front-end payer skew, richened by hawkish tail demand after the Middle East escalation and the dot plot, normalises and gives back its richness, with receiver skew picking up modestly.",
+      "risk_reward": "The two-sided case he gives is that skew could stay rich if geopolitical escalation and hawkish policy tails persist; his argument is that the priced distribution is already more hawkish than what is likely to happen, so further richening is limited rather than impossible.",
+      "thesis": "Investors crowded into high-strike protection, so the option-implied distribution is priced more hawkishly than the outcomes he expects; de-escalation and dovish-leaning FOMC minutes should shift the balance back.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-07-10",
+      "sources": [
+        {
+          "post_id": "2075648862694568303",
+          "quote": "The implied distribution now appears to be priced more hawkishly than what is likely to materialize, suggesting that further richening in payer skew is probably limited."
+        },
+        {
+          "post_id": "2079635132240060926",
+          "quote": "we could begin to see skew shift, with a modest richening of receiver skew."
+        },
+        {
+          "post_id": "2081518715510665453",
+          "quote": "If de-escalation of geopolitical tenses continues and the distribution of policy outcomes is less fat tailed, the payer skew in front-end should fall, and help normalize skew."
+        }
+      ]
+    },
+    {
+      "symbol": "SHORT-RATE VOLATILITY",
+      "direction": "short",
+      "prospect": "Short-end rate volatility falls from its local peak as the market grows confident that further hikes will not be delivered.",
+      "risk_reward": "He acknowledges the market is still paying for hawkish tails and that OIS keeps pricing hikes - the position is explicitly a fade of that pricing. He does not quantify what he loses if the hikes actually arrive, and the oil-driven repricing at the start of September ran against him.",
+      "thesis": "Short-rate volatility is a function of the distance to the expected terminal rate; with Warsh pushing markets to trade the data rather than forward guidance and that distance shrinking, vol should compress - and he treats further hikes as a fade.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-08-20",
+      "sources": [
+        {
+          "post_id": "2090502883993113039",
+          "quote": "The recent softness in hard data suggests that the market’s pricing of further hikes may be premature."
+        },
+        {
+          "post_id": "2090869147647230033",
+          "quote": "Locally, we are likely past the peak in short-rate volatility."
+        },
+        {
+          "post_id": "2090869147647230033",
+          "quote": "we continue to view hikes as a fade. This should drive short-end volatility lower, particularly as the market becomes more confident that further hikes are unlikely."
+        }
+      ]
+    },
+    {
+      "symbol": "SEP-JAN SWAP SPREAD",
+      "direction": "long",
+      "prospect": "The spread between September and January swap-rate pricing steepens, i.e. the market ends up pricing relatively more tightening for January than for the September meeting.",
+      "risk_reward": "He frames it as asymmetric in his favour rather than giving an explicit downside; the implicit risk is the soft prints he wants to look through turning into a genuine slowdown.",
+      "thesis": "Consumer spending can pick up into year end before moderating in 2027, the underlying growth and labour backdrop argues for looking through recent soft prints, and Warsh's Jackson Hole message that inflation remains above target read as modestly hawkish.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "catalyst-driven"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-08-31",
+      "sources": [
+        {
+          "post_id": "2094494042557919283",
+          "quote": "We think this presents an asymmetric opportunity."
+        },
+        {
+          "post_id": "2094494042557919283",
+          "quote": "The balance of risks skews toward a steeper spread between September and January swap-rate pricing."
+        }
+      ]
+    },
+    {
+      "symbol": "10S20S30S ASW",
+      "direction": "long",
+      "prospect": "The 20Y point on the asset-swap curve richens back toward its neighbours, having lagged the decline in volatility.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "The 20Y sector screens cheap on the asset-swap fly and has not kept up with the move lower in volatility, so the butterfly should correct.",
+      "time_frame": "swing",
+      "tags": [
+        "macro",
+        "value"
+      ],
+      "conviction": 0.45,
+      "first_seen": "2026-08-04",
+      "sources": [
+        {
+          "post_id": "2084704925829746691",
+          "quote": "Long 10s20s30s ASW: 20y looks cheap and continues to lag the move lower in vol."
+        }
+      ]
+    },
+    {
+      "symbol": "DXY",
+      "direction": "long",
+      "prospect": "The dollar keeps strengthening, with the move driven mainly through the euro leg.",
+      "risk_reward": "He names the single headwind that would break the view: no rate hike delivered alongside strong Fed language pushing back on the potential for further hikes.",
+      "thesis": "The asymmetry of policy outcomes favours the dollar, and euro implied and realised volatility having reconverged means the euro cross, increasingly correlated with risk reversals, is the channel that decides the index.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-08-09",
+      "sources": [
+        {
+          "post_id": "2086267487260119271",
+          "quote": "We believe the balance of risks leans toward further dollar strengthening. The primary headwind to this view would be no rate hike accompanied by strong Fed language pushing back against the potential for further rate hikes."
+        },
+        {
+          "post_id": "2088261045555015760",
+          "quote": "Feeling dollar, if we are talking DXY will be mostly driven by EUR/USD."
+        }
+      ]
+    },
+    {
+      "symbol": "USDJPY",
+      "direction": "long",
+      "prospect": "The yen stays weak and the cross grinds higher, retesting intervention territory again despite marginal yen strength and despite the market looking for BoJ hikes.",
+      "risk_reward": "The stated risk is official intervention, which he expects the cross to run into again; he argues rate differentials will not do the work of strengthening the yen, so the drag comes from policy action rather than carry.",
+      "thesis": "Structural factors dominate rate differentials for the yen, so BoJ tightening expectations do little for it; positioning and the risk reversal already show demand for dollar upside.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-08-14",
+      "sources": [
+        {
+          "post_id": "2088261045555015760",
+          "quote": "JPY strengthening marginally, but feel that it retests 160 prior to intervention again."
+        },
+        {
+          "post_id": "2095580095981256731",
+          "quote": "Market anticipation of hikes from the BoJ will do little to help strengthen the yen. Differentials have a relatively limited effect."
+        }
+      ]
+    },
+    {
+      "symbol": "ZAR/NOK VOL SPREAD",
+      "direction": "long",
+      "prospect": "The volatility spread between the rand and the krone widens back out as the dislocation between implied and realised volatility in the two currencies resolves.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Implied versus realised volatility in the two currencies has disconnected in a way he considers notable, and he argues volatility structures - not spot - are the right way to take FX risk for the rest of the year.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-07-11",
+      "sources": [
+        {
+          "post_id": "2076011145081548996",
+          "quote": "The disconnect in pricing between ZAR and NOK, as reflected in implied versus realized volatility, appears notable."
+        },
+        {
+          "post_id": "2076011145081548996",
+          "quote": "Being long the volatility spread between the two currencies looks attractive. For the second half of 2026, volatility strategies appear to be the most effective way to express views in FX markets."
+        }
+      ]
+    },
+    {
+      "symbol": "US HY CREDIT",
+      "direction": "neutral",
+      "prospect": "High yield stays tight and range-bound: it has already recovered the geopolitical widening, so he sees little further compression but no fundamental crack either.",
+      "risk_reward": "His framing is that upside is limited from here while spreads could still grind tighter on supportive risk sentiment - a low-reward hold. The risk he flags sits next door in leveraged loans, where he says he would be much more concerned, and in CCC, which has seen the worst fundamental deterioration.",
+      "thesis": "Index-level high yield spreads are compressed on every measure he looks at, but underlying credit is fine and OAS tightened around the belly, so it is a hold rather than a short or an add.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-07-25",
+      "sources": [
+        {
+          "post_id": "2081088368956641532",
+          "quote": "With spreads already compressed, further upside looks limited, though spreads could grind tighter if risk sentiment remains supportive."
+        },
+        {
+          "post_id": "2084420973193838751",
+          "quote": "If we are talking leveraged loan market would be much more concerned. HY credit is fine."
+        },
+        {
+          "post_id": "2094851177905078433",
+          "quote": "HY is tight no matter which way you look at it."
+        }
+      ]
+    },
+    {
+      "symbol": "CRGY",
+      "direction": "long",
+      "prospect": "The company's 2032 and 2033 bonds hold their yield premium to peers and continue to be rewarded by firmer oil, disciplined production and cash generation.",
+      "risk_reward": "He states the risk directly - leverage is the problem if oil prices weaken - and argues current valuations already compensate for it.",
+      "thesis": "Stronger oil prices, portfolio reshaping, production discipline and solid cash generation support the credit, and the bonds still pay more than comparable peers.",
+      "time_frame": "long_term",
+      "tags": [
+        "value"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-07-31",
+      "sources": [
+        {
+          "post_id": "2083258935767621854",
+          "quote": "$CRGY has benefited from stronger oil prices, portfolio reshaping, disciplined production, and solid cash generation."
+        },
+        {
+          "post_id": "2083258935767621854",
+          "quote": "Its bonds still offer an attractive yield premium versus peers, with leverage the key risk if oil prices weaken. However, current valuations appear to compensate for that risk, keeping us constructive on the 2032s and 2033s."
+        }
+      ]
+    },
+    {
+      "symbol": "SOBKCO",
+      "direction": "long",
+      "prospect": "Its euro-denominated bonds converge toward European telecom peers and the broader BBB euro curve on a z-spread basis.",
+      "risk_reward": "The nearest thing to a risk he names is intense competition in the telecom market, which he expects margins to withstand; he does not otherwise address downside.",
+      "thesis": "A defensive telecom credit with stable earnings, a strong market position and manageable leverage, where improving network quality, cost control and a non-telecom recovery support earnings - yet the paper trades wider than comparable European names.",
+      "time_frame": "long_term",
+      "tags": [
+        "value"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-08-05",
+      "sources": [
+        {
+          "post_id": "2085074673507713164",
+          "quote": "SoftBank Corp. remains a defensive telecom credit, supported by stable earnings, a strong market position and manageable leverage."
+        },
+        {
+          "post_id": "2085074673507713164",
+          "quote": "suggesting relative-value potential and an attractive entry point."
+        }
+      ]
+    },
+    {
+      "symbol": "UPLLIN",
+      "direction": "long",
+      "prospect": "He stays overweight the credit through the Middle East escalation, expecting the issuer to pass higher input and freight costs through in price while holding volumes.",
+      "risk_reward": "He states the risk explicitly: prolonged oil strength and supply disruptions outpacing the company's ability to pass costs through. The near-term headwind from the escalation is acknowledged up front.",
+      "thesis": "In prior oil shocks the issuer offset input and freight cost pressure through price increases without losing volume, so the same playbook should hold.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "value"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-07-09",
+      "sources": [
+        {
+          "post_id": "2075286683252109335",
+          "quote": "Recent escalation in Middle East tensions is a near-term headwind for bonds, though we remain OW UPLLIN."
+        },
+        {
+          "post_id": "2075286683252109335",
+          "quote": "Risk remains if prolonged oil strength and supply disruptions outpace pass-through ability."
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { buildResolver, extractMentions, postType } from './tickers.js'
+import { buildResolver, extractMentions, postType, isTickerShaped } from './tickers.js'
 import { loadSymbols, loadBlocklist, loadUniverse, loadBareAllowlist } from '../lib/config.js'
 import type { XTweet } from '../x/types.js'
 
@@ -92,5 +92,57 @@ describe('postType', () => {
     expect(postType(tweet({ text: 'x', referenced_tweets: [{ type: 'retweeted', id: '9' }] }))).toBe('retweet')
     expect(postType(tweet({ text: 'x', referenced_tweets: [{ type: 'quoted', id: '9' }] }))).toBe('quote')
     expect(postType(tweet({ text: 'x', referenced_tweets: [{ type: 'replied_to', id: '9' }] }))).toBe('reply')
+  })
+})
+
+/**
+ * X's entity parser returns money amounts as cashtags. An insider-filing feed
+ * is made of sentences like "CFO sold $1.77M of stock", so trusting the entity
+ * list unconditionally mints a symbol per dollar amount. Found in real captured
+ * data: 10 such "symbols" appeared in a 4,992-post backfill.
+ */
+describe('cashtag entities are shape-checked, not trusted', () => {
+  it('rejects money amounts the X entity parser reports as cashtags', () => {
+    for (const tag of ['1.77M', '106.20K', '2.8BN', '25MM', '1MM', '30.44M']) {
+      expect(isTickerShaped(tag)).toBe(false)
+    }
+  })
+
+  it('still accepts real ticker shapes, including share classes', () => {
+    for (const tag of ['NVDA', 'brk.b', 'BRK-B', 'F', 'GOOGL']) {
+      expect(isTickerShaped(tag)).toBe(true)
+    }
+  })
+
+  it('rejects a tag too long to be a ticker', () => {
+    expect(isTickerShaped('ABCDEFG')).toBe(false)
+  })
+
+  it('drops the money entity but keeps a real cashtag in the same post', () => {
+    const resolver = buildResolver(
+      [{ symbol: 'NVDA', asset_class: 'equity', security_name: '', alias_of: '', valid_from: '', valid_to: '' }],
+      new Set(), new Set(['NVDA']), new Set(),
+    )
+    const text = 'CFO sold $1.77M of $NVDA yesterday'
+    const { mentions } = extractMentions({
+      id: '1', text, created_at: '2026-09-01T12:00:00Z', author_id: 'a',
+      entities: {
+        cashtags: [
+          { start: text.indexOf('$1.77M'), end: text.indexOf('$1.77M') + 6, tag: '1.77M' },
+          { start: text.indexOf('$NVDA'), end: text.indexOf('$NVDA') + 5, tag: 'NVDA' },
+        ],
+      },
+    } as never, resolver)
+    expect(mentions.map((m) => m.symbol)).toEqual(['NVDA'])
+  })
+
+  it('does not let the rejected money token reappear as a bare match', () => {
+    const resolver = buildResolver([], new Set(), new Set(['M']), new Set(['M']))
+    const text = 'insider bought $25MM here'
+    const { mentions } = extractMentions({
+      id: '1', text, created_at: '2026-09-01T12:00:00Z', author_id: 'a',
+      entities: { cashtags: [{ start: text.indexOf('$25MM'), end: text.indexOf('$25MM') + 5, tag: '25MM' }] },
+    } as never, resolver)
+    expect(mentions).toHaveLength(0)
   })
 })

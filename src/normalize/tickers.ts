@@ -21,6 +21,24 @@ export type Extraction = {
 
 /** `$NVDA`, `$brk.b` - the explicit, self-identifying form. */
 const CASHTAG_RE = /\$([A-Za-z][A-Za-z.-]{0,5})\b/g
+
+/**
+ * The shape a ticker can actually have: letter-initial, at most six characters,
+ * letters plus the dot and dash that share-class and foreign listings use.
+ *
+ * This exists because X's own entity parser is looser than the name "cashtag"
+ * suggests. In a post reading "CFO sold $1.77M of stock" it returns `1.77M` as
+ * a cashtag entity, and an insider-filing feed is nothing but such sentences.
+ * Trusting the entity list unconditionally therefore mints a brand-new "symbol"
+ * out of every dollar amount - each with its own ticker page and its own row in
+ * the mention history. CASHTAG_RE already enforced this on the text-scanning
+ * path; the entity path skipped it, so the two disagreed about what a ticker is.
+ */
+const TICKER_SHAPE_RE = /^[A-Za-z][A-Za-z.-]{0,5}$/
+
+export function isTickerShaped(tag: string): boolean {
+  return TICKER_SHAPE_RE.test(tag)
+}
 /** A bare all-caps token. Only trusted when it is in a known universe. */
 const BARE_RE = /\b([A-Z]{1,5})\b/g
 
@@ -85,9 +103,12 @@ export function extractMentions(tweet: XTweet, r: Resolver): Extraction {
   //    symbol is data, not noise.
   const seenOffsets = new Set<number>()
   for (const c of tweet.entities?.cashtags ?? []) {
-    hits.push({ symbol: canonical(c.tag.toUpperCase(), r).symbol, raw: c.tag, source: 'cashtag_entity', offset: c.start })
+    // Masked either way: "$1.77M" is not a ticker, but it is also not a bare
+    // token we want the next pass to reconsider.
     seenOffsets.add(c.start)
     mask(c.start, c.end - c.start)
+    if (!isTickerShaped(c.tag)) continue
+    hits.push({ symbol: canonical(c.tag.toUpperCase(), r).symbol, raw: c.tag, source: 'cashtag_entity', offset: c.start })
   }
   // Cashtags the entity parser missed (it skips some punctuation forms).
   for (const m of text.matchAll(CASHTAG_RE)) {

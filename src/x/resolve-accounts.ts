@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import { resolve } from 'node:path'
-import { XClient } from './client.js'
+import { XClient, XApiError, explain } from './client.js'
 import { loadAccounts, requireEnv } from '../lib/config.js'
 import { repoRoot } from '../duck/connect.js'
 import { log, ghError } from '../lib/log.js'
@@ -37,7 +37,8 @@ async function main(): Promise<void> {
 }
 
 main().catch((err) => {
-  ghError(String(err))
-  log.error('accounts.failed', { error: String(err) })
+  const message = err instanceof XApiError ? explain(err) : String(err)
+  ghError(message)
+  log.error('accounts.failed', { error: message, status: err instanceof XApiError ? err.status : undefined })
   process.exit(1)
 })

@@ -1,6 +1,8 @@
 # invest — design
 
-> Status: **all five pipeline stages shipped 2026-09-06.** Blocked only on `X_BEARER_TOKEN`.
+> Status: **all five pipeline stages shipped 2026-09-06.** Capture and normalize verified
+> against the live X API on 2026-09-06 (10 posts, $0.05). Extraction awaits a live
+> `claude-opus-5` call; everything else is proven end to end.
 > This is the single design document for the repo: what the system is, why it is shaped
 > this way, what was rejected, and what remains.
 
@@ -8,7 +10,7 @@
 
 ## 1. What this is for
 
-A private, compounding research corpus built from a strict 13-account X allowlist, plus a
+A private, compounding research corpus built from a strict 14-account X allowlist, plus a
 daily human-readable briefing.
 
 The lasting asset is the **structured corpus**, not the prose. The questions worth
@@ -336,8 +338,21 @@ The X API is ~75% of the bill, which is why read discipline is a *cost control*.
 | Private names are never priced | `src/prices/returns.test.ts`, `src/render/daily.test.ts` |
 | Whole chain, raw → markdown | `src/pipeline.test.ts`, including byte-identical re-render |
 
-**Not yet verified, and only a live token can:** the real X payload shape against
-`normalize`, and a live `claude-opus-5` structured-output call. Fixtures cannot prove either.
+### Verified against the live API (2026-09-06, 10 posts, $0.05)
+
+A deliberately capped run (`--max-pages 1 --max-results 10`) into a scratch data root:
+
+| Check | Result |
+|---|---|
+| Field completeness across 10 real posts | 0 missing handles, hashes, ages, sessions |
+| `post_type` from real `referenced_tweets` | original / reply / quote / retweet all present and correct |
+| ET session roll | posts created 09-06 after 16:00 ET correctly assigned to the 09-07 session |
+| Attribution excludes echoes | 4 mentions, 3 attributable, 1 retweet excluded |
+| Ticker resolution | GOOGL, NVDA, TSLA, UBER — all via cashtag, all classified `equity` |
+| Bare-allowlist precision | `AGI` appeared in an AI-themed post. It is a real listed ticker (Alamos Gold), and the resolver correctly did **not** create a mention — it surfaced in `unresolved` instead |
+| `metric_age_seconds` spread | 94s to 9,398s — a 100x range in observation age within a single page, which is the bias this column exists to make conditionable |
+
+**Still unverified:** a live `claude-opus-5` structured-output call. Fixtures cannot prove it.
 
 ---
 
@@ -351,13 +366,18 @@ restrict redistribution of post content. Nothing here is investment advice.
 
 ## 11. Remaining work
 
-1. **`X_BEARER_TOKEN`** — the only thing on the critical path. Recent search reaches back
-   7 days, so delay is lossy.
-2. First live capture, then confirm the real payload against `normalize`.
-3. Grow `ref/bare_allowlist.csv` from the `unresolved` column once real data exists.
-4. **Second copy.** For a dataset costing ~$450/yr to acquire and unrecoverable past 7
+1. **First full production capture.** Recent search reaches back 7 days, so the cold-start
+   sweep should run soon — that week is otherwise unbuyable.
+2. **Verify extraction against a live model call.** The only stage never exercised end to end.
+3. **Honour deletions.** X's developer terms expect content to stop being used once a post
+   is deleted or an account goes private. `data/raw/` is append-only and never revisited, so
+   nothing currently enforces this. A periodic re-check that drops content for posts which
+   no longer resolve is the fix; it conflicts with strict append-only, and the resolution is
+   probably a tombstone list plus a filter in the views rather than mutating raw.
+4. Grow `ref/bare_allowlist.csv` from the `unresolved` column as real data accumulates.
+5. **Second copy.** For a dataset costing ~$450/yr to acquire and unrecoverable past 7
    days, one copy is not a backup. Nightly `rclone` to R2 (10 GB free tier) is the
    escape hatch and a future UI backend at the same time.
-5. Weekly integrity job: gunzip every raw file, verify counts against manifests, assert
+6. Weekly integrity job: gunzip every raw file, verify counts against manifests, assert
    every `posts.raw_sha256` resolves.
-6. Sparse-checkout in CI before the working tree grows enough to matter.
+7. Sparse-checkout in CI before the working tree grows enough to matter.

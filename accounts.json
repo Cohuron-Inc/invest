@@ -3,55 +3,59 @@
   "accounts": [
     {
       "handle": "deerpointmacro",
-      "user_id": null
+      "user_id": "1158811321963614209"
     },
     {
       "handle": "stocktalkweekly",
-      "user_id": null
+      "user_id": "1289823541098143744"
     },
     {
       "handle": "LogicalThesis",
-      "user_id": null
+      "user_id": "3236384046"
     },
     {
       "handle": "StockSavvyShay",
-      "user_id": null
+      "user_id": "1096436452576047104"
     },
     {
       "handle": "CEOStockWatcher",
-      "user_id": null
+      "user_id": "1617590989811482649"
     },
     {
       "handle": "TheLongInvest",
-      "user_id": null
+      "user_id": "1378993399844442112"
     },
     {
       "handle": "MarcosMillaYT",
-      "user_id": null
+      "user_id": "1951170851052945408"
     },
     {
       "handle": "FeroceResearch",
-      "user_id": null
+      "user_id": "1730212951313743872"
     },
     {
       "handle": "davevermilion",
-      "user_id": null
+      "user_id": "3765917302"
     },
     {
       "handle": "TradexWhisperer",
-      "user_id": null
+      "user_id": "485550903"
     },
     {
       "handle": "RealJGBanks",
-      "user_id": null
+      "user_id": "764585047"
     },
     {
       "handle": "JaguarAnalytics",
-      "user_id": null
+      "user_id": "1087194962"
     },
     {
       "handle": "ruth_capital",
-      "user_id": null
+      "user_id": "1656563451920019456"
+    },
+    {
+      "handle": "artemis",
+      "user_id": "1518996068687663104"
     }
   ]
 }

@@ -10,9 +10,44 @@ const TWEET_FIELDS = [
 ].join(',')
 
 export class XApiError extends Error {
+  readonly detail: string
   constructor(message: string, readonly status: number, readonly body: string) {
     super(message)
     this.name = 'XApiError'
+    this.detail = XApiError.detailOf(body)
+  }
+
+  /** X returns RFC7807 problem documents; the `detail` field is the useful part. */
+  static detailOf(body: string): string {
+    try {
+      const parsed = JSON.parse(body) as { detail?: string; title?: string }
+      return parsed.detail ?? parsed.title ?? ''
+    } catch {
+      return ''
+    }
+  }
+}
+
+/**
+ * Turns an X error into something that says what to actually do about it.
+ * A bare "X API 402" sent me looking for a bug in the request; the body said
+ * "credits depleted", which is a billing state, not a defect.
+ */
+export function explain(err: XApiError): string {
+  switch (err.status) {
+    case 401:
+      return 'X rejected the bearer token (401). Check X_BEARER_TOKEN in .env, or regenerate it in the app\'s Keys and tokens tab.'
+    case 402:
+      return `X accepted the token but the account has no credits (402: ${err.detail}). ` +
+        'Reads are pay-per-use at roughly $0.005 per post; add credits in the developer console. ' +
+        'Nothing was read and nothing was charged.'
+    case 403:
+      return `X refused this request for the current access level (403: ${err.detail}). ` +
+        'Recent search requires paid access; confirm the project has it.'
+    case 429:
+      return `Rate limited (429: ${err.detail}). The client already backs off and retries; if this surfaced, the retry budget was exhausted.`
+    default:
+      return `X API ${err.status}${err.detail ? `: ${err.detail}` : ''}`
   }
 }
 
@@ -80,6 +115,8 @@ export class XClient {
     sinceId?: string | undefined
     startTime?: string | undefined
     maxPages?: number
+    /** Page size, 10-100. Lowering it is how a smoke run stays cheap. */
+    maxResults?: number
   }): AsyncGenerator<{ page: XSearchPage; tweets: XTweet[]; users: Map<string, string>; pageNo: number }> {
     let nextToken: string | undefined
     let pageNo = 0
@@ -89,7 +126,7 @@ export class XClient {
       pageNo++
       const params: Record<string, string> = {
         query: opts.query,
-        max_results: '100',
+        max_results: String(opts.maxResults ?? 100),
         'tweet.fields': TWEET_FIELDS,
         expansions: 'author_id',
         'user.fields': 'username,name',

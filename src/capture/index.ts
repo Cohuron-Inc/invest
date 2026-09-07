@@ -1,6 +1,6 @@
 import { readdirSync, readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
-import { XClient, estimateCostUsd } from '../x/client.js'
+import { XClient, XApiError, explain, estimateCostUsd } from '../x/client.js'
 import { loadResolvedAccounts, requireEnv } from '../lib/config.js'
 import { dataRoot } from '../duck/connect.js'
 import { buildQueries } from './query.js'
@@ -58,7 +58,13 @@ function trailingMedianPosts(manifests: CaptureManifest[]): number | null {
   return counts[Math.floor(counts.length / 2)] ?? null
 }
 
-export async function capture(): Promise<CaptureManifest> {
+export type CaptureOptions = {
+  /** Cap pages and page size to verify the wiring without paying for a full run. */
+  maxPages?: number
+  maxResults?: number
+}
+
+export async function capture(opts: CaptureOptions = {}): Promise<CaptureManifest> {
   const started = new Date()
   const root = dataRoot()
   const accounts = loadResolvedAccounts()
@@ -85,7 +91,14 @@ export async function capture(): Promise<CaptureManifest> {
   let newestId: string | null = null
 
   outer: for (const query of queries) {
-    for await (const { tweets, users, pageNo } of client.searchRecent({ query, sinceId: cursorBefore ?? undefined, startTime })) {
+    const search = client.searchRecent({
+      query,
+      sinceId: cursorBefore ?? undefined,
+      startTime,
+      ...(opts.maxPages !== undefined ? { maxPages: opts.maxPages } : {}),
+      ...(opts.maxResults !== undefined ? { maxResults: opts.maxResults } : {}),
+    })
+    for await (const { tweets, users, pageNo } of search) {
       pages++
       if (tweets.length === 0) continue
 
@@ -146,11 +159,19 @@ export async function capture(): Promise<CaptureManifest> {
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  capture()
+  const flag = (name: string): number | undefined => {
+    const i = process.argv.indexOf(name)
+    return i > -1 && process.argv[i + 1] ? Number(process.argv[i + 1]) : undefined
+  }
+  const opts: CaptureOptions = {}
+  const pages = flag('--max-pages'); if (pages !== undefined) opts.maxPages = pages
+  const size = flag('--max-results'); if (size !== undefined) opts.maxResults = size
+  capture(opts)
     .then((m) => { if (m.status !== 'ok') process.exitCode = 1 })
     .catch((err) => {
-      ghError(String(err))
-      log.error('capture.failed', { error: String(err) })
+      const message = err instanceof XApiError ? explain(err) : String(err)
+      ghError(message)
+      log.error('capture.failed', { error: message, status: err instanceof XApiError ? err.status : undefined })
       process.exit(1)
     })
 }

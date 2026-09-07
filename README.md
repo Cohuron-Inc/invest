@@ -2,7 +2,7 @@
 
 Daily research corpus built from a strict 13-account X allowlist, plus a daily briefing.
 
-- **Architecture and the invariants that matter:** [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)
+- **Design — architecture, decisions, and what was rejected:** [`_plan/design.md`](_plan/design.md)
 - **The only sanctioned read path:** [`sql/views.sql`](sql/views.sql)
 - **Saved analyses:** [`queries/`](queries/)
 

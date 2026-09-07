@@ -1,0 +1,169 @@
+{
+  "window_end": "2026-09-07",
+  "price_date": "2026-09-04",
+  "thirteen_f_quarter_end": "2026-06-30",
+  "thirteen_f_note": "MarketBeat's institutional pages for QCOM, RKT, TPL, GLD serve trailing-12-month buyer/seller counts, not a true quarter-over-quarter 13F holders table; used as the closest available proxy and flagged per ticker. AMKR and IONQ pages state an as-of of 2026-08-27 that is not a quarter end; 2026-06-30 inferred. TEM's page implies 2026-03-31, which trails its own Q2 print.",
+  "tickers": [
+    "PLPC",
+    "AMKR",
+    "IONQ",
+    "TEM",
+    "QCOM",
+    "RKT",
+    "GLD",
+    "TPL"
+  ],
+  "groups": [
+    [
+      "PLPC",
+      "AMKR",
+      "IONQ",
+      "TEM"
+    ],
+    [
+      "QCOM",
+      "RKT",
+      "TPL",
+      "GLD"
+    ]
+  ],
+  "mandate": "high return, medium-to-low risk, 1 to 3 years",
+  "hurdle_pct": 5.37,
+  "hurdle_source": "https://fred.stlouisfed.org/series/BAMLC0A3CAEY",
+  "fetched_at": "2026-09-07T08:35:00Z",
+  "ticker_notes": {
+    "TEM": "user wrote TEMPUS; listed ticker is TEM (Tempus AI)",
+    "QCOM": "user wrote QUALCOM STOCK; listed ticker is QCOM (Qualcomm)",
+    "GLD": "SPDR Gold Shares, a commodity trust, not an operating company; the four gates do not apply to it"
+  },
+  "sources_failed": [
+    {
+      "source": "https://finance.yahoo.com/quote/TICKER/analysis/",
+      "tickers": [
+        "QCOM",
+        "RKT",
+        "TPL",
+        "IONQ",
+        "TEM"
+      ],
+      "behaviour": "page load error or empty Growth-Estimates and EPS-revision tables; 30d and 90d revision direction unavailable from the pinned primary"
+    },
+    {
+      "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+      "tickers": [
+        "macro"
+      ],
+      "behaviour": "timed out at 60s on two attempts; fell back to centralbank.watch/federal-reserve/"
+    },
+    {
+      "source": "https://www.barchart.com/stocks/indices/sp/sp500?viewName=breadth",
+      "tickers": [
+        "macro"
+      ],
+      "behaviour": "returned empty content; fell back to a dated StockCharts article for percent above the 200-day"
+    },
+    {
+      "source": "https://stockanalysis.com/etf/SPY|QQQ|MTUM|VLUE|QUAL|IWM|SPHB|SPLV/",
+      "tickers": [
+        "macro"
+      ],
+      "behaviour": "pages load but WebFetch surfaced only 1-year total return, not 1m and 3m performance; used Finviz quote pages instead"
+    },
+    {
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=...",
+      "tickers": [
+        "macro"
+      ],
+      "behaviour": "without explicit cosd/coed parameters the fetch returned very old rows (2008-2012) for long series; must pass explicit date parameters"
+    },
+    {
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "tickers": [
+        "macro"
+      ],
+      "behaviour": "does not surface the current target range or vote split; the individual statement press release had to be fetched separately"
+    },
+    {
+      "source": "https://stockanalysis.com/stocks/PLPC/forecast/",
+      "tickers": [
+        "PLPC"
+      ],
+      "behaviour": "404, no forecast page; coverage too thin for the consensus product. Only MarketBeat's stale 2-analyst $275 target from 2026-03-09 exists"
+    },
+    {
+      "source": "https://www.marketbeat.com/stocks/*/institutional-ownership/",
+      "tickers": [
+        "PLPC",
+        "AMKR",
+        "IONQ",
+        "TEM",
+        "QCOM",
+        "TPL"
+      ],
+      "behaviour": "CalSTRS row with implausible multi-thousand-percent increases persists; on TPL the row's share count exceeds total shares outstanding. Dollar totals excluded on every affected name, holder counts used"
+    },
+    {
+      "source": "finviz vs marketbeat short interest",
+      "tickers": [
+        "TEM",
+        "AMKR",
+        "RKT"
+      ],
+      "behaviour": "material disagreement from different float denominators: TEM 27.75% vs 21.86%, AMKR 15.96% vs 5.27%, RKT 5.50% vs 8.56%. Both recorded, MarketBeat used as primary where it states a settlement date"
+    },
+    {
+      "source": "https://stockanalysis.com/stocks/TICKER/forecast/ estimate-trend table",
+      "tickers": [
+        "IONQ",
+        "TEM"
+      ],
+      "behaviour": "no estimate-revision or estimate-trend table is published; 90-day revision direction had to be derived from the pre-print consensus against the current consensus, and is recorded with that derivation in the note"
+    },
+    {
+      "source": "daily price history",
+      "tickers": [
+        "IONQ",
+        "TEM",
+        "RKT",
+        "TPL"
+      ],
+      "behaviour": "print-day and +5-day reaction not fetched within budget; print_gap_held null for these four"
+    }
+  ],
+  "rubric_artifacts": [
+    {
+      "signal": "risk_reward",
+      "tickers": [
+        "QCOM",
+        "RKT"
+      ],
+      "behaviour": "the downside anchor lands within 1% of the close (QCOM's 200-day is 0.54% below the close; RKT's low target of $14.00 is 0.4% below the $14.06 close), so the computed risk-to-reward is 26.8:1 and 60.7:1. These numbers are arithmetic, not analysis, and neither was allowed to drive a verdict. A future rubric should reject an anchor closer than about 5% to the close and fall back to the next one down."
+    },
+    {
+      "signal": "delivery_gate",
+      "tickers": [
+        "PLPC",
+        "TPL"
+      ],
+      "behaviour": "the gate requires the guide to be held or raised, so a company that gives no guidance can never pass it however good the print. PLPC beat by 86% on EPS and rose 30% on the day and still fails. Noted; it did not change either name's tier, since both fail a second gate."
+    },
+    {
+      "signal": "retail_interest",
+      "tickers": [
+        "PLPC",
+        "IONQ",
+        "RKT",
+        "GLD",
+        "TPL"
+      ],
+      "behaviour": "zero corpus coverage scores 6 or 9 points as 'quiet with fundamentals', which is indistinguishable from 'the six accounts never discussed it'. Totals for these five are inflated by roughly 6 to 9 points and are not comparable with a name the corpus actually covers."
+    },
+    {
+      "signal": "insider",
+      "tickers": [
+        "GLD"
+      ],
+      "behaviour": "a commodity trust has no insiders, which scores 3 as 'no insider activity found'. Meaningless for this instrument."
+    }
+  ]
+}

@@ -6,6 +6,19 @@ argument-hint: "[mandate, e.g. 'high return, medium-to-low risk, 1 to 3 years'] 
 
 # Corpus Probe
 
+## The problem, and how it is solved
+
+`/fetch` leaves one analysis per account: what each commentator claimed, with cited
+picks. That answers "what did they say", account by account. It does not answer the
+question a book actually has: across all of them, what should a stated mandate own, at
+what size, and what did the accounts know that never became a formal pick. The probe
+solves this in five moves: frame the candidate set from the analyses and the
+cross-account queries; deep-read every raw bundle through one subagent per account for
+the evidence the extraction contract excludes (earnings scorecards, sell-side relays,
+insider filings, regime facts); test every candidate on five fixed axes; derive one
+regime rule from the macro accounts and tier against the mandate; publish in a fixed
+format so probes from different windows read side by side.
+
 A probe reads *past* the pick lists. The account extraction (`v1-acct`) records what each
 commentator claimed. The probe asks what a book with a stated mandate should do about it,
 using the earnings scorecards, sell-side relays, Form 4 clusters and macro regime facts that
@@ -19,10 +32,11 @@ future probe must be structurally identical to it so two probes can be read side
 | Input | Where | If missing |
 |---|---|---|
 | Mandate | first argument; default `high return, medium-to-low risk, 1 to 3 years` | use the default and say so in the meta strip |
-| Account analyses | `data/analysis/accounts/<handle>.json` (profile, narrative, picks with cited post_ids) | run the session lane: `pnpm task:session-dump`, one subagent per bundle against `data/_session/SPEC.md`, then `pnpm task:session-ingest` |
-| Raw post bundles | `data/_session/<handle>.posts.jsonl` (retweets excluded, oldest first) | `pnpm task:session-dump` regenerates them; the directory is gitignored |
+| Account analyses | `data/analysis/accounts/<handle>.json` (profile, narrative, picks with cited post_ids) | run `/fetch` for the window; it ends with these files |
+| Raw post bundles | `data/_session/<handle>.posts.jsonl` (retweets excluded, oldest first) | `pnpm task:session-dump --from <window_start> --to <window_end>`; the directory is gitignored |
 | Cross-account tables | `pnpm q account-convergence`, `pnpm q account-repertoire`, `pnpm q account-tag-mix` | they read `picks_v`; rerun ingest first |
-| Window | `window_start` / `window_end` from any analysis JSON | never guess dates |
+| Window | `window_start` / `window_end` from any analysis JSON, stamped by ingest from `data/_session/WINDOW.json` | never guess dates |
+| Coverage gaps | `pnpm q corpus-coverage`: first and last day per account against the window | state each gap in the trust section and the warn callout |
 | Price layer | `prices_v` | usually empty; then the probe quotes **no returns** and says so |
 
 `--accounts` restricts the probe to a subset. `--window-end` is only for labelling when the
@@ -117,6 +131,14 @@ window and account count.
 - **Coverage gaps are stated per account** in both the trust section and the warn callout.
 - **Prose style.** Short sentences. No em dashes, no parentheticals, no arrows. Tickers in `<span class="t">`, numbers in `<span class="num">`, risk cell as one of `low`, `low-medium`, `medium-low`, `medium`, `high`.
 - **Do not change the template CSS or section order.** Coherence across probes is the point. If a section has nothing to say, keep the heading and write one sentence saying why.
+
+## What follows a corpus probe
+
+The corpus probe tiers names on what the accounts said. To rank those names by their chance
+of further gain from today's price, on twelve signals from earnings and competition through
+insider and institutional flow, retail crowding, chart, macro fit and narrative harmony, run
+`/runway-probe` next. It reads this probe's tier cards as its input and writes to
+`analysis_output/<window_end>-runway-probe.html`.
 
 ## Done when
 

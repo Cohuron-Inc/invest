@@ -1,0 +1,240 @@
+<title>September Runway Probe</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper: #F4F6F8; --paper-2: #EAEEF2; --ink: #17222E; --ink-2: #4A5866; --ink-3: #7B8794; --rule: #CDD5DD;
+    --core: #1F6F62; --core-bg: #DFEEEA; --watch: #A8731A; --watch-bg: #F3E8D2; --sat: #A3463A; --sat-bg: #F2DDD9;
+    --bar-track: #DCE2E8;
+    --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+      --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+      --bar-track: #243039;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+    --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+    --bar-track: #243039;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.55; margin: 0; }
+  .page { max-width: 76ch; margin: 0 auto; padding: 40px 24px 96px; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+  h1 { font-size: 2.35rem; line-height: 1.1; }
+  h2 { font-size: 1.45rem; line-height: 1.2; margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1.1rem; margin-top: 28px; }
+  p { margin: 12px 0; max-width: 68ch; }
+  .eyebrow { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+  .lede { font-size: 1.1rem; color: var(--ink-2); max-width: 64ch; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 18px; font-family: var(--mono); font-size: 0.78rem; color: var(--ink-3); }
+  .meta b { color: var(--ink-2); font-weight: 500; }
+  ul, ol { padding-left: 22px; margin: 10px 0; max-width: 68ch; }
+  li { margin: 6px 0; }
+  li b, p b { font-weight: 600; }
+  .t { font-family: var(--mono); font-weight: 500; font-size: 0.92em; }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 0.92em; }
+  .tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 24px; }
+  @media (max-width: 640px) { .tiers { grid-template-columns: 1fr; } }
+  .tier { padding: 14px 16px 16px; border-top: 3px solid; background: var(--paper-2); }
+  .tier.core { border-color: var(--core); } .tier.watch { border-color: var(--watch); } .tier.sat { border-color: var(--sat); }
+  .tier .eyebrow { margin-bottom: 6px; }
+  .tier.core .eyebrow { color: var(--core); } .tier.watch .eyebrow { color: var(--watch); } .tier.sat .eyebrow { color: var(--sat); }
+  .tier .names { font-family: var(--mono); font-size: 0.9rem; line-height: 1.7; }
+  .tier small { display: block; color: var(--ink-2); font-size: 0.82rem; margin-top: 8px; line-height: 1.45; }
+  .pill { display: inline-block; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 1px 6px; border-radius: 3px; vertical-align: middle; white-space: nowrap; }
+  .pill.core { color: var(--core); background: var(--core-bg); } .pill.watch { color: var(--watch); background: var(--watch-bg); } .pill.sat { color: var(--sat); background: var(--sat-bg); }
+  .tablewrap { overflow-x: auto; margin: 18px 0 8px; border: 1px solid var(--rule); }
+  table { border-collapse: collapse; width: 100%; min-width: 880px; font-size: 0.86rem; line-height: 1.4; }
+  th { text-align: left; font-family: var(--mono); font-weight: 500; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); padding: 10px 10px; border-bottom: 1px solid var(--rule); background: var(--paper-2); position: sticky; top: 0; }
+  td { padding: 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  td.tk { font-family: var(--mono); font-weight: 500; white-space: nowrap; }
+  td.rk { font-family: var(--mono); color: var(--ink-3); white-space: nowrap; }
+  td.up { white-space: nowrap; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .bar { display: block; height: 5px; background: var(--bar-track); margin-top: 5px; width: 96px; }
+  .bar i { display: block; height: 100%; background: var(--core); }
+  .bar.watch i { background: var(--watch); } .bar.sat i { background: var(--sat); }
+  .src { color: var(--ink-3); font-size: 0.8rem; }
+  .callout { border-left: 3px solid var(--core); background: var(--paper-2); padding: 12px 16px; margin: 18px 0; max-width: 68ch; }
+  .callout.warn { border-color: var(--watch); }
+  dl.acct { display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; margin: 14px 0; max-width: 72ch; }
+  dl.acct dt { font-family: var(--mono); font-size: 0.85rem; font-weight: 500; }
+  dl.acct dd { margin: 0; font-size: 0.92rem; color: var(--ink-2); }
+  table.appx { font-size: 0.8rem; min-width: 1100px; }
+  table.appx td { padding: 8px 9px; }
+  .foot { margin-top: 48px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 0.8rem; color: var(--ink-3); max-width: 70ch; }
+  a:focus-visible { outline: 2px solid var(--core); outline-offset: 2px; }
+</style>
+
+<div class="page">
+  <div class="eyebrow">Invest corpus · eight names from a direct request, not a corpus probe tier · prices at 4 Sep 2026 close</div>
+  <h1 style="margin-top:10px">September Runway Probe</h1>
+  <p class="lede">Which of eight names still have room to run from today's price, read across twelve signals in four groups. One passes all four gates. It is the one you should not buy.</p>
+  <div class="meta">
+    <span><b>Mandate</b> high return, medium-to-low risk, 1 to 3 years</span>
+    <span><b>Names probed</b> 8</span>
+    <span><b>Signals</b> fundamentals · flows and positioning · price and chart · context</span>
+    <span><b>13F vintage</b> positions as of 30 Jun 2026</span>
+    <span><b>Hurdle</b> 5.37% single-A corporate</span>
+  </div>
+
+  <div class="tiers">
+    <div class="tier core">
+      <div class="eyebrow">Runway · all four gates</div>
+      <div class="names">IONQ</div>
+      <small>Upside, flow, insider and delivery gates all pass, and risk to reward is at least 2 to 1. Passing the gates is not the same as fitting the mandate. Read the verdict.</small>
+    </div>
+    <div class="tier watch">
+      <div class="eyebrow">One leg missing</div>
+      <div class="names">RKT</div>
+      <small>Delivery fails on a revenue miss and a guide cut. The 16 September FOMC and the Q3 print resolve it either way.</small>
+    </div>
+    <div class="tier sat">
+      <div class="eyebrow">No runway on the numbers</div>
+      <div class="names">TPL · QCOM · PLPC · TEM · AMKR · GLD</div>
+      <small>Two or more gates fail, price is at or above consensus, or reward does not cover the risk. Hold what you own; do not add for upside.</small>
+    </div>
+  </div>
+
+  <h2>How the signals were read</h2>
+  <ul>
+    <li><b>Fundamentals.</b> The last print against consensus and whether the guide was raised, held or cut; the direction of estimate revisions over 90 days; cash conversion and stock compensation; the twelve-month case as the company states it; share and gross-margin trend against the two nearest competitors.</li>
+    <li><b>Flows and positioning.</b> Open-market Form 4 buys and sells in 90 days, exercises and tax sales excluded; the latest 13F cycle's holder counts and named funds, dated 30 June so ten weeks stale; short interest; and how crowded the name is among the six corpus accounts, read as a contrarian signal.</li>
+    <li><b>Price and chart.</b> Close against the average, high and low sell-side targets; reward to the average against risk to the nearest anchor; position against the 50-day and 200-day lines, relative strength against the sector, and whether the last print gap held.</li>
+    <li><b>Context.</b> A rate regime that has flipped from pricing cuts to pricing roughly 1.5 hikes by December, with the ten-year at 4.77% and the real ten-year at 2.42%; WTI up 11.6% in a month on the Iran escalation; value and high beta leading, momentum and quality lagging; and whether each name's duration and sector fit that.</li>
+  </ul>
+  <div class="callout">
+    <b>Reading rule.</b> Upside alone is not runway. A 60% gap to consensus with insiders selling, a guide cut and the chart below its 200-day line is a target the Street has not yet lowered. Four gates decide the tier: upside, institutional flow, insider activity and delivery. The score decides the order inside it. And the tier decides nothing about size: the gates are blind to cash burn, which is exactly what the top of this page shows.
+  </div>
+
+  <h2>Runway: the one that passes</h2>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>#</th><th>Name</th><th>Upside · R:R</th><th>Consensus · score</th><th>Institutional flow, Q2 13F · short interest</th><th>Insiders, 90d</th><th>What can break it</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="rk">1</td>
+          <td class="tk">IONQ</td>
+          <td class="up">+71% · 2.1:1<span class="bar"><i style="width:71%"></i></span></td>
+          <td>Strong Buy, 13 · <span class="num">56</span>; revisions up 90d, derived from the pre-print consensus of <span class="num">$268.2M</span> against <span class="num">$287.17M</span> on 19 Aug</td>
+          <td>Holders up <span class="num">527</span>, down <span class="num">143</span>. UBS AM <span class="num">+45%</span>, Amundi <span class="num">+15.5%</span>; exits Wellington, GTS, Van Eck. Short interest <span class="num">11.18%</span> of float. <span class="src">MarketBeat, CalSTRS row excluded</span></td>
+          <td>None. Three directors sold on 18 Jun, <span class="num">$513K</span> total: Toledano, Chou, Raymond. <span class="src">Finviz</span></td>
+          <td>The burn, not the story. FY26 adjusted EBITDA loss guided to widen to <span class="num">$310-330M</span>, free cash flow <span class="num">-$483.9M</span>, stock compensation at <span class="num">182.6%</span> of revenue, and gross margin down from <span class="num">48.0%</span> to <span class="num">26.3%</span> over four quarters. <b>Kill:</b> any FY26 guidance update below <span class="num">$280M</span>, or any equity or convertible raise, before 31 Dec 2026. <b>Red team:</b> it trades at <span class="num">65x</span> EV/sales against RGTI at <span class="num">351x</span> and QBTS at <span class="num">457x</span>, and institutions added into this exact drawdown.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="src">Upside uses the StockAnalysis (S&amp;P Global) average target. Bars are capped at 100%. Expected return over twelve months is <span class="num">+1.6%</span> against a <span class="num">5.37%</span> hurdle, with a <span class="num">54%</span> bear case. It passes the gates and does not clear the hurdle.</p>
+
+  <h2>One leg missing</h2>
+  <dl class="acct">
+    <dt>RKT</dt>
+    <dd>Upside passes at <span class="num">+25.9%</span> to a <span class="num">$17.70</span> average target, flow passes with holders up <span class="num">536</span> against <span class="num">134</span>, and the insider gate passes on no activity either way. <b>Delivery fails:</b> Q2 revenue <span class="num">$2.76B</span> against <span class="num">$2.81B</span>, EPS <span class="num">$0.16</span> against <span class="num">$0.164</span>, and the Q3 guide cut to <span class="num">$2.5-2.7B</span> against <span class="num">$2.9B</span> consensus. What must happen first: the 16 September FOMC has to not deliver a hike, and the Q3 print has to land at or above <span class="num">$2.5B</span> by 15 November. Both are dated. Note that the scorecard's <span class="num">60.7:1</span> reward to risk is an artifact, not a finding: the low consensus target of <span class="num">$14.00</span> sits six cents below the close. Against the 52-week low it is <span class="num">1.93:1</span>.</dd>
+  </dl>
+
+  <h2>No runway on the numbers</h2>
+  <ul>
+    <li><b>At or above consensus.</b> <span class="t">TEM</span> at <span class="num">+1.8%</span> to a <span class="num">$65.79</span> target, with the strongest relative strength in the probe, <span class="num">+35.9pp</span> over one month, and the CEO selling <span class="num">$16.3M</span> into it. That pairing is distribution, not runway. <span class="t">QCOM</span> at <span class="num">+14.4%</span>, below the 20% gate, with the two aggregators agreeing inside ten points so the wider test does not apply.</li>
+    <li><b>Upside against a guide cut and insider selling.</b> <span class="t">AMKR</span> shows <span class="num">+59.9%</span> to consensus, the widest gap on the list, on a print that beat both lines and then cut the communications guide and fell <span class="num">24.7%</span> in a day. Five insiders sold; the corpus caught one of them, a director's <span class="num">$2.75M</span> sale on 10 August, their second largest of 53. Free cash flow is <span class="num">-$172.4M</span>. Reward to risk is <span class="num">1.17:1</span>. The target is a lagging label.</li>
+    <li><b>No measurable upside because nobody covers it.</b> <span class="t">PLPC</span> beat by <span class="num">86%</span> on EPS, rose <span class="num">30%</span> on the day and <span class="num">66%</span> over five sessions, and has widened gross margin from <span class="num">29.7%</span> to <span class="num">34.3%</span> over four quarters. Two analysts cover it and neither has published a target since March, so the upside gate cannot be passed. This is an absence of coverage, not an absence of upside, and it is the one place where the machinery and the mandate disagree.</li>
+    <li><b>Reward does not cover the risk.</b> <span class="t">TPL</span> has the best business and the best macro fit in the probe: <span class="num">97%</span> cash conversion, gross margin widening from <span class="num">91.9%</span> to <span class="num">95.3%</span>, no debt, no capex, and WTI up <span class="num">11.6%</span> in a month with energy the top sector. Reward to risk is <span class="num">0.85:1</span> because the nearest anchor sits <span class="num">25.7%</span> below the close, and delivery fails on a revenue miss. Right business, wrong price.</li>
+    <li><b>Not scoreable on this rubric.</b> <span class="t">GLD</span> is a commodity trust with no earnings, no guidance, no insiders and no sell-side targets, so three of the four gates cannot be passed and its total of <span class="num">29</span> means nothing. Treated as a macro instrument below.</li>
+  </ul>
+
+  <h2>Fit to the mandate</h2>
+  <p><b>No name in the Runway tier fits the mandate.</b> <span class="t">IONQ</span> is the only name passing all four gates and it fails every risk test at once: <span class="num">53.3%</span> below its high, <span class="num">11.18%</span> short interest, top-decile volatility, and a thesis that needs the rate regime to change while the market prices roughly 1.5 hikes by December. Its edge is real but thin, the doctrine's estimates-up-price-down setup, and its expected return of <span class="num">+1.6%</span> does not clear a <span class="num">5.37%</span> hurdle. If it is held at all it is a capped sleeve with the kill date written down, never core.</p>
+  <p>Against the risk screen alone, one name passes outright. <span class="t">PLPC</span> is <span class="num">21.1%</span> off its high with <span class="num">5.03%</span> short interest, no binary event in three months and a neutral macro fit, and its edge is that the market has not repriced a business whose margins are visibly widening. It cannot be sized on this probe's arithmetic because no live target exists to measure against; it can be sized on the print, and that is a judgment the probe is telling you it cannot make for you.</p>
+  <p>Two names are the right shape and the wrong price, and both are waiting on a number rather than on news. <span class="t">TPL</span> carries an expected return of <span class="num">+6.0%</span> against the <span class="num">5.37%</span> hurdle, which is sixty basis points for taking oil beta, a <span class="num">25.5%</span> bear case and a two-analyst consensus spanning <span class="num">$245</span> to <span class="num">$639</span>. That is not compensation. It becomes interesting nearer <span class="num">$269</span>. <span class="t">QCOM</span> carries <span class="num">+4.1%</span>, below the hurdle, with the cheapest multiple in its peer set at <span class="num">16.6x</span> and <span class="num">$9,979M</span> of free cash flow; its edge is timing and it becomes a buy nearer <span class="num">$150</span>. Hold what you own in both; add on price, not on this page.</p>
+  <p><span class="t">GLD</span> is sized as a macro hedge rather than scored as an equity. The case for it is genuinely two-sided right now: central banks buying roughly <span class="num">60</span> tonnes a month, a dollar down <span class="num">1.55%</span> and an accelerating oil and geopolitics shock on one side, against a <span class="num">2.42%</span> real ten-year and a live September hike on the other. The hawkish side is the one currently moving the price, which fell <span class="num">1.3%</span> on the payrolls beat. The FOMC on 16 September is the event, and it is the only company-confirmed date in this entire probe.</p>
+  <p>The rest of the sleeve is capped or empty. <span class="t">RKT</span>, <span class="t">TEM</span> and <span class="t">AMKR</span> each fail two or more risk tests and none carries an expected return above the hurdle. The honest summary of eight names is that <b>none of them is a core buy at these prices</b>, which is a useful answer rather than an evasive one: three are waiting on a price, one is waiting on coverage, and four are waiting on the business.</p>
+
+  <h2>All 8 names</h2>
+  <div class="tablewrap">
+    <table class="appx">
+      <thead><tr><th>Name</th><th>Runway tier</th><th>Price 4 Sep</th><th>Avg PT</th><th>Upside</th><th>Consensus · score</th><th>Institutional flow · short interest</th><th>Insiders, 90d</th><th>Next dated event</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="tk">IONQ</td><td><span class="pill core">runway</span></td>
+          <td class="num">$39.52</td><td class="num">$67.68</td><td class="num">+71%</td>
+          <td>Strong Buy, 13 · <span class="num">56</span></td>
+          <td>Up 527 / down 143 · SI <span class="num">11.18%</span></td>
+          <td>None. 3 director sells, <span class="num">$513K</span></td>
+          <td>Q3 earnings ~4 Nov, estimate</td>
+        </tr>
+        <tr>
+          <td class="tk">TPL</td><td><span class="pill sat">no runway</span></td>
+          <td class="num">$362.42</td><td class="num">$442</td><td class="num">+22%</td>
+          <td>Hold, 2 · <span class="num">54</span></td>
+          <td>Up 648 / down 218 · SI <span class="num">6.78%</span></td>
+          <td>1 director buy, <span class="num">$1,528</span>. CFO sold <span class="num">$1.27M</span> on 5 Jun, just outside the window</td>
+          <td>Q3 earnings ~4 Nov, estimate; 10-Q mid-to-late Nov</td>
+        </tr>
+        <tr>
+          <td class="tk">QCOM</td><td><span class="pill sat">no runway</span></td>
+          <td class="num">$168.74</td><td class="num">$193.10</td><td class="num">+14%</td>
+          <td>Hold, 37 · <span class="num">49</span></td>
+          <td>Up 1,863 / down 1,510 · SI <span class="num">3.17%</span></td>
+          <td>None. 5 routine sells, <span class="num">$1.47M</span></td>
+          <td>Q4 FY26 earnings ~4 Nov, estimate</td>
+        </tr>
+        <tr>
+          <td class="tk">PLPC</td><td><span class="pill sat">no runway</span></td>
+          <td class="num">$398.45</td><td>Not found</td><td>Not found</td>
+          <td>Strong Buy, 2 · <span class="num">49</span></td>
+          <td>Up 89 / down 35 · SI <span class="num">5.03%</span></td>
+          <td>None. Ruhlman <span class="num">$4.4M</span>, Corlett <span class="num">$0.9M</span></td>
+          <td>Q3 earnings ~28 Oct, estimate</td>
+        </tr>
+        <tr>
+          <td class="tk">TEM</td><td><span class="pill sat">no runway</span></td>
+          <td class="num">$64.62</td><td class="num">$65.79</td><td class="num">+2%</td>
+          <td>Buy, 16 · <span class="num">48</span></td>
+          <td>Up 283 / down 127 · SI <span class="num">21.9%</span> to <span class="num">27.8%</span></td>
+          <td>None. CEO Lefkofsky <span class="num">$16.3M</span>, Kubo <span class="num">$1.9M</span></td>
+          <td>Q3 earnings ~3 Nov, estimate; litigation ongoing</td>
+        </tr>
+        <tr>
+          <td class="tk">RKT</td><td><span class="pill watch">one leg</span></td>
+          <td class="num">$14.06</td><td class="num">$17.70</td><td class="num">+26%</td>
+          <td>Buy, 17 · <span class="num">44</span></td>
+          <td>Up 536 / down 134 · SI <span class="num">5.5%</span> to <span class="num">8.6%</span></td>
+          <td>None either way</td>
+          <td>FOMC 16 Sep, confirmed; Q3 earnings ~29 Oct, estimate</td>
+        </tr>
+        <tr>
+          <td class="tk">AMKR</td><td><span class="pill sat">no runway</span></td>
+          <td class="num">$47.77</td><td class="num">$76.40</td><td class="num">+60%</td>
+          <td>Moderate Buy, 11 · <span class="num">44</span></td>
+          <td>Net <span class="num">+35.1M</span> sh, up 322 / down 151 · SI <span class="num">5.3%</span> to <span class="num">16.0%</span></td>
+          <td>None. 5 sells, <span class="num">$2.1M</span>; corpus caught a director's <span class="num">$2.75M</span></td>
+          <td>Q3 earnings ~26 Oct, estimate</td>
+        </tr>
+        <tr>
+          <td class="tk">GLD</td><td><span class="pill sat">not scoreable</span></td>
+          <td class="num">$406.77</td><td>Not applicable</td><td>Not applicable</td>
+          <td>No sell-side coverage · <span class="num">29</span></td>
+          <td>Not a 13F holding · AUM <span class="num">$149.3B</span>, <span class="num">1,056.6t</span></td>
+          <td>No insiders</td>
+          <td>FOMC 16 Sep, confirmed</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="src">There is no corpus probe placement for these eight, because the list came from a direct request rather than from a tier card; the pill shows this probe's own tier instead. MB means MarketBeat. "Not found" means the aggregators were blocked or published nothing and no second source carried the figure. Short interest is given as a range where Finviz and MarketBeat use different float denominators.</p>
+
+  <h2>What this probe cannot tell you</h2>
+  <div class="callout warn">
+    The 13F layer is dated 30 June and reached you ten weeks later, and on six of the eight names it is not a true quarter-over-quarter holders table at all but MarketBeat's trailing-twelve-month buyer and seller counts, used as the closest available proxy. The CalSTRS row with multi-thousand-percent increases was excluded on every affected name; on TPL its share count exceeded total shares outstanding, which confirms the corruption. Yahoo's estimate-revision tables failed on five of eight names and StockAnalysis publishes no revision table at all, so the 90-day direction for IONQ and TEM was derived from the pre-print consensus against the current consensus and is labelled derived wherever it appears. Seven of the eight next-earnings dates are aggregator estimates, not company-confirmed; the only confirmed date in the probe is the FOMC on 16 September. Chart reads come from aggregator moving-average distances, not a full price series. Prospect, competition, macro fit and narrative harmony are analyst judgments and are written as such. Targets were not checked against the broker notes themselves.
+  </div>
+  <p><b>Four things the rubric got wrong on this run</b>, all recorded in the registry so the next probe does not rediscover them. Reward to risk explodes when the downside anchor sits on top of the close: QCOM's 200-day line is <span class="num">0.54%</span> below its close, giving <span class="num">26.9:1</span>, and RKT's low target sits six cents below its close, giving <span class="num">60.7:1</span>. Both are arithmetic, not analysis, and neither was allowed to drive a verdict. The delivery gate cannot be passed by a company that issues no guidance, which is why PLPC fails it after an <span class="num">86%</span> EPS beat, and why TPL fails it too. Zero corpus coverage scores as "quiet with fundamentals", so five of eight names took 6 to 9 contrarian points for silence and their totals are inflated by about that much. And GLD was scored against equity gates it cannot meet, taking 3 points for having no insiders.</p>
+  <p><b>Retail interest is the weakest column here and you were right to expect that.</b> Three of eight names appear in the corpus at all: TEM with 11 posts from 2 accounts, AMKR with 3, QCOM with 2. Only one corpus post is evidence rather than commentary, and it is a good one: CEOStockWatcher's relay on 10 August that an Amkor director sold <span class="num">$2.75M</span>, their second-largest sale out of 53. The two formal stances, stocktalkweekly long AMKR and LogicalThesis long TEM, are both 0.60 conviction and both single-source. Nothing here is crowded, which under the rubric is a positive contrarian read, and for five names it is simply an absent one.</p>
+  <p>This is the first probe to write to <span class="t">verdicts.jsonl</span>, so there is no earlier verdict to score and no calibration to report. Four verdicts were registered at the 4 September close: IONQ, RKT, TPL and QCOM, each with its scenario tree, expected return, kill criterion and size. The next probe should open with how they did.</p>
+  <p>Three things would sharpen the next runway probe: a real price series so chart structure and print-gap behaviour are measured rather than inferred from moving-average distances; a fix to the anchor rule so a support level inside 5% of the close is rejected instead of producing a 60:1 ratio; and a separate, shorter rubric for non-operating instruments so a commodity trust is not scored against earnings and insider gates it can never pass.</p>
+
+  <div class="foot">Sources are Finviz, StockAnalysis (S&amp;P Global), MarketBeat, FRED, BLS, the Federal Reserve and SEC filings as fetched on 7 September 2026, read against the account analyses in data/analysis/accounts and the corpus retail-interest query. The full scorecard, the macro brief, every figure's source URL and the four verdicts with their scenario trees are in analysis_output/2026-09-07-runway-evidence.md, with the raw records in analysis_output/2026-09-07-runway-data/. Nothing here is investment advice.</div>
+</div>

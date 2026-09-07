@@ -21,15 +21,20 @@ SELECT * FROM read_parquet('{{DATA}}/mentions/*/*.parquet',
                            hive_partitioning => true, union_by_name => true)
 QUALIFY row_number() OVER (PARTITION BY mention_id ORDER BY ingest_dt) = 1;
 
+-- pick_id already encodes date, symbol, author and prompt_version, so the same
+-- extraction re-ingested on a later day produces the same id in a new partition.
+-- The latest ingest wins; without this a re-run doubles every convergence count.
 -- @layer picks
 CREATE OR REPLACE VIEW picks_v AS
 SELECT * FROM read_parquet('{{DATA}}/picks/*/*.parquet',
-                           hive_partitioning => true, union_by_name => true);
+                           hive_partitioning => true, union_by_name => true)
+QUALIFY row_number() OVER (PARTITION BY pick_id ORDER BY ingest_dt DESC) = 1;
 
 -- @layer pick_tags
 CREATE OR REPLACE VIEW pick_tags_v AS
 SELECT * FROM read_parquet('{{DATA}}/pick_tags/*/*.parquet',
-                           hive_partitioning => true, union_by_name => true);
+                           hive_partitioning => true, union_by_name => true)
+QUALIFY row_number() OVER (PARTITION BY pick_id, tag ORDER BY ingest_dt DESC) = 1;
 
 -- Adjusted closes change retroactively after splits/dividends, so the price
 -- layer is append-only and we take the most recent observation of each bar.

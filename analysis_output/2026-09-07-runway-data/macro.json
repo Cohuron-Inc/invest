@@ -1,0 +1,127 @@
+{
+  "fed_funds_target_range": {
+    "value": "3.50%-3.75%, unchanged since June 2026; last decision July 29, 2026, vote 9-3 (Hammack, Kashkari, Logan dissented, each preferring a 25bp hike)",
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+    "as_of": "2026-07-29"
+  },
+  "priced_path": {
+    "value": "Next meeting (Sep 16, 2026): ~55.6% cumulative probability of a higher rate (i.e. a 25bp hike) vs 44.4% hold, 0% cut. Meeting after (Oct 27-28, 2026): ~67.3% cumulative probability of higher. Year-end 2026 (Dec 8-9 meeting) implied rate ~3.99% (upper bound), ~87.9% cumulative probability of a higher rate than today, i.e. market prices roughly 1.5 hikes (~36bp) over the next three meetings, not cuts",
+    "source": "https://centralbank.watch/federal-reserve/ (fallback: primary https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html timed out twice)",
+    "as_of": "2026-09-04"
+  },
+  "dgs2": { "value": "4.34%", "source": "https://fred.stlouisfed.org/series/DGS2", "as_of": "2026-09-03" },
+  "dgs10": { "value": "4.77%", "source": "https://fred.stlouisfed.org/series/DGS10", "as_of": "2026-09-03" },
+  "t10y2y": { "value": "0.41%", "source": "https://fred.stlouisfed.org/series/T10Y2Y", "as_of": "2026-09-04" },
+  "dfii10_10y_real_yield": { "value": "2.42%", "source": "https://fred.stlouisfed.org/series/DFII10", "as_of": "2026-09-03" },
+  "ig_oas": {
+    "value": "0.81% (BAMLC0A0CM); one month prior (2026-08-05) was 0.78%, so +3bp over the month",
+    "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+    "as_of": "2026-09-03"
+  },
+  "hy_oas": {
+    "value": "2.65% (BAMLH0A0HYM2); one month prior (2026-08-05) was 2.75%, so -10bp over the month",
+    "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "as_of": "2026-09-03"
+  },
+  "dollar_index": {
+    "value": "118.75 (DTWEXBGS, broad trade-weighted); one month prior (2026-07-28) was 120.62, so -1.55% over the month",
+    "source": "https://fred.stlouisfed.org/series/DTWEXBGS",
+    "as_of": "2026-08-28"
+  },
+  "wti_crude": {
+    "value": "$91.48/bbl (DCOILWTICO); one month prior (2026-08-03) was $81.96, so +11.6% over the month, driven by Iran-conflict energy supply risk",
+    "source": "https://fred.stlouisfed.org/series/DCOILWTICO",
+    "as_of": "2026-09-01"
+  },
+  "vix": {
+    "value": "14.32; one-month range (2026-08-07 to 2026-09-03) was 14.25 (low, Aug 14) to 16.34 (high, Sep 1)",
+    "source": "https://fred.stlouisfed.org/series/VIXCLS",
+    "as_of": "2026-09-03"
+  },
+  "payrolls": {
+    "value": "+162,000 in August 2026 vs consensus of +53,000, a large beat; unemployment rate 4.1%, unchanged and in line with expectations",
+    "source": "https://www.bls.gov/news.release/empsit.nr0.htm (consensus: https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html)",
+    "as_of": "2026-09-04"
+  },
+  "cpi": {
+    "value": "Headline CPI +3.4% y/y, core CPI (ex food & energy) +2.5% y/y, both for reference month July 2026 (next print, for August 2026, is due 2026-09-11 and not yet released as of today)",
+    "source": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "as_of": "2026-08-12"
+  },
+  "sp500_perf": {
+    "value": "SPY (S&P 500 proxy): +0.21% 1-month, +4.43% 3-month",
+    "source": "https://finviz.com/quote.ashx?t=SPY (primary https://stockanalysis.com/etf/SPY/ confirmed price/1yr return but did not surface 1m/3m figures in fetch)",
+    "as_of": "2026-09-04"
+  },
+  "nasdaq100_perf": {
+    "value": "QQQ (Nasdaq-100 proxy): +0.60% 1-month, +1.97% 3-month",
+    "source": "https://finviz.com/quote.ashx?t=QQQ (primary https://stockanalysis.com/etf/QQQ/ confirmed price/1yr return but did not surface 1m/3m figures in fetch)",
+    "as_of": "2026-09-04"
+  },
+  "factor_leadership": {
+    "value": "Momentum (MTUM): -1.07% 1m / -0.53% 3m. Value (VLUE): +4.75% 1m / +7.08% 3m. Quality (QUAL): -1.06% 1m / +4.43% 3m. Small (IWM) vs large (SPY): IWM -0.75% 1m / +5.10% 3m vs SPY +0.21% 1m / +4.43% 3m -- small caps trailing over 1m, leading over 3m. High beta (SPHB) vs low vol (SPLV): SPHB +1.92% 1m / +3.60% 3m vs SPLV -1.99% 1m / +1.73% 3m -- high beta leading both windows. Net read: value and high-beta cyclicality led the last month while momentum and quality lagged, a rotation away from crowded AI-momentum names",
+    "source": "https://finviz.com/quote.ashx?t=MTUM, VLUE, QUAL, IWM, SPHB, SPLV (primary StockAnalysis ETF pages did not surface 1m/3m figures in fetch, used Finviz per registry secondary)",
+    "as_of": "2026-09-04"
+  },
+  "sector_leadership": {
+    "value": "Top 3 (1-month): Energy +2.26%, Technology +1.36%, Utilities +0.84%. Bottom 3 (1-month): Consumer Cyclical -1.92%, Real Estate -1.23%, Basic Materials -1.11%. Over 3 months the ranking shifts: Healthcare +11.75%, Financial +11.50%, Energy +8.38% lead; Communication Services -3.85% and Utilities -3.67% lag",
+    "source": "https://finviz.com/groups.ashx?g=sector&v=140&o=-perf4w",
+    "as_of": "2026-09-04"
+  },
+  "breadth": {
+    "value": "Just over 70% of S&P 500 members finished the week above their 200-day moving average, but only 54% were above their 50-day moving average in the same week -- a bullish long-term reading but thinning short-term participation",
+    "source": "https://articles.stockcharts.com/article/mindfulinvestor-2026-08-weakening-market-breadth-could-signal-trouble-ahead/ (primary https://www.barchart.com/stocks/indices/sp/sp500?viewName=breadth returned no usable content)",
+    "as_of": "2026-08-28"
+  },
+  "hurdle": {
+    "value": "5.37%",
+    "source": "https://fred.stlouisfed.org/series/BAMLC0A3CAEY (ICE BofA Single-A US Corporate Index Effective Yield)",
+    "as_of": "2026-09-03"
+  },
+  "themes": [
+    {
+      "theme": "Fed hawkish pivot after Warsh's Jackson Hole speech -- September 16 hike now live",
+      "direction": "accelerating",
+      "counter": "Three FOMC members already dissented for a hike in July while the committee majority held; August CPI (due Sep 11, just before the meeting) could still come in soft and deflate hike odds, and some economists remain unconvinced Warsh's rhetoric becomes an actual vote"
+    },
+    {
+      "theme": "Iran conflict re-escalation driving an energy-price and inflation-risk shock (WTI +11.6% in a month, European gas at a 3-year high)",
+      "direction": "accelerating",
+      "counter": "Prior 2026 Iran-conflict oil spikes have partially unwound once fighting paused; Strait of Hormuz has not actually closed, and research estimates the inflation pass-through is modest (+0.6pp headline) unless a full closure persists for a full quarter or more"
+    },
+    {
+      "theme": "AI capex boom still the market's central growth narrative, with hyperscaler spending guided sharply higher again",
+      "direction": "stable",
+      "counter": "Capex-fatigue and monetization-timeline questions are building; top-10 S&P 500 concentration (35%) now exceeds the dot-com peak (25%), and momentum/quality factors (proxies for the AI trade) lagged value and high-beta over the last month"
+    },
+    {
+      "theme": "Narrowing short-term market breadth beneath a still-strong index level",
+      "direction": "accelerating",
+      "counter": "The long-term breadth reading (>70% of names above their 200-day average) remains healthy by historical standards, so this may just be a rotation/consolidation rather than the start of a real breakdown"
+    },
+    {
+      "theme": "Fiscal-cliff risk temporarily defused: continuing resolution funds the government only through December 11, 2026",
+      "direction": "fading",
+      "counter": "The CR passed with large bipartisan margins (House 370-48) and only 3 of 12 appropriations bills remain outstanding, suggesting a lower-drama path to full-year funding than the prior shutdown episode"
+    }
+  ],
+  "events": [
+    { "date": "2026-09-11", "event": "CPI release, reference month August 2026" },
+    { "date": "2026-09-15--16", "event": "FOMC meeting and decision (Summary of Economic Projections)" },
+    { "date": "2026-10-02", "event": "Employment situation (payrolls) release, reference month September 2026" },
+    { "date": "2026-10-14", "event": "CPI release, reference month September 2026" },
+    { "date": "2026-10-27--28", "event": "FOMC meeting and decision" },
+    { "date": "2026-11-02--04", "event": "Treasury quarterly refunding documents and announcement" },
+    { "date": "2026-11-06", "event": "Employment situation (payrolls) release, reference month October 2026" },
+    { "date": "2026-11-10", "event": "CPI release, reference month October 2026" },
+    { "date": "2026-12-04", "event": "Employment situation (payrolls) release, reference month November 2026" },
+    { "date": "2026-12-08--09", "event": "FOMC meeting and decision (Summary of Economic Projections)" },
+    { "date": "2026-12-10", "event": "CPI release, reference month November 2026" },
+    { "date": "2026-12-11", "event": "Government funding deadline -- continuing resolution passed Sept 1, 2026 expires" }
+  ],
+  "regime_read": {
+    "long_duration": "With the Fed's easing cycle stalled and a hike now live for September while real 10-year yields sit above 2.4%, long-duration growth equities face a rising discount-rate headwind rather than the multiple-expansion tailwind of the prior easing narrative.",
+    "cash_flow": "Investment-grade and high-yield spreads remain historically tight (0.81% and 2.65% OAS) even as Treasury yields rose, so cash-generative names still borrow and refinance cheaply on a spread basis, but the ~5.4% single-A yield hurdle is high enough that only clearly compounding cash-flow stories clear it comfortably.",
+    "small_caps": "Small caps (IWM) are lagging large caps over the last month despite a strong 3-month stretch and a jobs report that argues against imminent recession, so the setup is rate-path dependent: a confirmed September hike would extend the underperformance, while a dovish surprise or soft August CPI could reignite the small-cap catch-up trade."
+  }
+}

@@ -1,0 +1,170 @@
+<title>MONTH Runway Probe</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper: #F4F6F8; --paper-2: #EAEEF2; --ink: #17222E; --ink-2: #4A5866; --ink-3: #7B8794; --rule: #CDD5DD;
+    --core: #1F6F62; --core-bg: #DFEEEA; --watch: #A8731A; --watch-bg: #F3E8D2; --sat: #A3463A; --sat-bg: #F2DDD9;
+    --bar-track: #DCE2E8;
+    --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+      --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+      --bar-track: #243039;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+    --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+    --bar-track: #243039;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.55; margin: 0; }
+  .page { max-width: 76ch; margin: 0 auto; padding: 40px 24px 96px; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+  h1 { font-size: 2.35rem; line-height: 1.1; }
+  h2 { font-size: 1.45rem; line-height: 1.2; margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1.1rem; margin-top: 28px; }
+  p { margin: 12px 0; max-width: 68ch; }
+  .eyebrow { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+  .lede { font-size: 1.1rem; color: var(--ink-2); max-width: 64ch; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 18px; font-family: var(--mono); font-size: 0.78rem; color: var(--ink-3); }
+  .meta b { color: var(--ink-2); font-weight: 500; }
+  ul, ol { padding-left: 22px; margin: 10px 0; max-width: 68ch; }
+  li { margin: 6px 0; }
+  li b, p b { font-weight: 600; }
+  .t { font-family: var(--mono); font-weight: 500; font-size: 0.92em; }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 0.92em; }
+  .tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 24px; }
+  @media (max-width: 640px) { .tiers { grid-template-columns: 1fr; } }
+  .tier { padding: 14px 16px 16px; border-top: 3px solid; background: var(--paper-2); }
+  .tier.core { border-color: var(--core); } .tier.watch { border-color: var(--watch); } .tier.sat { border-color: var(--sat); }
+  .tier .eyebrow { margin-bottom: 6px; }
+  .tier.core .eyebrow { color: var(--core); } .tier.watch .eyebrow { color: var(--watch); } .tier.sat .eyebrow { color: var(--sat); }
+  .tier .names { font-family: var(--mono); font-size: 0.9rem; line-height: 1.7; }
+  .tier small { display: block; color: var(--ink-2); font-size: 0.82rem; margin-top: 8px; line-height: 1.45; }
+  .pill { display: inline-block; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 1px 6px; border-radius: 3px; vertical-align: middle; white-space: nowrap; }
+  .pill.core { color: var(--core); background: var(--core-bg); } .pill.watch { color: var(--watch); background: var(--watch-bg); } .pill.sat { color: var(--sat); background: var(--sat-bg); }
+  .tablewrap { overflow-x: auto; margin: 18px 0 8px; border: 1px solid var(--rule); }
+  table { border-collapse: collapse; width: 100%; min-width: 880px; font-size: 0.86rem; line-height: 1.4; }
+  th { text-align: left; font-family: var(--mono); font-weight: 500; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); padding: 10px 10px; border-bottom: 1px solid var(--rule); background: var(--paper-2); position: sticky; top: 0; }
+  td { padding: 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  td.tk { font-family: var(--mono); font-weight: 500; white-space: nowrap; }
+  td.rk { font-family: var(--mono); color: var(--ink-3); white-space: nowrap; }
+  td.up { white-space: nowrap; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .bar { display: block; height: 5px; background: var(--bar-track); margin-top: 5px; width: 96px; }
+  .bar i { display: block; height: 100%; background: var(--core); }
+  .bar.watch i { background: var(--watch); } .bar.sat i { background: var(--sat); }
+  .src { color: var(--ink-3); font-size: 0.8rem; }
+  .callout { border-left: 3px solid var(--core); background: var(--paper-2); padding: 12px 16px; margin: 18px 0; max-width: 68ch; }
+  .callout.warn { border-color: var(--watch); }
+  dl.acct { display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; margin: 14px 0; max-width: 72ch; }
+  dl.acct dt { font-family: var(--mono); font-size: 0.85rem; font-weight: 500; }
+  dl.acct dd { margin: 0; font-size: 0.92rem; color: var(--ink-2); }
+  table.appx { font-size: 0.8rem; min-width: 1100px; }
+  table.appx td { padding: 8px 9px; }
+  .foot { margin-top: 48px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 0.8rem; color: var(--ink-3); max-width: 70ch; }
+  a:focus-visible { outline: 2px solid var(--core); outline-offset: 2px; }
+</style>
+
+<div class="page">
+  <!-- 1. Header. Eyebrow names the corpus probe this follows and the price date. Meta strip carries the 13F vintage. -->
+  <div class="eyebrow">Invest corpus · follow-up to the MONTH Corpus Probe · prices at D Mon YYYY close</div>
+  <h1 style="margin-top:10px">MONTH Runway Probe</h1>
+  <p class="lede">LEDE: which of the N names from the corpus probe still have room to run, judged by the three outside signals.</p>
+  <div class="meta">
+    <span><b>Mandate</b> MANDATE</span>
+    <span><b>Names probed</b> N</span>
+    <span><b>Signals</b> fundamentals · flows and positioning · price and chart · context</span>
+    <span><b>13F vintage</b> positions as of D Mon YYYY</span>
+  </div>
+
+  <!-- 2. Tier cards. -->
+  <div class="tiers">
+    <div class="tier core">
+      <div class="eyebrow">Runway · all four gates</div>
+      <div class="names">TICKERS</div>
+      <small>Upside, flow, insider and delivery gates all pass, and risk to reward is at least 2 to 1. Ranked by score below.</small>
+    </div>
+    <div class="tier watch">
+      <div class="eyebrow">One leg missing</div>
+      <div class="names">TICKERS</div>
+      <small>One gate fails and a dated event resolves it. Each needs that specific thing to happen first.</small>
+    </div>
+    <div class="tier sat">
+      <div class="eyebrow">No runway on the numbers</div>
+      <div class="names">TICKERS</div>
+      <small>Two or more gates fail, price is at or above consensus, or reward does not cover the risk. Hold what you own; do not add for upside.</small>
+    </div>
+  </div>
+
+  <!-- 3. Method. One bullet per signal group; keep the wording, update the 13F vintage. -->
+  <h2>How the signals were read</h2>
+  <ul>
+    <li><b>Fundamentals.</b> The last print against consensus and whether the guide was raised, held or cut; the direction of estimate revisions over 90 days; cash conversion; the twelve-month case as the company states it; share and gross-margin trend against the two nearest competitors.</li>
+    <li><b>Flows and positioning.</b> Open-market Form 4 buys and sells in 90 days, exercises and tax sales excluded; the latest 13F cycle's net share change, holder counts and named funds, dated QUARTER END so N weeks stale; short interest; and how crowded the name is among the corpus accounts, read as a contrarian signal.</li>
+    <li><b>Price and chart.</b> Close against the average, high and low sell-side targets; reward to the average against risk to the nearest anchor; position against the 50-day and 200-day lines, relative strength against the sector, and whether the last print gap held.</li>
+    <li><b>Context.</b> The rate, credit, dollar, oil and factor regime and whether the name's duration fits it; whether the name sits inside a live market theme that is accelerating or fading; dated events in three months.</li>
+  </ul>
+  <div class="callout">
+    <b>Reading rule.</b> Upside alone is not runway. A 60% gap to consensus with the CEO selling, estimates falling and the chart below its 200-day line is a target the Street has not yet lowered. Four gates decide the tier: upside, institutional flow, insider activity and delivery. The score decides the order inside it.
+  </div>
+
+  <!-- 4. Ranked table. Bar width = min(upside,100)%. -->
+  <h2>Runway: the N that pass</h2>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>#</th><th>Name</th><th>Upside · R:R</th><th>Consensus · score</th><th>Institutional flow, Q 13F · short interest</th><th>Insiders, 90d</th><th>What can break it</th></tr></thead>
+      <tbody>
+        <tr><td class="rk">1</td><td class="tk">TICK</td><td class="up">+NN% · N.N:1<span class="bar"><i style="width:NN%"></i></span></td><td>LABEL, N · SCORE; revisions up/flat/down 90d</td><td>FLOW with source</td><td>BUYS or "None. SELLS."</td><td>RISK</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="src">Upside uses the StockAnalysis (S&amp;P Global) average target unless noted; a range means MarketBeat and StockAnalysis disagree. Bars are capped at 100%.</p>
+
+  <!-- 5. Two of three. End each with what must happen first. -->
+  <h2>One leg missing</h2>
+  <dl class="acct">
+    <dt>TICK</dt><dd>SIGNALS THAT PASS. SIGNAL THAT FAILS. What must happen first.</dd>
+  </dl>
+
+  <!-- 6. Grouped by reason. -->
+  <h2>No runway on the numbers</h2>
+  <ul>
+    <li><b>At or above consensus.</b> ...</li>
+    <li><b>Downgrade wave, no insider support.</b> ...</li>
+    <li><b>Upside against insider selling.</b> ...</li>
+    <li><b>Modest either way.</b> ...</li>
+    <li><b>Chart broken or macro shape wrong.</b> ...</li>
+  </ul>
+
+  <!-- 7. Mandate. -->
+  <h2>Fit to the mandate</h2>
+  <p>FITS, with the test they pass.</p>
+  <p>SATELLITE SLEEVE, with why each is capped.</p>
+
+  <!-- 8. Appendix: every input name exactly once. Pill = tier in the corpus probe. -->
+  <h2>All N names</h2>
+  <div class="tablewrap">
+    <table class="appx">
+      <thead><tr><th>Name</th><th>Probe tier</th><th>Price D Mon</th><th>Avg PT</th><th>Upside</th><th>Consensus · score</th><th>Institutional flow · short interest</th><th>Insiders, 90d</th><th>Next dated event</th></tr></thead>
+      <tbody>
+        <tr><td class="tk">TICK</td><td><span class="pill core">core</span></td><td class="num">$0.00</td><td class="num">$0</td><td class="num">+0%</td><td>LABEL, N · SCORE</td><td>FLOW · SI</td><td>INSIDERS</td><td>EVENT</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="src">Probe tier is the MONTH Corpus Probe's placement. MB means MarketBeat. "Not found" means the aggregators were blocked and no second source published the figure.</p>
+
+  <!-- 9. Limits, then three next steps. -->
+  <h2>What this probe cannot tell you</h2>
+  <div class="callout warn">
+    13F VINTAGE SENTENCE. DATA ERRORS EXCLUDED. BLOCKED SOURCES. UNCONFIRMED DATES. Chart reads come from aggregator moving-average distances, not a full price series. Prospect, competition and narrative fit are analyst judgments and are written as such. Targets were not checked against the broker notes themselves.
+  </div>
+  <p>Three things would sharpen the next runway probe: STEP; STEP; and STEP.</p>
+
+  <div class="foot">Sources are SOURCES as fetched on D Mon YYYY, read against the account analyses in data/analysis/accounts. The full scorecard per name is in analysis_output/YYYY-MM-DD-runway-evidence.md. Nothing here is investment advice.</div>
+</div>

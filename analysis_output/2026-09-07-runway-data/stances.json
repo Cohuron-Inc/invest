@@ -1,0 +1,26 @@
+{
+  "QCOM": [],
+  "IONQ": [],
+  "GLD": [],
+  "RKT": [],
+  "AMKR": [
+    {
+      "account": "stocktalkweekly",
+      "direction": "long",
+      "conviction": 0.6,
+      "time_frame": "position",
+      "thesis": "A long-held name he says he has been loud about since well before the window. The bull case is that the prepayment and roadmap alignment with the dominant AI chip vendor are enormous relative to the company's market capitalisation and revenue base, effectively locking in the U.S. advanced-packaging capacity build."
+    }
+  ],
+  "TEM": [
+    {
+      "account": "LogicalThesis",
+      "direction": "long",
+      "conviction": 0.6,
+      "time_frame": "position",
+      "thesis": "TEM bought the MRD asset he had been pounding the table on at what he considered a steal, giving it a legitimate shot at a duopoly with NTRA. On 7/17 he had cut the position because a competing bid looked bad for TEM; the deal terms three days later reversed his view entirely."
+    }
+  ],
+  "PLPC": [],
+  "TPL": []
+}

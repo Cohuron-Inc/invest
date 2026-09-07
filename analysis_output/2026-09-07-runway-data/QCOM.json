@@ -1,0 +1,491 @@
+{
+  "ticker": "QCOM",
+  "probe_tier": null,
+  "fetched_at": "2026-09-07T00:00:00Z",
+  "price": {
+    "close": {
+      "value": 168.74,
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04"
+    },
+    "high_52w": {
+      "value": 259.92,
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04"
+    },
+    "low_52w": {
+      "value": 121.99,
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04"
+    },
+    "drawdown_from_high_pct": {
+      "value": -35.08,
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04"
+    },
+    "sma50_pct": {
+      "value": -0.34,
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04"
+    },
+    "sma200_pct": {
+      "value": 0.54,
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04"
+    },
+    "perf_1m_pct": {
+      "value": 5.21,
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04"
+    },
+    "perf_3m_pct": {
+      "value": -21.86,
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04"
+    },
+    "spy_1m_pct": {
+      "value": 0.21,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "spy_3m_pct": {
+      "value": 4.43,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "sector_etf": {
+      "value": "XLK",
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04"
+    },
+    "sector_1m_pct": {
+      "value": 1.05,
+      "source": "https://finviz.com/quote.ashx?t=XLK",
+      "as_of": "2026-09-04"
+    },
+    "sector_3m_pct": {
+      "value": 3.87,
+      "source": "https://finviz.com/quote.ashx?t=XLK",
+      "as_of": "2026-09-04"
+    },
+    "structure": {
+      "value": "base",
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04",
+      "note": "trading within 1% of both 50- and 200-day SMA after a 35% drawdown from the 52w high; +5.2% over the last month suggests basing/recovery, not a confirmed breakout"
+    },
+    "print_gap_held": {
+      "value": false,
+      "source": "https://stockanalysis.com/stocks/QCOM/history/",
+      "as_of": "2026-08-06",
+      "note": "stock gapped down from $162.88 (Jul 28) to as low as $147.61 (Jul 31) after the Jul 29 print, but by Sep 4 price ($168.74) had recovered above the pre-print close, i.e. the gap did not hold"
+    }
+  },
+  "consensus": {
+    "label": {
+      "value": "Hold",
+      "source": "https://stockanalysis.com/stocks/QCOM/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "analysts": {
+      "value": 37,
+      "source": "https://stockanalysis.com/stocks/QCOM/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "pt_avg": {
+      "value": 193.1,
+      "source": "https://stockanalysis.com/stocks/QCOM/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "pt_high": {
+      "value": 400,
+      "source": "https://stockanalysis.com/stocks/QCOM/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "pt_low": {
+      "value": 100,
+      "source": "https://stockanalysis.com/stocks/QCOM/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "pt_avg_alt": {
+      "value": 203.76,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/forecast/",
+      "as_of": "2026-09-04",
+      "note": "MarketBeat average; differs from StockAnalysis (193.1) by >10 points, both recorded per registry rule"
+    },
+    "upside_avg_pct": {
+      "value": 14.44,
+      "source": "https://stockanalysis.com/stocks/QCOM/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "actions_60d": {
+      "value": [
+        {
+          "date": "2026-08-25",
+          "broker": "Citi",
+          "action": "maintain",
+          "target": 175,
+          "reason": "reiterated Hold rating"
+        },
+        {
+          "date": "2026-08-11",
+          "broker": "BofA Securities",
+          "action": "maintain",
+          "target": 180,
+          "reason": "reiterated Sell/underperform view"
+        },
+        {
+          "date": "2026-08-07",
+          "broker": "Freedom Capital Markets",
+          "action": "upgrade",
+          "target": 200,
+          "reason": "upgraded to Buy"
+        },
+        {
+          "date": "2026-08-05",
+          "broker": "J.P. Morgan",
+          "action": "maintain",
+          "target": 215,
+          "reason": "reiterated Hold/Neutral"
+        },
+        {
+          "date": "2026-07-31",
+          "broker": "Argus Research",
+          "action": "reiterate",
+          "target": 220,
+          "reason": "reiterated Buy after print"
+        }
+      ],
+      "source": "https://stockanalysis.com/stocks/QCOM/forecast/",
+      "as_of": "2026-09-04"
+    }
+  },
+  "earnings": {
+    "print_date": {
+      "value": "2026-07-29",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/earnings/",
+      "as_of": "2026-07-29"
+    },
+    "revenue_actual": {
+      "value": 9950000000,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/earnings/",
+      "as_of": "2026-07-29"
+    },
+    "revenue_estimate": {
+      "value": 9690000000,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/earnings/",
+      "as_of": "2026-07-29"
+    },
+    "eps_actual": {
+      "value": 2.21,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/earnings/",
+      "as_of": "2026-07-29"
+    },
+    "eps_estimate": {
+      "value": 2.23,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/earnings/",
+      "as_of": "2026-07-29"
+    },
+    "guide": {
+      "value": "cut",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/earnings/",
+      "as_of": "2026-07-29"
+    },
+    "guide_detail": {
+      "value": "Q4 FY26 EPS guided $2.05-$2.25 vs consensus $2.23; revenue guided $9.7-$10.5B vs consensus $10.0B midpoint below street",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/earnings/",
+      "as_of": "2026-07-29"
+    },
+    "reaction_day_pct": {
+      "value": -2.62,
+      "source": "https://stockanalysis.com/stocks/QCOM/history/",
+      "as_of": "2026-07-30",
+      "note": "reported AMC Jul 29; first full session reaction is Jul 30 close ($151.60) vs Jul 29 close ($155.68)"
+    },
+    "reaction_5d_pct": {
+      "value": 3.03,
+      "source": "https://stockanalysis.com/stocks/QCOM/history/",
+      "as_of": "2026-08-06",
+      "note": "close 5 sessions after the report (Aug 6, $160.39) vs pre-report close (Jul 29, $155.68)"
+    },
+    "revisions_30d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: Yahoo analysis page for QCOM returned an error/empty state on repeated fetches; no revisions table available"
+    },
+    "revisions_90d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same Yahoo page failure as revisions_30d"
+    },
+    "eps_trend": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: Yahoo EPS Trend table unavailable (page load error); Finviz shows EPS next Q $2.17 and EPS next Y $10.18 but not a historical revision trend"
+    },
+    "fcf_ttm": {
+      "value": 9979000000,
+      "source": "https://stockanalysis.com/stocks/QCOM/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-06-28"
+    },
+    "net_income_ttm": {
+      "value": 13377000000,
+      "source": "https://stockanalysis.com/stocks/QCOM/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-06-28",
+      "note": "cash-flow-statement TTM net income differs from the overview page's TTM net income ($9.26B); overview figure may be a different trailing window (FY vs 4-quarter sum) \u2014 flagging the conflict"
+    },
+    "sbc_pct_revenue": {
+      "value": 7.81,
+      "source": "https://stockanalysis.com/stocks/QCOM/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-06-28",
+      "note": "SBC TTM $3,442M / revenue TTM $44,070M; below the 10% flag threshold in the brief"
+    }
+  },
+  "prospect": {
+    "case": {
+      "value": "The bulls' case: Qualcomm is diversifying past handsets into automotive, IoT and data-center custom silicon, aiming to double non-handset revenue to $40B by FY29, which would materially cut its exposure to smartphone/Apple-modem cyclicality.",
+      "source": "https://futurumgroup.com/insights/qualcomm-q2-fy-2026-earnings-show-data-center-entry-and-auto-strength/",
+      "as_of": "2026-08"
+    },
+    "depends_on": {
+      "value": "QCT automotive revenue sustaining ~38% y/y growth toward the ~$6B annualized exit-rate target and a named hyperscaler data-center silicon design win converting to shipments",
+      "source": "https://futurumgroup.com/insights/qualcomm-q2-fy-2026-earnings-show-data-center-entry-and-auto-strength/",
+      "as_of": "2026-08"
+    },
+    "bear_case": {
+      "value": "Apple in-sourcing its own modem (QCOM's iPhone share falling from ~20% toward 0% by 2027) and handset weakness/memory cost inflation continue to shrink the legacy QCT handset base faster than new segments can offset it",
+      "source": "https://www.foreignpolicyjournal.com/2026/08/28/qualcomm-nasdaq-qcom-stock-price-slides-31-as-costs-hit-now-and-non-handset-growth-remains-years-away/",
+      "as_of": "2026-08-28"
+    },
+    "visibility": {
+      "value": "guided",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/earnings/",
+      "as_of": "2026-07-29"
+    }
+  },
+  "competition": {
+    "peers": {
+      "value": [
+        "AVGO",
+        "MRVL"
+      ],
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04",
+      "note": "Finviz-listed semiconductor peer set; AVGO and MRVL chosen as nearest diversified-semi/wireless comparables since QCOM's direct handset-modem peer (MediaTek) is not US-listed"
+    },
+    "share_trend": {
+      "value": "losing",
+      "source": "https://www.foreignpolicyjournal.com/2026/08/28/qualcomm-nasdaq-qcom-stock-price-slides-31-as-costs-hit-now-and-non-handset-growth-remains-years-away/",
+      "as_of": "2026-08-28",
+      "note": "losing handset-modem share to Apple in-house silicon"
+    },
+    "gross_margin_4q": {
+      "value": [
+        55.34,
+        54.55,
+        53.77,
+        53.05
+      ],
+      "source": "https://stockanalysis.com/stocks/QCOM/financials/?p=quarterly",
+      "as_of": "2026-06-28",
+      "note": "oldest to newest: Q4'25, Q1'26, Q2'26, Q3'26"
+    },
+    "fwd_pe": {
+      "value": 16.57,
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04"
+    },
+    "peer_fwd_pe": {
+      "value": {
+        "AVGO": 18.56,
+        "MRVL": 33.0
+      },
+      "source": "https://finviz.com/quote.ashx?t=AVGO",
+      "as_of": "2026-09-04"
+    },
+    "ev_sales": {
+      "value": 4.25,
+      "source": "https://stockanalysis.com/stocks/QCOM/financials/ratios/?p=quarterly",
+      "as_of": "2026-09-04"
+    },
+    "peer_ev_sales": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: only Price/Sales was available for peers from Finviz (AVGO 19.11, MRVL 20.74), not EV/Sales; not recorded to avoid mixing metrics"
+    },
+    "substitute": {
+      "value": "Apple in-house cellular modem silicon replacing Qualcomm modems in iPhone",
+      "source": "https://www.foreignpolicyjournal.com/2026/08/28/qualcomm-nasdaq-qcom-stock-price-slides-31-as-costs-hit-now-and-non-handset-growth-remains-years-away/",
+      "as_of": "2026-08-28"
+    }
+  },
+  "insiders": {
+    "buys_90d": {
+      "value": [],
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04",
+      "note": "no open-market insider buys shown in the last 90 days; table shows sells only"
+    },
+    "sells_90d": {
+      "value": [
+        {
+          "date": "2026-08-31",
+          "name": "Patricia Grech",
+          "role": "SVP, Chief Accounting Officer",
+          "shares": 208,
+          "price": 170.0,
+          "usd": 35360,
+          "plan_10b5_1": null
+        },
+        {
+          "date": "2026-08-21",
+          "name": "Patricia Grech",
+          "role": "SVP, Chief Accounting Officer",
+          "shares": 625,
+          "price": 162.85,
+          "usd": 101781,
+          "plan_10b5_1": null
+        },
+        {
+          "date": "2026-08-12",
+          "name": "Akash Palkhiwala",
+          "role": "EVP, CFO & COO",
+          "shares": 2500,
+          "price": 163.26,
+          "usd": 408143,
+          "plan_10b5_1": null
+        },
+        {
+          "date": "2026-08-03",
+          "name": "Heather Ace",
+          "role": "EVP, Chief HR Officer",
+          "shares": 3200,
+          "price": 147.04,
+          "usd": 470528,
+          "plan_10b5_1": null
+        },
+        {
+          "date": "2026-07-14",
+          "name": "Akash Palkhiwala",
+          "role": "EVP, CFO & COO",
+          "shares": 2500,
+          "price": 180.81,
+          "usd": 452030,
+          "plan_10b5_1": null
+        }
+      ],
+      "source": "https://finviz.com/quote.ashx?t=QCOM",
+      "as_of": "2026-09-04",
+      "note": "Finviz table does not flag 10b5-1 status; not verified against individual Form 4s given fetch budget"
+    }
+  },
+  "institutions": {
+    "quarter_end": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: MarketBeat institutional-ownership page did not state a 13F quarter-end date; it gave a trailing-12-month buyer/seller count instead"
+    },
+    "net_shares": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: MarketBeat page gave dollar inflow/outflow totals only (excluded per registry rule, CalSTRS row corrupts them), no net share count"
+    },
+    "holders_up": {
+      "value": 1863,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/institutional-ownership/",
+      "as_of": "2026-09-04",
+      "note": "MarketBeat's trailing-12-month institutional buyer count, used as closest proxy to holders-increasing since no quarter-over-quarter 13F table was available"
+    },
+    "holders_down": {
+      "value": 1510,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/institutional-ownership/",
+      "as_of": "2026-09-04"
+    },
+    "holders_new": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found on MarketBeat page"
+    },
+    "holders_exited": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found on MarketBeat page"
+    },
+    "named_adds": {
+      "value": [
+        {
+          "fund": "Amundi",
+          "change_pct": 94.1,
+          "shares": 10195741
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/institutional-ownership/",
+      "as_of": "2026-09-04",
+      "note": "California State Teachers Retirement System row (+18,251.8%) excluded per registry rule \u2014 treated as a data artifact, not a genuine add"
+    },
+    "named_exits": {
+      "value": [
+        {
+          "fund": "HORAN Wealth LLC",
+          "change_pct": -96.9
+        },
+        {
+          "fund": "Live Oak Private Wealth LLC",
+          "change_pct": -92.7
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/institutional-ownership/",
+      "as_of": "2026-09-04",
+      "note": "share counts not given for these rows, % change only"
+    },
+    "short_pct_float": {
+      "value": 3.17,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/short-interest/",
+      "as_of": "2026-08-14"
+    },
+    "days_to_cover": {
+      "value": 3.6,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/short-interest/",
+      "as_of": "2026-08-14"
+    },
+    "short_as_of": {
+      "value": "2026-08-14",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/short-interest/",
+      "as_of": "2026-08-14"
+    }
+  },
+  "catalysts": {
+    "value": [
+      {
+        "date": "2026-11-04",
+        "event": "Q4 FY26 earnings",
+        "confirmed": false
+      }
+    ],
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/QCOM/earnings/",
+    "as_of": "2026-09-04"
+  },
+  "why_it_fell": {
+    "value": "Down 35% from its May 2026 high on handset weakness (handset revenue -20% y/y on OEM inventory drawdown and memory cost inflation), Apple's accelerating in-house modem transition (QCOM iPhone modem share falling from ~20% toward zero by 2027), and a cut to Q4 FY26 guidance below consensus on both revenue and EPS at the Jul 29 print.",
+    "source": "https://www.foreignpolicyjournal.com/2026/08/28/qualcomm-nasdaq-qcom-stock-price-slides-31-as-costs-hit-now-and-non-handset-growth-remains-years-away/",
+    "as_of": "2026-08-28"
+  },
+  "judgment": {
+    "prospect_pts": 4,
+    "prospect_why": "The case is that automotive and IoT and a data-centre win offset the loss of the Apple modem, and it depends on the $6B auto exit-rate; the offset is guided but the loss is contractual and dated to roughly zero share by 2027, so the negative is more certain than the positive.",
+    "competition_pts": 3,
+    "competition_why": "Gross margin narrowed from 55.3% to 53.1% over four quarters while its largest customer designs it out, which is the losing-share pattern; the offset is that at 16.6x forward it is cheaper than AVGO at 18.6x and MRVL at 33.0x.",
+    "macro_fit_pts": 6,
+    "macro_fit_why": "This is the regime's preferred shape: $9,979M of TTM free cash flow at 16.6x forward earnings gives a visible cash-flow yield that clears the 5.37% single-A hurdle, and value led all factors over one and three months.",
+    "narrative_pts": 4,
+    "narrative_why": "It is a semiconductor company the market does not count as an AI winner but as a handset company being disintermediated, so it sits outside the accelerating themes and moves on its own numbers."
+  }
+}

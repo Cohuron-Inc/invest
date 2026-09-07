@@ -6,7 +6,7 @@ import { writeParquet, SCHEMA_VERSION } from '../../normalize/parquet.js'
 import { activeTags, loadEnums, taxonomyVersion } from '../../lib/config.js'
 import { sha256, sha256Canonical } from '../../lib/hash.js'
 import { log, ghError } from '../../lib/log.js'
-import { SESSION_PROMPT_VERSION, buildSpec } from './dump.js'
+import { SESSION_PROMPT_VERSION, buildSpec, type SessionWindow } from './dump.js'
 import { PICK_COLUMNS, PICK_TAG_COLUMNS } from '../index.js'
 
 /**
@@ -127,6 +127,19 @@ export async function ingestSession(opts: { inDir?: string; check?: boolean } = 
   if (!existsSync(inDir)) throw new Error(`no subagent output at ${inDir}`)
 
   const connection = await connect({ data: root })
+  // The window is whatever the dump handed the subagents. Fall back to the
+  // corpus span only for output produced before WINDOW.json existed.
+  const windowPath = join(inDir, '..', 'WINDOW.json')
+  let window: Pick<SessionWindow, 'window_start' | 'window_end'>
+  if (existsSync(windowPath)) {
+    window = JSON.parse(readFileSync(windowPath, 'utf8')) as SessionWindow
+  } else {
+    const span = (await rows(connection, `
+      SELECT min(trading_day)::VARCHAR AS lo, max(trading_day)::VARCHAR AS hi
+        FROM posts_v WHERE post_type <> 'retweet'`))[0]
+    window = { window_start: String(span?.['lo']), window_end: String(span?.['hi']) }
+    log.warn('session.ingest.window_inferred', window)
+  }
   const corpus = new Map<string, { text: string; author: string }>()
   for (const r of await rows(connection, `
     SELECT post_id, author_username, COALESCE(full_text, text) AS text
@@ -160,7 +173,7 @@ export async function ingestSession(opts: { inDir?: string; check?: boolean } = 
     writeFileSync(
       join(root, `analysis/accounts/${analysis.account}.json`),
       JSON.stringify({
-        window_start: '2026-07-07', window_end: '2026-09-06',
+        window_start: window.window_start, window_end: window.window_end,
         model, prompt_version: SESSION_PROMPT_VERSION, spec_sha256: specHash,
         taxonomy_version: taxonomy, extracted_at: new Date().toISOString(),
         ...analysis,

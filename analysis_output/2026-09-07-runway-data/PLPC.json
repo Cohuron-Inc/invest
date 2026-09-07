@@ -1,0 +1,453 @@
+{
+  "ticker": "PLPC",
+  "probe_tier": null,
+  "fetched_at": "2026-09-07T00:00:00Z",
+  "price": {
+    "close": {
+      "value": 398.45,
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04"
+    },
+    "high_52w": {
+      "value": 504.69,
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04"
+    },
+    "low_52w": {
+      "value": 184.02,
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04"
+    },
+    "drawdown_from_high_pct": {
+      "value": -21.05,
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04"
+    },
+    "sma50_pct": {
+      "value": 2.95,
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04"
+    },
+    "sma200_pct": {
+      "value": 28.93,
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04"
+    },
+    "perf_1m_pct": {
+      "value": -13.52,
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04"
+    },
+    "perf_3m_pct": {
+      "value": 9.76,
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04"
+    },
+    "spy_1m_pct": {
+      "value": 0.21,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "spy_3m_pct": {
+      "value": 4.43,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "sector_etf": {
+      "value": "XLI",
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04",
+      "note": "Industrials / Electrical Equipment & Parts"
+    },
+    "sector_1m_pct": {
+      "value": -5.14,
+      "source": "https://finviz.com/quote.ashx?t=XLI",
+      "as_of": "2026-09-04"
+    },
+    "sector_3m_pct": {
+      "value": 0.63,
+      "source": "https://finviz.com/quote.ashx?t=XLI",
+      "as_of": "2026-09-04"
+    },
+    "structure": {
+      "value": "base",
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04",
+      "note": "pulling back (-13.5% 1m, -6.8% below SMA20) after a post-earnings spike, but still well above SMA50/SMA200"
+    },
+    "print_gap_held": {
+      "value": true,
+      "source": "https://stockanalysis.com/stocks/plpc/history/",
+      "as_of": "2026-08-05"
+    }
+  },
+  "consensus": {
+    "label": {
+      "value": "Strong Buy",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/forecast/",
+      "as_of": "2026-09-07"
+    },
+    "analysts": {
+      "value": 2,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/forecast/",
+      "as_of": "2026-09-07"
+    },
+    "pt_avg": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: StockAnalysis has no /forecast/ page for PLPC (404) \u2014 too thin coverage for its consensus product"
+    },
+    "pt_high": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same as pt_avg"
+    },
+    "pt_low": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same as pt_avg"
+    },
+    "pt_avg_alt": {
+      "value": 275.0,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/forecast/",
+      "as_of": "2026-09-07",
+      "note": "single effective target (2 analysts, both near $275) set by Loop Capital 2026-03-09, well before the Q2 beat and the subsequent rally \u2014 MarketBeat's own page shows this as implied downside of -30.98% from the current $398.45 price. Treat as stale/lagging, not a live target"
+    },
+    "actions_60d": {
+      "value": [
+        {
+          "date": "2026-08-04",
+          "broker": "Freedom Capital",
+          "action": "upgrade",
+          "target": null,
+          "reason": "upgraded to Strong Buy from Hold following the Q2 beat"
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/forecast/",
+      "as_of": "2026-09-07",
+      "note": "Weiss Ratings 9/4/2026 upgrade excluded per brief (Weiss is excluded); Loop Capital's $275 target set 2026-03-09 is outside the 60-day window"
+    }
+  },
+  "earnings": {
+    "print_date": {
+      "value": "2026-07-29",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+      "as_of": "2026-07-29"
+    },
+    "revenue_actual": {
+      "value": 212.68,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+      "as_of": "2026-07-29",
+      "note": "USD millions"
+    },
+    "revenue_estimate": {
+      "value": 193.0,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+      "as_of": "2026-07-29",
+      "note": "USD millions"
+    },
+    "eps_actual": {
+      "value": 4.49,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+      "as_of": "2026-07-29"
+    },
+    "eps_estimate": {
+      "value": 2.41,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+      "as_of": "2026-07-29"
+    },
+    "guide": {
+      "value": "none",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/preformed-line-products-announces-record-201500350.html",
+      "as_of": "2026-07-29",
+      "note": "PLPC does not issue formal forward financial guidance"
+    },
+    "guide_detail": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: company does not guide"
+    },
+    "reaction_day_pct": {
+      "value": 29.96,
+      "source": "https://stockanalysis.com/stocks/plpc/history/",
+      "as_of": "2026-07-30",
+      "note": "print was AMC 7/29; reaction measured close 7/29 ($283.51) to close 7/30 ($368.46)"
+    },
+    "reaction_5d_pct": {
+      "value": 66.2,
+      "source": "https://stockanalysis.com/stocks/plpc/history/",
+      "as_of": "2026-08-05",
+      "note": "close 7/29 ($283.51) to close 5 sessions later 8/5 ($471.29)"
+    },
+    "revisions_30d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: Yahoo analysis page returned 503; StockAnalysis has no forecast/estimates page for PLPC"
+    },
+    "revisions_90d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same as revisions_30d"
+    },
+    "eps_trend": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: no EPS trend table available for this thinly-covered name"
+    },
+    "fcf_ttm": {
+      "value": 34.42,
+      "source": "https://stockanalysis.com/stocks/plpc/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "USD millions, TTM through Q2 2026"
+    },
+    "net_income_ttm": {
+      "value": 43.1,
+      "source": "https://stockanalysis.com/stocks/plpc/financials/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "USD millions, TTM through Q2 2026"
+    },
+    "sbc_pct_revenue": {
+      "value": 0.96,
+      "source": "https://stockanalysis.com/stocks/plpc/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "TTM SBC $7.09M / TTM revenue $740.16M; well below the 10% flag threshold"
+    }
+  },
+  "prospect": {
+    "case": {
+      "value": "As the bulls (Freedom Capital's August upgrade, Seeking Alpha's 'underfollowed grid hardware winner' thesis) frame it, PLPC is a small-cap beneficiary of a multi-year, ~$1.4 trillion utility transmission-and-distribution capex cycle, riding record USA energy-market demand for line hardware.",
+      "source": "https://seekingalpha.com/article/4938617-preformed-line-products-the-grid-buildouts-underfollowed-hardware-winner",
+      "as_of": "2026-09-07"
+    },
+    "depends_on": {
+      "value": "Continued double-digit growth in USA energy-market sales (Q2 2026 USA sales +32% y/y) and gross margin holding near the 34% record set in Q2 2026 as utility grid capex scales.",
+      "source": "https://www.stocktitan.net/news/PLPC/preformed-line-products-announces-record-second-quarter-2026-9zu693uf3ae8.html",
+      "as_of": "2026-07-29"
+    },
+    "bear_case": {
+      "value": "Analyst coverage is just two names and the only posted price target ($275, set in March 2026 before the Q2 beat) implies roughly 31% downside from the current price; the stock is already up over 100% in a year and pulled back 13.5% in the past month, suggesting much of the grid-buildout story is priced in.",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/forecast/",
+      "as_of": "2026-09-07"
+    },
+    "visibility": {
+      "value": "reported",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+      "as_of": "2026-07-29",
+      "note": "no formal guidance issued; thesis rests on trailing reported results, not company guidance"
+    }
+  },
+  "competition": {
+    "peers": {
+      "value": [
+        "HUBB",
+        "MacLean Power Systems (private)"
+      ],
+      "source": "https://umbrex.com/resources/company-profiles/preformed-line-products/",
+      "as_of": "2026-09-07",
+      "note": "Hubbell Power Systems division and MacLean Power Systems are the two nearest named competitors in utility line hardware; MacLean is privately held, no public financials"
+    },
+    "share_trend": {
+      "value": "unknown",
+      "source": null,
+      "as_of": null,
+      "note": "not found: no source states PLPC's market-share trajectory vs peers"
+    },
+    "gross_margin_4q": {
+      "value": [
+        29.68,
+        29.82,
+        31.33,
+        34.33
+      ],
+      "source": "https://stockanalysis.com/stocks/plpc/financials/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "Q3 2025, Q4 2025, Q1 2026, Q2 2026 in order"
+    },
+    "fwd_pe": {
+      "value": 27.94,
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04"
+    },
+    "peer_fwd_pe": {
+      "value": {
+        "HUBB": 21.23
+      },
+      "source": "https://stockanalysis.com/stocks/hubb/statistics/",
+      "as_of": "2026-09-07",
+      "note": "MacLean Power Systems is private, no comparable figure"
+    },
+    "ev_sales": {
+      "value": 2.6,
+      "source": "https://stockanalysis.com/stocks/plpc/financials/ratios/?p=quarterly",
+      "as_of": "2026-09-04"
+    },
+    "peer_ev_sales": {
+      "value": {
+        "HUBB": 4.74
+      },
+      "source": "https://stockanalysis.com/stocks/hubb/statistics/",
+      "as_of": "2026-09-07"
+    },
+    "substitute": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: no source names a specific substitute technology or new entrant threatening PLPC's line hardware franchise"
+    }
+  },
+  "insiders": {
+    "buys_90d": {
+      "value": [],
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04",
+      "note": "no open-market insider buys in the Finviz table within the last 90 days; entries shown are option exercises (excluded) or sales"
+    },
+    "sells_90d": {
+      "value": [
+        {
+          "date": "2026-08-19",
+          "name": "Randall M Ruhlman",
+          "role": "10% Owner",
+          "shares": 10000,
+          "price": 444.76,
+          "usd": 4447600,
+          "plan_10b5_1": false,
+          "note": "listed as 'Proposed Sale' (Form 144)"
+        },
+        {
+          "date": "2026-08-05",
+          "name": "Glen E Corlett",
+          "role": "Director",
+          "shares": 2000,
+          "price": 457.02,
+          "usd": 914040,
+          "plan_10b5_1": false
+        }
+      ],
+      "source": "https://finviz.com/quote.ashx?t=PLPC",
+      "as_of": "2026-09-04",
+      "note": "Finviz does not flag 10b5-1 status; assumed not stated rather than confirmed absent"
+    }
+  },
+  "institutions": {
+    "quarter_end": {
+      "value": "2026-06-30",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+      "as_of": "2026-09-07"
+    },
+    "net_shares": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: MarketBeat gives dollar net flow only, which is corrupted by a CalSTRS outlier row (see named_adds note); dollar totals excluded per registry guidance and no clean share-based net figure was available"
+    },
+    "holders_up": {
+      "value": 89,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+      "as_of": "2026-09-07"
+    },
+    "holders_down": {
+      "value": 35,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+      "as_of": "2026-09-07"
+    },
+    "holders_new": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: MarketBeat page did not separately break out new vs. added-to positions"
+    },
+    "holders_exited": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: MarketBeat page did not separately break out exited vs. reduced positions"
+    },
+    "named_adds": {
+      "value": [
+        {
+          "fund": "Wasatch Advisors LP",
+          "change_pct": 234.3,
+          "shares": 377367
+        },
+        {
+          "fund": "Millennium Management LLC",
+          "change_pct": 303.7,
+          "shares": 19470
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "California State Teachers Retirement System (+49,022.6%) excluded as the CalSTRS-type corrupted outlier row per registry guidance"
+    },
+    "named_exits": {
+      "value": [
+        {
+          "fund": "Renaissance Technologies LLC",
+          "change_pct": -30.7
+        },
+        {
+          "fund": "HSBC Holdings PLC",
+          "change_pct": -64.9
+        },
+        {
+          "fund": "Dimensional Fund Advisors LP",
+          "change_pct": -7.4
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "these are reductions, not full exits; MarketBeat did not label any as fully exited"
+    },
+    "short_pct_float": {
+      "value": 5.03,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/short-interest/",
+      "as_of": "2026-08-14"
+    },
+    "days_to_cover": {
+      "value": 1.3,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/short-interest/",
+      "as_of": "2026-08-14"
+    },
+    "short_as_of": {
+      "value": "2026-08-14",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/short-interest/",
+      "as_of": "2026-08-14"
+    }
+  },
+  "catalysts": {
+    "value": [
+      {
+        "date": "2026-10-28",
+        "event": "Q3 2026 earnings (before market open)",
+        "confirmed": false
+      }
+    ],
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+    "as_of": "2026-09-07",
+    "note": "aggregator estimate, not company-confirmed"
+  },
+  "why_it_fell": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not applicable: drawdown from 52w high is -21.05%, below the -30% threshold for this field"
+  },
+  "judgment": {
+    "prospect_pts": 7,
+    "prospect_why": "The case is that grid and utility capex pulls a small, underfollowed hardware maker along with it; the driver is already in the last print, revenue $212.7M vs $193M and EPS $4.49 vs $2.41 with gross margin up 29.7% to 34.3% over four quarters, so this is reported rather than guided or story.",
+    "competition_pts": 6,
+    "competition_why": "Gross margin widening while revenue grows is the cleanest moat evidence in the set; the nearest listed peer HUBB trades at 21.2x forward and the second, MacLean Power, is private so share data is unavailable, which is why this is 6 and not 7.",
+    "macro_fit_pts": 5,
+    "macro_fit_why": "Cash-generative industrial with 0.80x cash conversion fits a plateau regime and value leadership, but it is a small cap and small caps trailed large over the last month with a hike live for 16 September; XLI is up only 0.63% over three months.",
+    "narrative_pts": 5,
+    "narrative_why": "The case is grid buildout adjacency to the AI-power theme, but no account in the corpus mentions it and it is not a named theme stock, so it moves on its own numbers, which is safer and slower."
+  }
+}

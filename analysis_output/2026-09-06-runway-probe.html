@@ -1,0 +1,213 @@
+<title>September Runway Probe</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper: #F4F6F8; --paper-2: #EAEEF2; --ink: #17222E; --ink-2: #4A5866; --ink-3: #7B8794; --rule: #CDD5DD;
+    --core: #1F6F62; --core-bg: #DFEEEA; --watch: #A8731A; --watch-bg: #F3E8D2; --sat: #A3463A; --sat-bg: #F2DDD9;
+    --bar-track: #DCE2E8;
+    --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+      --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+      --bar-track: #243039;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+    --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+    --bar-track: #243039;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.55; margin: 0; }
+  .page { max-width: 76ch; margin: 0 auto; padding: 40px 24px 96px; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+  h1 { font-size: 2.35rem; line-height: 1.1; }
+  h2 { font-size: 1.45rem; line-height: 1.2; margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1.1rem; margin-top: 28px; }
+  p { margin: 12px 0; max-width: 68ch; }
+  .eyebrow { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+  .lede { font-size: 1.1rem; color: var(--ink-2); max-width: 64ch; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 18px; font-family: var(--mono); font-size: 0.78rem; color: var(--ink-3); }
+  .meta b { color: var(--ink-2); font-weight: 500; }
+  ul, ol { padding-left: 22px; margin: 10px 0; max-width: 68ch; }
+  li { margin: 6px 0; }
+  li b, p b { font-weight: 600; }
+  .t { font-family: var(--mono); font-weight: 500; font-size: 0.92em; }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 0.92em; }
+  .tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 24px; }
+  @media (max-width: 640px) { .tiers { grid-template-columns: 1fr; } }
+  .tier { padding: 14px 16px 16px; border-top: 3px solid; background: var(--paper-2); }
+  .tier.core { border-color: var(--core); } .tier.watch { border-color: var(--watch); } .tier.sat { border-color: var(--sat); }
+  .tier .eyebrow { margin-bottom: 6px; }
+  .tier.core .eyebrow { color: var(--core); } .tier.watch .eyebrow { color: var(--watch); } .tier.sat .eyebrow { color: var(--sat); }
+  .tier .names { font-family: var(--mono); font-size: 0.9rem; line-height: 1.7; }
+  .tier small { display: block; color: var(--ink-2); font-size: 0.82rem; margin-top: 8px; line-height: 1.45; }
+  .pill { display: inline-block; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 1px 6px; border-radius: 3px; vertical-align: middle; white-space: nowrap; }
+  .pill.core { color: var(--core); background: var(--core-bg); } .pill.watch { color: var(--watch); background: var(--watch-bg); } .pill.sat { color: var(--sat); background: var(--sat-bg); }
+  .tablewrap { overflow-x: auto; margin: 18px 0 8px; border: 1px solid var(--rule); }
+  table { border-collapse: collapse; width: 100%; min-width: 880px; font-size: 0.86rem; line-height: 1.4; }
+  th { text-align: left; font-family: var(--mono); font-weight: 500; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); padding: 10px 10px; border-bottom: 1px solid var(--rule); background: var(--paper-2); position: sticky; top: 0; }
+  td { padding: 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  td.tk { font-family: var(--mono); font-weight: 500; white-space: nowrap; }
+  td.rk { font-family: var(--mono); color: var(--ink-3); white-space: nowrap; }
+  td.up { white-space: nowrap; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .bar { display: block; height: 5px; background: var(--bar-track); margin-top: 5px; width: 96px; }
+  .bar i { display: block; height: 100%; background: var(--core); }
+  .bar.watch i { background: var(--watch); } .bar.sat i { background: var(--sat); }
+  .src { color: var(--ink-3); font-size: 0.8rem; }
+  .callout { border-left: 3px solid var(--core); background: var(--paper-2); padding: 12px 16px; margin: 18px 0; max-width: 68ch; }
+  .callout.warn { border-color: var(--watch); }
+  dl.acct { display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; margin: 14px 0; max-width: 72ch; }
+  dl.acct dt { font-family: var(--mono); font-size: 0.85rem; font-weight: 500; }
+  dl.acct dd { margin: 0; font-size: 0.92rem; color: var(--ink-2); }
+  table.appx { font-size: 0.8rem; min-width: 1100px; }
+  table.appx td { padding: 8px 9px; }
+  .foot { margin-top: 48px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 0.8rem; color: var(--ink-3); max-width: 70ch; }
+  a:focus-visible { outline: 2px solid var(--core); outline-offset: 2px; }
+</style>
+
+<div class="page">
+  <div class="eyebrow">Invest corpus · follow-up to the September Corpus Probe · prices at 4 Sep 2026 close</div>
+  <h1 style="margin-top:10px">September Runway Probe</h1>
+  <p class="lede">Which of the 37 names from the September Corpus Probe still have room to run, judged by three outside signals the corpus cannot supply: sell-side consensus targets, Q2 2026 13F institutional flow, and open-market insider buying.</p>
+  <div class="meta">
+    <span><b>Mandate</b> high return, medium-to-low risk, 1 to 3 years</span>
+    <span><b>Names probed</b> 37</span>
+    <span><b>Signals</b> consensus upside · 13F flow · insider buys (90d)</span>
+    <span><b>13F vintage</b> positions as of 30 Jun 2026</span>
+  </div>
+
+  <div class="tiers">
+    <div class="tier core">
+      <div class="eyebrow">Runway · all three signals</div>
+      <div class="names">VST · AVGO · RKLB · KURA · ASTS · NBIS · GOOGL · AMZN · SNOW · KLAR</div>
+      <small>Consensus upside above 20%, institutions net adding, and either insiders buying or no insider selling of note. Ranked below.</small>
+    </div>
+    <div class="tier watch">
+      <div class="eyebrow">One leg missing</div>
+      <div class="names">BABA · ORCL · APTV · BSX · MU · PANW · DT · UNH · META · STLN</div>
+      <small>Real upside on one or two signals, contradicted or unconfirmed by the third. Each needs a specific thing to happen first.</small>
+    </div>
+    <div class="tier sat">
+      <div class="eyebrow">No runway on the numbers</div>
+      <div class="names">PFE · CRM · NVO · DELL · ELV · WGS · TSLA · OSCR · HIMS · MITK · FLUT · AMRZ · CSGP · SE · CRDO · ELAN</div>
+      <small>Price already at or above consensus, a downgrade wave, or insiders selling into the story. Hold what you own; do not add for upside.</small>
+    </div>
+  </div>
+
+  <h2>How the three signals were read</h2>
+  <ul>
+    <li><b>Analyst comment.</b> Average 12-month target against the 4 Sep close, the number of analysts behind it, and every rating or target change in the last 60 days. Only sell-side; X commentators' own targets were ignored.</li>
+    <li><b>Institutional buying.</b> Net share change across Q2 2026 13F filings where an aggregator published it, otherwise the count of holders increasing versus decreasing and named funds that moved. Positions are dated 30 June, so two months stale.</li>
+    <li><b>Insider buying.</b> Open-market Form 4 purchases in the last 90 days. Option exercises and tax sales excluded. Selling is recorded because it argues against runway.</li>
+  </ul>
+  <div class="callout">
+    <b>Reading rule.</b> Upside alone is not runway. A 60% gap to consensus with the CEO selling and funds cutting is a target the Street has not yet lowered. The names ranked first are the ones where the people with the most information are on the same side as the targets.
+  </div>
+
+  <h2>Runway: the ten that pass</h2>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>#</th><th>Name</th><th>Upside to avg PT</th><th>Consensus</th><th>Institutional flow, Q2 13F</th><th>Insider buys, 90d</th><th>What can break it</th></tr></thead>
+      <tbody>
+        <tr><td class="rk">1</td><td class="tk">VST</td><td class="up">+46%<span class="bar"><i style="width:46%"></i></span></td><td>Strong Buy, 20 of 20</td><td>Net buyers, 832 up vs 672 down. Goldman +42%, Appaloosa, Thiel Macro adding.</td><td>CEO bought three times, about $1.2M, 24 Aug to 1 Sep.</td><td>IPP sector de-rating; ERCOT forward curve; Q2 revenue miss on hedge marks.</td></tr>
+        <tr><td class="rk">2</td><td class="tk">AVGO</td><td class="up">+49%<span class="bar"><i style="width:49%"></i></span></td><td>Strong Buy, 49</td><td>Net +150M shares, 3,689 up vs 2,832 down. Strongest verified flow in the set.</td><td>None. Seven sells, $46.5M.</td><td>Q4 guide light of consensus; Macquarie downgrade on MediaTek entering TPU supply.</td></tr>
+        <tr><td class="rk">3</td><td class="tk">RKLB</td><td class="up">+69%<span class="bar"><i style="width:69%"></i></span></td><td>Moderate Buy, 23</td><td>Net +26.5%, 1,105 up vs 352 down, 394 new holders. Berenberg Buy $83 on 2 Sep.</td><td>None. CEO sold about $286M in July; CFO $8.8M on 2 Sep.</td><td>Iridium vote 24 Sep on an $8B deal; Neutron slips; -57% from high already.</td></tr>
+        <tr><td class="rk">4</td><td class="tk">KURA</td><td class="up">+92 to 141%<span class="bar"><i style="width:100%"></i></span></td><td>Strong Buy, 15</td><td>Buyers 118 vs sellers 56 over 12 months. CalSTRS +968%.</td><td>CEO $2.35M in two lots, 17 and 24 Aug.</td><td>Single approved product; no dated readout in three months; biotech beta.</td></tr>
+        <tr><td class="rk">5</td><td class="tk">ASTS</td><td class="up">+26 to 39%<span class="bar"><i style="width:39%"></i></span></td><td>Hold, 13</td><td>Net +14%, 779 up vs 221 down. Vanguard +2.7M.</td><td>Director $619K on 31 Aug. CFO and CTO sold $8M in June.</td><td>Consensus is only Hold; 18.7% short interest cuts both ways; BlueBird launch dates.</td></tr>
+        <tr><td class="rk">6</td><td class="tk">NBIS</td><td class="up">0 to +27%<span class="bar"><i style="width:27%"></i></span></td><td>Split: avg $226 vs $287</td><td>Net +51%, the heaviest accumulation of the 37. Soros new $86M, JPMorgan +297%.</td><td>None. $170M sold over 12 months, incl. CEO $11M.</td><td>Target dispersion from $144 to $415; 22% short interest; earnings date unconfirmed.</td></tr>
+        <tr><td class="rk">7</td><td class="tk">GOOGL</td><td class="up">+27%<span class="bar"><i style="width:27%"></i></span></td><td>Strong Buy, 63</td><td>Inflows $124B vs outflows $73B. Berkshire +45% and JPMorgan +92M reported but unverified.</td><td>None. $210M sold over 12 months.</td><td>Capex guide; ad-tech final judgment due 2 Oct.</td></tr>
+        <tr><td class="rk">8</td><td class="tk">AMZN</td><td class="up">+27%<span class="bar"><i style="width:27%"></i></span></td><td>Strong Buy, 61</td><td>Viking, Duquesne, Renaissance, Appaloosa, Baupost all added. Bridgewater and Pershing cut.</td><td>None. 10b5-1 sells 21 Aug.</td><td>Q3 print date conflicts, 22 or 29 Oct; capex.</td></tr>
+        <tr><td class="rk">9</td><td class="tk">SNOW</td><td class="up">+22%<span class="bar"><i style="width:22%"></i></span></td><td>Strong Buy, 45</td><td>Hedge funds net +2.6M. Soros +186%, Moore new. Ten targets raised to $425 to 525 after the print.</td><td>None. Slootman sold about 1M shares.</td><td>FCF missed last print; the sell-off on print day.</td></tr>
+        <tr><td class="rk">10</td><td class="tk">KLAR</td><td class="up">+39%<span class="bar"><i style="width:39%"></i></span></td><td>Buy, 23 (MarketBeat: Hold)</td><td>BlackRock +90%, Renaissance +174%, 149 buyers vs 14 sellers.</td><td>CEO $9.95M on 26 Aug, the first insider trade since listing.</td><td>Guidance cut on 18 Aug, seven downgrades, Q3 guide below consensus. Contrarian.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="src">Upside uses the StockAnalysis (S&amp;P Global) average target unless noted; a range means MarketBeat and StockAnalysis disagree. Bars are capped at 100%.</p>
+
+  <h2>One leg missing</h2>
+  <dl class="acct">
+    <dt>BABA</dt><dd>+67% to consensus and the chairman and CEO bought about $15M on 24 and 25 Aug right after the placement. Institutions were net sellers over 12 months, $33B out against $8B in. Needs the 13F to turn.</dd>
+    <dt>ORCL</dt><dd>+53 to 65%, 44 Buys, Jefferies and Bernstein above $290. Zero insider buys, a $64M vice-chairman sale, and FQ1 on 10 Sep is a binary print. Wait for it.</dd>
+    <dt>APTV</dt><dd>Second-largest insider cluster, $8.25M led by a director's $5M and the CEO's $2.5M. +39% upside. But targets were cut in August after the outlook reduction and 13F flow was not found.</dd>
+    <dt>BSX</dt><dd>CEO $9M on 3 Aug, first buy in over eleven years, and +31% upside. Institutions were net sellers, 705 up vs 947 down, and the 25 Aug cyberattack recovery is unresolved. Q3 on 28 Oct.</dd>
+    <dt>MU</dt><dd>+27 to 49%, three initiations at Buy in August and September. Insiders sold about $183M in three months and Amundi cut 27%. The most crowded name here.</dd>
+    <dt>PANW</dt><dd>Hedge funds net +5.0M, nine targets raised after FQ4. Upside only +16% and no insider buy since March.</dd>
+    <dt>DT</dt><dd>Morgan Stanley upgrade to $65, Wellington +2.2M, Baron new. Upside +14%. Steady, not a runway.</dd>
+    <dt>UNH</dt><dd>+15 to 20% with heavy inflows, but Erste says the re-rating is complete and the stock gave back the post-Q2 pop. Star Ratings in mid-October decide it.</dd>
+    <dt>META</dt><dd>Strong Buy from 62 analysts, +22 to 27%. Three officers sold $18M and no one bought. The FCF argument from the corpus is unresolved.</dd>
+    <dt>STLN</dt><dd>+52% on five analysts, Nuveen and Marshall Wace added, a 10% owner bought $78K. Too small for the mandate; a former CEO sold $1.95M.</dd>
+  </dl>
+
+  <h2>No runway on the numbers</h2>
+  <ul>
+    <li><b>At or above consensus.</b> <span class="t">PFE</span> +1%, <span class="t">NVO</span> +1% with a Deutsche downgrade to Sell, <span class="t">CRM</span> +4%, <span class="t">WGS</span> +4%, <span class="t">DELL</span> +8%, <span class="t">ELV</span> +10%, <span class="t">TSLA</span> +10 to 13% at Hold. <span class="t">OSCR</span> trades 19% above its average target while the CEO sold $71M.</li>
+    <li><b>Downgrade wave, no insider support.</b> <span class="t">FLUT</span> +39% but net institutional sellers, Tiger Global and Sands exited, and no insider buy in 90 days. <span class="t">AMRZ</span> and <span class="t">CSGP</span> both carry CEO buys but took downgrades in the last three weeks, BofA to Underperform on AMRZ and Citi to Neutral on CSGP.</li>
+    <li><b>Upside against insider selling.</b> <span class="t">SE</span> +33% with the CEO selling $137M on 11 Aug. <span class="t">CRDO</span> +57% after a 29% weekly drop, hedge funds net negative, insiders $101M out.</li>
+    <li><b>Modest either way.</b> <span class="t">HIMS</span> +16% at Hold with an FDA compounded-GLP-1 alert live. <span class="t">MITK</span> +22% on five analysts, net institutional selling, no insider buys. <span class="t">ELAN</span> +27% and Strong Buy, five insiders bought $1.5M, but it sits 12% from its high; fine to hold, not a runway trade.</li>
+  </ul>
+
+  <h2>Fit to the mandate</h2>
+  <p>For medium-to-low risk over one to three years, five of the ten runway names qualify: <span class="t">VST</span>, <span class="t">AVGO</span>, <span class="t">GOOGL</span>, <span class="t">AMZN</span> and <span class="t">SNOW</span>. They combine consensus upside above 20% with institutional accumulation and no binary event inside three months.</p>
+  <p><span class="t">RKLB</span>, <span class="t">KURA</span>, <span class="t">ASTS</span> and <span class="t">NBIS</span> hold the most upside and the strongest 13F accumulation, but each is down 25 to 57% from its high with double-digit short interest. They belong in a capped satellite sleeve. <span class="t">KLAR</span> is a bet that a $10M CEO buy knows more than seven downgrades. Size it as such.</p>
+
+  <h2>All 37 names</h2>
+  <div class="tablewrap">
+    <table class="appx">
+      <thead><tr><th>Name</th><th>Probe tier</th><th>Price 4 Sep</th><th>Avg PT</th><th>Upside</th><th>Consensus</th><th>Institutional flow</th><th>Insiders, 90d</th><th>Next dated event</th></tr></thead>
+      <tbody>
+        <tr><td class="tk">GOOGL</td><td><span class="pill core">core</span></td><td class="num">$338.46</td><td class="num">$428</td><td class="num">+27%</td><td>Strong Buy, 63</td><td>Inflows $124B vs $73B; big named adds unverified</td><td>None; $210M sold 12m</td><td>Ad-tech judgment 2 Oct; Q3 ~28 Oct</td></tr>
+        <tr><td class="tk">AMZN</td><td><span class="pill core">core</span></td><td class="num">$258.51</td><td class="num">$328</td><td class="num">+27%</td><td>Strong Buy, 61</td><td>Viking, Duquesne, Renaissance, Appaloosa added</td><td>None; 10b5-1 sells</td><td>Q3 22 or 29 Oct</td></tr>
+        <tr><td class="tk">MSFT</td><td><span class="pill core">core</span></td><td class="num">$499.70</td><td class="num">$571</td><td class="num">+14%</td><td>Strong Buy, 55</td><td>Hedge-fund subset net -13%; broad inflows $327B</td><td>None; Nadella $43M sold 1 Sep</td><td>FQ1 27 Oct</td></tr>
+        <tr><td class="tk">AVGO</td><td><span class="pill core">core</span></td><td class="num">$357.90</td><td class="num">$533</td><td class="num">+49%</td><td>Strong Buy, 49</td><td>Net +150M sh; 3,689 up vs 2,832</td><td>None; $46.5M sold</td><td>Ex-div 21 Sep; Q4 10 Dec</td></tr>
+        <tr><td class="tk">PFE</td><td><span class="pill core">core</span></td><td class="num">$28.45</td><td class="num">$28.61</td><td class="num">+1%</td><td>Buy, 28 (MB Hold)</td><td>Net +92M sh; 212 new vs 446 exits</td><td>None either way</td><td>Q3 ~3 Nov; Talzenna PDUFA Q4</td></tr>
+        <tr><td class="tk">CRM</td><td><span class="pill core">core</span></td><td class="num">$259.23</td><td class="num">$270</td><td class="num">+4%</td><td>Buy, 56</td><td>Not cleanly measurable; inflows $87B vs $20B</td><td>None; director sold 4 Sep</td><td>Dreamforce 15 to 17 Sep</td></tr>
+        <tr><td class="tk">UNH</td><td><span class="pill core">core</span></td><td class="num">$396.79</td><td class="num">$457 to 475</td><td class="num">+15 to 20%</td><td>Moderate Buy, 27</td><td>Hedge funds net +316K; inflows $287B</td><td>None; CEO small sells</td><td>Star Ratings mid-Oct; Q3 ~27 Oct</td></tr>
+        <tr><td class="tk">PANW</td><td><span class="pill core">core</span></td><td class="num">$333.26</td><td class="num">$386</td><td class="num">+16%</td><td>Moderate Buy, 49</td><td>Hedge funds net +5.0M; Maverick new</td><td>None since March</td><td>FQ1 ~12 Nov</td></tr>
+        <tr><td class="tk">SNOW</td><td><span class="pill core">core</span></td><td class="num">$337.18</td><td class="num">$414</td><td class="num">+22%</td><td>Strong Buy, 45</td><td>Hedge funds net +2.6M; Soros, Moore</td><td>None; Slootman ~1M sh sold</td><td>BUILD 3 to 6 Nov; FQ3 ~2 Dec</td></tr>
+        <tr><td class="tk">DELL</td><td><span class="pill core">core</span></td><td class="num">$524.14</td><td class="num">$554 to 564</td><td class="num">+5 to 8%</td><td>Buy, 28</td><td>Net flow not found; 1,033 buyers vs 602</td><td>None; Dell and Silver Lake sold July</td><td>Q3 ~24 Nov</td></tr>
+        <tr><td class="tk">DT</td><td><span class="pill core">core</span></td><td class="num">$51.90</td><td class="num">$58.88</td><td class="num">+14%</td><td>Buy, 36</td><td>Wellington +2.2M, Baron new</td><td>None</td><td>Q2 FY27 ~4 Nov</td></tr>
+        <tr><td class="tk">NVO</td><td><span class="pill core">core</span></td><td class="num">$46.60</td><td class="num">$47.15</td><td class="num">+1%</td><td>Hold, 14</td><td>Net +17M sh; 375 exits</td><td>None</td><td>Q3 4 Nov; CagriSema decision Q4</td></tr>
+        <tr><td class="tk">BSX</td><td><span class="pill watch">watch</span></td><td class="num">$47.80</td><td class="num">$62.69</td><td class="num">+31%</td><td>Buy, 31</td><td>Net sellers, 705 up vs 947 down</td><td>CEO $9M + directors, &gt;$10M</td><td>Q3 28 Oct</td></tr>
+        <tr><td class="tk">FLUT</td><td><span class="pill watch">watch</span></td><td class="num">$100.11</td><td class="num">$139</td><td class="num">+39%</td><td>Buy, 32</td><td>Net sellers, 203 vs 394; Tiger, Sands exited</td><td>None in 90d</td><td>Q3 Nov; SCOTUS cert on prediction markets</td></tr>
+        <tr><td class="tk">AMRZ</td><td><span class="pill watch">watch</span></td><td class="num">$43.82</td><td class="num">$55.69</td><td class="num">+27%</td><td>Buy, 21</td><td>Net buyers by count, 259 vs 166</td><td>12 insiders, $2.6M incl. CEO $1.27M</td><td>Q3 early Nov</td></tr>
+        <tr><td class="tk">ELAN</td><td><span class="pill watch">watch</span></td><td class="num">$24.50</td><td class="num">$31.21</td><td class="num">+27%</td><td>Strong Buy, 17</td><td>Danske new, Corient +128%</td><td>5 insiders, $1.5M</td><td>Q3 early Nov</td></tr>
+        <tr><td class="tk">APTV</td><td><span class="pill watch">watch</span></td><td class="num">$47.95</td><td class="num">$66.61</td><td class="num">+39%</td><td>Buy, 20</td><td>Not found</td><td>Director $5M, CEO $2.5M, $8.25M total</td><td>Q3 late Oct</td></tr>
+        <tr><td class="tk">VST</td><td><span class="pill watch">watch</span></td><td class="num">$149.30</td><td class="num">$217</td><td class="num">+46%</td><td>Strong Buy, 20</td><td>Net buyers 832 vs 672; Goldman +42%</td><td>CEO ~$1.2M, three buys</td><td>Q3 ~5 Nov</td></tr>
+        <tr><td class="tk">ELV</td><td><span class="pill watch">watch</span></td><td class="num">$407.50</td><td class="num">$449</td><td class="num">+10%</td><td>Buy, 22</td><td>Small named adds only</td><td>CEO $1.0M, director $366K, July</td><td>Q3 20 Oct; Star Ratings</td></tr>
+        <tr><td class="tk">KLAR</td><td><span class="pill watch">watch</span></td><td class="num">$14.41</td><td class="num">$20.07</td><td class="num">+39%</td><td>Buy, 23</td><td>BlackRock +90%, Renaissance +174%</td><td>CEO $9.95M, 26 Aug</td><td>Q3 24 Nov</td></tr>
+        <tr><td class="tk">MITK</td><td><span class="pill watch">watch</span></td><td class="num">$18.57</td><td class="num">$22.63</td><td class="num">+22%</td><td>Strong Buy, 5</td><td>Net selling, $84M in vs $463M out</td><td>None; COO sold $2.4M</td><td>FQ4 ~29 Oct</td></tr>
+        <tr><td class="tk">KURA</td><td><span class="pill watch">watch</span></td><td class="num">$13.25</td><td class="num">$25 to 32</td><td class="num">+92 to 141%</td><td>Strong Buy, 15</td><td>118 buyers vs 56; CalSTRS +968%</td><td>CEO $2.35M</td><td>Q3 ~3 Nov; no PDUFA</td></tr>
+        <tr><td class="tk">CSGP</td><td><span class="pill watch">watch</span></td><td class="num">$30.91</td><td class="num">$37 to 40</td><td class="num">+21 to 30%</td><td>Buy, 21 (MB Hold)</td><td>Net +$2.55B over 12m</td><td>CEO $2.49M, 4 Aug</td><td>Q3 27 Oct</td></tr>
+        <tr><td class="tk">META</td><td><span class="pill watch">watch</span></td><td class="num">$616.77</td><td class="num">$755 to 785</td><td class="num">+22 to 27%</td><td>Strong Buy, 62</td><td>Wellington +26%; totals corrupted by data error</td><td>None; $18M sold</td><td>Q3 ~28 Oct</td></tr>
+        <tr><td class="tk">ORCL</td><td><span class="pill watch">watch</span></td><td class="num">$158.78</td><td class="num">$243 to 262</td><td class="num">+53 to 65%</td><td>Buy, 44</td><td>Amundi, First Eagle small adds; 42% institutional</td><td>None; $140M sold 12m</td><td>FQ1 10 Sep</td></tr>
+        <tr><td class="tk">MU</td><td><span class="pill watch">watch</span></td><td class="num">$1,016.59</td><td class="num">$1,296 to 1,513</td><td class="num">+27 to 49%</td><td>Strong Buy, 48</td><td>Amundi -27%, Corient -42%</td><td>None; ~$183M sold</td><td>FQ4 30 Sep</td></tr>
+        <tr><td class="tk">ASTS</td><td><span class="pill sat">satellite</span></td><td class="num">$62.31</td><td class="num">$78 to 87</td><td class="num">+26 to 39%</td><td>Hold, 13</td><td>Net +14%; 779 vs 221</td><td>Director $619K</td><td>Q3 ~9 Nov; BlueBirds 14 to 16</td></tr>
+        <tr><td class="tk">RKLB</td><td><span class="pill sat">satellite</span></td><td class="num">$64.26</td><td class="num">$109 to 113</td><td class="num">+69 to 75%</td><td>Moderate Buy, 23</td><td>Net +26.5%; 394 new holders</td><td>None; CEO ~$286M sold</td><td>Iridium vote 24 Sep</td></tr>
+        <tr><td class="tk">CRDO</td><td><span class="pill sat">satellite</span></td><td class="num">$170.57</td><td class="num">$267 to 281</td><td class="num">+57%</td><td>Moderate Buy, 19</td><td>Hedge funds net -288K; Bridgewater -83%</td><td>None; ~$101M sold</td><td>Q2 FY27 ~30 Nov</td></tr>
+        <tr><td class="tk">WGS</td><td><span class="pill sat">satellite</span></td><td class="num">$85.99</td><td class="num">$89.57</td><td class="num">+4%</td><td>Moderate Buy, 9</td><td>Corvex +48%, Casdin +23%, ARK +22%</td><td>Corvex $47M in May</td><td>Q3 ~27 to 30 Oct</td></tr>
+        <tr><td class="tk">STLN</td><td><span class="pill sat">satellite</span></td><td class="num">$5.93</td><td class="num">$9.00</td><td class="num">+52%</td><td>Strong Buy, 5</td><td>Nuveen, Marshall Wace, Invesco added</td><td>10% owner $78K; ex-CEO sold $1.95M</td><td>Q3 11 Nov</td></tr>
+        <tr><td class="tk">HIMS</td><td><span class="pill sat">satellite</span></td><td class="num">$27.71</td><td class="num">$31 to 32</td><td class="num">+16%</td><td>Hold, 16</td><td>Holders +97 but shares -5M; Goldman +226%</td><td>None; $6M sold</td><td>Q3 ~2 to 6 Nov</td></tr>
+        <tr><td class="tk">OSCR</td><td><span class="pill sat">satellite</span></td><td class="num">$32.25</td><td class="num">$26 to 30</td><td class="num">-19 to -6%</td><td>Hold, 12</td><td>Net +22.5%; D.E. Shaw +130%</td><td>None; $124M sold incl. CEO $71M</td><td>ACA enrollment 1 Nov</td></tr>
+        <tr><td class="tk">BABA</td><td><span class="pill sat">satellite</span></td><td class="num">$113.24</td><td class="num">$187 to 189</td><td class="num">+67%</td><td>Moderate Buy, 22</td><td>Net selling 12m, $33B out vs $8B in</td><td>Chairman $10.3M, CEO $5.0M</td><td>Apsara 22 to 24 Sep; Q results Nov</td></tr>
+        <tr><td class="tk">SE</td><td><span class="pill sat">satellite</span></td><td class="num">$112.09</td><td class="num">$149 to 155</td><td class="num">+33%</td><td>Moderate Buy, 12</td><td>437 up vs 474 down; JPMorgan +8.2M</td><td>None; CEO $137M sold</td><td>Q3 ~17 Nov</td></tr>
+        <tr><td class="tk">NBIS</td><td><span class="pill sat">satellite</span></td><td class="num">$226.39</td><td class="num">$226 to 287</td><td class="num">0 to +27%</td><td>Split, 16 to 18</td><td>Net +51%; Soros new; 458 new holders</td><td>None; $170M sold 12m</td><td>Q3 22 Oct or 10 Nov</td></tr>
+        <tr><td class="tk">TSLA</td><td><span class="pill sat">satellite</span></td><td class="num">$354.08</td><td class="num">$390 to 402</td><td class="num">+10 to 13%</td><td>Hold, 45</td><td>Not found; Amundi -9.5%</td><td>None; CFO $1M sold</td><td>Q3 deliveries ~2 Oct; NHTSA Cybercab query</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="src">Probe tier is the September Corpus Probe's placement. MB means MarketBeat. "Not found" means Fintel, WhaleWisdom and Nasdaq were blocked and no second source published the figure.</p>
+
+  <h2>What this probe cannot tell you</h2>
+  <div class="callout warn">
+    13F positions are dated 30 June 2026, so every "institutions adding" claim is two months old and may have reversed. MarketBeat's institutional pages carry a CalSTRS data error on at least ten of these names; those rows were excluded and the buyer and seller counts used instead. Fintel and OpenInsider blocked most requests, so insider data leans on Finviz and MarketBeat. Earnings dates marked with a tilde are aggregator estimates. None of the price targets were checked against the broker notes themselves.
+  </div>
+  <p>Three things would sharpen the next runway probe: build the price layer so upside can be measured against the corpus's own entry dates; pull Q3 13Fs when they land in mid-November; and add short-interest history so a squeeze can be separated from accumulation.</p>
+
+  <div class="foot">Sources are StockAnalysis, MarketBeat, Fintel, Finviz, TipRanks, 13f.info and SEC Form 4 filings as fetched on 7 Sep 2026, read against the six account analyses in data/analysis/accounts. Nothing here is investment advice.</div>
+</div>

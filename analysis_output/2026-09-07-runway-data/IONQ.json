@@ -1,0 +1,491 @@
+{
+  "ticker": "IONQ",
+  "probe_tier": null,
+  "fetched_at": "2026-09-07T00:00:00Z",
+  "price": {
+    "close": {
+      "value": 39.52,
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04"
+    },
+    "high_52w": {
+      "value": 84.64,
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04"
+    },
+    "low_52w": {
+      "value": 25.89,
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04"
+    },
+    "drawdown_from_high_pct": {
+      "value": -53.31,
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04"
+    },
+    "sma50_pct": {
+      "value": -4.11,
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04"
+    },
+    "sma200_pct": {
+      "value": -10.63,
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04"
+    },
+    "perf_1m_pct": {
+      "value": -0.5,
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04"
+    },
+    "perf_3m_pct": {
+      "value": -30.4,
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04"
+    },
+    "spy_1m_pct": {
+      "value": 0.21,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "spy_3m_pct": {
+      "value": 4.43,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "sector_etf": {
+      "value": "XLK",
+      "source": "https://stockanalysis.com/stocks/ionq/",
+      "as_of": "2026-09-07",
+      "note": "GICS Technology / Computer Hardware"
+    },
+    "sector_1m_pct": {
+      "value": 1.05,
+      "source": "https://finviz.com/quote.ashx?t=XLK",
+      "as_of": "2026-09-04"
+    },
+    "sector_3m_pct": {
+      "value": 3.87,
+      "source": "https://finviz.com/quote.ashx?t=XLK",
+      "as_of": "2026-09-04"
+    },
+    "structure": {
+      "value": "base",
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04",
+      "note": "flat over 1m (-0.5%) after a sharp 3m decline (-30.4%); price is consolidating just below the 50-day and 200-day averages rather than making fresh lows"
+    },
+    "print_gap_held": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not fetch daily history around the Aug 5 print; time budget prioritized other fields"
+    }
+  },
+  "consensus": {
+    "label": {
+      "value": "Strong Buy",
+      "source": "https://stockanalysis.com/stocks/ionq/forecast/",
+      "as_of": "2026-09-07",
+      "note": "MarketBeat labels it 'Moderate Buy' (9 Buy, 4 Hold, 1 Sell) among 14 analysts"
+    },
+    "analysts": {
+      "value": 13,
+      "source": "https://stockanalysis.com/stocks/ionq/forecast/",
+      "as_of": "2026-09-07",
+      "note": "MarketBeat counts 14"
+    },
+    "pt_avg": {
+      "value": 67.68,
+      "source": "https://stockanalysis.com/stocks/ionq/forecast/",
+      "as_of": "2026-09-07"
+    },
+    "pt_high": {
+      "value": 100.0,
+      "source": "https://stockanalysis.com/stocks/ionq/forecast/",
+      "as_of": "2026-09-07"
+    },
+    "pt_low": {
+      "value": 44.78,
+      "source": "https://stockanalysis.com/stocks/ionq/forecast/",
+      "as_of": "2026-09-07",
+      "note": "MarketBeat shows a lower low of $35.00"
+    },
+    "pt_avg_alt": {
+      "value": 69.92,
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/forecast/",
+      "as_of": "2026-09-07",
+      "note": "differs from StockAnalysis by only $2.24, under the 10-point threshold"
+    },
+    "actions_60d": {
+      "value": [
+        {
+          "date": "2026-08-19",
+          "broker": "Northland Securities (Nehal Chokshi)",
+          "action": "maintain",
+          "target": 70,
+          "reason": "maintained rating"
+        },
+        {
+          "date": "2026-08-06",
+          "broker": "Wedbush (Matt Bryson)",
+          "action": "reiterate",
+          "target": 75,
+          "reason": "reiterated after Q2 print"
+        },
+        {
+          "date": "2026-08-06",
+          "broker": "Mizuho Securities (Vijay Rakesh)",
+          "action": "reiterate",
+          "target": 61,
+          "reason": "reiterated after Q2 print"
+        },
+        {
+          "date": "2026-08-06",
+          "broker": "Cantor Fitzgerald (Troy Jensen)",
+          "action": "reiterate",
+          "target": 70,
+          "reason": "reiterated after Q2 print"
+        },
+        {
+          "date": "2026-08-06",
+          "broker": "Morgan Stanley (Joseph Moore)",
+          "action": "reiterate",
+          "target": 49,
+          "reason": "reiterated Hold, sole bearish outlier among the 13/14 analysts"
+        }
+      ],
+      "source": "https://stockanalysis.com/stocks/ionq/forecast/",
+      "as_of": "2026-09-07"
+    }
+  },
+  "earnings": {
+    "print_date": {
+      "value": "2026-08-05",
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/earnings/",
+      "as_of": "2026-08-05"
+    },
+    "revenue_actual": {
+      "value": 80.05,
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/earnings/",
+      "as_of": "2026-08-05",
+      "note": "USD millions; +286.7% y/y"
+    },
+    "revenue_estimate": {
+      "value": 66.47,
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/earnings/",
+      "as_of": "2026-08-05",
+      "note": "USD millions"
+    },
+    "eps_actual": {
+      "value": -0.33,
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/earnings/",
+      "as_of": "2026-08-05"
+    },
+    "eps_estimate": {
+      "value": -0.56,
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/earnings/",
+      "as_of": "2026-08-05"
+    },
+    "guide": {
+      "value": "raised",
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/earnings/",
+      "as_of": "2026-08-05",
+      "note": "FY2026 revenue guided to $280-290M vs consensus $268.2M"
+    },
+    "guide_detail": {
+      "value": "FY2026 revenue guided to $280.0-290.0M (consensus $268.2M); company separately guided FY2026 adjusted EBITDA loss to widen to $310-330M",
+      "source": "https://www.fool.com/investing/2026/07/03/why-ionq-stock-plummeted-261-in-june/",
+      "as_of": "2026-08-05"
+    },
+    "reaction_day_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not fetch daily history around the Aug 5 print; time budget prioritized other fields"
+    },
+    "reaction_5d_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same as reaction_day_pct"
+    },
+    "revisions_30d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: Yahoo's Growth Estimates/EPS revisions tables returned empty ('--') for IONQ"
+    },
+    "revisions_90d": {
+      "value": "up",
+      "source": "https://stockanalysis.com/stocks/ionq/forecast/ (FY26 revenue consensus $287.17M, page updated 2026-08-19) against https://www.marketbeat.com/stocks/NYSE/IONQ/earnings/ (FY26 revenue consensus $268.2M at the 2026-08-05 print)",
+      "as_of": "2026-08-19",
+      "note": "derived, not read from a revisions table: neither Yahoo nor StockAnalysis publishes an estimate-trend table for IONQ. FY26 revenue consensus moved from $268.2M at the 5 Aug print to $287.17M by 19 Aug, +7.1%, after the company guided FY26 to $280-290M. Direction is up on revenue; no EPS revision series was obtainable."
+    },
+    "eps_trend": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: Yahoo analysis page had no populated EPS trend table for IONQ"
+    },
+    "fcf_ttm": {
+      "value": -483.87,
+      "source": "https://stockanalysis.com/stocks/ionq/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "USD millions, TTM through Q2 2026"
+    },
+    "net_income_ttm": {
+      "value": -1364.97,
+      "source": "https://stockanalysis.com/stocks/ionq/financials/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "USD millions, sum of last four quarters; GAAP net income is heavily distorted by non-cash warrant/derivative fair-value swings (Q1 2026 +$805M, Q2 2026 -$1,868M) rather than operating performance"
+    },
+    "sbc_pct_revenue": {
+      "value": 182.6,
+      "source": "https://stockanalysis.com/stocks/ionq/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "TTM SBC $449.99M against TTM revenue $246.48M \u2014 SBC exceeds total revenue, a very large dilution signal flagged per brief"
+    }
+  },
+  "prospect": {
+    "case": {
+      "value": "As the bulls (10 of 13-14 analysts at Strong Buy/Buy, Wedbush's $75 target) frame it, IonQ is the commercial leader of the trapped-ion quantum computing race, with revenue up 286.7% y/y last quarter and management guiding organic growth to stay above 100% for the full year as enterprise and government partnerships scale.",
+      "source": "https://www.fool.com/investing/2026/07/26/ionq-vs-rigetti-whos-winning-the-27-trillion-quant/",
+      "as_of": "2026-09-07"
+    },
+    "depends_on": {
+      "value": "Whether FY2026 revenue actually lands at the guided $280-290M (vs. $268.2M consensus) while the adjusted EBITDA loss (guided to $310-330M) narrows over time rather than widening further, and whether stock-based compensation (already exceeding revenue on a TTM basis) moderates.",
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/earnings/",
+      "as_of": "2026-08-05"
+    },
+    "bear_case": {
+      "value": "IonQ trades near 52x forward sales with persistent large GAAP and cash losses (TTM FCF -$484M), SBC alone exceeds TTM revenue, insiders have been sellers only in recent months, and a new Nasdaq-listed competitor (IQM Quantum Computers) plus broad high-valuation de-rating in quantum names have driven the stock down over 53% from its high.",
+      "source": "https://eciks.org/13456-93768-ionq-stock-valuation-decline-quantum",
+      "as_of": "2026-09-07"
+    },
+    "visibility": {
+      "value": "guided",
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/earnings/",
+      "as_of": "2026-08-05"
+    }
+  },
+  "competition": {
+    "peers": {
+      "value": [
+        "RGTI",
+        "QBTS"
+      ],
+      "source": "https://finance.yahoo.com/markets/stocks/articles/rigetti-vs-ionq-vs-d-104900394.html",
+      "as_of": "2026-09-07",
+      "note": "Rigetti Computing (superconducting) and D-Wave Quantum (annealing) are the two nearest pure-play public peers; Google/IBM/Microsoft are much larger but not pure-play comparables"
+    },
+    "share_trend": {
+      "value": "gaining",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/rigetti-vs-ionq-vs-d-104900394.html",
+      "as_of": "2026-09-07",
+      "note": "IonQ has 'the most revenue, deepest cash hoard, and fullest slate of catalysts' among the pure-plays per the cited comparison"
+    },
+    "gross_margin_4q": {
+      "value": [
+        47.99,
+        31.78,
+        25.09,
+        26.26
+      ],
+      "source": "https://stockanalysis.com/stocks/ionq/financials/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "Q3 2025, Q4 2025, Q1 2026, Q2 2026 in order; declining trend as revenue mix shifts"
+    },
+    "fwd_pe": {
+      "value": null,
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04",
+      "note": "n/a \u2014 company is not forward-profitable"
+    },
+    "peer_fwd_pe": {
+      "value": {
+        "RGTI": null,
+        "QBTS": null
+      },
+      "source": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "as_of": "2026-09-07",
+      "note": "both peers also n/a on forward P/E, pre-profitability"
+    },
+    "ev_sales": {
+      "value": 64.96,
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04",
+      "note": "Finviz P/S used as proxy"
+    },
+    "peer_ev_sales": {
+      "value": {
+        "RGTI": 351.03,
+        "QBTS": 456.9
+      },
+      "source": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "as_of": "2026-09-07",
+      "note": "IonQ trades far cheaper on EV/sales than both quantum peers despite the sector-wide de-rating"
+    },
+    "substitute": {
+      "value": "IQM Quantum Computers, a newly Nasdaq-listed European quantum computing firm, is a named new entrant increasing competition for quantum-sector investment capital",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/why-ionq-ionq-stock-nosediving-201752048.html",
+      "as_of": "2026-09-07"
+    }
+  },
+  "insiders": {
+    "buys_90d": {
+      "value": [],
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04",
+      "note": "no open-market insider buys in the Finviz table within the last 90 days"
+    },
+    "sells_90d": {
+      "value": [
+        {
+          "date": "2026-06-18",
+          "name": "Gabrielle B Toledano",
+          "role": "Director",
+          "shares": 2757,
+          "price": 55.01,
+          "usd": 151663,
+          "plan_10b5_1": false
+        },
+        {
+          "date": "2026-06-18",
+          "name": "Kathryn K Chou",
+          "role": "Director",
+          "shares": 2757,
+          "price": 55.02,
+          "usd": 151690,
+          "plan_10b5_1": false
+        },
+        {
+          "date": "2026-06-18",
+          "name": "John W Raymond",
+          "role": "Special Advisor",
+          "shares": 3815,
+          "price": 55.01,
+          "usd": 209863,
+          "plan_10b5_1": false
+        }
+      ],
+      "source": "https://finviz.com/quote.ashx?t=IONQ",
+      "as_of": "2026-09-04",
+      "note": "all within the 90-day window as of the run date; a larger proposed sale by Niccolo de Masi (Jun 11, 17,690 sh) and a Nov 2025 CRO sale (Rima Alameddine, 100,000 sh) fall outside or at the edge of the 90-day window and are omitted/noted only for context"
+    }
+  },
+  "institutions": {
+    "quarter_end": {
+      "value": "2026-06-30",
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "MarketBeat states an 'as of' date in August 2026; underlying 13F filings describe the quarter ended 2026-06-30"
+    },
+    "net_shares": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: MarketBeat gave dollar net flow ($6.26B in vs $941.87M out), corrupted by the CalSTRS outlier and excluded per registry guidance; no clean aggregate share-based net figure was given"
+    },
+    "holders_up": {
+      "value": 527,
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/institutional-ownership/",
+      "as_of": "2026-09-07"
+    },
+    "holders_down": {
+      "value": 143,
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/institutional-ownership/",
+      "as_of": "2026-09-07"
+    },
+    "holders_new": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: not separately broken out"
+    },
+    "holders_exited": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: not separately broken out"
+    },
+    "named_adds": {
+      "value": [
+        {
+          "fund": "UBS AM",
+          "change_pct": 45.0,
+          "shares": 1630000
+        },
+        {
+          "fund": "Amundi",
+          "change_pct": 15.5
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "California State Teachers Retirement System (+5,901.1%, 28.3M shares) excluded as the CalSTRS-type corrupted outlier row per registry guidance"
+    },
+    "named_exits": {
+      "value": [
+        {
+          "fund": "Wellington Management Group",
+          "change_pct": -78.7
+        },
+        {
+          "fund": "GTS Securities LLC",
+          "change_pct": -60.3
+        },
+        {
+          "fund": "Van Eck Associates Corp",
+          "change_pct": -3.6
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "these are reductions, not confirmed full exits"
+    },
+    "short_pct_float": {
+      "value": 11.18,
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/short-interest/",
+      "as_of": "2026-08-14",
+      "note": "Finviz shows 10.63% with no date"
+    },
+    "days_to_cover": {
+      "value": 1.9,
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/short-interest/",
+      "as_of": "2026-08-14"
+    },
+    "short_as_of": {
+      "value": "2026-08-14",
+      "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/short-interest/",
+      "as_of": "2026-08-14"
+    }
+  },
+  "catalysts": {
+    "value": [
+      {
+        "date": "2026-11-04",
+        "event": "Q3 2026 earnings (after market close)",
+        "confirmed": false
+      }
+    ],
+    "source": "https://www.marketbeat.com/stocks/NYSE/IONQ/earnings/",
+    "as_of": "2026-09-07",
+    "note": "aggregator estimate, not company-confirmed"
+  },
+  "why_it_fell": {
+    "value": "Down 53.3% from its 52-week high on a combination of sector-wide de-rating of high-multiple quantum computing names (trading near 52x forward sales), persistent large operating and adjusted-EBITDA losses despite triple-digit revenue growth, ongoing insider selling, and new competitive entrants (Nasdaq-listed IQM Quantum Computers) diluting investor attention and capital in the space.",
+    "source": "https://finance.yahoo.com/markets/stocks/articles/why-ionq-ionq-stock-nosediving-201752048.html",
+    "as_of": "2026-09-07"
+  },
+  "judgment": {
+    "prospect_pts": 2,
+    "prospect_why": "The case is trapped-ion leadership scaling into enterprise quantum; revenue is real and growing 287% year over year with FY26 guided up to $280-290M, but the twelve-month path to the $67.68 target rests on commercial quantum advantage that is years out, so this is story visibility with a small revenue ramp attached.",
+    "competition_pts": 2,
+    "competition_why": "Gross margin fell from 48.0% to 26.3% over four quarters while revenue grew, which is buying share not earning it, and the architecture race against far better-capitalised superconducting programmes plus a new entrant in IQM means the returns the prospect needs are contestable.",
+    "macro_fit_pts": 1,
+    "macro_fit_why": "This is the definitional long-duration equity: no earnings, $483.9M of annual cash burn, stock-based compensation at 182.6% of revenue, and commercialisation years away, against a 2.42% real 10-year and a live September hike; the thesis needs the rate regime to change.",
+    "narrative_pts": 2,
+    "narrative_why": "Quantum is a narrative more than an earnings theme, and its proxy is de-rating: momentum was the worst factor over one month, and the stock is down 53.3% from its high with three-month relative strength of -34.8 points against the S&P 500."
+  }
+}

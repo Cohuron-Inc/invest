@@ -1,0 +1,510 @@
+{
+  "ticker": "AMKR",
+  "probe_tier": null,
+  "fetched_at": "2026-09-07T00:00:00Z",
+  "price": {
+    "close": {
+      "value": 47.77,
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04"
+    },
+    "high_52w": {
+      "value": 96.68,
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04"
+    },
+    "low_52w": {
+      "value": 23.38,
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04"
+    },
+    "drawdown_from_high_pct": {
+      "value": -50.59,
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04"
+    },
+    "sma50_pct": {
+      "value": -18.83,
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04"
+    },
+    "sma200_pct": {
+      "value": -14.86,
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04"
+    },
+    "perf_1m_pct": {
+      "value": -11.8,
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04"
+    },
+    "perf_3m_pct": {
+      "value": -26.45,
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04"
+    },
+    "spy_1m_pct": {
+      "value": 0.21,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "spy_3m_pct": {
+      "value": 4.43,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "sector_etf": {
+      "value": "XLK",
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04",
+      "note": "Technology sector / Semiconductors (OSAT)"
+    },
+    "sector_1m_pct": {
+      "value": 1.05,
+      "source": "https://finviz.com/quote.ashx?t=XLK",
+      "as_of": "2026-09-04"
+    },
+    "sector_3m_pct": {
+      "value": 3.87,
+      "source": "https://finviz.com/quote.ashx?t=XLK",
+      "as_of": "2026-09-04"
+    },
+    "structure": {
+      "value": "breakdown",
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04",
+      "note": "price below SMA20/50/200, down >50% from 52w high, badly lagging SPY and XLK over both 1m and 3m"
+    },
+    "print_gap_held": {
+      "value": true,
+      "source": "https://stockanalysis.com/stocks/amkr/history/",
+      "as_of": "2026-08-01",
+      "note": "post-earnings gap down never filled; stock never closed back above the pre-print $60.71 level in the following sessions"
+    }
+  },
+  "consensus": {
+    "label": {
+      "value": "Moderate Buy",
+      "source": "https://stockanalysis.com/stocks/amkr/forecast/",
+      "as_of": "2026-09-07",
+      "note": "StockAnalysis calls it 'Buy'; MarketBeat calls it 'Moderate Buy' (1 Strong Buy, 6 Buy, 5 Hold, 0 Sell) with 12 analysts"
+    },
+    "analysts": {
+      "value": 11,
+      "source": "https://stockanalysis.com/stocks/amkr/forecast/",
+      "as_of": "2026-09-07",
+      "note": "MarketBeat counts 12"
+    },
+    "pt_avg": {
+      "value": 76.4,
+      "source": "https://stockanalysis.com/stocks/amkr/forecast/",
+      "as_of": "2026-09-07"
+    },
+    "pt_high": {
+      "value": 92.0,
+      "source": "https://stockanalysis.com/stocks/amkr/forecast/",
+      "as_of": "2026-09-07"
+    },
+    "pt_low": {
+      "value": 65.0,
+      "source": "https://stockanalysis.com/stocks/amkr/forecast/",
+      "as_of": "2026-09-07"
+    },
+    "pt_avg_alt": {
+      "value": 68.33,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/forecast/",
+      "as_of": "2026-09-07",
+      "note": "differs from StockAnalysis by $8.07, under the 10-point threshold, but included since MarketBeat is known to lag cuts; low end down to $40 on MarketBeat vs $65 on StockAnalysis"
+    },
+    "actions_60d": {
+      "value": [
+        {
+          "date": "2026-08-27",
+          "broker": "Bank of America (Ruplu Bhattacharya)",
+          "action": "initiate",
+          "target": 70,
+          "reason": "initiated Buy"
+        },
+        {
+          "date": "2026-07-28",
+          "broker": "B. Riley Securities (Craig Ellis)",
+          "action": "maintain",
+          "target": 65,
+          "reason": "maintained Hold after Q2 print/Q3 guide"
+        },
+        {
+          "date": "2026-07-28",
+          "broker": "Goldman Sachs (James Schneider)",
+          "action": "maintain",
+          "target": 65,
+          "reason": "maintained Hold after Q2 print/Q3 guide"
+        },
+        {
+          "date": "2026-07-28",
+          "broker": "Morgan Stanley (Joseph Moore)",
+          "action": "reiterate",
+          "target": 70,
+          "reason": "reiterated Hold after Q2 print/Q3 guide"
+        },
+        {
+          "date": "2026-07-28",
+          "broker": "Needham (Charles Shi)",
+          "action": "maintain",
+          "target": 90,
+          "reason": "maintained Buy after Q2 print/Q3 guide"
+        }
+      ],
+      "source": "https://stockanalysis.com/stocks/amkr/forecast/",
+      "as_of": "2026-09-07"
+    }
+  },
+  "earnings": {
+    "print_date": {
+      "value": "2026-07-27",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/earnings/",
+      "as_of": "2026-07-27"
+    },
+    "revenue_actual": {
+      "value": 1900.0,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/earnings/",
+      "as_of": "2026-07-27",
+      "note": "USD millions"
+    },
+    "revenue_estimate": {
+      "value": 1810.0,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/earnings/",
+      "as_of": "2026-07-27",
+      "note": "USD millions"
+    },
+    "eps_actual": {
+      "value": 0.7,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/earnings/",
+      "as_of": "2026-07-27"
+    },
+    "eps_estimate": {
+      "value": 0.47,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/earnings/",
+      "as_of": "2026-07-27"
+    },
+    "guide": {
+      "value": "cut",
+      "source": "https://www.fool.com/investing/2026/07/28/why-amkor-plunged-today/",
+      "as_of": "2026-07-28",
+      "note": "Q3 revenue guide $2.0-2.1B vs consensus $2.1B (light/in-line) on a projected communications-segment decline tied to South Korea-to-Vietnam SiP migration and soft memory demand; Q3 EPS guide $0.72-0.82 was well above the $0.62 consensus, but the market focused on the softer revenue/segment outlook and the stock fell 24.7% the next session"
+    },
+    "guide_detail": {
+      "value": "Q3 2026 revenue guided to $2.0-2.1B (consensus $2.1B); EPS guided to $0.72-0.82 (consensus $0.62)",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/earnings/",
+      "as_of": "2026-07-27"
+    },
+    "reaction_day_pct": {
+      "value": -24.74,
+      "source": "https://stockanalysis.com/stocks/amkr/history/",
+      "as_of": "2026-07-28",
+      "note": "close 7/27 ($60.71) to close 7/28 ($45.69); print was AMC 7/27"
+    },
+    "reaction_5d_pct": {
+      "value": -17.86,
+      "source": "https://stockanalysis.com/stocks/amkr/history/",
+      "as_of": "2026-08-01",
+      "note": "close 7/27 ($60.71) to close 5 sessions later 8/1 ($49.87)"
+    },
+    "revisions_30d": {
+      "value": "down",
+      "source": "https://finance.yahoo.com/quote/AMKR/analysis/",
+      "as_of": "2026-09-07",
+      "note": "current-quarter EPS estimate slipped from $0.80 (30d ago) to $0.78 (current); conflicts with Yahoo's own revision-count table showing 6 upward revisions and 0 downward in the last 30 days for the same period \u2014 flagged as a source conflict"
+    },
+    "revisions_90d": {
+      "value": "up",
+      "source": "https://finance.yahoo.com/quote/AMKR/analysis/",
+      "as_of": "2026-09-07",
+      "note": "current-quarter EPS estimate rose from $0.62 (90d ago) to $0.78 (current), current-year estimate rose from $2.09 to $2.57"
+    },
+    "eps_trend": {
+      "value": {
+        "current": 0.78,
+        "d30": 0.8,
+        "d90": 0.62
+      },
+      "source": "https://finance.yahoo.com/quote/AMKR/analysis/",
+      "as_of": "2026-09-07",
+      "note": "current-quarter EPS estimate"
+    },
+    "fcf_ttm": {
+      "value": -172.39,
+      "source": "https://stockanalysis.com/stocks/amkr/financials/cash-flow-statement/",
+      "as_of": "2026-09-04",
+      "note": "USD millions, TTM through Q2 2026; FY2025 was +$190.99M and FY2024 +$345.07M, so the TTM swing to negative reflects a step-up in capex (Arizona buildout)"
+    },
+    "net_income_ttm": {
+      "value": 555.45,
+      "source": "https://stockanalysis.com/stocks/amkr/financials/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "USD millions, sum of last four quarters through Q2 2026"
+    },
+    "sbc_pct_revenue": {
+      "value": 0.28,
+      "source": "https://stockanalysis.com/stocks/amkr/financials/cash-flow-statement/",
+      "as_of": "2026-09-04",
+      "note": "TTM SBC $20.1M / TTM revenue ~$7.25B; far below the 10% flag threshold"
+    }
+  },
+  "prospect": {
+    "case": {
+      "value": "As the bulls (Needham's maintained Buy with a $90 target, BofA's fresh initiation) frame it, Amkor is the U.S.-based advanced-packaging OSAT play for the AI/HPC build-out, anchored by a $7 billion Arizona campus where Apple will be the first and largest customer and Nvidia is also a named customer.",
+      "source": "https://ir.amkor.com/news-releases/news-release-details/amkor-technology-breaks-ground-new-semiconductor-advanced",
+      "as_of": "2026-09-07"
+    },
+    "depends_on": {
+      "value": "Whether Arizona advanced-packaging capacity ramps into real AI/HPC and Apple volume fast enough to offset the near-term communications-segment decline from the South Korea-to-Vietnam SiP migration and soft memory demand flagged in the Q3 guide.",
+      "source": "https://www.fool.com/investing/2026/07/28/why-amkor-plunged-today/",
+      "as_of": "2026-07-28"
+    },
+    "bear_case": {
+      "value": "Free cash flow has swung to -$172M TTM as Arizona capex ramps, TTM P/E is well above its 5-year median, insiders have been sellers only (five open-market sales in the last 90 days, no buys), and the stock is down over 50% from its 52-week high with guidance still soft in the core communications/memory-linked business.",
+      "source": "https://www.gurufocus.com/news/9050402/amkor-technology-inc-amkr-shares-fall-47-gf-value-says-still-overvalued",
+      "as_of": "2026-09-07"
+    },
+    "visibility": {
+      "value": "guided",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/earnings/",
+      "as_of": "2026-07-27"
+    }
+  },
+  "competition": {
+    "peers": {
+      "value": [
+        "ASX",
+        "JCET (China-listed, no US ticker)"
+      ],
+      "source": "https://marklapedus.substack.com/p/ase-amkor-top-osat-rankings-but-china",
+      "as_of": "2026-09-07",
+      "note": "ASE Technology Holding (NYSE: ASX) is #1 OSAT globally (44.6% 2024 share) vs Amkor's #2 (15.2%); JCET Group (#3, 12%) trades in Shanghai/Shenzhen, not fetchable via the US-source registry"
+    },
+    "share_trend": {
+      "value": "stable",
+      "source": "https://marklapedus.substack.com/p/ase-amkor-top-osat-rankings-but-china",
+      "as_of": "2026-09-07",
+      "note": "article title notes 'China gains ground' (Tongfu, JCET) more than a shift between ASE and Amkor specifically"
+    },
+    "gross_margin_4q": {
+      "value": [
+        14.32,
+        16.66,
+        14.19,
+        16.79
+      ],
+      "source": "https://stockanalysis.com/stocks/amkr/financials/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "Q3 2025, Q4 2025, Q1 2026, Q2 2026 in order"
+    },
+    "fwd_pe": {
+      "value": 17.39,
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04"
+    },
+    "peer_fwd_pe": {
+      "value": {
+        "ASX": 26.62
+      },
+      "source": "https://stockanalysis.com/stocks/asx/statistics/",
+      "as_of": "2026-09-07"
+    },
+    "ev_sales": {
+      "value": 1.59,
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04",
+      "note": "Finviz P/S used as EV/sales proxy; StockAnalysis ratios page for AMKR was not separately re-fetched"
+    },
+    "peer_ev_sales": {
+      "value": {
+        "ASX": 4.17
+      },
+      "source": "https://stockanalysis.com/stocks/asx/statistics/",
+      "as_of": "2026-09-07"
+    },
+    "substitute": {
+      "value": "In-house/foundry-integrated advanced packaging (e.g., TSMC's CoWoS) for the highest-end AI accelerator packages competes with independent OSATs like Amkor for the top tier of AI packaging demand",
+      "source": "https://marklapedus.substack.com/p/ase-amkor-top-osat-rankings-but-china",
+      "as_of": "2026-09-07"
+    }
+  },
+  "insiders": {
+    "buys_90d": {
+      "value": [],
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04",
+      "note": "no open-market insider buys in the Finviz table within the last 90 days; corroborated by GuruFocus noting insiders sold ~$992.7M over the past 12 months with no buying activity"
+    },
+    "sells_90d": {
+      "value": [
+        {
+          "date": "2026-08-17",
+          "name": "Mark N Rogers",
+          "role": "EVP & General Counsel",
+          "shares": 5000,
+          "price": 59.78,
+          "usd": 298900,
+          "plan_10b5_1": false
+        },
+        {
+          "date": "2026-08-11",
+          "name": "Megan Faust",
+          "role": "CFO",
+          "shares": 1000,
+          "price": 54.45,
+          "usd": 54450,
+          "plan_10b5_1": false
+        },
+        {
+          "date": "2026-08-07",
+          "name": "Douglas A Alexander",
+          "role": "Director",
+          "shares": 5000,
+          "price": 55.81,
+          "usd": 279050,
+          "plan_10b5_1": false
+        },
+        {
+          "date": "2026-08-06",
+          "name": "Guillaume Rutten",
+          "role": "Director",
+          "shares": 25000,
+          "price": 54.5,
+          "usd": 1362500,
+          "plan_10b5_1": false
+        },
+        {
+          "date": "2026-07-30",
+          "name": "Kevin K Engel",
+          "role": "President/CEO",
+          "shares": 3221,
+          "price": 47.0,
+          "usd": 151387,
+          "plan_10b5_1": false
+        }
+      ],
+      "source": "https://finviz.com/quote.ashx?t=AMKR",
+      "as_of": "2026-09-04",
+      "note": "Finviz does not flag 10b5-1 status on these rows"
+    }
+  },
+  "institutions": {
+    "quarter_end": {
+      "value": "2026-06-30",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "MarketBeat's page states an 'as of' date of 2026-08-27, which is not a 13F quarter end; the underlying 13F filings describe the quarter ended 2026-06-30"
+    },
+    "net_shares": {
+      "value": 35100000,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "53.7M shares bought minus 18.6M shares sold across the trailing 12 months per MarketBeat; dollar totals excluded per registry guidance (CalSTRS outlier row corrupts them)"
+    },
+    "holders_up": {
+      "value": 322,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/institutional-ownership/",
+      "as_of": "2026-09-07"
+    },
+    "holders_down": {
+      "value": 151,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/institutional-ownership/",
+      "as_of": "2026-09-07"
+    },
+    "holders_new": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: MarketBeat page did not separately break out new vs. added-to positions"
+    },
+    "holders_exited": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: MarketBeat page did not separately break out exited vs. reduced positions"
+    },
+    "named_adds": {
+      "value": [
+        {
+          "fund": "TD Waterhouse Canada Inc.",
+          "change_pct": 1539.7
+        },
+        {
+          "fund": "Corient Private Wealth LP",
+          "change_pct": 142.7,
+          "shares": 158037
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "California State Teachers Retirement System (+8,553.4%, 12.39M shares) excluded as the CalSTRS-type corrupted outlier row per registry guidance"
+    },
+    "named_exits": {
+      "value": [
+        {
+          "fund": "Amundi",
+          "change_pct": -59.8,
+          "shares": 105945
+        },
+        {
+          "fund": "Fortitude Advisory Group",
+          "change_pct": -49.9,
+          "shares": 10054
+        },
+        {
+          "fund": "Oliver Luxxe Assets LLC",
+          "change_pct": -39.1,
+          "shares": 34586
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "these are reductions, not confirmed full exits"
+    },
+    "short_pct_float": {
+      "value": 5.27,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/short-interest/",
+      "as_of": "2026-08-14",
+      "note": "Finviz shows a higher 15.96% short float figure with no date; MarketBeat's dated figure is used per registry preference for dated data"
+    },
+    "days_to_cover": {
+      "value": 2.6,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/short-interest/",
+      "as_of": "2026-08-14"
+    },
+    "short_as_of": {
+      "value": "2026-08-14",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/short-interest/",
+      "as_of": "2026-08-14"
+    }
+  },
+  "catalysts": {
+    "value": [
+      {
+        "date": "2026-10-26",
+        "event": "Q3 2026 earnings",
+        "confirmed": false
+      }
+    ],
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/AMKR/earnings/",
+    "as_of": "2026-09-07",
+    "note": "aggregator estimate, not company-confirmed; Arizona campus ramp milestones are an ongoing but undated catalyst"
+  },
+  "why_it_fell": {
+    "value": "Stock is down 50.6% from its 52-week high mainly on the July 27 Q2 print: EPS and revenue beat, but Q3 guidance flagged a communications-segment revenue decline tied to migrating system-in-package manufacturing from South Korea to Vietnam plus soft memory-related demand, which triggered a 24.7% one-day drop; a premium valuation (TTM P/E well above its 5-year median) and insider-sell-only activity have kept pressure on the stock since.",
+    "source": "https://www.fool.com/investing/2026/07/28/why-amkor-plunged-today/",
+    "as_of": "2026-07-28"
+  },
+  "judgment": {
+    "prospect_pts": 5,
+    "prospect_why": "The case is that advanced packaging for AI and HPC plus the $7B Arizona campus with Apple and Nvidia re-rates the business; the driver is in announced capex and backlog rather than in the last two prints, and the comms segment guide was cut, so visibility is guided at best.",
+    "competition_pts": 3,
+    "competition_why": "Gross margin is range-bound at 14-17% with no widening, ASX trades at 26.6x forward against Amkor's cheaper multiple, and the highest-value packaging work is being taken in-house by the foundry, which is a named substitute already taking the best business.",
+    "macro_fit_pts": 3,
+    "macro_fit_why": "A capital-intensive, low-margin cyclical running TTM free cash flow of -$172.4M while committing to a $7B campus is the wrong shape for a regime pricing 1.5 hikes by December with the 10-year at 4.77%.",
+    "narrative_pts": 4,
+    "narrative_why": "It sits inside the AI capex theme, which the macro brief rates stable rather than accelerating with a capex-fatigue counter-narrative building, and its own print was met with a 24.7% fall, so the theme is not currently carrying it."
+  }
+}

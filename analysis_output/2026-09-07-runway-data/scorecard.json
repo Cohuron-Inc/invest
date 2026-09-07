@@ -1,0 +1,535 @@
+{
+  "manifest": {
+    "window_end": "2026-09-07",
+    "price_date": "2026-09-04",
+    "thirteen_f_quarter_end": "2026-06-30",
+    "thirteen_f_note": "MarketBeat's institutional pages for QCOM, RKT, TPL, GLD serve trailing-12-month buyer/seller counts, not a true quarter-over-quarter 13F holders table; used as the closest available proxy and flagged per ticker. AMKR and IONQ pages state an as-of of 2026-08-27 that is not a quarter end; 2026-06-30 inferred. TEM's page implies 2026-03-31, which trails its own Q2 print.",
+    "tickers": [
+      "PLPC",
+      "AMKR",
+      "IONQ",
+      "TEM",
+      "QCOM",
+      "RKT",
+      "GLD",
+      "TPL"
+    ],
+    "groups": [
+      [
+        "PLPC",
+        "AMKR",
+        "IONQ",
+        "TEM"
+      ],
+      [
+        "QCOM",
+        "RKT",
+        "TPL",
+        "GLD"
+      ]
+    ],
+    "mandate": "high return, medium-to-low risk, 1 to 3 years",
+    "hurdle_pct": 5.37,
+    "hurdle_source": "https://fred.stlouisfed.org/series/BAMLC0A3CAEY",
+    "fetched_at": "2026-09-07T08:35:00Z",
+    "ticker_notes": {
+      "TEM": "user wrote TEMPUS; listed ticker is TEM (Tempus AI)",
+      "QCOM": "user wrote QUALCOM STOCK; listed ticker is QCOM (Qualcomm)",
+      "GLD": "SPDR Gold Shares, a commodity trust, not an operating company; the four gates do not apply to it"
+    },
+    "sources_failed": [
+      {
+        "source": "https://finance.yahoo.com/quote/TICKER/analysis/",
+        "tickers": [
+          "QCOM",
+          "RKT",
+          "TPL",
+          "IONQ",
+          "TEM"
+        ],
+        "behaviour": "page load error or empty Growth-Estimates and EPS-revision tables; 30d and 90d revision direction unavailable from the pinned primary"
+      },
+      {
+        "source": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+        "tickers": [
+          "macro"
+        ],
+        "behaviour": "timed out at 60s on two attempts; fell back to centralbank.watch/federal-reserve/"
+      },
+      {
+        "source": "https://www.barchart.com/stocks/indices/sp/sp500?viewName=breadth",
+        "tickers": [
+          "macro"
+        ],
+        "behaviour": "returned empty content; fell back to a dated StockCharts article for percent above the 200-day"
+      },
+      {
+        "source": "https://stockanalysis.com/etf/SPY|QQQ|MTUM|VLUE|QUAL|IWM|SPHB|SPLV/",
+        "tickers": [
+          "macro"
+        ],
+        "behaviour": "pages load but WebFetch surfaced only 1-year total return, not 1m and 3m performance; used Finviz quote pages instead"
+      },
+      {
+        "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=...",
+        "tickers": [
+          "macro"
+        ],
+        "behaviour": "without explicit cosd/coed parameters the fetch returned very old rows (2008-2012) for long series; must pass explicit date parameters"
+      },
+      {
+        "source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "tickers": [
+          "macro"
+        ],
+        "behaviour": "does not surface the current target range or vote split; the individual statement press release had to be fetched separately"
+      },
+      {
+        "source": "https://stockanalysis.com/stocks/PLPC/forecast/",
+        "tickers": [
+          "PLPC"
+        ],
+        "behaviour": "404, no forecast page; coverage too thin for the consensus product. Only MarketBeat's stale 2-analyst $275 target from 2026-03-09 exists"
+      },
+      {
+        "source": "https://www.marketbeat.com/stocks/*/institutional-ownership/",
+        "tickers": [
+          "PLPC",
+          "AMKR",
+          "IONQ",
+          "TEM",
+          "QCOM",
+          "TPL"
+        ],
+        "behaviour": "CalSTRS row with implausible multi-thousand-percent increases persists; on TPL the row's share count exceeds total shares outstanding. Dollar totals excluded on every affected name, holder counts used"
+      },
+      {
+        "source": "finviz vs marketbeat short interest",
+        "tickers": [
+          "TEM",
+          "AMKR",
+          "RKT"
+        ],
+        "behaviour": "material disagreement from different float denominators: TEM 27.75% vs 21.86%, AMKR 15.96% vs 5.27%, RKT 5.50% vs 8.56%. Both recorded, MarketBeat used as primary where it states a settlement date"
+      },
+      {
+        "source": "https://stockanalysis.com/stocks/TICKER/forecast/ estimate-trend table",
+        "tickers": [
+          "IONQ",
+          "TEM"
+        ],
+        "behaviour": "no estimate-revision or estimate-trend table is published; 90-day revision direction had to be derived from the pre-print consensus against the current consensus, and is recorded with that derivation in the note"
+      },
+      {
+        "source": "daily price history",
+        "tickers": [
+          "IONQ",
+          "TEM",
+          "RKT",
+          "TPL"
+        ],
+        "behaviour": "print-day and +5-day reaction not fetched within budget; print_gap_held null for these four"
+      }
+    ],
+    "rubric_artifacts": [
+      {
+        "signal": "risk_reward",
+        "tickers": [
+          "QCOM",
+          "RKT"
+        ],
+        "behaviour": "the downside anchor lands within 1% of the close (QCOM's 200-day is 0.54% below the close; RKT's low target of $14.00 is 0.4% below the $14.06 close), so the computed risk-to-reward is 26.8:1 and 60.7:1. These numbers are arithmetic, not analysis, and neither was allowed to drive a verdict. A future rubric should reject an anchor closer than about 5% to the close and fall back to the next one down."
+      },
+      {
+        "signal": "delivery_gate",
+        "tickers": [
+          "PLPC",
+          "TPL"
+        ],
+        "behaviour": "the gate requires the guide to be held or raised, so a company that gives no guidance can never pass it however good the print. PLPC beat by 86% on EPS and rose 30% on the day and still fails. Noted; it did not change either name's tier, since both fail a second gate."
+      },
+      {
+        "signal": "retail_interest",
+        "tickers": [
+          "PLPC",
+          "IONQ",
+          "RKT",
+          "GLD",
+          "TPL"
+        ],
+        "behaviour": "zero corpus coverage scores 6 or 9 points as 'quiet with fundamentals', which is indistinguishable from 'the six accounts never discussed it'. Totals for these five are inflated by roughly 6 to 9 points and are not comparable with a name the corpus actually covers."
+      },
+      {
+        "signal": "insider",
+        "tickers": [
+          "GLD"
+        ],
+        "behaviour": "a commodity trust has no insiders, which scores 3 as 'no insider activity found'. Meaningless for this instrument."
+      }
+    ]
+  },
+  "rows": [
+    {
+      "ticker": "IONQ",
+      "probe_tier": null,
+      "close": 39.52,
+      "price_as_of": "2026-09-04",
+      "drawdown_pct": -53.30812854442344,
+      "pt_avg": 67.68,
+      "pt_avg_alt": 69.92,
+      "upside_pct": 71.25506072874495,
+      "upside_alt_pct": 76.92307692307692,
+      "downside_anchor": 25.89,
+      "risk_reward": 2.066030814380044,
+      "points": {
+        "earnings": 14,
+        "prospect": 2,
+        "competition": 2,
+        "insider": 0,
+        "institutional": 7,
+        "retail": 9,
+        "upside": 10,
+        "risk_reward": 7,
+        "chart": 2,
+        "macro_fit": 1,
+        "narrative": 2
+      },
+      "why": {
+        "earnings": "beat both, guide raised, revisions up",
+        "insider": "clustered or CEO selling $513,216, no buys",
+        "institutional": "net adds or holders up 527 vs down 143",
+        "retail": "quiet with fundamentals: 0 posts, 0 accounts",
+        "chart": "below the 200 (-10.6%) in a base"
+      },
+      "gates": {
+        "upside": true,
+        "flow": true,
+        "insider": true,
+        "delivery": true
+      },
+      "gates_failed": [],
+      "tier": "runway",
+      "total": 56,
+      "judgment_missing": []
+    },
+    {
+      "ticker": "RKT",
+      "probe_tier": null,
+      "close": 14.06,
+      "price_as_of": "2026-09-04",
+      "drawdown_pct": -42.28243021346469,
+      "pt_avg": 17.7,
+      "pt_avg_alt": null,
+      "upside_pct": 25.889046941678508,
+      "upside_alt_pct": null,
+      "downside_anchor": 14,
+      "risk_reward": 60.666666666666146,
+      "points": {
+        "earnings": 3,
+        "prospect": 3,
+        "competition": 3,
+        "insider": 3,
+        "institutional": 7,
+        "retail": 6,
+        "upside": 6,
+        "risk_reward": 10,
+        "chart": 0,
+        "macro_fit": 1,
+        "narrative": 2
+      },
+      "why": {
+        "earnings": "miss, guide cut, or revisions down; cash conversion below 70% caps at 6",
+        "insider": "no insider activity found",
+        "institutional": "net adds or holders up 536 vs down 134",
+        "retail": "moderate: 0 posts, 0 accounts",
+        "chart": "below both (-0.7% / -13.0%), structure trend_up"
+      },
+      "gates": {
+        "upside": true,
+        "flow": true,
+        "insider": true,
+        "delivery": false
+      },
+      "gates_failed": [
+        "delivery"
+      ],
+      "tier": "one_leg_missing",
+      "total": 44,
+      "judgment_missing": []
+    },
+    {
+      "ticker": "TPL",
+      "probe_tier": null,
+      "close": 362.42,
+      "price_as_of": "2026-09-04",
+      "drawdown_pct": -33.768274853801174,
+      "pt_avg": 442,
+      "pt_avg_alt": 441.33,
+      "upside_pct": 21.957949340544115,
+      "upside_alt_pct": 21.77308095579713,
+      "downside_anchor": 269.23,
+      "risk_reward": 0.8539542869406587,
+      "points": {
+        "earnings": 6,
+        "prospect": 6,
+        "competition": 5,
+        "insider": 4,
+        "institutional": 7,
+        "retail": 6,
+        "upside": 6,
+        "risk_reward": 1,
+        "chart": 0,
+        "macro_fit": 7,
+        "narrative": 6
+      },
+      "why": {
+        "earnings": "mixed print",
+        "insider": "small buys $1,528",
+        "institutional": "net adds or holders up 648 vs down 218",
+        "retail": "moderate: 0 posts, 0 accounts",
+        "chart": "below both (-6.6% / -7.5%), structure breakdown"
+      },
+      "gates": {
+        "upside": true,
+        "flow": true,
+        "insider": true,
+        "delivery": false
+      },
+      "gates_failed": [
+        "delivery"
+      ],
+      "tier": "no_runway",
+      "total": 54,
+      "judgment_missing": []
+    },
+    {
+      "ticker": "QCOM",
+      "probe_tier": null,
+      "close": 168.74,
+      "price_as_of": "2026-09-04",
+      "drawdown_pct": -35.08002462296091,
+      "pt_avg": 193.1,
+      "pt_avg_alt": 203.76,
+      "upside_pct": 14.436411046580533,
+      "upside_alt_pct": 20.75382244873769,
+      "downside_anchor": 167.83369803063457,
+      "risk_reward": 26.878458641169978,
+      "points": {
+        "earnings": 3,
+        "prospect": 4,
+        "competition": 3,
+        "insider": 0,
+        "institutional": 7,
+        "retail": 6,
+        "upside": 3,
+        "risk_reward": 10,
+        "chart": 3,
+        "macro_fit": 6,
+        "narrative": 4
+      },
+      "why": {
+        "earnings": "miss, guide cut, or revisions down",
+        "insider": "clustered or CEO selling $1,467,842, no buys",
+        "institutional": "net adds or holders up 1863 vs down 1510",
+        "retail": "moderate: 2 posts, 2 accounts",
+        "chart": "above the 200 (+0.5%) or breaking out; RS 3m -25.73"
+      },
+      "gates": {
+        "upside": false,
+        "flow": true,
+        "insider": true,
+        "delivery": false
+      },
+      "gates_failed": [
+        "upside",
+        "delivery"
+      ],
+      "tier": "no_runway",
+      "total": 49,
+      "judgment_missing": []
+    },
+    {
+      "ticker": "PLPC",
+      "probe_tier": null,
+      "close": 398.45,
+      "price_as_of": "2026-09-04",
+      "drawdown_pct": -21.050545879648897,
+      "pt_avg": null,
+      "pt_avg_alt": 275.0,
+      "upside_pct": null,
+      "upside_alt_pct": -30.982557409963608,
+      "downside_anchor": 309.04366710618166,
+      "risk_reward": null,
+      "points": {
+        "earnings": 6,
+        "prospect": 7,
+        "competition": 6,
+        "insider": 2,
+        "institutional": 7,
+        "retail": 6,
+        "upside": 0,
+        "risk_reward": 0,
+        "chart": 5,
+        "macro_fit": 5,
+        "narrative": 5
+      },
+      "why": {
+        "earnings": "mixed print",
+        "insider": "no buys; sells $5,361,640",
+        "institutional": "net adds or holders up 89 vs down 35",
+        "retail": "moderate: 0 posts, 0 accounts",
+        "chart": "above both averages, RS 3m 9.129999999999999"
+      },
+      "gates": {
+        "upside": false,
+        "flow": true,
+        "insider": true,
+        "delivery": false
+      },
+      "gates_failed": [
+        "upside",
+        "delivery"
+      ],
+      "tier": "no_runway",
+      "total": 49,
+      "judgment_missing": []
+    },
+    {
+      "ticker": "TEM",
+      "probe_tier": null,
+      "close": 64.62,
+      "price_as_of": "2026-09-04",
+      "drawdown_pct": -38.055981595092014,
+      "pt_avg": 65.79,
+      "pt_avg_alt": 68.93,
+      "upside_pct": 1.810584958217265,
+      "upside_alt_pct": 6.669761683689268,
+      "downside_anchor": 56.41204714098647,
+      "risk_reward": 0.14254467832562792,
+      "points": {
+        "earnings": 10,
+        "prospect": 5,
+        "competition": 4,
+        "insider": 0,
+        "institutional": 7,
+        "retail": 9,
+        "upside": 1,
+        "risk_reward": 1,
+        "chart": 3,
+        "macro_fit": 3,
+        "narrative": 5
+      },
+      "why": {
+        "earnings": "beat, guide held or raised, revisions not down",
+        "insider": "clustered or CEO selling $18,274,074, no buys",
+        "institutional": "net adds or holders up 283 vs down 127",
+        "retail": "quiet with fundamentals: 11 posts, 2 accounts",
+        "chart": "above the 200 (+14.6%) or breaking out; RS 3m 27.13"
+      },
+      "gates": {
+        "upside": false,
+        "flow": true,
+        "insider": true,
+        "delivery": true
+      },
+      "gates_failed": [
+        "upside"
+      ],
+      "tier": "no_runway",
+      "total": 48,
+      "judgment_missing": []
+    },
+    {
+      "ticker": "AMKR",
+      "probe_tier": null,
+      "close": 47.77,
+      "price_as_of": "2026-09-04",
+      "drawdown_pct": -50.5895738518825,
+      "pt_avg": 76.4,
+      "pt_avg_alt": 68.33,
+      "upside_pct": 59.933012350847804,
+      "upside_alt_pct": 43.039564580280484,
+      "downside_anchor": 23.38,
+      "risk_reward": 1.173841738417384,
+      "points": {
+        "earnings": 3,
+        "prospect": 5,
+        "competition": 3,
+        "insider": 0,
+        "institutional": 9,
+        "retail": 6,
+        "upside": 10,
+        "risk_reward": 1,
+        "chart": 0,
+        "macro_fit": 3,
+        "narrative": 4
+      },
+      "why": {
+        "earnings": "miss, guide cut, or revisions down; cash conversion below 70% caps at 6",
+        "insider": "clustered or CEO selling $2,146,287, no buys",
+        "institutional": "net +35,100,000 sh, new None vs exited None, named adds",
+        "retail": "moderate: 3 posts, 2 accounts",
+        "chart": "below both (-18.8% / -14.9%), structure breakdown"
+      },
+      "gates": {
+        "upside": true,
+        "flow": true,
+        "insider": true,
+        "delivery": false
+      },
+      "gates_failed": [
+        "delivery"
+      ],
+      "tier": "no_runway",
+      "total": 44,
+      "judgment_missing": []
+    },
+    {
+      "ticker": "GLD",
+      "probe_tier": null,
+      "close": 406.77,
+      "price_as_of": "2026-09-04",
+      "drawdown_pct": -20.194231901118307,
+      "pt_avg": null,
+      "pt_avg_alt": null,
+      "upside_pct": null,
+      "upside_alt_pct": null,
+      "downside_anchor": 325.35,
+      "risk_reward": null,
+      "points": {
+        "earnings": 0,
+        "prospect": 5,
+        "competition": 2,
+        "insider": 3,
+        "institutional": 3,
+        "retail": 6,
+        "upside": 0,
+        "risk_reward": 0,
+        "chart": 2,
+        "macro_fit": 4,
+        "narrative": 4
+      },
+      "why": {
+        "earnings": "no print found",
+        "insider": "no insider activity found",
+        "institutional": "not cleanly measurable",
+        "retail": "moderate: 0 posts, 0 accounts",
+        "chart": "below the 200 (-2.1%) in a base"
+      },
+      "gates": {
+        "upside": false,
+        "flow": false,
+        "insider": true,
+        "delivery": false
+      },
+      "gates_failed": [
+        "upside",
+        "flow",
+        "delivery"
+      ],
+      "tier": "no_runway",
+      "total": 29,
+      "judgment_missing": []
+    }
+  ]
+}

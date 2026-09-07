@@ -1,0 +1,465 @@
+{
+  "ticker": "GLD",
+  "probe_tier": null,
+  "fetched_at": "2026-09-07T00:00:00Z",
+  "note": "GLD is a commodity trust (physically-backed gold ETF), not an operating company. Earnings, guidance, insiders, sell-side price targets and ordinary 13F 'net share change' concepts do not apply and are recorded as null/not-applicable below per instructions.",
+  "price": {
+    "close": {
+      "value": 406.77,
+      "source": "https://finviz.com/quote.ashx?t=GLD",
+      "as_of": "2026-09-04"
+    },
+    "high_52w": {
+      "value": 509.7,
+      "source": "https://finviz.com/quote.ashx?t=GLD",
+      "as_of": "2026-09-04"
+    },
+    "low_52w": {
+      "value": 325.35,
+      "source": "https://finviz.com/quote.ashx?t=GLD",
+      "as_of": "2026-09-04"
+    },
+    "drawdown_from_high_pct": {
+      "value": -20.19,
+      "source": "https://finviz.com/quote.ashx?t=GLD",
+      "as_of": "2026-09-04"
+    },
+    "sma50_pct": {
+      "value": 4.6,
+      "source": "https://finviz.com/quote.ashx?t=GLD",
+      "as_of": "2026-09-04"
+    },
+    "sma200_pct": {
+      "value": -2.09,
+      "source": "https://finviz.com/quote.ashx?t=GLD",
+      "as_of": "2026-09-04"
+    },
+    "perf_1m_pct": {
+      "value": 4.39,
+      "source": "https://finviz.com/quote.ashx?t=GLD",
+      "as_of": "2026-09-04"
+    },
+    "perf_3m_pct": {
+      "value": 2.66,
+      "source": "https://finviz.com/quote.ashx?t=GLD",
+      "as_of": "2026-09-04"
+    },
+    "spy_1m_pct": {
+      "value": 0.21,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "spy_3m_pct": {
+      "value": 4.43,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "sector_etf": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF has no GICS sector; SPY used as the only cross-asset comparison per instructions"
+    },
+    "sector_1m_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF"
+    },
+    "sector_3m_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF"
+    },
+    "structure": {
+      "value": "base",
+      "source": "https://finviz.com/quote.ashx?t=GLD",
+      "as_of": "2026-09-04",
+      "note": "20% off the 52w high, price back above the 50-day SMA (+4.6%) but still slightly below the 200-day (-2.09%); reads as basing/recovering after the H1 2026 correction, not a confirmed breakout"
+    },
+    "print_gap_held": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF has no earnings print"
+    }
+  },
+  "consensus": {
+    "label": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF, no sell-side rating"
+    },
+    "analysts": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF"
+    },
+    "pt_avg": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "no clean explicit 12-month gold price forecast found to convert to a GLD-equivalent basis (bank forecasts are dated to calendar year-end 2026 or a range through 2027, not a fixed 12-month-forward point); leaving null per instructions rather than forcing a conversion. Raw bank forecasts are recorded in prospect/depends_on instead"
+    },
+    "pt_high": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "same as pt_avg"
+    },
+    "pt_low": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "same as pt_avg"
+    },
+    "pt_avg_alt": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "upside_avg_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "actions_60d": {
+      "value": [],
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: no sell-side ratings on a commodity ETF"
+    }
+  },
+  "earnings": {
+    "print_date": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF"
+    },
+    "revenue_actual": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF"
+    },
+    "revenue_estimate": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF"
+    },
+    "eps_actual": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF"
+    },
+    "eps_estimate": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF"
+    },
+    "guide": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF, no guidance"
+    },
+    "guide_detail": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "reaction_day_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: no earnings print"
+    },
+    "reaction_5d_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "revisions_30d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: no EPS to revise"
+    },
+    "revisions_90d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "eps_trend": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "fcf_ttm": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity trust holds only bullion, no operating cash flow"
+    },
+    "net_income_ttm": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "sbc_pct_revenue": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: no employees/SBC"
+    }
+  },
+  "fund_data": {
+    "aum": {
+      "value": 149290000000,
+      "source": "https://stockanalysis.com/etf/GLD/",
+      "as_of": "2026-09-04"
+    },
+    "expense_ratio_pct": {
+      "value": 0.4,
+      "source": "https://stockanalysis.com/etf/GLD/",
+      "as_of": "2026-09-04"
+    },
+    "gold_tonnes_held": {
+      "value": 1056.62,
+      "source": "https://en.macromicro.me/series/3069/gold-spdr-gold-trust-etf-tonnes",
+      "as_of": "2026-09-02",
+      "note": "SEC 10-Q for the quarter ended Jun 30, 2026 shows ~1,005 tonnes (32,314,227.7 oz); the more current Sep 2 figure is used as the primary value"
+    },
+    "flows_1m": {
+      "value": null,
+      "source": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/08/61405273/quick-spark-gold-etf-leads-inflows-as-investors-pull-billions-from-mega-cap-etfs-in-one-day",
+      "as_of": "2026-08-21",
+      "note": "not found as a clean single 1-month net-flow number; reporting shows GLD posted $3.38B of inflows for the week ended Aug 21, 2026, plus individual daily prints ($1.01B in on Aug 17, $767.8M out on Aug 18, $1.19B in on another August day) \u2014 a strong August inflow month directionally, but no single reconciled 1-month total was found"
+    },
+    "flows_3m": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: global physically-backed gold ETFs added $5.5B in August (three straight monthly inflow months per this source), but no GLD-specific 3-month total was found"
+    }
+  },
+  "gold_spot": {
+    "price": {
+      "value": 4420.0,
+      "source": "https://www.usagold.com/daily-precious-metals-market-report-september-4-2026/",
+      "as_of": "2026-09-04"
+    },
+    "change_1m_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found cleanly: TradingEconomics showed only +0.10% for '1-month change' on a same-day fetch quoting a different spot level ($4,395.84), which conflicts with GLD's own +4.39% 1-month share-price return; not reliable enough to record as the spot 1m change. GLD's own perf_1m_pct (4.39%) is the more defensible proxy for spot's 1-month move"
+    },
+    "change_3m_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: no source gave a reconciled 3-month % change for spot gold; GLD's own perf_3m_pct (2.66%) is the best proxy"
+    },
+    "conversion_note": {
+      "value": "GLD share price ($406.77) / spot gold ($4,420/oz) implies ~0.0920 oz of gold per GLD share on Sep 4, 2026, consistent with GLD's known long-run decay from ~0.1 oz/share at inception due to trust expenses. This ratio, not an official SPDR-published per-share figure (spdrgoldshares.com's live ounces-per-share field returned 'AWAITING' on fetch), is what any GLD-equivalent conversion of a spot gold forecast would need to use.",
+      "source": "https://www.spdrgoldshares.com/usa/gld/",
+      "as_of": "2026-09-04"
+    }
+  },
+  "prospect": {
+    "case": {
+      "value": "The bulls' case for gold/GLD: persistent central-bank reserve diversification away from the dollar (Goldman models ~60 tonnes/month of EM central-bank buying) plus a resumption of ETF inflows (three straight monthly global inflow months into physically-backed gold ETFs through August 2026) should keep pushing spot gold toward the $4,900-$5,600/oz range major banks are forecasting for end-2026/2027.",
+      "source": "https://en.cryptonomist.ch/2026/09/03/goldman-sachs-gold-price/",
+      "as_of": "2026-09-03"
+    },
+    "depends_on": {
+      "value": "Central banks continuing to buy at a similar pace and real rates/the dollar not resuming a sustained uptrend; named bank targets: Goldman Sachs $4,900 by end-2026 and $5,400-$5,600 for 2027, J.P. Morgan and UBS both $5,400 by end-2027, Morgan Stanley's more conservative Q4 2026 base case of $4,800 (no explicit 2027 figure published)",
+      "source": "https://www.jpmorgan.com/insights/global-research/commodities/gold-prices",
+      "as_of": "2026-09"
+    },
+    "bear_case": {
+      "value": "Spot gold fell to $4,420/oz on Sep 4, 2026 (-1.28% on the day) after a stronger-than-expected August jobs report lifted Treasury yields and the dollar and revived bets on a Federal Reserve rate hike, the classic headwind for a zero-yield asset like gold; a sustained real-rate/dollar rebound is the main risk to the forecasts above.",
+      "source": "https://www.usagold.com/daily-precious-metals-market-report-september-4-2026/",
+      "as_of": "2026-09-04"
+    },
+    "visibility": {
+      "value": "story",
+      "source": "https://en.cryptonomist.ch/2026/09/03/goldman-sachs-gold-price/",
+      "as_of": "2026-09-03"
+    }
+  },
+  "competition": {
+    "peers": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity ETF; SPY is used as the cross-asset comparison per instructions rather than a sector peer set"
+    },
+    "share_trend": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "gross_margin_4q": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "fwd_pe": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "peer_fwd_pe": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "ev_sales": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "peer_ev_sales": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "substitute": {
+      "value": "Other gold-backed vehicles (IAU, physical bullion, gold futures) and, as a risk-off/inflation hedge substitute, short-duration Treasuries or the dollar itself when real yields rise",
+      "source": "https://www.usagold.com/daily-precious-metals-market-report-september-4-2026/",
+      "as_of": "2026-09-04"
+    }
+  },
+  "insiders": {
+    "buys_90d": {
+      "value": [],
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: commodity trust has no corporate insiders"
+    },
+    "sells_90d": {
+      "value": [],
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    }
+  },
+  "institutions": {
+    "quarter_end": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: ETF share-basket creation/redemption is not a 13F 'net share change' in the operating-company sense; see fund_data.flows_1m/flows_3m for the closest analogue (fund flows)"
+    },
+    "net_shares": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable, see fund_data flows instead"
+    },
+    "holders_up": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "holders_down": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "holders_new": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "holders_exited": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "named_adds": {
+      "value": [],
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "named_exits": {
+      "value": [],
+      "source": null,
+      "as_of": null,
+      "note": "not applicable"
+    },
+    "short_pct_float": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: Finviz does not display short-interest metrics for GLD (short interest link present but no figures shown on fetch)"
+    },
+    "days_to_cover": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same as short_pct_float"
+    },
+    "short_as_of": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    }
+  },
+  "catalysts": {
+    "value": [
+      {
+        "date": "2026-09-16",
+        "event": "FOMC rate decision (rate-hike bets have risen after the strong August jobs report; a hawkish outcome is the main near-term risk to gold)",
+        "confirmed": true
+      }
+    ],
+    "source": "https://www.financecalendar.com/fomc-meetings/",
+    "as_of": "2026-09-07",
+    "note": "Fed's published meeting calendar; treated as confirmed since it is a scheduled, pre-announced central-bank event, not an estimate"
+  },
+  "why_it_fell": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not applicable: GLD is only -20.2% off its 52-week high, under the brief's 30% threshold for requiring a why-it-fell writeup; see prospect.bear_case for the proximate near-term pressure (stronger jobs data reviving Fed rate-hike bets) instead"
+  },
+  "judgment": {
+    "prospect_pts": 5,
+    "prospect_why": "The case is central-bank buying of roughly 60 tonnes a month plus resumed ETF inflows carrying spot toward the published bank targets of $4,800 to $5,600 against $4,420 spot; the buying is observed rather than forecast, which is why this is mid-range and not lower.",
+    "competition_pts": 2,
+    "competition_why": "Scored as substitution risk to this vehicle rather than to the metal: GLD charges 0.40% against GLDM at 0.10% and IAU at 0.25% for the same exposure, so the incumbent is the expensive way to own the trade and steadily loses flow to its own cheaper clones.",
+    "macro_fit_pts": 4,
+    "macro_fit_why": "Genuinely two-sided: the weaker dollar down 1.55%, 3.4% headline CPI and the accelerating oil and geopolitics shock support it, while a 2.42% real 10-year and a live September hike are the classic headwind, and the hawkish side is currently winning since spot fell 1.3% on the payrolls beat.",
+    "narrative_pts": 4,
+    "narrative_why": "The debasement and geopolitics narrative is live and the Iran shock is accelerating, but its counter-narrative, the Fed hawkish pivot, is the theme the macro brief rates accelerating fastest and it is the one moving the price right now."
+  }
+}

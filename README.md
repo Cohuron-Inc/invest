@@ -3,6 +3,7 @@
 Daily research corpus built from a strict 14-account X allowlist, plus a daily briefing.
 
 - **Design — architecture, decisions, and what was rejected:** [`_plan/design.md`](_plan/design.md)
+- **Business design — outcome, use cases, products, economics, success measures:** [`_plan/business.md`](_plan/business.md)
 - **The only sanctioned read path:** [`sql/views.sql`](sql/views.sql)
 - **Saved analyses:** [`queries/`](queries/)
 
@@ -24,10 +25,16 @@ pnpm task:render             # daily/*.md, tickers/*.md, INDEX.md
 pnpm task:backfill --start 2026-07-07T00:00:00Z --max-posts 16000
                              # metered, one-off; --max-posts is a real spend cap
 
+pnpm task:backfill --accounts h1,h2 --start ...   # resume only the handles a 402 or the cap cut off
+
 # analysis without an API key: one subagent per account, inside a Claude Code session
-pnpm task:session-dump       # corpus -> data/_session/<handle>.posts.jsonl (+ SPEC.md)
+pnpm task:session-dump [--from YYYY-MM-DD --to YYYY-MM-DD]
+                             # corpus -> data/_session/<handle>.posts.jsonl (+ SPEC.md, WINDOW.json); keeps out/
                              # ...run one subagent per bundle, writing data/_session/out/<handle>.json
-pnpm task:session-ingest     # validates citations, then -> picks/pick_tags + data/analysis/accounts/
+pnpm task:session-ingest --check   # validate citations, write nothing; hand rejections back to the subagent
+pnpm task:session-ingest     # -> picks/pick_tags + data/analysis/accounts/ stamped with WINDOW.json dates
+pnpm q corpus-coverage       # first/last day per account against the window you paid for
+pnpm q retail-interest --symbols "VST,AVGO"   # corpus attention per symbol: accounts, posts, engagement, stances
 
 # any time
 pnpm rebuild --from 2026-09-08   # re-derives posts/mentions/markdown only
@@ -37,9 +44,16 @@ pnpm q first-mention --symbol NVDA
 pnpm q account-convergence       # names more than one account took a position on
 pnpm q account-repertoire        # what each account actually does
 
-# mandate-driven read across the account analyses, published as an artifact
-# (Claude Code skill: .claude/skills/corpus-probe) -> data/analysis/probes/<window_end>-probe.html
+# The Claude Code chain (skills in .claude/skills/). Each SKILL.md explains the problem it
+# solves step by step; run them in this order.
+/fetch "from 2026-07-07 to 2026-09-06"   # X API backfill -> normalize -> bundles -> one subagent per
+                                        # account in this session (no Anthropic key) -> ingest -> render
 /corpus-probe "high return, medium-to-low risk, 1 to 3 years"
+                                        # mandate-driven Core/Watch/Satellite read -> data/analysis/probes/
+/runway-probe                           # rank those names by twelve signals: earnings, prospect, competition,
+                                        # insiders, 13F flow, retail crowding, upside, risk:reward, chart, macro
+                                        # fit, narrative harmony, catalysts -> analysis_output/<window_end>-runway-probe.html
+                                        # plus the scorecard per name in <window_end>-runway-evidence.md
 ```
 
 ### Two capture paths, and why

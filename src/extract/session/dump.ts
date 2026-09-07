@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync, rmSync, existsSync } from 'node:fs'
+import { mkdirSync, writeFileSync, rmSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { connect, rows, dataRoot, requireLayers } from '../../duck/connect.js'
 import { activeTags, loadEnums, loadTagTaxonomy } from '../../lib/config.js'
@@ -110,20 +110,49 @@ ${tags.map((t) => `- \`${t.tag}\` — ${t.description}`).join('\n')}
 `
 }
 
-export async function dumpAccounts(opts: { outDir?: string } = {}): Promise<string[]> {
+/**
+ * The window the bundles cover. Written next to SPEC.md so that ingest stamps
+ * the analyses with the dates the subagents actually saw, rather than a
+ * constant that was true for the first run only.
+ */
+export type SessionWindow = { window_start: string; window_end: string; from_flag: boolean }
+
+export async function dumpAccounts(opts: { outDir?: string; from?: string; to?: string } = {}): Promise<string[]> {
   const root = dataRoot()
   requireLayers(['posts'], root)
   const outDir = opts.outDir ?? join(root, '_session')
-  if (existsSync(outDir)) rmSync(outDir, { recursive: true, force: true })
+  // Replace the bundles and the contract, but never out/: that holds subagent
+  // work that may not have been ingested yet, and re-dumping must not cost it.
   mkdirSync(outDir, { recursive: true })
+  for (const f of readdirSync(outDir)) {
+    if (f.endsWith('.posts.jsonl') || f === 'SPEC.md' || f === 'WINDOW.json') rmSync(join(outDir, f), { force: true })
+  }
 
   const connection = await connect({ data: root })
+  // Inclusive trading_day bounds. Without flags the bundle is the whole corpus,
+  // which is right for a single backfill and wrong once history accumulates.
+  const bounds = [
+    opts.from ? `trading_day >= DATE '${opts.from}'` : null,
+    opts.to ? `trading_day <= DATE '${opts.to}'` : null,
+  ].filter(Boolean).map((c) => ` AND ${c}`).join('')
+
   const accounts = (await rows(connection, `
     SELECT author_username AS handle, count(*) AS n
-      FROM posts_v WHERE post_type <> 'retweet'
+      FROM posts_v WHERE post_type <> 'retweet'${bounds}
      GROUP BY 1 ORDER BY n DESC`)).map((r) => String(r['handle']))
 
+  const span = (await rows(connection, `
+    SELECT min(trading_day)::VARCHAR AS lo, max(trading_day)::VARCHAR AS hi
+      FROM posts_v WHERE post_type <> 'retweet'${bounds}`))[0]
+  const window: SessionWindow = {
+    window_start: opts.from ?? String(span?.['lo'] ?? ''),
+    window_end: opts.to ?? String(span?.['hi'] ?? ''),
+    from_flag: Boolean(opts.from || opts.to),
+  }
+  if (!window.window_start || !window.window_end) throw new Error('no non-retweet posts in the requested window')
+
   writeFileSync(join(outDir, 'SPEC.md'), buildSpec())
+  writeFileSync(join(outDir, 'WINDOW.json'), JSON.stringify(window, null, 2) + '\n')
 
   const written: string[] = []
   for (const handle of accounts) {
@@ -134,7 +163,7 @@ export async function dumpAccounts(opts: { outDir?: string } = {}): Promise<stri
       SELECT post_id, created_at::VARCHAR AS created_at, trading_day::VARCHAR AS trading_day,
              post_type, COALESCE(full_text, text) AS text
         FROM posts_v
-       WHERE author_username = '${handle.replace(/'/g, "''")}' AND post_type <> 'retweet'
+       WHERE author_username = '${handle.replace(/'/g, "''")}' AND post_type <> 'retweet'${bounds}
        ORDER BY created_at, post_id`)) as unknown as BundlePost[]
 
     const path = join(outDir, `${handle}.posts.jsonl`)
@@ -142,10 +171,17 @@ export async function dumpAccounts(opts: { outDir?: string } = {}): Promise<stri
     written.push(path)
     log.info('session.dump', { handle, posts: posts.length, bytes: Buffer.byteLength(JSON.stringify(posts)) })
   }
-  log.info('session.dump.done', { accounts: written.length, outDir, tags: activeTags().length })
+  log.info('session.dump.done', { accounts: written.length, outDir, window, tags: activeTags().length })
   return written
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  dumpAccounts().catch((err) => { console.error(String(err)); process.exit(1) })
+  const arg = (flag: string): string | undefined => {
+    const i = process.argv.indexOf(flag)
+    return i > -1 ? process.argv[i + 1] : undefined
+  }
+  const opts: { from?: string; to?: string } = {}
+  const from = arg('--from'); if (from) opts.from = from
+  const to = arg('--to'); if (to) opts.to = to
+  dumpAccounts(opts).catch((err) => { console.error(String(err)); process.exit(1) })
 }

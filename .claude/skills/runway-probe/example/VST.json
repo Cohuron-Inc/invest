@@ -1,0 +1,97 @@
+{
+  "ticker": "VST",
+  "probe_tier": "watch",
+  "fetched_at": "2026-09-07T14:05:00Z",
+  "price": {
+    "close": {"value": 149.30, "source": "https://finviz.com/quote.ashx?t=VST", "as_of": "2026-09-04"},
+    "high_52w": {"value": 219.82, "source": "https://stockanalysis.com/stocks/VST/", "as_of": "2026-09-04"},
+    "low_52w": {"value": 106.00, "source": "https://stockanalysis.com/stocks/VST/", "as_of": "2026-09-04"},
+    "sma50_pct": {"value": -4.1, "source": "https://finviz.com/quote.ashx?t=VST", "as_of": "2026-09-04"},
+    "sma200_pct": {"value": -9.8, "source": "https://finviz.com/quote.ashx?t=VST", "as_of": "2026-09-04"},
+    "perf_1m_pct": {"value": -3.2, "source": "https://finviz.com/quote.ashx?t=VST", "as_of": "2026-09-04"},
+    "perf_3m_pct": {"value": -18.5, "source": "https://finviz.com/quote.ashx?t=VST", "as_of": "2026-09-04"},
+    "spy_1m_pct": {"value": 1.1, "source": "https://finviz.com/quote.ashx?t=SPY", "as_of": "2026-09-04"},
+    "spy_3m_pct": {"value": 2.4, "source": "https://finviz.com/quote.ashx?t=SPY", "as_of": "2026-09-04"},
+    "sector_etf": {"value": "XLU", "source": "registry", "as_of": "2026-09-04"},
+    "sector_1m_pct": {"value": -1.0, "source": "https://finviz.com/quote.ashx?t=XLU", "as_of": "2026-09-04"},
+    "sector_3m_pct": {"value": -4.0, "source": "https://finviz.com/quote.ashx?t=XLU", "as_of": "2026-09-04"},
+    "structure": {"value": "base", "source": "https://stockanalysis.com/stocks/VST/history/", "as_of": "2026-09-04"},
+    "print_gap_held": {"value": false, "source": "https://stockanalysis.com/stocks/VST/history/", "as_of": "2026-08-14"}
+  },
+  "consensus": {
+    "label": {"value": "Strong Buy", "source": "https://stockanalysis.com/stocks/VST/forecast/", "as_of": "2026-09-04"},
+    "analysts": {"value": 20, "source": "https://stockanalysis.com/stocks/VST/forecast/", "as_of": "2026-09-04"},
+    "pt_avg": {"value": 217.42, "source": "https://stockanalysis.com/stocks/VST/forecast/", "as_of": "2026-09-04"},
+    "pt_high": {"value": 305, "source": "https://stockanalysis.com/stocks/VST/forecast/", "as_of": "2026-09-04"},
+    "pt_low": {"value": 106, "source": "https://stockanalysis.com/stocks/VST/forecast/", "as_of": "2026-09-04"},
+    "pt_avg_alt": {"value": null, "source": null, "as_of": null, "note": "not found: MarketBeat page not fetched"},
+    "actions_60d": {"value": [
+      {"date": "2026-09-01", "broker": "Wells Fargo", "action": "maintain", "target": 212, "reason": ""},
+      {"date": "2026-08-24", "broker": "Mizuho", "action": "initiate Outperform", "target": 169, "reason": ""},
+      {"date": "2026-08-21", "broker": "Morgan Stanley", "action": "raise", "target": 227, "reason": "OW"},
+      {"date": "2026-08-19", "broker": "BNP Paribas Exane", "action": "cut", "target": 255, "reason": "data-center buildout risk"}
+    ], "source": "https://stockanalysis.com/stocks/VST/forecast/", "as_of": "2026-09-04"}
+  },
+  "earnings": {
+    "print_date": {"value": "2026-08-07", "source": "https://www.marketbeat.com/stocks/NYSE/VST/earnings/", "as_of": "2026-08-07"},
+    "revenue_actual": {"value": 4020, "source": "https://www.marketbeat.com/stocks/NYSE/VST/earnings/", "as_of": "2026-08-07"},
+    "revenue_estimate": {"value": 5730, "source": "https://www.marketbeat.com/stocks/NYSE/VST/earnings/", "as_of": "2026-08-07"},
+    "eps_actual": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "eps_estimate": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "guide": {"value": "held", "source": "https://investor.vistracorp.com/", "as_of": "2026-08-07"},
+    "guide_detail": {"value": "FY26 adj. EBITDA guide reaffirmed", "source": "https://investor.vistracorp.com/", "as_of": "2026-08-07"},
+    "reaction_day_pct": {"value": -4.5, "source": "https://stockanalysis.com/stocks/VST/history/", "as_of": "2026-08-07"},
+    "reaction_5d_pct": {"value": -7.0, "source": "https://stockanalysis.com/stocks/VST/history/", "as_of": "2026-08-14"},
+    "revisions_30d": {"value": "flat", "source": "https://finance.yahoo.com/quote/VST/analysis/", "as_of": "2026-09-04"},
+    "revisions_90d": {"value": "flat", "source": "https://finance.yahoo.com/quote/VST/analysis/", "as_of": "2026-09-04"},
+    "eps_trend": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "fcf_ttm": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "net_income_ttm": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "sbc_pct_revenue": {"value": null, "source": null, "as_of": null, "note": "not found"}
+  },
+  "prospect": {
+    "case": {"value": "The case is that contracted data-center power demand re-rates the nuclear and gas fleet before ERCOT forwards roll lower.", "source": "https://investor.vistracorp.com/", "as_of": "2026-08-07"},
+    "depends_on": {"value": "new hyperscaler PPAs announced before year-end", "source": "analyst judgment", "as_of": "2026-09-07"},
+    "bear_case": {"value": "ERCOT forwards sliding, hyperscaler capex pause, Moss Landing decommissioning", "source": "https://www.fool.com/", "as_of": "2026-08-30"},
+    "visibility": {"value": "guided", "source": "analyst judgment", "as_of": "2026-09-07"}
+  },
+  "competition": {
+    "peers": {"value": ["CEG", "NRG"], "source": "registry", "as_of": "2026-09-07"},
+    "share_trend": {"value": "unknown", "source": null, "as_of": null},
+    "gross_margin_4q": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "fwd_pe": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "peer_fwd_pe": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "ev_sales": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "peer_ev_sales": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "substitute": {"value": "none named", "source": "analyst judgment", "as_of": "2026-09-07"}
+  },
+  "insiders": {
+    "buys_90d": {"value": [
+      {"date": "2026-08-24", "name": "James Burke", "role": "CEO", "shares": 2000, "price": 135.0, "usd": 270000, "history": "", "form4": ""},
+      {"date": "2026-08-31", "name": "James Burke", "role": "CEO", "shares": 3665, "price": 134.5, "usd": 493000, "history": "", "form4": ""},
+      {"date": "2026-09-01", "name": "James Burke", "role": "CEO", "shares": 3000, "price": 135.2, "usd": 405600, "history": "largest purchase ever, 3rd in 30 days", "form4": ""}
+    ], "source": "https://finviz.com/quote.ashx?t=VST", "as_of": "2026-09-04"},
+    "sells_90d": {"value": [], "source": "https://finviz.com/quote.ashx?t=VST", "as_of": "2026-09-04"}
+  },
+  "institutions": {
+    "quarter_end": {"value": "2026-06-30", "source": "https://fintel.io/so/us/VST", "as_of": "2026-08-15"},
+    "net_shares": {"value": null, "source": null, "as_of": null, "note": "not found: fintel 403"},
+    "holders_up": {"value": 832, "source": "https://www.marketbeat.com/stocks/NYSE/VST/institutional-ownership/", "as_of": "2026-08-15"},
+    "holders_down": {"value": 672, "source": "https://www.marketbeat.com/stocks/NYSE/VST/institutional-ownership/", "as_of": "2026-08-15"},
+    "holders_new": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "holders_exited": {"value": null, "source": null, "as_of": null, "note": "not found"},
+    "named_adds": {"value": [{"fund": "Goldman Sachs", "change_pct": 42, "shares": 4700000}, {"fund": "Appaloosa", "change_pct": 10, "shares": 2220000}], "source": "https://www.marketbeat.com/stocks/NYSE/VST/institutional-ownership/", "as_of": "2026-08-15"},
+    "named_exits": {"value": [], "source": "https://www.marketbeat.com/stocks/NYSE/VST/institutional-ownership/", "as_of": "2026-08-15"},
+    "short_pct_float": {"value": 2.9, "source": "https://finviz.com/quote.ashx?t=VST", "as_of": "2026-08-14"},
+    "days_to_cover": {"value": 2.1, "source": "https://finviz.com/quote.ashx?t=VST", "as_of": "2026-08-14"},
+    "short_as_of": {"value": "2026-08-14", "source": "https://www.nasdaq.com/market-activity/stocks/vst/short-interest", "as_of": "2026-08-14"}
+  },
+  "catalysts": {"value": [{"date": "2026-11-05", "event": "Q3 earnings", "confirmed": false}], "source": "https://stockanalysis.com/stocks/VST/", "as_of": "2026-09-04"},
+  "why_it_fell": {"value": "Sector-wide IPP de-rating; Q2 revenue miss on hedge marks; ERCOT forwards sliding.", "source": "https://www.fool.com/", "as_of": "2026-08-30"},
+  "judgment": {
+    "prospect_pts": 5, "prospect_why": "driver is in guidance and PPAs, not yet in reported numbers",
+    "competition_pts": 4, "competition_why": "stable position among IPPs; no margin data found",
+    "macro_fit_pts": 5, "macro_fit_why": "cash-flow equity tolerates a rate plateau; oil above $85 is neutral for power",
+    "narrative_pts": 6, "narrative_why": "inside the AI-power theme, which is stable; counter-narrative is capex pause"
+  }
+}

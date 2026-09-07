@@ -1,0 +1,455 @@
+{
+  "ticker": "RKT",
+  "probe_tier": null,
+  "fetched_at": "2026-09-07T00:00:00Z",
+  "price": {
+    "close": {
+      "value": 14.06,
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04"
+    },
+    "high_52w": {
+      "value": 24.36,
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04"
+    },
+    "low_52w": {
+      "value": 12.17,
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04"
+    },
+    "drawdown_from_high_pct": {
+      "value": -42.28,
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04"
+    },
+    "sma50_pct": {
+      "value": -0.69,
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04"
+    },
+    "sma200_pct": {
+      "value": -12.98,
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04"
+    },
+    "perf_1m_pct": {
+      "value": 6.35,
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04"
+    },
+    "perf_3m_pct": {
+      "value": 11.15,
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04"
+    },
+    "spy_1m_pct": {
+      "value": 0.21,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "spy_3m_pct": {
+      "value": 4.43,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "sector_etf": {
+      "value": "XLF",
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04"
+    },
+    "sector_1m_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not fetch XLF page within fetch budget"
+    },
+    "sector_3m_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not fetch XLF page within fetch budget"
+    },
+    "structure": {
+      "value": "trend_up",
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04",
+      "note": "up 6.35% 1m and 11.15% 3m off a low made below $13, but still 13% under the 200-day SMA after the 42% drawdown from the 52w high; a recovery trend within a longer downtrend"
+    },
+    "print_gap_held": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not pull daily history around the Aug 6 print within fetch budget"
+    }
+  },
+  "consensus": {
+    "label": {
+      "value": "Buy",
+      "source": "https://stockanalysis.com/stocks/RKT/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "analysts": {
+      "value": 17,
+      "source": "https://stockanalysis.com/stocks/RKT/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "pt_avg": {
+      "value": 17.7,
+      "source": "https://stockanalysis.com/stocks/RKT/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "pt_high": {
+      "value": 21,
+      "source": "https://stockanalysis.com/stocks/RKT/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "pt_low": {
+      "value": 14,
+      "source": "https://stockanalysis.com/stocks/RKT/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "pt_avg_alt": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not fetched separately; Finviz consensus target ($17.77) is essentially identical to StockAnalysis ($17.70), well under the 10-point divergence threshold, so MarketBeat forecast page was not fetched to save budget"
+    },
+    "upside_avg_pct": {
+      "value": 25.89,
+      "source": "https://stockanalysis.com/stocks/RKT/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "actions_60d": {
+      "value": [
+        {
+          "date": "2026-08-28",
+          "broker": "RBC Capital",
+          "action": "maintain",
+          "target": 16,
+          "reason": "reiterated Hold"
+        },
+        {
+          "date": "2026-08-11",
+          "broker": "J.P. Morgan",
+          "action": "maintain",
+          "target": 14,
+          "reason": "target cut from $16 to $14, reiterated Hold"
+        },
+        {
+          "date": "2026-08-10",
+          "broker": "KBW",
+          "action": "maintain",
+          "target": 19,
+          "reason": "target cut from $20 to $19, reiterated Buy"
+        },
+        {
+          "date": "2026-08-10",
+          "broker": "BTIG",
+          "action": "maintain",
+          "target": null,
+          "reason": "reiterated Hold"
+        },
+        {
+          "date": "2026-08-07",
+          "broker": "Morgan Stanley",
+          "action": "maintain",
+          "target": 19,
+          "reason": "reiterated Buy"
+        }
+      ],
+      "source": "https://stockanalysis.com/stocks/RKT/forecast/",
+      "as_of": "2026-09-04",
+      "note": "note the JPM and KBW target cuts cluster right after the Aug 6 earnings miss"
+    }
+  },
+  "earnings": {
+    "print_date": {
+      "value": "2026-08-06",
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/earnings/",
+      "as_of": "2026-08-06"
+    },
+    "revenue_actual": {
+      "value": 2760000000,
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/earnings/",
+      "as_of": "2026-08-06"
+    },
+    "revenue_estimate": {
+      "value": 2810000000,
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/earnings/",
+      "as_of": "2026-08-06"
+    },
+    "eps_actual": {
+      "value": 0.16,
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/earnings/",
+      "as_of": "2026-08-06"
+    },
+    "eps_estimate": {
+      "value": 0.1642,
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/earnings/",
+      "as_of": "2026-08-06"
+    },
+    "guide": {
+      "value": "cut",
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/earnings/",
+      "as_of": "2026-08-06"
+    },
+    "guide_detail": {
+      "value": "Q3 2026 revenue guided $2.5-$2.7B vs consensus $2.9B, a significant cut below street",
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/earnings/",
+      "as_of": "2026-08-06"
+    },
+    "reaction_day_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not pull daily price history within fetch budget"
+    },
+    "reaction_5d_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same as above"
+    },
+    "revisions_30d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: Yahoo analysis page failed to load for the group (same error as QCOM); not refetched for RKT given repeated failure"
+    },
+    "revisions_90d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same Yahoo failure"
+    },
+    "eps_trend": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same Yahoo failure"
+    },
+    "fcf_ttm": {
+      "value": -774000000,
+      "source": "https://stockanalysis.com/stocks/RKT/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-06-30",
+      "note": "TTM sum of last 4 reported quarters (Q3'25-Q2'26); negative despite positive net income, likely driven by mortgage servicing rights/loan origination working-capital swings post Mr. Cooper close"
+    },
+    "net_income_ttm": {
+      "value": 471170000,
+      "source": "https://stockanalysis.com/stocks/RKT/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-06-30"
+    },
+    "sbc_pct_revenue": {
+      "value": 4.65,
+      "source": "https://stockanalysis.com/stocks/RKT/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-06-30",
+      "note": "SBC TTM ~$430M / revenue TTM ~$9,244M; below the 10% flag threshold"
+    }
+  },
+  "prospect": {
+    "case": {
+      "value": "The bulls' case: Redfin and Mr. Cooper integration is compounding cross-sell (Redfin-sourced mortgage attach rate up to 47%, home-equity volume doubling y/y) and cost synergies ($100M realized in Q2 toward a $500M-by-2027 target), positioning Rocket to gain share and operating leverage once mortgage rates ease.",
+      "source": "https://seekingalpha.com/article/4943360-rocket-companies-market-share-gains-and-synergies-support-my-buy",
+      "as_of": "2026-08"
+    },
+    "depends_on": {
+      "value": "Hitting the $500M annualized Mr. Cooper synergy run-rate by 2027 and continuing to grow the Redfin-to-Rocket mortgage attach rate; also needs mortgage rates to ease from currently elevated levels to unlock refi/purchase volume",
+      "source": "https://seekingalpha.com/article/4943360-rocket-companies-market-share-gains-and-synergies-support-my-buy",
+      "as_of": "2026-08"
+    },
+    "bear_case": {
+      "value": "Stock trades at a premium ~21x 2026 earnings despite a Q2 miss and a guidance cut for Q3; elevated mortgage rates and integration/cost-discipline execution risk could leave the stock \"fully priced\" if targets slip",
+      "source": "https://ca.finance.yahoo.com/news/rocket-companies-rkt-stock-looks-061214577.html",
+      "as_of": "2026-08"
+    },
+    "visibility": {
+      "value": "guided",
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/earnings/",
+      "as_of": "2026-08-06"
+    }
+  },
+  "competition": {
+    "peers": {
+      "value": [
+        "UWMC",
+        "PFSI"
+      ],
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04",
+      "note": "Rocket's other historical direct peers (Mr. Cooper, Redfin) are no longer independent, having been acquired by Rocket itself in 2025-26; UWM Holdings and PennyMac Financial Services are the remaining scaled independent mortgage-originator comps"
+    },
+    "share_trend": {
+      "value": "gaining",
+      "source": "https://seekingalpha.com/article/4943360-rocket-companies-market-share-gains-and-synergies-support-my-buy",
+      "as_of": "2026-08"
+    },
+    "gross_margin_4q": {
+      "value": null,
+      "source": "https://stockanalysis.com/stocks/RKT/financials/?p=quarterly",
+      "as_of": "2026-06-30",
+      "note": "StockAnalysis reports gross margin as 100% for all four quarters; not a meaningful metric for a mortgage originator with no COGS line, so not recorded as a real signal"
+    },
+    "fwd_pe": {
+      "value": 15.9,
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04"
+    },
+    "peer_fwd_pe": {
+      "value": {
+        "UWMC": 4.19,
+        "PFSI": 6.71
+      },
+      "source": "https://finviz.com/quote.ashx?t=UWMC",
+      "as_of": "2026-09-04",
+      "note": "RKT trades at a large forward-P/E premium to both UWMC and PFSI"
+    },
+    "ev_sales": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: not fetched within budget"
+    },
+    "peer_ev_sales": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: only Price/Sales pulled (UWMC 0.17, PFSI 0.80), not EV/Sales; not recorded to avoid mixing metrics"
+    },
+    "substitute": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: no named new-entrant/substitute threat surfaced in the sources checked"
+    }
+  },
+  "insiders": {
+    "buys_90d": {
+      "value": [],
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04",
+      "note": "no open-market insider buys shown; visible table rows are all director sales dated Nov 2025-Jan 2026, i.e. outside the 90-day window as of Sep 2026 \u2014 no insider transactions found inside the last 90 days at all"
+    },
+    "sells_90d": {
+      "value": [],
+      "source": "https://finviz.com/quote.ashx?t=RKT",
+      "as_of": "2026-09-04",
+      "note": "the Finviz insider table's visible rows (Matthew Rizik, director, routine ~2,500-share sales) are all dated Nov 2025-Jan 2026, more than 90 days before the Sep 7, 2026 as-of date; none confirmed inside the 90-day window"
+    }
+  },
+  "institutions": {
+    "quarter_end": {
+      "value": "2026-05-19",
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/institutional-ownership/",
+      "as_of": "2026-05-19",
+      "note": "MarketBeat states filings as of this date rather than a standard calendar quarter-end"
+    },
+    "net_shares": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: MarketBeat gave dollar inflow/outflow totals only (excluded per registry rule), no aggregate net share figure"
+    },
+    "holders_up": {
+      "value": 536,
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/institutional-ownership/",
+      "as_of": "2026-09-04",
+      "note": "MarketBeat trailing-12-month institutional buyer count, used as closest proxy"
+    },
+    "holders_down": {
+      "value": 134,
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/institutional-ownership/",
+      "as_of": "2026-09-04"
+    },
+    "holders_new": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found on MarketBeat page"
+    },
+    "holders_exited": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found on MarketBeat page"
+    },
+    "named_adds": {
+      "value": [
+        {
+          "fund": "Amundi",
+          "change_pct": 152.1,
+          "shares": 13725878
+        },
+        {
+          "fund": "Wellington Management Group LLP",
+          "change_pct": 64.5,
+          "shares": 9029295
+        },
+        {
+          "fund": "Atreides Management LP",
+          "change_pct": 69.7,
+          "shares": 6114947
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/institutional-ownership/",
+      "as_of": "2026-09-04"
+    },
+    "named_exits": {
+      "value": [
+        {
+          "fund": "Castleark Management LLC",
+          "change_pct": -92.7
+        },
+        {
+          "fund": "Bank of Nova Scotia",
+          "change_pct": -90.7
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/institutional-ownership/",
+      "as_of": "2026-09-04",
+      "note": "share counts not given for these two rows"
+    },
+    "short_pct_float": {
+      "value": 8.56,
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/short-interest/",
+      "as_of": "2026-08-14",
+      "note": "Finviz shows 5.50% short float on the same ~102.6M shares short; the two differ because they use different float denominators. Both this figure and consensus targets should be read against RKT's PUBLIC FLOAT of Class A shares (~968.45M shares per gurufocus/10-K data), not total shares outstanding across all classes (~2.83B, including the low-vote/high-vote Class D held mainly by Rock Holdings/Dan Gilbert)"
+    },
+    "days_to_cover": {
+      "value": 3.5,
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/short-interest/",
+      "as_of": "2026-08-14"
+    },
+    "short_as_of": {
+      "value": "2026-08-14",
+      "source": "https://www.marketbeat.com/stocks/NYSE/RKT/short-interest/",
+      "as_of": "2026-08-14"
+    }
+  },
+  "catalysts": {
+    "value": [
+      {
+        "date": "2026-10-29",
+        "event": "Q3 2026 earnings",
+        "confirmed": false
+      }
+    ],
+    "source": "https://www.marketbeat.com/stocks/NYSE/RKT/earnings/",
+    "as_of": "2026-09-04"
+  },
+  "why_it_fell": {
+    "value": "Down 42% from its 52-week high on a Q2 2026 miss (EPS and revenue both light) and a Q3 revenue guide ($2.5-2.7B) cut well below the $2.9B consensus, plus ongoing integration/execution risk on the Mr. Cooper and Redfin deals against a backdrop of still-elevated mortgage rates.",
+    "source": "https://www.marketbeat.com/stocks/NYSE/RKT/earnings/",
+    "as_of": "2026-08-06"
+  },
+  "judgment": {
+    "prospect_pts": 3,
+    "prospect_why": "The case is Redfin and Mr. Cooper cross-sell delivering $500M of synergies by 2027, and it depends on both execution and rate relief; the last print missed on revenue and the Q3 guide was cut to $2.5-2.7B against $2.9B consensus, so the driver is not yet visible in the numbers.",
+    "competition_pts": 3,
+    "competition_why": "It is consolidating the industry rather than losing share, but it trades at 15.9x forward against UWMC at 4.2x and PFSI at 6.7x, a roughly threefold premium carried into a revenue miss and a guide cut, and mortgage origination has no gross-margin moat to read.",
+    "macro_fit_pts": 1,
+    "macro_fit_why": "The worst macro fit in the set: a mortgage originator with TTM free cash flow of -$774M needs falling rates, and the market has flipped from pricing cuts to pricing roughly 1.5 hikes by December with the 10-year at 4.77%, so the thesis needs the regime to change.",
+    "narrative_pts": 2,
+    "narrative_why": "Its only theme is rate relief, which the macro brief has moving the other way; there is no live narrative supporting it and no corpus account mentions it."
+  }
+}

@@ -90,12 +90,25 @@ export type BackfillOptions = {
   maxResults?: number
   /** Report what would be read without writing files. */
   dryRun?: boolean
+  /**
+   * Restrict the sweep to these handles. Backfill is not incremental - a rerun
+   * re-reads and re-pays for every account it touches - so when a 402 or the
+   * budget stops a sweep partway down the allowlist, this is how the remaining
+   * accounts are fetched without buying the finished ones twice.
+   */
+  accounts?: string[]
 }
 
 export async function backfill(opts: BackfillOptions): Promise<BackfillManifest> {
   const started = new Date()
   const root = dataRoot()
-  const accounts = loadResolvedAccounts()
+  const all = loadResolvedAccounts()
+  const wanted = opts.accounts?.map((h) => h.replace(/^@/, '').toLowerCase())
+  const accounts = wanted ? all.filter((a) => wanted.includes(a.handle.toLowerCase())) : all
+  if (wanted) {
+    const unknown = wanted.filter((h) => !all.some((a) => a.handle.toLowerCase() === h))
+    if (unknown.length > 0) throw new Error(`--accounts names handles not in accounts.json: ${unknown.join(', ')}`)
+  }
   const { runId, attempt } = runIdentity()
   const ingestDt = marketDate(started)
   const endTime = opts.endTime ?? isoUtc(started)
@@ -238,6 +251,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const pp = arg('--max-pages'); if (pp) opts.maxPagesPerAccount = Number(pp)
   const mr = arg('--max-results'); if (mr) opts.maxResults = Number(mr)
   if (process.argv.includes('--dry-run')) opts.dryRun = true
+  const only = arg('--accounts'); if (only) opts.accounts = only.split(',').map((h) => h.trim()).filter(Boolean)
 
   backfill(opts)
     .then((m) => { console.log(JSON.stringify(m.accounts, null, 2)); if (m.status !== 'ok') process.exitCode = 1 })

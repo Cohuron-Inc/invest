@@ -1,0 +1,486 @@
+{
+  "ticker": "TPL",
+  "probe_tier": null,
+  "fetched_at": "2026-09-07T00:00:00Z",
+  "price": {
+    "close": {
+      "value": 362.42,
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04"
+    },
+    "high_52w": {
+      "value": 547.2,
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04"
+    },
+    "low_52w": {
+      "value": 269.23,
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04"
+    },
+    "drawdown_from_high_pct": {
+      "value": -33.77,
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04"
+    },
+    "sma50_pct": {
+      "value": -6.57,
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04"
+    },
+    "sma200_pct": {
+      "value": -7.45,
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04"
+    },
+    "perf_1m_pct": {
+      "value": 1.91,
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04"
+    },
+    "perf_3m_pct": {
+      "value": -7.02,
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04"
+    },
+    "spy_1m_pct": {
+      "value": 0.21,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "spy_3m_pct": {
+      "value": 4.43,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "sector_etf": {
+      "value": "XLE",
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04"
+    },
+    "sector_1m_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not fetch XLE page within fetch budget"
+    },
+    "sector_3m_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not fetch XLE page within fetch budget"
+    },
+    "structure": {
+      "value": "breakdown",
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04",
+      "note": "down ~34% from the Feb 2026 high, below both the 50- and 200-day SMA, half-year performance -30.97%; recent 1m bounce (+1.91%) inside a longer downtrend"
+    },
+    "print_gap_held": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not pull daily history around the Aug 5 print within fetch budget"
+    }
+  },
+  "consensus": {
+    "label": {
+      "value": "Hold",
+      "source": "https://stockanalysis.com/stocks/TPL/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "analysts": {
+      "value": 2,
+      "source": "https://stockanalysis.com/stocks/TPL/forecast/",
+      "as_of": "2026-09-04",
+      "note": "very thin coverage; consensus label/target should be weighted accordingly"
+    },
+    "pt_avg": {
+      "value": 442,
+      "source": "https://stockanalysis.com/stocks/TPL/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "pt_high": {
+      "value": 639,
+      "source": "https://stockanalysis.com/stocks/TPL/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "pt_low": {
+      "value": 245,
+      "source": "https://stockanalysis.com/stocks/TPL/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "pt_avg_alt": {
+      "value": 441.33,
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04",
+      "note": "Finviz consensus target essentially matches StockAnalysis (442); MarketBeat forecast page not fetched separately given the two already agree within 1 point"
+    },
+    "upside_avg_pct": {
+      "value": 21.96,
+      "source": "https://stockanalysis.com/stocks/TPL/forecast/",
+      "as_of": "2026-09-04"
+    },
+    "actions_60d": {
+      "value": [
+        {
+          "date": "2026-06-04",
+          "broker": "KeyBanc",
+          "action": "maintain",
+          "target": 639,
+          "reason": "reiterated Buy"
+        }
+      ],
+      "source": "https://stockanalysis.com/stocks/TPL/forecast/",
+      "as_of": "2026-09-04",
+      "note": "this is the only action StockAnalysis lists and it falls just outside a strict 60-day window from Sep 4 (~92 days prior); no more-recent sell-side action was found, reflecting the very thin 2-analyst coverage"
+    }
+  },
+  "earnings": {
+    "print_date": {
+      "value": "2026-08-05",
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/earnings/",
+      "as_of": "2026-08-05"
+    },
+    "revenue_actual": {
+      "value": 246100000,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/earnings/",
+      "as_of": "2026-08-05"
+    },
+    "revenue_estimate": {
+      "value": 249500000,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/earnings/",
+      "as_of": "2026-08-05"
+    },
+    "eps_actual": {
+      "value": 2.23,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/earnings/",
+      "as_of": "2026-08-05"
+    },
+    "eps_estimate": {
+      "value": 2.18,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/earnings/",
+      "as_of": "2026-08-05"
+    },
+    "guide": {
+      "value": "none",
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/earnings/",
+      "as_of": "2026-08-05",
+      "note": "TPL does not issue formal forward guidance; no guide vs consensus to report"
+    },
+    "guide_detail": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not applicable: company does not guide"
+    },
+    "reaction_day_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not pull daily price history for the Aug 5 print within fetch budget"
+    },
+    "reaction_5d_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same as above"
+    },
+    "revisions_30d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: Yahoo analysis page failed to load (same site-wide error seen on other tickers in this group); not refetched given budget"
+    },
+    "revisions_90d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same Yahoo failure"
+    },
+    "eps_trend": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same Yahoo failure"
+    },
+    "fcf_ttm": {
+      "value": 526700000,
+      "source": "https://stockanalysis.com/stocks/TPL/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-06-30"
+    },
+    "net_income_ttm": {
+      "value": 541420000,
+      "source": "https://stockanalysis.com/stocks/TPL/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-06-30",
+      "note": "FCF/NI ~97%, strong cash conversion typical of an asset-light royalty/land model"
+    },
+    "sbc_pct_revenue": {
+      "value": 1.83,
+      "source": "https://stockanalysis.com/stocks/TPL/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-06-30",
+      "note": "SBC TTM ~$16.9M vs Sales ~$897.5M; well below the 10% flag threshold"
+    }
+  },
+  "prospect": {
+    "case": {
+      "value": "The bulls' case: TPL is being re-rated from a pure oil/gas royalty owner into a scarce Permian land, water and power infrastructure platform for AI-era data-center and industrial demand (e.g. the Chevron Project Kilby brackish-water/surface-acreage deal), which should support premium margins even as legacy royalty growth slows.",
+      "source": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-31-texas-pacific-land-corporation-tpl-the-permians-scarcity-asset-for-the-ai-era",
+      "as_of": "2026-03-31"
+    },
+    "depends_on": {
+      "value": "Converting water/power infrastructure interest (hyperscaler co-location, Orla Phase 2B desalination, the Chevron Kilby agreement) into recurring high-margin revenue fast enough to offset slowing Permian oil production growth (Goldman sees Permian crude growth decelerating from ~520kbd in 2023 toward ~270kbd in 2026)",
+      "source": "https://finance.yahoo.com/sectors/energy/articles/does-tpl-water-desalination-pivot-211614487.html",
+      "as_of": "2026"
+    },
+    "bear_case": {
+      "value": "TPL is still fundamentally a royalty/land owner levered to Permian oil volumes and prices; a sharp pullback in crude prices and slowing basin production growth have already driven a 30%+ drawdown from the February 2026 high, and Q1 2026 adjusted EBITDA missed estimates by 11% as expenses outgrew revenue",
+      "source": "https://www.quiverquant.com/news/Texas+Pacific+Land+slides+5.1%25+as+oil+prices+retreat+sharply,+sparking+energy-sector+risk-off+and+profit-taking",
+      "as_of": "2026"
+    },
+    "visibility": {
+      "value": "story",
+      "source": "https://finance.yahoo.com/sectors/energy/articles/does-tpl-water-desalination-pivot-211614487.html",
+      "as_of": "2026"
+    }
+  },
+  "competition": {
+    "peers": {
+      "value": [
+        "VNOM",
+        "KRP"
+      ],
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04",
+      "note": "Viper Energy and Kimbell Royalty Partners are the closest scaled publicly-traded oil & gas mineral/royalty peers; note TPL is unique among them for its large surface-water/land-infrastructure business, which VNOM and KRP largely lack"
+    },
+    "share_trend": {
+      "value": "unknown",
+      "source": null,
+      "as_of": null,
+      "note": "no source found stating TPL's royalty-acreage market share trend vs peers"
+    },
+    "gross_margin_4q": {
+      "value": [
+        91.91,
+        91.72,
+        93.97,
+        95.3
+      ],
+      "source": "https://stockanalysis.com/stocks/TPL/financials/?p=quarterly",
+      "as_of": "2026-06-30",
+      "note": "oldest to newest: Q3'25, Q4'25, Q1'26, Q2'26"
+    },
+    "fwd_pe": {
+      "value": 37.11,
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04"
+    },
+    "peer_fwd_pe": {
+      "value": {
+        "VNOM": 18.74,
+        "KRP": 16.39
+      },
+      "source": "https://finviz.com/quote.ashx?t=VNOM",
+      "as_of": "2026-09-04",
+      "note": "TPL trades at roughly double the forward P/E of both direct royalty peers, consistent with its water/infrastructure re-rating premium"
+    },
+    "ev_sales": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: not fetched within budget"
+    },
+    "peer_ev_sales": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: only Price/Sales pulled (VNOM 4.38, KRP 4.35), not EV/Sales"
+    },
+    "substitute": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: no named substitute/new entrant surfaced; structural moat is the underlying land/mineral ownership itself"
+    }
+  },
+  "insiders": {
+    "buys_90d": {
+      "value": [
+        {
+          "date": "2026-06-15",
+          "name": "Peter Doyle",
+          "role": "Director",
+          "shares": 4,
+          "price": 381.95,
+          "usd": 1528,
+          "history": null
+        }
+      ],
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04",
+      "note": "Horizon Kinetics Asset Management's three 1-share purchases (2026-09-01/02/03, $368/$363/$369) were moved out of this list: a 10% owner buying one share a day is a routine automatic program, not a discretionary insider buy, and the doctrine excludes routine/automatic transactions the same way it excludes 10b5-1 sells. They are recorded in routine_programs_excluded below. What remains is a single director buy (Peter Doyle, 4 shares, $1,528) which is itself trivial. Read the insider cell as 'no meaningful insider buying', not as a cluster."
+    },
+    "sells_90d": {
+      "value": [],
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04",
+      "note": "the only sale row visible (Chris Steddum, CFO, Jun 5 2026, $1.27M) falls just outside the 90-day window measured from Sep 7, 2026 Selling is evidence: CFO Chris Steddum sold $1.27M on 2026-06-05, four days outside the 90-day window. Recorded here so the cell is not read as 'no selling'."
+    },
+    "routine_programs_excluded": {
+      "value": [
+        {
+          "date": "2026-09-03",
+          "name": "Horizon Kinetics Asset Management",
+          "role": "10% Owner",
+          "shares": 1,
+          "price": 367.61,
+          "usd": 368,
+          "history": "part of a pattern of small daily 1-share purchases"
+        },
+        {
+          "date": "2026-09-02",
+          "name": "Horizon Kinetics Asset Management",
+          "role": "10% Owner",
+          "shares": 1,
+          "price": 363.2,
+          "usd": 363,
+          "history": "part of a pattern of small daily 1-share purchases"
+        },
+        {
+          "date": "2026-09-01",
+          "name": "Horizon Kinetics Asset Management",
+          "role": "10% Owner",
+          "shares": 1,
+          "price": 369.1,
+          "usd": 369,
+          "history": "part of a pattern of small daily 1-share purchases"
+        }
+      ],
+      "source": "https://finviz.com/quote.ashx?t=TPL",
+      "as_of": "2026-09-04",
+      "note": "excluded from scoring; see buys_90d note"
+    }
+  },
+  "institutions": {
+    "quarter_end": {
+      "value": "2026-08",
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/institutional-ownership/",
+      "as_of": "2026-09-04",
+      "note": "MarketBeat states filings as of August 2026 rather than a standard calendar quarter-end date"
+    },
+    "net_shares": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: MarketBeat gave dollar totals only (excluded per registry rule), no net share count"
+    },
+    "holders_up": {
+      "value": 648,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/institutional-ownership/",
+      "as_of": "2026-09-04",
+      "note": "trailing-12-month institutional buyer count, used as closest proxy"
+    },
+    "holders_down": {
+      "value": 218,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/institutional-ownership/",
+      "as_of": "2026-09-04"
+    },
+    "holders_new": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found on MarketBeat page"
+    },
+    "holders_exited": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found on MarketBeat page"
+    },
+    "named_adds": {
+      "value": [
+        {
+          "fund": "UBS AM",
+          "change_pct": 6.9,
+          "shares": 477430
+        },
+        {
+          "fund": "Van Eck Associates Corp",
+          "change_pct": 47.6,
+          "shares": 21714
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/institutional-ownership/",
+      "as_of": "2026-09-04",
+      "note": "California State Teachers Retirement System row (+39,712.8%, 94.46M shares) excluded per registry rule \u2014 treated as a data artifact, not a genuine add; that single row alone would exceed TPL's ~69M total shares outstanding, confirming it is corrupted"
+    },
+    "named_exits": {
+      "value": [
+        {
+          "fund": "Wellington Management Group LLP",
+          "change_pct": -55.5,
+          "shares": 20367
+        },
+        {
+          "fund": "B. Metzler seel. Sohn & Co. AG",
+          "change_pct": -46.3,
+          "shares": 1341
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/institutional-ownership/",
+      "as_of": "2026-09-04"
+    },
+    "short_pct_float": {
+      "value": 6.78,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/short-interest/",
+      "as_of": "2026-08-14"
+    },
+    "days_to_cover": {
+      "value": 9.6,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/short-interest/",
+      "as_of": "2026-08-14"
+    },
+    "short_as_of": {
+      "value": "2026-08-14",
+      "source": "https://www.marketbeat.com/stocks/NYSE/TPL/short-interest/",
+      "as_of": "2026-08-14"
+    }
+  },
+  "catalysts": {
+    "value": [
+      {
+        "date": "2026-11-04",
+        "event": "Q3 2026 earnings",
+        "confirmed": false
+      }
+    ],
+    "source": "https://www.marketbeat.com/stocks/NYSE/TPL/earnings/",
+    "as_of": "2026-09-04"
+  },
+  "why_it_fell": {
+    "value": "Down 34% from its February 2026 high (when TPL was briefly the S&P 500's best monthly performer) as crude oil prices retreated sharply, pressuring this Permian-exposed royalty/land name even though it is not an upstream producer; a Q1 2026 adjusted EBITDA miss (-11% vs estimate, expenses outgrowing revenue) added to the derating.",
+    "source": "https://www.quiverquant.com/news/Texas+Pacific+Land+slides+5.1%25+as+oil+prices+retreat+sharply,+sparking+energy-sector+risk-off+and+profit-taking",
+    "as_of": "2026"
+  },
+  "index_note": {
+    "value": "TPL has been a member of the S&P 500 since November 2024 (added replacing Marathon Oil, MRO); no removal from the index has occurred through Sep 2026, so no index-related forced-selling flow is currently in play, though the stock remains sensitive to any future index-rebalancing risk given its still-modest float.",
+    "source": "https://www.gurufocus.com/news/2613543/texas-pacific-land-tpl-joins-sp-500-replacing-marathon-oil-mro",
+    "as_of": "2026-09"
+  },
+  "revenue_mix_note": {
+    "value": "For the six months ended June 30, 2026: Land and Resource Management (royalty) segment revenue was $317.4M vs Water Services and Operations segment revenue of $165.5M \u2014 roughly a 66%/34% royalty-to-water split.",
+    "source": "https://www.sec.gov/Archives/edgar/data/0001811074/000181107426000058/tpl-20260630.htm",
+    "as_of": "2026-06-30"
+  },
+  "judgment": {
+    "prospect_pts": 6,
+    "prospect_why": "The case is a re-rating from oil royalty owner to Permian land, water and power platform, and part of it is already reported rather than promised: water was $165.5M of $482.9M of first-half revenue, about 34%, with the Chevron Kilby deal and desalination on top.",
+    "competition_pts": 5,
+    "competition_why": "Gross margin widened from 91.9% to 95.3% and the zero-capex royalty structure is a genuine moat, but it trades at 37.1x forward against VNOM at 18.7x and KRP at 16.4x, so roughly twice the peer multiple is the issue rather than the franchise.",
+    "macro_fit_pts": 7,
+    "macro_fit_why": "A debt-free royalty with 97% cash conversion and no capex is exactly the shape a plateau-or-higher rate regime rewards, and it gets a second tailwind from WTI at $91.48 up 11.6% in a month with energy the top-performing sector.",
+    "narrative_pts": 6,
+    "narrative_why": "It sits inside the Iran and oil shock theme, which the macro brief rates accelerating, with its own cash flow underneath it and a second line into the Permian data-centre power and water story."
+  }
+}

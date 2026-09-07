@@ -3,8 +3,10 @@
 > Status: **all five pipeline stages shipped 2026-09-06.** Capture and normalize verified
 > against the live X API on 2026-09-06 (10 posts, $0.05). Extraction awaits a live
 > `claude-opus-5` call; everything else is proven end to end.
-> This is the single design document for the repo: what the system is, why it is shaped
-> this way, what was rejected, and what remains.
+> This is the technical design document for the repo: what the system is, why it is shaped
+> this way, what was rejected, and what remains. The business side, the outcome, the use
+> cases, the products, the economics and the success measures, is in
+> [`business.md`](business.md).
 
 ---
 

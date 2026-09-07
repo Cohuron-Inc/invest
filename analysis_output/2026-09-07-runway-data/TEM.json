@@ -1,0 +1,505 @@
+{
+  "ticker": "TEM",
+  "probe_tier": null,
+  "fetched_at": "2026-09-07T00:00:00Z",
+  "price": {
+    "close": {
+      "value": 64.62,
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04"
+    },
+    "high_52w": {
+      "value": 104.32,
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04"
+    },
+    "low_52w": {
+      "value": 40.77,
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04"
+    },
+    "drawdown_from_high_pct": {
+      "value": -38.06,
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04"
+    },
+    "sma50_pct": {
+      "value": 16.04,
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04"
+    },
+    "sma200_pct": {
+      "value": 14.55,
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04"
+    },
+    "perf_1m_pct": {
+      "value": 40.11,
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04"
+    },
+    "perf_3m_pct": {
+      "value": 39.18,
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04"
+    },
+    "spy_1m_pct": {
+      "value": 0.21,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "spy_3m_pct": {
+      "value": 4.43,
+      "source": "https://finviz.com/quote.ashx?t=SPY",
+      "as_of": "2026-09-04"
+    },
+    "sector_etf": {
+      "value": "XLV",
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04",
+      "note": "Healthcare / precision-medicine diagnostics"
+    },
+    "sector_1m_pct": {
+      "value": 4.26,
+      "source": "https://finviz.com/quote.ashx?t=XLV",
+      "as_of": "2026-09-04"
+    },
+    "sector_3m_pct": {
+      "value": 12.05,
+      "source": "https://finviz.com/quote.ashx?t=XLV",
+      "as_of": "2026-09-04"
+    },
+    "structure": {
+      "value": "trend_up",
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04",
+      "note": "sharp +40% rally over the past month, well above both the 50-day and 200-day averages, strongly outpacing SPY and XLV, after a deep Dec 2025-Mar 2026 drawdown"
+    },
+    "print_gap_held": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not fetch daily history around the Jul 30 print; time budget prioritized other fields"
+    }
+  },
+  "consensus": {
+    "label": {
+      "value": "Buy",
+      "source": "https://stockanalysis.com/stocks/tem/forecast/",
+      "as_of": "2026-09-07",
+      "note": "MarketBeat labels it 'Moderate Buy' (11 Buy, 5 Hold, 2 Sell) among 18 analysts"
+    },
+    "analysts": {
+      "value": 16,
+      "source": "https://stockanalysis.com/stocks/tem/forecast/",
+      "as_of": "2026-09-07",
+      "note": "MarketBeat counts 18"
+    },
+    "pt_avg": {
+      "value": 65.79,
+      "source": "https://stockanalysis.com/stocks/tem/forecast/",
+      "as_of": "2026-09-07",
+      "note": "only +1.81% above the $64.62 close \u2014 essentially in-line with the market price"
+    },
+    "pt_high": {
+      "value": 100.0,
+      "source": "https://stockanalysis.com/stocks/tem/forecast/",
+      "as_of": "2026-09-07"
+    },
+    "pt_low": {
+      "value": 35.0,
+      "source": "https://stockanalysis.com/stocks/tem/forecast/",
+      "as_of": "2026-09-07"
+    },
+    "pt_avg_alt": {
+      "value": 68.93,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/forecast/",
+      "as_of": "2026-09-07",
+      "note": "differs from StockAnalysis by only $3.14, under the 10-point threshold"
+    },
+    "actions_60d": {
+      "value": [
+        {
+          "date": "2026-09-02",
+          "broker": "Cantor Fitzgerald (Sarah James)",
+          "action": "initiate",
+          "target": 80,
+          "reason": "initiated Buy"
+        },
+        {
+          "date": "2026-09-01",
+          "broker": "Canaccord Genuity (Kyle Mikson)",
+          "action": "maintain",
+          "target": 80,
+          "reason": "maintained rating"
+        },
+        {
+          "date": "2026-09-01",
+          "broker": "Piper Sandler (David Westenberg)",
+          "action": "upgrade",
+          "target": 76,
+          "reason": "raised target from $56 to $76"
+        },
+        {
+          "date": "2026-08-20",
+          "broker": "BTIG (Mark Massaro)",
+          "action": "raise_target",
+          "target": 80,
+          "reason": "raised target from $70 to $80"
+        },
+        {
+          "date": "2026-08-05",
+          "broker": "J.P. Morgan (Casey Woodring)",
+          "action": "lower_target",
+          "target": 45,
+          "reason": "cut target from $50 to $45 after the Q2 print"
+        }
+      ],
+      "source": "https://stockanalysis.com/stocks/tem/forecast/",
+      "as_of": "2026-09-07",
+      "note": "sharp divergence: most brokers raised targets sharply in late Aug/early Sep (rally-chasing), while J.P. Morgan cut on the print itself"
+    }
+  },
+  "earnings": {
+    "print_date": {
+      "value": "2026-07-30",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/earnings/",
+      "as_of": "2026-07-30"
+    },
+    "revenue_actual": {
+      "value": 382.49,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/earnings/",
+      "as_of": "2026-07-30",
+      "note": "USD millions"
+    },
+    "revenue_estimate": {
+      "value": 379.69,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/earnings/",
+      "as_of": "2026-07-30",
+      "note": "USD millions"
+    },
+    "eps_actual": {
+      "value": -0.04,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/earnings/",
+      "as_of": "2026-07-30"
+    },
+    "eps_estimate": {
+      "value": -0.14,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/earnings/",
+      "as_of": "2026-07-30"
+    },
+    "guide": {
+      "value": "held",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/earnings/",
+      "as_of": "2026-07-30",
+      "note": "FY2026 revenue guided to ~$1.6B, in line with the ~$1.6B consensus"
+    },
+    "guide_detail": {
+      "value": "FY2026 revenue guided to approximately $1.6 billion, matching consensus",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/earnings/",
+      "as_of": "2026-07-30"
+    },
+    "reaction_day_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: did not fetch daily history around the Jul 30 print; time budget prioritized other fields"
+    },
+    "reaction_5d_pct": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: same as reaction_day_pct"
+    },
+    "revisions_30d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: Yahoo's Growth Estimates/EPS revisions tables returned empty ('--') for TEM"
+    },
+    "revisions_90d": {
+      "value": "flat",
+      "source": "https://stockanalysis.com/stocks/tem/forecast/ (FY26 revenue consensus $1.60B, page as of 2026-09-02)",
+      "as_of": "2026-09-02",
+      "note": "derived, not read from a revisions table: no estimate-trend table is published for TEM. The company held FY26 guidance at ~$1.6B and consensus sits at $1.60B, so consensus has neither moved up nor down against the guide. Direction recorded as flat."
+    },
+    "eps_trend": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: Yahoo analysis page had no populated EPS trend table for TEM"
+    },
+    "fcf_ttm": {
+      "value": -263.22,
+      "source": "https://stockanalysis.com/stocks/tem/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "USD millions, TTM through Q2 2026"
+    },
+    "net_income_ttm": {
+      "value": -254.43,
+      "source": "https://stockanalysis.com/stocks/tem/financials/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "USD millions, sum of last four quarters; Q2 2026 returned to a small GAAP profit (+$5.64M) after three loss-making quarters"
+    },
+    "sbc_pct_revenue": {
+      "value": 13.0,
+      "source": "https://stockanalysis.com/stocks/tem/financials/cash-flow-statement/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "TTM SBC $186.15M / TTM revenue $1,432.03M \u2014 above the 10% flag threshold in the brief"
+    }
+  },
+  "prospect": {
+    "case": {
+      "value": "As the bulls (Cantor Fitzgerald's fresh $80 initiation, Piper Sandler's upgrade) frame it, Tempus AI is the AI-native precision-medicine platform monetizing a growing genomic and multimodal data library across diagnostics and pharma partnerships (e.g., Merck, AstraZeneca), with revenue growth continuing (Q2 2026 +0.7% sequential beat) and a first GAAP-profitable quarter.",
+      "source": "https://www.tikr.com/blog/tempus-ai-stock-pulls-back-7-despite-record-data-growth-why-a-1-1-billion-backlog-secures-a-112-target",
+      "as_of": "2026-09-07"
+    },
+    "depends_on": {
+      "value": "Whether FY2026 revenue actually reaches the guided ~$1.6B and gross margin holds near the ~64% level seen in Q2 2026, while GAAP profitability (achieved for the first time in Q2 2026 at +$5.64M) proves durable rather than a one-quarter blip.",
+      "source": "https://stockanalysis.com/stocks/tem/financials/?p=quarterly",
+      "as_of": "2026-09-04"
+    },
+    "bear_case": {
+      "value": "Short interest is extremely elevated (21.9-27.8% of float depending on source, ~7.3 days to cover), a Spruce Point short report alleged aggressive accounting and overstated AI revenue contribution and triggered a shareholder lawsuit, the stock still trades at a rich EV/sales multiple versus diagnostics peers, and free cash flow remains deeply negative (-$263M TTM).",
+      "source": "https://www.genomeweb.com/cancer/tempus-faces-shareholder-lawsuit-wake-short-seller-report",
+      "as_of": "2026-09-07"
+    },
+    "visibility": {
+      "value": "guided",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/earnings/",
+      "as_of": "2026-07-30"
+    }
+  },
+  "competition": {
+    "peers": {
+      "value": [
+        "GH",
+        "NTRA"
+      ],
+      "source": "https://www.owler.com/company/foundationmedicine/competitors",
+      "as_of": "2026-09-07",
+      "note": "Guardant Health (liquid biopsy/oncology) and Natera (molecular/MRD testing) are the two nearest public precision-diagnostics peers; Foundation Medicine (Roche-owned) and Caris Life Sciences are also named but are not independently US-listed"
+    },
+    "share_trend": {
+      "value": "unknown",
+      "source": null,
+      "as_of": null,
+      "note": "not found: no source quantifies TEM's share trend versus GH/NTRA specifically"
+    },
+    "gross_margin_4q": {
+      "value": [
+        62.82,
+        64.73,
+        63.78,
+        64.45
+      ],
+      "source": "https://stockanalysis.com/stocks/tem/financials/?p=quarterly",
+      "as_of": "2026-09-04",
+      "note": "Q3 2025, Q4 2025, Q1 2026, Q2 2026 in order"
+    },
+    "fwd_pe": {
+      "value": 3654.98,
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04",
+      "note": "effectively meaningless given near-zero forward EPS; EV/sales is the more useful cross-peer metric here"
+    },
+    "peer_fwd_pe": {
+      "value": {
+        "GH": null,
+        "NTRA": null
+      },
+      "source": "https://stockanalysis.com/stocks/gh/statistics/",
+      "as_of": "2026-09-07",
+      "note": "both peers also n/a on forward P/E"
+    },
+    "ev_sales": {
+      "value": 8.14,
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04",
+      "note": "Finviz P/S used as proxy; a separate report cites ~6.1x FY2026E EV/sales"
+    },
+    "peer_ev_sales": {
+      "value": {
+        "GH": 18.85,
+        "NTRA": 17.16
+      },
+      "source": "https://stockanalysis.com/stocks/gh/statistics/",
+      "as_of": "2026-09-07",
+      "note": "TEM trades notably cheaper on EV/sales than both diagnostics peers"
+    },
+    "substitute": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: no source names a specific substitute technology or new entrant beyond the established peer set"
+    }
+  },
+  "insiders": {
+    "buys_90d": {
+      "value": [],
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04",
+      "note": "no open-market insider buys in the Finviz table within the last 90 days"
+    },
+    "sells_90d": {
+      "value": [
+        {
+          "date": "2026-09-01",
+          "name": "Jennifer Doudna",
+          "role": "Director",
+          "shares": 676,
+          "price": 63.05,
+          "usd": 42622,
+          "plan_10b5_1": false,
+          "note": "listed as 'Proposed Sale' (Form 144)"
+        },
+        {
+          "date": "2026-09-01",
+          "name": "Vanessa Kubo",
+          "role": "Officer",
+          "shares": 30846,
+          "price": 63.05,
+          "usd": 1944840,
+          "plan_10b5_1": false,
+          "note": "listed as 'Proposed Sale' (Form 144)"
+        },
+        {
+          "date": "2026-08-25",
+          "name": "Eric Lefkofsky",
+          "role": "CEO/Chairman",
+          "shares": 250000,
+          "price": 69.13,
+          "usd": 16286612,
+          "plan_10b5_1": false,
+          "note": "price range $68.39-$69.87"
+        }
+      ],
+      "source": "https://finviz.com/quote.ashx?t=TEM",
+      "as_of": "2026-09-04",
+      "note": "Finviz does not flag 10b5-1 status on these rows"
+    }
+  },
+  "institutions": {
+    "quarter_end": {
+      "value": "2026-03-31",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "MarketBeat's page states an 'as of' date in May 2026, consistent with 13F filings for the quarter ended 2026-03-31; note this trails the most recent Q2 2026 earnings print"
+    },
+    "net_shares": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: MarketBeat gave dollar net flow ($1.95B in vs $673.30M out), corrupted by the CalSTRS outlier and excluded per registry guidance; no clean aggregate share-based net figure was given"
+    },
+    "holders_up": {
+      "value": 283,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/institutional-ownership/",
+      "as_of": "2026-09-07"
+    },
+    "holders_down": {
+      "value": 127,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/institutional-ownership/",
+      "as_of": "2026-09-07"
+    },
+    "holders_new": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: not separately broken out"
+    },
+    "holders_exited": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: not separately broken out"
+    },
+    "named_adds": {
+      "value": [
+        {
+          "fund": "Leonteq Securities AG",
+          "change_pct": 1336.8,
+          "shares": 31294
+        },
+        {
+          "fund": "Assetmark Inc.",
+          "change_pct": 21650.0,
+          "shares": 9135
+        },
+        {
+          "fund": "Hollencrest Capital Management",
+          "change_pct": 10790.0,
+          "shares": 2178
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "California State Teachers Retirement System (+6,379.2%, 6.98M shares) excluded as the CalSTRS-type corrupted outlier row per registry guidance; the remaining adds are also from very small starting bases (percent changes are not meaningful position sizes)"
+    },
+    "named_exits": {
+      "value": [
+        {
+          "fund": "H&H International Investment LLC",
+          "change_pct": -81.8,
+          "shares": 20000
+        },
+        {
+          "fund": "Dimensional Fund Advisors LP",
+          "change_pct": -75.4,
+          "shares": 40833
+        },
+        {
+          "fund": "Bank of America Corp DE",
+          "change_pct": -63.6,
+          "shares": 414780
+        }
+      ],
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/institutional-ownership/",
+      "as_of": "2026-09-07",
+      "note": "these are reductions, not confirmed full exits"
+    },
+    "short_pct_float": {
+      "value": 21.86,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/short-interest/",
+      "as_of": "2026-08-14",
+      "note": "Finviz shows a much higher 27.75% short float with no date; a Yahoo short report cited short interest peaking near 30.5% earlier in 2026 \u2014 treat the exact level as source-dependent but directionally very high across all sources"
+    },
+    "days_to_cover": {
+      "value": 7.3,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/short-interest/",
+      "as_of": "2026-08-14"
+    },
+    "short_as_of": {
+      "value": "2026-08-14",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/short-interest/",
+      "as_of": "2026-08-14"
+    }
+  },
+  "catalysts": {
+    "value": [
+      {
+        "date": "2026-11-03",
+        "event": "Q3 2026 earnings",
+        "confirmed": false
+      }
+    ],
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/TEM/earnings/",
+    "as_of": "2026-09-07",
+    "note": "aggregator estimate, not company-confirmed; ongoing shareholder litigation tied to the Spruce Point short report is an unresolved legal catalyst with no fixed date"
+  },
+  "why_it_fell": {
+    "value": "Down 38.1% from its 52-week high, driven by a multi-month de-rating from December 2025 through March 2026 (down ~24% in Dec, 11% in Feb, 15% in Mar) on valuation concerns (rich EV/sales multiple), record-high short interest (peaked near 30.5% of float per one source), and lingering fallout from a Spruce Point Capital short report alleging aggressive accounting and overstated AI-revenue contribution, which also triggered shareholder litigation \u2014 even as the company continued posting revenue growth and new pharma partnerships (Merck, ARK Invest buying).",
+    "source": "https://www.genomeweb.com/cancer/tempus-faces-shareholder-lawsuit-wake-short-seller-report",
+    "as_of": "2026-09-07"
+  },
+  "judgment": {
+    "prospect_pts": 5,
+    "prospect_why": "The case is an AI-native precision-medicine platform reaching its first GAAP profit, and it is guided rather than story: FY26 revenue consensus $1.60B up 25.6%, EPS improving from -$0.61 to -$0.26 to -$0.02 in FY27, with the guide held at the last print.",
+    "competition_pts": 4,
+    "competition_why": "Gross margin is stable at 63-65% and the MRD acquisition gives it a shot at a duopoly with Natera, but Natera is the stronger franchise and both Guardant at 18.9x and Natera at 17.2x EV/sales anchor the group, so this is stable rather than widening.",
+    "macro_fit_pts": 3,
+    "macro_fit_why": "Still-unprofitable growth healthcare burning $263.2M carries real duration into a rising-real-yield regime, though far less than IONQ because breakeven is one year out rather than several; healthcare is not among the leading sectors.",
+    "narrative_pts": 5,
+    "narrative_why": "It sits inside the AI theme with genuine revenue underneath it, which the doctrine treats better than a pure narrative, but the theme is stable rather than accelerating and the name carries a Spruce Point short report and 22% to 28% short interest against it."
+  }
+}

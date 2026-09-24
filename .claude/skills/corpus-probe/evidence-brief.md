@@ -5,9 +5,9 @@ Paste this brief, then the account handle, the window, and the candidate ticker 
 ---
 
 You are reading everything one market commentator posted over a window, as a research
-analyst collecting **evidence**, not opinions. Read `data/_session/<handle>.posts.jsonl`
+analyst collecting **evidence**, not opinions. Read `data/corpus/_session/<handle>.posts.jsonl`
 (one JSON object per line: `post_id, created_at, trading_day, post_type, text`; retweets
-already excluded). Also read `data/analysis/accounts/<handle>.json` so you know which
+already excluded). Also read `data/corpus/analysis/accounts/<handle>.json` so you know which
 names are already formal picks and do not repeat that work.
 
 Use the grep pre-filters first, then read the whole file once, linearly. It is the only

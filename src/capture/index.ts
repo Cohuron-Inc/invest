@@ -3,8 +3,7 @@ import { join } from 'node:path'
 import { XClient, XApiError, explain, estimateCostUsd } from '../x/client.js'
 import { loadResolvedAccounts, requireEnv } from '../lib/config.js'
 import { dataRoot } from '../duck/connect.js'
-import { buildQueries } from './query.js'
-import { readCursor } from './cursor.js'
+import { readAccountCursors, readHeldIds } from './cursor.js'
 import { rawPath, manifestPath, runIdentity, writeJsonlGz } from './writer.js'
 import { marketDate, isoUtc } from '../lib/time.js'
 import { log, ghError } from '../lib/log.js'
@@ -12,6 +11,12 @@ import type { CapturedPost } from '../x/types.js'
 
 /** Cold start: sweep everything recent search still exposes. */
 const COLD_START_LOOKBACK_DAYS = 7
+/**
+ * Recent search rejects a since_id older than its seven-day reach. An account
+ * whose cursor is that old is left to `pnpm task:delta` (the timeline lane),
+ * never re-read from a wider start_time.
+ */
+const RECENT_SEARCH_REACH_MS = 6.5 * 86_400_000
 /** Abort rather than let a malformed query or a viral day 10x the bill. */
 const COST_GUARD_MULTIPLE = 3
 const COST_GUARD_FLOOR = 1500
@@ -23,6 +28,11 @@ export type CaptureManifest = {
   started_at: string
   finished_at: string
   queries: string[]
+  /** Per-account since_id used, keyed by handle; null means cold start. */
+  cursors_before: Record<string, string | null>
+  /** Accounts whose cursor is past recent search's reach; run `pnpm task:delta`. */
+  skipped_stale: string[]
+  duplicates_dropped: number
   cursor_before: string | null
   cursor_after: string | null
   pages: number
@@ -51,7 +61,7 @@ function readManifests(root: string): CaptureManifest[] {
 /** Trailing median posts-per-run, used as the cost guard baseline. */
 function trailingMedianPosts(manifests: CaptureManifest[]): number | null {
   const counts = manifests
-    .filter((m) => m.status === 'ok' && m.cursor_before !== null)
+    .filter((m) => m.status === 'ok' && m.cursor_before != null)
     .map((m) => m.posts_read)
     .sort((a, b) => a - b)
   if (counts.length < 5) return null
@@ -68,18 +78,36 @@ export async function capture(opts: CaptureOptions = {}): Promise<CaptureManifes
   const started = new Date()
   const root = dataRoot()
   const accounts = loadResolvedAccounts()
-  const queries = buildQueries(accounts)
   const { runId, attempt } = runIdentity()
   const ingestDt = marketDate(started)
 
-  const cursorBefore = await readCursor(root)
-  const startTime = cursorBefore
-    ? undefined
-    : isoUtc(new Date(started.getTime() - COLD_START_LOOKBACK_DAYS * 86_400_000))
+  // One query and one since_id PER ACCOUNT. A shared `from:a OR from:b` query
+  // can carry only one since_id, so any account ahead of the others would be
+  // re-read (and re-billed) from the laggard's cursor.
+  const cursors = await readAccountCursors(root)
+  const held = await readHeldIds(root)
+  const coldStart = isoUtc(new Date(started.getTime() - COLD_START_LOOKBACK_DAYS * 86_400_000))
+  const plan: { handle: string; query: string; sinceId: string | undefined; startTime: string | undefined }[] = []
+  const cursorsBefore: Record<string, string | null> = {}
+  const skippedStale: string[] = []
+  for (const a of accounts) {
+    const c = cursors.get(a.user_id)
+    cursorsBefore[a.handle] = c?.newest_id ?? null
+    if (c && started.getTime() - Date.parse(c.newest_at) > RECENT_SEARCH_REACH_MS) {
+      skippedStale.push(a.handle)
+      continue
+    }
+    plan.push({ handle: a.handle, query: `from:${a.handle}`, sinceId: c?.newest_id, startTime: c ? undefined : coldStart })
+  }
+  if (skippedStale.length > 0) {
+    ghError(`Cursor older than recent search's reach for ${skippedStale.join(', ')}; run \`pnpm task:delta\` to read them from their last post.`)
+  }
+  const queries = plan.map((p) => p.query)
+  const cursorBefore = [...cursors.values()].reduce<string | null>(
+    (m, c) => (m === null || BigInt(c.newest_id) > BigInt(m) ? c.newest_id : m), null)
 
   log.info('capture.start', {
-    runId, attempt, ingestDt, queries: queries.length,
-    cursor_before: cursorBefore, cold_start: !cursorBefore,
+    runId, attempt, ingestDt, queries: queries.length, skipped_stale: skippedStale.length, cursors_before: cursorsBefore,
   })
 
   const client = new XClient(requireEnv('X_BEARER_TOKEN'))
@@ -89,29 +117,33 @@ export async function capture(opts: CaptureOptions = {}): Promise<CaptureManifes
   let pages = 0
   let aborted = false
   let newestId: string | null = null
+  let duplicates = 0
 
-  outer: for (const query of queries) {
+  outer: for (const { query, sinceId, startTime } of plan) {
     const search = client.searchRecent({
       query,
-      sinceId: cursorBefore ?? undefined,
+      sinceId,
       startTime,
       ...(opts.maxPages !== undefined ? { maxPages: opts.maxPages } : {}),
       ...(opts.maxResults !== undefined ? { maxResults: opts.maxResults } : {}),
     })
     for await (const { tweets, users, pageNo } of search) {
       pages++
-      if (tweets.length === 0) continue
+      const fresh = tweets.filter((t) => !held.has(t.id))
+      duplicates += tweets.length - fresh.length
+      for (const t of fresh) held.add(t.id)
+      if (fresh.length === 0) continue
 
       // Resolve the author handle at capture time. It is recorded as a
       // point-in-time observation; author_id remains the join key.
       const ingestedAt = isoUtc(new Date())
-      const enriched: CapturedPost[] = tweets.map((t) => ({
+      const enriched: CapturedPost[] = fresh.map((t) => ({
         ...t,
         _author_username: users.get(t.author_id) ?? '',
         _ingested_at: ingestedAt,
         _run_id: runId,
       }))
-      for (const t of tweets) {
+      for (const t of fresh) {
         if (newestId === null || BigInt(t.id) > BigInt(newestId)) newestId = t.id
       }
 
@@ -138,6 +170,9 @@ export async function capture(opts: CaptureOptions = {}): Promise<CaptureManifes
     started_at: isoUtc(started),
     finished_at: isoUtc(new Date()),
     queries,
+    cursors_before: cursorsBefore,
+    skipped_stale: skippedStale,
+    duplicates_dropped: duplicates,
     cursor_before: cursorBefore,
     cursor_after: newestId ?? cursorBefore,
     pages,

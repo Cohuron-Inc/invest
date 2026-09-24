@@ -1,0 +1,226 @@
+{
+  "META": [
+    {
+      "account": "StockSavvyShay",
+      "direction": "long",
+      "conviction": 0.98,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "FeroceResearch",
+      "direction": "long",
+      "conviction": 0.72,
+      "time_frame": "position"
+    },
+    {
+      "account": "JaguarAnalytics",
+      "direction": "long",
+      "conviction": 0.9,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "RealJGBanks",
+      "direction": "long",
+      "conviction": 0.78,
+      "time_frame": "intraday"
+    }
+  ],
+  "NBIS": [
+    {
+      "account": "StockSavvyShay",
+      "direction": "long",
+      "conviction": 0.96,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "TheLongInvest",
+      "direction": "long",
+      "conviction": 0.84,
+      "time_frame": "position"
+    },
+    {
+      "account": "TradexWhisperer",
+      "direction": "long",
+      "conviction": 0.73,
+      "time_frame": "swing"
+    }
+  ],
+  "PLTR": [
+    {
+      "account": "StockSavvyShay",
+      "direction": "long",
+      "conviction": 0.94,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "TradexWhisperer",
+      "direction": "long",
+      "conviction": 0.7,
+      "time_frame": "long_term"
+    }
+  ],
+  "NVDA": [
+    {
+      "account": "StockSavvyShay",
+      "direction": "long",
+      "conviction": 0.94,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "FeroceResearch",
+      "direction": "long",
+      "conviction": 0.9,
+      "time_frame": "position"
+    },
+    {
+      "account": "MarcosMillaYT",
+      "direction": "long",
+      "conviction": 0.92,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "TheLongInvest",
+      "direction": "neutral",
+      "conviction": 0.82,
+      "time_frame": "position"
+    }
+  ],
+  "ASTS": [
+    {
+      "account": "StockSavvyShay",
+      "direction": "long",
+      "conviction": 0.85,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "TheLongInvest",
+      "direction": "long",
+      "conviction": 0.97,
+      "time_frame": "long_term"
+    }
+  ],
+  "TEM": [
+    {
+      "account": "StockSavvyShay",
+      "direction": "long",
+      "conviction": 0.82,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "JaguarAnalytics",
+      "direction": "long",
+      "conviction": 0.84,
+      "time_frame": "position"
+    }
+  ],
+  "MU": [
+    {
+      "account": "StockSavvyShay",
+      "direction": "long",
+      "conviction": 0.72,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "FeroceResearch",
+      "direction": "long",
+      "conviction": 0.97,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "MarcosMillaYT",
+      "direction": "long",
+      "conviction": 0.98,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "TradexWhisperer",
+      "direction": "long",
+      "conviction": 0.94,
+      "time_frame": "long_term"
+    }
+  ],
+  "TSM": [
+    {
+      "account": "StockSavvyShay",
+      "direction": "long",
+      "conviction": 0.7,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "MarcosMillaYT",
+      "direction": "long",
+      "conviction": 0.82,
+      "time_frame": "long_term"
+    },
+    {
+      "account": "TradexWhisperer",
+      "direction": "long",
+      "conviction": 0.94,
+      "time_frame": "long_term"
+    }
+  ],
+  "CRDO": [
+    {
+      "account": "FeroceResearch",
+      "direction": "long",
+      "conviction": 0.9,
+      "time_frame": "position"
+    },
+    {
+      "account": "MarcosMillaYT",
+      "direction": "long",
+      "conviction": 0.93,
+      "time_frame": "position"
+    }
+  ],
+  "SNDK": [
+    {
+      "account": "FeroceResearch",
+      "direction": "long",
+      "conviction": 0.72,
+      "time_frame": "position"
+    },
+    {
+      "account": "MarcosMillaYT",
+      "direction": "long",
+      "conviction": 0.96,
+      "time_frame": "position"
+    },
+    {
+      "account": "TradexWhisperer",
+      "direction": "long",
+      "conviction": 0.7,
+      "time_frame": "long_term"
+    }
+  ],
+  "DERM": [
+    {
+      "account": "LogicalThesis",
+      "direction": "long",
+      "conviction": 0.9,
+      "time_frame": "long_term"
+    }
+  ],
+  "BDSX": [
+    {
+      "account": "LogicalThesis",
+      "direction": "long",
+      "conviction": 0.83,
+      "time_frame": "position"
+    }
+  ],
+  "RKLB": [
+    {
+      "account": "JaguarAnalytics",
+      "direction": "long",
+      "conviction": 0.83,
+      "time_frame": "swing"
+    },
+    {
+      "account": "TradexWhisperer",
+      "direction": "long",
+      "conviction": 0.65,
+      "time_frame": "swing"
+    }
+  ]
+}

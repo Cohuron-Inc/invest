@@ -1,0 +1,1068 @@
+{
+  "account": "TheLongInvest",
+  "profile": {
+    "beat": "A retail-facing swing-and-hold equity account (branded TLI) covering a concentrated book of small- and mid-cap growth names — AST SpaceMobile, Aduro, Hims & Hers, Zeta, Oscar Health, Gorilla, WYFI — alongside beaten-down large caps bought below their 200-week moving average (Alibaba, Sea, Novo Nordisk, UnitedHealth, Salesforce), plus Ethereum, Bitcoin and physical silver as hedges. It doubles as marketing for a paid subscription group, a YouTube channel and a futures-broker affiliate deal.",
+    "style": "Extremely high conviction, stated in absolutes: positions are 'moat goats', 'generational', in the 'Never Selling Category', and buys are 'all day long'. The analytical frame is Elliott wave counts plus Fibonacci retracements and, above all, the 200-week moving average, which he treats as a law — every fundamentally strong asset returns to it, so anything below it is a low-risk buy. Fundamentals appear mainly as free cash flow growth and insider buying used to confirm what the chart already said. Position sizing is discussed openly ('we went heavy', 'one of my largest positions', 'we typically make five buys per position') and drawdowns are reframed as market-maker raids or Citadel manipulation rather than as evidence against the thesis. Frequent scoreboarding of past winners, and open hostility toward other accounts, Cathie Wood, Bill Ackman, Jim Cramer and Michael Burry.",
+    "cadence": "Very high volume — roughly thirty posts a trading day, overwhelmingly short originals and quote-tweets of his own earlier charts, with running intraday commentary during earnings and Fed events. Recurring formats: annotated chart posts with named wave targets, 'Christmas Gift' annual picks, a Sunday $SPY chart, weekly publication schedules, valuation analyses and equity briefs teased on X and delivered inside the paid group, and list posts pairing tickers with a one-line thesis.",
+    "revisits": "Constantly, and it is the defining habit of the account — but almost always to mark a win. He re-quotes his own earlier charts to show a target hit (2085381219064127859, 2087903655722721371, 2095567562251669643), keeps a live scoreboard against Michael Burry's Nebius short (2087512252026867863, 2087645382142509522), and restates unchanged price targets months later (2094831469059310053, 2095431382709195038). Genuine changes of view are rarer but do exist: he flipped on SanDisk from expecting further downside to calling it attractive within two weeks (2082050611298672891 then 2082793679769473287), and moved the semiconductor complex from 'not yet' to a future buy list (2082102981609033871). Losses are acknowledged only in aggregate list form (2092962887924936842, 2095795886047551800).",
+    "caveats": "Substantial. (1) The account sells a subscription service, runs paid free-trial funnels and carries a paid futures-broker affiliate promotion (2075933320953663733, 2089674654898086114), so posts double as advertising and many calls are said to have been 'alerted in our group' before appearing on X — unverifiable from the feed. (2) Self-reported performance claims are unaudited and stated in absolute terms — a headline multi-year return figure for the account, and a claimed chart-accuracy rate he says is far above the industry norm — with no verifiable record behind either. (3) Entries are described retrospectively at flattering prices, and price targets are restated only where they worked. (4) Losers are minimised: the WYFI public offering that produced a large drawdown is reframed as an unforeseeable event rather than a thesis failure, and Nike and PayPal are dismissed in a single clause about weak management. (5) Drawdowns are systematically attributed to manipulation by Citadel and market makers rather than to being wrong. (6) He states he does not use stop losses and tells followers not to set them. (7) On Nebius he was posting targets and battling a public short while explicitly holding no position. (8) The tone is abusive toward critics, including a slur directed at a follower questioning the Gorilla chart (2092255234898735385)."
+  },
+  "narrative": "The two months run on one organising idea: the US index is deep in a Wave 5 melt-up and a correction is coming in September, so the only safe places to be are assets that have already completed their own correction. From early July he repeats that parabolic moves are always met with proportionate declines, uses Micron and SanDisk as the live demonstration, and tells followers to avoid them, hold cash and add safe havens (silver, healthcare, China) instead of chasing. Through mid-July the market sold off hard and he treated it as a rehearsal — 'the market is testing you now for the real event from September' — and used the flush to add aggressively to AST SpaceMobile in the mid-fifties, Aduro, Alibaba below its 200-week average, Oscar and Hims. The last week of July was the pivot: he accused Citadel of manufacturing a rate-hike scare to force liquidations, said the Fed would not hike, and was proved right on the day, after which he claimed the July reset as a gift and went net long into August. August was a victory lap — Zeta, Oscar, Nebius, Salesforce, Alibaba and AST all rallied, he ran a public scoreboard against Michael Burry's Nebius short, and he insisted repeatedly that his names are 'not in the same cycle' as the index. His only real change of view in the window is tactical rather than directional: SanDisk moved from a short-side warning to 'looking even more attractive' once it reached the Fibonacci band on 30 July, and the semiconductor complex moved from 'BUT NOT YET' to a September shopping list. By mid-August he was explicit that he would 'be a Bear from September onwards' and forecast the index falling to its 200-week average over nine months, while simultaneously telling followers his own book would be exempt. The window ends with him repeating that the top is not in yet, that a September rate hike is the pivotal risk, and that the answer is to hold safe havens and names that have already corrected.",
+  "picks": [
+    {
+      "symbol": "ASTS",
+      "direction": "long",
+      "prospect": "Author expects AST SpaceMobile to become a dominant satellite-to-phone operator and to re-rate massively over roughly two years as management executes on its BlueBird launch schedule and mobile-operator partnerships; he frames it as his clearest generational winner and one of his largest positions.",
+      "risk_reward": "He treats downside as effectively capped by what he calls the moat, the partnerships and the completed Wave 2 correction, and says the stock is not in the same cycle as the US market so a broad correction should not hit it again; the only risk he names explicitly is execution by management. He never quantifies a downside case.",
+      "thesis": "His logic is a combination of Elliott-wave chart structure (Wave 2 pull back completed at the 0.618 Fib, Wave 3 beginning) and a fundamental moat argument: signed mobile network operator partnerships covering a subscriber base he considers larger than Starlink's, enormous barriers to entry, an oligopoly position, insider and institutional buying on the dip, plus an under-appreciated defence arm. He argues the July weakness was a sector spillover from the SpaceX listing rather than anything company-specific.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "tech",
+        "speculative"
+      ],
+      "conviction": 0.97,
+      "first_seen": "2026-07-08",
+      "sources": [
+        {
+          "post_id": "2074855950616305961",
+          "quote": "$ASTS don't forget the big picture"
+        },
+        {
+          "post_id": "2078164035988505029",
+          "quote": "Two generational companies and both will 10 X from here with ease."
+        },
+        {
+          "post_id": "2082927125758386450",
+          "quote": "And it’s a buy all the way up to $100"
+        },
+        {
+          "post_id": "2093297393093484816",
+          "quote": "$ASTS is one of my largest positions right now, for good reason."
+        },
+        {
+          "post_id": "2095135623426277428",
+          "quote": "$ASTS will 6 X from here in 2 years."
+        }
+      ]
+    },
+    {
+      "symbol": "ADUR",
+      "direction": "long",
+      "prospect": "Author expects Aduro Clean Technologies to be his first position to return a ten-bagger-plus, driven by a breakout above the top of its ascending triangle into a Wave 3 advance toward his stated target.",
+      "risk_reward": "He never states a downside scenario. He repeatedly describes pull backs as buying opportunities and says he will 'never get sick of adding' it, framing the position as one where 'very little can go wrong' because of management and moat. Risk is essentially unaddressed apart from the implicit need for the technical breakout to hold.",
+      "thesis": "Fundamentally: a patented process that breaks plastic down with water rather than heat at a fraction of the cost, plus an ability to convert heavy crude into lighter crude, against what he calls a very large addressable market and a tiny market cap, with a growing patent count. Technically: cup-and-handle inside a bullish ascending triangle, 50 WMA flipped back to support, wedge breakout and retest. He also cites a site visit to the company's Chemelot facility as confirmation.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "speculative",
+        "disruptor"
+      ],
+      "conviction": 0.95,
+      "first_seen": "2026-07-08",
+      "sources": [
+        {
+          "post_id": "2074899979387162675",
+          "quote": "$ADUR is a buy"
+        },
+        {
+          "post_id": "2078812395762327903",
+          "quote": "$ADUR is a $465 million market cap company with a $250 Billion TAM and they are the only company with the solution."
+        },
+        {
+          "post_id": "2085783273330843803",
+          "quote": "But I said since day 1, this will be my +1000% gainer"
+        },
+        {
+          "post_id": "2087896584654647754",
+          "quote": "$ADUR has the BEST set up in the market right now"
+        },
+        {
+          "post_id": "2094467563283497051",
+          "quote": "We visited the $ADUR site in Chemelot, Netherlands last week."
+        }
+      ]
+    },
+    {
+      "symbol": "HIMS",
+      "direction": "long",
+      "prospect": "Author expects Hims & Hers to lead the peptide market and to run in a Wave 3 advance toward his stated target after the Q2 report and the peptide recommendation cleared the calendar.",
+      "risk_reward": "He acknowledges the position swings violently day to day and says holders need thick skin, but treats every dip toward the long-standing support band and the 200 WMA as an add rather than a risk. He never frames a scenario in which the thesis fails.",
+      "thesis": "Peptides are the structural growth story, the Novo Nordisk deal removed the overhang, subscriber and international revenue growth are accelerating, and guidance was raised. Technically he leans on a historical support level held since 2021, the 200 WMA acting as the bottom of a bullish wedge, and a golden cross completed at the end of July.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "catalyst-driven",
+        "momentum"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-07-16",
+      "sources": [
+        {
+          "post_id": "2077796020604346433",
+          "quote": "I went ham on $HIMS at $15 and it doubled a few weeks later"
+        },
+        {
+          "post_id": "2080333806527983941",
+          "quote": "Is it too late to buy $HIMS?"
+        },
+        {
+          "post_id": "2084339406219915433",
+          "quote": "Every time the price hits or dips below $25, you add"
+        },
+        {
+          "post_id": "2086783476829732984",
+          "quote": "Wave 3 can be next, target for the Wave 3 is ALWAYS at the 1.618 Fib"
+        },
+        {
+          "post_id": "2090433520271343713",
+          "quote": "$HIMS is going back to $41 next."
+        }
+      ]
+    },
+    {
+      "symbol": "ZETA",
+      "direction": "long",
+      "prospect": "Author expects Zeta Global to keep making higher highs back toward and beyond its all-time high, calling it his 2026 top pick and repeatedly comparing its set-up to Palantir before that stock's run.",
+      "risk_reward": "He never addressed downside risk for this pick beyond noting that the whole SaaS sector had been sold off; he treats the post-earnings dip as a gift and the trend as the strongest in the market.",
+      "thesis": "Fundamentals plus technicals aligned: a long string of consecutive earnings beats and raises, strong free-cash-flow growth, and a multi-year consolidation between clear levels that has now resolved with a bullish wedge breakout, a retest, and the 50 WMA flipped to support. He argues the AI-kills-SaaS narrative caused an irrational sell-off he took the other side of, and that the stock is not in the same cycle as the broad market.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "value",
+        "momentum"
+      ],
+      "conviction": 0.92,
+      "first_seen": "2026-07-07",
+      "sources": [
+        {
+          "post_id": "2074520353221533875",
+          "quote": "Is the exact equivalent of adding $PLTR at $21"
+        },
+        {
+          "post_id": "2075222461822472310",
+          "quote": "$ZETA can 5 X from here"
+        },
+        {
+          "post_id": "2081803305760567408",
+          "quote": "$ZETA is the easiest buy and hold for long term in the market"
+        },
+        {
+          "post_id": "2088252543667192012",
+          "quote": "$ZETA is the new $PLTR"
+        },
+        {
+          "post_id": "2095591919204073707",
+          "quote": "But our Wave 5 target brings this to +1000%"
+        }
+      ]
+    },
+    {
+      "symbol": "OSCR",
+      "direction": "long",
+      "prospect": "Author expects Oscar Health to break out to new all-time highs and continue toward the target he says he set eighteen months earlier, and describes it as a position he adds to on every dip and never sells.",
+      "risk_reward": "He never addressed downside risk for this pick; volatility around earnings is presented purely as an opportunity to add, and he calls it a hedge that has protected the portfolio against macro pressure.",
+      "thesis": "Revenue and membership growth compounding together give the company pricing power (he draws a Buffett/Coca-Cola analogy), free cash flow is expanding sharply, and the CEO bought aggressively at the lows. Technically it completed a cup-and-handle inside a bullish ascending triangle and broke out, which he uses as the template for his Aduro call.",
+      "time_frame": "long_term",
+      "tags": [
+        "disruptor",
+        "value",
+        "momentum"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-07-17",
+      "sources": [
+        {
+          "post_id": "2078118986265297006",
+          "quote": "I am VERY bullish on these positions"
+        },
+        {
+          "post_id": "2079546813103722584",
+          "quote": "Knowing that this will go to $45 a price I predicted 18 months ago, where will you add next?"
+        },
+        {
+          "post_id": "2085384215013573117",
+          "quote": "We will be adding $OSCR again"
+        },
+        {
+          "post_id": "2088261148634235176",
+          "quote": "YOU DON'T SELL AFTER A BREAK OUT"
+        },
+        {
+          "post_id": "2094848588580802605",
+          "quote": "$OSCR See you at $37 next."
+        }
+      ]
+    },
+    {
+      "symbol": "BABA",
+      "direction": "long",
+      "prospect": "Author expects Alibaba to re-rate strongly over the next one to two years as its AI and cloud businesses are recognised, and holds it explicitly as a hedge against the US market.",
+      "risk_reward": "He never addressed downside risk directly; instead he frames the 200 WMA as the value line that caps risk, and argues the company is far below its prior peak while growing, so the asymmetry is in the buyer's favour.",
+      "thesis": "Cloud revenue growth accelerating, heavy AI capex being maintained, a stake in Moonshot AI and the Qwen model franchise that he says are not in the valuation, plus large ongoing buybacks and a very visible insider buy by the CEO and chairman. Technically he bought below the 200 WMA and points out Cathie Wood was selling into that level, which he reads as a contrarian confirmation.",
+      "time_frame": "long_term",
+      "tags": [
+        "value",
+        "tech",
+        "macro"
+      ],
+      "conviction": 0.88,
+      "first_seen": "2026-07-08",
+      "sources": [
+        {
+          "post_id": "2074804501626691762",
+          "quote": "$BABA pull back has been stronger than expected but it is a retest of the 200 WMA"
+        },
+        {
+          "post_id": "2079150788845150314",
+          "quote": "$BABA could 5 X from here"
+        },
+        {
+          "post_id": "2079181767425376620",
+          "quote": "Price Target is $580"
+        },
+        {
+          "post_id": "2089328642526515698",
+          "quote": "$BABA is a hedge against the US market."
+        },
+        {
+          "post_id": "2092333073312481657",
+          "quote": "$BABA will be at $300 within 12 months."
+        }
+      ]
+    },
+    {
+      "symbol": "WYFI",
+      "direction": "long",
+      "prospect": "Author expects the neo-cloud name to complete a three-wave pull back on confluence support and then run in Wave 3 toward his stated targets; he says he doubled down through the drawdown.",
+      "risk_reward": "This is the one pick where he engages with risk in detail, and only after the fact: he concedes a public offering hit the position hard in a single month, calls it an unknown variable that cannot be foreseen, and argues such exposure is acceptable only if the rest of the portfolio holds hedges, safe havens and cash. Before the offering he framed risk purely as a Fibonacci support level holding.",
+      "thesis": "AI capex spending flows through to neo-cloud infrastructure providers, a well-known investor holds a large stake, and technically a twelve-month channel breakout, retest and second breakout put the stock in Wave 3, with a three-wave pull back landing on the confluence of the 200 Day MA and the 0.618 Fib. He also argues public offerings are ultimately bullish, citing Gorilla's recovery after its own raise.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "speculative",
+        "momentum"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-07-08",
+      "sources": [
+        {
+          "post_id": "2074850161130439038",
+          "quote": "$WYFI BREAKOUT"
+        },
+        {
+          "post_id": "2075601478803226914",
+          "quote": "Wave 3 Target is $58"
+        },
+        {
+          "post_id": "2077800485310886092",
+          "quote": "I am holding my $WYFI and considering another Buy."
+        },
+        {
+          "post_id": "2082138327457702239",
+          "quote": "We have a position, we like it, we are holding and considering adding again."
+        },
+        {
+          "post_id": "2094470366378823803",
+          "quote": "We can also have another position that falls -50% in 1 month due to a public offering"
+        }
+      ]
+    },
+    {
+      "symbol": "NBIS",
+      "direction": "long",
+      "prospect": "Author expects Nebius to complete Wave 5 to his stated target and repeatedly warns against shorting it; he made an explicit public bet against Michael Burry's short position.",
+      "risk_reward": "He does state an invalidation level for this pick: the impulse count becomes invalid if price loses the 200 Day MA, and he later says bulls need to defend a specific level. That is the closest thing to a stop he gives anywhere in the two months. He also discloses he does not personally hold it.",
+      "thesis": "Free cash flow rising while the share price fell, contracts he considers impossible to bet against, and an Elliott-wave count in which Wave 4 completed on a lower Fibonacci support and Wave 5 follows. He frames the July flush as sector-wide forced selling rather than company-specific.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "momentum",
+        "speculative"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-07-08",
+      "sources": [
+        {
+          "post_id": "2074851982045589803",
+          "quote": "Bulls and bears are battling but the chart is solid"
+        },
+        {
+          "post_id": "2082495103508042230",
+          "quote": "Defend $140 and Wave 5 is next....to $407!!"
+        },
+        {
+          "post_id": "2085423388420345934",
+          "quote": "$NBIS Burry just took a Bearish position after the price action has broken out (after finding a major support)"
+        },
+        {
+          "post_id": "2087285177533804555",
+          "quote": "I am bullish on them, their chart and their contracts."
+        },
+        {
+          "post_id": "2092969289984675984",
+          "quote": "Do not, under any circumstances be Short $NBIS while it is above $222."
+        }
+      ]
+    },
+    {
+      "symbol": "SE",
+      "direction": "long",
+      "prospect": "Author expects Sea Limited to run in Wave 3 to a much higher target over several years, and names it alongside Alibaba as his next large multi-year winner.",
+      "risk_reward": "He never addressed downside risk for this pick; he presents accumulation below the 200 WMA as the risk control and points to Druckenmiller averaging down as validation.",
+      "thesis": "Strong revenue and gross profit growth confirmed at Q2, free cash flow improving, and an accumulation zone below the 200 WMA where he says he built the position. He also uses it as a hedge against US-market concentration, arguing capital rotates to value regardless of geography, and notes a golden cross forming in late August.",
+      "time_frame": "long_term",
+      "tags": [
+        "value",
+        "tech",
+        "macro"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-07-13",
+      "sources": [
+        {
+          "post_id": "2076731410258219500",
+          "quote": "In fact, these 7 positions will protect you for the next 12 months and beat the market."
+        },
+        {
+          "post_id": "2079522059370004885",
+          "quote": "$SE may be the perfect stock right now."
+        },
+        {
+          "post_id": "2087190898060734541",
+          "quote": "We want 5 X here"
+        },
+        {
+          "post_id": "2088295867274891658",
+          "quote": "5 positions that are going to blow your mind over the next 12 months"
+        },
+        {
+          "post_id": "2095795886047551800",
+          "quote": "My next 3-5 X will be $BABA/$SE"
+        }
+      ]
+    },
+    {
+      "symbol": "UNH",
+      "direction": "long",
+      "prospect": "Author treats UnitedHealth as a completed low-risk winner he still holds and would add to again, and says he actively wants a healthy three-wave pull back so he can add before a further leg higher.",
+      "risk_reward": "He characterises it as the safest, lowest-risk large gain he has made, on the grounds that he bought it deeply below its 200 WMA where downside was limited and free cash flow supported the price. He does not give a scenario in which the position loses money.",
+      "thesis": "Share price follows free cash flow; the stock had fallen far below its 200 WMA while insiders and board members were buying, and he argues all fundamentally strong assets return to that moving average. It also functions as part of his health-sector hedge against an AI-led market.",
+      "time_frame": "long_term",
+      "tags": [
+        "value",
+        "macro"
+      ],
+      "conviction": 0.82,
+      "first_seen": "2026-07-09",
+      "sources": [
+        {
+          "post_id": "2075221169142190554",
+          "quote": "We ADDED aggressively"
+        },
+        {
+          "post_id": "2080335281354359022",
+          "quote": "$UNH to $600"
+        },
+        {
+          "post_id": "2083209281969455153",
+          "quote": "I need one negative catalyst to appear to allow a drop down to $360 and then we can add again"
+        },
+        {
+          "post_id": "2090456822394044647",
+          "quote": "Buy Zone is set."
+        },
+        {
+          "post_id": "2091869559628124593",
+          "quote": "The Never Selling Category."
+        }
+      ]
+    },
+    {
+      "symbol": "NVO",
+      "direction": "long",
+      "prospect": "Author expects Novo Nordisk to return to its 200 WMA and eventually far beyond it, calling it the safe, reliable name he would recommend to a family member and the position he is most publicly committed to.",
+      "risk_reward": "He presents the position as low risk because the stock is already deep below its 200 WMA and hated, and states he is near-certain it returns to that level. He explicitly warns the wait may last years, which is the only cost he acknowledges; he never describes a losing scenario.",
+      "thesis": "Fundamentals remain strong in an expanding obesity-drug market while sentiment is at its worst; the pattern matches the hated-then-recovering names he says he has bought before. Its recovery is also linked in his mind to Hims & Hers, whose platform is selling Novo product.",
+      "time_frame": "long_term",
+      "tags": [
+        "value",
+        "macro"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-07-13",
+      "sources": [
+        {
+          "post_id": "2076712422979633437",
+          "quote": "What’s the next safe reliable position that will return to its 200 WMA for a strong gain"
+        },
+        {
+          "post_id": "2079562928383037897",
+          "quote": "But I am 99.9% confident it returns to its 200 WMA next"
+        },
+        {
+          "post_id": "2080615696640225513",
+          "quote": "Right now, that answer is $NVO."
+        },
+        {
+          "post_id": "2085008165104410919",
+          "quote": "+600% Gain to our Wave 3 target"
+        },
+        {
+          "post_id": "2089067034495578246",
+          "quote": "Also never selling $NVO"
+        }
+      ]
+    },
+    {
+      "symbol": "GRRR",
+      "direction": "long",
+      "prospect": "Author expects Gorilla Technology to re-rate sharply once management converts its cash and contracts into scaled execution, with a Wave 5 target far above the price at which he was writing.",
+      "risk_reward": "He acknowledges the double public offering as a negative that pressured the structure, but argues offerings are ultimately bullish and that support held. Beyond that he never frames a downside case, and he responded to concerns about the post-earnings retest with abuse rather than analysis.",
+      "thesis": "He argues the company is quietly becoming a post-quantum security and AI infrastructure play that the market has not connected the dots on, that it holds a very large share of its market cap in cash, and that the technical structure held support at the lows and recovered above the 50 and 200 Day MAs.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "speculative",
+        "innovation"
+      ],
+      "conviction": 0.78,
+      "first_seen": "2026-07-08",
+      "sources": [
+        {
+          "post_id": "2074899048704708785",
+          "quote": "Structure continues to look strong and we expect a higher leg up next to $44."
+        },
+        {
+          "post_id": "2075254988087992740",
+          "quote": "A break above $21 and $44 is next."
+        },
+        {
+          "post_id": "2080259255630708856",
+          "quote": "$GRRR is quietly becoming a post-quantum security play."
+        },
+        {
+          "post_id": "2084675344875876497",
+          "quote": "Market has forgotten about $GRRR"
+        },
+        {
+          "post_id": "2091846803276628130",
+          "quote": "$GRRR at $10.50 might have been one of the biggest opportunities of the year"
+        }
+      ]
+    },
+    {
+      "symbol": "ETH",
+      "direction": "long",
+      "prospect": "Author expects Ethereum to reclaim its 200 WMA, then push on to new all-time highs in a Wave 3 advance, with a far higher Wave 5 target several years out. He calls it his largest crypto holding and says he stakes it and forgets about it.",
+      "risk_reward": "He argues downside is limited because the asset is already at or below its 200 WMA and has not been following the equity market, and that it has returned to that moving average every time in its history. He does not describe a scenario where it fails, and explicitly disavows extreme price targets to avoid encouraging leverage.",
+      "thesis": "His core rule is that fundamentally sound assets always revert to the 200 WMA, so buying below it is 'free money'. He prefers Ethereum over Bitcoin because its utility is measurable and staking pays a yield on an asset he intends to hold for years, and he points to tokenisation as the structural driver.",
+      "time_frame": "long_term",
+      "tags": [
+        "macro",
+        "speculative",
+        "innovation"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-07-11",
+      "sources": [
+        {
+          "post_id": "2075971903722819938",
+          "quote": "Buy $ETH here"
+        },
+        {
+          "post_id": "2078911710040031548",
+          "quote": "And I’m holding it like the mortgage on my house"
+        },
+        {
+          "post_id": "2084369706698358820",
+          "quote": "$ETH is a buy here -25% below its 200 WMA"
+        },
+        {
+          "post_id": "2085704620337148081",
+          "quote": "Wave 5 target is $13,600 in 2031"
+        },
+        {
+          "post_id": "2091857740444344614",
+          "quote": "$ETH is still a Buy."
+        },
+        {
+          "post_id": "2095510990888562879",
+          "quote": "$ETH is still a BUY under its 200 WMA"
+        }
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "direction": "long",
+      "prospect": "Author expects Bitcoin to hold its 200 WMA as support, complete Wave 2 and advance to a far higher Wave 5 target by the end of the decade, behaving like a safe haven rather than a risk asset.",
+      "risk_reward": "He frames the 200 WMA as the long-term value line and says selling there is the worst possible decision, so risk is defined as that level failing; he never states what he would do if it did. He also warns against leverage and extreme targets in the sector.",
+      "thesis": "A textbook three-wave pull back to the confluence of the 200 WMA and the 0.618 Fib, followed by weeks of support confirmation. He reads high-profile sellers at that level as a contrarian signal, and argues Bitcoin has not been in the same cycle as the US market.",
+      "time_frame": "long_term",
+      "tags": [
+        "macro",
+        "speculative"
+      ],
+      "conviction": 0.82,
+      "first_seen": "2026-07-13",
+      "sources": [
+        {
+          "post_id": "2076630856945356928",
+          "quote": "Wave 5 target is $350k in 2030"
+        },
+        {
+          "post_id": "2084302943008719264",
+          "quote": "Remember $BTC has completed a 3 wave pull back and has held on its 200 WMA for 8 weeks now AND Cramer is selling"
+        },
+        {
+          "post_id": "2085324082417942634",
+          "quote": "But this is exactly where you should be accumulating while retail slowly gets frustrated during the consolidation phase at the 200 WMA"
+        },
+        {
+          "post_id": "2090386315116216495",
+          "quote": "$BTC behaved perfectly"
+        }
+      ]
+    },
+    {
+      "symbol": "CRM",
+      "direction": "long",
+      "prospect": "Author expects Salesforce to keep recovering after reclaiming its 200 WMA, and says there is still meaningful upside left in the position he built during the SaaS sell-off.",
+      "risk_reward": "He never addressed downside risk for this pick; he presents the deeply-below-200-WMA entry as the risk control and the recovery as proof of the method.",
+      "thesis": "The market over-punished SaaS on the assumption that AI labs would kill the category; he argues that narrative was wrong, and applies his rule that fundamentally strong companies always return to the 200 WMA. He pairs it with Zeta as the two names the market got wrong in the sector this year.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "tech"
+      ],
+      "conviction": 0.78,
+      "first_seen": "2026-07-13",
+      "sources": [
+        {
+          "post_id": "2076731410258219500",
+          "quote": "Some come to mind: $BABA, $SE, $NVO, $MELI, $CRM, $BTC, $ETH."
+        },
+        {
+          "post_id": "2092955439918887234",
+          "quote": "built a position in $CRM"
+        },
+        {
+          "post_id": "2092970348660642113",
+          "quote": "This is why we added and this is how we can make +50% in less than 2 months WITHOUT using options, leverage or margin"
+        },
+        {
+          "post_id": "2095498255358390285",
+          "quote": "A lot of upside still to go"
+        }
+      ]
+    },
+    {
+      "symbol": "SOFI",
+      "direction": "long",
+      "prospect": "Author expects SoFi to move higher toward his stated levels and eventually a Wave 3 target, with the pace depending on the rate path rather than the direction.",
+      "risk_reward": "He conditions the trade on rates: no hikes means a strong bounce, a slow hike means a gradual grind higher. That is the nearest he comes to a downside case, and he still concludes it goes higher either way, so the risk side is effectively dismissed.",
+      "thesis": "A fintech growth story with CEO insider buying, bought below its 200 WMA, and a chart he reads as a cup-and-handle holding the 0.618 Fib. He frames a benign rate outcome as the catalyst.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "value"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-07-26",
+      "sources": [
+        {
+          "post_id": "2081384653819199693",
+          "quote": "$SOFI for the Fintech boom"
+        },
+        {
+          "post_id": "2084965337435377720",
+          "quote": "Either way, it's going higher."
+        },
+        {
+          "post_id": "2090087248670654902",
+          "quote": "If you are confident that there will be no Interest Rate hikes this year then you should be buying $SOFI here"
+        },
+        {
+          "post_id": "2093325790649688408",
+          "quote": "VERY attractive position right now"
+        }
+      ]
+    },
+    {
+      "symbol": "NKE",
+      "direction": "long",
+      "prospect": "Author expects Nike to be the classic hated-value recovery: he calls it the most hated position in the market, sees value buyers and institutions accumulating in the range he has flagged, and floats buying it aggressively himself in early September.",
+      "risk_reward": "He is unusually candid here, listing Nike among his disappointing buys and blaming weak management, and says the issue is a narrative problem management must fix. The trade-off he states is time rather than loss: he says he has no problem with time.",
+      "thesis": "Deep below the 200 monthly MA, at a multi-year low, insiders including Tim Cook buying higher up, a dividend paying while you wait, and no correlation with the US market. He draws the analogy to Target and other brands that recovered after a narrative collapse, and argues Nike needs to make acquisitions to fix the story.",
+      "time_frame": "long_term",
+      "tags": [
+        "value",
+        "catalyst-driven"
+      ],
+      "conviction": 0.68,
+      "first_seen": "2026-08-11",
+      "sources": [
+        {
+          "post_id": "2087160506175959130",
+          "quote": "But are all three positions attractive right now?"
+        },
+        {
+          "post_id": "2089469929330249917",
+          "quote": "This is deep below where Tim Cook and a number of insiders were buying earlier in the year."
+        },
+        {
+          "post_id": "2094385577713963079",
+          "quote": "You may not like this but Value Hunters are going to add here."
+        },
+        {
+          "post_id": "2096336041737093235",
+          "quote": "Could be the move"
+        }
+      ]
+    },
+    {
+      "symbol": "LULU",
+      "direction": "long",
+      "prospect": "Author sees Lululemon as deeply oversold at a multi-year low and identifies an accumulation zone below which he would consider a position; he expects a large recovery toward its 200 WMA if management acts.",
+      "risk_reward": "He states the risk plainly for once: the narrative is terrible, management is not doing what he thinks they should, and he criticises Burry for making it his largest position because that degree of exposure does not make sense to him. Upside is framed as the distance back to the 200 WMA.",
+      "thesis": "Zero debt at an eight-year low is, in his view, an unforgivable failure to buy back stock; the price is holding the 0.78 Fib inside a tight bullish descending wedge, and improving margins make the latest sell-off look like an overreaction. He argues the fix is for management to borrow and repurchase shares.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "catalyst-driven"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-07-24",
+      "sources": [
+        {
+          "post_id": "2080626589058945523",
+          "quote": "Looking like a good add here now."
+        },
+        {
+          "post_id": "2093655922044199227",
+          "quote": "The Accumulation Zone is under $83, would you consider a position here or add $NKE under $39 instead?"
+        },
+        {
+          "post_id": "2095957488839327817",
+          "quote": "Likely the most oversold position in the market right now"
+        }
+      ]
+    },
+    {
+      "symbol": "SPCX",
+      "direction": "short",
+      "prospect": "Author expects the SpaceX listing to keep falling through successive Fibonacci levels toward the levels he named, and says he told followers to sell it all above his exit level before the decline.",
+      "risk_reward": "He frames the risk as entirely on the buyer's side: chasing a hyped IPO whose underwriters published targets without disclosing downside. He notes it becomes attractive below a certain level, which is his implied stopping point for the bearish view. He states he does not short, so this is an avoid-and-sell call rather than a position.",
+      "thesis": "A standard post-IPO pump and dump, with institutions marketing the deal and retail providing the exit liquidity; he tracks the decline through lost Fibonacci supports and questions the free cash flow. He also uses the sell-off to explain weakness in AST SpaceMobile as sector contagion rather than a company problem.",
+      "time_frame": "position",
+      "tags": [
+        "speculative",
+        "momentum"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-07-11",
+      "sources": [
+        {
+          "post_id": "2075993809058459812",
+          "quote": "Next will be a further fall"
+        },
+        {
+          "post_id": "2076668130777002442",
+          "quote": "Very happy I told you to sell IT ALL if it went above $200"
+        },
+        {
+          "post_id": "2079204006157586486",
+          "quote": "Is $94 next?"
+        },
+        {
+          "post_id": "2084273820420997205",
+          "quote": "$SPCX clearly has a date with the $100 level next"
+        }
+      ]
+    },
+    {
+      "symbol": "MU",
+      "direction": "short",
+      "prospect": "Author expects Micron to complete an ABC correction after its parabolic move, with a relief bounce followed by a final leg down, and repeatedly says it is not yet a buy. He later flags it as a future buy once Wave C completes, but through the whole window he never actually turns positive.",
+      "risk_reward": "He states he does not short, so the call is to avoid and to trim into the Wave B bounce rather than to be positioned against it. He is explicit that the company itself is good — strong earnings and margins — and that his objection is purely about where price sits in its wave structure.",
+      "thesis": "All parabolic moves are followed by proportionate declines regardless of fundamentals; low multiples do not protect a chart in the short run because price moves in waves and Fibonacci targets. He also argues Micron's decline is dragging the wider index and the memory sector with it.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "macro"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-07-07",
+      "sources": [
+        {
+          "post_id": "2074574351526146515",
+          "quote": "Followed by a further leg down for Wave C to our target."
+        },
+        {
+          "post_id": "2077728930589544733",
+          "quote": "$MU will pull back -50%, like all charts that have ever come before it"
+        },
+        {
+          "post_id": "2082472454723707283",
+          "quote": "$MU is not a Buy yet."
+        },
+        {
+          "post_id": "2082558343562813847",
+          "quote": "Because the bottom is not in yet."
+        },
+        {
+          "post_id": "2084270131782226398",
+          "quote": "One more leg down is needed"
+        }
+      ]
+    },
+    {
+      "symbol": "SNDK",
+      "direction": "short",
+      "prospect": "Author expected SanDisk to complete a deep post-parabolic decline, and claimed the fall as a called outcome; by the end of July he flipped and said the correction looked complete and the name was becoming attractive again.",
+      "risk_reward": "He never framed downside for the bearish view because he says he does not short; he framed the risk as being long into a parabolic move. On the flip, the risk he names is that strength has to be shown at the Fibonacci band before it is a real buy.",
+      "thesis": "Same wave logic as Micron: parabolic moves are met with equally violent declines, no chart is exempt, and the drop found the standard 0.5-0.618 Fibonacci buy range. He also blames the pair for dragging the broader market down.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum"
+      ],
+      "conviction": 0.75,
+      "first_seen": "2026-07-17",
+      "sources": [
+        {
+          "post_id": "2078098771250974878",
+          "quote": "$SNDK is now at $1369 and DEEP in Wave C now"
+        },
+        {
+          "post_id": "2078100592686215241",
+          "quote": "Tried to call me out when I said to avoid $MU and $SNDK after they had their parabolic moves"
+        },
+        {
+          "post_id": "2082050611298672891",
+          "quote": "5 WEEKS LATER AND NOW DECLINED BY -49%...SO FAR"
+        },
+        {
+          "post_id": "2082793679769473287",
+          "quote": "$SNDK is looking even more attractive right now"
+        }
+      ]
+    },
+    {
+      "symbol": "PLTR",
+      "direction": "neutral",
+      "prospect": "Author expects Palantir's price action to keep working technically off the Fibonacci support he identified, but refuses to own it on ethical grounds and says he will never buy it again.",
+      "risk_reward": "He calls the company overvalued with a share price that ran years ahead of itself, and notes retail hostility over its defence work as a demand-side risk. He does not recommend shorting it either — he watches the chart and stays out.",
+      "thesis": "His argument is split: technically he says the wave count called the pull back to the 0.5 Fib exactly and the bounce from there was clean, while fundamentally he says growth and margins are excellent but the valuation is stretched. The decision not to own is moral rather than analytical.",
+      "time_frame": "position",
+      "tags": [
+        "speculative",
+        "tech"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-07-29",
+      "sources": [
+        {
+          "post_id": "2082466806384541897",
+          "quote": "Losing $106 and the 0.618 Fib comes into play at $83"
+        },
+        {
+          "post_id": "2082467255191810340",
+          "quote": "Never buy $PLTR, its a POS company."
+        },
+        {
+          "post_id": "2087861400123175290",
+          "quote": "But Price Action has been solid"
+        },
+        {
+          "post_id": "2094744809034350652",
+          "quote": "I would also never buy this company again (and this was my Christmas Gift in 2023)"
+        }
+      ]
+    },
+    {
+      "symbol": "AAPL",
+      "direction": "short",
+      "prospect": "Author expects Apple to decline over the following twelve months toward the level he named, and says he has never wanted to own it.",
+      "risk_reward": "He acknowledges the brand is strong, which is the counterweight he names; he gives no invalidation level and takes no position, so this is a stated view rather than a trade.",
+      "thesis": "Apple is at all-time highs while not spending on AI, in contrast to the mega caps he says are investing to catch the real AI boom; he sees no innovation and takes Buffett's earlier selling as supporting evidence.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "tech"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-07-20",
+      "sources": [
+        {
+          "post_id": "2079220431492419906",
+          "quote": "At no point have I ever felt like adding $AAPL"
+        },
+        {
+          "post_id": "2081074980574416984",
+          "quote": "$AAPL is not a Buy"
+        },
+        {
+          "post_id": "2082142052150616510",
+          "quote": "$AAPL will decline to $220 over the next 12 months."
+        }
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "direction": "long",
+      "prospect": "Author called Microsoft a buy while it consolidated at its 200 WMA and, after the July earnings, presented the subsequent rebound as one of the best buys available in the market that month.",
+      "risk_reward": "He never addressed downside risk for this pick; the 200 WMA is treated as the floor that made it a strong buy.",
+      "thesis": "Free cash flow rebounded and management eased off AI capex, which he argues is what the market wanted; combined with a multi-month consolidation on the 200 WMA that is his standard accumulation signal. He then uses Microsoft as the template for what he expects Meta and Alibaba to do.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "tech",
+        "catalyst-driven"
+      ],
+      "conviction": 0.75,
+      "first_seen": "2026-07-23",
+      "sources": [
+        {
+          "post_id": "2080278018480652305",
+          "quote": "All at their 200 WMA now making these positions very attractive"
+        },
+        {
+          "post_id": "2081074980574416984",
+          "quote": "$MSFT is a Buy"
+        },
+        {
+          "post_id": "2082790298090926263",
+          "quote": "$MSFT has already consolidated at its own 200 WMA for a few months now, which made it a strong buy"
+        },
+        {
+          "post_id": "2085727821859520730",
+          "quote": "$MSFT has now bounced from $350 to $500 in 2 weeks."
+        }
+      ]
+    },
+    {
+      "symbol": "TSLA",
+      "direction": "long",
+      "prospect": "Author expects Tesla to hold the confluence of its 200 WMA and ascending-triangle support and then advance to a much higher Wave 5 target over about five years, driven by robotics.",
+      "risk_reward": "He notes the multiple is not helping the near-term average and that updates are needed to confirm a reversal to the upside, which is the condition he attaches to the call. He does not give a downside target.",
+      "thesis": "Tesla is one of the few mega caps he thinks is genuinely innovating and, in his view, the only company pricing in humanoid robotics — a market he expects to be the largest of the next five years and which the market has not acknowledged. Technically the impulse wave count is still intact.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "tech",
+        "speculative"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-07-27",
+      "sources": [
+        {
+          "post_id": "2081709211981889561",
+          "quote": "A test and hold on this level at $285, is a BUY."
+        },
+        {
+          "post_id": "2094013276505964607",
+          "quote": "Humanoid Robotics will be the driver here"
+        },
+        {
+          "post_id": "2095502611604467987",
+          "quote": "+300% gain to our Wave 5 target here."
+        },
+        {
+          "post_id": "2096312030596632811",
+          "quote": "$TSLA is the only company factoring in the Robotics sector right now"
+        }
+      ]
+    },
+    {
+      "symbol": "META",
+      "direction": "short",
+      "prospect": "Author expects Meta to continue its downtrend all the way to its 200 WMA, and says it will only become a buy once it gets there.",
+      "risk_reward": "He explicitly sets out both sides: falling free cash flow means the price falls with it, but once it reaches the 200 WMA it enters his buy zone and he expects it to bounce as Microsoft did. So the bearish view has a defined end point.",
+      "thesis": "Price follows free cash flow, and Meta's is falling; a very large multi-year advance requires cooling, and the 200 WMA is where he thinks that cooling completes. He treats Microsoft's round trip to that level and back as the precedent.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "tech",
+        "value"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-07-30",
+      "sources": [
+        {
+          "post_id": "2082790298090926263",
+          "quote": "Looks like the next Mag 7 position that will test its 200 WMA"
+        },
+        {
+          "post_id": "2094473656571207912",
+          "quote": "FCF is falling, price will fall with it"
+        },
+        {
+          "post_id": "2094726094763012189",
+          "quote": "And a drop down to the 200 WMA at $488 now is standard."
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "long",
+      "prospect": "Author expects Nvidia to keep running into its late-August earnings and to drag the market up with it, while warning that a reset will eventually come.",
+      "risk_reward": "He is two-sided here: he says the music will eventually stop and a reset will come as it did in 2025 even with strong fundamentals, but that it is not under threat while it holds its rising wedge and its support level. That support is the condition attached to the bullish view.",
+      "thesis": "Nvidia is the chart that determines the direction of the whole market; it historically runs into earnings, it held a crucial support level through the July weakness, and its margins are exceptional. He treats it as the market's key rather than as a value opportunity.",
+      "time_frame": "swing",
+      "tags": [
+        "catalyst-driven",
+        "momentum",
+        "tech"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-07-10",
+      "sources": [
+        {
+          "post_id": "2075563134232731978",
+          "quote": "I believe, like always, $NVDA will run leading up to its Earnings."
+        },
+        {
+          "post_id": "2082906545633763827",
+          "quote": "We could see a +10% rip higher"
+        },
+        {
+          "post_id": "2084324509549535629",
+          "quote": "$NVDA is now running towards Earnings"
+        },
+        {
+          "post_id": "2087505762876539109",
+          "quote": "I expect the price to continue moving higher....+20% is still on the table here for the next few weeks."
+        }
+      ]
+    },
+    {
+      "symbol": "COIN",
+      "direction": "long",
+      "prospect": "Author expects Coinbase to break out of a tightening bullish wedge and reverse higher once it flips its 200 WMA to support, positioning it as the equity way to play a rotation into crypto.",
+      "risk_reward": "He never addressed downside risk for this pick beyond making the breakout conditional on Bitcoin pulling away from its own 200 WMA.",
+      "thesis": "If crypto behaves like a safe haven over the coming months — which he argues is what it was designed for — the exchange benefits most from that rotation. Technically it sits below its 200 WMA after completing an ABC correction inside a bullish descending wedge.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "speculative"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-07-28",
+      "sources": [
+        {
+          "post_id": "2082071542419120211",
+          "quote": "then $COIN is in a great position to benefit from this rotation."
+        },
+        {
+          "post_id": "2087900137305608201",
+          "quote": "$COIN Bullish wedge is getting very TIGHT!!"
+        },
+        {
+          "post_id": "2095828247858594298",
+          "quote": "Flip this level to support and the reversal is on"
+        }
+      ]
+    },
+    {
+      "symbol": "RDDT",
+      "direction": "long",
+      "prospect": "Author expects Reddit to break out of its bullish wedge and run to the target he named, and claims the set-up ahead of its index inclusion.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "He dismisses the bear argument that chatbots will bypass Reddit by pointing out those models are trained on Reddit content, and values the data plus a devoted user base. Technically: a three-wave pull back to the confluence of the 0.618 Fib and wedge support, then a strong bounce to the 50 WMA.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-07-23",
+      "sources": [
+        {
+          "post_id": "2080261268196278729",
+          "quote": "A breakout of the wedge next and the target is $518"
+        },
+        {
+          "post_id": "2088265374428975358",
+          "quote": "Now added to the S&amp;P 500"
+        }
+      ]
+    },
+    {
+      "symbol": "ONDS",
+      "direction": "long",
+      "prospect": "Author repeatedly flagged Ondas as a chart to buy off support and tracked it higher, saying it needs to clear its 50 WMA next for a clean run.",
+      "risk_reward": "The author never addressed risk for this pick; he presents finding support as the whole of the risk management.",
+      "thesis": "Almost purely technical and deliberately opaque — he posts the chart with 'if you know, you know' and points to support holding and a resistance level above that, once cleared, leaves very little in the way.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "tech",
+        "speculative"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-08-02",
+      "sources": [
+        {
+          "post_id": "2083958513802350979",
+          "quote": "Buy companies that have charts that look like this."
+        },
+        {
+          "post_id": "2089680875340362110",
+          "quote": "Clear this level and there is very little resistance above"
+        }
+      ]
+    },
+    {
+      "symbol": "DCTH",
+      "direction": "long",
+      "prospect": "Author started a position when Wave 2 support confirmed and expects the name to keep outperforming quietly outside the technology sector.",
+      "risk_reward": "The author never addressed risk for this pick; his framing is that when the criteria are met you add heavily.",
+      "thesis": "A pure Elliott-wave support trade: Wave 2 held exactly where he expected, which he treats as the trigger to size up. He notes it is on nobody's radar and not a technology name, which he considers an advantage.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "speculative"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-08-07",
+      "sources": [
+        {
+          "post_id": "2085677693119373744",
+          "quote": "When the criteria is met, you must trust the process and add heavy"
+        },
+        {
+          "post_id": "2086896476987215898",
+          "quote": "We started a position at $10, when Wave 2 confirmed support."
+        }
+      ]
+    },
+    {
+      "symbol": "GOOG",
+      "direction": "long",
+      "prospect": "Author is waiting rather than holding: he tells followers to hold cash so they can buy Alphabet aggressively when its pull back completes, and says a portfolio should be built around it if the market gets irrational enough.",
+      "risk_reward": "He acknowledges the pull back he wants may not reach the level he named, which is why the call is conditional and cash-funded. He does not describe a loss scenario, only a missed one.",
+      "thesis": "Alphabet is one of the mega caps spending to catch what he calls the real AI boom, and he treats Buffett's average price as sitting in a suitable buy zone between Fibonacci levels. His rule is to buy quality only on a completed pull back, never on strength.",
+      "time_frame": "long_term",
+      "tags": [
+        "value",
+        "tech"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-07-23",
+      "sources": [
+        {
+          "post_id": "2080277413078999184",
+          "quote": "You take full advantage and build your portfolio around this position."
+        },
+        {
+          "post_id": "2086508983703986501",
+          "quote": "Your portfolio will thank for you the next 5 years"
+        },
+        {
+          "post_id": "2094010931978051947",
+          "quote": "Make sure you have Cash or money in a Safe Haven to take advantage of $GOOG when it completes its pull back"
+        }
+      ]
+    }
+  ]
+}

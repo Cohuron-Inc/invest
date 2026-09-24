@@ -1,0 +1,36 @@
+{
+  "run_id": "local20260924220336",
+  "attempt": 1,
+  "ingest_dt": "2026-09-24",
+  "mode": "backfill",
+  "started_at": "2026-09-24T22:03:36Z",
+  "finished_at": "2026-09-24T22:03:36Z",
+  "start_time": "2026-09-17T18:17:55Z",
+  "end_time": "2026-09-18T16:45:08Z",
+  "accounts": [
+    {
+      "handle": "artemis",
+      "user_id": "1518996068687663104",
+      "posts": 0,
+      "pages": 1,
+      "oldest": null,
+      "newest": null,
+      "truncated": false,
+      "segments": [
+        {
+          "side": "full",
+          "start_time": "2026-09-17T18:17:55Z",
+          "end_time": "2026-09-18T16:45:08Z"
+        }
+      ],
+      "duplicates_dropped": 2
+    }
+  ],
+  "incremental": false,
+  "pages": 1,
+  "posts_read": 2,
+  "estimated_cost_usd": 0.01,
+  "files": [],
+  "status": "ok",
+  "error": null
+}

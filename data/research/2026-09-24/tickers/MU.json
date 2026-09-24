@@ -1,0 +1,148 @@
+{
+ "schema": "ticker-context/1",
+ "ticker": "MU",
+ "as_of": "2026-09-24",
+ "inputs": {
+  "themes": "2026-09-24",
+  "outlook": "2026-09-24",
+  "regime": "2026-09-24",
+  "x_sentiment": "2026-09-24",
+  "corpus_last_day": "2026-09-25",
+  "corpus_stale_days": -1
+ },
+ "regime": {
+  "call": "Lean risk-off: a strong tape on a hostile discount rate",
+  "gross_exposure_pct": 60,
+  "long_duration_cap_pct": 15
+ },
+ "archetype": "quality_megacap",
+ "macro_fit": {
+  "fit": 0.18,
+  "stance": "neutral",
+  "runway_macro_fit_pts": 4,
+  "headwinds": [
+   "R_10Y_1M",
+   "R_REAL10"
+  ],
+  "tailwinds": [
+   "E_TREND",
+   "G_GDPNOW",
+   "V_VIX"
+  ]
+ },
+ "themes": [
+  {
+   "id": "semis",
+   "name": "Semiconductors",
+   "archetype": "quality_megacap",
+   "direction": "improving",
+   "rel_spy_3m": -11.3,
+   "trend": "uptrend",
+   "breadth_50d": 71.0,
+   "stance": "Neutral",
+   "stance_score": 0.06,
+   "flags": [
+    "quiet improvement: price turning before the crowd"
+   ]
+  },
+  {
+   "id": "semi_memory",
+   "name": "Memory and storage",
+   "archetype": "materials_industrials",
+   "direction": "improving",
+   "rel_spy_3m": -24.2,
+   "trend": "uptrend",
+   "breadth_50d": 75.0,
+   "stance": "Neutral",
+   "stance_score": 0.26,
+   "flags": []
+  }
+ ],
+ "price": {
+  "close": 1080.53,
+  "as_of": "2026-09-24",
+  "ret_1m": 15.8,
+  "ret_3m": -10.9,
+  "ret_12m": 550.4,
+  "above_50d": true,
+  "above_200d": true,
+  "dd_52w_pct": -10.9,
+  "source": "https://finance.yahoo.com/quote/MU"
+ },
+ "sentiment": {
+  "symbol": "MU",
+  "posts_recent": 62,
+  "posts_prior": 138,
+  "accounts_recent": 5,
+  "accounts_total": 6,
+  "likes_recent": 10489,
+  "velocity": 1.8,
+  "velocity_rel": 1.34,
+  "tone_recent": 0.24,
+  "tone_window": 0.24,
+  "bull_share_recent": 0.31,
+  "bear_share_recent": 0.06,
+  "tone_source": "lexicon",
+  "evidence": [
+   {
+    "post_id": "2102447892065857902",
+    "author": "StockSavvyShay",
+    "day": "2026-09-22",
+    "likes": 1066,
+    "text": "Michael Burry disclosed larger shorts in $MU and $NBIS. https://t.co/TKe2Hp8O2D"
+   },
+   {
+    "post_id": "2102379136690053578",
+    "author": "StockSavvyShay",
+    "day": "2026-09-22",
+    "likes": 858,
+    "text": "Citi sees AI driving enterprise SSD demand up 53% in 2027 and another 41% in 2028 as KV-cache offloading pushes more high-capacity storage next to GPUs. NAND demand is also expected to outgrow supply by ~25% which should"
+   },
+   {
+    "post_id": "2101522761697071282",
+    "author": "TradexWhisperer",
+    "day": "2026-09-20",
+    "likes": 504,
+    "text": "$MU $SKHY $DRAM Holy Structural Shit. Citi Research says memory undersupply gets WORSE through 2031. DRAM demand +30%/+35% (27/28) Supply only +19%/+22% Already extremely short in 2026, now demand outruns supply for year"
+   }
+  ],
+  "stance": {
+   "accounts": 5,
+   "longs": 5,
+   "shorts": 1,
+   "net_long": 0.67,
+   "avg_conviction": 0.84,
+   "stances": "MarcosMillaYT:long:0.98 FeroceResearch:long:0.97 TradexWhisperer:long:0.94 TheLongInvest:short:0.85 StockSavvyShay:long:0.72 StockSavvyShay:long:0.6"
+  },
+  "labels": []
+ },
+ "runway_score": {
+  "probe": "2026-09-17",
+  "tier": "no_runway",
+  "total": 48,
+  "points": {
+   "earnings": 0,
+   "prospect": 6,
+   "competition": 4,
+   "insider": 0,
+   "institutional": 3,
+   "retail": 6,
+   "upside": 10,
+   "risk_reward": 4,
+   "chart": 5,
+   "macro_fit": 4,
+   "narrative": 6
+  },
+  "gates_failed": [
+   "flow",
+   "insider",
+   "delivery"
+  ],
+  "upside_pct": 61.161125319693085,
+  "risk_reward": 1.7520387251285563,
+  "close": 977.5,
+  "price_as_of": "2026-09-17"
+ },
+ "verdicts": [],
+ "gaps": []
+}

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Deterministic part of the Runway Probe scorecard.
 
-Reads analysis_output/<window_end>-runway-data/ (one JSON record per ticker, plus
+Reads data/probes/runway/<PROBE_ID>/records/ (one JSON record per ticker, plus
 macro.json, retail.json, stances.json, _manifest.json) and writes, in the same
 directory:
 
@@ -14,14 +14,18 @@ macro fit, narrative) are read from the record's "judgment" block, which the mai
 fills, and are added without modification.
 
 Usage, from the repo root:
-    python3 .claude/skills/runway-probe/scripts/build-scorecard.py analysis_output/2026-09-06-runway-data
+    python3 .claude/skills/runway-probe/scripts/build-scorecard.py 2026-09-17
 """
 from __future__ import annotations
 
 import json
 import sys
+from forward_metrics import calculate
 from datetime import date, timedelta
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "tools"))
+import paths  # noqa: E402
 
 
 def v(rec: dict, *path, default=None):
@@ -85,21 +89,27 @@ def earnings_pts(rec):
 def insider_pts(rec, close):
     buys = v(rec, "insiders", "buys_90d", default=[]) or []
     sells = v(rec, "insiders", "sells_90d", default=[]) or []
+    if v(rec, "insiders", "coverage_complete") is not True:
+        return 0, "insider coverage unverified; no conviction credit", False
+    buys = [b for b in buys if b.get("transaction_code") == "P" and b.get("open_market") is True and b.get("form4")]
+    sells = [s for s in sells if s.get("transaction_code") == "S" and s.get("form4")]
+    # Multiple executions by one person are not independent conviction votes.
+    unique_buyers = {b.get("name") for b in buys if b.get("name")}
     buy_usd = sum(b.get("usd") or 0 for b in buys)
     officer_buy = any((b.get("role") or "").upper() in ("CEO", "CFO", "PRESIDENT AND CEO", "CHAIRMAN") for b in buys)
     big_buy = any((b.get("usd") or 0) >= 1_000_000 for b in buys)
     hist = " ".join((b.get("history") or "").lower() for b in buys)
     first_in_years = "first" in hist or "largest" in hist
-    open_sells = [s for s in sells if not s.get("plan_10b5_1")]
+    open_sells = [s for s in sells if s.get("plan_10b5_1") is False]
     sell_usd = sum(s.get("usd") or 0 for s in sells)
     ceo_sell_big = any((s.get("role") or "").upper() == "CEO" and (s.get("usd") or 0) >= 50_000_000 for s in sells)
     hi, lo = v(rec, "price", "high_52w"), v(rec, "price", "low_52w")
     drawdown = pct(close, hi) if close and hi else None
     after_drawdown = drawdown is not None and drawdown <= -30
-    if len(buys) >= 3 and officer_buy or (officer_buy and first_in_years):
+    if len(unique_buyers) >= 3 and officer_buy or (officer_buy and first_in_years):
         pts = 10 if after_drawdown else 9
         why = f"{len(buys)} buys incl. officer; ${buy_usd:,.0f}"
-    elif big_buy or len(buys) >= 2:
+    elif big_buy or len(unique_buyers) >= 2:
         pts, why = 7, f"{len(buys)} buys, ${buy_usd:,.0f}"
     elif buys:
         pts, why = 4, f"small buys ${buy_usd:,.0f}"
@@ -108,7 +118,7 @@ def insider_pts(rec, close):
     elif sells:
         pts, why = 2, f"no buys; sells ${sell_usd:,.0f}" + (" (10b5-1)" if not open_sells else "")
     else:
-        pts, why = 3, "no insider activity found"
+        pts, why = 3, "verified no qualifying insider activity; neutral, not positive conviction"
     gate = bool(buys) or (not ceo_sell_big and sell_usd < 50_000_000)
     return pts, why, gate
 
@@ -185,10 +195,13 @@ def build(data_dir: Path) -> None:
     retail = {r["symbol"]: r for r in json.loads((data_dir / "retail.json").read_text())} if (data_dir / "retail.json").exists() else {}
     rows = []
     for path in sorted(data_dir.glob("*.json")):
-        if path.name in ("macro.json", "retail.json", "stances.json", "_manifest.json", "scorecard.json"):
+        if path.name in ("macro.json", "retail.json", "stances.json", "_manifest.json", "scorecard.json", "verdicts.json"):
             continue
         rec = json.loads(path.read_text())
-        t = rec.get("ticker") or path.stem
+        if not isinstance(rec, dict) or "ticker" not in rec:
+            continue
+        t = rec["ticker"]
+        forward = calculate(rec, manifest.get("price_date") or date.today().isoformat())
         close = v(rec, "price", "close")
         hi, lo = v(rec, "price", "high_52w"), v(rec, "price", "low_52w")
         pt_avg, pt_low, pt_alt = v(rec, "consensus", "pt_avg"), v(rec, "consensus", "pt_low"), v(rec, "consensus", "pt_avg_alt")
@@ -227,6 +240,7 @@ def build(data_dir: Path) -> None:
         mech = upside_pts(upside) + rr_pts(rr) + e_pts + i_pts + f_pts + r_pts + c_pts
         total = mech + sum(val or 0 for val in judgment.values())
         rows.append({
+            "forward_quality": forward,
             "ticker": t, "probe_tier": rec.get("probe_tier"),
             "close": close, "price_as_of": (rec.get("price") or {}).get("close", {}).get("as_of"),
             "drawdown_pct": drawdown, "pt_avg": pt_avg, "pt_avg_alt": pt_alt,
@@ -260,6 +274,11 @@ def build(data_dir: Path) -> None:
     for r in rows:
         lines.append(f"- **{r['ticker']}** earnings: {r['why']['earnings']}; insider: {r['why']['insider']}; institutional: {r['why']['institutional']}; retail: {r['why']['retail']}; chart: {r['why']['chart']}"
                      + (f"; judgment missing: {', '.join(r['judgment_missing'])}" if r['judgment_missing'] else ""))
+    lines += ["", "Forward quality (separate from the legacy total; unknown is not zero):", ""]
+    for r in rows:
+        fq = r["forward_quality"]
+        lines.append(f"- **{r['ticker']}**: {fq['passed']}/{fq['covered']} covered checkpoints passed (6 possible); " + "; ".join(f"{k}={f(val, 2)}" for k, val in fq["metrics"].items()))
+        lines.extend(f"  - {issue}" for issue in fq["issues"])
     (data_dir / "scorecard.md").write_text("\n".join(lines) + "\n")
     print(f"{len(rows)} tickers -> {data_dir/'scorecard.json'} and scorecard.md")
     incomplete = [r["ticker"] for r in rows if r["judgment_missing"]]
@@ -269,5 +288,7 @@ def build(data_dir: Path) -> None:
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        sys.exit("usage: build-scorecard.py analysis_output/<window_end>-runway-data")
-    build(Path(sys.argv[1]))
+        sys.exit("usage: build-scorecard.py <PROBE_ID>   (or a records directory)")
+    arg = Path(sys.argv[1])
+    # A probe id (2026-09-17, 2026-09-18-zeta-abcl) resolves through paths.py; a directory is used as given.
+    build(arg if arg.is_dir() else paths.runway_records(sys.argv[1]))

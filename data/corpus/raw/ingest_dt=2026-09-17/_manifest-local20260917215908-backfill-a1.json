@@ -1,0 +1,33 @@
+{
+  "run_id": "local20260917215908",
+  "attempt": 1,
+  "ingest_dt": "2026-09-17",
+  "mode": "backfill",
+  "started_at": "2026-09-17T21:59:08Z",
+  "finished_at": "2026-09-17T21:59:08Z",
+  "start_time": "2026-09-07T01:45:52Z",
+  "end_time": "2026-09-16T13:16:14Z",
+  "accounts": [
+    {
+      "handle": "deerpointmacro",
+      "user_id": "1158811321963614209",
+      "posts": 25,
+      "pages": 1,
+      "oldest": "2026-09-07T17:30:37.000Z",
+      "newest": "2026-09-15T17:32:22.000Z",
+      "truncated": false
+    }
+  ],
+  "pages": 1,
+  "posts_read": 25,
+  "estimated_cost_usd": 0.125,
+  "files": [
+    {
+      "path": "raw/ingest_dt=2026-09-17/posts-local20260917215908-a1-p001.jsonl.gz",
+      "bytes": 7159,
+      "posts": 25
+    }
+  ],
+  "status": "ok",
+  "error": null
+}

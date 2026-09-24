@@ -1,0 +1,36 @@
+{
+  "run_id": "local20260924220206",
+  "attempt": 1,
+  "ingest_dt": "2026-09-24",
+  "mode": "backfill",
+  "started_at": "2026-09-24T22:02:06Z",
+  "finished_at": "2026-09-24T22:02:07Z",
+  "start_time": "2026-09-16T19:59:08Z",
+  "end_time": "2026-09-21T13:02:16Z",
+  "accounts": [
+    {
+      "handle": "CEOStockWatcher",
+      "user_id": "1617590989811482649",
+      "posts": 0,
+      "pages": 1,
+      "oldest": null,
+      "newest": null,
+      "truncated": false,
+      "segments": [
+        {
+          "side": "full",
+          "start_time": "2026-09-16T19:59:08Z",
+          "end_time": "2026-09-21T13:02:16Z"
+        }
+      ],
+      "duplicates_dropped": 2
+    }
+  ],
+  "incremental": false,
+  "pages": 1,
+  "posts_read": 2,
+  "estimated_cost_usd": 0.01,
+  "files": [],
+  "status": "ok",
+  "error": null
+}

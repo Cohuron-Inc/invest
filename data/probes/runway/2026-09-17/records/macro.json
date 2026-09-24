@@ -1,0 +1,50 @@
+{
+  "fed_target_pct": {
+    "value": "3.75-4.00",
+    "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "as_of": "2026-09-16"
+  },
+  "dgs2_pct": {
+    "value": 4.74,
+    "source": "https://fred.stlouisfed.org/series/DGS2",
+    "as_of": "2026-09-16"
+  },
+  "dgs10_pct": {
+    "value": 5.01,
+    "source": "https://fred.stlouisfed.org/series/DGS10",
+    "as_of": "2026-09-16"
+  },
+  "real10y_pct": {
+    "value": 2.68,
+    "source": "https://fred.stlouisfed.org/series/DFII10",
+    "as_of": "2026-09-16"
+  },
+  "hy_oas_pct": {
+    "value": 2.7,
+    "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "as_of": "2026-09-16"
+  },
+  "vix": {
+    "value": 17.71,
+    "source": "https://fred.stlouisfed.org/series/VIXCLS",
+    "as_of": "2026-09-16"
+  },
+  "themes": [
+    {
+      "theme": "AI infrastructure",
+      "direction": "accelerating",
+      "counter": "financing and power costs"
+    },
+    {
+      "theme": "memory",
+      "direction": "accelerating",
+      "counter": "cyclical supply response"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-27",
+      "event": "FOMC meeting begins"
+    }
+  ]
+}

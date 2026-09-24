@@ -151,7 +151,7 @@ export async function ingestSession(opts: { inDir?: string; check?: boolean } = 
   const ingestDt = new Date().toISOString().slice(0, 10)
   const taxonomy = taxonomyVersion()
   const specHash = sha256(buildSpec()).slice(0, 16)
-  const model = 'claude-opus-5[1m]/session-subagent'
+  const model = process.env['SESSION_MODEL'] ?? 'claude-opus-5[1m]/session-subagent'
 
   const pickRows: Record<string, unknown>[] = []
   const tagRows: Record<string, unknown>[] = []

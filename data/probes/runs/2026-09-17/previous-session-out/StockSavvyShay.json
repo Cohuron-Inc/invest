@@ -1,0 +1,393 @@
+{
+  "account": "StockSavvyShay",
+  "profile": {
+    "beat": "AI-infrastructure investing in the broadest sense — semiconductors and memory, networking and optical connectivity, neoclouds and data-center power, plus adjacent secular themes in space, physical AI/robotics, cybersecurity and healthcare AI. He runs two disclosed portfolios (a diversified 'Family' compounding book and a concentrated 'Growth' book) and posts around the names in them.",
+    "style": "Almost every post follows the same two-beat template: a factual headline about a company or a supply-chain datapoint, then one sentence of interpretation about what it means for the bottleneck or the thesis ('That means...', 'That gives...', 'That shifts...'). Conviction is expressed through disclosed portfolio actions and ranked position lists rather than targets or trade setups — he says when he adds, when a name becomes a top-5 position, and which book owns it. The work is fundamental and thematic (contract pricing per MW, Rule of 40, revenue per employee, content-per-port) rather than chart-based; he rarely mentions technical levels, stops or sizing beyond rank. Risk is usually left unstated, with a handful of explicit exceptions where he names the specific hole in a story.",
+    "cadence": "Extremely high volume — often 20-30 posts a day, overwhelmingly short original one- or two-paragraph posts, each frequently followed by a 'Source:' reply. Recurring formats include earnings-print tables on results day, themed list posts (software comp sheet, ways to invest in healthcare AI, the semiconductor stack inside an iPhone), ranked conviction lists, portfolio performance updates, and promos for two shows he co-hosts (THE DEEP END and the Futurum Equities podcast). He also replies constantly to a small circle of other finance accounts.",
+    "revisits": "Yes, but mostly within a running theme rather than as scored call updates. $CRDO is the clearest case: he flags the after-hours add (2094956359519506546), defends the selloff as an expectations reset (2094956225226305606), names the hole in the story (2095137266222104591), declares it a top-5 growth position (2095149077696528491), then discloses further adds and his entry range (2095152582553694610, 2095155286839578806, 2096256693890134201, 2096276392782844323). $SNOW is repeated on consecutive days (2095500209883427315, 2095885854447469006), $IREN across the window (2094431119395766508, 2094825632022909343, 2096635121793425712) and $ZS before its print (2094415963395604543, 2094795811985281311). He does not, however, come back to mark whether earlier interpretations proved right.",
+    "caveats": "Coverage is the biggest one: this capture only reaches back to 2026-08-29, roughly ten days, because X's timeline endpoint stopped paginating there — so this record covers a sliver of the two-month window used for other accounts and no longer-arc view changes can be seen. He is commercially interested in his own visibility: he runs a 5,000-member paid-style Growth Portfolio community and two podcasts, and repeatedly reposts a headline three-year performance record (with a link he says is third-party validated), which is self-selected marketing material a reader should treat as such. He also discloses being in a large drawdown in the growth book (2094104077525524544). The overwhelming majority of posts are news relays or summaries of other people's analyst notes (Baird, Berenberg, Evercore, UBS, Bernstein, BofA), not his own stance — the actual pick count is small relative to post volume, and quoting a bullish sell-side initiation is not the same as taking the position. Nearly everything he owns is one correlated AI-infrastructure trade, so his names rise and fall together. He almost never states downside, a level at which he'd be wrong, or an exit, and he never timestamps an exit, so his posts alone do not let you reconstruct a track record."
+  },
+  "narrative": "The visible window opens on 2026-08-29 with a self-assessment rather than a call: he lays out why his diversified Family book has pulled far ahead of his concentrated Growth book in 2026, arguing the market is 'rewarding companies monetizing today while punishing companies whose biggest business inflections still sit a few years away' and blaming long rates for discounting future optionality harder. From there the through-line is a single thesis restated dozens of ways — the binding constraint in AI has moved downstream from chips to memory, connectivity and power. Late August and the first days of September are dominated by that supply chain: HBM contracts and spot pricing, Nvidia's supply commitments, SK Hynix and Micron capacity, TSMC's equipment orders, and neocloud contract pricing per megawatt. The clearest change in posture inside the window is $CRDO: after a post-earnings selloff on 2026-09-02 he calls the reaction an expectations reset rather than a broken story, buys it after hours, and by the same afternoon has made it a top-5 growth position, adding more over the following days. On 2026-09-03 the $AVGO and $SNOW prints extend the same argument — Broadcom as the custom-silicon beneficiary of multiple simultaneous ramps, Snowflake as the governed data layer that gets more valuable as models commoditize. Alongside the infrastructure trade he keeps a second, more speculative bucket running: $RKLB and $ASTS in space, $TSLA robotaxi economics after the Austin Cybercab launch, and physical AI generally. On 2026-09-05 he publishes his ranked top five growth holdings — RKLB, ASTS, SITM, CRDO, AEHR — which is the single most useful post in the file because it states rank, not just interest. He never turns bearish on anything during these ten days; the only negative notes are specific holes he names himself (Credo's customer concentration, IREN's governance, IREN's capex-without-ARR quarter) and a running macro aside that there is no chance of a rate hike this year.",
+  "picks": [
+    {
+      "symbol": "CRDO",
+      "direction": "long",
+      "prospect": "He expects Credo to be re-rated as a broad AI-connectivity platform rather than an AEC vendor, with content growing per port as clusters move to faster lanes and optics, and the post-earnings selloff to prove an expectations reset rather than a thesis break.",
+      "risk_reward": "He names the downside himself: two customers still account for more than half of quarterly revenue, i.e. severe customer concentration. Against that he sets a growth rate he considers barely decelerating and an expanding product surface, and he sized up into the drawdown rather than trimming.",
+      "thesis": "Credo is evolving from a point product into ownership of the connection inside AI clusters — AECs plus optical DSPs, retimers, silicon photonics and NPO — so as clusters move to faster lane and optics speeds it captures more of each link, and monitoring products like Pilot let it move up a layer into cluster utilization. He also believes SpaceX's data-center buildout makes Credo a sympathy play on that spending.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation",
+        "value"
+      ],
+      "conviction": 0.95,
+      "first_seen": "2026-09-02",
+      "sources": [
+        {
+          "post_id": "2094956225226305606",
+          "quote": "expansion is the bigger story behind the quarter making selloff look more like an expectations reset"
+        },
+        {
+          "post_id": "2094956359519506546",
+          "quote": "I added some $CRDO after-hours"
+        },
+        {
+          "post_id": "2095149077696528491",
+          "quote": "I just made $CRDO a top 5 position in my growth portfolio because Credo is evolving into a much broader bet on owning the connection inside AI clusters."
+        },
+        {
+          "post_id": "2095137266222104591",
+          "quote": "If I had to poke a hole in the $CRDO story then it’s that two customers still account for more than half of quarterly revenue."
+        },
+        {
+          "post_id": "2096256693890134201",
+          "quote": "I added more than 25% to my $CRDO position in the past week"
+        }
+      ]
+    },
+    {
+      "symbol": "RKLB",
+      "direction": "long",
+      "prospect": "He expects Rocket Lab to compound into a far larger company as the Iridium acquisition layers recurring revenue and spectrum on top of an already vertically integrated launch and space-systems business.",
+      "risk_reward": "He never addressed downside for this name in the captured window; the only qualifier is that this sits in the aggressive Growth book he describes as further out on the risk curve with commercial inflection still ahead.",
+      "thesis": "It is a vertically integrated space logistics platform spanning launch, satellites and components with a fast-growing backlog, and the Iridium piece adds a recurring revenue base plus scarce L-band spectrum and millions of existing subscribers — a layer competitors in the direct-to-phone race do not have.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "speculative"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-09-05",
+      "sources": [
+        {
+          "post_id": "2096255406297452643",
+          "quote": "1. $RKLB building vertically integrated space logistics platform across launch, satellites and components"
+        },
+        {
+          "post_id": "2096258376573526376",
+          "quote": "I really believe the Iridium piece is what accelerates $RKLB to become a $100B company because it adds a recurring revenue base on top of a business thats already becoming more vertically integrated across launch and space systems."
+        },
+        {
+          "post_id": "2096629318403473454",
+          "quote": "$RKLB (Iridium) brings an established L band network, millions of subscribers and recurring revenue"
+        }
+      ]
+    },
+    {
+      "symbol": "ASTS",
+      "direction": "long",
+      "prospect": "He expects AST to reach commercial direct-to-smartphone service as its constellation fills out, and for carrier deals like Rakuten's Japan launch to turn into the first real commercial revenue, with the story potentially broadening into sovereign national constellations.",
+      "risk_reward": "He never addressed downside for this name; the implicit risk he acknowledges only at portfolio level is that Growth-book names depend on commercialization that is still ahead.",
+      "thesis": "AST is carrier-aligned rather than carrier-competitive, with 50+ operator partnerships including AT&T, Verizon and Vodafone, and it is the one company whose spectrum position works with phones people already own. Satellites are already in orbit on the way to the count needed for continuous service, and countries filing their own BlueBird-style architectures would turn AST into a platform rather than a single network.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "speculative"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-09-05",
+      "sources": [
+        {
+          "post_id": "2096255406297452643",
+          "quote": "2. $ASTS building a carrier aligned direct to smartphone network"
+        },
+        {
+          "post_id": "2096629318403473454",
+          "quote": "• $ASTS wins on phone compatibility today"
+        },
+        {
+          "post_id": "2096592510391074880",
+          "quote": "That starts to shift the story from AST to potentially becoming platform countries use to build sovereign satellite networks."
+        }
+      ]
+    },
+    {
+      "symbol": "SITM",
+      "direction": "long",
+      "prospect": "He expects SiTime to become the default precision-timing layer in AI networking as legacy quartz timing runs into its physical limits, with content attaching per optical module rather than per rack.",
+      "risk_reward": "He never addressed risk for this name; it is presented only as a ranked conviction holding.",
+      "thesis": "Faster AI networks need tighter timing than quartz can deliver, so SiTime's MEMS timing content scales with the number of optical modules deployed — a much larger unit of attachment than the rack — and its communications/enterprise line is already growing sharply.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation",
+        "disruptor"
+      ],
+      "conviction": 0.75,
+      "first_seen": "2026-09-05",
+      "sources": [
+        {
+          "post_id": "2096255406297452643",
+          "quote": "3. $SITM becoming precision timing layer for faster AI networks as quartz hits its limits"
+        }
+      ]
+    },
+    {
+      "symbol": "AEHR",
+      "direction": "long",
+      "prospect": "He expects Aehr to benefit as AI silicon gets more power dense and burn-in test becomes a requirement, with a growing installed base pulling recurring consumable revenue behind it.",
+      "risk_reward": "He never addressed risk for this name; it is presented only as the fifth-ranked conviction holding in his growth book.",
+      "thesis": "Burn-in infrastructure is a necessary step for increasingly power-dense AI chips, and Aehr's model layers recurring WaferPak consumables on top of a growing installed base of systems, so backlog today seeds annuity revenue later.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "speculative"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-05",
+      "sources": [
+        {
+          "post_id": "2096255406297452643",
+          "quote": "5. $AEHR providing burn in infrastructure needed for increasingly power dense AI silicon"
+        }
+      ]
+    },
+    {
+      "symbol": "NBIS",
+      "direction": "long",
+      "prospect": "He expects Nebius to compound as an owner of AI infrastructure itself, and holds it as a long-term position in his diversified Family book alongside, not instead of, his connectivity exposure.",
+      "risk_reward": "He never addressed downside directly; he frames it only as complementary exposure to Credo rather than a competing bet, so the risk is the same AI-capex cycle both depend on.",
+      "thesis": "He splits the AI infrastructure trade into two layers: the connectivity tollbooth inside the infrastructure and the infrastructure itself, and wants both. Nebius is his expression of the second, and his contract-value comparison puts its committed book among the larger ones in the neocloud group.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "speculative"
+      ],
+      "conviction": 0.75,
+      "first_seen": "2026-09-05",
+      "sources": [
+        {
+          "post_id": "2096257418682663033",
+          "quote": "I have high conviction in both since right now I own Nebius in my Family Portfolio and own Credo in my Growth Portfolio."
+        },
+        {
+          "post_id": "2096635121793425712",
+          "quote": "$NBIS ~$5.9B across $MSFT + $META"
+        }
+      ]
+    },
+    {
+      "symbol": "SNOW",
+      "direction": "long",
+      "prospect": "He expects Snowflake to be revalued as the governed data and context layer for agentic AI, with AI products pulling through additional storage and compute consumption underneath them.",
+      "risk_reward": "He never addressed downside for Snowflake; his framing is entirely about why the position gets stronger, with no bear case or level named.",
+      "thesis": "As models get cheaper and more interchangeable, value shifts away from the model and toward proprietary data and governed context. Agents cannot do anything useful without secure access to enterprise data, so the platform that decides how models reach the data captures the economics — and management already attributes roughly half the recent acceleration to new AI products and half to the consumption those products drive.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-03",
+      "sources": [
+        {
+          "post_id": "2095500209883427315",
+          "quote": "$SNOW is becoming the place where enterprise information lives and layer that decides how agents and models interact with it."
+        },
+        {
+          "post_id": "2095885854447469006",
+          "quote": "That makes Snowflake even more valuable as models get cheaper and more interchangeable because it can bring the best model to the data"
+        },
+        {
+          "post_id": "2095494855028068776",
+          "quote": "It really looks like $SNOW is going to be the place where information lives"
+        }
+      ]
+    },
+    {
+      "symbol": "MU",
+      "direction": "long",
+      "prospect": "He expects the memory cycle to run longer and tighter than the market is discounting, with Micron's HBM ramp closing the capacity gap versus its Korean competitors as it shifts toward HBM4 for Nvidia's next platform.",
+      "risk_reward": "He never laid out a downside case for Micron; he describes it as a trade he owns and argues one-sidedly for cycle duration.",
+      "thesis": "The largest AI chip buyer's supply commitments jumped enormously with memory procurement driving much of it, supply is still short of data-center demand with most new DRAM capacity not arriving for years, and DRAM scaling is becoming a physics problem forcing a 3D transition — all of which puts memory in a structurally valuable part of the compute stack rather than a normal cyclical one.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-08-29",
+      "sources": [
+        {
+          "post_id": "2093773074688791015",
+          "quote": "A lot of great points that highlight why I own a trade in $MU"
+        },
+        {
+          "post_id": "2094055892501307792",
+          "quote": "the world’s largest AI chip buyer is effectively signaling this memory cycle could have far more duration than the market still expects."
+        },
+        {
+          "post_id": "2096612159199539538",
+          "quote": "putting $MU and $SKHY in a super valuable part of the compute stack"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "long",
+      "prospect": "He expects Nvidia to keep expanding revenue per unit of energized capacity and to extend well beyond GPUs — into custom silicon partnerships, the desktop, physical AI and open-model distribution — rather than being capped by the power bottleneck.",
+      "risk_reward": "He never stated a downside; the one constraint he acknowledges, power availability, he explicitly argues around rather than treats as a risk.",
+      "thesis": "Even if power is the limiting input, each new architecture generation monetizes far more revenue per gigawatt, so a physical constraint does not cap the revenue curve. Beyond that, he thinks the market can't be modeled properly at all because intelligence itself is becoming a metered product, and that physical AI is a step-change larger than digital AI.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation",
+        "momentum"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-08-31",
+      "sources": [
+        {
+          "post_id": "2094421644521746860",
+          "quote": "That means even if power becomes the limiting factor, Rubin still lets Nvidia drive a ton more revenue through every GW that gets energized."
+        },
+        {
+          "post_id": "2094876882563146086",
+          "quote": "Physical AI is going to be the fuel that takes $NVDA to $10T"
+        },
+        {
+          "post_id": "2095132744015859865",
+          "quote": "Once intelligence itself becomes a metered product that can be generated and sold at scale then the size of the market becomes much harder to define which is why the AI opportunity still feels so early."
+        }
+      ]
+    },
+    {
+      "symbol": "AVGO",
+      "direction": "long",
+      "prospect": "He expects Broadcom's AI semiconductor ramp to keep compounding as multiple custom-silicon programs hit at once, and considers the market's muted reaction to that outlook a mistake.",
+      "risk_reward": "He does not frame a downside for Broadcom itself; the closest thing to a risk he acknowledges is that the announced customer pipeline may never be fully built, which he argues is not required for the revenue outcome.",
+      "thesis": "Broadcom sits inside Google's TPU, Meta's MTIA and the OpenAI and Anthropic programs simultaneously, so several ramps steepen the curve together. Because each gigawatt deployed by a frontier lab supports a large annual AI revenue draw, only a fraction of the announced pipeline needs to convert for the shipment target to hold — and the supply is already secured.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-09-03",
+      "sources": [
+        {
+          "post_id": "2095468200062534050",
+          "quote": "so Broadcom only needs a fraction of the pipeline to turn into real capacity."
+        },
+        {
+          "post_id": "2095486526826430626",
+          "quote": "Absolutely bonkers that $AVGO is red after laying out a path for AI revenue to double every year through FY28."
+        },
+        {
+          "post_id": "2095250199690248269",
+          "quote": "The reason the curve keeps steepening is Broadcom sits inside $GOOGL TPU, $META MTIA and OpenAI and Anthropic programs with multiple ramps hitting at the same time."
+        }
+      ]
+    },
+    {
+      "symbol": "IREN",
+      "direction": "long",
+      "prospect": "He expects IREN's unusually strong contract pricing per megawatt to eventually be paired with scale, since it currently carries one of the smallest contract books among the neoclouds — the most room to grow of the group.",
+      "risk_reward": "This is his most explicitly two-sided pick. He flags corporate governance as a real caveat, calls the capex guide without a matching ARR build the biggest miss on the earnings call, and acknowledges the name is polarizing. Against that he sets contract repricing that has roughly doubled per megawatt on shorter terms, with customers prepaying about half of GPU capex.",
+      "thesis": "AI capacity is repricing sharply as contract duration shortens, and IREN is capturing some of the best pricing per megawatt in the group while still having the smallest committed book — so scale layered onto that pricing is the upside. Customer prepayments covering roughly half of GPU capex, plus debt for most of the rest, is his answer to how the spend gets funded.",
+      "time_frame": "position",
+      "tags": [
+        "speculative",
+        "tech"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-08-31",
+      "sources": [
+        {
+          "post_id": "2094431119395766508",
+          "quote": "which I think was the biggest miss on the earnings call because we got the spend without the corresponding ARR build"
+        },
+        {
+          "post_id": "2096635121793425712",
+          "quote": "That gap between pricing and scale is what makes IREN so interesting since its already getting some of the best pricing per MW while carrying one of the smallest contract books leaving a lot more room to pair that pricing with scale even if corporate governance issues remain a real caveat."
+        },
+        {
+          "post_id": "2094767894613893394",
+          "quote": "people worry about overbuilding but we can’t build fast enough"
+        }
+      ]
+    },
+    {
+      "symbol": "TSLA",
+      "direction": "long",
+      "prospect": "He expects Cybercab to disrupt transportation much earlier than bulls' most aggressive pricing assumptions require, because the bar it has to clear is the all-in cost of owning a car, not the cheapest theoretical robotaxi fare.",
+      "risk_reward": "He never addressed downside; he notes the stock fell after the driverless launch but does not treat it as a challenge to the thesis, and offers no bear case.",
+      "thesis": "The relevant threshold for autonomy to change consumer behavior is the all-in cost of personal car ownership, and human-driven ride-hail in China already operates well below that — so Tesla has a wide margin before it needs the most aggressive long-run price points. Removing the steering wheel also converts the cabin into monetizable passenger time, which is why entertainment integrations become part of the product.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "disruptor",
+        "speculative"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-09-04",
+      "sources": [
+        {
+          "post_id": "2095913184901431465",
+          "quote": "which tells me Tesla can become disruptive well before Cybercab ever reaches the most aggressive long term pricing assumptions."
+        },
+        {
+          "post_id": "2096247712308191497",
+          "quote": "That fits directly with Cybercab where removing steering wheel turns the cabin into usable passenger time and makes entertainment part of the autonomy product itself."
+        }
+      ]
+    },
+    {
+      "symbol": "SPCX",
+      "direction": "long",
+      "prospect": "He holds SpaceX as a long-term compounding position in his diversified book and expects its AI data-center and launch buildouts to keep scaling, with spectrum ownership giving it a second route into direct-to-phone connectivity.",
+      "risk_reward": "He never addressed downside; he did note that management had to overhaul the data-center team after reliability issues and delays, but did not frame that as a reason to reduce exposure.",
+      "thesis": "SpaceX is simultaneously scaling launch infrastructure, solar and turbine manufacturing, and AI compute rentals, and he believes it is Credo's largest customer — meaning its capex is the engine behind several of his other positions. On the connectivity side he sees it building toward greater spectrum ownership as a distinct advantage in the satellite-to-phone race.",
+      "time_frame": "long_term",
+      "tags": [
+        "speculative",
+        "innovation"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-09-02",
+      "sources": [
+        {
+          "post_id": "2096276101039628316",
+          "quote": "I own $SPCX in my family portfolio"
+        },
+        {
+          "post_id": "2095190115090067707",
+          "quote": "$SPCX is $CRDO largest customer given how aggressively SpaceX is building out AI data centers"
+        },
+        {
+          "post_id": "2096629318403473454",
+          "quote": "$SPCX is building toward greater spectrum ownership"
+        }
+      ]
+    },
+    {
+      "symbol": "ZS",
+      "direction": "long",
+      "prospect": "Ahead of Zscaler's print he expected results to show Zero Trust expanding from human access into data, workloads and autonomous agents, which he said would change the growth debate on the stock quickly.",
+      "risk_reward": "He frames both sides: the bear case is that ZIA/ZPA are maturing and the multiple had gotten extreme even after a sharp fall, against upside if the newer data-security and AI segments grow enough to offset that maturation. The trigger was a dated event, so the downside was the print not delivering.",
+      "thesis": "Zscaler's franchise was built on securing human access, but AI multiplies the number of connections made by data workloads and autonomous agents across the enterprise, expanding the addressable problem. If Data Security Branch and the AI products get large enough to offset maturation in the legacy segments, the growth narrative resets — and he pointed to strong prints from CrowdStrike and Okta as the setup.",
+      "time_frame": "swing",
+      "tags": [
+        "catalyst-driven",
+        "tech"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-08-31",
+      "sources": [
+        {
+          "post_id": "2094415963395604543",
+          "quote": "The upside is that Data Security Branch and AI become large enough to offset ZIA/ZPA maturation."
+        },
+        {
+          "post_id": "2094414670753059307",
+          "quote": "Could $ZS be the next big earnings winner after $CRWD and $OKTA"
+        },
+        {
+          "post_id": "2094795811985281311",
+          "quote": "If that expansion starts showing up in earnings this week then I do think the growth debate changes really quickly."
+        }
+      ]
+    }
+  ]
+}

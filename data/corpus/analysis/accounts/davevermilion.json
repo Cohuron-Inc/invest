@@ -1,0 +1,427 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T21:58:21.678Z",
+  "account": "davevermilion",
+  "profile": {
+    "beat": "Sector-rotation and relative-strength (RS) technician who covers US equity sectors, credit spreads, rates, gold, energy and macro, and speaks to clients and appears on interviews and shows.",
+    "style": "Chart-first, and he describes himself as sector-oriented rather than driven by index levels. Most calls are one-line captions on RS or chart images (bear flags, bases) with heavy sarcasm; he rarely sizes positions but occasionally discloses one (FAZ, short for weeks). He often reminds readers of earlier calls he got right.",
+    "cadence": "High-volume: roughly 146 posts over the week, mostly short replies and quote-tweets, plus bursts of ticker-caption chart posts (a bank/insurance burst on 2026-09-22, a consumer/credit burst on 2026-09-24). Recurring posts on high-yield spreads, the MOVE index and 10-year yields.",
+    "revisits": "Yes. He returns to banks several times (2102406034954273112, 2102975512884973676, 2103135764989030780), revisits SCL on the inflation pass-through theme (2102791180702683635), revisits the MOVE level-85 call (2102217601032093798, 2103220139306914105), and repeats his earlier gold and Bitcoin calls (2102567103085588901, 2102597575882813804).",
+    "caveats": "Most posts are captions on chart images that are not in the corpus, so the evidence behind many calls cannot be seen. Several bearish calls (insurers, banks, auto dealers, travel) are posted after the move is already underway. The account often claims past calls were right, and those claims cannot be verified here. Heavy sarcasm makes some posts hard to read as a direction."
+  },
+  "narrative": "Over the week the author argues that breadth is badly deteriorating under a market held up by crowded tech, energy and healthcare. He says late-cycle money is crowding into the most liquid names and that 'generals last' signals a bigger decline. On 2026-09-22 he turns this into a bank call: he flags JPM for multiple compression, a GS bear flag and an MS top, and discloses a FAZ position and a short he has held for weeks. On 2026-09-23 hot flash PMIs push him to mock the disinflation camp. He leans into inflation beneficiaries with pricing power (chemicals SCL and CE), bullish flags in gold and silver miners, and bearish REITs on CRE markdowns and likely dividend cuts. On 2026-09-24 he widens the bearish view to consumer discretionary: travel, casinos, cruise lines, auto dealers, auto lending and FDX. He calls market-wide multiple compression and predicts a regional bank crisis, driven by corporate debt issuance competing with Treasuries and widening high-yield spreads. He ends the week tempering slightly. He says rising bond rates only slow the rise in equities, and he wants to see oversold sectors bounce.",
+  "picks": [
+    {
+      "symbol": "JPM",
+      "direction": "short",
+      "prospect": "Expects JPM's valuation multiple to compress as large banks roll over.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Sector relative-strength reading: financials are rolling over, high-yield spreads are widening, and the author sees stress building in bank balance sheets; he flags JPM specifically as the lead name for multiple compression.",
+      "time_frame": "swing",
+      "tags": [
+        "macro",
+        "momentum"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102406034954273112",
+          "quote": "$JPM Multiple Compression incoming. $XLF"
+        },
+        {
+          "post_id": "2102419940787605609",
+          "quote": "You do know that I am referring to JPM? I didn't say that about the market. Yet!"
+        },
+        {
+          "post_id": "2102975512884973676",
+          "quote": "I mentioned banks several times as a group. I was literally right on top of it. GS, JPM, MS, etc"
+        }
+      ]
+    },
+    {
+      "symbol": "GS",
+      "direction": "short",
+      "prospect": "Expects GS to break down from a bear flag along with the money-center banks.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Chart pattern (bear flag) plus the broader thesis that banks are the next group to crack as credit spreads widen and corporate debt issuance crowds the market.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "macro"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102406338739630409",
+          "quote": "$GS what is a bear flag for $100"
+        },
+        {
+          "post_id": "2103135764989030780",
+          "quote": "$GS, $MS, $USB do we a have banking crises coming? $KRE"
+        }
+      ]
+    },
+    {
+      "symbol": "MS",
+      "direction": "short",
+      "prospect": "Expects MS has topped and will decline with the bank group.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Chart top in MS as part of the author's call that financials are rolling over.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102409056665100409",
+          "quote": "Pot spelled backwards is top? $MS"
+        },
+        {
+          "post_id": "2102975512884973676",
+          "quote": "I mentioned banks several times as a group. I was literally right on top of it. GS, JPM, MS, etc"
+        }
+      ]
+    },
+    {
+      "symbol": "KRE",
+      "direction": "short",
+      "prospect": "Expects a regional bank crisis to develop.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Accelerating corporate debt issuance is competing with Treasuries for too few buyers, high-yield spreads are widening and CRE markdowns are mounting, which he thinks lands on regional banks; he notes regionals have oddly not reacted yet.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "catalyst-driven"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101400180855537818",
+          "quote": "I find it amazing we haven’t see regionals take a hit on some of these?"
+        },
+        {
+          "post_id": "2103135764989030780",
+          "quote": "do we a have banking crises coming? $KRE"
+        },
+        {
+          "post_id": "2103145823223832890",
+          "quote": "IMO I think we get a regional bank crisis. The amount of debt being issued by companies is accelerating and competing with treasuries. There is not enough buyers left."
+        },
+        {
+          "post_id": "2102973418115145834",
+          "quote": "Banks just melting. $BOH"
+        }
+      ]
+    },
+    {
+      "symbol": "FAZ",
+      "direction": "long",
+      "prospect": "Holds the leveraged inverse-financials ETF as a bet on the financial sector falling.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Expression of his bearish financials view; he says he took the position several weeks ago and has been short for weeks.",
+      "time_frame": "swing",
+      "tags": [
+        "macro",
+        "momentum"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102561497490612298",
+          "quote": "I took FAZ several weeks ago. Was told that was dumb?"
+        },
+        {
+          "post_id": "2102571841244258594",
+          "quote": "Been short for 3 weeks. I am fine."
+        }
+      ]
+    },
+    {
+      "symbol": "KIE",
+      "direction": "short",
+      "prospect": "Expects insurers to keep falling.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Insurance group relative strength is collapsing; he frames it as a reckoning for the group and extends it to AON.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum"
+      ],
+      "conviction": 0.45,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102416512145625316",
+          "quote": "$KIE Insurance being decimated. The chicken has come home to Roost."
+        },
+        {
+          "post_id": "2102974629992083961",
+          "quote": "$AON being in the risk management is only risky for your own equity."
+        }
+      ]
+    },
+    {
+      "symbol": "XLRE",
+      "direction": "short",
+      "prospect": "Expects REITs to keep underperforming, with dividend cuts ahead.",
+      "risk_reward": "He argues the dividend yield will not offset capital losses; that is his stated downside for holders, and he offers no upside case beyond buying distressed property through a new REIT.",
+      "thesis": "Commercial real estate markdowns and foreclosures mean existing REITs are cheap for a reason; relative performance has been weak for years and dividends are at risk.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "value"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102569850367361519",
+          "quote": "I really want to buy REITs they seem like they are so cheap. It is for a reason!!"
+        },
+        {
+          "post_id": "2102573688180666432",
+          "quote": "prepare for dividend cuts IMO."
+        },
+        {
+          "post_id": "2102796744799269004",
+          "quote": "I wonder why the XLRE relative performance looks like this?  5-year chart. You too can be a part of this self- liquidating asset and collect dividends that won't offset your capital losses."
+        }
+      ]
+    },
+    {
+      "symbol": "NEM",
+      "direction": "long",
+      "prospect": "Expects gold miners to break out of bullish flags higher.",
+      "risk_reward": "He says entry is key and warns it may not work day to day or week by week; he offers no stop or downside level.",
+      "thesis": "Bullish flags across precious-metals miners and silver names; gold is underowned relative to its history and benefits if sovereign debt concerns hit tech.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "momentum"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102562353741267092",
+          "quote": "I see nothing but Bullish flags on precious metals. Someone tell me I am nuts. NEM, AEM, EGO, etc I can't find one without it."
+        },
+        {
+          "post_id": "2102564127583383596",
+          "quote": "Honestly can't find a negative one."
+        },
+        {
+          "post_id": "2102564448527593648",
+          "quote": "This may not be up day to day week by week"
+        },
+        {
+          "post_id": "2102601365495423132",
+          "quote": "Meaning that it is underowned, not over owned."
+        }
+      ]
+    },
+    {
+      "symbol": "SCL",
+      "direction": "long",
+      "prospect": "Expects SCL to break out as chemical companies with pricing power benefit from inflation.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Chemicals are coming out of bases; in an inflationary backdrop (hot PMIs) he favors companies that can pass inflation on to customers.",
+      "time_frame": "swing",
+      "tags": [
+        "macro",
+        "momentum"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102403651889402229",
+          "quote": "Mentioned Chemicals on the #dailyfinance show. Here is the second one coming out. $SCL"
+        },
+        {
+          "post_id": "2102791180702683635",
+          "quote": "I remember when people bought companies when they had to pass on inflation to their customers. Yes, I am that old. Watch the others!!! $SCL"
+        }
+      ]
+    },
+    {
+      "symbol": "CE",
+      "direction": "long",
+      "prospect": "Expects CE to break out with the chemicals group.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "First chemical name breaking out after he highlighted the group on the show.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102401288625656078",
+          "quote": "Mentioned Chemicals on the #dailyfinance show. Here is the first one coming out. $CE"
+        }
+      ]
+    },
+    {
+      "symbol": "XLE",
+      "direction": "long",
+      "prospect": "Expects energy to remain a leading sector.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Energy is among the strongest relative-strength sectors, and the oil supply disruption tied to Iran and saturated refinery capacity persists; he has been bullish on energy since last year.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "momentum"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101125803320782850",
+          "quote": "And as a sector energy is the best performing sector. I was all over from July and August of last year."
+        },
+        {
+          "post_id": "2101643943733596337",
+          "quote": "In fact XLE is still outperforming every sector from the apocalypse covid low."
+        },
+        {
+          "post_id": "2101866413916828114",
+          "quote": "XLK,XLV, XLE the stronger RS areas for now"
+        }
+      ]
+    },
+    {
+      "symbol": "XLI",
+      "direction": "short",
+      "prospect": "Expects industrials to keep weakening; favors puts in weak-sector names.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Industrials fell from near 6-month relative-strength highs to near 5-year relative-strength lows; transports (FDX, rails) and autos are giving up.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "macro"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101378310475321709",
+          "quote": "Industrials 3 months ago were near 6 month RS highs. Now near 5 year lows."
+        },
+        {
+          "post_id": "2101866413916828114",
+          "quote": "Best to do puts in individual stocks in weaker sectors and groups than the overall S&amp;P at this point. Small and mid caps weaker, XLI, XLY, XLP, XLU, IYT the weaker areas"
+        },
+        {
+          "post_id": "2102102929284997272",
+          "quote": "FDX, and rails starting to give up."
+        }
+      ]
+    },
+    {
+      "symbol": "FDX",
+      "direction": "short",
+      "prospect": "Expects FDX to keep falling as the consumer weakens.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Transports are breaking down on weak consumer demand going into the holiday season.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum"
+      ],
+      "conviction": 0.45,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2102102929284997272",
+          "quote": "FDX, and rails starting to give up."
+        },
+        {
+          "post_id": "2103136991445721207",
+          "quote": "$FDX you can't afford to send a package for Xmas."
+        }
+      ]
+    },
+    {
+      "symbol": "XLY",
+      "direction": "short",
+      "prospect": "Expects consumer discretionary to keep falling as the consumer struggles.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "The consumer is struggling outside a K-shaped high end: travel, casinos, cruise lines, auto dealers, boats and RVs are melting, and he calls most of the economy a bear market.",
+      "time_frame": "swing",
+      "tags": [
+        "macro",
+        "momentum"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2101866413916828114",
+          "quote": "XLI, XLY, XLP, XLU, IYT the weaker areas"
+        },
+        {
+          "post_id": "2102971135021478224",
+          "quote": "Everyone is canceling their vacations? $BKNG, Casinos absolutely melting, Cruise lines battered."
+        },
+        {
+          "post_id": "2102971771075154159",
+          "quote": "Auto dealers absolutely disgusting."
+        },
+        {
+          "post_id": "2102972891830878657",
+          "quote": "I am going with 70% of the economy is in a bear market, the other 30% are all in the same names."
+        }
+      ]
+    },
+    {
+      "symbol": "RKLB",
+      "direction": "long",
+      "prospect": "Likes RKLB's setup.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Chart-based watchlist call; no further reasoning given.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "speculative"
+      ],
+      "conviction": 0.35,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102388150182056095",
+          "quote": "RKLB is good."
+        }
+      ]
+    },
+    {
+      "symbol": "TSCO",
+      "direction": "long",
+      "prospect": "Expects TSCO to hold its base after a pullback.",
+      "risk_reward": "He defines the exit as a stop a little below a base level, which is his stated risk; he gives no upside target.",
+      "thesis": "Pullback to a chart base as an entry.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum"
+      ],
+      "conviction": 0.35,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102569253668811008",
+          "quote": "TSCO Pulling back to the base. You know your exit, John. 3% below the 32.22 level."
+        }
+      ]
+    }
+  ]
+}

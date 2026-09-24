@@ -1,0 +1,337 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T21:58:21.671Z",
+  "account": "MarcosMillaYT",
+  "profile": {
+    "beat": "Retail-oriented growth investing content centered on AI semiconductors and memory (AMD, Sandisk, Micron, Marvell, Credo), plus growth/tech ETFs and spot-Bitcoin ETFs for long-horizon and Roth IRA investors.",
+    "style": "Hype-driven listicles and slogans ('BUY RIGHT NOW', 'GO ALL IN NOW') with no valuation work or position sizing beyond 'all in'. Frequently relays AI chatbot rankings (ChatGPT, Claude, Gemini, Perplexity), Wall Street analyst ratings, Seeking Alpha and Investing.com portfolios rather than original analysis. Pair-trade framing ('buy X OVER Y') is the most common way a relative view is expressed.",
+    "cadence": "Very high volume: bursts of dozens of one-liner and numbered-list posts within minutes, many quote-tweets of other accounts with short victory-lap comments ('I told you to buy...', 'Aging like wine'). Recurring series: 'If you don't want to get rich...', 'I'd rather go all in X over Y', AI-chatbot comparisons, and 'Best ETFs/Stocks' category lists.",
+    "revisits": "Constantly revisits calls, mostly as retrospective credit-claiming: AMD (2102044254621384731, 2102104787265405237, 2102147935970672828, 2102545629348323508), Sandisk (2101041616861712711, 2102545629348323508), Micron (2102545805139956012), IBIT (2102053181144605110, 2102150847769784542), and a roll-up list in 2102141977353724362. Marvell's upside framing was raised within a day (2102115235855499545 then 2102248404973928466). The Intel SELL call (2100809789337120911) appears to be walked back with '*** my b' (2100985349262753855).",
+    "caveats": "Promotional account: posts sponsor/affiliate content (Zenvesto in 2102144295667138933, 2102144438051185058; a TappAlpha ETF partnership in 2102543054406353245). Buy lists are so broad (a dozen-plus names and ETFs at once) that individual picks carry little discrimination, many 'calls' are relayed chatbot or analyst views, victory laps are selective, and statements contradict within days (Micron/Sandisk/AMD 'continue to buy' versus 'the upside is NOT' in them over the next 3-6 months). No risk management is ever discussed."
+  },
+  "narrative": "The window opens with a bullish AI-semis push: take profits in NVIDIA and rotate into higher-growth memory and networking names (Micron, Sandisk, Marvell, SK Hynix), with Marvell pitched as a multi-bagger and Sandisk preferred over Micron. Over 20-22 September the focus narrows onto AMD, which becomes the loudest call of the week, culminating in 'GO ALL IN NOW' and 'BUY AS MUCH AMD AS POSSIBLE WHEN IT PULLSBACK', alongside a string of 'I told you to buy' posts as semis and Bitcoin rallied. Bitcoin exposure via IBIT is pushed repeatedly as near-certain short-term upside, with Bitcoin income ETFs ISSB/ISBG as a side theme. Pair framings recur: SpaceX over Tesla, Nebius over CoreWeave, AMD over NVIDIA, Credo over Astera Labs, Robinhood over SoFi. On 24 September, after the Fed cut, he tells followers to 'Continue to Buy' the whole AI-semis and index basket, but the same day says the next 3-6 month upside is not in Micron, Sandisk or AMD unless bought earlier, and is instead in Bitcoin, a notable shift toward Bitcoin as the near-term vehicle while the long-term semis stance stays intact. He is dismissive of Strategy (MSTR) as the Bitcoin vehicle and of McDonald's.",
+  "picks": [
+    {
+      "symbol": "AMD",
+      "direction": "long",
+      "prospect": "AMD keeps rising toward the author's stated long-term price target (quoted); preferred over NVIDIA for upside.",
+      "risk_reward": "The author never addressed risk; on 24 September he conceded the near-term upside may be limited unless bought earlier.",
+      "thesis": "AI compute share gains, analyst Strong Buy ratings, CEO Lisa Su's insider purchase, and smaller market cap giving more upside than NVIDIA.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-09-20",
+      "sources": [
+        {
+          "post_id": "2101457350972625129",
+          "quote": "AMD $AMD is a better buy right now than .."
+        },
+        {
+          "post_id": "2102068007455653966",
+          "quote": "AMD $AMD is a $1,000 stock.. watch"
+        },
+        {
+          "post_id": "2102132726145175927",
+          "quote": "BUY AS MUCH AMD $AMD AS POSSIBLE WHEN IT PULLSBACK..."
+        },
+        {
+          "post_id": "2102133875577421943",
+          "quote": "This is my CEO... AMD $AMD \n\nGO ALL IN NOW..."
+        },
+        {
+          "post_id": "2103011019534872578",
+          "quote": "I'd rather go all in AMD $AMD over NVIDIA $NVDA"
+        }
+      ]
+    },
+    {
+      "symbol": "SNDK",
+      "direction": "long",
+      "prospect": "Sandisk continues higher toward the author's stated price target (quoted); preferred over Micron early in the week.",
+      "risk_reward": "The author never addressed risk beyond calling a down day bullish; he later said near-term upside is not in Sandisk.",
+      "thesis": "High-beta memory/storage cycle exposure to AI demand, analyst Strong Buy ratings, and Seeking Alpha Alpha Picks ownership.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100808370722844764",
+          "quote": "I mean...Sandisk $SNDK is a BETTER BUY RIGHT NOW than..."
+        },
+        {
+          "post_id": "2102134921439662388",
+          "quote": "I think that Sandisk $SNDK going down today is BULLISH..."
+        },
+        {
+          "post_id": "2103020102912512343",
+          "quote": "Sandisk $SNDK is a $3,000 stock …."
+        }
+      ]
+    },
+    {
+      "symbol": "MRVL",
+      "direction": "long",
+      "prospect": "Marvell becomes a multi-bagger over 5-10+ years; the author raised his upside framing during the week (see quotes).",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "AI networking, optics and custom silicon exposure, endorsement by NVIDIA's Jensen Huang, perceived underpricing and a possible short squeeze.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation",
+        "speculative"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100805849501577490",
+          "quote": "Reasons why Marvell is a Buy Right Now... $MRVL"
+        },
+        {
+          "post_id": "2101401796002664823",
+          "quote": "Buy Marvell $MRVL &amp; check back in 30 years…"
+        },
+        {
+          "post_id": "2102115235855499545",
+          "quote": "If you have a 5-10 Year Time Horizon...\n\nA 5x Stock is...\n\n1) Marvell $MRVL"
+        },
+        {
+          "post_id": "2102248404973928466",
+          "quote": "Never mind… Marvell $MRVL is a 10x stock"
+        }
+      ]
+    },
+    {
+      "symbol": "MU",
+      "direction": "long",
+      "prospect": "Micron keeps benefiting from AI memory demand; author tells followers to continue buying and prefers it over SK Hynix.",
+      "risk_reward": "Risk not addressed directly; the author himself said near-term 3-6 month upside is not in Micron unless bought on an earlier dip.",
+      "thesis": "HBM/DRAM leadership in AI memory, analyst Strong Buy ratings, relayed AI-chatbot rankings.",
+      "time_frame": "position",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100806289773461708",
+          "quote": "And buy these higher growth opportunities instead...\n\n1) Micron $MU"
+        },
+        {
+          "post_id": "2102545805139956012",
+          "quote": "I tried to tell you to buy Micron… $MU"
+        },
+        {
+          "post_id": "2102979374425456839",
+          "quote": "Continue to Buy Micron $MU"
+        },
+        {
+          "post_id": "2103011019534872578",
+          "quote": "I'd rather go all in Micron $MU over SK Hynix $SKHY"
+        }
+      ]
+    },
+    {
+      "symbol": "CRDO",
+      "direction": "long",
+      "prospect": "Credo is the high-upside AI networking name, including over a short time horizon; preferred over Astera Labs.",
+      "risk_reward": "The author noted he is not a fan of insider selling at Credo but otherwise never addressed downside.",
+      "thesis": "Exploding AI data-center connectivity demand, smaller market cap, Point72 and Seeking Alpha ownership.",
+      "time_frame": "swing",
+      "tags": [
+        "tech",
+        "speculative"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100814991372988849",
+          "quote": "Not the biggest fan of the Insiders Sells at Credo $CRDO ..."
+        },
+        {
+          "post_id": "2101351528581996620",
+          "quote": "I told you to buy Credo $CRDO …"
+        },
+        {
+          "post_id": "2103011019534872578",
+          "quote": "I'd rather go all in Credo $CRDO over Astera Labs $ALAB"
+        },
+        {
+          "post_id": "2102981807709007975",
+          "quote": "If you have a Short Time Horizon...\n\n1 High Upside Stock is... \n\n1) Credo $CRDO"
+        }
+      ]
+    },
+    {
+      "symbol": "IBIT",
+      "direction": "long",
+      "prospect": "Spot Bitcoin ETF rises over the next 3-12 months; by 24 September the author says this is where near-term upside is.",
+      "risk_reward": "The author never addressed risk; describes it as 'free money' and 'Practically Guaranteed'.",
+      "thesis": "Bitcoin upside while equities sit at all-time highs; author reports personally holding and profiting.",
+      "time_frame": "swing",
+      "tags": [
+        "macro",
+        "speculative",
+        "momentum"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100813622033444922",
+          "quote": "1 ETF that is Practically Guaranteed to Make you Money in the Next 6-12 Months that NO ONE IS TALKING ABOUT..."
+        },
+        {
+          "post_id": "2101503511959933021",
+          "quote": "Buying $IBIT right now is free money in the Next 3-6 months..."
+        },
+        {
+          "post_id": "2102150847769784542",
+          "quote": "I was telling you to SMASH BUY $IBIT"
+        },
+        {
+          "post_id": "2102983197801976099",
+          "quote": "Right now the Upside is in Bitcoin $BTC"
+        }
+      ]
+    },
+    {
+      "symbol": "META",
+      "direction": "long",
+      "prospect": "Meta keeps rising toward the author's stated price target (quoted) despite analysts calling it possibly overvalued; preferred over Reddit.",
+      "risk_reward": "Acknowledges analysts see it as possibly overvalued; otherwise risk not addressed.",
+      "thesis": "Author's belief in Meta's long-term value; no fundamental reasoning given.",
+      "time_frame": "position",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2102104837957783798",
+          "quote": "Buy $META"
+        },
+        {
+          "post_id": "2102134633257398611",
+          "quote": "However, I think it's a $1,000 stock"
+        },
+        {
+          "post_id": "2103011019534872578",
+          "quote": "I'd rather go all in Meta $META over Reddit $RDDT"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "neutral",
+      "prospect": "NVIDIA remains a buy for steady gains but is repeatedly framed as inferior upside to AMD and smaller-cap names.",
+      "risk_reward": "Author says expectations are already massive and the market cap limits upside; no downside scenario discussed.",
+      "thesis": "Best business but too large to 'make you rich'; take profits and rotate into higher-growth names, while still 'continue to buy'.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.3,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100806289773461708",
+          "quote": "It could be a good time to take profits on NVIDIA $NVDA ..."
+        },
+        {
+          "post_id": "2101503800116912346",
+          "quote": "1 Stock that WON'T MAKE YOU RICH...\n\n1) NVIDIA $NVDA"
+        },
+        {
+          "post_id": "2102979374425456839",
+          "quote": "Continue to Buy NVIDIA $NVDA"
+        }
+      ]
+    },
+    {
+      "symbol": "SPCX",
+      "direction": "long",
+      "prospect": "SpaceX outperforms Tesla; listed among the author's highest-potential stocks.",
+      "risk_reward": "Author flagged a large director insider sale and the risk of share-unlock selling pressure.",
+      "thesis": "Space economy exposure; preferred over Tesla, partly echoing AI-chatbot comparisons.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "speculative"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100815921682203102",
+          "quote": "Is this the first of many billion dollar share unlocks that create selling pressure?"
+        },
+        {
+          "post_id": "2102114670689878487",
+          "quote": "5 Stocks with 5x Potential...\n\n1) AMD $AMD \n2) SpaceX $SPCX"
+        },
+        {
+          "post_id": "2103011019534872578",
+          "quote": "I'd rather go all in SpaceX $SPCX over Tesla $TSLA"
+        }
+      ]
+    },
+    {
+      "symbol": "HOOD",
+      "direction": "long",
+      "prospect": "Robinhood multiplies in value over the next 3-5 years; preferred over SoFi.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Called underrated; no further reasoning given.",
+      "time_frame": "long_term",
+      "tags": [
+        "disruptor"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-09-20",
+      "sources": [
+        {
+          "post_id": "2101402208684364023",
+          "quote": "4) Robinhood $HOOD"
+        },
+        {
+          "post_id": "2103012450065093029",
+          "quote": "1 Underrated Stock that is Easily a 2-3x in the Next 3-5 Years...\n\n1) Robinhood $HOOD"
+        }
+      ]
+    },
+    {
+      "symbol": "MSTR",
+      "direction": "short",
+      "prospect": "Strategy is not where the Bitcoin upside is; author prefers direct Bitcoin exposure.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Bitcoin upside is better captured through Bitcoin itself than through Strategy.",
+      "time_frame": "swing",
+      "tags": [
+        "speculative"
+      ],
+      "conviction": 0.3,
+      "first_seen": "2026-09-24",
+      "sources": [
+        {
+          "post_id": "2102983290798166278",
+          "quote": "Definately NOT in Strategy $MSTR"
+        }
+      ]
+    }
+  ]
+}

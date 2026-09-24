@@ -1,6 +1,6 @@
 ---
 name: corpus-probe
-description: Produce a Corpus Probe - a mandate-driven portfolio read across the account analyses in data/analysis/accounts and the raw post bundles, tiered into Core / Watch / Satellite and published as an artifact. Use when asked to "probe the corpus", "what should my book take from these accounts", or to rerun the September Corpus Probe for a new window or mandate.
+description: Produce a Corpus Probe - a mandate-driven portfolio read across the account analyses in data/corpus/analysis/accounts and the raw post bundles, tiered into Core / Watch / Satellite and published as an artifact. Use when asked to "probe the corpus", "what should my book take from these accounts", or to rerun the September Corpus Probe for a new window or mandate.
 argument-hint: "[mandate, e.g. 'high return, medium-to-low risk, 1 to 3 years'] [--accounts handle,handle] [--window-end YYYY-MM-DD]"
 ---
 
@@ -32,12 +32,15 @@ future probe must be structurally identical to it so two probes can be read side
 | Input | Where | If missing |
 |---|---|---|
 | Mandate | first argument; default `high return, medium-to-low risk, 1 to 3 years` | use the default and say so in the meta strip |
-| Account analyses | `data/analysis/accounts/<handle>.json` (profile, narrative, picks with cited post_ids) | run `/fetch` for the window; it ends with these files |
-| Raw post bundles | `data/_session/<handle>.posts.jsonl` (retweets excluded, oldest first) | `pnpm task:session-dump --from <window_start> --to <window_end>`; the directory is gitignored |
+| Account analyses | `data/corpus/analysis/accounts/<handle>.json` (profile, narrative, picks with cited post_ids) | run `/fetch` for the window; it ends with these files |
+| Raw post bundles | `data/corpus/_session/<handle>.posts.jsonl` (retweets excluded, oldest first) | `pnpm task:session-dump --from <window_start> --to <window_end>`; the directory is gitignored |
 | Cross-account tables | `pnpm q account-convergence`, `pnpm q account-repertoire`, `pnpm q account-tag-mix` | they read `picks_v`; rerun ingest first |
-| Window | `window_start` / `window_end` from any analysis JSON, stamped by ingest from `data/_session/WINDOW.json` | never guess dates |
+| Window | `window_start` / `window_end` from any analysis JSON, stamped by ingest from `data/corpus/_session/WINDOW.json` | never guess dates |
 | Coverage gaps | `pnpm q corpus-coverage`: first and last day per account against the window | state each gap in the trust section and the warn callout |
-| Price layer | `prices_v` | usually empty; then the probe quotes **no returns** and says so |
+| Market regime | the newest `data/research/<DATE>/macro/regime.json` (with its `narrative.json`) and `data/research/<DATE>/outlook/outlook.json` | run `/macro-regime`, or `/market-outlook` for the theme stances; check with `python3 .claude/tools/state.py --intent outlook` |
+| Theme direction and crowding | `data/research/<DATE>/themes/themes.json`, `data/research/<DATE>/sentiment/x-sentiment.json` | optional; run `/theme-pulse` and `/x-sentiment` |
+| Price layer | `prices_v` | usually empty; then the probe quotes **no returns** from the corpus and says so. Current prices for context come from `data/market/<DATE>/yahoo/`, cited as such |
+| Build workspace | `data/probes/runs/<DATE>/` for any script, bundle copy or intermediate table | create it; never write working files anywhere else |
 
 `--accounts` restricts the probe to a subset. `--window-end` is only for labelling when the
 analyses were built for an earlier window than today.
@@ -67,10 +70,10 @@ report.
 Cheap pre-filter the subagent should use before reading linearly:
 
 ```bash
-grep -inE 'vs\.? (est|exp|cons)|consensus|beat|missed|guid' data/_session/<handle>.posts.jsonl
-grep -inE 'upgrade|downgrade|initiat|price target|\bPT\b|overweight' data/_session/<handle>.posts.jsonl
-grep -inE 'insider|form 4|bought|purchase|10% owner' data/_session/<handle>.posts.jsonl
-grep -inE 'fed|fomc|ten-year|10y|oil|payroll|CPI|spread' data/_session/<handle>.posts.jsonl
+grep -inE 'vs\.? (est|exp|cons)|consensus|beat|missed|guid' data/corpus/_session/<handle>.posts.jsonl
+grep -inE 'upgrade|downgrade|initiat|price target|\bPT\b|overweight' data/corpus/_session/<handle>.posts.jsonl
+grep -inE 'insider|form 4|bought|purchase|10% owner' data/corpus/_session/<handle>.posts.jsonl
+grep -inE 'fed|fomc|ten-year|10y|oil|payroll|CPI|spread' data/corpus/_session/<handle>.posts.jsonl
 ```
 
 ### 3. Probe every candidate on five axes
@@ -87,9 +90,17 @@ insider cluster or an earnings scorecard, answer all five. A blank axis is writt
 
 ### 4. Tier against the mandate
 
-Derive one **regime rule** from the macro accounts first (the September rule was: with
-30-year single-A paper at 6.02%, equity needs a real free-cash-flow yield or a demonstrated
-earnings inflection). Apply it before conviction.
+Derive one **regime rule** first, from two sources:
+1. **The measured regime**, from `/macro-regime`: its call, duration regime, flags and
+   risk budget (gross exposure, long-duration cap), and the archetype fits.
+2. **The macro accounts' own view** from the corpus.
+
+The September rule was: with 30-year single-A paper at 6.02%, equity needs a real
+free-cash-flow yield or a demonstrated earnings inflection. When the two sources disagree,
+say so in the regime section and apply the stricter one. Apply the rule before conviction:
+- a name whose archetype fit is a headwind (fit -0.5 or lower) cannot be Core unless it has
+  a print that clears the rule;
+- in a hostile duration regime, long-duration names cap at Satellite.
 
 | Tier | Test | Instruction to the reader |
 |---|---|---|
@@ -102,7 +113,7 @@ account picked can be Core if the deep read found the print and the insider buy 
 
 ### 5. Write, then publish
 
-The reference output is saved at `data/analysis/probes/2026-09-06-probe.html`; read it once before writing so the register matches. Copy `template.html` to `data/analysis/probes/<window_end>-probe.html`, fill every
+The reference output is saved at `data/probes/corpus/2026-09-06-probe.html`; read it once before writing so the register matches. Copy `template.html` to `data/probes/corpus/<window_end>-probe.html`, fill every
 section in the fixed order below, and publish it with the Artifact tool. Title is
 `<Month> Corpus Probe` using the month of `window_end`. Favicon is 🔍 on first publish;
 omit it when republishing the same file. Set `description` to one sentence naming the
@@ -138,10 +149,14 @@ The corpus probe tiers names on what the accounts said. To rank those names by t
 of further gain from today's price, on twelve signals from earnings and competition through
 insider and institutional flow, retail crowding, chart, macro fit and narrative harmony, run
 `/runway-probe` next. It reads this probe's tier cards as its input and writes to
-`analysis_output/<window_end>-runway-probe.html`.
+`data/probes/runway/<window_end>/probe.html`.
 
 ## Done when
 
 - every candidate from step 1 appears in exactly one of Core, Watch, Satellite, Contested, or is named as a Pass
 - every number in the report traces to an evidence note with a post_id
-- the file exists under `data/analysis/probes/` and the artifact URL is in the final message
+- the file exists under `data/probes/corpus/` and the artifact URL is in the final message
+
+## Report contract
+
+When invoked through CLAUDE.md's "How to answer" protocol, this skill fills these parts of the standard report. Intent `corpus`: the Corpus Probe page is the report. Reply with the report header (As of, Regime from the latest `/market-outlook`), the tier counts, the regime rule and the link.

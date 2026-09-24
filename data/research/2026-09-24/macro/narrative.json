@@ -1,0 +1,96 @@
+{
+  "as_of": "2026-09-24",
+  "judgment": {
+    "regime_call": "Lean risk-off: a strong tape on a hostile discount rate",
+    "agrees_with_composite": true,
+    "override_reason": "",
+    "confidence": "medium",
+    "horizon": "3-6 months",
+    "summary": "The economy is hot and the Fed is hiking into it. The 16 September hike to 3.75-4.00% was the first since 2023; the dots add one more, and the 2y at 4.85% (+61bp in a month, R_FED_PATH +97bp over fed funds) prices a cycle. The discount rate has broken out: 10y 5.11% (99.7th percentile of 20 years, +41bp in a month), 30y 5.40%, real 10y 2.76%, term premium up 21bp in three months, MOVE jumping to about 105. Stocks and bonds are falling together (60-day correlation +0.48), so Treasuries are not a hedge. The risk premium has not moved: HY OAS 273bp, VIX 15.7 in contango, NFCI loose, and the S&P 500 is 1% from its high. Earnings are carrying the index (Q3 EPS growth about +29%, GDPNow 5.1%, flash PMI 58.4), but the leadership is narrow: RSP -4.8pp and IWM -9.8pp against SPY over three months, and 5 of 11 sectors below their 200d. The cracks sit where rates bite first: housing (mortgage 7.03%, ITB -18pp in three months, NAHB 32), the CCC tail (the CCC-HY gap is at its 5-year high, +132bp in three months) and private credit (a record 6.3% default rate per Fitch). An oil shock (WTI +32% in three months, Brent about $107 on the Houthi strike on Yanbu) removes the Fed's room to look through inflation. This is the 1994 and 2018-Q4 setup, a Fed tightening into strength while the long end reprices. The index can hold up while earnings outrun rates, but the equity risk premium is about 1.7% over real yields and negative over nominal ones. Returns from here depend on earnings beating, not on the multiple, and the downside if the long end keeps going is a multiple compression like Q4 2018 (-20%).",
+    "drivers": [
+      {"signal": "R_10Y_1M", "why": "+41bp in a month to 5.11%, the fastest since the 2023 term-premium spike; speed, not level, is what de-rates multiples"},
+      {"signal": "R_FED_PATH", "why": "the 2y is 97bp over fed funds: a hiking cycle is priced, and FedWatch puts the 28 October meeting near 54% for another hike"},
+      {"signal": "R_STOCK_BOND_CORR", "why": "+0.48: an inflation and discount-rate regime; Treasuries do not diversify equity risk"},
+      {"signal": "R_MOVE", "why": "MOVE up 33 in a month to about 105 while the VIX sits near 16; bond vol is pricing a risk equity vol is not (ratio about 6.7)"},
+      {"signal": "C_CCC_GAP", "why": "the weakest borrowers are widening while the index spread is calm, the same pattern as in 2007 and 2015"},
+      {"signal": "I_OIL", "why": "WTI +32% in three months with headline CPI 3.4%; this is why the Fed hiked through a 2.4% core print"},
+      {"signal": "E_BREADTH_RSP", "why": "cap-weight beating equal-weight by 4.8pp: a narrow market leaning on mega caps and software"},
+      {"signal": "H_ITB_REL", "why": "builders -18pp against SPY in three months: the most rate-sensitive sector is already pricing the damage"}
+    ],
+    "historical_frame": [
+      {"era": "1994 bond massacre", "similar": "a Fed hiking into accelerating growth, a long-end rout, MOVE and MBS convexity, housing hit first", "different": "starts from a 5% 10-year, not 5.2% rising to 8%; the equity multiple is 22x forward, not about 15x"},
+      {"era": "2018 Q4", "similar": "the 10y at a multi-year high, a hawkish chair ('hard pressed to call policy restrictive'), balance-sheet runoff, tight credit, a narrow market", "different": "earnings growth is far stronger today (about +29% against +20% then), and there is an oil shock on top"},
+      {"era": "2005-06 (analog 2005-11, nearest distance 0.6)", "similar": "measured hikes, oil rising, housing rolling over while the index grinds higher", "different": "the long end is not in 'conundrum' mode; the term premium is rising rather than suppressed"},
+      {"era": "2023 August-October term-premium spike", "similar": "supply- and fiscal-driven long-end selloff with the 10y near 5%", "different": "the Fed is hiking, not pausing; the analog's release valve was the 1 November refunding, and the equivalent date now is 4 November 2026"}
+    ],
+    "positioning": [
+      "Risk budget: 60% gross (mandate medium-low risk, Lean risk-off). Keep the rest in T-bills yielding about 3.9%, not long Treasuries, because the stock-bond correlation is positive",
+      "Cap long-duration growth at 15% of the book. Pre-profit space, quantum, nuclear and neocloud baskets are already lagging with breadth below 45%; do not average down before the 10y turns",
+      "Own earnings momentum with free cash flow: Mag 7 (accelerating, led by META), cybersecurity (accelerating, 100% breadth) and cloud leaders. Trail stops, because a +40pp run in three months into a 5% 10y is fragile",
+      "Energy as the oil-shock hedge (fit +0.9). Hold it while the Hormuz disruption is live; cut it on a ceasefire road map that reopens the strait",
+      "Semis and memory are improving over one month after a 3-month drawdown, and the allowlist is heating on MU, NVDA and SNDK. Add on confirmation at Micron's 30 September print, not ahead of it",
+      "Avoid homebuilders and housing-linked names, regional banks and levered small caps until the mortgage spread and MOVE fall together",
+      "Equity vol is cheap against bond vol (VIX about 16, MOVE about 105). Index put spreads are a better hedge than duration"
+    ],
+    "archetype_overrides": [
+      {"archetype": "banks", "fit_adjustment": -1, "reason": "bear flattening plus AFS losses on a long-end selloff, and KRE -8.9pp in three months; the mechanical +0.1 understates it"},
+      {"archetype": "energy", "fit_adjustment": 0, "reason": "the fit already reflects the oil shock; its sign flips on a ceasefire"}
+    ],
+    "erp": {"forward_pe": 22.2, "earnings_yield_pct": 4.5, "real_10y_pct": 2.76, "erp_pct": 1.74, "nominal_gap_pct": -0.61, "source": "FactSet 2026-09-11 forward P/E via news.json growth_labour; DFII10 and DGS10 from regime.json"},
+    "what_changes_my_mind": [
+      "Upgrade to Neutral or Lean risk-on: the 10y back below 4.75% with the MOVE under 90. Watch the 7-8 October 10y/30y auctions and the 4 November refunding statement. Then add duration: builders, long-duration growth, small caps",
+      "Downgrade to Risk-off and cut gross to 40%: HY OAS +75bp in a month (CREDIT_BREAK), VIX above VIX3M, or USD/JPY down 5% in a month (carry unwind as the BoJ hikes; next BoJ 29-30 October)",
+      "Further hawkish repricing: 14 October CPI with core at +0.4% m/m or more, plus a hike on 28 October. Cut the long-duration cap to 10%",
+      "Oil relief: Iran accepts the 60-day ceasefire road map and Hormuz reopens. Exit the energy overweight; the inflation pillar improves and the curve bull-flattens",
+      "Growth scare: 2 October payrolls negative and claims above 240k. Rotate toward defensives and duration; the bull steepener becomes the recession tell"
+    ]
+  },
+  "fed": {
+    "target": "3.75-4.00% after a 25bp hike on 2026-09-16, 12-0; the first hike since July 2023 and the first under Chair Warsh",
+    "last_decision": "SEP median 4.1% for end-2026 and end-2027 (raised 30bp and 50bp from June); longer run 3.2%",
+    "priced_path": "CME FedWatch about 54% for a hike on 28 October; about 89% for at least one more by 9 December; implied year-end rate about 4.20%",
+    "sources": ["https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm", "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm", "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf"]
+  },
+  "themes": [
+    {"theme": "Long-end bond rout / higher for longer", "direction": "accelerating", "counter": "strong 10y and 30y auctions on 9-10 September, Treasury buybacks, GSE MBS buying; Lord Abbett sees yields near the top of the range", "evidence": "10y 5.11% (highest since 2007), 30y about 5.45% intraday (highest since 2004); weak 20y auction on 15 September with record-low indirects", "source": "news.json rates_long_end"},
+    {"theme": "Fed re-tightening under Warsh", "direction": "accelerating", "counter": "core CPI only 2.4% y/y; Goolsbee sees one hike as enough if the shock is supply; Trump pressure on the Fed", "evidence": "hike on 16 September, dots up, Musalem calls 3.75-4% 'accommodative'", "source": "news.json fed"},
+    {"theme": "Iran war / Hormuz oil shock", "direction": "stable", "counter": "Iran's 60-day ceasefire road map; Saudi exports via Yanbu", "evidence": "Brent about $107 after strikes on Yanbu on 24 September; SPR at its lowest since 1982", "source": "news.json inflation_oil"},
+    {"theme": "AI capex boom vs competition for capital", "direction": "accelerating", "counter": "capex outrunning cash flow; hyperscaler IG issuance adds to duration supply; Oracle at BBB-", "evidence": "NVDA Q2 FY27 revenue $96.2bn (+106%); Q3 S&P EPS estimate +28.9%", "source": "news.json growth_labour"},
+    {"theme": "Housing re-freeze at 7% mortgages", "direction": "accelerating", "counter": "builder buydowns lifted August new-home sales 6.4%; GSE MBS purchases could narrow the spread", "evidence": "PMMS 7.03%, NAHB 32, Lennar cut deliveries", "source": "news.json housing_mbs"},
+    {"theme": "Global tightening and yen carry", "direction": "accelerating", "counter": "two BoJ dissents; Japan CPI 1.9%", "evidence": "BoJ hiked to 1.25% on 24 September; JGB 10y at a 30-year high", "source": "news.json rates_long_end"}
+  ],
+  "events": [
+    {"date": "2026-09-30", "event": "August PCE; Micron FQ4 earnings", "why_it_matters": "core PCE path for the October hike; the memory cycle and AI-demand read for semis"},
+    {"date": "2026-10-02", "event": "September payrolls", "why_it_matters": "a second hot print cements an October hike; a miss starts the growth-scare branch"},
+    {"date": "2026-10-04", "event": "OPEC+ meeting", "why_it_matters": "supply response to $100 Brent"},
+    {"date": "2026-10-07", "event": "10-year auction (30-year on 10-08)", "why_it_matters": "demand at 5%+ yields; a tail is the long-end tantrum signal"},
+    {"date": "2026-10-13", "event": "Bank earnings begin (JPM)", "why_it_matters": "AFS losses, deposit costs, credit provisions after the long-end rout"},
+    {"date": "2026-10-14", "event": "September CPI", "why_it_matters": "the energy pass-through; core above 0.3% m/m means more hikes"},
+    {"date": "2026-10-28", "event": "FOMC decision", "why_it_matters": "about 54% priced for a hike; no SEP"},
+    {"date": "2026-10-30", "event": "BoJ decision", "why_it_matters": "yen carry unwind risk"},
+    {"date": "2026-11-03", "event": "US midterms", "why_it_matters": "about 87% odds of a Democratic House: fiscal path and tariffs"},
+    {"date": "2026-11-04", "event": "Treasury quarterly refunding", "why_it_matters": "the 2023 term-premium spike ended on a refunding statement; coupon sizes decide the long end"},
+    {"date": "2026-11-25", "event": "NVIDIA Q3 FY27 (date from a search snippet)", "why_it_matters": "the AI-capex earnings engine carrying the index"},
+    {"date": "2026-12-09", "event": "FOMC with SEP", "why_it_matters": "whether the hiking path extends into 2027"},
+    {"date": "2026-12-11", "event": "Government funding deadline", "why_it_matters": "shutdown risk after the midterms"}
+  ],
+  "risks": [
+    {"risk": "Long-end tantrum extends (30y above 5.75%)", "probability": "medium", "impact": "multiple compression of 10-20%, led by long-duration growth; housing and banks crack", "tell": "auction tails, MOVE above 120, mortgage spread widening"},
+    {"risk": "Credit break from the weak tail (private credit, CCC)", "probability": "low-medium", "impact": "HY OAS to 450bp+, small caps and financials -20%", "tell": "HY OAS +75bp in a month; BDC and alternative-manager stocks breaking down"},
+    {"risk": "Oil spike above $120 (Hormuz closure)", "probability": "low-medium", "impact": "stagflation quadrant; Fed forced to keep hiking", "tell": "Brent above $115, tanker transits collapsing"},
+    {"risk": "Yen carry unwind", "probability": "low", "impact": "fast de-grossing of crowded momentum (semis, AI)", "tell": "USD/JPY -5% in a month around the 30 October BoJ"},
+    {"risk": "Upside: disinflation plus a ceasefire", "probability": "medium", "impact": "bull flattening; broadening rally into small caps, housing and long-duration growth", "tell": "oil below $80, core CPI at 0.2% m/m, 10y below 4.75%"}
+  ],
+  "outlooks": [
+    {"house": "Bank of America", "view": "S&P 7,400 at year-end (Street low); 10y 5.0% at year-end; overdue for a pullback", "source": "https://www.fa-mag.com/news/bofa-lifts-s-p-500-year-end-target-to-7-400-but-still-among-lowest-on-street-88466.html"},
+    {"house": "Morgan Stanley", "view": "8,000 at year-end with a retest near 7,000 in the base case; rotate to quality, away from semis and AI hardware", "source": "https://parameter.io/mike-wilson-maintains-sp-500-target-of-8000-despite-projecting-near-term-drop-to-7000/"},
+    {"house": "JPMorgan", "view": "8,000; multiple capped near 20x by rates, geopolitics and issuance", "source": "https://www.thestreet.com/investing/jpmorgan-resets-sp-500-price-target-for-the-rest-of-2026-stock-market"},
+    {"house": "Goldman Sachs AM", "view": "overweight equities on earnings; neutral duration; TIPS as the inflation hedge; AI infrastructure and power", "source": "https://am.gs.com/en-us/advisors/insights/article/market-pulse"}
+  ],
+  "reconciliation": [
+    {"item": "MOVE", "data": "104.6 (Yahoo ^MOVE, intraday 2026-09-24; 95.4 close on 09-23)", "news": "80.6 (mid-September search snippet)", "used": "data"},
+    {"item": "USD/JPY", "data": "158.8 (Yahoo, 2026-09-24)", "news": "154.4 (FXStreet, 2026-09-08)", "used": "data; the news level predates the Fed hike"},
+    {"item": "10-year", "data": "5.11% (FRED DGS10, 2026-09-23 close)", "news": "5.21% (TradingEconomics live, 2026-09-24)", "used": "data for scoring; the live print is higher still"},
+    {"item": "Mortgage spread", "data": "192bp (PMMS 7.03% minus DGS10)", "news": "219bp (daily conforming 7.12%)", "used": "data; the two measure different rates, and both are wider than the pre-2022 norm of about 170bp"}
+  ]
+}

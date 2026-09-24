@@ -1,0 +1,34 @@
+[
+  {
+    "symbol": "ZETA",
+    "accounts": 2,
+    "posts": 87,
+    "days": 40,
+    "first_day": "2026-07-07",
+    "last_day": "2026-09-15",
+    "posts_last_14d": 3,
+    "likes": 29901,
+    "impressions": 5172725,
+    "likes_per_post": 344,
+    "replies": 1777,
+    "bookmarks": 5641,
+    "formal_picks": 2,
+    "stances": "TheLongInvest:long:0.92 stocktalkweekly:short:0.4"
+  },
+  {
+    "symbol": "ABCL",
+    "accounts": 3,
+    "posts": 3,
+    "days": 3,
+    "first_day": "2026-08-10",
+    "last_day": "2026-08-30",
+    "posts_last_14d": 0,
+    "likes": 610,
+    "impressions": 111743,
+    "likes_per_post": 203,
+    "replies": 47,
+    "bookmarks": 573,
+    "formal_picks": 0,
+    "stances": null
+  }
+]

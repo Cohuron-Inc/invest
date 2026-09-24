@@ -1,0 +1,148 @@
+{
+ "schema": "ticker-context/1",
+ "ticker": "NVDA",
+ "as_of": "2026-09-24",
+ "inputs": {
+  "themes": "2026-09-24",
+  "outlook": "2026-09-24",
+  "regime": "2026-09-24",
+  "x_sentiment": "2026-09-24",
+  "corpus_last_day": "2026-09-25",
+  "corpus_stale_days": -1
+ },
+ "regime": {
+  "call": "Lean risk-off: a strong tape on a hostile discount rate",
+  "gross_exposure_pct": 60,
+  "long_duration_cap_pct": 15
+ },
+ "archetype": "quality_megacap",
+ "macro_fit": {
+  "fit": 0.18,
+  "stance": "neutral",
+  "runway_macro_fit_pts": 4,
+  "headwinds": [
+   "R_10Y_1M",
+   "R_REAL10"
+  ],
+  "tailwinds": [
+   "E_TREND",
+   "G_GDPNOW",
+   "V_VIX"
+  ]
+ },
+ "themes": [
+  {
+   "id": "mag7",
+   "name": "Magnificent 7",
+   "archetype": "quality_megacap",
+   "direction": "accelerating",
+   "rel_spy_3m": 14.9,
+   "trend": "uptrend",
+   "breadth_50d": 71.0,
+   "stance": "Accumulate",
+   "stance_score": 0.96,
+   "flags": []
+  },
+  {
+   "id": "semis",
+   "name": "Semiconductors",
+   "archetype": "quality_megacap",
+   "direction": "improving",
+   "rel_spy_3m": -11.3,
+   "trend": "uptrend",
+   "breadth_50d": 71.0,
+   "stance": "Neutral",
+   "stance_score": 0.06,
+   "flags": [
+    "quiet improvement: price turning before the crowd"
+   ]
+  }
+ ],
+ "price": {
+  "close": 224.58,
+  "as_of": "2026-09-24",
+  "ret_1m": 5.5,
+  "ret_3m": 14.9,
+  "ret_12m": 26.2,
+  "above_50d": true,
+  "above_200d": true,
+  "dd_52w_pct": -4.5,
+  "source": "https://finance.yahoo.com/quote/NVDA"
+ },
+ "sentiment": {
+  "symbol": "NVDA",
+  "posts_recent": 62,
+  "posts_prior": 178,
+  "accounts_recent": 5,
+  "accounts_total": 9,
+  "likes_recent": 26520,
+  "velocity": 1.39,
+  "velocity_rel": 0.97,
+  "tone_recent": 0.27,
+  "tone_window": 0.13,
+  "bull_share_recent": 0.31,
+  "bear_share_recent": 0.03,
+  "tone_source": "lexicon",
+  "evidence": [
+   {
+    "post_id": "2102102242602213407",
+    "author": "StockSavvyShay",
+    "day": "2026-09-21",
+    "likes": 4512,
+    "text": "A year ago $NVDA was ~40x the size of $AMD. Today that gap is ~5x with AMD officially joining the $1 trillion club. Give Lisa her flowers. https://t.co/wMG5bi9qsN"
+   },
+   {
+    "post_id": "2101680505582412279",
+    "author": "StockSavvyShay",
+    "day": "2026-09-20",
+    "likes": 1399,
+    "text": "Jensen Huang could pay ~$8B in taxes over next 5 years and says \u201cI\u2019m not afraid of paying taxes. I\u2019m just afraid of being poor.\u201d That mindset also shows up in how $NVDA pays people where he says \u201cI try to pay people as m"
+   },
+   {
+    "post_id": "2102149908912550071",
+    "author": "StockSavvyShay",
+    "day": "2026-09-22",
+    "likes": 920,
+    "text": "$NVDA just qualified $TSLA Megapack for its DSX Ready AI factory designs putting Tesla storage directly into the approved stack for new deployments. What\u2019s wild is Nvidia requiring battery partners to show a path to 10x "
+   }
+  ],
+  "stance": {
+   "accounts": 5,
+   "longs": 6,
+   "shorts": 0,
+   "net_long": 1.0,
+   "avg_conviction": 0.69,
+   "stances": "StockSavvyShay:long:0.94 MarcosMillaYT:long:0.92 FeroceResearch:long:0.9 TheLongInvest:neutral:0.82 TheLongInvest:neutral:0.8 TheLongInvest:long:0.7 StockSavvyShay:long:0.65 StockSavvyShay:long:0.55 stocktalkweekly:neutral:0.35 MarcosMillaYT:neutral:0.3"
+  },
+  "labels": []
+ },
+ "runway_score": {
+  "probe": "2026-09-17",
+  "tier": "no_runway",
+  "total": 58,
+  "points": {
+   "earnings": 0,
+   "prospect": 7,
+   "competition": 6,
+   "insider": 0,
+   "institutional": 3,
+   "retail": 6,
+   "upside": 10,
+   "risk_reward": 10,
+   "chart": 5,
+   "macro_fit": 4,
+   "narrative": 7
+  },
+  "gates_failed": [
+   "flow",
+   "insider",
+   "delivery"
+  ],
+  "upside_pct": 52.42089906081881,
+  "risk_reward": 5.432532872707329,
+  "close": 219.34,
+  "price_as_of": "2026-09-17"
+ },
+ "verdicts": [],
+ "gaps": []
+}

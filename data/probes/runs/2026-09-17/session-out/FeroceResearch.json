@@ -1,0 +1,321 @@
+{
+  "account": "FeroceResearch",
+  "profile": {
+    "beat": "AI memory and connectivity, mega-cap technology, precious metals and macro positioning.",
+    "style": "High-conviction fundamental and technical commentary tied to a research subscription. Uses personal holding claims, earnings comparisons, proprietary indicators and options positioning to argue for multi-month upside.",
+    "cadence": "Frequent originals and replies, recurring earnings summaries and promotional references to a paid research service.",
+    "revisits": "Micron remains a repeatedly defended largest holding in 2097530037645750366; Astera and Credo receive fresh thesis updates in 2100656388213260795 and 2100659845158355245.",
+    "caveats": "Short incremental window rather than two months. Holdings, performance and valuation claims are self-reported; underlying paid research and chart images are unavailable. The pre-FOMC expectation of no rate change is contradicted by the subsequent hike reported in the same bundle. DRAM, GOLD and SILVER are used as thematic or commodity labels and are not assigned to an equity instrument."
+  },
+  "narrative": "The account argues that memory scarcity is becoming the dominant driver of AI-industry economics. Micron remains the strongest explicit personal commitment, while Astera and Credo are presented as increasingly attractive beneficiaries of connectivity demand. The author expects mega-cap technology to emerge from prolonged consolidation despite macro anxiety. Ahead of FOMC the author expects a hold, then reports a hike while retaining the bullish broader-market view. AI safety and slower frontier release pacing are interpreted as compatible with rising compute and memory requirements. By the end of the window, the author sharpens the upside case for Astera, Credo and Nvidia and continues a separate bullish metals thesis.",
+  "picks": [
+    {
+      "symbol": "MU",
+      "direction": "long",
+      "prospect": "Memory scarcity supports continued leadership and rerating.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author identifies Micron as the largest holding and sees a durable demand imbalance alongside strong leadership.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation",
+        "value"
+      ],
+      "conviction": 0.97,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097119670079807594",
+          "quote": "* CHINA BROWSING LTA OPTIONS AS MEMORY SHORTAGE WORSENS \n\nFor weeks I’ve been saying CXMT is only going to make the memory shortage worse as CXMT is simply eating up more supply despite actually being a threat to the demand of the three juggernauts \n\nThe idea that memory has remotely gotten close to peaking couldn’t be any more wrong by many analysts on here in the past couple weeks \n\n$MU $SKHY $KOSPI $DRAM"
+        },
+        {
+          "post_id": "2097527940481212835",
+          "quote": "I broke down ALL MAJOR EARNINGS from this quarter so far into one cheatsheet:\n\nSave this image 🙂\n\n-- The verdict? --\n\nTech is RAPIDLY shifting its focus towards who has the best exposure in the ongoing memory pandemic.\n\nWe have gone from who had the best AI exposure from 2024-2026 to whoever has the best memory exposure from 2026-2028.\n\nThese are not my words, this is the common denominator which appeared in all the major earnings from the management teams themselves.\n\nThe market will be forced to re-rate memory, compute, and connectivity higher as the memory pandemic is only getting worse.\n\nThe biggest beneficiaries of the memory crisis?\n\nMicron - $MU\nNvidia - $NVDA\nAstera Labs - $ALAB\nCredo - $CRDO\nMarvell - $MRVL\nSandisk - $SNDK\nWestern Digital - $WDC\nBroadcom - $AVGO"
+        },
+        {
+          "post_id": "2097530037645750366",
+          "quote": "It is an understatement to say memory is doing something right now which we genuinely will not see repeated in many decades to come\n\nI will continue to ignore any noise about this industry like I have been since making Micron $MU my largest holding to date last year around $100 a share\n\nInvest into memory's byproducts now, or be left behind"
+        },
+        {
+          "post_id": "2099957720136712527",
+          "quote": "I might have bias towards Sanjay because he literally changed my life through Micron, as well as many people I know, \n\nbut much of my conviction in Micron since last year was due to his organic leadership traits. \n\nHe pioneered an industry which had odds completely against it, and he continues to still portray the same cool calm collected traits which instills a magnitude of confidence into those who look into his work.\n\nWhen people say a “CEO DRIVEN COMPANY,” Sanjay is literally at the forefront of that statement \n\n$MU"
+        }
+      ]
+    },
+    {
+      "symbol": "SKHY",
+      "direction": "long",
+      "prospect": "Memory shortages remain far from peaking.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author argues that competing Chinese capacity consumes inputs and fails to resolve shortages for the leading suppliers.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097119670079807594",
+          "quote": "* CHINA BROWSING LTA OPTIONS AS MEMORY SHORTAGE WORSENS \n\nFor weeks I’ve been saying CXMT is only going to make the memory shortage worse as CXMT is simply eating up more supply despite actually being a threat to the demand of the three juggernauts \n\nThe idea that memory has remotely gotten close to peaking couldn’t be any more wrong by many analysts on here in the past couple weeks \n\n$MU $SKHY $KOSPI $DRAM"
+        },
+        {
+          "post_id": "2097785735185064026",
+          "quote": "I have been tracking around $10M worth of calls being opened over the last 2 weeks which are targeting a range of 70-100% upside for memory names by year end \n\nand this is not even taking SK Hynix OR Micron flow into account as both sit near ATHs\n\ngood luck stopping the memory rush \n\n$SKHY $MU"
+        },
+        {
+          "post_id": "2099890103254499613",
+          "quote": "APPLE, ANTHROPIC, OPENAI ACCEPT HIGHER MEMORY PRICING FROM MICRON, SAMSUNG, SK HYNIX\n\n• Anthropic reportedly plans to directly buy ~20% of its CY27 memory needs, with DRAM demand potentially approaching NVIDIA’s scale, per Edgewater\n\n• Apple accepted ~$2.00/Gb DRAM for Q1 2027, up 30-40% vs Q3.\n\nSo much for pacing, right?\n\n$MU $SKHY $AAPL $DRAM"
+        }
+      ]
+    },
+    {
+      "symbol": "ALAB",
+      "direction": "long",
+      "prospect": "A breakout could follow fundamental growth and sustained CXL demand.",
+      "risk_reward": "The author requires breakout and post-FOMC follow-through confirmation; no loss limit is supplied.",
+      "thesis": "The author expects strong coming quarters and argues business growth has outpaced market recognition.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation",
+        "value"
+      ],
+      "conviction": 0.93,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097491412912586804",
+          "quote": "the market is getting memory and connectivity completely wrong, and will inevitably be forced to pay the price   \n\ncomplete market broad breakdown being posted at 10pm ET tonight  \n\n(free X version + a full in-depth paywall version)\n\n$MU $CRDO $ALAB $NVDA $MRVL"
+        },
+        {
+          "post_id": "2097527940481212835",
+          "quote": "I broke down ALL MAJOR EARNINGS from this quarter so far into one cheatsheet:\n\nSave this image 🙂\n\n-- The verdict? --\n\nTech is RAPIDLY shifting its focus towards who has the best exposure in the ongoing memory pandemic.\n\nWe have gone from who had the best AI exposure from 2024-2026 to whoever has the best memory exposure from 2026-2028.\n\nThese are not my words, this is the common denominator which appeared in all the major earnings from the management teams themselves.\n\nThe market will be forced to re-rate memory, compute, and connectivity higher as the memory pandemic is only getting worse.\n\nThe biggest beneficiaries of the memory crisis?\n\nMicron - $MU\nNvidia - $NVDA\nAstera Labs - $ALAB\nCredo - $CRDO\nMarvell - $MRVL\nSandisk - $SNDK\nWestern Digital - $WDC\nBroadcom - $AVGO"
+        },
+        {
+          "post_id": "2097740769624818008",
+          "quote": "The market is lagging greatly on CXL, and the next two quarters for both Astera Labs and Marvell will be a testimony to just how demanding this industry has already become\n\n$ALAB $MRVL"
+        },
+        {
+          "post_id": "2099693977951731794",
+          "quote": "Metals is the only trade that has not moved much since getting in, nor do I stress over with, because you know, I have my own given time-window for this trade. \n\nI am pretty confused about mu, alab and crdo claims? My average for micron dates back to $100 a share, which is now trading at $950 even till this day. — with alab and credo both running 200-300% from the time I got in them back in April, because you know, my entry cost was $120 a piece on both. \n\nVery odd behavior to think you know my entries or exits just because of my public posts when all of my research and portfolio can be tracked in real-time within the service. And btw, my portfolio consists much more than just 4 stocks. Hope this helps. No need to take your insecurities out on sometime else who has a completely different perspective and pathway as you 👍"
+        },
+        {
+          "post_id": "2100656388213260795",
+          "quote": "Astera Labs $ALAB is one breakout away from replicating its entire rally from April\n\nKeep in mind, despite making higher lows, the valuation of Astera Labs right now is the same as when it was in April. \n\nShare price has not been able to keep up with the growth.\n\n*My original thesis and entry dates back to $120, which till this day I believe has only strengthened."
+        }
+      ]
+    },
+    {
+      "symbol": "CRDO",
+      "direction": "long",
+      "prospect": "Stronger fundamentals support a renewed high.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Connectivity demand and repeated recoveries underpin conviction, with an explicitly discussed personal holding.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation",
+        "momentum"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097491412912586804",
+          "quote": "the market is getting memory and connectivity completely wrong, and will inevitably be forced to pay the price   \n\ncomplete market broad breakdown being posted at 10pm ET tonight  \n\n(free X version + a full in-depth paywall version)\n\n$MU $CRDO $ALAB $NVDA $MRVL"
+        },
+        {
+          "post_id": "2097527940481212835",
+          "quote": "I broke down ALL MAJOR EARNINGS from this quarter so far into one cheatsheet:\n\nSave this image 🙂\n\n-- The verdict? --\n\nTech is RAPIDLY shifting its focus towards who has the best exposure in the ongoing memory pandemic.\n\nWe have gone from who had the best AI exposure from 2024-2026 to whoever has the best memory exposure from 2026-2028.\n\nThese are not my words, this is the common denominator which appeared in all the major earnings from the management teams themselves.\n\nThe market will be forced to re-rate memory, compute, and connectivity higher as the memory pandemic is only getting worse.\n\nThe biggest beneficiaries of the memory crisis?\n\nMicron - $MU\nNvidia - $NVDA\nAstera Labs - $ALAB\nCredo - $CRDO\nMarvell - $MRVL\nSandisk - $SNDK\nWestern Digital - $WDC\nBroadcom - $AVGO"
+        },
+        {
+          "post_id": "2099693977951731794",
+          "quote": "Metals is the only trade that has not moved much since getting in, nor do I stress over with, because you know, I have my own given time-window for this trade. \n\nI am pretty confused about mu, alab and crdo claims? My average for micron dates back to $100 a share, which is now trading at $950 even till this day. — with alab and credo both running 200-300% from the time I got in them back in April, because you know, my entry cost was $120 a piece on both. \n\nVery odd behavior to think you know my entries or exits just because of my public posts when all of my research and portfolio can be tracked in real-time within the service. And btw, my portfolio consists much more than just 4 stocks. Hope this helps. No need to take your insecurities out on sometime else who has a completely different perspective and pathway as you 👍"
+        },
+        {
+          "post_id": "2100659845158355245",
+          "quote": "For every time the market panicked over Credo, the stock managed to bounce back faster than the previous run\n\nEach run was backed with stronger fundamentals, giving investors confidence to buy more aggressive than before\n\nA fresh ATH is not as far as people think on $CRDO https://t.co/rWFuzzeZXH"
+        }
+      ]
+    },
+    {
+      "symbol": "MRVL",
+      "direction": "long",
+      "prospect": "Upcoming quarters demonstrate rising connectivity demand.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author identifies Marvell as a memory-crisis beneficiary and expects CXL demand to gain recognition.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097491412912586804",
+          "quote": "the market is getting memory and connectivity completely wrong, and will inevitably be forced to pay the price   \n\ncomplete market broad breakdown being posted at 10pm ET tonight  \n\n(free X version + a full in-depth paywall version)\n\n$MU $CRDO $ALAB $NVDA $MRVL"
+        },
+        {
+          "post_id": "2097527940481212835",
+          "quote": "I broke down ALL MAJOR EARNINGS from this quarter so far into one cheatsheet:\n\nSave this image 🙂\n\n-- The verdict? --\n\nTech is RAPIDLY shifting its focus towards who has the best exposure in the ongoing memory pandemic.\n\nWe have gone from who had the best AI exposure from 2024-2026 to whoever has the best memory exposure from 2026-2028.\n\nThese are not my words, this is the common denominator which appeared in all the major earnings from the management teams themselves.\n\nThe market will be forced to re-rate memory, compute, and connectivity higher as the memory pandemic is only getting worse.\n\nThe biggest beneficiaries of the memory crisis?\n\nMicron - $MU\nNvidia - $NVDA\nAstera Labs - $ALAB\nCredo - $CRDO\nMarvell - $MRVL\nSandisk - $SNDK\nWestern Digital - $WDC\nBroadcom - $AVGO"
+        },
+        {
+          "post_id": "2097740769624818008",
+          "quote": "The market is lagging greatly on CXL, and the next two quarters for both Astera Labs and Marvell will be a testimony to just how demanding this industry has already become\n\n$ALAB $MRVL"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "long",
+      "prospect": "Market recognition and a technology rally support further upside.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Memory and compute scarcity plus confidence in leadership underpin the author’s increasingly forceful bullish stance.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097491412912586804",
+          "quote": "the market is getting memory and connectivity completely wrong, and will inevitably be forced to pay the price   \n\ncomplete market broad breakdown being posted at 10pm ET tonight  \n\n(free X version + a full in-depth paywall version)\n\n$MU $CRDO $ALAB $NVDA $MRVL"
+        },
+        {
+          "post_id": "2097527940481212835",
+          "quote": "I broke down ALL MAJOR EARNINGS from this quarter so far into one cheatsheet:\n\nSave this image 🙂\n\n-- The verdict? --\n\nTech is RAPIDLY shifting its focus towards who has the best exposure in the ongoing memory pandemic.\n\nWe have gone from who had the best AI exposure from 2024-2026 to whoever has the best memory exposure from 2026-2028.\n\nThese are not my words, this is the common denominator which appeared in all the major earnings from the management teams themselves.\n\nThe market will be forced to re-rate memory, compute, and connectivity higher as the memory pandemic is only getting worse.\n\nThe biggest beneficiaries of the memory crisis?\n\nMicron - $MU\nNvidia - $NVDA\nAstera Labs - $ALAB\nCredo - $CRDO\nMarvell - $MRVL\nSandisk - $SNDK\nWestern Digital - $WDC\nBroadcom - $AVGO"
+        },
+        {
+          "post_id": "2099575763309568418",
+          "quote": "Buying $NVDA here would be equivalent to Trump pushing Dell earlier this year before breaking out https://t.co/EJNBQcX5MG"
+        },
+        {
+          "post_id": "2099956208652177870",
+          "quote": "Fate of humanity on the line and I had to pick 2 people at the frontline of technology, \n\nJensen Huang and Sanjay Mehrotra\n\nThere is probably no other company other than $NVDA or $MU in which I genuinely feel comfort and confidence in through their CEOs https://t.co/ZTdorRzNgL"
+        },
+        {
+          "post_id": "2100678720650428467",
+          "quote": "the market will have no choice but to give Jensen's Nvidia the respect it deserves\n\nand rightfully so, the pain trade is significantly higher. \n\n$NVDA https://t.co/4kJgjKFlMz"
+        }
+      ]
+    },
+    {
+      "symbol": "SNDK",
+      "direction": "long",
+      "prospect": "A memory-led industry rerating benefits the company.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author explicitly names the company among the largest beneficiaries of the memory shortage in an earnings synthesis.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.72,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097527940481212835",
+          "quote": "I broke down ALL MAJOR EARNINGS from this quarter so far into one cheatsheet:\n\nSave this image 🙂\n\n-- The verdict? --\n\nTech is RAPIDLY shifting its focus towards who has the best exposure in the ongoing memory pandemic.\n\nWe have gone from who had the best AI exposure from 2024-2026 to whoever has the best memory exposure from 2026-2028.\n\nThese are not my words, this is the common denominator which appeared in all the major earnings from the management teams themselves.\n\nThe market will be forced to re-rate memory, compute, and connectivity higher as the memory pandemic is only getting worse.\n\nThe biggest beneficiaries of the memory crisis?\n\nMicron - $MU\nNvidia - $NVDA\nAstera Labs - $ALAB\nCredo - $CRDO\nMarvell - $MRVL\nSandisk - $SNDK\nWestern Digital - $WDC\nBroadcom - $AVGO"
+        }
+      ]
+    },
+    {
+      "symbol": "WDC",
+      "direction": "long",
+      "prospect": "A memory-led industry rerating benefits the company.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author explicitly names the company among the largest beneficiaries of the memory shortage in an earnings synthesis.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.72,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097527940481212835",
+          "quote": "I broke down ALL MAJOR EARNINGS from this quarter so far into one cheatsheet:\n\nSave this image 🙂\n\n-- The verdict? --\n\nTech is RAPIDLY shifting its focus towards who has the best exposure in the ongoing memory pandemic.\n\nWe have gone from who had the best AI exposure from 2024-2026 to whoever has the best memory exposure from 2026-2028.\n\nThese are not my words, this is the common denominator which appeared in all the major earnings from the management teams themselves.\n\nThe market will be forced to re-rate memory, compute, and connectivity higher as the memory pandemic is only getting worse.\n\nThe biggest beneficiaries of the memory crisis?\n\nMicron - $MU\nNvidia - $NVDA\nAstera Labs - $ALAB\nCredo - $CRDO\nMarvell - $MRVL\nSandisk - $SNDK\nWestern Digital - $WDC\nBroadcom - $AVGO"
+        }
+      ]
+    },
+    {
+      "symbol": "AVGO",
+      "direction": "long",
+      "prospect": "A memory-led industry rerating benefits the company.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author explicitly names the company among the largest beneficiaries of the memory shortage in an earnings synthesis.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.72,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097527940481212835",
+          "quote": "I broke down ALL MAJOR EARNINGS from this quarter so far into one cheatsheet:\n\nSave this image 🙂\n\n-- The verdict? --\n\nTech is RAPIDLY shifting its focus towards who has the best exposure in the ongoing memory pandemic.\n\nWe have gone from who had the best AI exposure from 2024-2026 to whoever has the best memory exposure from 2026-2028.\n\nThese are not my words, this is the common denominator which appeared in all the major earnings from the management teams themselves.\n\nThe market will be forced to re-rate memory, compute, and connectivity higher as the memory pandemic is only getting worse.\n\nThe biggest beneficiaries of the memory crisis?\n\nMicron - $MU\nNvidia - $NVDA\nAstera Labs - $ALAB\nCredo - $CRDO\nMarvell - $MRVL\nSandisk - $SNDK\nWestern Digital - $WDC\nBroadcom - $AVGO"
+        }
+      ]
+    },
+    {
+      "symbol": "MAGS",
+      "direction": "long",
+      "prospect": "Mega-cap technology breaks out from consolidation.",
+      "risk_reward": "The author acknowledges near-term macro volatility and recommends patience around FOMC rather than demanding an exact entry.",
+      "thesis": "The author sees declining volume and a bullish divergence resembling earlier technology rallies.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "momentum",
+        "macro"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-09-14",
+      "sources": [
+        {
+          "post_id": "2099294270008221882",
+          "quote": "MAGS are setting up for another historical run, a near 25% upside on the horizon despite short term fear in the air.\n\nThe last time tech was led by the magnificent 7 on a similar set-up with decreasing volume for nearly 2 months with a hidden bullish divergence being created on my indicator:\n\nOctober 24' (+26%)\nMay 25' (+36%)\nApril 26' (+16%)"
+        },
+        {
+          "post_id": "2099522539298910473",
+          "quote": "Biggest bullish inflection point for the market and tech is just around the horizon 👀\n\ndo not let short term vol confuse you from the bigger picture \n\n$NVDA $MU $MAGS $GOOGL https://t.co/xgfchXmeD0"
+        },
+        {
+          "post_id": "2099662181654577347",
+          "quote": "Don’t let yields and AI doomers distract you from MAGS sitting close to ATH with a projected 25% upside move \n\n$MU $NVDA $META $GOOGL https://t.co/BCzonlZJyc"
+        }
+      ]
+    },
+    {
+      "symbol": "META",
+      "direction": "long",
+      "prospect": "A proprietary user-data advantage supports the AI opportunity.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author connects Meta to cybersecurity and observability companies whose accumulated user databases complement AI.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.72,
+      "first_seen": "2026-09-15",
+      "sources": [
+        {
+          "post_id": "2099687629021126993",
+          "quote": "It may sound crazy, but I believe $META is actually not too far out from being in the same basket as these cybersecurity and cloud observability names 🤫\n\nThe backbone of META and this industry ultimately rely on one major advantage that traditional software no longer has https://t.co/fvTm0q9OWJ"
+        },
+        {
+          "post_id": "2099700377322991944",
+          "quote": "User database is about to become one of the biggest assets in tech moving forward imo. That's one edge that AI cannot replicate, no matter how good a frontier model is. \n\nThat's what makes cloud observability and cybersecurity names so great in this era of tech. It's being able to combine AI with user database that only a handful of companies have which they collected throughout the traditional software run. Now they get to use that info to its finest capabilities"
+        }
+      ]
+    }
+  ]
+}

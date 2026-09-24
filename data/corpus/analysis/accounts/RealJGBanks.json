@@ -1,0 +1,132 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T21:58:21.672Z",
+  "account": "RealJGBanks",
+  "profile": {
+    "beat": "Short-term options and swing trading education centered on US large-cap tech, AI semis and memory names plus SPY day trades, used to market a paid trading community (Wolves, via whop/Discord).",
+    "style": "Chart-only: every call is framed through his 8/21 EMA cross plus 'Break. Retest. Enter' setup at daily demand zones or key levels. Conviction is expressed through all-caps hype and after-the-fact option gain screenshots rather than position sizing or fundamentals. Sector ETF lists are used to point to leaders rather than to state discrete positions.",
+    "cadence": "Several posts a day: all-caps educational hooks, trade-recap brags, lifestyle/income posts, sales pitches for a 50% off summer sale, and short replies to followers. Recurring 'setup' template posts and weekend sector-scan lists.",
+    "revisits": "Yes, retrospectively: 2102477596693053651 quotes an earlier post to claim the MU/SNDK/DRAM/ARM bottom buy, and 2102561000377418204 reuses the same names as a study case. The SPY put trade is revisited in 2102827069361066204 and 2102936836599418919.",
+    "caveats": "Heavily promotional: the feed sells a paid community with income and lifestyle testimonials, and trade results are self-reported option gains shown after the fact with no verifiable entries or exits. Long ticker lists (e.g. the AI-cycle list in 2101744753419407396) are marketing-style watchlists, not demonstrated positions. Most trades are intraday options, so stances on names are short-lived."
+  },
+  "narrative": "Across the window the author pushes a single message: AI-cycle leaders, especially memory ($MU, $SNDK) and semis, are breaking out again and followers should not sit on the sidelines. On 2026-09-19 he flags memory, semis and hardware as the groups that led the last AI move and are breaking out again, and on 2026-09-20 publishes a broad 'retire early from the AI cycle' positioning list spanning compute, infrastructure, power, raw materials and physical AI. On 2026-09-21 he declares SPY, QQQ, AMD/INTC and MU/SNDK all breaking out. On 2026-09-22 and 2026-09-23 he claims credit for buying MU, SNDK, DRAM and ARM at daily demand when others were scared, presenting it as a repeatable bottom-buying model. Midweek the tone turns tactical: on 2026-09-23 he highlights an SPY put trade on a daily-low break and posts a short-side setup the next morning, then on 2026-09-24 flips to an SPY call trade on a break-and-retest. The directional AI/memory bullishness never changes; the SPY trades are intraday flips driven by his 8/21 EMA rules. Interleaved throughout is a sales push for the paid community's ending discount.",
+  "picks": [
+    {
+      "symbol": "MU",
+      "direction": "long",
+      "prospect": "Memory leader continues breaking out as the AI-cycle leaders reassert themselves.",
+      "risk_reward": "Only implied through the setup: entry at a daily demand zone after a sweep and reclaim, which defines the invalidation; no explicit downside discussed.",
+      "thesis": "Memory led the last major AI move and is breaking out again; bought at major daily demand when others were scared of AI and memory names.",
+      "time_frame": "swing",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101368669649687010",
+          "quote": "Memory names. $MU. $SNDK. "
+        },
+        {
+          "post_id": "2102073562840396238",
+          "quote": "$MU and $SNDK Memory breaking out"
+        },
+        {
+          "post_id": "2102477596693053651",
+          "quote": "I posted this when everyone was scared to touch AI and Memory names."
+        },
+        {
+          "post_id": "2102561000377418204",
+          "quote": "Study these names: $SNDK $MU and"
+        }
+      ]
+    },
+    {
+      "symbol": "SNDK",
+      "direction": "long",
+      "prospect": "Memory name continues breaking out alongside MU.",
+      "risk_reward": "Only implied through the setup: entry at a daily demand zone after a sweep and reclaim; no explicit downside discussed.",
+      "thesis": "Part of the memory group that led the last AI move and is breaking out again; bought at major daily demand.",
+      "time_frame": "swing",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101368669649687010",
+          "quote": "Memory names. $MU. $SNDK. "
+        },
+        {
+          "post_id": "2102073562840396238",
+          "quote": "$MU and $SNDK Memory breaking out"
+        },
+        {
+          "post_id": "2102477596693053651",
+          "quote": "Buy at major daily demand."
+        }
+      ]
+    },
+    {
+      "symbol": "ARM",
+      "direction": "long",
+      "prospect": "Continues higher after a bottom bought at daily demand.",
+      "risk_reward": "Only implied through the demand-zone sweep and reclaim entry; no explicit downside discussed.",
+      "thesis": "Grouped with the AI/memory names bought at major daily demand; named a semiconductor leader under the SMH/EUV ETFs.",
+      "time_frame": "swing",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.45,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102477596693053651",
+          "quote": "$ARM\n\nBuy at major daily demand."
+        },
+        {
+          "post_id": "2102561000377418204",
+          "quote": "LEARN HOW TO BUY A BOTTOM TO RETIRE EARLY"
+        },
+        {
+          "post_id": "2102749498829160854",
+          "quote": "$SMH $EUV : $NVDA $ARM"
+        }
+      ]
+    },
+    {
+      "symbol": "INTC",
+      "direction": "long",
+      "prospect": "Semi breakout continues.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Semis that led the last AI move are breaking out again; he traded it with his 8/21 cross break-and-retest setup.",
+      "time_frame": "swing",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.35,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101368669649687010",
+          "quote": "Semi names $NVDA. $INTC."
+        },
+        {
+          "post_id": "2102073562840396238",
+          "quote": "$AMD and $INTC Semi’s breaking out"
+        }
+      ]
+    }
+  ]
+}

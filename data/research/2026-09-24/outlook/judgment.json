@@ -1,0 +1,28 @@
+{
+  "summary": "Lean risk-off with a strong tape. The Fed is hiking into a hot economy and an oil shock, and the long end has broken out (10y 5.11%, 30y 5.40%, real 2.76%, MOVE about 105). Stocks and bonds are falling together, so cash, not duration, is the hedge. Credit and equity vol have not confirmed stress: HY 273bp, VIX 15.7. The index sits 1% from its high on +29% earnings growth, but leadership is narrow: Mag 7 is +19pp vs equal weight over 3 months, while small caps, housing and rate-sensitive groups break down. The book should run 60% gross with long-duration growth capped at 15%. Own earnings momentum that funds itself (Mag 7 led by META, cybersecurity, selected software), hold energy as the oil-shock hedge, and keep dry powder for the refunding and FOMC window (28 October to 4 November). The crowd's error is the neoclouds and AI infrastructure financing trade: the allowlist is 9/0 long while the basket lags by 16pp. Its opportunity is memory, where attention and price are turning up together into Micron's 30 September print.",
+  "top_calls": [
+    "Cybersecurity (CRWD, OKTA, NET, ZS): Overweight. Accelerating with 100% breadth; recurring FCF offsets the rates headwind. Invalidated by the basket losing its 50d, or the 10y above 5.5%",
+    "Magnificent 7: Accumulate, concentrated in META and NVDA. Earnings carry the index. Invalidated by breadth inside the Mag 7 falling below 50%, or hyperscaler capex guidance cuts",
+    "Energy (XOM, CVX, COP): Overweight as the oil-shock hedge. Invalidated by an Iran ceasefire road map that reopens Hormuz",
+    "Memory (MU, SNDK): Accumulate on confirmation after the 30 September print. Pricing +30-40% for Q1 2027 is the thesis; a guide below $50bn invalidates it",
+    "Neoclouds, nuclear, space, quantum: Avoid or underweight. Long-duration names with financing needs in a 2.8% real-yield world; revisit when the 10y is below 4.75%",
+    "Homebuilders and regional banks: Avoid until the mortgage spread and MOVE fall together",
+    "Hedge: index put spreads (equity vol is cheap against bond vol) plus T-bills; not long Treasuries"
+  ],
+  "overrides": [
+    {"theme": "Large biotech and pharma", "mechanical": "Accumulate", "call": "Neutral", "reason": "fading over 1m with LLY, AMGN and BMY all down; the defensive archetype fit is -1.0 while growth runs hot"},
+    {"theme": "AI health and diagnostics", "mechanical": "Accumulate", "call": "Accumulate, small size", "reason": "price leadership is real but the rate fit is -1.3; size inside the 15% long-duration cap"}
+  ],
+  "risks": [
+    "Long-end tantrum (30y above 5.75%), medium probability: a 10-20% multiple compression led by long duration; tell: auction tails on 7-8 October and MOVE above 120",
+    "Credit break in the weak tail, low-medium: HY to 450bp+, small caps and financials -20%; tell: HY OAS +75bp in a month",
+    "Upside, medium: a ceasefire plus soft CPI brings a bull-flattening broadening rally into small caps, housing and long-duration growth. Keep the dry powder for it"
+  ],
+  "what_changes": [
+    "2026-09-30 Micron and PCE: memory confirmation, core PCE path",
+    "2026-10-02 payrolls: hot means an October hike is locked; a miss starts the growth-scare branch",
+    "2026-10-07/08 10y and 30y auctions: tails mean long-end stress",
+    "2026-10-14 CPI: core +0.4% or more m/m cuts the long-duration cap to 10%",
+    "2026-10-28 FOMC and 2026-11-04 refunding: a pause or smaller coupons is the 2023-style release valve that upgrades the call"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "as_of": "2026-09-18T12:20:00-04:00",
+  "mandate": "high return, medium-to-low risk, 1-3 years",
+  "ranking": [
+    "ZETA",
+    "ABCL"
+  ],
+  "ZETA": {
+    "price": 29.98,
+    "market_cap_usd_b": 7.52,
+    "consensus_target": 31.36,
+    "target_upside_pct": 4.6,
+    "fy2026_revenue_guide_usd_m": [
+      1811,
+      1824
+    ],
+    "fy2026_fcf_guide_usd_m": [
+      254.8,
+      255.8
+    ],
+    "forward_fcf_margin_pct": [
+      14.0,
+      14.1
+    ],
+    "short_float_pct": 11.05,
+    "sma50_distance_pct": 12.66,
+    "sma200_distance_pct": 44.99,
+    "insider_open_market_90d": [],
+    "tier": "one_leg_missing",
+    "failed_gate": "valuation/upside",
+    "action": "watch or accumulate 25.50-27.50"
+  },
+  "ABCL": {
+    "price": 12.49,
+    "market_cap_usd_b": 4.05,
+    "consensus_target": 17.13,
+    "target_upside_pct": 37.1,
+    "cash_q2_usd_m": 565,
+    "offering_gross_usd_m": 200,
+    "short_float_pct": 13.7,
+    "sma50_distance_pct": 37.23,
+    "sma200_distance_pct": 127.43,
+    "insider_open_market_90d": [
+      {
+        "name": "Andrew Booth",
+        "role": "CFO",
+        "shares": 37200,
+        "price": 10.32,
+        "value_usd": 383904
+      },
+      {
+        "name": "John Montalbano",
+        "role": "Director",
+        "shares": 10000,
+        "price": 11.03,
+        "value_usd": 110300
+      },
+      {
+        "name": "Michael Hayden",
+        "role": "Director",
+        "shares": 46387,
+        "price": 10.37,
+        "value_usd": 481033.19
+      },
+      {
+        "name": "Michael Hayden",
+        "role": "Director",
+        "shares": 53613,
+        "price": 10.64,
+        "value_usd": 570442.32
+      }
+    ],
+    "tier": "one_leg_missing_satellite",
+    "failed_gate": "delivery/positive cash economics",
+    "action": "small starter only after a base near 10.50-11.25"
+  }
+}

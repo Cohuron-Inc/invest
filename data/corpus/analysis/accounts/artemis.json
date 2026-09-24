@@ -1,0 +1,45 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T21:58:21.677Z",
+  "account": "artemis",
+  "profile": {
+    "beat": "Crypto and AI data/research platform account: crypto asset flows (Zcash ETF AUM, Robinhood chain fees), AI-lab theses (Anthropic) and promotion of its own research series and featured analysts.",
+    "style": "Mostly data drops and quote-tweets amplifying partner research, with short one-line framings rather than position talk. Stances are expressed through headline framing ('Muse changes that', 'Anthropic to TRILLIONS') rather than sizing, entry levels or risk discussion. No chart work and no explicit positions.",
+    "cadence": "Roughly one to three posts per trading day in this window; short originals and quote-tweets linking to its own content (the 'Alpha with Artemis' series, 'Analyst of the Month' interviews), plus a recurring Zcash ETF AUM update.",
+    "revisits": "Revisits the Zcash ETF AUM milestone repeatedly (2100989504513278174, 2102381689737527601, 2103115420823679480) and the META Muse framing twice (2102017187015750051, 2102074507091394975), but these are data updates and restated framing, not revised calls.",
+    "caveats": "A research/media brand promoting its own and partners' content rather than a trader disclosing positions; much of the window relays others' views (@stevenfiorillo on META, @covered_call on XYZ) or covers a private company (Anthropic) with no tradable ticker. Zcash ETF posts are AUM reporting, not a directional call. Very thin window: one extractable pick."
+  },
+  "narrative": "The window was dominated by content promotion rather than trade calls. Artemis tracked the Zcash ETF's AUM climb toward a billion dollars across three posts, reported as a milestone without an explicit stance on ZEC. It flagged Robinhood chain revenues as highly cyclical despite fee growth, a skeptical observation rather than a position. On 2026-09-21 it adopted a bullish framing on META, arguing its Muse product answers the critique that Meta was spending like an AI leader without an AI product. Midweek the focus shifted to an Anthropic bull thesis through its 'Alpha with Artemis' episode, which is not a public-market pick. It closed by featuring an analyst's classification-error case for Block (XYZ), relayed rather than endorsed in its own words. No view changes were observed within the window.",
+  "picks": [
+    {
+      "symbol": "META",
+      "direction": "long",
+      "prospect": "The author expects Muse to drive META's earnings narrative going forward, removing the knock that its AI spending lacked a product.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "META was criticised for AI-leader-level spending without an AI product to show for it; Muse supplies that product and becomes the earnings catalyst.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation",
+        "catalyst-driven"
+      ],
+      "conviction": 0.45,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2102017187015750051",
+          "quote": "Muse is the catalyst for $META earnings going forward."
+        },
+        {
+          "post_id": "2102074507091394975",
+          "quote": "A month ago the knock on META was that it was spending like an AI leader without an AI product to show for it. \n\nMuse changes that."
+        }
+      ]
+    }
+  ]
+}

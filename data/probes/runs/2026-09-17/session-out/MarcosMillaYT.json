@@ -1,0 +1,57 @@
+{
+  "account": "MarcosMillaYT",
+  "profile": {
+    "beat": "High-growth technology, semiconductors, memory and growth ETFs, with occasional dividend and personal-finance posts.",
+    "style": "Publishes rapid-fire ranked lists, very large target claims and repeated buy language. Many lists are explicitly attributed to analysts, AI systems or interviewees, so only the account's own repeated endorsements are treated as picks.",
+    "cadence": "Dense bursts of short originals and quote posts, often repeating the same semiconductor and memory names.",
+    "revisits": "Revisits MU, SNDK, NVDA, AMD, GOOGL, CRDO, AVGO, TSM and SKHY repeatedly throughout the window.",
+    "caveats": "Frequently relays third-party and AI-generated lists, offers little downside analysis, uses promotional certainty and publishes targets without a valuation bridge. One list also labels Vertiv with the AMZN ticker, showing data-quality risk."
+  },
+  "narrative": "The account remained strongly bullish on AI, semiconductors and memory. MU and SNDK were the most persistent calls, followed by GOOGL, CRDO, NVDA, AMD, AVGO and TSM. It argued that earnings growth was underpriced and repeatedly told holders not to sell through volatility. It also promoted diversified growth ETFs and long holding periods. The account occasionally ranked risk, calling GOOGL and SNDK lower risk than CRDO and MRVL, but most posts did not discuss downside. Many apparent recommendations were relays from Wall Street, AI systems or interviewees and were excluded unless the account separately expressed its own view.",
+  "picks": [
+    {
+      "symbol": "MU", "direction": "long", "prospect": "The author expects AI-memory demand and earnings growth to keep compounding.", "risk_reward": "The author repeatedly calls it cheap but does not present a downside case.", "thesis": "Memory is treated as a core AI bottleneck and MU as its preferred listed beneficiary.", "time_frame": "long_term", "tags": ["innovation", "tech", "value"], "conviction": 0.98, "first_seen": "2026-09-09",
+      "sources": [{"post_id": "2097443043788108196", "quote": "Micron is still cheap $MU"}, {"post_id": "2100460043250610549", "quote": "The Best Semiconductor Stock to Buy Now is...\n\n1) Micron $MU"}]
+    },
+    {
+      "symbol": "SNDK", "direction": "long", "prospect": "The author expects memory demand to lift Sandisk over a long holding period.", "risk_reward": "The author explicitly labels the entry low risk but gives no stop or bear case.", "thesis": "Sandisk is presented as a cheap memory beneficiary alongside MU and SK Hynix.", "time_frame": "position", "tags": ["tech", "value"], "conviction": 0.96, "first_seen": "2026-09-09",
+      "sources": [{"post_id": "2097443043788108196", "quote": "Sandisk is still cheap $SNDK"}, {"post_id": "2098258209459093510", "quote": "Buying Sandisk $SNDK right now = Low Risk"}]
+    },
+    {
+      "symbol": "GOOGL", "direction": "long", "prospect": "The author expects cloud, search and AI monetization to compound for years.", "risk_reward": "The author labels the entry low risk but gives no quantified downside.", "thesis": "Alphabet is repeatedly described as an undervalued AI and cloud compounder.", "time_frame": "long_term", "tags": ["innovation", "tech", "value"], "conviction": 0.94, "first_seen": "2026-09-09",
+      "sources": [{"post_id": "2097443043788108196", "quote": "Google is still cheap $GOOGL"}, {"post_id": "2098257189563711907", "quote": "1 Stock that is an OBVIOUS BUY... (Buy &amp; Hold) \n\n1) Google $GOOGL"}]
+    },
+    {
+      "symbol": "CRDO", "direction": "long", "prospect": "The author expects AI connectivity demand to support continued upside.", "risk_reward": "The author calls the entry medium risk, without a stop or fundamental bear case.", "thesis": "Credo is framed as a high-speed AI connectivity beneficiary with earnings growth not reflected in the stock.", "time_frame": "position", "tags": ["innovation", "tech", "value"], "conviction": 0.93, "first_seen": "2026-09-09",
+      "sources": [{"post_id": "2097443043788108196", "quote": "Credo is still cheap $CRDO"}, {"post_id": "2100458152663900433", "quote": "1 Stock to Buy Right Now with HIGH UPSIDE...\n\n1) Credo $CRDO"}]
+    },
+    {
+      "symbol": "NVDA", "direction": "long", "prospect": "The author expects Nvidia to remain a central long-term AI compute winner.", "risk_reward": "The author gives no downside case and treats selling through volatility as the main error.", "thesis": "Nvidia is repeatedly placed at the center of AI compute and semiconductor portfolios.", "time_frame": "long_term", "tags": ["innovation", "tech"], "conviction": 0.92, "first_seen": "2026-09-11",
+      "sources": [{"post_id": "2098259031685218381", "quote": "So you're telling me that NVIDIA $NVDA is the easily 100%+ Gainer in the Next 12-18 Months?"}, {"post_id": "2098658899465588771", "quote": "The Worst Thing You Can Do if you Hold...\n\n1) $DRAM \n2) NVIDIA $NVDA"}]
+    },
+    {
+      "symbol": "AMD", "direction": "long", "prospect": "The author expects AMD to participate in long-term AI compute and semiconductor growth.", "risk_reward": "The author never addresses downside directly.", "thesis": "AMD is treated as a core AI compute holding whose earnings growth remains underpriced.", "time_frame": "long_term", "tags": ["innovation", "tech", "value"], "conviction": 0.87, "first_seen": "2026-09-11",
+      "sources": [{"post_id": "2098259913508298794", "quote": "Stocks\n1) Micron $MU \n2) Sandisk $SNDK \n3) NVIDIA $NVDA \n4) AMD $AMD"}, {"post_id": "2100110589200908486", "quote": "AMD $AMD is a BUY"}]
+    },
+    {
+      "symbol": "AVGO", "direction": "long", "prospect": "The author expects custom silicon, networking and dividend growth to compound.", "risk_reward": "The author calls it cheap but offers no bear case.", "thesis": "Broadcom is presented as a core AI infrastructure and dividend-growth holding.", "time_frame": "long_term", "tags": ["innovation", "tech", "value"], "conviction": 0.86, "first_seen": "2026-09-09",
+      "sources": [{"post_id": "2097443043788108196", "quote": "Broadcom is still cheap $AVGO"}, {"post_id": "2100478551258784229", "quote": "The Best Dividend Growth Stock is...\n\n1) Broadcom $AVGO"}]
+    },
+    {
+      "symbol": "TSM", "direction": "long", "prospect": "The author expects TSMC to compound as the foundry layer of AI infrastructure.", "risk_reward": "The author never addresses risk.", "thesis": "TSMC is repeatedly included among the account's cheap AI and semiconductor holdings.", "time_frame": "long_term", "tags": ["innovation", "tech", "value"], "conviction": 0.82, "first_seen": "2026-09-09",
+      "sources": [{"post_id": "2097443043788108196", "quote": "TSMC is still cheap $TSM"}, {"post_id": "2100107055323648167", "quote": "10) TSMC $TSM"}]
+    },
+    {
+      "symbol": "SKHY", "direction": "long", "prospect": "The author expects HBM and memory demand to support long-term gains.", "risk_reward": "The author never addresses downside.", "thesis": "SK Hynix is framed as a core memory beneficiary and part of the account's preferred memory basket.", "time_frame": "position", "tags": ["innovation", "tech", "value"], "conviction": 0.83, "first_seen": "2026-09-09",
+      "sources": [{"post_id": "2097772355431153936", "quote": "So now we’re going all in…\n\n1) Micron $MU\n2) Sandisk $SNDK \n3) SK Hynix $SKHY"}, {"post_id": "2098662343718981998", "quote": "How could you not be BULLISH Long-Term on:\n\n1) SK Hynix $SKHY"}]
+    },
+    {
+      "symbol": "CRWV", "direction": "long", "prospect": "The author expects AI cloud demand to create substantial upside.", "risk_reward": "The author supplies an analyst target but no independent downside case.", "thesis": "CoreWeave is treated as a high-upside GPU-cloud beneficiary.", "time_frame": "position", "tags": ["innovation", "disruptor", "tech", "speculative"], "conviction": 0.76, "first_seen": "2026-09-15",
+      "sources": [{"post_id": "2099723634881486860", "quote": "CoreWeave $CRWV is a $150 stock"}, {"post_id": "2100463625173680355", "quote": "CoreWeave $CRWV is a BUY right now..."}]
+    },
+    {
+      "symbol": "APLD", "direction": "long", "prospect": "The author expects AI data-center demand to close the gap to analyst targets.", "risk_reward": "The author questions why investors would not concentrate, but supplies no operating or financing downside.", "thesis": "Applied Digital is presented as the highest-upside AI infrastructure name in a sell-side comparison.", "time_frame": "position", "tags": ["innovation", "disruptor", "tech", "speculative", "catalyst-driven"], "conviction": 0.72, "first_seen": "2026-09-17",
+      "sources": [{"post_id": "2100465251162710270", "quote": "So you're telling me that Applied Digital $APLD has...\n\n+204.35% Upside in the Next 12 Months?"}]
+    }
+  ]
+}

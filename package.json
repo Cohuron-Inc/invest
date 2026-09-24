@@ -20,6 +20,7 @@
     "task:sync-universe": "tsx --env-file-if-exists=.env src/lib/universe.ts",
     "task:capture": "tsx --env-file-if-exists=.env src/capture/index.ts",
     "task:backfill": "tsx --env-file-if-exists=.env src/capture/backfill.ts",
+    "task:delta": "tsx --env-file-if-exists=.env src/capture/backfill.ts --months 1",
     "task:normalize": "tsx --env-file-if-exists=.env src/normalize/index.ts",
     "task:extract": "tsx --env-file-if-exists=.env src/extract/index.ts",
     "task:session-dump": "tsx --env-file-if-exists=.env src/extract/session/dump.ts",

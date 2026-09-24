@@ -4,6 +4,7 @@ import { XApiError, explain, estimateCostUsd } from '../x/client.js'
 import { loadResolvedAccounts, requireEnv } from '../lib/config.js'
 import { dataRoot } from '../duck/connect.js'
 import { rawPath, manifestPath, runIdentity, writeJsonlGz } from './writer.js'
+import { readAccountCursors, readHeldIds, planDelta, verifySegment, type Segment } from './cursor.js'
 import { marketDate, isoUtc } from '../lib/time.js'
 import { log, ghError } from '../lib/log.js'
 import type { CapturedPost, XTweet } from '../x/types.js'
@@ -17,11 +18,14 @@ import type { CapturedPost, XTweet } from '../x/types.js'
  * - so it is the only affordable way to acquire history that recent search has
  * already dropped.
  *
- * It is a separate entry point rather than a flag on capture because the two
- * differ in the one property that matters: capture is incremental and
- * cursor-driven, this is a one-off sweep of a fixed window and re-running it
- * re-reads (and re-pays for) everything. Output lands in the same raw layout,
- * so normalize and everything downstream cannot tell the difference.
+ * It is INCREMENTAL PER ACCOUNT by default. Each account's newest and oldest
+ * held post are derived from data/raw (see cursor.ts), and only the part of the
+ * requested window outside that span is read: newer posts by `since_id`, older
+ * posts only if the window reaches further back than anything held. A post
+ * already held is dropped before it is written, so an overlap can cost at most
+ * the read, never a duplicate. `refetch` is the explicit opt-in to pay again.
+ * Output lands in the same raw layout, so normalize and everything downstream
+ * cannot tell the difference.
  */
 
 const TWEET_FIELDS = [
@@ -69,7 +73,16 @@ export type BackfillManifest = {
   finished_at: string
   start_time: string
   end_time: string
-  accounts: { handle: string; user_id: string; posts: number; pages: number; oldest: string | null; newest: string | null; truncated: boolean }[]
+  accounts: {
+    handle: string; user_id: string; posts: number; pages: number
+    oldest: string | null; newest: string | null; truncated: boolean
+    /** What was asked of the API for this account; empty when nothing was missing. */
+    segments: Segment[]
+    /** Posts returned that were already held; read (and billed) but not written. */
+    duplicates_dropped: number
+  }[]
+  /** False only when --refetch asked to re-read what is already held. */
+  incremental: boolean
   pages: number
   posts_read: number
   estimated_cost_usd: number
@@ -97,6 +110,14 @@ export type BackfillOptions = {
    * accounts are fetched without buying the finished ones twice.
    */
   accounts?: string[]
+  /** Re-read the whole window even where data/raw already holds it. Costs money. */
+  refetch?: boolean
+  /**
+   * Also read the part of the window older than the oldest post held for an
+   * account. Set when the operator gave an explicit --start; otherwise the sweep
+   * only moves forward from each account's last captured post.
+   */
+  extendBack?: boolean
 }
 
 export async function backfill(opts: BackfillOptions): Promise<BackfillManifest> {
@@ -127,32 +148,56 @@ export async function backfill(opts: BackfillOptions): Promise<BackfillManifest>
 
   let fatal: unknown = null
   try {
+  const cursors = await readAccountCursors(root)
+  // Always loaded, even under --refetch: re-reading a window (to fill a gap the
+  // endpoint skipped) must still never write a post that is already held.
+  const held = await readHeldIds(root)
   for (const account of accounts) {
-    let nextToken: string | undefined
+    const cursor = cursors.get(account.user_id)
+    const segments = planDelta(
+      cursor,
+      { startTime: opts.startTime, endTime: opts.endTime },
+      { refetch: opts.refetch, extendBack: opts.extendBack },
+    )
     let accountPages = 0
     let accountPosts = 0
+    let duplicates = 0
     let oldest: string | null = null
     let newest: string | null = null
     let truncated = false
     const maxPages = opts.maxPagesPerAccount ?? 60
+    log.info('backfill.plan', { handle: account.handle, segments })
 
+    // Indexed, not for-of: a newer-side read appends its verify segment.
+    for (let si = 0; si < segments.length; si++) {
+    const segment = segments[si]!
+    let nextToken: string | undefined
+    let segmentPages = 0
+    let segmentOldest: string | null = null
     do {
       if (postsRead >= opts.maxPosts) { aborted = true; break }
       accountPages++
+      segmentPages++
       pages++
       const params: Record<string, string> = {
         max_results: String(opts.maxResults ?? 100),
-        start_time: opts.startTime,
-        end_time: endTime,
         'tweet.fields': TWEET_FIELDS,
       }
+      // since_id is exclusive and exact: the cursor that makes a rerun free.
+      if (segment.since_id) params['since_id'] = segment.since_id
+      if (segment.start_time) params['start_time'] = segment.start_time
+      if (segment.end_time) params['end_time'] = segment.end_time
       if (nextToken) params['pagination_token'] = nextToken
 
       const page = (await getJson(token, `/users/${account.user_id}/tweets`, params)) as TimelinePage
       for (const e of page.errors ?? []) log.warn('x.partial_error', { title: e.title, detail: e.detail })
 
-      const tweets = page.data ?? []
-      postsRead += tweets.length
+      const read = page.data ?? []
+      postsRead += read.length
+      for (const t of read) if (segmentOldest === null || t.created_at < segmentOldest) segmentOldest = t.created_at
+      const tweets = read.filter((t) => !held.has(t.id))
+      duplicates += read.length - tweets.length
+      for (const t of tweets) held.add(t.id)
       accountPosts += tweets.length
 
       if (tweets.length > 0) {
@@ -178,22 +223,29 @@ export async function backfill(opts: BackfillOptions): Promise<BackfillManifest>
       }
 
       log.info('backfill.page', {
-        handle: account.handle, page: accountPages, posts: tweets.length, postsRead, oldest,
+        handle: account.handle, side: segment.side, page: segmentPages, posts: tweets.length,
+        duplicates: read.length - tweets.length, postsRead, oldest,
       })
       nextToken = page.meta?.next_token
-      if (accountPages >= maxPages && nextToken) {
+      if (segmentPages >= maxPages && nextToken) {
         truncated = true
-        log.warn('backfill.max_pages_reached', { handle: account.handle, accountPages, accountPosts })
+        log.warn('backfill.max_pages_reached', { handle: account.handle, side: segment.side, segmentPages, accountPosts })
         break
       }
     } while (nextToken)
+    if (aborted) break
+    if (segment.side === 'newer' && cursor && !truncated) {
+      const verify = verifySegment(cursor, segmentOldest, segment.end_time)
+      if (verify) segments.push(verify)
+    }
+    }
 
     perAccount.push({
       handle: account.handle, user_id: account.user_id, posts: accountPosts,
-      pages: accountPages, oldest, newest, truncated,
+      pages: accountPages, oldest, newest, truncated, segments, duplicates_dropped: duplicates,
     })
     if (aborted) {
-      ghError(`Backfill budget of ${opts.maxPosts} posts reached at @${account.handle}. Captured pages are kept; raise --max-posts to continue.`)
+      ghError(`Backfill budget of ${opts.maxPosts} posts reached at @${account.handle}. Captured pages are kept; rerun and the cursor resumes where this stopped.`)
       break
     }
   }
@@ -216,6 +268,7 @@ export async function backfill(opts: BackfillOptions): Promise<BackfillManifest>
     start_time: opts.startTime,
     end_time: endTime,
     accounts: perAccount,
+    incremental: !opts.refetch,
     pages,
     posts_read: postsRead,
     estimated_cost_usd: estimateCostUsd(postsRead),
@@ -241,16 +294,20 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     const i = process.argv.indexOf(flag)
     return i > -1 ? process.argv[i + 1] : undefined
   }
+  // Without --start the sweep is strictly from each account's last captured
+  // post; --months only sizes the first read of an account with nothing held.
   const months = Number(arg('--months') ?? '2')
-  const start = arg('--start') ?? isoUtc(new Date(Date.now() - months * 30 * 86_400_000))
+  const explicitStart = arg('--start')
   const opts: BackfillOptions = {
-    startTime: start,
+    startTime: explicitStart ?? isoUtc(new Date(Date.now() - months * 30 * 86_400_000)),
     maxPosts: Number(arg('--max-posts') ?? '2000'),
+    extendBack: Boolean(explicitStart),
   }
   const end = arg('--end'); if (end) opts.endTime = end
   const pp = arg('--max-pages'); if (pp) opts.maxPagesPerAccount = Number(pp)
   const mr = arg('--max-results'); if (mr) opts.maxResults = Number(mr)
   if (process.argv.includes('--dry-run')) opts.dryRun = true
+  if (process.argv.includes('--refetch')) opts.refetch = true
   const only = arg('--accounts'); if (only) opts.accounts = only.split(',').map((h) => h.trim()).filter(Boolean)
 
   backfill(opts)

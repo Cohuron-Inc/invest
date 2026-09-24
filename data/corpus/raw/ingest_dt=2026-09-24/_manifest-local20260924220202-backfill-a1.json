@@ -1,0 +1,47 @@
+{
+  "run_id": "local20260924220202",
+  "attempt": 1,
+  "ingest_dt": "2026-09-24",
+  "mode": "backfill",
+  "started_at": "2026-09-24T22:02:02Z",
+  "finished_at": "2026-09-24T22:02:03Z",
+  "start_time": "2026-09-17T21:50:08Z",
+  "end_time": "2026-09-21T20:03:05Z",
+  "accounts": [
+    {
+      "handle": "StockSavvyShay",
+      "user_id": "1096436452576047104",
+      "posts": 111,
+      "pages": 2,
+      "oldest": "2026-09-17T23:40:51.000Z",
+      "newest": "2026-09-21T19:49:03.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "full",
+          "start_time": "2026-09-17T21:50:08Z",
+          "end_time": "2026-09-21T20:03:05Z"
+        }
+      ],
+      "duplicates_dropped": 1
+    }
+  ],
+  "incremental": false,
+  "pages": 2,
+  "posts_read": 112,
+  "estimated_cost_usd": 0.56,
+  "files": [
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924220202-a1-p001.jsonl.gz",
+      "bytes": 24340,
+      "posts": 86
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924220202-a1-p002.jsonl.gz",
+      "bytes": 7685,
+      "posts": 25
+    }
+  ],
+  "status": "ok",
+  "error": null
+}

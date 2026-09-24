@@ -1,0 +1,75 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T21:58:21.679Z",
+  "account": "deerpointmacro",
+  "profile": {
+    "beat": "Rates, credit spreads and macro data: Treasury funding and front-end pass-through, the forward OIS path, inflation breadth, labor-market flow measures, EM/Indonesian quasi-sovereign credit, and credit fundamentals of leveraged AI-infrastructure borrowers such as Oracle and HY data-center issuers.",
+    "style": "Analytical, credit-analyst framing built on leverage, coverage, maturities and spread relative value. Expresses positions mostly in rates and credit instruments (receive UK 2y swaps versus the U.S., PERTIJ decompression versus INDON) rather than equities, and explicitly disclaims equity expertise when it strays into stocks. Views are conditional and hedged, with only occasional crisp positioning lines.",
+    "cadence": "Roughly one or two substantial original posts per day, often with a chart link, plus conversational replies. Longer multi-paragraph threads for single-issuer credit work (Oracle, Celara) and short one-liners on market moves.",
+    "revisits": "Revisits Oracle in a follow-up reply defending the financing-stress view against a positive-FCF counterargument (2103126077384061181, 2103240965498589526). Returns to rate-path pricing across 2102843880466968612, 2102849261889372351 and 2102890854692364295, concluding the hawkish repricing is overdone.",
+    "caveats": "Primarily a rates and credit account; equity stances are few and derived from credit analysis. The Tyson view is hedged by the author's own disclaimer that he is not an equity guy. Sector-level allocation reply (2102405295913980140) names sectors not tickers and is not mapped to symbols. Bond and swap trades (PERTIJ, UK 2y swaps, Celara bonds) have no equity ticker. Charts are unavailable in this text-only bundle."
+  },
+  "narrative": "The week is dominated by a higher-for-longer rates backdrop and its consequences for leveraged borrowers. Early posts argue that tightening pushes an oil shock into margins rather than persistent inflation, that heavy T-bill reliance makes federal interest expense quickly sensitive to policy rates, and that inflation is broad but well short of 2022 extremes. By 2026-09-22 the author turns to labor, arguing flow-consistent unemployment and narrowing hiring breadth mean markets may be mispricing labor-market risk, and lays out a defensive allocation (short bonds, small caps, homebuilders, financials; own energy, tobacco, materials, tech). On 2026-09-23 he notes a sharp 10-year selloff and higher swaption vol, proposes receiving UK 2y versus U.S. on BoE divergence, and questions AI productivity gains so far. On 2026-09-24 he judges the OIS hawkishness overpriced while publishing a detailed bearish credit case on Oracle, where higher refinancing costs, heavy capex and negative FCF risk a feedback loop, and defends it in replies. Credit skepticism toward AI infrastructure runs through the window, from HY data centers underperforming hyperscalers to Celara's stretched bond valuations.",
+  "picks": [
+    {
+      "symbol": "ORCL",
+      "direction": "short",
+      "prospect": "Oracle's credit keeps weakening as refinancing at current rates lifts interest expense, compresses margins and coverage, and the author thinks equities are mispricing that risk.",
+      "risk_reward": "Downside case is a self-reinforcing financing loop; the author acknowledges the analysis rests on repricing assumptions and that a much faster RPO conversion, high incremental margins or a capex roll-off would undercut it, but does not state an upside for the stock.",
+      "thesis": "A large fixed-rate debt stack repriced at today's curve raises coupons materially, while elevated capex and deeply negative FCF increase financing needs, leaving the curve wide of BBB and creating a feedback loop of weaker FCF, more borrowing and weaker coverage.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "tech"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-24",
+      "sources": [
+        {
+          "post_id": "2103126077384061181",
+          "quote": "Oracle’s credit selloff is increasingly becoming a fundamental financing story."
+        },
+        {
+          "post_id": "2103126077384061181",
+          "quote": "the risk is a feedback loop: weaker FCF, greater financing needs, higher interest expense, weaker coverage and profitability."
+        },
+        {
+          "post_id": "2103138529895469241",
+          "quote": "think equities might be mispricing this risk across the board."
+        },
+        {
+          "post_id": "2103240965498589526",
+          "quote": "I’m struggling to reconcile the magnitude of the current FCF deficit with a near-term positive FCF-growth assumption without a fairly aggressive change in either earnings growth or capital intensity."
+        }
+      ]
+    },
+    {
+      "symbol": "TSN",
+      "direction": "short",
+      "prospect": "Tyson comes under further pressure as poultry margins compress and guidance leaves little room for error.",
+      "risk_reward": "The author notes beef might rebound and is unsure how much further the stock could fall, and explicitly discounts his own view as a non-equity specialist.",
+      "thesis": "Poultry input-cost inflation plus substitution and elasticity should compress elevated chicken margins, while management already cut operating income and revenue-growth guidance with beef losses.",
+      "time_frame": "swing",
+      "tags": [
+        "catalyst-driven"
+      ],
+      "conviction": 0.3,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2102058838618722696",
+          "quote": "Yet substitution and elasticity, makes me think Tyson should see some margin compression as well. Thinking these guys start to get pressured, but not an equity guy so take it with a grain of salt"
+        },
+        {
+          "post_id": "2102065959959679032",
+          "quote": "Beef might rebound but management does seem cautious not leaving a whole lot for a margin of error for them."
+        }
+      ]
+    }
+  ]
+}

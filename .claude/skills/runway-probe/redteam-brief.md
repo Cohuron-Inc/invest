@@ -6,8 +6,8 @@ Paste this brief and the list of tickers with their verdict lines.
 
 You are the adversary. For each ticker below, the probe has reached a Runway verdict
 with a scenario tree. Your job is to break it using only the evidence already gathered:
-the record at `analysis_output/<WINDOW_END>-runway-data/<TICKER>.json`, `macro.json`,
-`retail.json`, and the corpus analyses in `data/analysis/accounts/`. You may fetch one
+the record at `data/probes/runway/<PROBE_ID>/records/<TICKER>.json`, `macro.json`,
+`retail.json`, and the corpus analyses in `data/corpus/analysis/accounts/`. You may fetch one
 additional page per ticker if a specific fact needs checking; record the URL.
 
 For each ticker return exactly:

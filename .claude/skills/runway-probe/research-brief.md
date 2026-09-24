@@ -55,7 +55,7 @@ Collect, per ticker:
 **Output, two parts.**
 
 First, write one JSON file per ticker to
-`analysis_output/<WINDOW_END>-runway-data/<TICKER>.json` in the exact shape of
+`data/probes/runway/<PROBE_ID>/records/<TICKER>.json` in the exact shape of
 `.claude/skills/runway-probe/record.schema.md`. Leave the `judgment` block absent; the
 main agent fills it. Create the directory if needed. The file is the deliverable; the
 scorecard is computed from it.
@@ -69,3 +69,15 @@ After the table, a "Notes" list of at most ten bullets: every source that was bl
 or lacked a field (URL, ticker, behaviour), figures that conflict between sources, and
 anything material that did not fit. The blocked-source bullets go into the run
 manifest and the registry's failure log. No prose beyond that.
+
+## Forward-quality extension
+
+Read [forward-research.md](forward-research.md) for the eight required forward metrics,
+normalized `forward` record fields, optional API cache commands, missing-data rules
+and verified insider-conviction inputs. This extension is required for every ticker;
+keep its metrics and coverage separate from the legacy total. Older records without
+these fields remain readable but do not establish forward quality or insider coverage.
+
+Collect these fields alongside the existing summary columns; return the forward
+metrics in a separate per-ticker evidence table. Fetch budgets are planning estimates,
+not permission to omit required metrics. Record missing fields and fallback attempts.

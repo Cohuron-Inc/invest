@@ -13,7 +13,16 @@ export const repoRoot = resolve(here, '../..')
  * change to one environment variable - not a migration.
  */
 export function dataRoot(): string {
-  return process.env.INVEST_DATA_ROOT ?? resolve(repoRoot, 'data')
+  return process.env.INVEST_DATA_ROOT ?? resolve(dataDir(), 'corpus')
+}
+
+/**
+ * The single data directory (see data/README.md). The corpus layers live in
+ * <dataDir>/corpus and rendered markdown in <dataDir>/rendered; the market,
+ * research, probe, report and ledger areas are owned by the Claude skills.
+ */
+export function dataDir(): string {
+  return process.env.INVEST_DATA_DIR ?? resolve(repoRoot, 'data')
 }
 
 export function refRoot(): string {
@@ -25,7 +34,7 @@ export function refRoot(): string {
  * data root is: so a test run never writes into the working tree.
  */
 export function outputRoot(): string {
-  return process.env.INVEST_OUTPUT_ROOT ?? repoRoot
+  return process.env.INVEST_OUTPUT_ROOT ?? resolve(dataDir(), 'rendered')
 }
 
 /** Layers that currently have at least one parquet file on disk. */

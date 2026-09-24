@@ -1,0 +1,117 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T21:58:21.667Z",
+  "account": "FeroceResearch",
+  "profile": {
+    "beat": "Semiconductor and memory-cycle commentary (Micron, Astera Labs/CXL, Sandisk) layered on top of broad US equity market-timing calls tied to Fed/FOMC and sentiment, with occasional silver takes.",
+    "style": "Emphatic, promotional conviction language ('you cannot replicate this cycle', 'home-run pitch', 'INCREASE market exposure'). Mostly thematic and sentiment-driven rather than detailed fundamentals; frequently cites target values and past call accuracy. Talks openly about own buying sprees and capital deployment.",
+    "cadence": "Several posts a day: bare ticker one-liners ('micron $mu', 'astera labs $alab') that front chart posts, quote-tweets of own earlier calls, short teaser posts for upcoming content, and replies to followers.",
+    "revisits": "Yes, heavily revisits own earlier calls to claim credit, e.g. the CPU/memory rally call (2102159849211539619, 2102812102977110317) and the FOMC-bottom consensus (2102070857166143752, 2102080646642348501, 2102821591277089126).",
+    "caveats": "Account markets a paid research service with a promo code (2100756736067994090) and repeatedly asserts its own playbook has been accurate without verifiable evidence; self-promotional track-record claims should be discounted. Several price targets appear in replies without a stated ticker."
+  },
+  "narrative": "The window opens right after FOMC week, with the author saying the tone inside his paid service had 'drastically* changed' after two months of telling subscribers to stay patient. From 2026-09-21 he turns outright bullish on the broad market, calling FOMC week the bottom of a major inflection and pointing to elevated AAII bearish sentiment as a squeeze set-up. On the single-name side the arc is a doubling-down on the memory cycle: the next memory trade is 'still the memory trade itself', led by Micron and Astera Labs, with CXL framed as the key byproduct of memory. By 2026-09-23 he reports his largest buying spree since April and urges followers to increase exposure, and on 2026-09-24 says he plans to deploy more capital in the coming days. He also floats cybersecurity and CXL names as emerging strength but only as an open question, and says he is equally bullish on silver into a seasonal window.",
+  "picks": [
+    {
+      "symbol": "MU",
+      "direction": "long",
+      "prospect": "Micron continues to lead an extended memory-cycle rally that other 'next memory trade' candidates cannot replicate.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Memory is the dominant cycle of 2026+; companies with the best memory exposure improve margins and the industry pivot toward memory is happening rapidly.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100759256051986745",
+          "quote": "micron $mu"
+        },
+        {
+          "post_id": "2101814727273828842",
+          "quote": "everyone is trying to find the next memory trade when the next memory trade is literally still the memory trade itself"
+        },
+        {
+          "post_id": "2101814727273828842",
+          "quote": "you can imitate, but you cannot replicate this cycle"
+        },
+        {
+          "post_id": "2102830783467536730",
+          "quote": "2026+ is all about which companies have the best memory exposure to improve margins"
+        }
+      ]
+    },
+    {
+      "symbol": "ALAB",
+      "direction": "long",
+      "prospect": "Astera Labs breaks out further as CXL becomes the next leg of the memory trade.",
+      "risk_reward": "The author never addressed risk; he dismisses skepticism about his target as absurd and calls it a base case.",
+      "thesis": "CXL is the largest byproduct of the memory industry, and Astera Labs is the CXL play; recent breakout from a long sideways range confirms emerging strength.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation",
+        "momentum"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2101814727273828842",
+          "quote": "$MU $ALAB $DRAM $SNDK"
+        },
+        {
+          "post_id": "2102107647675703500",
+          "quote": "astera labs $alab"
+        },
+        {
+          "post_id": "2102160679666868329",
+          "quote": "CXL is next btw"
+        },
+        {
+          "post_id": "2102456587403063449",
+          "quote": "You already know how I feel about CXL being the largest byproduct in the making from the largest industry in the world, which is memory."
+        },
+        {
+          "post_id": "2102456587403063449",
+          "quote": "Some may think $650 is absurd, to that I say, that's just a base case for $ALAB"
+        }
+      ]
+    },
+    {
+      "symbol": "SNDK",
+      "direction": "long",
+      "prospect": "Sandisk participates in the continuing memory-cycle rally.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Grouped with Micron as a core memory-cycle name; the author credits himself with calling the CPU and memory run that lifted Sandisk.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2101814727273828842",
+          "quote": "the next memory trade is literally still the memory trade itself"
+        },
+        {
+          "post_id": "2101814727273828842",
+          "quote": "$MU $ALAB $DRAM $SNDK"
+        },
+        {
+          "post_id": "2102159849211539619",
+          "quote": "Nearly $2T market cap was added into Micron, AMD, Sandisk, and Intel since then"
+        }
+      ]
+    }
+  ]
+}

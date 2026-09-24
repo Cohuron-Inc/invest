@@ -1,0 +1,30 @@
+{
+  "account": "stocktalkweekly",
+  "profile": {
+    "beat": "Market news, geopolitical risk, Treasury yields and equity valuation pressure.",
+    "style": "Mixes all-caps news alerts with personal macro interpretations and conversational replies. A single named holding receives a direct business-quality defense.",
+    "cadence": "Intermittent substantive posts followed by many social replies around a follower milestone.",
+    "revisits": "Returns to yield breakout and reversal conditions in 2098067885016928313, 2099521694687711337 and 2100655710799360110.",
+    "caveats": "Most named companies appear only in factual news alerts. Chart-only replies lack enough text to identify an instrument or thesis. The early expectation that the Fed would avoid hiking is contradicted by the later reported decision."
+  },
+  "narrative": "The window centers on rising yields, war-related inflation and their potential pressure on equities. The author argues that the direction of yields matters more than their absolute level. Early commentary doubts the Fed will hike, while later posts relay the actual hike. By the end the author sees an opportunity for softer oil to support bonds if the war ends. Enersys is the one directly defended holding, despite acknowledged weakness.",
+  "picks": [
+    {
+      "symbol": "ENS",
+      "direction": "long",
+      "prospect": "The author continues to defend the holding as a healthier business than speculative peers.",
+      "risk_reward": "The author acknowledges the stock has suffered a substantial drawdown without supplying an explicit exit plan.",
+      "thesis": "A direct reply identifies the company as a personal holding and emphasizes business legitimacy.",
+      "time_frame": "position",
+      "tags": [],
+      "conviction": 0.6,
+      "first_seen": "2026-09-17",
+      "sources": [
+        {
+          "post_id": "2100415030973890855",
+          "quote": "@AtlasShrug1 Thanks for not tagging my $ENS 😅\n\nAlthough it too has sucked lately, and taken a big drawdown from the highs, it's a more legit/healthy business than the ones you named here..."
+        }
+      ]
+    }
+  ]
+}

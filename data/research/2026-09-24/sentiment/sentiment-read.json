@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-09-24",
+  "corpus_last_day": "2026-09-18",
+  "caveat": "The corpus ends 2026-09-18, six days before the read. It misses the post-hike selloff in the long end and the 24 September Yanbu strike. Tone is lexicon-graded; no LLM tone pass was run.",
+  "themes": [
+    {"id": "semis", "read": "The loudest theme: 152 posts in 7 days from 8 accounts, 22 long / 1 short formal stances at 0.77 conviction. Heating, broadly bullish, driven by NVDA news flow rather than new theses", "labels": ["heating"], "evidence_post_ids": ["2099935332481585633", "2099573667760152762"]},
+    {"id": "semi_memory", "read": "The highest-conviction heat: 2.1x velocity, the most bullish tone of the big themes (+0.26), anchored on memory pricing (Q1 2027 DRAM and NAND +30-40%). TheLongInvest is short MU, so it is not unanimous", "labels": ["heating"], "evidence_post_ids": ["2099688747814228058", "2099850360487637313"]},
+    {"id": "neocloud_datacenter", "read": "Still well covered (70 posts, 9 long / 0 short) while price lags by 16pp: the allowlist is holding a story the tape is fading", "labels": [], "evidence_post_ids": ["2099463497885286885", "2099129098643910985"]},
+    {"id": "energy", "read": "Heating (2.7x) on oil at $109 and war headlines, but no formal picks. Attention without positioning: the accounts talk oil as macro, not as a trade", "labels": ["heating"], "evidence_post_ids": ["2099261742182244769"]},
+    {"id": "gold_miners", "read": "Heating (2.3x), led by TheLongInvest's silver thesis, while the basket is -14% in a month: crowd against tape", "labels": ["heating"], "evidence_post_ids": ["2099824222117806259", "2098745988663963810"]},
+    {"id": "cybersecurity", "read": "Heating (2.0x) and in step with the strongest basket on price; the CRWD AI-attack narrative", "labels": ["heating"], "evidence_post_ids": ["2099327530436374532", "2099902572207501550"]},
+    {"id": "glp1_obesity", "read": "Cooling (0.45x): attention has left GLP-1 while price has quietly improved over 1m", "labels": ["cooling"], "evidence_post_ids": []},
+    {"id": "space", "read": "Relative velocity 0.77 despite the highest formal conviction (0.85): holders are staying quiet in a drawdown", "labels": [], "evidence_post_ids": ["2099264986652827813", "2099830009875837327"]}
+  ],
+  "symbols": [
+    {"symbol": "NVDA", "read": "79 posts, 5 long / 0 short, mostly news relays; consensus long", "evidence_post_ids": ["2099935332481585633"]},
+    {"symbol": "MU", "read": "71 posts, 2.6x velocity, 5 long / 1 short (TheLongInvest); the corpus's top conviction into the 30 September print", "evidence_post_ids": ["2099850360487637313"]},
+    {"symbol": "NBIS", "read": "36 posts, 6 long / 0 short; the most-held neocloud while its basket lags", "evidence_post_ids": []},
+    {"symbol": "META", "read": "27 posts, 4 long / 1 short; the subscription layer (Meta One) is the new leg, and price agrees (+36% in a month)", "evidence_post_ids": ["2099877973495349704"]},
+    {"symbol": "SNDK", "read": "Heating and contested: 3 long / 1 short", "evidence_post_ids": []}
+  ],
+  "divergences": [
+    "Neoclouds: the allowlist is long (9/0) and still talking about them, while the basket is -16pp vs QQQ over 3m with breadth at 33%. The story leads the price, a distribution risk",
+    "Gold and silver: attention is heating while the basket falls 14% in a month",
+    "Memory: heating attention and improving price agree; Micron on 30 September is the resolving event",
+    "GLP-1: attention cooling while price is improving, a possible neglected turn"
+  ]
+}

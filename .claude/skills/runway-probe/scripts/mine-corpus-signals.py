@@ -13,6 +13,10 @@ import json
 import os
 import re
 import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "tools"))
+import paths  # noqa: E402
 
 ANALYST = re.compile(
     r"upgrad|downgrad|initiat|price target|\bPT\b|\btarget\b|overweight|outperform|"
@@ -33,7 +37,7 @@ def mentions(ticker: str, text: str) -> bool:
 
 def main(tickers: list[str]) -> None:
     hits: dict[str, list[tuple]] = {t: [] for t in tickers}
-    for path in sorted(glob.glob("data/_session/*.posts.jsonl")):
+    for path in sorted(glob.glob(str(paths.session() / "*.posts.jsonl"))):
         handle = os.path.basename(path).split(".")[0]
         with open(path, encoding="utf-8") as fh:
             for line in fh:
@@ -53,6 +57,6 @@ def main(tickers: list[str]) -> None:
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2 or not os.path.isdir("data/_session"):
+    if len(sys.argv) < 2 or not paths.session().is_dir():
         sys.exit("usage (from repo root, after `pnpm task:session-dump`): mine-corpus-signals.py TICKER [TICKER ...]")
     main([a.upper() for a in sys.argv[1:]])

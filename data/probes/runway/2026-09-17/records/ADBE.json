@@ -1,0 +1,304 @@
+{
+  "ticker": "ADBE",
+  "probe_tier": "core",
+  "fetched_at": "2026-09-17T23:17:29.426406+00:00",
+  "price": {
+    "close": {
+      "value": 252.67,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "high_52w": {
+      "value": 370.86,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "low_52w": {
+      "value": 190.12,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "sma50_pct": {
+      "value": -1.12,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "sma200_pct": {
+      "value": -4.78,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "perf_1m_pct": {
+      "value": -3.98,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "perf_3m_pct": {
+      "value": 28.73,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "structure": {
+      "value": "base",
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "print_gap_held": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: daily post-print history was not fetched"
+    }
+  },
+  "consensus": {
+    "label": {
+      "value": "Hold",
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17",
+      "note": "Finviz recommendation score mechanically mapped; not a count of ratings"
+    },
+    "analysts": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found in the persisted Finviz snapshot"
+    },
+    "pt_avg": {
+      "value": 268.91,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "pt_high": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "pt_low": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "pt_avg_alt": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "actions_60d": {
+      "value": [],
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    }
+  },
+  "earnings": {
+    "print_date": {
+      "value": "2026-09-10",
+      "source": "https://x.com/StockSavvyShay/status/2098141963673604435",
+      "as_of": "2026-09-17"
+    },
+    "revenue_actual": {
+      "value": 6.76,
+      "source": "https://x.com/StockSavvyShay/status/2098141963673604435",
+      "as_of": "2026-09-17"
+    },
+    "revenue_estimate": {
+      "value": 6.7,
+      "source": "https://x.com/StockSavvyShay/status/2098141963673604435",
+      "as_of": "2026-09-17"
+    },
+    "eps_actual": {
+      "value": 6.13,
+      "source": "https://x.com/StockSavvyShay/status/2098141963673604435",
+      "as_of": "2026-09-17"
+    },
+    "eps_estimate": {
+      "value": 6.09,
+      "source": "https://x.com/StockSavvyShay/status/2098141963673604435",
+      "as_of": "2026-09-17"
+    },
+    "guide": {
+      "value": "held",
+      "source": "https://x.com/StockSavvyShay/status/2098141963673604435",
+      "as_of": "2026-09-17",
+      "note": "guide above consensus; change versus prior guide not established"
+    },
+    "revisions_30d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "revisions_90d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "fcf_ttm": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "net_income_ttm": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    }
+  },
+  "prospect": {
+    "case": {
+      "value": "AI-first ARR growth can reaccelerate a mature, highly cash-generative software franchise.",
+      "source": "/home/rabin/projects/invest/data/analysis/runs/2026-09-17/evidence/summary.md",
+      "as_of": "2026-09-17"
+    },
+    "visibility": {
+      "value": "reported",
+      "source": "/home/rabin/projects/invest/data/analysis/runs/2026-09-17/evidence/summary.md",
+      "as_of": "2026-09-17"
+    }
+  },
+  "competition": {
+    "fwd_pe": {
+      "value": 9.11,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "ev_sales": {
+      "value": 3.91,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "roic_ttm_pct": {
+      "value": 43.25,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17",
+      "note": "trailing proxy; not forward ROIC"
+    },
+    "operating_margin_ttm_pct": {
+      "value": 36.35,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17",
+      "note": "trailing proxy; not forward margin"
+    },
+    "p_fcf_ttm": {
+      "value": 9.77,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "peg_aggregator": {
+      "value": 0.62,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17",
+      "note": "aggregator methodology; used only as a proxy"
+    }
+  },
+  "insiders": {
+    "coverage_complete": false,
+    "buys_90d": {
+      "value": [],
+      "source": null,
+      "as_of": "2026-09-17",
+      "note": "full issuer Form 4 coverage not completed"
+    },
+    "sells_90d": {
+      "value": [],
+      "source": null,
+      "as_of": "2026-09-17",
+      "note": "full issuer Form 4 coverage not completed"
+    },
+    "finviz_net_change_pct": {
+      "value": -7.48,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    }
+  },
+  "institutions": {
+    "quarter_end": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "13F vintage not established"
+    },
+    "net_shares": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "holders_up": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "holders_down": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "holders_new": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "holders_exited": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "named_adds": {
+      "value": [],
+      "source": null,
+      "as_of": "2026-09-17",
+      "note": "not found"
+    },
+    "named_exits": {
+      "value": [],
+      "source": null,
+      "as_of": "2026-09-17",
+      "note": "not found"
+    },
+    "short_pct_float": {
+      "value": 4.38,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17"
+    },
+    "finviz_inst_change_pct": {
+      "value": -1.36,
+      "source": "https://finviz.com/quote.ashx?t=ADBE",
+      "as_of": "2026-09-17",
+      "note": "secondary directional proxy; not used as the 13F gate"
+    }
+  },
+  "catalysts": {
+    "value": [],
+    "source": null,
+    "as_of": "2026-09-17",
+    "note": "not confirmed from issuer calendars"
+  },
+  "judgment": {
+    "prospect_pts": 6,
+    "prospect_why": "AI-first ARR growth can reaccelerate a mature, highly cash-generative software franchise.",
+    "competition_pts": 5,
+    "competition_why": "Scored from current operating economics and the corpus thesis.",
+    "macro_fit_pts": 5,
+    "macro_fit_why": "Higher rates and oil penalize long-duration, cash-burning models.",
+    "narrative_pts": 6,
+    "narrative_why": "Scored from corpus convergence and harmony with current reported economics."
+  },
+  "forward": {
+    "periods_aligned": false,
+    "fy1": {},
+    "fy2": {},
+    "valuation": {},
+    "revisions": {},
+    "ratings": {}
+  }
+}

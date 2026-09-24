@@ -1,0 +1,171 @@
+{
+  "account": "JaguarAnalytics",
+  "profile": {
+    "beat": "Thematic equities, cybersecurity, healthcare innovation and event-driven trades alongside macro commentary.",
+    "style": "Uses direct bullish endorsements, selective position disclosures and promotional previews of paid research. Distinguishes tactical trades from core holdings.",
+    "cadence": "Short public posts, replies, links to research and occasional trade updates.",
+    "revisits": "Cybersecurity ETF conviction repeats in 2097318277697388824, 2098099072200495605 and 2099540912208597449. Unnamed semiconductor rentals are opened then closed within the window.",
+    "caveats": "Many detailed arguments are behind links or images not included in the bundle. Unnamed trade baskets and rhetorical bottom-calling comments are insufficient for ticker attribution. Public research-store promotion can emphasize successful themes."
+  },
+  "narrative": "The account combines caution on oil, yields and policy with strong conviction in cybersecurity. Meta is explicitly described as the preferred large technology purchase. The author distinguishes a tactical Rocket Lab position from a core holding and references Neutron as a catalyst. Unnamed semiconductor trades are closed after a short recovery, but their tickers cannot be inferred. Near the end, the author turns attention to Generac’s Amazon agreement and expresses strong enthusiasm for Tempus conference takeaways. The Saudi ETF receives a contrary bearish geopolitical view despite a resilient chart.",
+  "picks": [
+    {
+      "symbol": "BUG",
+      "direction": "long",
+      "prospect": "Cybersecurity demand can benefit from intensifying AI-enabled security threats.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author repeatedly endorses the ETF and favors its focused cybersecurity composition.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.91,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097318277697388824",
+          "quote": "Bullish for Cybersecurity ETF $BUG \n\nhttps://t.co/0ENxCrSJVB https://t.co/oACl2E1AVg"
+        },
+        {
+          "post_id": "2098099072200495605",
+          "quote": "Bullish for … yes, you guessed it. Cybersecurity ETF $BUG https://t.co/EifNa155v3"
+        },
+        {
+          "post_id": "2099540912208597449",
+          "quote": "People always ask me why I prefer $BUG over $CIBR. Check out performance today. BUG is up +10% and CIBR is up +6%. That's a lot of delta. The key difference is composition. BUG is pure play on cybersecurity, while CIBR holds other stuff.\n\nLeft: BUG. Right: CIBR. https://t.co/Xar8oPcrLf"
+        },
+        {
+          "post_id": "2099594176702619853",
+          "quote": "$BUG For those who still don't fully grasp why every frontier lab CEO is talking about the need to slow it down, read this note I wrote on August 24th --- A 4.9x increase in high-severity disclosures and a 10.7x increase in critical disclosures in the span of four months. https://t.co/h7PugRZZCj https://t.co/njbZEJohCl"
+        }
+      ]
+    },
+    {
+      "symbol": "META",
+      "direction": "long",
+      "prospect": "The company has multiple AI growth opportunities and is the author’s preferred large technology purchase.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Muse is presented as one of several growth avenues, with the market allegedly repeating earlier skepticism toward Google.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097631673894461701",
+          "quote": "Good Morning! ☀️ \n\nIn case you missed, here is how $META goes to $1,000/sh. The best Mag-8 to buy. Muse release is just one of many shots at the goal the company has. Meta is where Google was 2 years ago when everyone was saying “Search is dead”.\n\nhttps://t.co/WQy6U9k7pn https://t.co/kBBPwxXpI5"
+        }
+      ]
+    },
+    {
+      "symbol": "CMPS",
+      "direction": "long",
+      "prospect": "The author expresses a bullish view without an accessible text explanation.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The supporting catalyst is behind the linked material and cannot be recovered from this bundle.",
+      "time_frame": "position",
+      "tags": [
+        "speculative"
+      ],
+      "conviction": 0.56,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097424139027915207",
+          "quote": "Bullish for Compass Pathways $CMPS https://t.co/kQBq4tScYf"
+        }
+      ]
+    },
+    {
+      "symbol": "RKLB",
+      "direction": "long",
+      "prospect": "A separate tactical position seeks upside while a core holding remains in place.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author highlights space-technology spillovers and watches Neutron progress as a potential catalyst.",
+      "time_frame": "swing",
+      "tags": [
+        "innovation",
+        "speculative",
+        "catalyst-driven"
+      ],
+      "conviction": 0.83,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097491943471063230",
+          "quote": "Last week I talked with clients extensively about just how many great inventions NASA labs have created over time that sprung into life as whole industries — a huge byproduct of space tech R&amp;D.\n\nWell, $RKLB just gave you one as well.\n\nhttps://t.co/LPGIDrSUEv https://t.co/yfYWjD73ME"
+        },
+        {
+          "post_id": "2100222439414247774",
+          "quote": "$RKLB Separate position from core holding. Let’s see if I can make +$50k on this soon.\n\nWhen is Neutron moving to the pad? @RADHardTech @BlackScholesMan https://t.co/LGwlJHHpp7"
+        }
+      ]
+    },
+    {
+      "symbol": "TEM",
+      "direction": "long",
+      "prospect": "The author expects the positive response to management’s conference presentation to continue.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author explicitly calls the conference takeaways very bullish; detailed fundamentals are in linked material outside the text bundle.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.84,
+      "first_seen": "2026-09-17",
+      "sources": [
+        {
+          "post_id": "2100593346490016218",
+          "quote": "$TEM It is continuation of the move since management presentation at Morgan Stanley conference earlier this week. Here is one pager I put together as my takeaways. Very bullish!\n\nhttps://t.co/HAonCi2DCd https://t.co/ojxFEHrnDX"
+        }
+      ]
+    },
+    {
+      "symbol": "GNRC",
+      "direction": "long",
+      "prospect": "A large data-center backup-power agreement materially expands the perceived business opportunity.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author emphasizes the scale of the Amazon contract relative to the company.",
+      "time_frame": "position",
+      "tags": [
+        "catalyst-driven"
+      ],
+      "conviction": 0.66,
+      "first_seen": "2026-09-17",
+      "sources": [
+        {
+          "post_id": "2100322361434153085",
+          "quote": "$GNRC Generac -- Wow! +20% after hours.\n\nForms pact with Amazon; Issues Amazon warrant for up to 1.69M shares at $200.93/shr (~2.9% of outstanding shares); $2.4B initial generator deliveries expected in 2027-28 - filing\n\n-- 307,954 warrant shares vested immediately; remaining shares vest in tranches based on aggregate payments for backup power generators for Amazon data centers, up to $8B.\n\n-- Amazon may exercise the warrant for cash or cashlessly through Sept 16th, 2033; initial beneficial ownership limit is 4.999%.\n\n-- Executed a long-term supply agreement with Amazon and granted registration rights for the warrant shares."
+        },
+        {
+          "post_id": "2100323032220741800",
+          "quote": "This is massive $8 billion contract for $GNRC to supply backup generators to Amazon data centers vs. its market cap of $10 billion."
+        }
+      ]
+    },
+    {
+      "symbol": "KSA",
+      "direction": "short",
+      "prospect": "The author expects geopolitical conditions to pressure the Saudi equity ETF.",
+      "risk_reward": "The author explicitly notes that the chart has not behaved as the bearish geopolitical thesis would suggest.",
+      "thesis": "The author believes the chart is inconsistent with geopolitical risks.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.45,
+      "first_seen": "2026-09-15",
+      "sources": [
+        {
+          "post_id": "2099888697533473202",
+          "quote": "Saudi Arabia $KSA  -- Not sure what's holding this chart. It should be collapsing as far as geopolitics are concerned. https://t.co/K9YyJzirML"
+        }
+      ]
+    }
+  ]
+}

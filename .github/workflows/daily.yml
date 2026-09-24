@@ -52,7 +52,7 @@ jobs:
         run: |
           set -euo pipefail
           pnpm task:capture
-          posts=$(cat data/raw/*/_manifest-*.json | jq -s 'map(.posts_read) | add // 0')
+          posts=$(cat data/corpus/raw/*/_manifest-*.json | jq -s 'map(.posts_read) | add // 0')
           echo "posts_read=${posts}" >> "$GITHUB_OUTPUT"
 
       # Durability before the commit is attempted. If the runner dies between
@@ -62,7 +62,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: raw-${{ github.run_id }}-${{ github.run_attempt }}
-          path: data/raw/
+          path: data/corpus/raw/
           retention-days: 90
           if-no-files-found: ignore
 
@@ -71,7 +71,7 @@ jobs:
           set -euo pipefail
           git config user.name "invest-bot"
           git config user.email "noreply@cohuron.com"
-          git add data/raw
+          git add data/corpus/raw
           if git diff --cached --quiet; then
             echo "::notice::no new raw data"
             exit 0
@@ -117,7 +117,7 @@ jobs:
           set -euo pipefail
           git config user.name "invest-bot"
           git config user.email "noreply@cohuron.com"
-          git add data daily tickers INDEX.md
+          git add data
           if git diff --cached --quiet; then
             echo "::notice::nothing derived changed"
             exit 0

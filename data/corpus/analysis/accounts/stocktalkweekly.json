@@ -1,0 +1,68 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T21:58:21.680Z",
+  "account": "stocktalkweekly",
+  "profile": {
+    "beat": "A SMID-cap focused single-stock trader who also posts about macro (the 10-year yield, the Iran war, Treasury buybacks) and the AI model and agentic-commerce landscape. Portfolio alerts go to a paid community, so public posts show only part of his positioning.",
+    "style": "Mostly headline relays in all caps and macro commentary. Position talk is usually after the fact, with screenshots of entries (DT, AKAM) rather than theses given in advance. He calls himself a single-stock player who 'dances with the music', keeps meaningful cash, and says he has no view on the broad market. Long essays on AI industry structure are not tied to specific tickers.",
+    "cadence": "High volume, mostly replies and banter, with several all-caps news headlines each day (Iran, Trump at the UN, AI). A few long original essays (frontier-lab gatekeeping on 2026-09-23, agentic commerce on 2026-09-24) and occasional trade recaps with screenshots.",
+    "revisits": "Yes. On DT he recaps his earlier earnings play and his re-entry and upsizing in August (2102778559198892525). On AKAM he points back to his original thesis from August 12 and a re-entry alerted the day before the Anthropic deal (2103226017867264470).",
+    "caveats": "Actual entries and exits are alerted behind a paywall, and the new position opened on 2026-09-22 against agentic-commerce risk was never named in public. Trade recaps come after the move, with timing he highlights himself ('Talk about timing...'), so they are open to survivorship bias. Most posts relay headlines or other people's research (the BDC and VIAV analyst notes) rather than his own calls."
+  },
+  "narrative": "For this window, the account's main theme is macro: he argues again and again that the 10-year yield rising toward and above 5% comes from the Iran war and Hormuz-driven inflation expectations. He also argues that Fed hikes and Treasury buybacks cannot fix this, and that only ending the war will ('The market is literally screaming at the top of its lungs: \"END THE WAR\"'). He relays a steady stream of Iran negotiation headlines and treats each one as a market-moving event. At the same time he sees chart repair across single stocks from 2026-09-21. He points to hardware and software rising together as a hoped-for bull scenario, while he keeps a meaningful cash buffer. On AI, he ranks OpenAI's Astra above Fable for research efficiency. He also argues that frontier labs will eventually gatekeep their best models, and that agentic commerce justifies multiple compression for consumer-facing platform merchants. His own named positions are few: DT, held since August with strong relative strength, and a re-entry into AKAM that the Anthropic cloud deal validated right away. His view on yields does not change during the window. His equity stance becomes somewhat more constructive after 2026-09-21 but stays hedged.",
+  "picks": [
+    {
+      "symbol": "AKAM",
+      "direction": "long",
+      "prospect": "Expects Akamai's technology and infrastructure suite to become more relevant as AI workloads move to distributed cloud, and the Anthropic commitment was the kind of validation he expected.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The relevance of Akamai's technology and infrastructure suite is increasing. He first published this thesis in August, re-entered the day before the Anthropic deal was announced, and treats the deal as confirmation.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "catalyst-driven"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-25",
+      "sources": [
+        {
+          "post_id": "2103226017867264470",
+          "quote": "Just YESTERDAY I alerted my re-entry into $AKAM (after publishing my original thesis back on August 12th) citing that the relevance of their technology"
+        },
+        {
+          "post_id": "2103226017867264470",
+          "quote": "Then, today, we get this Anthropic headline. Screenshot below. Talk about timing..."
+        }
+      ]
+    },
+    {
+      "symbol": "DT",
+      "direction": "long",
+      "prospect": "Expects Dynatrace to keep trending higher with relative strength, and holds the position.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "After a profitable earnings trade, he re-entered and added to the position. He says the stock has been cruising with great relative strength, and he calls it stress-free.",
+      "time_frame": "swing",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102778559198892525",
+          "quote": "Dynatrace $DT has been a stress-free stock."
+        },
+        {
+          "post_id": "2102778559198892525",
+          "quote": "and further upsized on 8/27. Screenshots attached. Stock has been cruising since, with great relative strength."
+        }
+      ]
+    }
+  ]
+}

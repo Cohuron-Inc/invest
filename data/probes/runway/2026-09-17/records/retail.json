@@ -1,0 +1,104 @@
+[
+  {
+    "symbol": "ADBE",
+    "accounts": 0,
+    "posts": 0,
+    "stances": ""
+  },
+  {
+    "symbol": "ORCL",
+    "accounts": 0,
+    "posts": 0,
+    "stances": ""
+  },
+  {
+    "symbol": "UBER",
+    "accounts": 0,
+    "posts": 0,
+    "stances": ""
+  },
+  {
+    "symbol": "DERM",
+    "accounts": 1,
+    "posts": 1,
+    "stances": "LogicalThesis:long:0.9"
+  },
+  {
+    "symbol": "BDSX",
+    "accounts": 1,
+    "posts": 1,
+    "stances": "LogicalThesis:long:0.8"
+  },
+  {
+    "symbol": "CIEN",
+    "accounts": 0,
+    "posts": 0,
+    "stances": ""
+  },
+  {
+    "symbol": "NVDA",
+    "accounts": 4,
+    "posts": 4,
+    "stances": "StockSavvyShay:long:0.9 FeroceResearch:long:0.9 MarcosMillaYT:long:0.9 TheLongInvest:neutral:0.8"
+  },
+  {
+    "symbol": "META",
+    "accounts": 4,
+    "posts": 4,
+    "stances": "StockSavvyShay:long:1.0 FeroceResearch:long:0.7 JaguarAnalytics:long:0.9 RealJGBanks:long:0.8"
+  },
+  {
+    "symbol": "MU",
+    "accounts": 4,
+    "posts": 4,
+    "stances": "StockSavvyShay:long:0.7 FeroceResearch:long:1.0 MarcosMillaYT:long:1.0 TradexWhisperer:long:0.9"
+  },
+  {
+    "symbol": "TSM",
+    "accounts": 3,
+    "posts": 3,
+    "stances": "StockSavvyShay:long:0.7 MarcosMillaYT:long:0.8 TradexWhisperer:long:0.9"
+  },
+  {
+    "symbol": "NBIS",
+    "accounts": 3,
+    "posts": 3,
+    "stances": "StockSavvyShay:long:1.0 TheLongInvest:long:0.8 TradexWhisperer:long:0.7"
+  },
+  {
+    "symbol": "ASTS",
+    "accounts": 2,
+    "posts": 2,
+    "stances": "StockSavvyShay:long:0.8 TheLongInvest:long:1.0"
+  },
+  {
+    "symbol": "TEM",
+    "accounts": 2,
+    "posts": 2,
+    "stances": "StockSavvyShay:long:0.8 JaguarAnalytics:long:0.8"
+  },
+  {
+    "symbol": "RKLB",
+    "accounts": 2,
+    "posts": 2,
+    "stances": "JaguarAnalytics:long:0.8 TradexWhisperer:long:0.7"
+  },
+  {
+    "symbol": "CRDO",
+    "accounts": 2,
+    "posts": 2,
+    "stances": "FeroceResearch:long:0.9 MarcosMillaYT:long:0.9"
+  },
+  {
+    "symbol": "SNDK",
+    "accounts": 3,
+    "posts": 3,
+    "stances": "FeroceResearch:long:0.7 MarcosMillaYT:long:1.0 TradexWhisperer:long:0.7"
+  },
+  {
+    "symbol": "PLTR",
+    "accounts": 2,
+    "posts": 2,
+    "stances": "StockSavvyShay:long:0.9 TradexWhisperer:long:0.7"
+  }
+]

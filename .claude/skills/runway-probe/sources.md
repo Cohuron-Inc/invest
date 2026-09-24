@@ -80,3 +80,11 @@ the discovery.
 | Delivery gate | The gate requires the guide to be held or raised, so a company that does not guide can never pass it. PLPC beat EPS by 86% and rose 30% on the day and still failed. TPL does not guide either. | Treat "no guidance issued as a matter of policy" as neutral and decide the gate on the print and the revision direction alone. |
 | Retail interest | Zero corpus coverage scores 6 to 9 points as "quiet with fundamentals", which is indistinguishable from "the six accounts never mentioned it". Five of eight names in this probe scored on an absent signal. | Return "not covered" and drop the 10 points from the denominator for that name, rather than awarding a contrarian score to silence. |
 | Insider and earnings signals on non-operating instruments | GLD, a commodity trust, scored 3 for "no insider activity found" and 0 for "no print". The four gates do not apply to it at all. | Detect non-operating instruments and route them to a separate, shorter rubric instead of scoring them against equity gates. |
+
+## Forward-quality extension
+
+Read [forward-research.md](forward-research.md) for the eight required forward metrics,
+normalized `forward` record fields, optional API cache commands, missing-data rules
+and verified insider-conviction inputs. This extension is required for every ticker;
+keep its metrics and coverage separate from the legacy total. Older records without
+these fields remain readable but do not establish forward quality or insider coverage.

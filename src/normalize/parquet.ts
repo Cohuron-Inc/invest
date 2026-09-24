@@ -26,6 +26,8 @@ export async function writeParquet(opts: {
   try {
     writeFileSync(staged, opts.rows.map((r) => JSON.stringify(r)).join('\n') + '\n')
     const connection = opts.connection ?? (await (await DuckDBInstance.create()).connect())
+    // JSON inference can strip Z into a naive TIMESTAMP; cast it in UTC.
+    await connection.run("SET TimeZone = 'UTC'")
     const select = Object.entries(opts.columns).map(([name, expr]) => `${expr} AS "${name}"`).join(',\n         ')
     mkdirSync(dirname(opts.outPath), { recursive: true })
     await connection.run(

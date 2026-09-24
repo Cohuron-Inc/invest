@@ -1,0 +1,523 @@
+{
+  "account": "StockSavvyShay",
+  "profile": {
+    "beat": "AI infrastructure, consumer agents, power bottlenecks, semiconductors and selected growth businesses. This extraction covers only the new September window.",
+    "style": "Frequent bullish interpretation of company developments, explicit family-portfolio disclosures and occasional purchase updates. Fundamental narratives dominate, alongside price-action posts and a broad Fibonacci watchlist. The author distinguishes admiration for an opportunity from actually retaining a position.",
+    "cadence": "Numerous daily originals, quote posts, replies and podcast links, with recurring company deep dives and event reactions.",
+    "revisits": "Nebius software economics are revisited in 2099480581545546123 and 2099967301231771795. IREN moves from enthusiasm to execution criticism in 2098482747241340951 and a disclosed exit in 2099478058311004553. Meta is repeatedly confirmed as the top position.",
+    "caveats": "Strong AI thematic concentration and frequent promotion of the author’s podcasts. Many posts relay analyst or management claims rather than independent research; those alone are not treated as personal picks. A purported presidential quote was subsequently identified as invented humor in 2100623569449549965. No complete trade ledger, valuation model or independently verified financial statements are present."
+  },
+  "narrative": "The author consistently views AI demand as constrained by compute, power and infrastructure rather than by the pace of frontier-model improvement. Meta becomes the clearest consumer-agent conviction, with the author identifying it as the top family-portfolio position. Nebius remains a major holding and receives additional buying during the AI selloff, with software and customer workflow increasingly central to the argument. IREN initially attracts enthusiasm, but by September 11 the author is explicitly criticizing capital allocation, execution and communication. On September 14 the author says funds were needed elsewhere and describes potentially reentering IREN, so continued business enthusiasm must not be mistaken for a current holding. Following the reported Fed decision, the author recognizes CoreWeave financing pressure while arguing tight GPU markets support infrastructure economics. The window ends with another Nvidia addition and confirmation of a Tempus holding.",
+  "picks": [
+    {
+      "symbol": "META",
+      "direction": "long",
+      "prospect": "Consumer agents could expand the business from advertising into commerce and services.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Installed consumer relationships and distribution let Muse own more of the journey from discovery to completed transactions.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.98,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097404175529443443",
+          "quote": "$META is making a bigger infrastructure bet with Muse by giving users an always on agent with its own compute environment and browser.\n\nPair that with billions of users and Meta’s identity graph and few AI companies can match that distribution.\n https://t.co/8ieX8rvmw6"
+        },
+        {
+          "post_id": "2097706807066005614",
+          "quote": "I’ve made $META my top Family Portfolio position because I think personal agents are going to become one of the largest consumer AI categories and distribution or installed bases will ultimately decide who wins.\n\nMeta already owns the consumer relationship through Instagram, WhatsApp, Facebook and Marketplace but what I think most people are discounting is that for years $AAPL controlled device layer and sat between Meta and the transaction but in new AI economy you're going to see how Muse starts to change that type of architecture.\n\nI think we’re going to see more examples of your agent shopping, booking travel, comparing prices, managing subscriptions and executing entire workflows inside Meta’s cloud while the phone increasingly becomes interface where those actions get approved.\n\nThats why I think the market could look at Meta very differently 5 years from now as it starts moving from a company that primarily monetizes attention through advertising into a personal AI commerce and services platform that can monetize action."
+        },
+        {
+          "post_id": "2098019101205795114",
+          "quote": "The real $META rerating starts when Muse becomes the layer consumers use before they ever open apps like $AMZN, $UBER or $DASH\n\nOnce the agent controls what gets searched, compared and ultimately bought then Meta starts owning the demand funnel itself and the business looks MUCH bigger than social media plus ads."
+        },
+        {
+          "post_id": "2099944318421348758",
+          "quote": "@VanquishTrader Exactly why $META is my top position in my family portfolio  🙃"
+        },
+        {
+          "post_id": "2100256165603258665",
+          "quote": "@danielnewmanUV @FuturumEquities And the beauty is $META and $NVDA might be the most reasonably valued Mag 7 names 👀"
+        }
+      ]
+    },
+    {
+      "symbol": "NBIS",
+      "direction": "long",
+      "prospect": "Software, enterprise distribution and scarce compute can turn infrastructure expansion into stronger earnings power.",
+      "risk_reward": "The author questions which neocloud advantages remain hardest to replicate as competition increases. The thesis requires deployed capacity and software productivity to translate into earnings.",
+      "thesis": "The author favors the integrated software stack, customer workflow ownership and improving utilization, and adds during the selloff.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.96,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097281025101713419",
+          "quote": "This $PLTR + $NBIS partnership is awesome to see when I’m already such a big fan of both companies and each is around 15% of my family portfolio.\n\nFeels a little like watching two of my kids play together  😅"
+        },
+        {
+          "post_id": "2099478643189895424",
+          "quote": "@FuturumEquities @StockMarketNerd I may or may not be using this latest round of AI FUD to add to $NBIS  😏"
+        },
+        {
+          "post_id": "2099480581545546123",
+          "quote": "What makes $NBIS special is the software and infrastructure wrapped around the GPUs that lets customers train, run and scale AI without building the stack themselves.\n\nIf Nebius can make that hardware more productive while owning more of the customer workflow then each megawatt becomes more valuable and the platform gets harder to replace."
+        },
+        {
+          "post_id": "2099663073573548113",
+          "quote": "The $NBIS, $CRWV and $IREN debate comes down to three very different competitive advantages: \n\n• Nebius is most interesting higher up the stack where software around training, inference and agents could increase value of every megawatt it deploys\n• IREN wins on power access, site development and ability to bring large amounts of AI capacity online efficiently\n• CoreWeave wins on operating experience with proven ability to run massive AI clusters for some of the most demanding customers in the market.\n\nThe real question is which advantage proves hardest to replicate as competition increases."
+        },
+        {
+          "post_id": "2099837782554484794",
+          "quote": "Goldman Sachs expects 2028 to be the inflection year for $NBIS with revenue nearly doubling to $25B while EPS flips from loss to nearly $8 of earnings (30x earnings). \n\nYou can see how its already moving that way with demand visible 24 months out and management saying it could sell all planned 2027 capacity today while keeping room for higher value customers as pricing and contract terms improve.\n\nNebius is also moving beyond raw infrastructure through $PLTR enterprise distribution while customer prepayments help fund growth which sets up 2028 as the year the capacity build starts translating into real earnings power."
+        },
+        {
+          "post_id": "2099967301231771795",
+          "quote": "What I like about $NBIS is that the opportunity goes beyond selling GPU capacity because Aether Soperator and Token Factory help customers get more useful work from the same infrastructure.\n\nEigen AI and Clarifai extend that into inference where better software can lower compute needs and increase what Nebius earns from same installed infrastructure."
+        },
+        {
+          "post_id": "2100336154520547645",
+          "quote": "$NBIS raising prices across both older and newer GPUs while continuing to add capacity is such a strong signal that AI compute demand is still absorbing supply WAY faster than expected.\n\nThe H100 is the best example of this with Nebius raising pricing ~17% years after launch while $NVDA has also pointed to higher H100 rental pricing and firm A100 pricing.\n\nIf Blackwell were quickly making prior generations obsolete then those older GPUs should be getting cheaper... not holding their value or becoming more expensive."
+        },
+        {
+          "post_id": "2100561823162621993",
+          "quote": "The next phase of the $NBIS story is using software to get more out of every GPU already deployed.\n\nThis slide shows how Eigen AI, Clarifai and Tavily sit above infrastructure layer to lower cost per token which should support better pricing, utilization and margins. https://t.co/wBv0SMQCbi https://t.co/bFkeDNoMjC"
+        }
+      ]
+    },
+    {
+      "symbol": "PLTR",
+      "direction": "long",
+      "prospect": "Enterprise adoption can keep expanding as models improve and become interchangeable.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "AIP and Foundry sit above models, with a sovereign infrastructure partnership and exposure to customers applying existing AI capabilities.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.94,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097281025101713419",
+          "quote": "This $PLTR + $NBIS partnership is awesome to see when I’m already such a big fan of both companies and each is around 15% of my family portfolio.\n\nFeels a little like watching two of my kids play together  😅"
+        },
+        {
+          "post_id": "2097677644913668363",
+          "quote": "$PLTR AIP Evolve is built around making the model interchangeable without rebuilding the system.\n\nAs models get cheaper and better Palantir can simply swap what sits underneath while continuing to improve cost and performance.\n https://t.co/VwL8mLfAs5"
+        },
+        {
+          "post_id": "2099174517520363641",
+          "quote": "@GavinSBaker I think this could act like a tax on developing frontier models making companies like $PLTR a lot more attractive since they can keep growing by getting more customers to use the models already available across more of their business."
+        },
+        {
+          "post_id": "2100264361839534332",
+          "quote": "@VanquishTrader Yeah $PLTR is on its way to becoming a $1T company"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "long",
+      "prospect": "Durable compute demand and expanding AI workloads support continued infrastructure leadership.",
+      "risk_reward": "The author acknowledges the argument that higher rates burden borrowing customers but believes tight GPU supply and rental demand help absorb financing costs.",
+      "thesis": "The author argues reusable GPUs, networking integration and global buildouts preserve value, and discloses another addition.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.94,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097140854893003263",
+          "quote": "Jensen Huang says “compute is fungible, durable and highly rentable” because every GPU can keep generating revenue long after its deployed.\n\nThats what makes the AI buildout so powerful since $NVDA is selling productive assets that can be reused across workloads instead of one time hardware."
+        },
+        {
+          "post_id": "2099603755339788390",
+          "quote": "@VanquishTrader $NVDA is going to continue building the infrastructure that could power the global economy for decades."
+        },
+        {
+          "post_id": "2100219606749286678",
+          "quote": "@VanquishTrader Another example of how $NVDA keeps collecting a toll on how AI boxes connect."
+        },
+        {
+          "post_id": "2100256165603258665",
+          "quote": "@danielnewmanUV @FuturumEquities And the beauty is $META and $NVDA might be the most reasonably valued Mag 7 names 👀"
+        },
+        {
+          "post_id": "2100569560667893916",
+          "quote": "AI bears say higher rates are a risk for $NVDA because a lot of its customers borrow to buy GPUs but that completely misses whats actually happening to the value of the GPUs themselves.\n\nAs long as GPU rental prices keep rising then $CRWV, $IREN, $NBIS, $WULF and others can better absorb higher financing costs while Nvidia keeps selling scarce hardware and generating massive cash flow of its own."
+        },
+        {
+          "post_id": "2100574212369109235",
+          "quote": "@FuturumEquities I may or may not have added a little more $NVDA this week 😏"
+        }
+      ]
+    },
+    {
+      "symbol": "ASTS",
+      "direction": "long",
+      "prospect": "Satellite manufacturing and carrier distribution can support a scaled direct-to-mobile constellation.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author explicitly rebuilds a position while tracking manufacturing and European carrier relationships.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation",
+        "speculative"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097075561818722634",
+          "quote": "Europe’s biggest carriers including Deutsche Telekom, Orange, Vodafone and Telefónica are reportedly exploring a joint bid for EU satellite spectrum.\n\nVodafone already has the $ASTS relationship giving it a natural path into Europe’s push for sovereign direct to mobile. https://t.co/TwyzwByr17"
+        },
+        {
+          "post_id": "2097098937966702871",
+          "quote": "@thekookreport Been slowly building my $ASTS position back up after the $SPCX IPO halo effect."
+        },
+        {
+          "post_id": "2097661052276424755",
+          "quote": "$ASTS is scaling BlueBird manufacturing in Texas with more satellites now moving through every stage of production.\n\nThat manufacturing ramp is what starts turning BlueBird into a scaled constellation. https://t.co/KVFohLxNqb"
+        }
+      ]
+    },
+    {
+      "symbol": "TEM",
+      "direction": "long",
+      "prospect": "A broadening healthcare data and testing platform can support sustained growth.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author links expansion across testing, clinical data, pharma licensing and monitoring to management confidence, and confirms an owned family-portfolio position.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.82,
+      "first_seen": "2026-09-15",
+      "sources": [
+        {
+          "post_id": "2099939795330019428",
+          "quote": "$TEM is up more than 10% after management said the company can sustain 25%+ growth for years.\n\nThat confidence comes as Tempus expands into genomic testing clinical data pharma licensing AI models digital pathology and recurring cancer monitoring. https://t.co/rGfPRZjFzk"
+        },
+        {
+          "post_id": "2100588413162594574",
+          "quote": "I currently own a 4% $TEM position in my family portfolio:\n\nhttps://t.co/8sw0dJQSm6"
+        }
+      ]
+    },
+    {
+      "symbol": "QCOM",
+      "direction": "long",
+      "prospect": "Custom inference chips and optical connectivity broaden its AI infrastructure opportunity.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author discloses long-dated bullish options and ties the Amazon partnership to both compute and networking.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097311017802121349",
+          "quote": "$QCOM and $AMZN are teaming up on custom AI data center chips starting with large scale inference for AWS.\n\nThe partnership also reaches into 1.6T optical connectivity giving Qualcomm a path to sell both the compute and the networking around AI workloads. https://t.co/6loIQWySma"
+        },
+        {
+          "post_id": "2097312360101040323",
+          "quote": "$QCOM is up nearly 10% after expanding its multi generational $AMZN AI partnership across custom inference chips and 1.6T optical connectivity.\n\nAmazon also received warrants for ~25M shares adding an equity layer that makes this look much bigger than a one off silicon deal. https://t.co/AxJPzwUS7l https://t.co/PNGG6Yuas8"
+        },
+        {
+          "post_id": "2097361822114595075",
+          "quote": "@VanquishTrader Great news for my 2028 $QCOM leaps 🙃"
+        }
+      ]
+    },
+    {
+      "symbol": "IREN",
+      "direction": "neutral",
+      "prospect": "The business could become a major AI infrastructure beneficiary if management executes, but the author has exited to fund other opportunities.",
+      "risk_reward": "Execution, management communication and discretionary sponsorship spending concern the author while the company raises capital and builds infrastructure. The latest disclosed portfolio action is an exit, not a new purchase.",
+      "thesis": "Scarce power and owned sites support expansion, while better contract economics could increase the value of planned capacity.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "speculative"
+      ],
+      "conviction": 0.64,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097118924102045804",
+          "quote": "@StockMarketNerd $IREN truly has a massive opportunity the next 12-18 months"
+        },
+        {
+          "post_id": "2097134610765521153",
+          "quote": "The next 12 to 18 months could be when scale of the $IREN opportunity finally shows up in the numbers.\n\nThat opportunity is already taking shape as IREN turns scarce power into ~$4B of contracted ARR tied to 2026 capacity with 3-year contract pricing up about 125% and active discussions reaching $25M per IT megawatt."
+        },
+        {
+          "post_id": "2098427704165167224",
+          "quote": "My biggest issue is whether that spending makes sense for $IREN at this stage when its raising substantial capital and still has to deliver a massive infrastructure buildout so why waste some of that treasure chest on sponsorship deals?\n\nAlso need to factor in size of the spending relative to company’s resources because what amounts to pocket change for $ORCL and $AMZN is a much more meaningful allocation for IREN. \n\nI'm still a big fan of their opportunity but I just have skepticism about their priorities and demanding a bit more accountability now going forward."
+        },
+        {
+          "post_id": "2098482747241340951",
+          "quote": "The reason the marketing firm got brought up was this episode was a deep dive into $IREN and when you do the ins and outs of a company then things that would normally be a footnote naturally get discussed (agreed its immaterial for what opportunity is). \n\nI also think people sometimes hear criticism of a company and assume you have turned completely against it when thats really not where I'm with IREN at all if you lsiten to the podcast since I still think opportunity is massive, still think the assets are incredibly valuable and still believe they could become one of the biggest beneficiaries of the AI infrastructure buildout if management executes.\n\nMy frustration is really coming from the fact that I think the opportunity in front of them is so large that  execution and communication should increasingly match it which is why I've been more critical lately (not because AI opportunity has disappeared) and at a certain point I don't want to keep giving management credit for what the assets could become while continuing to underwrite another quarter where contracts are signed but capacity is still coming/important details need to be clarified after the fact.\n\nAnyways I'm still rooting for them and think this can become a big winner if they execute."
+        },
+        {
+          "post_id": "2099478058311004553",
+          "quote": "@Lone2026 I just needed the funds to add elsewhere during this drawdown in the near term but I'm still watching and covering $IREN and could potentially get back in."
+        },
+        {
+          "post_id": "2100621883586887744",
+          "quote": "$IREN doesn't need dramatically more capacity for the 2027 opportunity to get much bigger because higher pricing alone can really change the value of the ~450 MW its already building: \n\n• At $10/W, JPMorgan estimates NPV at negative $6.2B\n• At $15/W, NPV rises to $2.6B\n• At $20/W, NPV jumps to $11.3B\n\nManagement says its already discussing deals near $25/W which is why pricing could ultimately be the much bigger upside lever than capacity."
+        }
+      ]
+    },
+    {
+      "symbol": "CRWV",
+      "direction": "neutral",
+      "prospect": "Strong compute demand supports its operating opportunity while financing remains a material constraint.",
+      "risk_reward": "Higher rates worsen financing costs before new capacity generates revenue; additional convertible financing highlights the funding burden.",
+      "thesis": "The author recognizes large-cluster operating expertise and tight supply, but balances them against capital-intensive expansion.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "speculative"
+      ],
+      "conviction": 0.59,
+      "first_seen": "2026-09-11",
+      "sources": [
+        {
+          "post_id": "2098164932789547477",
+          "quote": "This is really bullish news for the whole neocloud space so $NBIS, $CIFR, $CRWV, $IREN, etc"
+        },
+        {
+          "post_id": "2099663073573548113",
+          "quote": "The $NBIS, $CRWV and $IREN debate comes down to three very different competitive advantages: \n\n• Nebius is most interesting higher up the stack where software around training, inference and agents could increase value of every megawatt it deploys\n• IREN wins on power access, site development and ability to bring large amounts of AI capacity online efficiently\n• CoreWeave wins on operating experience with proven ability to run massive AI clusters for some of the most demanding customers in the market.\n\nThe real question is which advantage proves hardest to replicate as competition increases."
+        },
+        {
+          "post_id": "2100381985663570386",
+          "quote": "The Fed keeping rates higher through 2027 is a real headwind for $CRWV because they already have to build so much capacity well before the revenue shows up where net interest expense alone hit $640M last quarter.\n\nBut $NBIS raising GPU prices ~20% across both older and newer generations while still adding capacity tells us the same AI compute market CoreWeave is selling into remains very tight with demand still absorbing supply faster than expected.\n\nSo I do think the Fed made CoreWeave’s financing burden worse today while Nebius gave us another strong signal that demand needed to support all that investment remains very strong."
+        },
+        {
+          "post_id": "2100542643344404559",
+          "quote": "$CRWV is going back to the capital markets with a proposed $3B convertible senior notes offering.\n\nCoreWeave still has a ton of demand in front of it but funding that growth remains other side of the story as the infrastructure buildout gets a lot more capital intensive. https://t.co/nomU1B40B7 https://t.co/VcKhpCvrRM"
+        },
+        {
+          "post_id": "2100569560667893916",
+          "quote": "AI bears say higher rates are a risk for $NVDA because a lot of its customers borrow to buy GPUs but that completely misses whats actually happening to the value of the GPUs themselves.\n\nAs long as GPU rental prices keep rising then $CRWV, $IREN, $NBIS, $WULF and others can better absorb higher financing costs while Nvidia keeps selling scarce hardware and generating massive cash flow of its own."
+        }
+      ]
+    },
+    {
+      "symbol": "MU",
+      "direction": "long",
+      "prospect": "Memory scarcity and rising content per AI system support revenue opportunity.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author rejects the interpretation that reduced HBM per accelerator necessarily signals weaker demand and instead sees constrained supply.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.72,
+      "first_seen": "2026-09-11",
+      "sources": [
+        {
+          "post_id": "2098400057460715914",
+          "quote": "$NVDA can keep shrinking its compute circuitry but its on-chip memory is struggling to keep up making cache increasingly expensive to expand.\n\nKeeping those chips fed with data requires more advanced memory and packaging giving $MU, $SKHY and $TSM more revenue potential per GPU. https://t.co/yiSi555mZT"
+        },
+        {
+          "post_id": "2098766987874959428",
+          "quote": "This chart looks bearish for $MU and $SKHY until you ask why $NVDA is considering it.\n\n• $AMD MI455X 432GB\n• Nvidia Rubin 288GB\n• Nvidia Rubin Ultra under evaluation 240GB\n• $GOOGL Ironwood ~192GB\n\nNvidia isn't considering less HBM because customers suddenly need less memory but are just designing Rubin Ultra around what SK Hynix, Samsung and Micron can actually deliver which says a lot when the biggest buyer in AI still cannot get all the memory it wants.\n\nThat scarcity could also give AMD a real opening in memory intensive inference where having 432GB per accelerator becomes a pretty big advantage."
+        },
+        {
+          "post_id": "2099688747814228058",
+          "quote": "$AAPL has reportedly accepted Samsung’s Q1 2027 memory pricing with DRAM and NAND roughly 30% to 40% above Q3 levels.\n\nApple accepting those increases is another sign that memory suppliers still have the upper hand on pricing heading into 2027 especially for $MU and $SKHY. https://t.co/OmXtylCf19"
+        },
+        {
+          "post_id": "2099844636714106957",
+          "quote": "$NVDA Rubin BoM shows where the AI dollar is moving as memory now represents 24% of system cost and DRAM alone is larger than HBM: \n\n• GPU excluding HBM 70%\n• DRAM 13%\n• HBM 9%\n• NAND 2%\n• NVLink 2%\n• Cooling 2%\n• Power supply 1%\n• CPU 1%\n\nThat fits the architecture too because Rubin increases memory bandwidth 2.8x versus 2.3x more compute which broadens opportunity across HBM DRAM and NAND for $MU and $SKHY while Nvidia still captures most of the value inside each rack."
+        }
+      ]
+    },
+    {
+      "symbol": "TSM",
+      "direction": "long",
+      "prospect": "Advanced manufacturing and packaging can capture more AI infrastructure value.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author highlights the need to keep processors supplied with data and directly states that the foundry captures substantial value from the buildout.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-11",
+      "sources": [
+        {
+          "post_id": "2098400057460715914",
+          "quote": "$NVDA can keep shrinking its compute circuitry but its on-chip memory is struggling to keep up making cache increasingly expensive to expand.\n\nKeeping those chips fed with data requires more advanced memory and packaging giving $MU, $SKHY and $TSM more revenue potential per GPU. https://t.co/yiSi555mZT"
+        },
+        {
+          "post_id": "2100649108713484538",
+          "quote": "@VanquishTrader Another example how $TSM is capturing so much value from this AI buildout"
+        }
+      ]
+    },
+    {
+      "symbol": "GEV",
+      "direction": "long",
+      "prospect": "Gas generation and electrical infrastructure demand can monetize data-center power bottlenecks.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author identifies turbines as a critical constraint and repeatedly maps new power demand to the company.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-07",
+      "sources": [
+        {
+          "post_id": "2096986282593522065",
+          "quote": "WHO GETS PAID TO TURN AI DATA CENTERS ON\n\nU.S. data centers above 100MW are set to explode this decade but power, interconnects and electrical infrastructure determine how much of that pipeline actually gets built: \n\nWhat gets the data center online\n• $GEV sits at one of hardest bottlenecks with a $176B backlog stretching into 2031 & equipment pricing already more than 20% above Q4 2025\n• $VRT captures ~$3.8M per AI MW from grid to rack & is moving further upstream through UtilityInnovation Group adding behind the meter power that can bypass interconnection delays.\n• $BE attacks same problem differently with onsite fuel cells letting data centers generate power without waiting years for the grid.\n• $FPS sits between the substation & building through switchgear & transformers with utilization still around 30% against capacity being built to support as much as $5B of revenue.\n\nWho already owns the power\n• $IREN, $CIFR, $CORZ, $APLD & $WULF already control power and interconnects from their bitcoin infrastructure which is why IREN could go from 5MW of active AI capacity toward a 480MW target in roughly a year since the scarce asset is energized land.\n• $VST owns generation already connected to grid giving it direct exposure to rising data center power demand while others wait through interconnection queues.\n• $CEG pairs an already interconnected nuclear fleet with hyperscaler demand giving it one of cleanest ways to monetize 24/7 power scarcity through long term contracts.\n\nWhat gets paid inside the rack\n• $ON $NVTS become more important as AI moves toward 800V DC in 2028 since content per rack could rise from ~$15K toward ~$115K as more of the power conversion stack moves inside system.\n• $VICR is one of purest plays on converting and delivering power efficiently close to the processor as rack densities rise.\n\nThe market can announce hundreds of new data centers but a ton of the value accrues to whoever controls the power, interconnects and electrical infrastructure required to make them operational."
+        },
+        {
+          "post_id": "2100650134938001503",
+          "quote": "ERCOT is forecasting Texas electricity demand rising doubling to 145 GW by 2031 which is about ~10 GW per year so meeting that demand requires a lot more power at every step of the chain: \n\n• $VST monetizes generation thats already operating and connected to the Texas grid\n• $GEV supplies gas turbines needed to bring new generation online\n• $BE brings power directly onsite when data centers cannot wait for grid connections\n• $VRT handles power and cooling infrastructure once that electricity reaches data center\n\nEssentially every new gigawatt creates another opportunity across generation, grid access and infrastructure inside the data center."
+        }
+      ]
+    },
+    {
+      "symbol": "VRT",
+      "direction": "long",
+      "prospect": "Power and cooling demand should expand with operational AI data-center capacity.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author sees value from grid-to-rack infrastructure and behind-the-meter capabilities that reduce interconnection delays.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-07",
+      "sources": [
+        {
+          "post_id": "2096986282593522065",
+          "quote": "WHO GETS PAID TO TURN AI DATA CENTERS ON\n\nU.S. data centers above 100MW are set to explode this decade but power, interconnects and electrical infrastructure determine how much of that pipeline actually gets built: \n\nWhat gets the data center online\n• $GEV sits at one of hardest bottlenecks with a $176B backlog stretching into 2031 & equipment pricing already more than 20% above Q4 2025\n• $VRT captures ~$3.8M per AI MW from grid to rack & is moving further upstream through UtilityInnovation Group adding behind the meter power that can bypass interconnection delays.\n• $BE attacks same problem differently with onsite fuel cells letting data centers generate power without waiting years for the grid.\n• $FPS sits between the substation & building through switchgear & transformers with utilization still around 30% against capacity being built to support as much as $5B of revenue.\n\nWho already owns the power\n• $IREN, $CIFR, $CORZ, $APLD & $WULF already control power and interconnects from their bitcoin infrastructure which is why IREN could go from 5MW of active AI capacity toward a 480MW target in roughly a year since the scarce asset is energized land.\n• $VST owns generation already connected to grid giving it direct exposure to rising data center power demand while others wait through interconnection queues.\n• $CEG pairs an already interconnected nuclear fleet with hyperscaler demand giving it one of cleanest ways to monetize 24/7 power scarcity through long term contracts.\n\nWhat gets paid inside the rack\n• $ON $NVTS become more important as AI moves toward 800V DC in 2028 since content per rack could rise from ~$15K toward ~$115K as more of the power conversion stack moves inside system.\n• $VICR is one of purest plays on converting and delivering power efficiently close to the processor as rack densities rise.\n\nThe market can announce hundreds of new data centers but a ton of the value accrues to whoever controls the power, interconnects and electrical infrastructure required to make them operational."
+        },
+        {
+          "post_id": "2100650134938001503",
+          "quote": "ERCOT is forecasting Texas electricity demand rising doubling to 145 GW by 2031 which is about ~10 GW per year so meeting that demand requires a lot more power at every step of the chain: \n\n• $VST monetizes generation thats already operating and connected to the Texas grid\n• $GEV supplies gas turbines needed to bring new generation online\n• $BE brings power directly onsite when data centers cannot wait for grid connections\n• $VRT handles power and cooling infrastructure once that electricity reaches data center\n\nEssentially every new gigawatt creates another opportunity across generation, grid access and infrastructure inside the data center."
+        }
+      ]
+    },
+    {
+      "symbol": "BE",
+      "direction": "long",
+      "prospect": "Onsite power can capture demand from data centers unable to wait for grid connections.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Fuel cells address the author’s central bottleneck: turning announced data centers into energized facilities.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation"
+      ],
+      "conviction": 0.69,
+      "first_seen": "2026-09-07",
+      "sources": [
+        {
+          "post_id": "2096986282593522065",
+          "quote": "WHO GETS PAID TO TURN AI DATA CENTERS ON\n\nU.S. data centers above 100MW are set to explode this decade but power, interconnects and electrical infrastructure determine how much of that pipeline actually gets built: \n\nWhat gets the data center online\n• $GEV sits at one of hardest bottlenecks with a $176B backlog stretching into 2031 & equipment pricing already more than 20% above Q4 2025\n• $VRT captures ~$3.8M per AI MW from grid to rack & is moving further upstream through UtilityInnovation Group adding behind the meter power that can bypass interconnection delays.\n• $BE attacks same problem differently with onsite fuel cells letting data centers generate power without waiting years for the grid.\n• $FPS sits between the substation & building through switchgear & transformers with utilization still around 30% against capacity being built to support as much as $5B of revenue.\n\nWho already owns the power\n• $IREN, $CIFR, $CORZ, $APLD & $WULF already control power and interconnects from their bitcoin infrastructure which is why IREN could go from 5MW of active AI capacity toward a 480MW target in roughly a year since the scarce asset is energized land.\n• $VST owns generation already connected to grid giving it direct exposure to rising data center power demand while others wait through interconnection queues.\n• $CEG pairs an already interconnected nuclear fleet with hyperscaler demand giving it one of cleanest ways to monetize 24/7 power scarcity through long term contracts.\n\nWhat gets paid inside the rack\n• $ON $NVTS become more important as AI moves toward 800V DC in 2028 since content per rack could rise from ~$15K toward ~$115K as more of the power conversion stack moves inside system.\n• $VICR is one of purest plays on converting and delivering power efficiently close to the processor as rack densities rise.\n\nThe market can announce hundreds of new data centers but a ton of the value accrues to whoever controls the power, interconnects and electrical infrastructure required to make them operational."
+        },
+        {
+          "post_id": "2100650134938001503",
+          "quote": "ERCOT is forecasting Texas electricity demand rising doubling to 145 GW by 2031 which is about ~10 GW per year so meeting that demand requires a lot more power at every step of the chain: \n\n• $VST monetizes generation thats already operating and connected to the Texas grid\n• $GEV supplies gas turbines needed to bring new generation online\n• $BE brings power directly onsite when data centers cannot wait for grid connections\n• $VRT handles power and cooling infrastructure once that electricity reaches data center\n\nEssentially every new gigawatt creates another opportunity across generation, grid access and infrastructure inside the data center."
+        }
+      ]
+    },
+    {
+      "symbol": "VST",
+      "direction": "long",
+      "prospect": "Already-connected generation can benefit as electricity demand expands.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author favors the ability to monetize operating power assets while new projects wait for interconnections.",
+      "time_frame": "long_term",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.69,
+      "first_seen": "2026-09-07",
+      "sources": [
+        {
+          "post_id": "2096986282593522065",
+          "quote": "WHO GETS PAID TO TURN AI DATA CENTERS ON\n\nU.S. data centers above 100MW are set to explode this decade but power, interconnects and electrical infrastructure determine how much of that pipeline actually gets built: \n\nWhat gets the data center online\n• $GEV sits at one of hardest bottlenecks with a $176B backlog stretching into 2031 & equipment pricing already more than 20% above Q4 2025\n• $VRT captures ~$3.8M per AI MW from grid to rack & is moving further upstream through UtilityInnovation Group adding behind the meter power that can bypass interconnection delays.\n• $BE attacks same problem differently with onsite fuel cells letting data centers generate power without waiting years for the grid.\n• $FPS sits between the substation & building through switchgear & transformers with utilization still around 30% against capacity being built to support as much as $5B of revenue.\n\nWho already owns the power\n• $IREN, $CIFR, $CORZ, $APLD & $WULF already control power and interconnects from their bitcoin infrastructure which is why IREN could go from 5MW of active AI capacity toward a 480MW target in roughly a year since the scarce asset is energized land.\n• $VST owns generation already connected to grid giving it direct exposure to rising data center power demand while others wait through interconnection queues.\n• $CEG pairs an already interconnected nuclear fleet with hyperscaler demand giving it one of cleanest ways to monetize 24/7 power scarcity through long term contracts.\n\nWhat gets paid inside the rack\n• $ON $NVTS become more important as AI moves toward 800V DC in 2028 since content per rack could rise from ~$15K toward ~$115K as more of the power conversion stack moves inside system.\n• $VICR is one of purest plays on converting and delivering power efficiently close to the processor as rack densities rise.\n\nThe market can announce hundreds of new data centers but a ton of the value accrues to whoever controls the power, interconnects and electrical infrastructure required to make them operational."
+        },
+        {
+          "post_id": "2100650134938001503",
+          "quote": "ERCOT is forecasting Texas electricity demand rising doubling to 145 GW by 2031 which is about ~10 GW per year so meeting that demand requires a lot more power at every step of the chain: \n\n• $VST monetizes generation thats already operating and connected to the Texas grid\n• $GEV supplies gas turbines needed to bring new generation online\n• $BE brings power directly onsite when data centers cannot wait for grid connections\n• $VRT handles power and cooling infrastructure once that electricity reaches data center\n\nEssentially every new gigawatt creates another opportunity across generation, grid access and infrastructure inside the data center."
+        }
+      ]
+    },
+    {
+      "symbol": "NET",
+      "direction": "long",
+      "prospect": "AI agents can expand demand for traffic routing, security and optimization.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author connects cloud-based agent workflows to greater network usage and an established edge developer platform.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.64,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097718825357906092",
+          "quote": "$NET is up more than 10% today as $META Muse momentum spreads into the infrastructure that carries AI agent traffic across web.\n\nIf millions of agents start using cloud based computers to search shop and book for users then Cloudflare gets more traffic to route secure/optimize and we're already seeing how non human traffic already crossed 50% of its network in Q2."
+        },
+        {
+          "post_id": "2098773005291934163",
+          "quote": "10 NAMES MAPPING THE AI CLOUD LANDSCAPE\n\n1. $CRWV combines deep $NVDA integration with software designed to keep massive AI training clusters running efficiently\n\n2. $NBIS combines in-house hardware + software with control over infrastructure and power creating more opportunities to improve efficiency\n\n3. $DOCN makes AI inference and agent development accessible to smaller businesses through a managed cloud platform\n\n4. $IREN combines owned land with a large secured power pipeline giving it a foundation for expanding AI capacity\n\n5. $SHAZ combines regional partnerships with sovereign cloud capabilities to serve customers needing local infrastructure and data control\n\n6. $NET combines AI inference with developer tools, storage and security making it easier to build applications across its edge network\n\n7. Crusoe builds its campuses around available energy aligning data center development with power needed to operate them\n\n8. Lambda specializes in dense GPU clusters with managed software that simplifies training and running AI models\n\n9. $AKAM brings computing, security and content delivery together across an established global network close to customers\n\n10. $FSLY uses lightweight WebAssembly execution to start applications quickly and handle requests close to users"
+        }
+      ]
+    },
+    {
+      "symbol": "DOCN",
+      "direction": "long",
+      "prospect": "Inference-led expansion can improve the business mix as smaller customers build AI applications.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author specifically praises higher-margin inference services and accessible managed infrastructure.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.62,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097385461887205780",
+          "quote": "$DOCN is up nearly 15% after management reiterated 50%+ revenue growth for 2027 and said the current trajectory points to an exit rate north of 50%.\n\nThe beauty is that more of that growth is coming from inference where DigitalOcean is scaling higher margin services. https://t.co/el28Kf5HtX"
+        },
+        {
+          "post_id": "2098773005291934163",
+          "quote": "10 NAMES MAPPING THE AI CLOUD LANDSCAPE\n\n1. $CRWV combines deep $NVDA integration with software designed to keep massive AI training clusters running efficiently\n\n2. $NBIS combines in-house hardware + software with control over infrastructure and power creating more opportunities to improve efficiency\n\n3. $DOCN makes AI inference and agent development accessible to smaller businesses through a managed cloud platform\n\n4. $IREN combines owned land with a large secured power pipeline giving it a foundation for expanding AI capacity\n\n5. $SHAZ combines regional partnerships with sovereign cloud capabilities to serve customers needing local infrastructure and data control\n\n6. $NET combines AI inference with developer tools, storage and security making it easier to build applications across its edge network\n\n7. Crusoe builds its campuses around available energy aligning data center development with power needed to operate them\n\n8. Lambda specializes in dense GPU clusters with managed software that simplifies training and running AI models\n\n9. $AKAM brings computing, security and content delivery together across an established global network close to customers\n\n10. $FSLY uses lightweight WebAssembly execution to start applications quickly and handle requests close to users"
+        }
+      ]
+    }
+  ]
+}

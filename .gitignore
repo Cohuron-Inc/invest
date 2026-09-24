@@ -6,5 +6,14 @@ dist/
 .DS_Store
 
 # Subagent working directory: regenerable from the corpus by `pnpm task:session-dump`.
-# The durable outputs are data/analysis/accounts/ and the picks layer.
-data/_session/
+# The durable outputs are data/corpus/analysis/accounts/ and the picks layer.
+data/corpus/_session/
+
+# Downloaded market data and fetched web pages: free to re-download and large
+# (about 35 MB a day of FRED/Yahoo history). The dated research outputs that cite
+# them are committed. See data/README.md.
+data/market/
+data/cache/
+
+# Python bytecode from the skill scripts.
+__pycache__/

@@ -1,0 +1,361 @@
+{
+  "account": "TradexWhisperer",
+  "profile": {
+    "beat": "AI infrastructure, especially memory manufacturing, foundry economics and agentic AI cybersecurity. Technical trading signals supplement fundamental industry commentary.",
+    "style": "Forceful repeated memory bullishness, detailed manufacturing explanations and skepticism toward bearish analysts. Proprietary colored candles are used for short-term timing and promoted alongside paid subscription seats. Explicit accumulation and long-term holding language distinguish the strongest commitments.",
+    "cadence": "Frequent daily originals, quote posts and conversational replies, with recurring memory updates and indicator promotions.",
+    "revisits": "Repeatedly revisits memory shortage arguments (2098569203418910947, 2100036207111790903), TSMC (2099710942456226108) and a Nebius setup later described as triggering (2100433448330723504).",
+    "caveats": "This is a short incremental window, not two months. Paid indicator marketing and selected success testimonials create promotional bias; images and linked context are unavailable. Analyst assertions and crowd survey names are not independent verification or author picks. DRAM is repeatedly used around Samsung and the memory industry, so it is not treated as a verified investable Samsung ticker here. SKHY identity and venue require resolution before instrument-level research."
+  },
+  "narrative": "The incremental window is dominated by a structural memory-shortage thesis. The author argues that inference and long-context agents make memory demand more durable than a traditional commodity cycle. Technical weakness in Micron brings frustration but no fundamental reversal, and the author later reports continued accumulation. TSMC becomes the clearest cross-architecture beneficiary as the author connects foundry, base dies, advanced packaging and optics. Cybersecurity gains emphasis with explicit long-term commitment to CrowdStrike and Cloudflare. A conditional Nebius chart setup is subsequently reported as triggering. Bearish memory analyst commentary is rejected, while the author maintains that AI safety debates and higher rates will not halt adoption.",
+  "picks": [
+    {
+      "symbol": "MU",
+      "direction": "long",
+      "prospect": "Continued accumulation ahead of earnings and a sustained memory shortage.",
+      "risk_reward": "The author acknowledges weak technical action and reports the bearish oversupply thesis, but rejects an imminent shortage peak. No explicit loss limit is supplied.",
+      "thesis": "AI inference and agent context demand outgrow fab capacity; memory is structurally mispriced relative to cash generation.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation",
+        "value",
+        "catalyst-driven"
+      ],
+      "conviction": 0.94,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097526631204286702",
+          "quote": "$MU $SKHY \n\nI can't fathom how much memory AI agents will need to truly understand the world. How business runs. How physics works. How medicine works in the body, billions of cells, DNA, proteins. Cancer research. Weather prediction...\n\nThe World Is Basically Infinite Context https://t.co/KxDyyAkTM4"
+        },
+        {
+          "post_id": "2098483072606073163",
+          "quote": "ABSURD PEG ratio differences\n\n$MU 0.04\n$SKHY 0.05\n$COST 3.60\n\nDifferent businesses, sure. But the gap is absurd. Micron guides $30B+ FCF next quarter.\nCostco does $2 to $3B.\n\nFree cash flow is the point. The market is paying for the wrong thing. https://t.co/8JMw5Gyo40"
+        },
+        {
+          "post_id": "2098569203418910947",
+          "quote": "$MU $SKHY $DRAM A 32GB RAM kit now costs like a console.\n\n\"Is that sustainable?\" I think that's the wrong question to ask. \n\nMemory got repurposed. It stopped being commodity storage for your PC and became Context Capacity for AI. The trio, SK Hynix, Samsung, Micron, allocates to the highest bidder, and that isn't you.\n\nThe real question is whether supply can ever catch demand that compounds.\n\nEnterprises can't opt out. Tokenize operations with LLM/AI-Agents or fall behind the competitors. \n\nConsumers now treat AI like a companion, and usage per person only climbs. The next generation won't be able to survive without it. AI dependence is real, the same way we've become dependent on smartphones.\n\nExponential demand. Linear fab buildouts. That gap is the trade."
+        },
+        {
+          "post_id": "2099584878001938606",
+          "quote": "$MU Took advantage of the swings today using 1m &amp; 3m BLUE candles. Rode it twice. Still accumulating shares as we go, and ignoring the FUD. Volume shelf at $929.\n\nEarnings in 2 weeks 👀\n\nWe've opened up 10 more Elite seats yesterday: https://t.co/5k5nwnzlD8 https://t.co/BMdA3eHCxL"
+        },
+        {
+          "post_id": "2100036207111790903",
+          "quote": "$MU $SKHY $DRAM\n\nBNK just cut Samsung to Hold and put SK hynix's target below spot. Range-bound, no new highs, AI demand \"past its peak.\" \n\nI want to know whatever they're smoking.\n\nHere's what they actually said.\n\n“BNK Investment & Securities said growth in AI semiconductor demand is past its peak and that Samsung Electronics and SK hynix shares are likely to trade in a range with a capped upside for the time being.”\n\nAnalyst Lee Min-hee: “Even if AI server shipments increase, overall memory demand growth could slow if the increase in memory capacity per system decelerates.”\n\n“Global DRAM production capacity is projected to rise 50% within three years and double within five years.”\n\n“Past cycles of memory oversupply and shortage were often driven more by missed demand forecasts than by supply itself. The possibility that demand slowdown and capacity expansion overlap cannot be ruled out.”\n\n\"Samsung Electronics: rating cut to Hold, target price 270,000 won.\"\n\n\"SK hynix: Hold maintained, target price 1.48 million won (below the then closing price of 1.69 million won).\"\n\n“Shares have rebounded in a range where valuation pressure eased, but with memory demand momentum slowing, a re-rating back to past average levels will not be easy.”\n\nShortage to persist into 2027, not peak. They must be loaded up on puts."
+        }
+      ]
+    },
+    {
+      "symbol": "SKHY",
+      "direction": "long",
+      "prospect": "Memory demand and a better product mix support continued strength.",
+      "risk_reward": "The author notes a previously unfavorable HBM/DRAM mix and frustrating swing conditions, and disputes analysts warning about capacity expansion and slower demand.",
+      "thesis": "Agent memory demand, advanced manufacturing barriers and a more favorable conventional DRAM mix support the business.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation",
+        "value"
+      ],
+      "conviction": 0.86,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097526631204286702",
+          "quote": "$MU $SKHY \n\nI can't fathom how much memory AI agents will need to truly understand the world. How business runs. How physics works. How medicine works in the body, billions of cells, DNA, proteins. Cancer research. Weather prediction...\n\nThe World Is Basically Infinite Context https://t.co/KxDyyAkTM4"
+        },
+        {
+          "post_id": "2097758445713965072",
+          "quote": "$SKHY BLUE candles look more confident than $MU lately, and I think SK Hynix leaning into conventional DRAM is why. Their HBM/DRAM mix was off last quarter.\n\nProfitable BLUEs for both, anyhow.\n\n3 Elite seats left for this week:\nhttps://t.co/5k5nwnzTsG https://t.co/bOetxwsxEv"
+        },
+        {
+          "post_id": "2097825170971095221",
+          "quote": "$DRAM $SKHY It is becoming obvious that a handful of old-school Korean analysts have no idea what AI is doing to the memory industry. The consumer AI boom, Edge AI, and Physical AI have not even arrived yet. Not priced in.\n\nAnalysts agree HBM demand will keep rising with AI, but Samsung Electronics and SK Hynix price targets still diverge sharply because of different views on commodity DRAM prices, valuation multiples, and rates.\n\nMirae Asset (Kim Young-geon) Raised Samsung to ₩400,000 and SK Hynix to ₩3.1 million. Even after FX headwinds, Samsung’s earnings growth continues. Slowing commodity DRAM prices will be offset by HBM volume and ASP gains, plus next-gen zHBM. For SK Hynix, HBM is spreading from GPUs to Big Tech ASICs, so the market share leader benefits as customers diversify.\n\nDB Securities Kept Samsung at Buy and ₩360,000, citing tight DRAM supply and strong server demand through next year. Raised SK Hynix to ₩2.3 million on HBM4 shipments from Q3 and higher HBM4 prices next year. The valuation base was shifted to next year earnings.\n\nKiwoom Lowest targets: Samsung ₩350,000, SK Hynix ₩2.1 million. Still Buy on both. Next year HBM shipments and ASP up 109% and 81% at Samsung, but commodity DRAM ASP down 33%, so total DRAM operating profit falls 6%. At SK Hynix, HBM growth continues, but share loss, milder ASP gains, and a 35% commodity DRAM ASP drop cut DRAM operating profit 10%.\n\nKyobo Securities (Choi Bo-young) “Nvidia is acquiring Hugging Face to secure the platform where AI is developed and distributed and to widen the customer base that uses semiconductors. OpenAI, through Astra, is raising the level of competition over how far AI can take over human work. Recovered semiconductor sentiment is not only about which model wins; it is about the possibility that this competition will create new tasks and usage, not just replace existing services. The market is treating this ‘whale fight’ as a chance for the range of AI customers and workloads, and therefore semiconductor demand, to widen again.”"
+        },
+        {
+          "post_id": "2098569203418910947",
+          "quote": "$MU $SKHY $DRAM A 32GB RAM kit now costs like a console.\n\n\"Is that sustainable?\" I think that's the wrong question to ask. \n\nMemory got repurposed. It stopped being commodity storage for your PC and became Context Capacity for AI. The trio, SK Hynix, Samsung, Micron, allocates to the highest bidder, and that isn't you.\n\nThe real question is whether supply can ever catch demand that compounds.\n\nEnterprises can't opt out. Tokenize operations with LLM/AI-Agents or fall behind the competitors. \n\nConsumers now treat AI like a companion, and usage per person only climbs. The next generation won't be able to survive without it. AI dependence is real, the same way we've become dependent on smartphones.\n\nExponential demand. Linear fab buildouts. That gap is the trade."
+        },
+        {
+          "post_id": "2100036207111790903",
+          "quote": "$MU $SKHY $DRAM\n\nBNK just cut Samsung to Hold and put SK hynix's target below spot. Range-bound, no new highs, AI demand \"past its peak.\" \n\nI want to know whatever they're smoking.\n\nHere's what they actually said.\n\n“BNK Investment & Securities said growth in AI semiconductor demand is past its peak and that Samsung Electronics and SK hynix shares are likely to trade in a range with a capped upside for the time being.”\n\nAnalyst Lee Min-hee: “Even if AI server shipments increase, overall memory demand growth could slow if the increase in memory capacity per system decelerates.”\n\n“Global DRAM production capacity is projected to rise 50% within three years and double within five years.”\n\n“Past cycles of memory oversupply and shortage were often driven more by missed demand forecasts than by supply itself. The possibility that demand slowdown and capacity expansion overlap cannot be ruled out.”\n\n\"Samsung Electronics: rating cut to Hold, target price 270,000 won.\"\n\n\"SK hynix: Hold maintained, target price 1.48 million won (below the then closing price of 1.69 million won).\"\n\n“Shares have rebounded in a range where valuation pressure eased, but with memory demand momentum slowing, a re-rating back to past average levels will not be easy.”\n\nShortage to persist into 2027, not peak. They must be loaded up on puts."
+        }
+      ]
+    },
+    {
+      "symbol": "SNDK",
+      "direction": "long",
+      "prospect": "HBF and inference demand reinforce a prolonged memory opportunity.",
+      "risk_reward": "HBF demand is explicitly conditional on finding a market; the author offers no loss limit.",
+      "thesis": "HBF would add NAND and wafer demand rather than simply replace existing memory; buyer commitments argue against a near-term shortage peak.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097506528236613638",
+          "quote": "$SNDK CFO at TMT Conference said they will ship HBF to customers in 2027 which I believe he is alluding to samples with PARTIAL engineering test flows (instead of FULL test).\n\nAnd look who is already at the table: $GOOGL and $META in the HBF consortium.\n\nIf HBF finds a market in the AI buildout, it's going to cause further NAND and Wafer shortage. Bullish for memory industry.\n\nAlso an analyst asked the $SNDK CFO which memory HBF is going to replace. Wrong question. HBF is not built to replace DRAM or HBM. It is built for symbiosis. Read my quoted post for further details."
+        },
+        {
+          "post_id": "2098998598256283833",
+          "quote": "$MU $SKHY $SNDK $DRAM \n\nA question for the \"memory shortage is peaking\" crowd\n\nIf it ends soon, why are hyperscalers, the smartest buyers on earth, signing agreements that run up to 5, reserving output the fabs can't produce yet?\n\nWhat do they know that you don't?"
+        },
+        {
+          "post_id": "2099717522589380766",
+          "quote": "$SNDK is hiring in Korea “with expertise in key memory technologies such as HBM, LPDDR and GDDR high on its wish list.”\n\n$MU is also recruiting Korean engineers via LinkedIn; reported packages in the “several hundred million won” range, targeting HBM and advanced packaging.\n\nMany roles want “at least five years of experience,” with HBM/LPDDR/GDDR preferred “implying SanDisk is particularly eyeing seasoned engineers from … Samsung Electronics and SK hynix.”\n\nDong-A: early AI boom was DRAM for training; “the shift toward inference is increasing the need for NAND storage.”\n\nHBF, 3D DRAM, HBM5, SOCAMM3\n\nMemory innovation is far from over."
+        }
+      ]
+    },
+    {
+      "symbol": "TSM",
+      "direction": "long",
+      "prospect": "Broad participation in AI growth regardless of the winning chip designer.",
+      "risk_reward": "The near-term bullish technical setup requires candle confirmation. The author supplies no explicit position loss limit.",
+      "thesis": "Foundry, memory base dies, advanced packaging and optics make TSMC a common supplier across competing AI architectures.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.94,
+      "first_seen": "2026-09-10",
+      "sources": [
+        {
+          "post_id": "2097876964078182837",
+          "quote": "$GFS Ouch. -53.7% from the top, straight downhill since the PINK printed. Now testing the 100 week MA as support. Let's see if it holds and consolidates.\n\nThis is why I stick with $TSM. Mother of all Semiconductors.\n\nGet 300+ charts daily. Try it free:\nhttps://t.co/XLFioz4ScQ https://t.co/WtasrWzFFr"
+        },
+        {
+          "post_id": "2097888540743078121",
+          "quote": "Every AI chip on earth pays rent to $TSM\n\nFoundry Industry just printed its biggest quarter ever. $53.49B across the top 10. +11.5% QoQ.\n\nTSMC took 72.5% of it. 5/4/3nm fully sold out on AI GPUs &amp; XPUs. https://t.co/f7UnBZ7wT7 https://t.co/wTs0WKTQtY"
+        },
+        {
+          "post_id": "2098126687888355800",
+          "quote": "$TSM has been riding the Bollinger Band basis for weeks.  Better odds it bounces the basis and keeps climbing if the BLUE confirms with GREEN candle.\n\nEvery AI chip runs through one house. TSMC.\n\nGet 300+ charts daily. Try it free:\nhttps://t.co/XLFioz4ScQ https://t.co/UAtqg3fisl"
+        },
+        {
+          "post_id": "2099691086365286739",
+          "quote": "$NVDA wins? $TSM wins.\n$AVGO wins? $TSM wins.\n$AMD AI chips win? $TSM wins.\n$MU HBM wins? $TSM wins.\n$SNDK HBF wins? $TSM wins.\n$QCOM silicon wins? $TSM wins.\n$AAPL silicon wins? $TSM wins.\n$GOOGL $AMAN $META $MSFT ASICs win? $TSM wins.\n\nClear enough? $3 Trillion. Easy."
+        },
+        {
+          "post_id": "2099710942456226108",
+          "quote": "$TSM is part memory play, part GPU play, part CPU, part ASIC play, and part optics play, all in one ticker.\n\nAgentic AI CPU, Memory Base & Logic Die, Advanced Packaging and CPO through its COUPE platform. That is the entire AI stack under one roof. The easiest way to ride the whole AI wave.\n\n\"SK hynix said 3D DRAM development can use foundry processes. Peripheral circuits would be built with logic foundry tech, not only in-house DRAM nodes.\"\n\n\"Executives at the 2026 SK hynix Future Forum listed 3D DRAM priorities as: logic-foundry peri circuits, maximizing data-bus bandwidth, and ultra-short-distance transmission.\"\n\n“As the boundaries between front-end and back-end packaging, foundry, and memory technology converge, collaborative optimization beyond existing fields will become more important.” — SK hynix presentation (Son Ho-young).\n\n\"Earlier, at TSMC’s symposium, SK hynix framed the same idea as: “Overcoming technological limits requires the integration of memory and logic,” and cited TSMC advanced logic for the HBM4 base die, plus a path to custom HBM, HBF, and 3D stacked DRAM on logic.\"\n\n\"On HBM4E specifically, Chosun previously reported SK hynix was favoring TSMC 3nm for the logic (base) die, while core DRAM stays on its own 1c-class node, a step up from TSMC 12nm on HBM4.\""
+        }
+      ]
+    },
+    {
+      "symbol": "ASML",
+      "direction": "long",
+      "prospect": "Sustained demand for irreplaceable advanced lithography.",
+      "risk_reward": "Tools are expensive and achieving cost benefits depends on yield and years of process mastery.",
+      "thesis": "EUV reduces process steps and strengthens leading memory manufacturers while restricted access disadvantages Chinese competitors.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.71,
+      "first_seen": "2026-09-10",
+      "sources": [
+        {
+          "post_id": "2097864190287659024",
+          "quote": "$ASML $DRAM $SKHY $MU\n\nSamsung is deepening its ASML tie-up to put High-NA EUV on next-gen DRAM first, targeting 2028, to lock in process lead and push HBM performance.\n\n“The better the DRAM, the better the HBM. This is about shrinking the 10nm-class process further for ultra-fine patterning with ASML. Technically it is a big deal.”\n\n“China will use every method to close the gap. The most important tool to widen that gap again and stay ahead of rivals is next-generation lithography.”\n\n-Lee Jong-hwan, Sangmyung University\n\nTool cost ~$370M, but fewer multipatterning steps can cut mass-production cost if yield works.\n\nMy take is.... ASML's EUV tools are irreplaceable and brutally expensive. The offset is multipatterning reduction, fewer process steps per layer, which drives production cost down over time. But mastering it takes years. This is nano-level manufacturing, not your average physics.\n\nAnd China being locked out of these tools is a massive disadvantage. The gap with Memory Trio only widens from here."
+        },
+        {
+          "post_id": "2097871993400099016",
+          "quote": "Usually when investments are $50 and $100 billions, the projects are over 10-20 years. So I wouldn't expect a sudden bottleneck but more of a sustained demand. So I think it's bullish for equipment companies overall. We just have to get rid of tourists who wanted to ride short-term momentum."
+        }
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "direction": "long",
+      "prospect": "Copilot distribution supports the AI opportunity.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Integration of multiple model providers into the existing Windows and Office ecosystem creates a distribution advantage.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.76,
+      "first_seen": "2026-09-12",
+      "sources": [
+        {
+          "post_id": "2098823675034427507",
+          "quote": "$MSFT @grok has been added to Copilot.\n\nOpenAI in Copilot. Anthropic in Copilot and now Grok in Copilot.\n\nDistribution eats model advantage. Every time.\n\nBULLISH https://t.co/JssGcq7JOP"
+        },
+        {
+          "post_id": "2098826974508794167",
+          "quote": "@grok Welcome aboard. $MSFT moon?"
+        },
+        {
+          "post_id": "2098937251803840946",
+          "quote": "@moon1000x @grok Copilot is integrated in windows/office365 ecosystem."
+        }
+      ]
+    },
+    {
+      "symbol": "NBIS",
+      "direction": "long",
+      "prospect": "A watched technical breakout setup begins to trigger.",
+      "risk_reward": "The original setup is conditional on a bullish candle at a technical decision point; no loss limit is supplied.",
+      "thesis": "Support confluence and a bullish candle combine with reported GPU rental repricing.",
+      "time_frame": "swing",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.73,
+      "first_seen": "2026-09-12",
+      "sources": [
+        {
+          "post_id": "2098829102585364948",
+          "quote": "$NBIS is coiling into a decision point: the $220 volume shelf, 2 MAs, and the lower BB all stacking in one zone.\n\nA BLUE candle off this confluence is the setup I'm watching 👀\n\nCatch it live in Elite, new seats tomorrow:\nhttps://t.co/5k5nwnzTsG https://t.co/tJE7DMICBy"
+        },
+        {
+          "post_id": "2100433448330723504",
+          "quote": "$NBIS Nebius just raised GPU Rental Prices 20% 🔥\n\nBLUE candle just printed under the $220 shelf and cracked the SMA and Bollinger basis at the same time. The setup I flagged Friday, now triggering.\n\n1 Elite seats left this week. https://t.co/5k5nwnzTsG https://t.co/7OH0cFZjC6 https://t.co/PpRQgT4dIz"
+        }
+      ]
+    },
+    {
+      "symbol": "PLTR",
+      "direction": "long",
+      "prospect": "Strong fundamentals support a bullish view.",
+      "risk_reward": "The author acknowledges a high valuation but gives no valuation discipline or loss limit.",
+      "thesis": "The author explicitly likes the depth of the fundamentals despite a rich valuation.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-15",
+      "sources": [
+        {
+          "post_id": "2099715109803511813",
+          "quote": "@SoulSearcher421 I am bullish on $TSM. I don't know why you think it's overvalued. \n\nI am bullish on $PLTR too. I like their fundamentals. This one has high price tag but fundamentals are deep.\n\nI don't know why you are confused. \n\nhttps://t.co/cSm2gl1xcy"
+        }
+      ]
+    },
+    {
+      "symbol": "CRWD",
+      "direction": "long",
+      "prospect": "Agentic AI sustains long-term cybersecurity demand.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Good and malicious AI agents make cybersecurity essential infrastructure; this is one of the author’s strongest stated long-term cybersecurity holdings.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-09-14",
+      "sources": [
+        {
+          "post_id": "2099570374518169622",
+          "quote": "$CRWD +15.3% $PANW +13.6% $FTNT +9.2% $S +16% $ZS +15.6% $OKTA +13%\n\nI kept telling you, since May 20. Cybersecurity isn't optional in the Agentic AI Era. https://t.co/Fy6XYGn2Le"
+        },
+        {
+          "post_id": "2099571002917236758",
+          "quote": "$CRWD $PANW $FTNT $ZS $S $OKTA \n\nThis is the agentic AI cybersecurity thread I started May 20.\n\nGood Agents vs Bad Agents.\nI kept telling you.\nYou had months to position.\nI've spoken. https://t.co/t2U777QboG https://t.co/Fy6XYGn2Le"
+        },
+        {
+          "post_id": "2099578420841869529",
+          "quote": "@tradingwithart True. So due diligence + time horizon for your trades. I am longest LONG on $CRWD &amp; $NET. I am still researching other guys."
+        }
+      ]
+    },
+    {
+      "symbol": "NET",
+      "direction": "long",
+      "prospect": "Agentic AI and security needs support a sustained bullish position.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author sees cybersecurity as infrastructure and explicitly names Cloudflare among the longest-term longs.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation",
+        "momentum"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-09-14",
+      "sources": [
+        {
+          "post_id": "2099578074241339599",
+          "quote": "$NET (W) BLUE candles have paid well for 24 months.\n\nAnother Agentic AI &amp; Cybersecurity name I'm bullish on. Hugging the upper BB again. With @DarioAmodei's letter in play, it may just get another boost.\n\nGet 300+ charts daily. Try it free: https://t.co/XLFioz4ScQ https://t.co/kOGTSTiyrA https://t.co/5FoTwdIf8P"
+        },
+        {
+          "post_id": "2099578420841869529",
+          "quote": "@tradingwithart True. So due diligence + time horizon for your trades. I am longest LONG on $CRWD &amp; $NET. I am still researching other guys."
+        }
+      ]
+    },
+    {
+      "symbol": "RKLB",
+      "direction": "long",
+      "prospect": "Consolidation prepares for a renewed advance.",
+      "risk_reward": "Consolidation and a volume shelf still need to be negotiated; no explicit loss limit is supplied.",
+      "thesis": "A bullish candle and a bounce from technical support underpin the setup.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-09-07",
+      "sources": [
+        {
+          "post_id": "2096808908916752796",
+          "quote": "$RKLB Fib 0 landing successful. Maintenance and consolidation next. BLUE candle launch preparations underway.\n\nDon't let $SPCX take this one off your watchlist.\n\n300+ charts daily. Try it free:\nhttps://t.co/XLFioz4ScQ https://t.co/Nz7tDuv87B https://t.co/fT4qfKwLSb"
+        },
+        {
+          "post_id": "2097405694026960940",
+          "quote": "$RKLB That 5m BLUE candle at the open signaled the bounce off Fib 0.\n\nNext test: the $67 volume shelf on the weekly. Consolidation before takeoff.\n\n10 Elite seats this week, 4 taken: https://t.co/5k5nwnzTsG https://t.co/k9dVCiuyhm https://t.co/ct38jOdV29"
+        }
+      ]
+    },
+    {
+      "symbol": "NFLX",
+      "direction": "neutral",
+      "prospect": "Consolidation precedes any possible bounce.",
+      "risk_reward": "Further weakness toward moving-average support is possible; a bounce is conditional.",
+      "thesis": "Negative reaction to UK subscription repricing and a bearish candle leave moving-average support in play.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum"
+      ],
+      "conviction": 0.56,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097568074438426902",
+          "quote": "$NFLX Friday's UK price hikes actually drew a negative reaction and a PINK candle. Today it pushed lower to $79.6. The 50 SMA at $75.5 is now in play. Bounce possible, but I think it consolidates first.\n\n300+ charts daily. Try it free:\nhttps://t.co/XLFioz4ScQ https://t.co/zsiAUXwPCz"
+        }
+      ]
+    },
+    {
+      "symbol": "LULU",
+      "direction": "short",
+      "prospect": "Technical deterioration argues against holding the stock.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Weekly and monthly bearish candle signals suggest continuing weakness; this is a bearish stance, not a disclosed short position.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum"
+      ],
+      "conviction": 0.67,
+      "first_seen": "2026-09-17",
+      "sources": [
+        {
+          "post_id": "2100654516182114465",
+          "quote": "Hey @michaeljburry you don't have to hold this one.\n\n$LULU is PINK on the weekly and rolling PINK to RED on the monthly. Technical analysis lesson on the house if you want it.\n\nGet 300+ charts daily. Try it free:\nhttps://t.co/XLFioz4ScQ https://t.co/6o3udBJOSE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "author_username": "FeroceResearch",
+    "tag": "tech",
+    "picks": 11,
+    "share_of_account": 0.44
+  },
+  {
+    "author_username": "FeroceResearch",
+    "tag": "innovation",
+    "picks": 10,
+    "share_of_account": 0.4
+  },
+  {
+    "author_username": "FeroceResearch",
+    "tag": "value",
+    "picks": 2,
+    "share_of_account": 0.08
+  },
+  {
+    "author_username": "FeroceResearch",
+    "tag": "momentum",
+    "picks": 2,
+    "share_of_account": 0.08
+  },
+  {
+    "author_username": "JaguarAnalytics",
+    "tag": "innovation",
+    "picks": 4,
+    "share_of_account": 0.364
+  },
+  {
+    "author_username": "JaguarAnalytics",
+    "tag": "tech",
+    "picks": 3,
+    "share_of_account": 0.273
+  },
+  {
+    "author_username": "JaguarAnalytics",
+    "tag": "catalyst-driven",
+    "picks": 2,
+    "share_of_account": 0.182
+  },
+  {
+    "author_username": "JaguarAnalytics",
+    "tag": "speculative",
+    "picks": 2,
+    "share_of_account": 0.182
+  },
+  {
+    "author_username": "LogicalThesis",
+    "tag": "value",
+    "picks": 5,
+    "share_of_account": 0.714
+  },
+  {
+    "author_username": "LogicalThesis",
+    "tag": "innovation",
+    "picks": 2,
+    "share_of_account": 0.286
+  },
+  {
+    "author_username": "MarcosMillaYT",
+    "tag": "tech",
+    "picks": 11,
+    "share_of_account": 0.333
+  },
+  {
+    "author_username": "MarcosMillaYT",
+    "tag": "innovation",
+    "picks": 10,
+    "share_of_account": 0.303
+  },
+  {
+    "author_username": "MarcosMillaYT",
+    "tag": "value",
+    "picks": 8,
+    "share_of_account": 0.242
+  },
+  {
+    "author_username": "MarcosMillaYT",
+    "tag": "speculative",
+    "picks": 2,
+    "share_of_account": 0.061
+  },
+  {
+    "author_username": "MarcosMillaYT",
+    "tag": "disruptor",
+    "picks": 2,
+    "share_of_account": 0.061
+  },
+  {
+    "author_username": "RealJGBanks",
+    "tag": "momentum",
+    "picks": 3,
+    "share_of_account": 0.429
+  },
+  {
+    "author_username": "RealJGBanks",
+    "tag": "tech",
+    "picks": 2,
+    "share_of_account": 0.286
+  },
+  {
+    "author_username": "RealJGBanks",
+    "tag": "catalyst-driven",
+    "picks": 2,
+    "share_of_account": 0.286
+  },
+  {
+    "author_username": "StockSavvyShay",
+    "tag": "innovation",
+    "picks": 14,
+    "share_of_account": 0.452
+  },
+  {
+    "author_username": "StockSavvyShay",
+    "tag": "tech",
+    "picks": 14,
+    "share_of_account": 0.452
+  },
+  {
+    "author_username": "StockSavvyShay",
+    "tag": "speculative",
+    "picks": 3,
+    "share_of_account": 0.097
+  },
+  {
+    "author_username": "TheLongInvest",
+    "tag": "tech",
+    "picks": 9,
+    "share_of_account": 0.3
+  },
+  {
+    "author_username": "TheLongInvest",
+    "tag": "value",
+    "picks": 8,
+    "share_of_account": 0.267
+  },
+  {
+    "author_username": "TheLongInvest",
+    "tag": "momentum",
+    "picks": 5,
+    "share_of_account": 0.167
+  },
+  {
+    "author_username": "TheLongInvest",
+    "tag": "innovation",
+    "picks": 3,
+    "share_of_account": 0.1
+  },
+  {
+    "author_username": "TheLongInvest",
+    "tag": "speculative",
+    "picks": 3,
+    "share_of_account": 0.1
+  },
+  {
+    "author_username": "TheLongInvest",
+    "tag": "disruptor",
+    "picks": 2,
+    "share_of_account": 0.067
+  },
+  {
+    "author_username": "TradexWhisperer",
+    "tag": "tech",
+    "picks": 10,
+    "share_of_account": 0.4
+  },
+  {
+    "author_username": "TradexWhisperer",
+    "tag": "innovation",
+    "picks": 8,
+    "share_of_account": 0.32
+  },
+  {
+    "author_username": "TradexWhisperer",
+    "tag": "momentum",
+    "picks": 5,
+    "share_of_account": 0.2
+  },
+  {
+    "author_username": "TradexWhisperer",
+    "tag": "value",
+    "picks": 2,
+    "share_of_account": 0.08
+  },
+  {
+    "author_username": "davevermilion",
+    "tag": "macro",
+    "picks": 5,
+    "share_of_account": 0.455
+  },
+  {
+    "author_username": "davevermilion",
+    "tag": "momentum",
+    "picks": 4,
+    "share_of_account": 0.364
+  },
+  {
+    "author_username": "davevermilion",
+    "tag": "speculative",
+    "picks": 2,
+    "share_of_account": 0.182
+  }
+]

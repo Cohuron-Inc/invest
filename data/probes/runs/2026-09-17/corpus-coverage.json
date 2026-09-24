@@ -1,0 +1,142 @@
+[
+  {
+    "account": "StockSavvyShay",
+    "posts": 405,
+    "non_retweets": 400,
+    "retweet_share": 0.01,
+    "first_day": "2026-09-07",
+    "last_day": "2026-09-18",
+    "days_with_posts": 12,
+    "capture_runs": 1
+  },
+  {
+    "account": "TheLongInvest",
+    "posts": 386,
+    "non_retweets": 320,
+    "retweet_share": 0.17,
+    "first_day": "2026-09-07",
+    "last_day": "2026-09-18",
+    "days_with_posts": 12,
+    "capture_runs": 1
+  },
+  {
+    "account": "TradexWhisperer",
+    "posts": 321,
+    "non_retweets": 293,
+    "retweet_share": 0.09,
+    "first_day": "2026-09-07",
+    "last_day": "2026-09-17",
+    "days_with_posts": 11,
+    "capture_runs": 1
+  },
+  {
+    "account": "davevermilion",
+    "posts": 237,
+    "non_retweets": 180,
+    "retweet_share": 0.24,
+    "first_day": "2026-09-07",
+    "last_day": "2026-09-17",
+    "days_with_posts": 11,
+    "capture_runs": 1
+  },
+  {
+    "account": "LogicalThesis",
+    "posts": 197,
+    "non_retweets": 186,
+    "retweet_share": 0.06,
+    "first_day": "2026-09-07",
+    "last_day": "2026-09-17",
+    "days_with_posts": 11,
+    "capture_runs": 1
+  },
+  {
+    "account": "MarcosMillaYT",
+    "posts": 144,
+    "non_retweets": 144,
+    "retweet_share": 0,
+    "first_day": "2026-09-07",
+    "last_day": "2026-09-17",
+    "days_with_posts": 9,
+    "capture_runs": 1
+  },
+  {
+    "account": "FeroceResearch",
+    "posts": 106,
+    "non_retweets": 102,
+    "retweet_share": 0.04,
+    "first_day": "2026-09-07",
+    "last_day": "2026-09-18",
+    "days_with_posts": 11,
+    "capture_runs": 1
+  },
+  {
+    "account": "CEOStockWatcher",
+    "posts": 105,
+    "non_retweets": 103,
+    "retweet_share": 0.02,
+    "first_day": "2026-09-08",
+    "last_day": "2026-09-16",
+    "days_with_posts": 9,
+    "capture_runs": 1
+  },
+  {
+    "account": "stocktalkweekly",
+    "posts": 99,
+    "non_retweets": 98,
+    "retweet_share": 0.01,
+    "first_day": "2026-09-08",
+    "last_day": "2026-09-18",
+    "days_with_posts": 8,
+    "capture_runs": 1
+  },
+  {
+    "account": "RealJGBanks",
+    "posts": 87,
+    "non_retweets": 73,
+    "retweet_share": 0.16,
+    "first_day": "2026-09-07",
+    "last_day": "2026-09-18",
+    "days_with_posts": 12,
+    "capture_runs": 1
+  },
+  {
+    "account": "JaguarAnalytics",
+    "posts": 72,
+    "non_retweets": 70,
+    "retweet_share": 0.03,
+    "first_day": "2026-09-07",
+    "last_day": "2026-09-17",
+    "days_with_posts": 11,
+    "capture_runs": 1
+  },
+  {
+    "account": "deerpointmacro",
+    "posts": 34,
+    "non_retweets": 34,
+    "retweet_share": 0,
+    "first_day": "2026-09-07",
+    "last_day": "2026-09-17",
+    "days_with_posts": 11,
+    "capture_runs": 1
+  },
+  {
+    "account": "artemis",
+    "posts": 30,
+    "non_retweets": 24,
+    "retweet_share": 0.2,
+    "first_day": "2026-09-07",
+    "last_day": "2026-09-17",
+    "days_with_posts": 8,
+    "capture_runs": 1
+  },
+  {
+    "account": "ruth_capital",
+    "posts": 12,
+    "non_retweets": 12,
+    "retweet_share": 0,
+    "first_day": "2026-09-09",
+    "last_day": "2026-09-16",
+    "days_with_posts": 5,
+    "capture_runs": 1
+  }
+]

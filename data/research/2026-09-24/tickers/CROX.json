@@ -1,0 +1,65 @@
+{
+ "schema": "ticker-context/1",
+ "ticker": "CROX",
+ "as_of": "2026-09-24",
+ "inputs": {
+  "themes": "2026-09-24",
+  "outlook": "2026-09-24",
+  "regime": "2026-09-24",
+  "x_sentiment": "2026-09-24",
+  "corpus_last_day": "2026-09-25",
+  "corpus_stale_days": -1
+ },
+ "regime": {
+  "call": "Lean risk-off: a strong tape on a hostile discount rate",
+  "gross_exposure_pct": 60,
+  "long_duration_cap_pct": 15
+ },
+ "archetype": "small_caps",
+ "macro_fit": {
+  "fit": -0.12,
+  "stance": "neutral",
+  "runway_macro_fit_pts": 4,
+  "headwinds": [
+   "R_10Y_1M",
+   "E_SMALL_CAPS"
+  ],
+  "tailwinds": [
+   "L_NFCI",
+   "G_CLAIMS",
+   "C_HY_LEVEL"
+  ]
+ },
+ "themes": [
+  {
+   "id": "consumer_discretionary",
+   "name": "Consumer discretionary",
+   "archetype": "small_caps",
+   "direction": "lagging",
+   "rel_spy_3m": -15.4,
+   "trend": "downtrend",
+   "breadth_50d": 10.0,
+   "stance": "Avoid",
+   "stance_score": -1.04,
+   "flags": []
+  }
+ ],
+ "price": {
+  "close": 123.44,
+  "as_of": "2026-09-24",
+  "ret_1m": -1.9,
+  "ret_3m": 1.7,
+  "ret_12m": 60.0,
+  "above_50d": false,
+  "above_200d": true,
+  "dd_52w_pct": -12.6,
+  "source": "https://finance.yahoo.com/quote/CROX"
+ },
+ "sentiment": null,
+ "runway_score": null,
+ "verdicts": [],
+ "gaps": [
+  "no allowlist posts in the sentiment window",
+  "never scored by a runway probe"
+ ]
+}

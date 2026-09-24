@@ -1,7 +1,7 @@
 ---
 name: runway-probe
-description: Produce a Runway Probe - rank the names from a Corpus Probe by their chance of further gain from today's price. Reads twelve signals in four groups (fundamentals, flows and positioning, price and chart, context) from the corpus and the web, scores them on a fixed rubric, and publishes in the fixed Runway Probe format. Use when asked "which of these have runway", "which have the higher chance of gain from here", or to check earnings, analyst comment, insider and institutional activity, chart, macro fit or competition on a list of tickers.
-argument-hint: "[path to the corpus probe html, default: newest in data/analysis/probes] [--mandate '...'] [--tickers A,B,C to override the list]"
+description: Produce a Runway Probe - rank the names from a Corpus Probe by their chance of further gain from today's price. Evaluates forward profitability, cash generation, capital returns, revisions, valuation and insider conviction alongside twelve signals in four groups (fundamentals, flows and positioning, price and chart, context) from the corpus and the web, scores them on a fixed rubric, and publishes in the fixed Runway Probe format. Use when asked "which of these have runway", "which have the higher chance of gain from here", or to check earnings, analyst comment, insider and institutional activity, chart, macro fit or competition on a list of tickers.
+argument-hint: "[path to the corpus probe html, default: newest in data/probes/corpus] [--mandate '...'] [--tickers A,B,C to override the list]"
 ---
 
 # Runway Probe
@@ -41,21 +41,68 @@ revision momentum, insider cluster buying, the contrarian value of crowding, tre
 persistence and the 200-day line, duration sensitivity to the rate regime. They are
 written down so every probe applies them the same way.
 
-Reference output: `analysis_output/2026-09-06-runway-probe.html`. The page format does
+Reference output: `data/probes/runway/2026-09-06/probe.html`. The page format does
 not change. The richer signal set changes what goes *into* the cells and the ranking,
 and is preserved in full in a companion evidence file beside the page.
+
+## Forward quality and asymmetric upside
+
+For every name, collect **analyst ratings, forward operating-margin expansion,
+forward FCF-margin expansion, forward FCF growth, forward ROIC, ROIC minus WACC,
+EPS revision breadth, and forward PEG or EV/FCF**, plus verified insider purchases
+and sales as conviction evidence. Read [forward-research.md](forward-research.md)
+before collecting these inputs. It defines sources, formulas, schema and scripts.
+The forward-quality output supplements the existing score; do not add correlated
+metrics repeatedly to the 100-point total.
+
+Seek businesses capable of substantial per-share value creation over 1–3 years.
+NVDA, Tempus AI (TEM), and NBIS are examples of research archetypes, not automatic
+recommendations or promises of another winner. Test accelerating monetization,
+customer retention, durable competitive advantage, incremental returns on capital,
+and cash generation after infrastructure spending and dilution. Recheck all examples
+at the actual run date. Never anchor the screen to this skill's editing date.
+
+Use two explicit tracks: **proven compounder** (positive cash generation and returns
+above capital cost) and **emerging inflection** (losses today, measurable milestones
+and financing through the path to cash breakeven). A high growth story with negative
+FCF cannot earn the proven label from adjusted EBITDA alone. Review cash burn,
+committed capex, debt maturities, customer concentration, SBC and diluted shares.
+For infrastructure, test contracted revenue conversion and utilization; for clinical
+or data platforms, test unit economics, reimbursement and regulatory dependencies.
+
+Rank the final shortlist within the existing gate tiers by evidenced business quality
+and bear/base/bull expected per-share returns from the current price. Use forward
+checkpoints as an explicit comparison, with coverage shown, rather than a probability
+of success. A top-conviction label requires current evidence, positive or credibly
+improving cash economics, funded execution, valuation support and a dated kill test.
+Missing essential evidence means research incomplete. Sparse-coverage inflections
+can remain a labelled watchlist; do not fabricate consensus to force a passing tier.
+
+Keep the existing page layout. Put a compact forward-quality summary in Prospect,
+Consensus and What can break it, and the full eight-metric table, insider conviction,
+coverage, assumptions and scenario sensitivities in the companion evidence file.
+The default mandate still applies: speculative inflections belong in the satellite
+sleeve, even when their bull-case upside is large.
 
 ## Inputs
 
 | Input | Where | If missing |
 |---|---|---|
-| Ticker list with the tier each name held | tier cards of the newest `data/analysis/probes/<date>-probe.html` | `--tickers` overrides; otherwise run `/corpus-probe` first |
+| Ticker list with the tier each name held | tier cards of the newest `data/probes/corpus/<date>-probe.html` | `--tickers` overrides; otherwise run `/corpus-probe` first |
 | Mandate | the corpus probe's meta strip, or `--mandate` | default `high return, medium-to-low risk, 1 to 3 years` |
-| Corpus stance and retail interest | `pnpm q retail-interest --symbols "A,B,C"`, `scripts/mine-corpus-signals.py`, `data/analysis/accounts/*.json` | run `/fetch` for the window |
-| Corpus regime facts | the macro accounts' posts in `data/_session/*.posts.jsonl` and the corpus probe's "lens" section | `pnpm task:session-dump` regenerates the bundles |
+| Corpus stance and retail interest | `pnpm q retail-interest --symbols "A,B,C"`, `scripts/mine-corpus-signals.py`, `data/corpus/analysis/accounts/*.json` | run `/fetch` for the window |
+| Corpus regime facts | the macro accounts' posts in `data/corpus/_session/*.posts.jsonl` and the corpus probe's "lens" section | `pnpm task:session-dump` regenerates the bundles |
 | Outside data | WebFetch of the pinned pages in `sources.md`, via subagents; WebSearch only as the registry's fallback | none; this probe cannot run offline |
-| Per-name records | `analysis_output/<window_end>-runway-data/<TICKER>.json` in the shape of `record.schema.md` | the research subagents write them in step 3 |
-| Price history | not in the repo; from the web per name | say so in the caveats; never compute a return the corpus could later contradict |
+| Macro regime and archetype fit | `data/probes/runway/<PROBE_ID>/records/macro.json`, written by `/macro-regime --runway <PROBE_ID>` from `data/research/<DATE>/macro/` | run `/macro-data` then `/macro-regime` for the probe date; `macro-brief.md` is the fallback |
+| Theme direction and crowding | `data/research/<DATE>/themes/themes.json`, `data/research/<DATE>/sentiment/x-sentiment.json` | run `/theme-pulse` and `/x-sentiment`; they feed narrative harmony and retail crowding |
+| Per-name records | `data/probes/runway/<PROBE_ID>/records/<TICKER>.json` in the shape of `record.schema.md` | the research subagents write them in step 3 |
+| Price history | `data/market/<DATE>/yahoo/<TICKER>.json` (10 years daily). Fetch missing names with `ticker_context.py <T> --date <DATE>` | never compute a return from corpus data; cite the Yahoo file as the source |
+| Fetched pages (Finviz snapshots, estimate pulls) | `data/cache/<DATE>-runway/` | `fetch-finviz-snapshots.py` and `fetch-forward-inputs.py` write there by default |
+| Build workspace (scripts, intermediate tables) | `data/probes/runs/<DATE>/` | create it; never write working files anywhere else |
+
+`<PROBE_ID>` is `<window_end>`, or `<window_end>-<label>` for a named subset run
+(`2026-09-18-zeta-abcl`). Every file of one probe sits in `data/probes/runway/<PROBE_ID>/`:
+`probe.html` (or `probe.md`), `evidence.md` and `records/`.
 
 ## Data sourcing discipline
 
@@ -68,7 +115,7 @@ The probe has no market-data layer yet, so determinism comes from procedure:
   on every value.
 - **Records, not prose.** Each ticker's evidence is a JSON file in the shape of
   `record.schema.md`, every leaf `{value, source, as_of}`, under
-  `analysis_output/<window_end>-runway-data/`. The corpus-side inputs (`retail.json`,
+  `data/probes/runway/<PROBE_ID>/records/`. The corpus-side inputs (`retail.json`,
   `stances.json`) and the macro brief (`macro.json`) sit beside them, with a
   `_manifest.json` naming the price date, the 13F quarter-end, the tickers, and every
   source that failed.
@@ -104,9 +151,9 @@ Steps 1 to 3 are independent. Run them in one message where the tool allows it.
 ### 1. Corpus side, in the main context
 
 ```bash
-mkdir -p analysis_output/<window_end>-runway-data
+mkdir -p data/probes/runway/<PROBE_ID>/records
 python3 .claude/skills/runway-probe/scripts/mine-corpus-signals.py <TICKERS>
-pnpm -s q retail-interest --symbols "<TICKERS>" --json > analysis_output/<window_end>-runway-data/retail.json
+pnpm -s q retail-interest --symbols "<TICKERS>" --json > data/probes/runway/<PROBE_ID>/records/retail.json
 ```
 
 Write `stances.json` from the analysis JSONs (per ticker: account, direction,
@@ -119,15 +166,23 @@ mentioned it, on how many days, with what engagement, and every formal stance wi
 conviction. From the analysis JSONs, note each name's sponsoring account and what the
 corpus probe said about that account's reliability.
 
-### 2. Macro climate, one subagent
+### 2. Macro climate, from the macro skills
 
-Launch one `general-purpose` subagent with `macro-brief.md`. It returns the current
-regime in a fixed shape: policy rate and the priced path, the 2s10s and 10-year level,
-IG and HY spreads, the dollar, oil, VIX, the last payrolls and CPI prints, factor and
-sector leadership over 1 and 3 months, and the dated macro events in the next 3 months.
-Merge it with the corpus's own regime facts (the rates-and-credit account's posts are
-usually sharper than the aggregators). The macro section of the scorecard is applied
-from this one brief to every name, so it is gathered once.
+Check `python3 .claude/tools/state.py --intent runway`. When the day's regime is missing,
+run `/macro-data`, then `/macro-regime`, including its judgment. Then write the probe's
+macro file:
+
+```bash
+python3 .claude/skills/macro-regime/scripts/compute_regime.py --date <DATE> --runway <PROBE_ID>
+```
+
+`records/macro.json` carries the legacy keys, the `regime_read`, the dated events, and
+`macro_regime.runway_macro_fit_pts` per archetype. Score each name's macro climate
+from its archetype (`macro-regime/playbook.md` §4), adjusted by at most ±1 with a reason.
+Take narrative harmony's theme direction from `data/research/<DATE>/themes/themes.json`.
+Merge in the corpus's own regime facts (the rates-and-credit account's posts are usually
+sharper than the aggregators). Only when the macro skills cannot run, launch one
+subagent with `macro-brief.md` instead, and say so in the caveats.
 
 ### 3. Per-name evidence, one subagent per group of at most eight tickers
 
@@ -154,7 +209,7 @@ competition, macro fit, narrative harmony, each with points from `scorecard.md` 
 one-line reason), then run:
 
 ```bash
-python3 .claude/skills/runway-probe/scripts/build-scorecard.py analysis_output/<window_end>-runway-data
+python3 .claude/skills/runway-probe/scripts/build-scorecard.py <PROBE_ID>
 ```
 
 It writes `scorecard.json` and `scorecard.md` beside the records: derived numbers,
@@ -180,7 +235,7 @@ second-order reads and the interaction table are where the verdict comes from, n
 total. Then section 4: state the edge, build the bull, base and bear scenario tree with
 probabilities and conditions, compute the expected return, compare it to the hurdle
 from the macro brief, write the kill criterion with a number and a date, and run the
-pre-mortem. Read `analysis_output/verdicts.jsonl` first for any earlier verdict on the
+pre-mortem. Read `data/ledger/verdicts.jsonl` first for any earlier verdict on the
 same ticker and say whether it has held.
 
 ### 4c. Red team
@@ -199,7 +254,7 @@ not negative). The rest is a capped satellite sleeve. Say so.
 
 ### 6. Write, then publish
 
-Copy `template.html` to `analysis_output/<window_end>-runway-probe.html`, fill every
+Copy `template.html` to `data/probes/runway/<PROBE_ID>/probe.html`, fill every
 section in the fixed order below, and publish with the Artifact tool. Title is
 `<Month> Runway Probe`. Favicon is 🛫 on first publish; omit it when republishing the
 same file. Description names the count of names and the signal groups.
@@ -208,14 +263,14 @@ Then write `verdicts.json` in the data directory (shape in
 `scripts/register-verdicts.py`) and register it:
 
 ```bash
-python3 .claude/skills/runway-probe/scripts/register-verdicts.py analysis_output/<window_end>-runway-data
+python3 .claude/skills/runway-probe/scripts/register-verdicts.py <PROBE_ID>
 ```
 
 That appends every verdict with its close, date, scenario tree, expected return, kill
-criterion and size to `analysis_output/verdicts.jsonl`. The next probe reads it to score
+criterion and size to `data/ledger/verdicts.jsonl`. The next probe reads it to score
 this one; the calibration note goes in "What this probe cannot tell you".
 
-Write the companion `analysis_output/<window_end>-runway-evidence.md` at the same time:
+Write the companion `data/probes/runway/<PROBE_ID>/evidence.md` at the same time:
 the manifest summary (price date, 13F vintage, sources failed), the macro brief table,
 the generated `scorecard.md` table, then one block per ticker holding the twenty-column
 summary row, the judgment reasons, and the source URL and date of every figure that
@@ -266,7 +321,8 @@ The page keeps its ten sections and its columns. The signals map onto them like 
 ## Done when
 
 - every ticker from the input list is in exactly one tier card and one appendix row
-- every ticker has a record under `analysis_output/<window_end>-runway-data/` with every
+- every ticker has the eight forward metrics or explicit missing-data reasons, an insider conviction assessment, and a proven/emerging classification
+- every ticker has a record under `data/probes/runway/<PROBE_ID>/records/` with every
   leaf carrying a source URL and date or a "not found" note, a filled judgment block,
   and a row in the generated `scorecard.json`
 - `_manifest.json` lists every source that failed, and `sources.md`'s failure log has
@@ -274,6 +330,10 @@ The page keeps its ten sections and its columns. The signals map onto them like 
 - every Runway row has all cells filled with a source
 - every Runway and One-leg-missing name has a scenario tree, an expected return against
   the hurdle, a kill criterion with a date, a pre-mortem line and a red-team fact, and is
-  registered in `analysis_output/verdicts.jsonl`
-- the page and the evidence file exist under `analysis_output/` and the artifact URL is
+  registered in `data/ledger/verdicts.jsonl`
+- the page and the evidence file exist under `data/probes/runway/<PROBE_ID>/` and the artifact URL is
   in the final message
+
+## Report contract
+
+When invoked through CLAUDE.md's "How to answer" protocol, this skill fills these parts of the standard report. Intent `runway`: the Runway Probe page is the report. Reply with the report header, the top names by tier, the verdicts registered this run with their kill criteria, and the link. Take macro fit from `/macro-regime --runway <window_end>`.

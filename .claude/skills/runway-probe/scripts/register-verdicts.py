@@ -2,7 +2,7 @@
 """Append this probe's verdicts to the ledger so the next probe can score them.
 
 Usage, from the repo root:
-    python3 .claude/skills/runway-probe/scripts/register-verdicts.py analysis_output/<window_end>-runway-data
+    python3 .claude/skills/runway-probe/scripts/register-verdicts.py <PROBE_ID>
 
 Reads scorecard.json and verdicts.json from the data directory. verdicts.json is written
 by the main agent after the red-team pass, one entry per Runway or One-leg-missing name:
@@ -20,13 +20,17 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "tools"))
+import paths  # noqa: E402
+
 
 def main(data_dir: Path) -> None:
     score = json.loads((data_dir / "scorecard.json").read_text())
     verdicts = json.loads((data_dir / "verdicts.json").read_text())
     manifest = score.get("manifest", {})
     rows = {r["ticker"]: r for r in score["rows"]}
-    ledger = data_dir.parent / "verdicts.jsonl"
+    ledger = paths.ledger()
+    ledger.parent.mkdir(parents=True, exist_ok=True)
     written = 0
     with ledger.open("a") as fh:
         for ticker, vd in verdicts.items():
@@ -54,5 +58,7 @@ def main(data_dir: Path) -> None:
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        sys.exit("usage: register-verdicts.py analysis_output/<window_end>-runway-data")
-    main(Path(sys.argv[1]))
+        sys.exit("usage: register-verdicts.py <PROBE_ID>   (or a records directory)")
+    arg = Path(sys.argv[1])
+    # A probe id (2026-09-17, 2026-09-18-zeta-abcl) resolves through paths.py; a directory is used as given.
+    main(arg if arg.is_dir() else paths.runway_records(sys.argv[1]))

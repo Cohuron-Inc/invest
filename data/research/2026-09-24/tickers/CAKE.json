@@ -1,0 +1,40 @@
+{
+ "schema": "ticker-context/1",
+ "ticker": "CAKE",
+ "as_of": "2026-09-24",
+ "inputs": {
+  "themes": "2026-09-24",
+  "outlook": "2026-09-24",
+  "regime": "2026-09-24",
+  "x_sentiment": "2026-09-24",
+  "corpus_last_day": "2026-09-18",
+  "corpus_stale_days": 6
+ },
+ "regime": {
+  "call": "Lean risk-off: a strong tape on a hostile discount rate",
+  "gross_exposure_pct": 60,
+  "long_duration_cap_pct": 15
+ },
+ "archetype": null,
+ "macro_fit": null,
+ "themes": [],
+ "price": {
+  "close": 105.05,
+  "as_of": "2026-09-24",
+  "ret_1m": -8.3,
+  "ret_3m": 34.8,
+  "ret_12m": 98.5,
+  "above_50d": true,
+  "above_200d": true,
+  "dd_52w_pct": -10.4,
+  "source": "https://finance.yahoo.com/quote/CAKE"
+ },
+ "sentiment": null,
+ "runway_score": null,
+ "verdicts": [],
+ "gaps": [
+  "not in any theme basket: add it to ref/themes.json if it recurs",
+  "no allowlist posts in the sentiment window",
+  "never scored by a runway probe"
+ ]
+}

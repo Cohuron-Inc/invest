@@ -37,6 +37,12 @@ beforeAll(async () => {
 afterAll(() => rmSync(root, { recursive: true, force: true }))
 
 describe('normalize', () => {
+  it('preserves the UTC instant from the raw post through JSON inference', async () => {
+    const c = await connect({ data: root })
+    const r = await rows(c, `SELECT epoch(created_at) AS seconds FROM posts_v WHERE post_id='1001'`)
+    expect(Number(r[0]!['seconds'])).toBe(Date.parse('2026-09-08T13:00:00.000Z') / 1000)
+  })
+
   it('collapses a post duplicated by a retry inside one partition', async () => {
     const c = await connect({ data: root })
     const r = await rows(c, `SELECT post_id FROM posts_v ORDER BY post_id`)

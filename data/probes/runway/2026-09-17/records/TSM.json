@@ -1,0 +1,309 @@
+{
+  "ticker": "TSM",
+  "probe_tier": "satellite",
+  "fetched_at": "2026-09-17T23:17:29.426406+00:00",
+  "price": {
+    "close": {
+      "value": 430.26,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "high_52w": {
+      "value": 479.0,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "low_52w": {
+      "value": 257.98,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "sma50_pct": {
+      "value": 3.08,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "sma200_pct": {
+      "value": 13.65,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "perf_1m_pct": {
+      "value": 4.08,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "perf_3m_pct": {
+      "value": -0.44,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "structure": {
+      "value": "trend_up",
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "print_gap_held": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found: daily post-print history was not fetched"
+    }
+  },
+  "consensus": {
+    "label": {
+      "value": "Strong Buy",
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17",
+      "note": "Finviz recommendation score mechanically mapped; not a count of ratings"
+    },
+    "analysts": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found in the persisted Finviz snapshot"
+    },
+    "pt_avg": {
+      "value": 543.66,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "pt_high": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "pt_low": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "pt_avg_alt": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "actions_60d": {
+      "value": [],
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    }
+  },
+  "earnings": {
+    "print_date": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not researched for this compact refresh"
+    },
+    "revenue_actual": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "revenue_estimate": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "eps_actual": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "eps_estimate": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "guide": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "revisions_30d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "revisions_90d": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "fcf_ttm": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "net_income_ttm": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    }
+  },
+  "prospect": {
+    "case": {
+      "value": "Foundry and advanced packaging leadership monetize demand across AI architectures.",
+      "source": "/home/rabin/projects/invest/data/analysis/runs/2026-09-17/evidence/summary.md",
+      "as_of": "2026-09-17"
+    },
+    "visibility": {
+      "value": "story",
+      "source": "/home/rabin/projects/invest/data/analysis/runs/2026-09-17/evidence/summary.md",
+      "as_of": "2026-09-17"
+    }
+  },
+  "competition": {
+    "fwd_pe": {
+      "value": 19.59,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "ev_sales": {
+      "value": 15.1,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "roic_ttm_pct": {
+      "value": 31.23,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17",
+      "note": "trailing proxy; not forward ROIC"
+    },
+    "operating_margin_ttm_pct": {
+      "value": 55.84,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17",
+      "note": "trailing proxy; not forward margin"
+    },
+    "p_fcf_ttm": {
+      "value": 55.92,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "peg_aggregator": {
+      "value": 0.51,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17",
+      "note": "aggregator methodology; used only as a proxy"
+    }
+  },
+  "insiders": {
+    "coverage_complete": false,
+    "buys_90d": {
+      "value": [],
+      "source": null,
+      "as_of": "2026-09-17",
+      "note": "full issuer Form 4 coverage not completed"
+    },
+    "sells_90d": {
+      "value": [],
+      "source": null,
+      "as_of": "2026-09-17",
+      "note": "full issuer Form 4 coverage not completed"
+    },
+    "finviz_net_change_pct": {
+      "value": -3.83,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    }
+  },
+  "institutions": {
+    "quarter_end": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "13F vintage not established"
+    },
+    "net_shares": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "holders_up": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "holders_down": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "holders_new": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "holders_exited": {
+      "value": null,
+      "source": null,
+      "as_of": null,
+      "note": "not found"
+    },
+    "named_adds": {
+      "value": [],
+      "source": null,
+      "as_of": "2026-09-17",
+      "note": "not found"
+    },
+    "named_exits": {
+      "value": [],
+      "source": null,
+      "as_of": "2026-09-17",
+      "note": "not found"
+    },
+    "short_pct_float": {
+      "value": 0.58,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17"
+    },
+    "finviz_inst_change_pct": {
+      "value": -0.37,
+      "source": "https://finviz.com/quote.ashx?t=TSM",
+      "as_of": "2026-09-17",
+      "note": "secondary directional proxy; not used as the 13F gate"
+    }
+  },
+  "catalysts": {
+    "value": [],
+    "source": null,
+    "as_of": "2026-09-17",
+    "note": "not confirmed from issuer calendars"
+  },
+  "judgment": {
+    "prospect_pts": 7,
+    "prospect_why": "Foundry and advanced packaging leadership monetize demand across AI architectures.",
+    "competition_pts": 7,
+    "competition_why": "Scored from current operating economics and the corpus thesis.",
+    "macro_fit_pts": 4,
+    "macro_fit_why": "Higher rates and oil penalize long-duration, cash-burning models.",
+    "narrative_pts": 6,
+    "narrative_why": "Scored from corpus convergence and harmony with current reported economics."
+  },
+  "forward": {
+    "periods_aligned": false,
+    "fy1": {},
+    "fy2": {},
+    "valuation": {},
+    "revisions": {},
+    "ratings": {}
+  }
+}

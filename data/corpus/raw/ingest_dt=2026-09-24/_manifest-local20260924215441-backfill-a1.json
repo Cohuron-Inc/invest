@@ -1,0 +1,354 @@
+{
+  "run_id": "local20260924215441",
+  "attempt": 1,
+  "ingest_dt": "2026-09-24",
+  "mode": "backfill",
+  "started_at": "2026-09-24T21:54:41Z",
+  "finished_at": "2026-09-24T21:54:48Z",
+  "start_time": "2026-08-25T21:54:41Z",
+  "end_time": "2026-09-24T21:54:41Z",
+  "accounts": [
+    {
+      "handle": "deerpointmacro",
+      "user_id": "1158811321963614209",
+      "posts": 23,
+      "pages": 1,
+      "oldest": "2026-09-18T00:04:22.000Z",
+      "newest": "2026-09-24T21:51:37.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100651134503252333"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "stocktalkweekly",
+      "user_id": "1289823541098143744",
+      "posts": 100,
+      "pages": 2,
+      "oldest": "2026-09-17T22:42:49.000Z",
+      "newest": "2026-09-24T21:26:42.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100677980406112377"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "LogicalThesis",
+      "user_id": "3236384046",
+      "posts": 156,
+      "pages": 2,
+      "oldest": "2026-09-18T03:56:52.000Z",
+      "newest": "2026-09-24T19:45:20.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100669565755875540"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "StockSavvyShay",
+      "user_id": "1096436452576047104",
+      "posts": 173,
+      "pages": 3,
+      "oldest": "2026-09-21T20:03:04.000Z",
+      "newest": "2026-09-24T21:32:26.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100703877414932801"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "CEOStockWatcher",
+      "user_id": "1617590989811482649",
+      "posts": 42,
+      "pages": 1,
+      "oldest": "2026-09-21T13:02:15.000Z",
+      "newest": "2026-09-24T19:59:08.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100313556310712694"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "TheLongInvest",
+      "user_id": "1378993399844442112",
+      "posts": 240,
+      "pages": 3,
+      "oldest": "2026-09-18T01:06:57.000Z",
+      "newest": "2026-09-24T18:35:32.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100682699895668839"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "MarcosMillaYT",
+      "user_id": "1951170851052945408",
+      "posts": 140,
+      "pages": 2,
+      "oldest": "2026-09-18T04:32:59.000Z",
+      "newest": "2026-09-24T07:13:59.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100610605120114808"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "FeroceResearch",
+      "user_id": "1730212951313743872",
+      "posts": 30,
+      "pages": 1,
+      "oldest": "2026-09-18T01:20:10.000Z",
+      "newest": "2026-09-24T16:18:21.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100678720650428467"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "davevermilion",
+      "user_id": "3765917302",
+      "posts": 185,
+      "pages": 2,
+      "oldest": "2026-09-18T03:28:05.000Z",
+      "newest": "2026-09-24T21:02:41.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100671593550635044"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "TradexWhisperer",
+      "user_id": "485550903",
+      "posts": 146,
+      "pages": 2,
+      "oldest": "2026-09-17T23:05:21.000Z",
+      "newest": "2026-09-24T21:02:32.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100656700374315315"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "RealJGBanks",
+      "user_id": "764585047",
+      "posts": 41,
+      "pages": 2,
+      "oldest": "2026-09-18T01:34:04.000Z",
+      "newest": "2026-09-24T21:26:32.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100705425205170565"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "JaguarAnalytics",
+      "user_id": "1087194962",
+      "posts": 53,
+      "pages": 1,
+      "oldest": "2026-09-18T13:31:17.000Z",
+      "newest": "2026-09-24T20:37:29.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100594417627205895"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "ruth_capital",
+      "user_id": "1656563451920019456",
+      "posts": 4,
+      "pages": 1,
+      "oldest": "2026-09-20T11:17:51.000Z",
+      "newest": "2026-09-23T15:09:07.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100301597620207833"
+        }
+      ],
+      "duplicates_dropped": 0
+    },
+    {
+      "handle": "artemis",
+      "user_id": "1518996068687663104",
+      "posts": 14,
+      "pages": 1,
+      "oldest": "2026-09-18T16:45:07.000Z",
+      "newest": "2026-09-24T13:32:44.000Z",
+      "truncated": false,
+      "segments": [
+        {
+          "side": "newer",
+          "since_id": "2100650472994381851"
+        }
+      ],
+      "duplicates_dropped": 0
+    }
+  ],
+  "incremental": true,
+  "pages": 24,
+  "posts_read": 1347,
+  "estimated_cost_usd": 6.735,
+  "files": [
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p001.jsonl.gz",
+      "bytes": 6735,
+      "posts": 23
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p002.jsonl.gz",
+      "bytes": 18793,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p004.jsonl.gz",
+      "bytes": 13163,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p005.jsonl.gz",
+      "bytes": 7085,
+      "posts": 56
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p006.jsonl.gz",
+      "bytes": 21407,
+      "posts": 86
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p007.jsonl.gz",
+      "bytes": 20386,
+      "posts": 87
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p009.jsonl.gz",
+      "bytes": 7098,
+      "posts": 42
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p010.jsonl.gz",
+      "bytes": 16144,
+      "posts": 96
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p011.jsonl.gz",
+      "bytes": 14420,
+      "posts": 92
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p012.jsonl.gz",
+      "bytes": 9155,
+      "posts": 52
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p013.jsonl.gz",
+      "bytes": 15990,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p014.jsonl.gz",
+      "bytes": 6839,
+      "posts": 40
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p015.jsonl.gz",
+      "bytes": 6381,
+      "posts": 30
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p016.jsonl.gz",
+      "bytes": 14813,
+      "posts": 100
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p017.jsonl.gz",
+      "bytes": 12424,
+      "posts": 85
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p018.jsonl.gz",
+      "bytes": 18892,
+      "posts": 99
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p019.jsonl.gz",
+      "bytes": 10544,
+      "posts": 47
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p020.jsonl.gz",
+      "bytes": 7187,
+      "posts": 29
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p021.jsonl.gz",
+      "bytes": 5291,
+      "posts": 12
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p022.jsonl.gz",
+      "bytes": 8734,
+      "posts": 53
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p023.jsonl.gz",
+      "bytes": 820,
+      "posts": 4
+    },
+    {
+      "path": "raw/ingest_dt=2026-09-24/posts-local20260924215441-a1-p024.jsonl.gz",
+      "bytes": 3359,
+      "posts": 14
+    }
+  ],
+  "status": "ok",
+  "error": null
+}

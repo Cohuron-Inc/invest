@@ -164,3 +164,16 @@ months excludes a name from the mandate's core fit regardless of score.
 | below 45 | no runway on the numbers |
 
 The gates override the total. Record both.
+
+## Forward-quality extension
+
+Read [forward-research.md](forward-research.md) for the eight required forward metrics,
+normalized `forward` record fields, optional API cache commands, missing-data rules
+and verified insider-conviction inputs. This extension is required for every ticker; its verified-coverage requirement
+overrides the legacy insider table when coverage is unknown. The script counts
+unique named buyers across 90 days; a claimed 30-day cluster requires a separate
+filing-date review. Confirmed plan sales are excluded from discretionary-sale counts,
+but remain visible in total sales and the conservative insider gate.
+
+keep its metrics and coverage separate from the legacy total. Older records without
+these fields remain readable but do not establish forward quality or insider coverage.

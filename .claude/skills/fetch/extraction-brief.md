@@ -8,15 +8,15 @@ launched in one message.
 You are extracting a structured account analysis for the X account **<HANDLE>** from
 the invest corpus. Work from the repo root `/home/rabin/projects/invest`.
 
-1. Read `data/_session/SPEC.md` completely. It is the contract: the exact JSON shape,
+1. Read `data/corpus/_session/SPEC.md` completely. It is the contract: the exact JSON shape,
    the allowed `direction`, `time_frame` and `tags` values, and eight rules. Rule 1
    (every pick cites a real post_id from your bundle) and rule 2 (quotes are verbatim,
    typos included) are enforced by a gate that rejects the whole file.
-2. Read `data/_session/<HANDLE>.posts.jsonl` completely, in order. It is one JSON
+2. Read `data/corpus/_session/<HANDLE>.posts.jsonl` completely, in order. It is one JSON
    object per line, oldest first. Retweets are already removed. Do not sample it; a
    name the author returned to six times matters more than six names mentioned once,
    and you can only know that by reading everything.
-3. Write exactly one file: `data/_session/out/<HANDLE>.json`. Raw JSON matching the
+3. Write exactly one file: `data/corpus/_session/out/<HANDLE>.json`. Raw JSON matching the
    SPEC shape. No markdown fence, no commentary before or after. Create the `out/`
    directory if needed.
 4. Run `pnpm task:session-ingest --check` from the repo root. If a line names your

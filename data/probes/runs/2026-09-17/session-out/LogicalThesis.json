@@ -1,0 +1,159 @@
+{
+  "account": "LogicalThesis",
+  "profile": {
+    "beat": "Concentrated small-cap healthcare, commercial biotechnology and diagnostics, with macro and AI spending debates.",
+    "style": "Combines fundamental valuation and launch economics with technical support and volume. Discusses portfolio concentration, leveraged exposure and active trimming. Will revise a detail after another reader highlights an overlooked risk.",
+    "cadence": "Frequent replies, portfolio snapshots and extended debate threads, punctuated by detailed company pitches.",
+    "revisits": "DERM is pitched in 2098908282777903148 and revised for a legacy patent cliff in 2099559516472033697. WGS position trimming is detailed in 2100022167618703381 and 2100025097977479634.",
+    "caveats": "Incremental September window only. Concentrated leveraged holdings and subscription promotion limit comparability to an unlevered passive record. Performance claims and image-only holdings are not independently verified. Historical success mentions without a current stance are omitted. Insider ownership is not evidence of current insider purchases."
+  },
+  "narrative": "The author consolidates a leveraged portfolio into higher-conviction holdings while questioning near-term AI spending economics. Healthcare and commercial biotechnology become the preferred contrast to struggling technology themes. KURA additions are disclosed, and DERM receives the most complete fresh fundamental pitch. The DERM discussion subsequently acknowledges a previously overlooked legacy patent cliff, but the author maintains that Emrosi can drive the thesis independently. WGS is explicitly trimmed to fund other opportunities rather than described as a new entry. BDSX receives a late-window valuation and product-quality endorsement. Macro commentary remains conditionally constructive on equities while skeptical that cooler yields alone will repair AI demand concerns.",
+  "picks": [
+    {
+      "symbol": "KURA",
+      "direction": "long",
+      "conviction": 0.85,
+      "time_frame": "position",
+      "prospect": "Expects a constructive reset within an uptrend and reports adding.",
+      "thesis": "Identifies a pullback to a weekly moving average after a high-volume rally.",
+      "risk_reward": "The author never addressed risk.",
+      "tags": [
+        "value"
+      ],
+      "first_seen": "2026-09-11",
+      "sources": [
+        {
+          "post_id": "2098145869195616544",
+          "quote": "@n_hatami FWIW I've been adding $KURA with you"
+        },
+        {
+          "post_id": "2098421800992682252",
+          "quote": "$KURA with a pullback to the weekly 9EMA after a big volume run\nNot all stocks have been breaking down. Some are just resetting https://t.co/yC0jHOdlDm"
+        }
+      ]
+    },
+    {
+      "symbol": "DERM",
+      "direction": "long",
+      "conviction": 0.9,
+      "time_frame": "long_term",
+      "prospect": "Expects Emrosi commercialization and possible international licensing to drive a valuation rerating.",
+      "thesis": "Prescription acceleration, flat costs, broader coverage, rising realized revenue per prescription and an established salesforce underpin the thesis.",
+      "risk_reward": "Acknowledges competition and dependence on patent protection; later discovers a legacy-product patent cliff and argues Emrosi growth can replace those sales.",
+      "tags": [
+        "innovation",
+        "value",
+        "speculative"
+      ],
+      "first_seen": "2026-09-13",
+      "sources": [
+        {
+          "post_id": "2098874202162123161",
+          "quote": "@Andre_AGTC May be too small for you but besides $KURA I really like the valuation of $DERM here. Trading sub 1X peak sales\nAnd peak sales could be higher than est"
+        },
+        {
+          "post_id": "2098890192782557202",
+          "quote": "@Andre_AGTC @jfais20 Emrosi\nQ2 was a solid accel in launch from prior Q\nAnd bc they have a portfolio of legacy derm products, they already have the salesforce and physician network\n\n$DERM https://t.co/BGB7xPDiv3"
+        },
+        {
+          "post_id": "2098908282777903148",
+          "quote": "Saturday pitch time $DERM\n\nDERM is a small cap operating with 1) a legacy portfolio of commercial dermatology products, but more importantly 2) a growing Rosacea treatment franchise in Emrosi that is the primary growth driver of the company moving forward\n\nTheir recent results showed:\n1) a reacceleration in Emrosi script volumes\n2) cost discipline as costs were flat YoY vs strong revenue growth leading to positive EBITDA\n3) expansion in coverage and rising ASPs leading to strong trends for more patients to get the drug + drive higher revenues\n4) also in recent earnings they discussed they are open to partnering on non-US territories and could license the drug out to a partner to commercialize. That's additional high margin revenue that is not currently accounted for in my conservative peak sales estimate\n\nI think the biggest bear case is that the drug isn't necessarily something novel.\nAnd so the bear thesis is a new entrant can come in and try to replicate, but:\n1) they have patents that would hopefully hold up\n2) they have a head start to market, and given they already have a portfolio of legacy derm products, they already have a salesforce and know the physician network\n3) have extremely superior results to the standard of care Oracea in a ph3 trial\n\nOracea did $300M sales for ~30% of TAM in 2023\nEmrosi is a superior drug and even with a conservative $200M peak sales figure, the stock is currently trading at 1X Emrosi peak sales, and that doesn't even include $40M current revenues from their legacy portfolio of derm drugs.\nAlso, that Oracea $300M figure is just for US. No intl revenues. Which Emrosi is considering/pursuing.\n\nThe stock's valuation is cheap. Yes, competition can come. But for now they're in a solid position.\n\nAlso, the stock technically looks good as it climbs out of a base and chews through a key resistance level. We had a big volume 3 week rally, followed by a 3 week low volume pullback to tap the 50SMA and hold the 9EMA into close."
+        },
+        {
+          "post_id": "2098916333601873931",
+          "quote": "Base case (conservative): Emrosi $200M peak sales (US), legacy revenues $20M, 2X peak sales = $15 PT (2X)\nBull case: Emrosi $400M peak sales (US + Intl), legacy revenues $40M, 2X peak sales = $30 PT (4X)\n\n$DERM"
+        },
+        {
+          "post_id": "2099559516472033697",
+          "quote": "Didn't realize DERM legacy revenues so close to patent cliff\nEither way, the thesis doesn't depend on legacy revenues\nThey're only $40M today\nIn my base case Emrosi reaches $200M and bull case $400M\nThat's all we need\nSo the legacy revenue lasting until Emrosi really picks up is all we need, then it simply won't matter for the thesis."
+        }
+      ]
+    },
+    {
+      "symbol": "PANW",
+      "direction": "short",
+      "conviction": 0.66,
+      "time_frame": "swing",
+      "prospect": "Views it as an attractive short setup but says the trade was not taken.",
+      "thesis": "Directional short opinion is chart-led; no detailed business thesis is supplied.",
+      "risk_reward": "The author never addressed risk.",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "first_seen": "2026-09-13",
+      "sources": [
+        {
+          "post_id": "2099009126332539043",
+          "quote": "@DeepInference $PANW looks like such an obvious short\nKicking myself for not pulling the trigger at 338 Friday am https://t.co/jGoERXXMlA"
+        }
+      ]
+    },
+    {
+      "symbol": "STLN",
+      "direction": "long",
+      "conviction": 0.57,
+      "time_frame": "position",
+      "prospect": "Sees growth and starting valuation as more attractive than a mere defensive hedge.",
+      "thesis": "Uses the company as an example of healthcare growth at an appealing valuation.",
+      "risk_reward": "The author never addressed risk.",
+      "tags": [
+        "value"
+      ],
+      "first_seen": "2026-09-14",
+      "sources": [
+        {
+          "post_id": "2099561612680249371",
+          "quote": "@EliInvests Wait til you see the growth in some names and starting valuations.\nCheck $STLN for example\nThose numbers are far from a defensive hedge."
+        }
+      ]
+    },
+    {
+      "symbol": "WGS",
+      "direction": "long",
+      "conviction": 0.75,
+      "time_frame": "position",
+      "prospect": "Retains exposure while trimming a successful position and reallocating to other holdings.",
+      "thesis": "Expresses conviction in the earlier investment but current updates emphasize capital rotation rather than a fresh operating thesis.",
+      "risk_reward": "Substantial trimming reduces exposure; no security-specific downside thesis is stated.",
+      "tags": [
+        "value"
+      ],
+      "first_seen": "2026-09-15",
+      "sources": [
+        {
+          "post_id": "2099932167350767670",
+          "quote": "$WGS now more than a double in a little over 3mo\nNailed it in size, and told you about it publicly in the below post and several others https://t.co/Sec8fhKgqz https://t.co/uZUwyp09Eu"
+        },
+        {
+          "post_id": "2100022167618703381",
+          "quote": "Today I trimmed another chunk of my $WGS +91% as I've been adding to my other names in pullbacks\nWhat started as a 15% position is now down to 8%\nStill 9 names, 133% long https://t.co/nUNAluNVbq"
+        },
+        {
+          "post_id": "2100025097977479634",
+          "quote": "$WGS was 15% at cost\nIt's since doubled.\nI've now trimmed 72% of the original position\n\nIt's been a 6 figure winner for me."
+        }
+      ]
+    },
+    {
+      "symbol": "BDSX",
+      "direction": "long",
+      "conviction": 0.83,
+      "time_frame": "position",
+      "prospect": "Expects an inexpensive diagnostics company with a constructive breakout to advance.",
+      "thesis": "Cites lung-nodule testing, growth, high gross margins, disciplined management and insider ownership.",
+      "risk_reward": "The author never addressed risk.",
+      "tags": [
+        "innovation",
+        "value"
+      ],
+      "first_seen": "2026-09-17",
+      "sources": [
+        {
+          "post_id": "2100357063243387112",
+          "quote": "Meanwhile $BDSX broke out of consolidation with nice volume today \nSub 3x GP for 25%+ growth w/ 82% GMs\nTheir product: necessary test for diagnosing lung nodules as malignant or benign\nDisciplined mgmt + 45% insider ownership https://t.co/AKyZX0DxsZ"
+        }
+      ]
+    }
+  ]
+}

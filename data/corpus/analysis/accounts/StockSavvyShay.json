@@ -1,0 +1,493 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T22:05:24.042Z",
+  "account": "StockSavvyShay",
+  "profile": {
+    "beat": "AI-economy growth equities: META's Muse agent, the neocloud and AI-power buildout, memory, AMD/NVDA, Rocket Lab and space, plus fintech (SOFI, HOOD) and occasional biotech and quantum news.",
+    "style": "Mostly news-and-analyst relay with a one-line interpretive kicker, mixed with 'who gets paid' stack lists. When personally committed, the author says so in portfolio terms: top position, sizing inside a family portfolio, LEAPS entries, or 'building the position before the revenue inflects'. The views are fundamental and narrative-led (TAM, moats, content per rack, cost of capital), with occasional valuation-multiple comparisons. Price-move posts ('absolutely flying right now') are frequent but carry no reasoning.",
+    "cadence": "High volume, often more than 30 posts a day: headline one-liners, 'Source:' follow-up replies, long stack threads, podcast and video promotion (Futurum Equities, THE DEEP DIVE / DEEP END), and casual replies to a small circle of fintwit accounts.",
+    "revisits": "Yes. META is revisited almost daily, from the moat framing (2100887511522496644) to the top-position claim (2102030053404230063) to a stated position size (2103117871278928350 thread, 2103118446464840151 reply). RKLB's full-stack thesis is restated repeatedly (2101816939761049805, 2102363716759249371, 2103157245496484253). Past calls are revisited as victory laps: P LEAPS (2103121045637238791) and VKTX LEAPS (2102361025542836625).",
+    "caveats": "The author runs a paid X subscription trading portfolio and promotes a podcast and a Futurum Equities affiliation, so the victory-lap posts about earlier LEAPS entries are self-promotional and not verifiable from this window. Most posts relay analyst notes or news, and those relays are not the author's own calls. Large, rising positions (META) are discussed with heavy after-the-fact confirmation bias. Risk is rarely addressed except for rates on SOFI and financing cost on the neoclouds."
+  },
+  "narrative": "The window is dominated by META. From 09-18 the author frames Muse's App Store rise as proof of Meta's installed-base moat, argues on 09-19 that the stock deserves a higher earnings multiple, and on 09-21 celebrates the rally as the payoff for buying fear, calling META the top family-portfolio position. Through Connect (09-23 to 09-24) they catalog every Muse partnership and hardware launch as evidence that Meta is becoming the consumer operating layer for AI. Alongside this runs a steady AI-infrastructure thread. Neoclouds (IREN, NBIS, CRWV) are called bullish, with the debate shifting on 09-21 toward cost of capital. Memory (MU, SKHY) is described as a tighter-for-longer cycle, and on 09-19 AMD is judged rich against NVDA before the author turns more constructive on AMD's agentic-CPU opportunity on 09-20. From 09-23 the emphasis moves to 'AI Power' as the next bottleneck: the author names VRT as a favorite and discloses adding heavily to ON on the drawdown. Rocket Lab's full-stack and Iridium story gets near-daily reinforcement. Rising Treasury yields and rate-hike odds appear as a headwind for SOFI and a puzzle given low VIX, but they do not change the growth-long posture.",
+  "picks": [
+    {
+      "symbol": "META",
+      "direction": "long",
+      "prospect": "Muse turns Meta into the consumer operating layer for AI agents and drives a rerating of the stock beyond its ads business.",
+      "risk_reward": "The author notes Muse agentic calling is still early and wants retention or DAU data to confirm the habit forms, but otherwise frames the setup as asymmetric upside. No downside case is addressed.",
+      "thesis": "Meta's installed base lets a free product scale instantly. Muse adds connectors, payments (Shopify, PayPal, Meta Pay), glasses and dedicated hardware, and the transaction-fee model expands the TAM. The author built conviction before the narrative turned.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation",
+        "catalyst-driven"
+      ],
+      "conviction": 0.95,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100887511522496644",
+          "quote": "This is a perfect example of why $META installed base is such a moat because a great free product can turn into massive adoption almost immediately."
+        },
+        {
+          "post_id": "2101334062782935377",
+          "quote": "Muse expanded the $META TAM drastically... the stock really deserves a 25x earnings multiple after this week."
+        },
+        {
+          "post_id": "2102030053404230063",
+          "quote": "Great day for $META to be the top position in my family portfolio"
+        },
+        {
+          "post_id": "2102050067419185274",
+          "quote": "But this is another reminder that building conviction before story feels obvious is the name of the game so the position is already built by the time everyone else starts paying up for the same thesis."
+        },
+        {
+          "post_id": "2103117871278928350",
+          "quote": "Great to see $META getting bought up after Connect showed how it plans to become consumer operating layer for AI."
+        },
+        {
+          "post_id": "2103118446464840151",
+          "quote": "I currently own a 11% $META position in my family portfolio:"
+        }
+      ]
+    },
+    {
+      "symbol": "ON",
+      "direction": "long",
+      "prospect": "AI data-center revenue inflects as racks move to 800V power architecture.",
+      "risk_reward": "The author acknowledges the timing risk that high-voltage sidecars and solid-state transformers do not ramp until later in 2027, and is buying ahead of that on the drawdown. Downside is not otherwise addressed.",
+      "thesis": "The 800V transition multiplies power-semiconductor content per AI rack, and all that compute still has to be powered.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-09-24",
+      "sources": [
+        {
+          "post_id": "2103112576330846616",
+          "quote": "I've been adding a ton of $ON during this drawdown"
+        },
+        {
+          "post_id": "2103235593580974369",
+          "quote": "$ON is one of the names I’ve been building in my Family Portfolio 'AI Power' bucket"
+        },
+        {
+          "post_id": "2103235593580974369",
+          "quote": "so I’m building the position before the revenue inflects because all that compute still has to be powered."
+        }
+      ]
+    },
+    {
+      "symbol": "P",
+      "direction": "long",
+      "prospect": "Everpure keeps rerating as the AI data-storage and management constraint shows up in its numbers.",
+      "risk_reward": "The position is held through long-dated LEAPS. The author never addressed risk.",
+      "thesis": "Once AI runs everywhere, the constraint becomes how efficiently data is fed, stored and retrieved, and Everpure's guidance is starting to reflect that.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-09-24",
+      "sources": [
+        {
+          "post_id": "2103121045637238791",
+          "quote": "At the start of the year I called Everpure the next AI rerating after memory and bought $75 2028 leaps at $20.50."
+        },
+        {
+          "post_id": "2103121045637238791",
+          "quote": "My thesis was that once AI runs everywhere then the next constraint becomes how efficiently all that data is fed, stored, retrieved and managed."
+        }
+      ]
+    },
+    {
+      "symbol": "VKTX",
+      "direction": "long",
+      "prospect": "VK2735's dosing flexibility differentiates it through Phase 3.",
+      "risk_reward": "The exposure is long-dated LEAPS in a Phase 3 biotech, so outcome risk is implicit. The author never addressed risk.",
+      "thesis": "Maintenance on every-other-week and monthly dosing, with no weight-loss plateau observed, is a real differentiator.",
+      "time_frame": "long_term",
+      "tags": [
+        "speculative",
+        "catalyst-driven"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102358385190662650",
+          "quote": "That dosing flexibility is a real differentiator as VK2735 moves through Phase 3"
+        },
+        {
+          "post_id": "2102361025542836625",
+          "quote": "My $VKTX $35 2028 leaps position in the X subscription trading portfolio is finally starting to pay off"
+        },
+        {
+          "post_id": "2102361077766049838",
+          "quote": "Nope since I already have a $VKTX position"
+        }
+      ]
+    },
+    {
+      "symbol": "RKLB",
+      "direction": "long",
+      "prospect": "Neutron ramps into higher-margin launch revenue and Iridium turns Rocket Lab into an end-to-end space prime with recurring services.",
+      "risk_reward": "The author says the outcome comes down to how quickly Neutron ramps. Downside is not otherwise addressed.",
+      "thesis": "Years of acquisitions assembled a full spacecraft stack that forms a moat, so Rocket Lab can monetize a mission whether it wins the prime contract or supplies components. The backlog shows demand is already there.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "disruptor",
+        "tech"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101318761987047749",
+          "quote": "$RKLB has spent 20 years evolving into a full stack space company across launch, spacecraft and defense."
+        },
+        {
+          "post_id": "2101816939761049805",
+          "quote": "The spacecraft in middle is almost less important than everything Rocket Lab has built around it because that network of capabilities is the moat management has been assembling one acquisition at a time."
+        },
+        {
+          "post_id": "2102363716759249371",
+          "quote": "so now it really comes down to how quickly Neutron ramps and turns that into higher-margin launch revenue."
+        },
+        {
+          "post_id": "2103157245496484253",
+          "quote": "Rocket Lab can monetize same mission whether it wins full program or supplies components to whoever does."
+        }
+      ]
+    },
+    {
+      "symbol": "DOCN",
+      "direction": "long",
+      "prospect": "DigitalOcean is a long-term winner from agentic AI workloads.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "DigitalOcean is building the layer that routes each workload to the best model for price-performance, and it is adding managed agents that bill only for active compute.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102131618282680653",
+          "quote": "Dont forget about $DOCN"
+        },
+        {
+          "post_id": "2102420133637755183",
+          "quote": "$DOCN remains one of my favorite ways to play agentic AI as the company continues to build layer that routes each workload to best model for price performance. Long-term AI winner."
+        }
+      ]
+    },
+    {
+      "symbol": "VRT",
+      "direction": "long",
+      "prospect": "Power distribution and liquid cooling become the next major area of AI spend.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "If GPU and TPU compute keeps scaling, the bottleneck moves to powering and cooling the racks, and this theme is still early.",
+      "time_frame": "position",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102763000981819614",
+          "quote": "This theme is so freaking early."
+        },
+        {
+          "post_id": "2102835913822990615",
+          "quote": "$VRT might be my favorite way to play the AI Power theme"
+        },
+        {
+          "post_id": "2102873007136145609",
+          "quote": "• $VRT power distribution & liquid cooling inside the data center"
+        }
+      ]
+    },
+    {
+      "symbol": "IREN",
+      "direction": "long",
+      "prospect": "IREN monetizes scarce energized power into contracted AI cloud capacity as demand outruns supply.",
+      "risk_reward": "The author says the upside depends on execution: repeating the Sweetwater design against heavy capex. IREN also spends most aggressively relative to revenue, and its cheap funding shows up partly as dilution.",
+      "thesis": "Energized sites are the scarcest input, and lenders price that asset more cheaply than GPU-heavy balance sheets, which gives IREN the lowest cost of capital among the neoclouds.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "speculative"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2101011312432255188",
+          "quote": "Yeah so this is bullish for neocloud theme aka $NBIS, $IREN, $CRWV, $CIFR, etc"
+        },
+        {
+          "post_id": "2101686054692827637",
+          "quote": "Thats where the opportunity gets really large if IREN can execute"
+        },
+        {
+          "post_id": "2101781064255701294",
+          "quote": "but also lenders are still giving much cheaper capital to energized power and interconnects than to GPU-heavy balance sheets."
+        }
+      ]
+    },
+    {
+      "symbol": "NBIS",
+      "direction": "long",
+      "prospect": "Nebius lifts utilization and margins through pricing power as demand runs ahead of capacity.",
+      "risk_reward": "The author notes Nebius's borrowing rate has been rising and that it builds ahead of revenue, offset by customer prepayments. There is no explicit downside case.",
+      "thesis": "Customer-prepaid capex keeps the funding model cleaner than CoreWeave's, and repeated price hikes plus spot pricing show demand exceeding supply.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2101011312432255188",
+          "quote": "Yeah so this is bullish for neocloud theme aka $NBIS, $IREN, $CRWV, $CIFR, etc"
+        },
+        {
+          "post_id": "2101781064255701294",
+          "quote": "but customers are still prepaying a large portion of CapEx which keeps the funding model way cleaner than CoreWeave’s."
+        },
+        {
+          "post_id": "2102468143201550705",
+          "quote": "Nebius is now raising prices across both cloud compute and inference which shows demand is still running ahead of available capacity."
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "long",
+      "prospect": "NVDA's multiple rerates upward, since the author judges it cheap relative to AMD and to slow-growth defensives.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Nvidia's growth and margins in the largest infrastructure buildout since the internet do not justify its valuation discount, and physical AI has barely reached its numbers.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101331512830631971",
+          "quote": "Either $AMD mean reverts a bit or $NVDA gets rerated closer to 25x.. there should be no world where AMD trades at this much of a premium to Nvidia."
+        },
+        {
+          "post_id": "2102796526842184004",
+          "quote": "And physical AI has barely started showing up in Nvidia’s numbers."
+        }
+      ]
+    },
+    {
+      "symbol": "MU",
+      "direction": "long",
+      "prospect": "The memory cycle stays tight for longer, with another step-up in HBM pricing.",
+      "risk_reward": "The author never addressed risk, including China's CXMT capacity push, which they reported without comment.",
+      "thesis": "AI servers drive most incremental DRAM demand while supply bit growth lags, so HBM and NAND pricing stays strong.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2101769850989552012",
+          "quote": "That matters most for $MU and $SKHY since servers are expected to drive ~80% of all incremental DRAM demand as AI infrastructure becomes biggest source of growth."
+        },
+        {
+          "post_id": "2101998210810269908",
+          "quote": "That keeps memory cycle tighter for longer with $MU and $SKHY heading into another major step-up in HBM pricing."
+        }
+      ]
+    },
+    {
+      "symbol": "SKHY",
+      "direction": "long",
+      "prospect": "SK hynix benefits from a tighter-for-longer DRAM and HBM cycle.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "Server DRAM demand from AI and constrained supply push HBM pricing higher for the leading HBM suppliers.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "conviction": 0.45,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2101769850989552012",
+          "quote": "That matters most for $MU and $SKHY since servers are expected to drive ~80% of all incremental DRAM demand as AI infrastructure becomes biggest source of growth."
+        },
+        {
+          "post_id": "2101998210810269908",
+          "quote": "That keeps memory cycle tighter for longer with $MU and $SKHY heading into another major step-up in HBM pricing."
+        }
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "direction": "long",
+      "prospect": "AMD's agentic-AI CPU opportunity (Venice) is larger than consensus revenue expectations imply.",
+      "risk_reward": "The view is mixed: a day earlier the author said AMD trades at an unjustified premium to Nvidia and may mean revert. No other risk is addressed.",
+      "thesis": "Consumer agents such as Muse still need CPUs for tool calls, orchestration and data movement alongside GPUs, which gives AMD another way to monetize the agentic buildout.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.45,
+      "first_seen": "2026-09-20",
+      "sources": [
+        {
+          "post_id": "2101676006616780844",
+          "quote": "I still think that may understate the AI opportunity."
+        },
+        {
+          "post_id": "2101676006616780844",
+          "quote": "Thats exactly where AMD Venice matters so much with up to 256 cores and 1.6 TB/s of memory bandwidth per socket giving AMD another major way to monetize the agentic AI buildout."
+        },
+        {
+          "post_id": "2102102242602213407",
+          "quote": "Give Lisa her flowers."
+        }
+      ]
+    },
+    {
+      "symbol": "SOFI",
+      "direction": "long",
+      "prospect": "SoFi grows earnings faster than its balance sheet and gets valued as a financial platform rather than a lender.",
+      "risk_reward": "The author explicitly flags that higher rates are an obvious headwind because the stock still trades like a lender.",
+      "thesis": "The loan platform business and fee businesses monetize volume without holding the credit, and stablecoin settlement on the card program shows the platform expanding.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "macro"
+      ],
+      "conviction": 0.45,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2102108888095137864",
+          "quote": "Lets hope $SOFI makes a $META like move sometime soon"
+        },
+        {
+          "post_id": "2102169395586068941",
+          "quote": "The next leg for $SOFI is proving earnings can grow faster than the balance sheet as LPB and fee businesses let it monetize more volume without holding every dollar of credit itself."
+        },
+        {
+          "post_id": "2102826654452355545",
+          "quote": "which is an obvious headwind because $SOFI still trades like a lender when rates move higher."
+        }
+      ]
+    },
+    {
+      "symbol": "HOOD",
+      "direction": "long",
+      "prospect": "Robinhood holds up under a higher-for-longer Fed.",
+      "risk_reward": "The author frames the rate risk as smaller than feared. No other downside is addressed.",
+      "thesis": "Net interest revenue is a large share of revenue and benefits from elevated rates, and zero-coupon convertible debt gives Robinhood cheap capital while rates stay high.",
+      "time_frame": "swing",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100931289016914068",
+          "quote": "The Fed staying higher for longer isn't as bad for $HOOD as it sounds"
+        }
+      ]
+    },
+    {
+      "symbol": "IBIT",
+      "direction": "long",
+      "prospect": "A long-held Bitcoin position for the author's son, which they suggest may have caught the 2026 bottom.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "No fundamental thesis is given. It is a long-term family holding that the author frames as beginner's luck on timing.",
+      "time_frame": "long_term",
+      "tags": [
+        "speculative"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2102068982975230119",
+          "quote": "My son was born four months ago and the first thing I bought for him was Bitcoin."
+        },
+        {
+          "post_id": "2102070071455776930",
+          "quote": "I own his Bitcoin exposure through $IBIT."
+        }
+      ]
+    },
+    {
+      "symbol": "APP",
+      "direction": "neutral",
+      "prospect": "AppLovin looks cheap, but a buyer needs the consumer business to become a second growth engine.",
+      "risk_reward": "The author weighs a cheap multiple and high margins against a maturing gaming business. The stance is conditional, not committed.",
+      "thesis": "The market is not pricing continued AXON improvement, but gaming is maturing.",
+      "time_frame": "position",
+      "tags": [
+        "value"
+      ],
+      "conviction": 0.3,
+      "first_seen": "2026-09-24",
+      "sources": [
+        {
+          "post_id": "2103096824588612026",
+          "quote": "If you’re a buyer here then you need to believe consumer can scale fast enough to become a meaningful second growth engine."
+        }
+      ]
+    },
+    {
+      "symbol": "QCOM",
+      "direction": "long",
+      "prospect": "Qualcomm wins a seat in the AI data center.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "New AI data-center interconnect and edge-AI moves show Qualcomm working deeper into the AI stack.",
+      "time_frame": "position",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.3,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2102096428013412410",
+          "quote": "Another sign optics are moving closer to the chip as Qualcomm starts carving out a role deeper in the AI data-center stack."
+        },
+        {
+          "post_id": "2102873180163706924",
+          "quote": "All $QCOM really needs is to get a seat at the data center table and I think they will"
+        }
+      ]
+    }
+  ]
+}

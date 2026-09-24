@@ -1,7 +1,7 @@
 # Per-ticker record
 
 Each subagent writes one JSON file per ticker to
-`analysis_output/<window_end>-runway-data/<TICKER>.json`. Every leaf value is an
+`data/probes/runway/<PROBE_ID>/records/<TICKER>.json`. Every leaf value is an
 object `{ "value": ..., "source": "<url>", "as_of": "YYYY-MM-DD" }`. A value that could
 not be found is `{ "value": null, "source": null, "as_of": null, "note": "not found: <why>" }`.
 Numbers are numbers, not strings. Percentages are plain numbers (46.2 means 46.2%).
@@ -83,7 +83,7 @@ Dates are ISO. Text fields are short.
 `judgment` is filled by the main agent after the macro brief and the corpus read, not by
 the research subagent. Everything else is filled by the subagent from the registry.
 
-The macro subagent writes `analysis_output/<window_end>-runway-data/macro.json`, one
+The macro subagent writes `data/probes/runway/<PROBE_ID>/records/macro.json`, one
 object with the items in `macro-brief.md` as keys, each `{value, source, as_of}`, plus
 `themes` as a list of `{theme, direction: "accelerating|fading|stable", counter}` and
 `events` as a list of `{date, event}`.
@@ -91,7 +91,15 @@ object with the items in `macro-brief.md` as keys, each `{value, source, as_of}`
 Corpus-side files in the same directory, written by the main agent:
 
 - `retail.json` from `pnpm -s q retail-interest --symbols "..." --json`
-- `stances.json`: per ticker, the formal picks from `data/analysis/accounts/*.json` as
+- `stances.json`: per ticker, the formal picks from `data/corpus/analysis/accounts/*.json` as
   `[{account, direction, conviction, time_frame}]`
 - `_manifest.json`: `{window_end, price_date, thirteen_f_quarter_end, tickers, groups,
   fetched_at, sources_failed: [{source, tickers, behaviour}]}`
+
+## Forward-quality extension
+
+Read [forward-research.md](forward-research.md) for the eight required forward metrics,
+normalized `forward` record fields, optional API cache commands, missing-data rules
+and verified insider-conviction inputs. This extension is required for every ticker;
+keep its metrics and coverage separate from the legacy total. Older records without
+these fields remain readable but do not establish forward quality or insider coverage.

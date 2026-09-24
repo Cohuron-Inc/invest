@@ -1,0 +1,12 @@
+{
+  "account": "CEOStockWatcher",
+  "profile": {
+    "beat": "Corporate insider purchases and sales, with occasional valuation and post-earnings business summaries.",
+    "style": "Uses templated transaction alerts and highlights clusters, first transactions, reversals and unusual size. Longer posts explain operating developments but do not clearly commit the author to a directional trade.",
+    "cadence": "Frequent daily transaction alerts, plus a weekend cluster-buying screen and service promotion.",
+    "revisits": "Repeatedly follows buying at CarParts and GameStop and selling at Dell and Warner Bros.; the repetition updates reported insider activity, not personal positions.",
+    "caveats": "Insider transactions are third-party actions and must not become author-conviction picks. Transaction codes, trading plans and underlying filings are not established by these texts. The author acknowledges a market-cap pipeline data error in 2099493946405654879."
+  },
+  "narrative": "The account reports insider activity across many sectors through the new window. Cluster purchases following earnings disappointments receive special attention in longer notes. Those notes discuss margin pressure, inventory and management recovery plans alongside valuations. Other posts track repeated sales in several technology and media companies. No unambiguous author-owned investment stance is present, so no directional picks are extracted.",
+  "picks": []
+}

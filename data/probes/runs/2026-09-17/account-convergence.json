@@ -1,0 +1,172 @@
+[
+  {
+    "symbol": "MU",
+    "accounts": 4,
+    "directions": "long",
+    "n_long": 4,
+    "n_short": 0,
+    "avg_conviction": 0.9,
+    "first_called": "2026-09-08",
+    "who": "FeroceResearch:long, MarcosMillaYT:long, TradexWhisperer:long, StockSavvyShay:long"
+  },
+  {
+    "symbol": "NVDA",
+    "accounts": 4,
+    "directions": "long/neutral",
+    "n_long": 3,
+    "n_short": 0,
+    "avg_conviction": 0.89,
+    "first_called": "2026-09-08",
+    "who": "StockSavvyShay:long, FeroceResearch:long, TheLongInvest:neutral, MarcosMillaYT:long"
+  },
+  {
+    "symbol": "META",
+    "accounts": 4,
+    "directions": "long",
+    "n_long": 4,
+    "n_short": 0,
+    "avg_conviction": 0.85,
+    "first_called": "2026-09-08",
+    "who": "StockSavvyShay:long, JaguarAnalytics:long, FeroceResearch:long, RealJGBanks:long"
+  },
+  {
+    "symbol": "NBIS",
+    "accounts": 3,
+    "directions": "long",
+    "n_long": 3,
+    "n_short": 0,
+    "avg_conviction": 0.84,
+    "first_called": "2026-09-08",
+    "who": "StockSavvyShay:long, TheLongInvest:long, TradexWhisperer:long"
+  },
+  {
+    "symbol": "SKHY",
+    "accounts": 3,
+    "directions": "long",
+    "n_long": 3,
+    "n_short": 0,
+    "avg_conviction": 0.83,
+    "first_called": "2026-09-08",
+    "who": "FeroceResearch:long, MarcosMillaYT:long, TradexWhisperer:long"
+  },
+  {
+    "symbol": "TSM",
+    "accounts": 3,
+    "directions": "long",
+    "n_long": 3,
+    "n_short": 0,
+    "avg_conviction": 0.82,
+    "first_called": "2026-09-09",
+    "who": "MarcosMillaYT:long, TradexWhisperer:long, StockSavvyShay:long"
+  },
+  {
+    "symbol": "SNDK",
+    "accounts": 3,
+    "directions": "long",
+    "n_long": 3,
+    "n_short": 0,
+    "avg_conviction": 0.79,
+    "first_called": "2026-09-09",
+    "who": "FeroceResearch:long, MarcosMillaYT:long, TradexWhisperer:long"
+  },
+  {
+    "symbol": "CRDO",
+    "accounts": 2,
+    "directions": "long",
+    "n_long": 2,
+    "n_short": 0,
+    "avg_conviction": 0.92,
+    "first_called": "2026-09-09",
+    "who": "FeroceResearch:long, MarcosMillaYT:long"
+  },
+  {
+    "symbol": "ASTS",
+    "accounts": 2,
+    "directions": "long",
+    "n_long": 2,
+    "n_short": 0,
+    "avg_conviction": 0.91,
+    "first_called": "2026-09-07",
+    "who": "TheLongInvest:long, StockSavvyShay:long"
+  },
+  {
+    "symbol": "TEM",
+    "accounts": 2,
+    "directions": "long",
+    "n_long": 2,
+    "n_short": 0,
+    "avg_conviction": 0.83,
+    "first_called": "2026-09-15",
+    "who": "StockSavvyShay:long, JaguarAnalytics:long"
+  },
+  {
+    "symbol": "PLTR",
+    "accounts": 2,
+    "directions": "long",
+    "n_long": 2,
+    "n_short": 0,
+    "avg_conviction": 0.82,
+    "first_called": "2026-09-08",
+    "who": "StockSavvyShay:long, TradexWhisperer:long"
+  },
+  {
+    "symbol": "AMD",
+    "accounts": 2,
+    "directions": "long",
+    "n_long": 2,
+    "n_short": 0,
+    "avg_conviction": 0.8,
+    "first_called": "2026-09-11",
+    "who": "MarcosMillaYT:long, TheLongInvest:long"
+  },
+  {
+    "symbol": "AVGO",
+    "accounts": 2,
+    "directions": "long",
+    "n_long": 2,
+    "n_short": 0,
+    "avg_conviction": 0.79,
+    "first_called": "2026-09-09",
+    "who": "MarcosMillaYT:long, FeroceResearch:long"
+  },
+  {
+    "symbol": "NET",
+    "accounts": 2,
+    "directions": "long",
+    "n_long": 2,
+    "n_short": 0,
+    "avg_conviction": 0.77,
+    "first_called": "2026-09-09",
+    "who": "StockSavvyShay:long, TradexWhisperer:long"
+  },
+  {
+    "symbol": "RKLB",
+    "accounts": 2,
+    "directions": "long",
+    "n_long": 2,
+    "n_short": 0,
+    "avg_conviction": 0.74,
+    "first_called": "2026-09-07",
+    "who": "TradexWhisperer:long, JaguarAnalytics:long"
+  },
+  {
+    "symbol": "CRWV",
+    "accounts": 2,
+    "directions": "long/neutral",
+    "n_long": 1,
+    "n_short": 0,
+    "avg_conviction": 0.68,
+    "first_called": "2026-09-11",
+    "who": "StockSavvyShay:neutral, MarcosMillaYT:long"
+  },
+  {
+    "symbol": "LULU",
+    "accounts": 2,
+    "directions": "neutral/short",
+    "n_long": 0,
+    "n_short": 1,
+    "avg_conviction": 0.62,
+    "first_called": "2026-09-09",
+    "who": "TheLongInvest:neutral, TradexWhisperer:short"
+  }
+]

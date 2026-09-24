@@ -1,0 +1,89 @@
+{
+  "window_end": "2026-09-17",
+  "price_date": "2026-09-17",
+  "thirteen_f_quarter_end": null,
+  "tickers": [
+    "ADBE",
+    "ORCL",
+    "UBER",
+    "DERM",
+    "BDSX",
+    "CIEN",
+    "NVDA",
+    "META",
+    "MU",
+    "TSM",
+    "NBIS",
+    "ASTS",
+    "TEM",
+    "RKLB",
+    "CRDO",
+    "SNDK",
+    "PLTR"
+  ],
+  "groups": {
+    "ADBE": "core",
+    "ORCL": "core",
+    "UBER": "watch",
+    "DERM": "watch",
+    "BDSX": "watch",
+    "CIEN": "watch",
+    "NVDA": "satellite",
+    "META": "satellite",
+    "MU": "satellite",
+    "TSM": "satellite",
+    "NBIS": "satellite",
+    "ASTS": "satellite",
+    "TEM": "satellite",
+    "RKLB": "satellite",
+    "CRDO": "satellite",
+    "SNDK": "satellite",
+    "PLTR": "satellite"
+  },
+  "fetched_at": "2026-09-17T23:17:29.426406+00:00",
+  "sources_failed": [
+    {
+      "source": "13F institutional ownership",
+      "tickers": [
+        "ADBE",
+        "ORCL",
+        "UBER",
+        "DERM",
+        "BDSX",
+        "CIEN",
+        "NVDA",
+        "META",
+        "MU",
+        "TSM",
+        "NBIS",
+        "ASTS",
+        "TEM",
+        "RKLB",
+        "CRDO",
+        "SNDK",
+        "PLTR"
+      ],
+      "behaviour": "No consistent current share-based dataset was available; gate left false."
+    },
+    {
+      "source": "forward estimates",
+      "tickers": [
+        "ADBE",
+        "ORCL",
+        "UBER",
+        "DERM",
+        "BDSX",
+        "CIEN",
+        "META",
+        "MU",
+        "TSM",
+        "ASTS",
+        "RKLB",
+        "CRDO",
+        "SNDK",
+        "PLTR"
+      ],
+      "behaviour": "No API keys configured; sparse proxy fields retained from Finviz without converting trailing metrics into forward values."
+    }
+  ]
+}

@@ -1,5 +1,17 @@
 # Macro brief (one subagent, once per probe)
 
+**Prefer the macro skills.** When `/macro-regime` has run for the probe date, do not launch
+this subagent. Instead run
+
+```bash
+python3 .claude/skills/macro-regime/scripts/compute_regime.py --date <DATE> --runway <WINDOW_END>
+```
+
+It writes `macro.json` in the shape below, plus `regime_read` and `macro_regime.runway_macro_fit_pts`
+per archetype. Score each ticker's macro climate from its archetype (see
+`.claude/skills/macro-regime/playbook.md` §4). The brief below is the fallback when the
+macro skills cannot run.
+
 Paste this brief and today's date.
 
 ---
@@ -34,7 +46,7 @@ Return ONE markdown table with these rows, columns Item | Value (date) | Source 
 - Dated macro events in the next three months: FOMC, CPI, payrolls, quarterly refunding,
   major fiscal or trade deadlines
 
-Also write the same content as `analysis_output/<WINDOW_END>-runway-data/macro.json`:
+Also write the same content as `data/probes/runway/<PROBE_ID>/records/macro.json`:
 one object keyed by item, each `{value, source, as_of}`, plus `themes` as a list of
 `{theme, direction, counter}` and `events` as a list of `{date, event}`, and
 `regime_read` with three keys: `long_duration`, `cash_flow`, `small_caps`.

@@ -1,0 +1,873 @@
+{
+ "as_of": "2026-09-24",
+ "notes": "Every fact was read on 2026-09-24. 'via search snippet' means the page could not be fetched and the fact comes from the search engine's summary of that URL, so treat it as lower confidence. Where sources disagree, both values are kept.",
+ "fed": {
+  "decision": {
+   "value": "FOMC raised the fed funds target range 25bp to 3.75-4.00% on 2026-09-16. This was the first hike since July 2023 and the first under Chair Kevin Warsh. The vote was 12-0 with no dissents. The statement repeats a policy of 'maintaining ample reserves'; it says 'inflation remains elevated' and that the hike supports 'a timelier return' to 2%. In July, Hammack, Kashkari and Logan had dissented in favour of a hike.",
+   "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+   "as_of": "2026-09-16",
+   "extra_sources": [
+    "https://www.lordabbett.com/en-us/financial-advisor/insights/markets-and-economy/2026/september-fed-meeting-from-signals-to-action.html (2026-09-17)",
+    "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html (July dissents, via search snippet)"
+   ]
+  },
+  "sep": {
+   "fed_funds_median": {
+    "2026": 4.1,
+    "2027": 4.1,
+    "2028": 3.9,
+    "2029": 3.6,
+    "longer_run": 3.2
+   },
+   "june_fed_funds_median": {
+    "2026": 3.8,
+    "2027": 3.6,
+    "2028": 3.4,
+    "longer_run": 3.1
+   },
+   "gdp": {
+    "2026": 2.3,
+    "2027": 2.4,
+    "2028": 2.2,
+    "2029": 2.1,
+    "longer_run": 2.0
+   },
+   "unemployment": {
+    "2026": 4.1,
+    "2027": 4.1,
+    "2028": 4.1,
+    "2029": 4.1,
+    "longer_run": 4.2
+   },
+   "pce": {
+    "2026": 3.7,
+    "2027": 2.3,
+    "2028": 2.1,
+    "2029": 2.0
+   },
+   "core_pce": {
+    "2026": 3.4,
+    "2027": 2.5,
+    "2028": 2.2,
+    "2029": 2.0
+   },
+   "interpretation": "The median shows one more 25bp hike by the end of 2026 and no change in 2027. It was revised up 30bp for 2026 and 50bp for 2027 compared with June. Warsh did not submit a dot. Investing.com and Raisin (via search snippet) report that 8 participants saw 75bp of total tightening through 2027, 6 saw 50bp, and 4 saw some easing in 2027.",
+   "source": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+   "as_of": "2026-09-16",
+   "extra_sources": [
+    "https://www.raisin.com/en-us/news/fed-decision-dot-plot-breakdown-september-2026/ (2026-09-18)"
+   ]
+  },
+  "chair_lines": [
+   {
+    "line": "\"The plain fact is that inflation is too high and has been for too long.\"",
+    "source": "https://www.economicgreenfield.com/2026/09/17/kevin-warshs-september-16-2026-press-conference-notable-aspects/",
+    "as_of": "2026-09-16"
+   },
+   {
+    "line": "On why the Fed hiked since July: \"I'll highlight three things... the economy has strengthened... the inflation summer trends weren't passing the test... And the third thing that's changed in seven weeks is geopolitics.\"",
+    "source": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf",
+    "as_of": "2026-09-16"
+   },
+   {
+    "line": "On whether policy is restrictive: \"I found it difficult to describe financial conditions as restrictive... my colleagues were hard pressed to describe it that way, too. We removed a dose of accommodation.\"",
+    "source": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf",
+    "as_of": "2026-09-16"
+   },
+   {
+    "line": "On long yields: \"First is economic strength... Second reason, competition for capital... the so-called hyperscalers are out in the market raising funding... The third is geopolitics.\"",
+    "source": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf",
+    "as_of": "2026-09-16"
+   },
+   {
+    "line": "On oil and Hormuz: \"We cannot affect any individual price, whether it be oil prices... But what we can do, and will do, is ensure that any change in relative prices don't broaden out.\"",
+    "source": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf",
+    "as_of": "2026-09-16"
+   },
+   {
+    "line": "On labour: \"the unemployment rate is basically running consistent with full employment. I don't believe that we need to do harm to the labor markets to achieve our objective.\"",
+    "source": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf",
+    "as_of": "2026-09-16"
+   },
+   {
+    "line": "Inflation risks are to the upside and labour risks are roughly balanced. Warsh estimated August total PCE at about 3.6% y/y and core PCE at about 3.2%. He gave no forward guidance ('I'm not in the forward [guidance business]') and said 'I'm not a data-point-dependent guy.'",
+    "source": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf",
+    "as_of": "2026-09-16"
+   }
+  ],
+  "speakers": [
+   {
+    "speaker": "Alberto Musalem (St. Louis)",
+    "line": "More hikes are 'likely needed'. He called 3.75-4.00% 'on the accommodative side' and said 'inflation is not a risk. It's there.' He prefers incremental moves now to 'larger and potentially more abrupt policy action' later, and said labour tightness is not driving inflation.",
+    "source": "https://www.investing.com/news/economy-news/exclusivefeds-musalem-says-more-rate-hikes-likely-needed-to-quell-inflation-4909515",
+    "as_of": "2026-09-21"
+   },
+   {
+    "speaker": "Austan Goolsbee (Chicago)",
+    "line": "If inflation mostly comes from supply shocks, one more hike could be enough; if it comes from demand, 'it likely would not be enough'. He also said the Fed may have to accept higher unemployment. Via search snippet.",
+    "source": "https://www.washingtonpost.com/business/2026/09/21/inflation-goolsbee-federal-reserve-rates/7e3be36e-b5cd-11f1-94cb-d3d8f22a8c8b_story.html",
+    "as_of": "2026-09-21"
+   },
+   {
+    "speaker": "Michael Barr (Governor)",
+    "line": "Inflation is above target; he explicitly supports last week's hike. Fed Chirp scores this hawkish.",
+    "source": "https://www.fedchirp.com/",
+    "as_of": "2026-09-23"
+   },
+   {
+    "speaker": "Jeffrey Schmid (Kansas City)",
+    "line": "Explicitly supports the decision to raise rates and tighten policy. Fed Chirp scores this hawkish.",
+    "source": "https://www.fedchirp.com/",
+    "as_of": "2026-09-18"
+   },
+   {
+    "speaker": "Philip Jefferson (Vice Chair)",
+    "line": "Spoke on discount window modernisation and Treasury market functioning; no rate content found.",
+    "source": "https://www.federalreserve.gov/newsevents/2026-speeches.htm",
+    "as_of": "2026-09-22"
+   },
+   {
+    "speaker": "Christopher Waller (Governor), before the meeting",
+    "line": "Indicated he would support holding in September. He was the dovish outlier before the unanimous hike. Via search snippet.",
+    "source": "https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html",
+    "as_of": "2026-09-03"
+   },
+   {
+    "speaker": "President Trump",
+    "line": "Said 'Interest Rates in the United States should be 1%, or less' and called the board 'very hostile' and 'very political'. He said he told Warsh 'you might as well vote with the board'.",
+    "source": "https://finance.yahoo.com/economy/policy/article/trump-slams-the-fed-rate-hike-says-he-told-warsh-you-might-as-well-vote-with-the-board-205145796.html",
+    "as_of": "2026-09-16"
+   }
+  ],
+  "priced_path": {
+   "oct_28_meeting": "CME FedWatch: 54.2% chance of +25bp and 45.8% chance of a hold.",
+   "dec_9_meeting": "By December: 10.8% chance of no change from today, 47.8% chance of +25bp cumulative (4.00-4.25%), 41.4% chance of +50bp cumulative (4.25-4.50%).",
+   "implied_year_end_rate": "About 4.20% at the range midpoint. This is my own calculation from the FedWatch probabilities above, not a published figure. It sits about 10bp above the SEP median of 4.1%.",
+   "other_reads": "TradingEconomics on 2026-09-24 put October at about 64% and December at more than 48%. Musalem's Reuters interview (2026-09-21) said markets price about three more hikes through April. Lord Abbett (2026-09-17) said about three hikes over the next year, more than the SEP.",
+   "source": "https://phemex.com/news/article/cme-fedwatch-542-probability-of-rate-hike-at-october-meeting-97512",
+   "as_of": "2026-09-23",
+   "extra_sources": [
+    "https://tradingeconomics.com/united-states/government-bond-yield (2026-09-24)"
+   ]
+  }
+ },
+ "rates_long_end": [
+  {
+   "fact": "The US 10y was 5.21% according to the TradingEconomics page fetched today. Its search summary said 5.12% and 'up 0.48 points over the month'. NNM said the 10y closed at 5.11% on 9/23, the highest since July 2007.",
+   "source": "https://tradingeconomics.com/united-states/government-bond-yield",
+   "as_of": "2026-09-24"
+  },
+  {
+   "fact": "The 30y rose as much as 6bp to 5.46% intraday on Thursday 9/24 (other reports say 5.44%), the highest since 2004. Drivers cited: the inflationary impact of the Iran war, a robust US economy and a 'torrent of bond sales from governments and tech companies'. Ed Al-Hussainy (Columbia Threadneedle): 'if we're going to lock up our money for 30 years, we need much higher compensation.'",
+   "source": "https://finance.yahoo.com/markets/currencies/articles/us-30-yield-hits-highest-083706130.html",
+   "as_of": "2026-09-24"
+  },
+  {
+   "fact": "The 5y Treasury hit 5% for the first time since 2007 (headline).",
+   "source": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026",
+   "as_of": "2026-09-23"
+  },
+  {
+   "fact": "Term premium: the 10y ACM term premium was 0.61% on 2026-09-17. Via search snippet; not independently fetched.",
+   "source": "https://en.macromicro.me/series/20480/us-10-treasury-term-premium",
+   "as_of": "2026-09-17"
+  },
+  {
+   "fact": "Warsh's own explanation for the rise in long yields: economic strength, 'competition for capital' from hyperscaler funding, and geopolitics.",
+   "source": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf",
+   "as_of": "2026-09-16"
+  },
+  {
+   "fact": "10y auction on 9/9: $39bn at 4.834% high yield, stopped through the when-issued level by 1.5bp. Bid-to-cover 2.71 vs a 2.49 average; indirects 79.2% vs 73.4%. Rated strong.",
+   "source": "https://helious.io/news/auc-91282CRF0-2026-09-09/10-year-note-auction-strong",
+   "as_of": "2026-09-09"
+  },
+  {
+   "fact": "30y auction on 9/10: $22bn at 5.308%, stopped through by 2.7bp. Bid-to-cover 2.61 vs 2.38 average; indirects 79.5% vs 66.4%; dealers 2.2%. Rated strong.",
+   "source": "https://helious.io/news/auc-912810UW6-2026-09-10/30-year-bond-auction-strong",
+   "as_of": "2026-09-10"
+  },
+  {
+   "fact": "20y auction on 9/15: $13bn at 5.420%, the highest since the 20y was reintroduced in 2020. It tailed 2.0bp (when-issued 5.40%). Bid-to-cover 2.57 vs a 2.65 average. Indirects were 52.5%, the lowest on record for the 20y (62.9% the month before); dealers took 16.9%. This was a weak auction.",
+   "source": "https://wolfstreet.com/2026/09/15/some-thoughts-on-the-5-42-yield-at-the-20-year-treasury-auction-bond-market-bloodbath-continues/",
+   "as_of": "2026-09-15"
+  },
+  {
+   "fact": "August refunding statement: Treasury will 'maintain nominal coupon and FRN auction sizes for at least the next several quarters'. Buybacks of up to $38bn off-the-run for liquidity support. TGA may peak around $1.05tn in late October. The next refunding is Wednesday 2026-11-04.",
+   "source": "https://home.treasury.gov/news/press-releases/sb0590",
+   "as_of": "2026-08-05"
+  },
+  {
+   "fact": "Treasury doubled the maximum liquidity-support buyback in the 10-20y and 20-30y sectors to at least $4bn per operation, effective 9/9 through 11/4. Bloomberg via Yahoo says the buybacks have had 'minimal sustained market impact'.",
+   "source": "https://home.treasury.gov/news/press-releases/sb0607",
+   "as_of": "2026-08-19"
+  },
+  {
+   "fact": "Dealers expect coupon auction size changes in early 2027. This is from a headline only; the article was not read.",
+   "source": "https://finance.yahoo.com/economy/policy/articles/us-treasury-keeps-auction-sizes-145911745.html",
+   "as_of": "not found"
+  },
+  {
+   "fact": "TIC data for July: foreign holdings of Treasuries fell $50.4bn to $9.25tn, a nine-month low (Bloomberg headline). China fell to $618bn from $633.4bn; Japan held about $1.13tn. The official Treasury release shows total net TIC inflow of $83.7bn, but net foreign sales of long-term securities of $27.9bn once adjustments are included. Foreigners added $38.8bn of T-bills. The next TIC release is 2026-10-16.",
+   "source": "https://home.treasury.gov/news/press-releases/sb0631",
+   "as_of": "2026-09-16"
+  },
+  {
+   "fact": "BoJ raised its policy rate 25bp to 1.25% on a 7-2 vote (Asada and Sato dissented), the highest since 1995. The move came three months after the previous hike, the shortest gap since 1990. Ueda said the BoJ 'remains committed to raising rates'. The 10y JGB was at 3.084% on 9/24, a 30-year high. The 30y JGB was about 4.08% on 9/21.",
+   "source": "https://tradingeconomics.com/japan/government-bond-yield",
+   "as_of": "2026-09-24"
+  },
+  {
+   "fact": "CBO: the federal deficit was $2.0tn in the first 11 months of FY2026. The full-year FY2026 projection was raised to $2.1tn from $1.9tn, mainly because tariff receipts are about $250bn below earlier projections.",
+   "source": "https://www.crfb.org/press-releases/cbo-estimates-20-trillion-deficit-first-11-months-fy-2026",
+   "as_of": "2026-09"
+  },
+  {
+   "fact": "BofA raised its year-end 10y forecast to 5.0% from 4.5%, citing Iran geopolitics, US fiscal concerns and AI uncertainty. It sees 4.75% by end-2027. It also raised its 2H Brent forecast to $95.",
+   "source": "https://en.bloomingbit.io/feed/news/120988",
+   "as_of": "2026-09-24"
+  },
+  {
+   "fact": "Bloomberg headline: 'Barrow Raises 10-Year Treasury Yield Forecast, Says Selloff Will Continue'. Details are paywalled and were not read.",
+   "source": "https://www.bloomberg.com/news/articles/2026-09-14/strategist-who-foresaw-10-year-treasuries-at-5-says-selloff-isn-t-done-yet",
+   "as_of": "2026-09-14"
+  },
+  {
+   "fact": "MOVE index closed at 80.64, with 30-day realised rate vol at 74. The MOVE had been rising while the VIX fell. Via search snippet; the date is 'mid-September' and the exact day was not found.",
+   "source": "https://streetstats.finance/markets/volatility",
+   "as_of": "2026-09 (mid)"
+  },
+  {
+   "fact": "'Bond vigilante'-style coverage: Wolf Richter calls it a 'bond market bloodbath' and says yields reflect 'shockingly high fiscal deficits' and five years of above-target inflation.",
+   "source": "https://wolfstreet.com/2026/09/15/some-thoughts-on-the-5-42-yield-at-the-20-year-treasury-auction-bond-market-bloodbath-continues/",
+   "as_of": "2026-09-15"
+  }
+ ],
+ "housing_mbs": [
+  {
+   "fact": "Freddie Mac PMMS: the 30y fixed averaged 7.03% on 9/24, up from 6.95% on 9/17, 6.76% on 9/10 and 6.71% on 9/3. The 15y was 6.42%. The 30y is 73bp higher than a year ago.",
+   "source": "https://www.freddiemac.com/pmms",
+   "as_of": "2026-09-24"
+  },
+  {
+   "fact": "The daily conforming 30y fixed was 7.12%, the highest since May 2024. The mortgage-Treasury spread is 219bp, up from lows near 190bp. FHFA's Pulte said on 9/18 that the GSEs are 'beginning to buy even more, large quantities' of MBS. Fannie's MBS purchases reached $100bn at 7/31 (from $71.5bn at end-2025). Retained portfolios are Fannie $173bn and Freddie $140bn, each capped at $225bn. CHLA says more buying could cut spreads 10-12bp.",
+   "source": "https://www.nationalmortgagenews.com/news/freddie-must-join-mbs-buying-to-ease-7-rates-chla",
+   "as_of": "2026-09-24"
+  },
+  {
+   "fact": "August housing starts were 1.275m SAAR, -2.6% m/m. Single-family starts were 918k, +7.6%. Permits were 1.394m, -2.7% m/m; single-family permits 878k, -1.8%.",
+   "source": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf",
+   "as_of": "2026-09-17"
+  },
+  {
+   "fact": "August existing home sales were 3.98m SAAR, -2.0% m/m and -1.2% y/y. Inventory was 1.62m. The median price was $429,100, +1.6% y/y.",
+   "source": "https://www.nar.realtor/newsroom/nar-existing-home-sales-report-shows-2-0-decrease-in-august",
+   "as_of": "2026-09"
+  },
+  {
+   "fact": "August new home sales were 684k SAAR, +6.4% m/m and -2.0% y/y. The median price was $393,700, -5.8% y/y. Supply was 8.5 months (483k homes for sale). Builders are leaning on rate buydowns.",
+   "source": "https://wrenews.com/new-home-sales-august-2026-684000-median-price/",
+   "as_of": "2026-09"
+  },
+  {
+   "fact": "The September NAHB HMI fell 3 points to 32 vs a 34 estimate, the lowest since September 2025. 38% of builders cut prices, with an average cut of 6%, and 66% used incentives. Builders cite mortgage rates, diesel and gas costs, labour shortages and immigration enforcement.",
+   "source": "https://www.nahb.org/news-and-economics/press-releases/2026/09/builder-sentiment-falls-on-higher-interest-rates-and-costs",
+   "as_of": "2026-09"
+  },
+  {
+   "fact": "Lennar Q3 (reported 9/16): gross margin 15.8%, incentives about 12%, ASP $372k. Q4 gross margin guided to 15.5-16.0%. FY2026 deliveries were cut to 80-81k from 82-83k, citing 'continued pressure on interest rates and deterioration in market conditions'.",
+   "source": "https://www.fool.com/earnings/call-transcripts/2026/09/17/lennar-len-q3-2026-earnings-call-transcript/",
+   "as_of": "2026-09-17"
+  },
+  {
+   "fact": "KB Home fell despite an earnings beat, citing difficult housing conditions.",
+   "source": "https://www.fool.com/coverage/stock-market-today/2026/09/23/stock-market-midday-sept-23-stocks-slip-as-treasury-yields-hit-19-year-high/",
+   "as_of": "2026-09-23"
+  },
+  {
+   "fact": "Fed MBS runoff: MBS continue to run off and are reinvested into T-bills, about $17bn in Aug-Sep. MBS holdings are down $809bn (-29%) since fall 2022. Total Fed assets were $6.76tn. The NY Fed cut reserve management purchases to zero from 8/14 to 9/14, which Wolf Street calls a 'baby step' toward Warsh's smaller balance sheet.",
+   "source": "https://wolfstreet.com/2026/08/13/fed-cuts-reserve-management-purchases-rmps-to-zero-starting-august-14/",
+   "as_of": "2026-08-13"
+  },
+  {
+   "fact": "Bank MBS demand: I found no current (September 2026) article. The latest found is that bank unrealized securities losses rose to $325.1bn in Q1 2026 as long yields rose. September-specific bank demand: not found.",
+   "source": "https://www.kucoin.com/news/flash/us-banks-face-325b-in-unrealized-losses-ending-four-quarter-recovery",
+   "as_of": "2026 Q1 data"
+  }
+ ],
+ "inflation_oil": [
+  {
+   "fact": "August CPI was +0.4% m/m and 3.4% y/y. Core was +0.3% m/m against a 0.2% consensus and 2.4% y/y (in line; 2.5% in July). Energy was +16.3% y/y and gasoline +27.4% y/y. Shelter was +0.3% m/m and 3.0% y/y. September CPI is due 10/14.",
+   "source": "https://www.bls.gov/news.release/cpi.nr0.htm",
+   "as_of": "2026-09-11"
+  },
+  {
+   "fact": "Futures put 89% odds on a September hike after the CPI release.",
+   "source": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+   "as_of": "2026-09-11"
+  },
+  {
+   "fact": "July PCE was 3.7% y/y headline (+0.2% m/m) and 3.3% y/y core (+0.2% m/m). Headline was 0.1pp above consensus; core was in line. August PCE is due 9/30. Warsh estimated August headline at about 3.6% and core at about 3.2%.",
+   "source": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+   "as_of": "2026-08-26"
+  },
+  {
+   "fact": "Brent was $107.06 on 9/24, +3.9% on the day, after peaking above $108. Houthi missiles and drones targeted Yanbu, the Saudi Red Sea export terminal used to bypass Hormuz, and Riyadh. Only 10 vessels transited Hormuz on Wednesday against a 17-vessel average.",
+   "source": "https://tradingeconomics.com/commodity/brent-crude-oil",
+   "as_of": "2026-09-24"
+  },
+  {
+   "fact": "The Saudi-led coalition intercepted six Houthi ballistic missiles aimed at Taif and Yanbu. The Houthis claimed hits on Aramco facilities in Yanbu. A fuel-tank fire occurred near Riyadh airport.",
+   "source": "https://www.aljazeera.com/news/2026/9/24/saudi-led-coalition-says-shot-down-6-ballistic-missiles-launched-by-houthis",
+   "as_of": "2026-09-24"
+  },
+  {
+   "fact": "September oil path: US-Iran fighting escalated on 9/4 (WTI +8% to $90.76). Brent closed at $101.21 on 9/9. Diesel set a record $6.06/gal on 9/11. From 9/17-23 prices fell as Saudi exports resumed, then recovered after Iran's president rejected surrender.",
+   "source": "https://en.wikipedia.org/wiki/2026%E2%80%932028_world_oil_market_chronology",
+   "as_of": "2026-09-24"
+  },
+  {
+   "fact": "At UNGA on 9/23, Iran proposed a road map: a regionwide ceasefire of up to 60 days, a phased reopening of Hormuz and an end to the US blockade. Trump ruled out lifting the blockade before Iran shows goodwill.",
+   "source": "https://www.thenationalnews.com/news/mena/2026/09/23/iran-us-meeting-new-york/",
+   "as_of": "2026-09-23"
+  },
+  {
+   "fact": "OPEC+ (seven countries) kept October quotas unchanged from September at a 9/6 virtual meeting. The next meeting is 10/4.",
+   "source": "https://www.cnbc.com/2026/09/06/opec-oil-output-october.html",
+   "as_of": "2026-09-06"
+  },
+  {
+   "fact": "The SPR was 285.0m bbl in the week to 9/11, 39.9% full and the lowest since 1982, after the March 172m bbl release (the US share of a 400m bbl IEA action).",
+   "source": "https://www.oilpriceapi.com/data/inventory/spr",
+   "as_of": "2026-09-11"
+  },
+  {
+   "fact": "Tariffs: the Supreme Court struck down IEEPA tariffs on 2026-02-20. Section 122 global tariffs followed (the 150-day limit; the CIT struck them down for three plaintiffs only). USTR imposed 10-12.5% Section 301 tariffs on 60 partners from 7/23, plus a 12.5% Section 301 forced-labour tariff on China effective 7/24. The applied tariff rate is 11.8%. A 15% solar tariff starts December 2026.",
+   "source": "https://www.tradecomplianceresourcehub.com/2026/09/10/trump-2-0-tariff-tracker/",
+   "as_of": "2026-09-10"
+  },
+  {
+   "fact": "Tariff pass-through: Warsh was asked about inflation 'mostly from higher energy prices and tariffs'. Retail sales showed auto pre-buying 'ahead of additional tariffs on vehicles'. ISM manufacturers cite tariffs as a cost pressure. A direct pass-through estimate was not found.",
+   "source": "https://tradersagency.com/blog/us-retail-sales-rose-12percent-in-august-beating-forecasts-as-control-group-jumped-14percent",
+   "as_of": "2026-09-16"
+  },
+  {
+   "fact": "The S&P Global flash PMI shows input costs rising at the fastest pace since October 2022.",
+   "source": "https://www.pymnts.com/economy/2026/sp-global-data-shows-fastest-us-business-growth-since-post-covid-reopening/",
+   "as_of": "2026-09-23"
+  }
+ ],
+ "growth_labour": [
+  {
+   "fact": "August payrolls were +162k against a 53k consensus. Unemployment held at 4.1% as expected. June and July were revised up by a combined 55k (July to +21k from -23k). Average hourly earnings were +0.3% m/m and +3.1% y/y. Participation was 61.6%. September payrolls are due 10/2.",
+   "source": "https://www.bls.gov/news.release/empsit.nr0.htm",
+   "as_of": "2026-09-04"
+  },
+  {
+   "fact": "Initial claims were 197k for the week ending 9/19 against 204k expected. The 4-week average was 202,250.",
+   "source": "https://finance.yahoo.com/economy/articles/u-initial-jobless-claims-edge-133118625.html",
+   "as_of": "2026-09-24"
+  },
+  {
+   "fact": "August ISM manufacturing was 54.6 (from 55.6, estimate 55.2), with new orders at 53.7 and employment at 51.2. August ISM services was 55.4.",
+   "source": "https://www.prnewswire.com/news-releases/manufacturing-pmi-at-54-6-august-2026-ism-manufacturing-pmi-report-302865127.html",
+   "as_of": "2026-09"
+  },
+  {
+   "fact": "September S&P Global flash PMIs: composite 58.4 (from 56.0), the fastest since July 2021. Manufacturing was 57.0, a 52-month high; services 58.7, a 59-month high, against a 55.9 estimate. They imply growth of about 5% annualised.",
+   "source": "https://www.pymnts.com/economy/2026/sp-global-data-shows-fastest-us-business-growth-since-post-covid-reopening/",
+   "as_of": "2026-09-23"
+  },
+  {
+   "fact": "Atlanta Fed GDPNow for Q3 was 5.1% on 9/16, up from 4.4% on 9/10.",
+   "source": "https://investinglive.com/central-banks/atlanta-fed-gdpnow-estimate-for-q3-growth-jumps-to-5-1-from-4-4/",
+   "as_of": "2026-09-16"
+  },
+  {
+   "fact": "August retail sales were +1.2% against a 0.8% consensus (+6.0% y/y). Ex-autos and the control group were both +1.4%.",
+   "source": "https://tradersagency.com/blog/us-retail-sales-rose-12percent-in-august-beating-forecasts-as-control-group-jumped-14percent",
+   "as_of": "2026-09-16"
+  },
+  {
+   "fact": "FactSet: Q3 S&P 500 EPS growth is estimated at 28.9%, up from 26.7% on 6/30. 63% of companies issuing guidance gave positive guidance (5-year average 41%). Forward P/E is 22.2 (5-year average 20.0).",
+   "source": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_091126.pdf",
+   "as_of": "2026-09-11"
+  },
+  {
+   "fact": "NVIDIA Q2 FY27 revenue was $96.2bn (+106% y/y), with data centre at $89.0bn. Q3 guidance is $108bn ±2%, gross margin 74%.",
+   "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+   "as_of": "2026-08"
+  },
+  {
+   "fact": "AI capex and financing: aggregate hyperscaler capex could top $770bn in 2026. The hyperscalers' USD debt footprint is above $360bn. S&P cut Oracle to BBB- in July 2026.",
+   "source": "https://www.sageadvisory.com/article/hyperscaler-debt-deluge-the-new-driver-of-ig-spread-pressure",
+   "as_of": "2026 (page date not stated)"
+  },
+  {
+   "fact": "Micron reports FQ4 on 9/30, guiding revenue to $50bn ±$1bn and about 86% gross margin.",
+   "source": "https://www.investing.com/news/stock-market-news/micron-earnings-outlook-what-to-watch-ahead-of-the-september-30-report-93CH-4911385",
+   "as_of": "2026-09"
+  },
+  {
+   "fact": "The Japan manufacturing PMI slowed to a seven-month low in September (context for global growth).",
+   "source": "https://tradingeconomics.com/japan/government-bond-yield",
+   "as_of": "2026-09-24"
+  }
+ ],
+ "credit_liquidity": [
+  {
+   "fact": "The ICE BofA HY OAS was 2.73% on 9/23 (266bp on 9/21 per Convex). The HY yield was about 7.48%. The IG index yield was 5.69% with a 77bp spread (other gauges: IG 81bp, BBB 100bp). Spreads remain tight despite 5%+ Treasuries. Via search snippet.",
+   "source": "https://govspending.org/series/BAMLH0A0HYM2/",
+   "as_of": "2026-09-23"
+  },
+  {
+   "fact": "Private credit: Fitch put the default rate at a record 6.3% 'this week'. Other measures show below 2% (headline) or about 5% including LMEs. Via Bloomberg search snippet.",
+   "source": "https://www.bloomberg.com/news/articles/2026-09-17/private-credit-defaults-are-1-6-or-19-depending-who-you-ask",
+   "as_of": "2026-09-17"
+  },
+  {
+   "fact": "BofA's Subramanian cites credit risk and says higher financing costs could 'hasten pain'.",
+   "source": "https://www.fa-mag.com/news/bofa-lifts-s-p-500-year-end-target-to-7-400-but-still-among-lowest-on-street-88466.html",
+   "as_of": "2026-09-14"
+  },
+  {
+   "fact": "Bank stress: no September 2026 bank-stress episode was found. The latest data found is Q1 2026 unrealized securities losses of $325.1bn, which rose with long yields.",
+   "source": "https://www.kucoin.com/news/flash/us-banks-face-325b-in-unrealized-losses-ending-four-quarter-recovery",
+   "as_of": "2026 Q1 data"
+  },
+  {
+   "fact": "Balance sheet and QT: reserve management purchases were halted from 8/14 to 9/14, and MBS paydowns are reinvested into bills. Total assets were $6.76tn. Allianz Trade expects a cautious move to a smaller balance sheet from Q4 2026 at the earliest. September-specific reserves and ON RRP levels were not found.",
+   "source": "https://wolfstreet.com/2026/08/13/fed-cuts-reserve-management-purchases-rmps-to-zero-starting-august-14/",
+   "as_of": "2026-08-13"
+  },
+  {
+   "fact": "TGA: Treasury assumed a $950bn end-September balance, peaking around $1.05tn in late October. This drains reserves into the October tax and refunding period.",
+   "source": "https://home.treasury.gov/news/press-releases/sb0590",
+   "as_of": "2026-08-05"
+  },
+  {
+   "fact": "DXY was about 101.08 on 9/24 after an eight-week high above 101 on 9/23 on the PMI data. The yen is the best-performing DXY currency in 2026. USD/JPY fell to about 154.40, a 6.5-month low, on hawkish-BoJ expectations, repatriation and yen carry unwinding. A joint US-Japan intervention took place in late July.",
+   "source": "https://www.fxstreet.com/news/japanese-yen-carry-unwind-boosts-gains-against-us-dollar-dbs-202609081417",
+   "as_of": "2026-09-08 / 2026-09-24"
+  },
+  {
+   "fact": "The VIX closed at 15.18 on 9/23 (+6.8%), which is low compared with the MOVE index.",
+   "source": "https://www.investing.com/indices/volatility-s-p-500",
+   "as_of": "2026-09-23"
+  },
+  {
+   "fact": "Gold fell 1.9% to about $4,283 on 9/23.",
+   "source": "https://www.fool.com/coverage/stock-market-today/2026/09/23/stock-market-midday-sept-23-stocks-slip-as-treasury-yields-hit-19-year-high/",
+   "as_of": "2026-09-23"
+  }
+ ],
+ "fiscal_geopolitics": [
+  {
+   "fact": "Shutdown averted: a clean CR funds the government through 2026-12-11. The House passed it 370-48 and the Senate had passed it earlier. The next funding cliff is after the midterms.",
+   "source": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms",
+   "as_of": "2026-09-01"
+  },
+  {
+   "fact": "Midterms are on 2026-11-03. Prediction markets give a Democratic House 86% (Kalshi) to 88% (Polymarket). Decision Desk HQ sees D 225-210 in the House and a 50-50 Senate.",
+   "source": "https://federalnewsnetwork.com/prediction-markets/2026/09/democrats-odds-to-win-senate-surge-prediction-markets-trade-latest-politics-news/",
+   "as_of": "2026-09"
+  },
+  {
+   "fact": "Xi Jinping is making a three-day visit to Washington from 9/23, his first in more than a decade. The US and China agreed to extend the 11-month trade truce. Topics are trade, Taiwan and AI guardrails; the summit is expected to be 'heavy on symbolism'.",
+   "source": "https://www.aljazeera.com/news/2026/9/23/trump-meets-chinas-xi-jinping-at-us-airport-on-arrival-for-three-day-trip",
+   "as_of": "2026-09-23"
+  },
+  {
+   "fact": "Iran war background: a ceasefire in April and an MOU in June, then conflict resumed in July with Iranian attacks on shipping. A US blockade and a Hormuz disruption are ongoing. 60-day ceasefire road map talks took place at UNGA on 9/23.",
+   "source": "https://www.thenationalnews.com/news/mena/2026/09/23/iran-us-meeting-new-york/",
+   "as_of": "2026-09-23"
+  },
+  {
+   "fact": "Fed independence: Trump publicly attacked the hike and the board ('very hostile', 'very political'). CNBC analysis says a fight over Fed independence could reignite.",
+   "source": "https://www.cnbc.com/2026/09/16/fed-interest-rates-kevin-warsh-trump.html",
+   "as_of": "2026-09-16"
+  },
+  {
+   "fact": "CBO: the FY2026 deficit is projected at $2.1tn (raised from $1.9tn) because tariff revenue is about $250bn below earlier projections.",
+   "source": "https://www.crfb.org/press-releases/cbo-estimates-20-trillion-deficit-first-11-months-fy-2026",
+   "as_of": "2026-09"
+  },
+  {
+   "fact": "Section 301 tariffs cover 60 partners (10-12.5%) from 7/23. A US-China Board of Trade is being formed to cut tariffs on 'non-sensitive products'.",
+   "source": "https://www.tradecomplianceresourcehub.com/2026/09/10/trump-2-0-tariff-tracker/",
+   "as_of": "2026-09-10"
+  }
+ ],
+ "outlooks": [
+  {
+   "house": "Bank of America (Subramanian)",
+   "date": "2026-09-14",
+   "view": "Year-end target raised slightly to 7,400 (still the Street low), with a 12-month target of 7,800. Says stocks are 'overdue for a pullback' (only one 5% pullback this year). Risks: inflation, the Fed, EPS quality, credit. Prefers large-cap value and select SMID.",
+   "sp500_target": "7400 (YE26); 7800 (12m)",
+   "ten_year_forecast": "5.0% YE26, raised from 4.5% on 2026-09-24; 4.75% end-2027",
+   "recession_prob": "not found",
+   "source": "https://www.fa-mag.com/news/bofa-lifts-s-p-500-year-end-target-to-7-400-but-still-among-lowest-on-street-88466.html ; https://en.bloomingbit.io/feed/news/120988"
+  },
+  {
+   "house": "JPMorgan (Lakos-Bujas; Feroli)",
+   "date": "2026-08 (exact day not found)",
+   "view": "Target raised to 8,000 from 7,800 on AI and earnings. 2026 EPS $365 (+35%). Multiple held near 20x because of rates, geopolitics and issuance. The economists (8/5) called a December hike; the Fed moved sooner.",
+   "sp500_target": "8000",
+   "ten_year_forecast": "not found",
+   "recession_prob": "not found",
+   "source": "https://www.thestreet.com/investing/jpmorgan-resets-sp-500-price-target-for-the-rest-of-2026-stock-market (via search snippet; fetch 403) ; https://www.jpmorgan.com/insights/global-research/economy/fed-rate-cuts"
+  },
+  {
+   "house": "Morgan Stanley (Wilson)",
+   "date": "2026-07-28 (early-Sept reiteration via search snippet)",
+   "view": "Year-end 8,000 kept, with a retest near 7,000 in the base case. Rotation to quality (FCF, balance sheets) and away from semis and AI hardware. Calls a hike an 'insurance hike'. Would turn 'very aggressive' at 7,000.",
+   "sp500_target": "8000",
+   "ten_year_forecast": "not found",
+   "recession_prob": "not found",
+   "source": "https://parameter.io/mike-wilson-maintains-sp-500-target-of-8000-despite-projecting-near-term-drop-to-7000/"
+  },
+  {
+   "house": "Goldman Sachs (GSAM Market Pulse)",
+   "date": "2026-09-08",
+   "view": "Overweight equities on earnings (consensus US EPS +31% in 2026). Neutral duration; favours carry in high-quality bonds and TIPS as an inflation hedge. Sees 'ambiguity around the new Chair's reaction function'. Favours AI-linked infrastructure, data centres and power. The GS research S&P target is 8,000 (set 2026-05-27; no later revision found).",
+   "sp500_target": "8000 (from 2026-05-27; outside 6-week window)",
+   "ten_year_forecast": "not found",
+   "recession_prob": "not found for Sept (latest found 25%, dated 2026-03-18: stale)",
+   "source": "https://am.gs.com/en-us/advisors/insights/article/market-pulse ; https://www.cnbc.com/2026/05/27/goldman-raises-its-sp-500-year-end-forecast-its-for-one-simple-reason.html"
+  },
+  {
+   "house": "Citi",
+   "date": "not found",
+   "view": "Year-end target raised to 8,100 from 7,700.",
+   "sp500_target": "8100",
+   "ten_year_forecast": "not found",
+   "recession_prob": "not found",
+   "source": "https://www.thestreet.com/investing/citi-quietly-resets-sp-500-price-target-for-the-rest-of-2026 (via search snippet; fetch 403)"
+  },
+  {
+   "house": "Wells Fargo",
+   "date": "2026-06 (outside window)",
+   "view": "Target 7,950 (from 7,300). EPS $340 for 2026 and $390 for 2027.",
+   "sp500_target": "7950",
+   "ten_year_forecast": "not found",
+   "recession_prob": "not found",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-raises-p-500-192054502.html (via search snippet)"
+  },
+  {
+   "house": "Deutsche Bank",
+   "date": "2026-08-03",
+   "view": "EPS raised to $358 for 2026 and $420 for 2027. Index target not found.",
+   "sp500_target": "not found",
+   "ten_year_forecast": "not found",
+   "recession_prob": "not found",
+   "source": "https://www.thestreet.com/investing/citi-quietly-resets-sp-500-price-target-for-the-rest-of-2026 (via search snippet)"
+  },
+  {
+   "house": "Yardeni Research",
+   "date": "~2026-09-14",
+   "view": "Target raised to 8,400 from 8,250.",
+   "sp500_target": "8400",
+   "ten_year_forecast": "not found",
+   "recession_prob": "not found",
+   "source": "https://www.fa-mag.com/news/bofa-lifts-s-p-500-year-end-target-to-7-400-but-still-among-lowest-on-street-88466.html"
+  },
+  {
+   "house": "Lord Abbett",
+   "date": "2026-09-17",
+   "view": "Futures price about three hikes over the next year, more than the SEP. Yields 'may be at the top end of their range'. Favours diversified, active multi-sector fixed income.",
+   "sp500_target": "n/a",
+   "ten_year_forecast": "not found",
+   "recession_prob": "not found",
+   "source": "https://www.lordabbett.com/en-us/financial-advisor/insights/markets-and-economy/2026/september-fed-meeting-from-signals-to-action.html"
+  },
+  {
+   "house": "UBS GWM",
+   "date": "not found",
+   "view": "S&P target 7,900.",
+   "sp500_target": "7900",
+   "ten_year_forecast": "not found",
+   "recession_prob": "not found",
+   "source": "https://www.thestreet.com/investing/citi-quietly-resets-sp-500-price-target-for-the-rest-of-2026 (via search snippet)"
+  }
+ ],
+ "market_levels": [
+  {
+   "fact": "The S&P 500 was 7,695.96 on 9/24 (TradingEconomics), up 16.5% YTD. The record is 7,816.70 (August 2026), so the index is about 1.5% below it.",
+   "source": "https://tradingeconomics.com/united-states/stock-market",
+   "as_of": "2026-09-24"
+  },
+  {
+   "fact": "The Nasdaq Composite set a record close of 27,231.59 on 9/22.",
+   "source": "https://www.compsmag.com/news/nasdaq-hits-a-record-high-as-ai-and-semiconductor-stocks-regain-momentum/",
+   "as_of": "2026-09-22"
+  }
+ ],
+ "themes": [
+  {
+   "theme": "Long-end bond rout / 'higher for longer' (5% 10y, 30y at 2004 highs)",
+   "direction": "accelerating",
+   "counter": "Strong 10y and 30y auctions on 9/9-10 with high indirect demand. Treasury buybacks. GSE MBS buying. Lord Abbett thinks yields are at the top of their range. BofA sees 4.75% by end-2027. A Hormuz deal would pull oil and breakevens down.",
+   "evidence": "The 10y moved from a 4.83% auction on 9/9 to about 5.1-5.2% on 9/24. The 30y hit 5.44-5.46%. The 20y auction tailed 2bp with record-low indirects. The 5y reached 5%. The JGB 10y hit 3.08%, a global selloff.",
+   "source": "https://finance.yahoo.com/markets/currencies/articles/us-30-yield-hits-highest-083706130.html"
+  },
+  {
+   "theme": "Fed hiking cycle under Warsh (re-tightening into a hot economy)",
+   "direction": "accelerating",
+   "counter": "Goolsbee says one more hike may suffice if the shock is supply-driven. Core CPI is only 2.4% y/y. Trump pressure and Fed-independence risk. Warsh gives no guidance and says he is 'not data-point-dependent'.",
+   "evidence": "The Fed hiked 12-0 on 9/16. Futures show 54-64% for an October hike and about 89% for at least one more by December. Musalem and Barr are hawkish. The flash PMI of 58.4 is a 5-year high, and GDPNow is 5.1%.",
+   "source": "https://phemex.com/news/article/cme-fedwatch-542-probability-of-rate-hike-at-october-meeting-97512"
+  },
+  {
+   "theme": "Iran war / Hormuz oil shock",
+   "direction": "stable",
+   "counter": "Iran's 60-day ceasefire road map and the talks Trump called 'very productive'. Saudi East-West pipeline exports via Yanbu. Brent fell for five straight sessions into 9/23. GSAM expects Brent to fall about 18% over 12 months.",
+   "evidence": "Brent is at $107 on 9/24 after Houthi attacks on Yanbu, versus about $100 on 9/23 and $101 on 9/9. Diesel reached a record $6.06 on 9/11, and only 10 ships a day are transiting Hormuz. Direction is two-way: talks are progressing but attacks on bypass routes are escalating.",
+   "source": "https://tradingeconomics.com/commodity/brent-crude-oil"
+  },
+  {
+   "theme": "AI capex boom: earnings engine vs 'competition for capital'",
+   "direction": "accelerating",
+   "counter": "Capex is outrunning cash flow, and debt-funded builds are pushing up yields and IG supply (Oracle is at BBB-). MS favours a rotation out of semis and hardware. The FactSet forward P/E of 22.2 against a near-zero equity risk premium. Private-credit software exposure.",
+   "evidence": "The Nasdaq set a record on 9/22 as chips rallied (AMD, MRVL, INTC). NVDA guided Q3 to $108bn. Q3 S&P EPS is estimated at +28.9%, with 63% positive guidance. Warsh cites hyperscaler funding as a driver of yields.",
+   "source": "https://www.compsmag.com/news/nasdaq-hits-a-record-high-as-ai-and-semiconductor-stocks-regain-momentum/"
+  },
+  {
+   "theme": "Housing re-freeze at 7% mortgages",
+   "direction": "accelerating",
+   "counter": "Single-family starts rose 7.6% and new home sales rose 6.4% in August on builder buydowns. GSE MBS purchases could narrow the 219bp spread by 10-12bp. Freddie Mac says a solid labour market supports housing.",
+   "evidence": "The 30y PMMS is 7.03%, a 19-month-plus high. NAHB is 32, below estimates. Lennar cut its delivery guidance. Existing home sales are below 4m. KB Home fell after its report.",
+   "source": "https://www.freddiemac.com/pmms"
+  },
+  {
+   "theme": "Global central-bank tightening and yen carry unwind",
+   "direction": "accelerating",
+   "counter": "Two BoJ dissenters suggest a slower pace. Japan CPI is only 1.9%. The dollar bounced to an eight-week high on US data.",
+   "evidence": "The BoJ hiked to 1.25% (7-2), the highest since 1995. USD/JPY is at a 6.5-month low near 154.4. The JGB 10y is at a 30-year high.",
+   "source": "https://tradingeconomics.com/japan/government-bond-yield"
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-09-24",
+   "event": "Xi Jinping state visit to Washington (3 days); trade truce extension",
+   "why_it_matters": "Tariff path and China risk; possible Board of Trade tariff cuts",
+   "source": "https://www.aljazeera.com/news/2026/9/23/trump-meets-chinas-xi-jinping-at-us-airport-on-arrival-for-three-day-trip"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "August PCE / personal income and Q2 GDP third estimate",
+   "why_it_matters": "First PCE after the hike. Warsh pre-flagged about 3.6% headline and 3.2% core.",
+   "source": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "date": "2026-09-30",
+   "event": "Micron FQ4 earnings",
+   "why_it_matters": "Test of the AI memory cycle and capex",
+   "source": "https://www.investing.com/news/stock-market-news/micron-earnings-outlook-what-to-watch-ahead-of-the-september-30-report-93CH-4911385"
+  },
+  {
+   "date": "2026-10-01",
+   "event": "Start of FY2027 (the CR avoided a shutdown; government funded to 12/11)",
+   "why_it_matters": "No shutdown risk until December",
+   "source": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms"
+  },
+  {
+   "date": "2026-10-02",
+   "event": "September employment report",
+   "why_it_matters": "A key input to the October hike odds (about 54-64% priced)",
+   "source": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+   "date": "2026-10-04",
+   "event": "OPEC+ (7-country) monthly meeting",
+   "why_it_matters": "November quotas amid the Hormuz disruption",
+   "source": "https://www.cnbc.com/2026/09/06/opec-oil-output-october.html"
+  },
+  {
+   "date": "2026-10-07",
+   "event": "10-year note auction",
+   "why_it_matters": "Tests foreign demand after the weak 20y",
+   "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+  },
+  {
+   "date": "2026-10-08",
+   "event": "30-year bond auction",
+   "why_it_matters": "Long-end demand at yields around 5.4%+",
+   "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+  },
+  {
+   "date": "2026-10-13",
+   "event": "JPMorgan Q3 earnings (start of bank earnings season)",
+   "why_it_matters": "Credit quality, NII and markets tone; kicks off Q3 season (est. +28.9% EPS)",
+   "source": "https://www.jpmorganchase.com/ir/news/2026/jpmc-to-host-third-quarter-2026-earnings-call"
+  },
+  {
+   "date": "2026-10-14",
+   "event": "September CPI",
+   "why_it_matters": "Last CPI before the 10/28 FOMC",
+   "source": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+   "date": "2026-10-16",
+   "event": "TIC data for August",
+   "why_it_matters": "Foreign demand for Treasuries",
+   "source": "https://home.treasury.gov/news/press-releases/sb0631"
+  },
+  {
+   "date": "2026-10-21",
+   "event": "20-year bond auction",
+   "why_it_matters": "Follows the 9/15 auction's record-low indirect share",
+   "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC decision (Oct 27-28; no SEP)",
+   "why_it_matters": "Priced as roughly a coin flip to 64% for a second hike",
+   "source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "date": "2026-10-29",
+   "event": "Q3 GDP advance estimate and September PCE",
+   "why_it_matters": "GDPNow is about 5.1%; tests the overheating narrative",
+   "source": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "date": "2026-10-30",
+   "event": "BoJ decision and Outlook Report (Oct 29-30)",
+   "why_it_matters": "JGB yields and the yen carry unwind",
+   "source": "https://www.mnimarkets.com/calendars/bank-of-japan-meeting-calendar"
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterm elections",
+   "why_it_matters": "Markets price about 86-88% for a Democratic House. Fiscal and tariff gridlock.",
+   "source": "https://polymarket.com/event/which-party-will-win-the-house-in-2026"
+  },
+  {
+   "date": "2026-11-04",
+   "event": "Treasury quarterly refunding announcement",
+   "why_it_matters": "Coupon size guidance and whether enhanced buybacks continue past 11/4",
+   "source": "https://home.treasury.gov/news/press-releases/sb0607"
+  },
+  {
+   "date": "2026-11-06",
+   "event": "October employment report",
+   "why_it_matters": "Labour trend into the December FOMC",
+   "source": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+   "date": "2026-11-10",
+   "event": "October CPI and the 10-year refunding auction",
+   "why_it_matters": "Inflation and duration supply on the same day",
+   "source": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+   "date": "2026-11-12",
+   "event": "30-year refunding auction",
+   "why_it_matters": "Long-end demand",
+   "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+  },
+  {
+   "date": "2026-11-25",
+   "event": "NVIDIA Q3 FY27 earnings (date via search snippet, unconfirmed); Q3 GDP second estimate; October PCE",
+   "why_it_matters": "AI capex bellwether (guide $108bn)",
+   "source": "https://www.tipranks.com/stocks/nvda/earnings ; https://www.bea.gov/news/schedule"
+  },
+  {
+   "date": "2026-12-04",
+   "event": "November employment report",
+   "why_it_matters": "Last payrolls before the December FOMC",
+   "source": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+   "date": "2026-12-08",
+   "event": "10-year note auction",
+   "why_it_matters": "Supply the day before the FOMC",
+   "source": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+  },
+  {
+   "date": "2026-12-09",
+   "event": "FOMC decision with SEP (Dec 8-9)",
+   "why_it_matters": "Priced about 89% for at least one more hike by then. New dots.",
+   "source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+   "date": "2026-12-10",
+   "event": "November CPI (after the FOMC) and 30-year auction",
+   "why_it_matters": "Inflation print lands after the Fed decision",
+   "source": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+   "date": "2026-12-11",
+   "event": "CR expiry: government funding deadline",
+   "why_it_matters": "Post-midterm shutdown risk in a lame-duck Congress",
+   "source": "https://thehill.com/homenews/house/6063667-house-government-funding-cr-shutdown-midterms/"
+  },
+  {
+   "date": "2026-12-23",
+   "event": "Q3 GDP third estimate and November PCE",
+   "why_it_matters": "Year-end inflation read",
+   "source": "https://www.bea.gov/news/schedule"
+  },
+  {
+   "date": "2026-12",
+   "event": "15% solar tariff takes effect (exact day not found)",
+   "why_it_matters": "Tariff pass-through to energy and capex",
+   "source": "https://www.tradecomplianceresourcehub.com/2026/09/10/trump-2-0-tariff-tracker/"
+  }
+ ],
+ "failures": [
+  {
+   "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+   "behaviour": "HTTP 403; used the Fed statement, SEP and transcript instead"
+  },
+  {
+   "url": "https://www.cnn.com/2026/09/16/economy/fed-rate-decision-september",
+   "behaviour": "HTTP 451"
+  },
+  {
+   "url": "https://www.axios.com/2026/09/03/rates-waller-jobs-inflation-policy",
+   "behaviour": "HTTP 403"
+  },
+  {
+   "url": "https://www.advisorperspectives.com/articles/2026/09/24/global-bond-rout-highest-30-year-yield",
+   "behaviour": "HTTP 403; used the Yahoo/Bloomberg syndication instead"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html",
+   "behaviour": "HTTP 403; used TradingEconomics instead"
+  },
+  {
+   "url": "https://www.cnbc.com/2026/09/16/10-year-treasury-yeilds-rise-impact-markets.html",
+   "behaviour": "HTTP 403"
+  },
+  {
+   "url": "https://www.thestreet.com/investing/jpmorgan-resets-sp-500-price-target-for-the-rest-of-2026-stock-market",
+   "behaviour": "HTTP 403; used the search snippet"
+  },
+  {
+   "url": "https://www.thestreet.com/investing/citi-quietly-resets-sp-500-price-target-for-the-rest-of-2026",
+   "behaviour": "HTTP 403; Citi date not found"
+  },
+  {
+   "url": "https://www.thestreet.com/economy/goldman-sachs-resets-recession-risks-for-2026",
+   "behaviour": "HTTP 403"
+  },
+  {
+   "url": "https://www.washingtontimes.com/news/2026/sep/21/federal-reserve-official-says-iran-war-spurred-toward-supporting-rate/",
+   "behaviour": "HTTP 403; the speaker was not identified"
+  },
+  {
+   "url": "https://streetstats.finance/markets/volatility",
+   "behaviour": "Empty page; the MOVE value came from the search snippet only"
+  },
+  {
+   "url": "https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20260916.pdf",
+   "behaviour": "WebFetch returned binary; extracted locally with pdftotext (worked)"
+  },
+  {
+   "url": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+   "behaviour": "WebFetch returned binary; extracted locally with pdftotext (worked)"
+  }
+ ]
+}

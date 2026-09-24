@@ -1,0 +1,36 @@
+{
+  "run_id": "local20260924220334",
+  "attempt": 1,
+  "ingest_dt": "2026-09-24",
+  "mode": "backfill",
+  "started_at": "2026-09-24T22:03:34Z",
+  "finished_at": "2026-09-24T22:03:35Z",
+  "start_time": "2026-09-17T14:35:10Z",
+  "end_time": "2026-09-18T13:31:18Z",
+  "accounts": [
+    {
+      "handle": "JaguarAnalytics",
+      "user_id": "1087194962",
+      "posts": 0,
+      "pages": 1,
+      "oldest": null,
+      "newest": null,
+      "truncated": false,
+      "segments": [
+        {
+          "side": "full",
+          "start_time": "2026-09-17T14:35:10Z",
+          "end_time": "2026-09-18T13:31:18Z"
+        }
+      ],
+      "duplicates_dropped": 2
+    }
+  ],
+  "incremental": false,
+  "pages": 1,
+  "posts_read": 2,
+  "estimated_cost_usd": 0.01,
+  "files": [],
+  "status": "ok",
+  "error": null
+}

@@ -1,0 +1,703 @@
+{
+  "account": "LogicalThesis",
+  "profile": {
+    "beat": "US small- and micro-cap healthcare — diagnostics, medtech/neuromodulation and clinical-stage biotech — held in a concentrated, margined book. He also runs a persistent top-down commentary on tech (QQQ, MAGS, SMH, IGV, software) that he mostly uses to explain why he refuses to own it.",
+    "style": "Fundamentals-first on valuation — he argues almost everything in EV/sales, EV/gross-profit and peak-sales-times-a-multiple terms — then overlays explicit technical triggers (9/21 EMA, 50d/200d, relative volume, support retests) for timing. He talks position sizing constantly: he names which slot a stock occupies in the book, posts his gross exposure, which is usually meaningfully above fully invested, and says outright when a name is his largest. Conviction language is blunt ('going much higher', 'too cheap', 'a great long from here', 'no brainer') but usually softened with 'imo', and he stops out fast on a broken level rather than averaging down ('Some people lean in during a drawdown | I lean away').",
+    "cadence": "Extremely high volume and reply-dominated: 813 of 1088 posts are replies. The default format is a one-line assertion or a back-and-forth in someone's mentions, punctuated by a handful of long-form essays that carry the real theses (7/15 valuation manifesto, 7/23 QQQ/MAGS/SMH/IGV market-structure breakdown, 8/17 CCCC pitch, 8/28 AI-demand-plateau piece). Recurring series: daily P&L and gross-exposure screenshots, 'X names, Y% long' portfolio updates, earnings-day reaction posts, and a weekly Discord workshop plug. A large share of the feed is off-topic (World Cup, food, Maui, his data-science masters, birthday).",
+    "revisits": "Constantly, in both directions. He tracks his own calls forward and takes explicit victory laps (2089843267261374683 and 2093433531460649173 on the tech-chop call; 2089041645048365292 on long MGNI / short TTD; 2090100161079112183 on XBI), and he also publishes reversals and losses: he downgraded QTRX to 'dead money' the morning after its print (2086805869162045885), listed his own mistakes including QTRX and STIM (2087201669750895025), flipped TEM from 'I cut the position today' (2077856355621429379) to 'a great long from here' (2079253033444376966) within three days on the PSNL deal, and posted that he had given back a lot of performance (2080746808524067209).",
+    "caveats": "He sells a paid Discord and says he stopped sharing his full portfolio on X (2090841452553412962), and ran a promo tied to the biotech rally (2091865611039097242) — so the public feed is a partial and self-selected view of what he actually holds. Performance is self-reported via screenshots only; he routinely runs margin well above fully invested, describes himself at times as 'levered long', and occasionally trades options, so his posted account returns are not comparable to unlevered stock returns. His largest winner in the window, PSNL, resolved through a takeover he explicitly called a disappointing price, not through his own target. Most picks are illiquid micro/small caps where a 40K-follower account can itself move price, and many names surface only as bare ticker lists in replies with no stated thesis. He is combative with critics, insults and blocks them, and several 'calls' he claims credit for (long MGNI / short TTD, NKTR, ABVX) originated before this window."
+  },
+  "narrative": "The window opens with him defensive: he cut exposure into a July momentum unwind, declared SMH had lost its uptrend, and re-built the book with smid-cap healthcare names he had watched for years. On 7/15 he published a valuation manifesto arguing that AI/robotics names like OUST and AMBA were priced for speculation while WGS, QTRX and STIM offered similar growth at a fraction of the multiple — the frame that governs everything after it. On 7/23 he extended that top-down into a specific call that tech would chop or go nowhere through year-end because MAGS capex kills the free-cash-flow multiple, software will not get its old premium back, and SMH has priced in the optimism; he repeated and defended this call all the way to 8/29. His single largest position, PSNL, was taken out by TEM on 7/20 at a price he called a 'huge buzzkill' — he booked the win, immediately rotated into TEM as the deal's winner, and spent the rest of the window arguing the PSNL deal opened a consolidation window across diagnostics (QTRX, WGS, XGN). Late July was his worst stretch — he admitted he was barely beating SPY — but he refused to touch tech and went to an all-healthcare book. From 8/4 onward the thesis paid: WGS, XGN and then STLN gapped up on earnings, he posted repeated new account highs, and he became loudly bullish on XBI, arguing after the MRK/MRNA cancer-vaccine news that biotech had more fuel and was not a place to short. The one clear miss he owned was QTRX: a name he had pitched since 7/15 as a re-rating candidate, held in size, and dumped the morning after a guide-down as 'dead money'. He closes the window trimming into an early-September pullback while arguing that falling yields are a tailwind for indebted small caps and long-duration biotech, and — after two months of being an AI bull who wouldn't own AI stocks — publishing his first fundamental doubt about AI demand growth itself.",
+  "picks": [
+    {
+      "symbol": "PSNL",
+      "direction": "long",
+      "prospect": "Expected PSNL to re-rate sharply as the credible number two to NTRA in MRD/liquid biopsy, and — once takeover chatter surfaced in mid-July — expected an outright sale of the business at a large premium, with Merck holding a right of first refusal against Tempus.",
+      "risk_reward": "He framed the upside as a takeout well above where it traded against a downside he barely discussed, arguing management's persistent stock selling and their willingness to entertain offers made a sale likely; his stated risk was not that the stock fell but that the board sold too cheap, which is exactly what he says happened.",
+      "thesis": "PSNL is the MRD engine behind TEM's clinical distribution and MRK's cancer-vaccine program, with both holding large equity stakes, yet it traded at a small fraction of NTRA's market cap. He used NTRA as the North Star for what a genomics duopoly participant should eventually be worth, and pointed to abnormal volume as evidence institutions were accumulating.",
+      "time_frame": "position",
+      "tags": [
+        "disruptor",
+        "value",
+        "catalyst-driven"
+      ],
+      "conviction": 0.95,
+      "first_seen": "2026-07-08",
+      "sources": [
+        {
+          "post_id": "2074661687156990278",
+          "quote": "$PSNL going higher"
+        },
+        {
+          "post_id": "2075019606650224908",
+          "quote": "One name I have not touched during this last month's volatility"
+        },
+        {
+          "post_id": "2076775365486477336",
+          "quote": "They are taking on $NTRA with the help of $TEM for clinical distribution and $MRK on biopharma side"
+        },
+        {
+          "post_id": "2077960116822024475",
+          "quote": "Using $NTRA as a North Star, $PSNL could be a $50B business in the future"
+        },
+        {
+          "post_id": "2078128866472927356",
+          "quote": "If they're getting serious offers (it sounds like they are), imo they will sell the biz"
+        },
+        {
+          "post_id": "2079204345653153820",
+          "quote": "Very annoyed by this $PSNL acq price. Huge buzzkill. But I will take the win and move on."
+        },
+        {
+          "post_id": "2090073720664797527",
+          "quote": "$PSNL would be up +100% on today's $MRK $MRNA news"
+        }
+      ]
+    },
+    {
+      "symbol": "WGS",
+      "direction": "long",
+      "prospect": "Expected WGS to work its way back to new highs as testing volumes and margins carried it through a reimbursement-driven guidance reset, and treated it as a core holding to hold indefinitely.",
+      "risk_reward": "He argued the downside was cushioned because the guide-down was a timing/reimbursement issue while demand never weakened, and because insiders were buying; he never quantified a downside scenario.",
+      "thesis": "A genomics/diagnostics business growing well with high gross margins at a low multiple of sales — the direct counterexample he used against expensive AI-adjacent names. He leaned on the distinction that revenue guidance fell for reimbursement reasons while test volumes did not, called the post-Q2 earnings call incredibly bullish, and cited insider buying as confirmation.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "innovation"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-07-15",
+      "sources": [
+        {
+          "post_id": "2077238519739867263",
+          "quote": "Meanwhile in tech/bio, I can find names like $WGS trading at 4X sales with 70% GMs growing 30% with clearer inflections ahead."
+        },
+        {
+          "post_id": "2078141841921474916",
+          "quote": "Imo $WGS heads to new highs eventually"
+        },
+        {
+          "post_id": "2084396205510103187",
+          "quote": "Was a solid report and an incredibly bullish earnings call"
+        },
+        {
+          "post_id": "2086182039762686248",
+          "quote": "$WGS beaten down but test volumes never fell"
+        },
+        {
+          "post_id": "2086215247237673065",
+          "quote": "Look at recent $WGS insider buys"
+        },
+        {
+          "post_id": "2086607808460718481",
+          "quote": "Holding $XGN $WGS for foreseeable future"
+        }
+      ]
+    },
+    {
+      "symbol": "XGN",
+      "direction": "long",
+      "prospect": "Expected a fundamental inflection to be recognized by the market and the stock to keep running after its earnings gap, and named it as a candidate to be consolidated in the post-PSNL diagnostics M&A wave.",
+      "risk_reward": "He argued the low valuation and balance sheet provided a low hurdle for the story to work; he did not lay out an explicit downside case for XGN.",
+      "thesis": "A bombed-out diagnostics micro cap whose fundamentals were inflecting into growth and profitability, bought before the print and re-rated on it. He grouped it with QTRX and WGS as targets in a diagnostics sector he thought would consolidate after PSNL was taken out, and after the report said it looked better even at the higher price.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "catalyst-driven"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-07-21",
+      "sources": [
+        {
+          "post_id": "2079595073319411862",
+          "quote": "I think $PSNL acq opens the door for more consolidation in the diagnostics space"
+        },
+        {
+          "post_id": "2084636867342066076",
+          "quote": "$XGN third largest position just took the top spot with a +30% earnings move"
+        },
+        {
+          "post_id": "2085515768259825905",
+          "quote": "$XGN $STLN $WGS $PSNL"
+        },
+        {
+          "post_id": "2086182039762686248",
+          "quote": "$XGN inflecting fundamentals"
+        },
+        {
+          "post_id": "2086607808460718481",
+          "quote": "Holding $XGN $WGS for foreseeable future"
+        }
+      ]
+    },
+    {
+      "symbol": "STLN",
+      "direction": "long",
+      "prospect": "Expected the stock to go substantially higher as capitated revenue and a fast-growing pharmacy segment drive large gross-profit growth into the following year, with the market not yet marking 2028 numbers.",
+      "risk_reward": "He never framed an explicit downside for STLN; the closest is his general argument that the low valuation is a sentiment problem rather than a fundamental one, which he treats as the margin of safety.",
+      "thesis": "Overall gross margin is depressed today, but the mix is shifting: capitated revenue roughly doubling at much higher margin adds a large step-up in gross profit next year, and a pharmacy business growing fast with expanding margins adds a second lever. He added into the print and again after a blowout quarter that he thought was flying under the radar because of a ticker change.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "catalyst-driven"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-08-07",
+      "sources": [
+        {
+          "post_id": "2085481226467762215",
+          "quote": "$STLN is going much higher"
+        },
+        {
+          "post_id": "2085704053603090509",
+          "quote": "Now the stock is +32% in pre market and just took the #1 spot in my portfolio"
+        },
+        {
+          "post_id": "2085705292088742017",
+          "quote": "It's possible the report is flying under the radar bc of the ticker change"
+        },
+        {
+          "post_id": "2088747558999052740",
+          "quote": "Check out $STLN in this category"
+        },
+        {
+          "post_id": "2096296773652447719",
+          "quote": "$STLN"
+        }
+      ]
+    },
+    {
+      "symbol": "KURA",
+      "direction": "long",
+      "prospect": "Expected a re-rate toward his stated target driven by share gains in an already-commercial franchise, with upcoming data read-outs as free upside rather than the reason to own it.",
+      "risk_reward": "He addressed both sides explicitly: the partner collaboration caps the upside but also caps the downside at a very small enterprise value, and he argued the valuation already reflects only the approved opportunity, so data is optionality.",
+      "thesis": "KURA is taking share as the new entrant against SNDX, which posted its first quarter of declining new patient starts. It is commercial rather than a binary, trades at a tiny enterprise value relative to the approved opportunity, and the CEO backed it with large repeated open-market purchases.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "catalyst-driven",
+        "speculative"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-07-29",
+      "sources": [
+        {
+          "post_id": "2082481282404282707",
+          "quote": "$KURA $SNDX both so weak and back at interesting levels"
+        },
+        {
+          "post_id": "2087632477443760567",
+          "quote": "Sub $200M EV - yes collab caps the upside but it also caps downside"
+        },
+        {
+          "post_id": "2088411362037043685",
+          "quote": "The stock is cheap based on today's opportunity that they're already approved for - rest is upside on this name."
+        },
+        {
+          "post_id": "2089461715658498402",
+          "quote": "Too cheap for the oppty; call was great"
+        },
+        {
+          "post_id": "2092011096504979649",
+          "quote": "$20 is my target"
+        }
+      ]
+    },
+    {
+      "symbol": "QTRX",
+      "direction": "long",
+      "prospect": "Expected a new management team to legitimize and scale the diagnostics business into a much larger franchise, which he thought would re-rate a stock trading at a fraction of sales; after the Q2 print he abandoned the view and called it dead money.",
+      "risk_reward": "He treated the very low EV/gross-profit multiple as the downside protection and the diagnostics inflection as the upside. That framing failed: he says he trusted it too much, took the loss in size, and booked it rather than waiting for a bounce.",
+      "thesis": "A cheap tools/diagnostics micro cap with a stacked new management team explicitly trying to grow the diagnostics segment; any inflection there would re-rate the whole company. He also named it as a likely consolidation target after PSNL was acquired. He reversed on 8/10 when the quarter missed, guidance came down and profitability was pushed out — a materially different message from the new CEO's prior tone.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "catalyst-driven"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-07-15",
+      "sources": [
+        {
+          "post_id": "2077157931699843329",
+          "quote": "Any inflection in this biz and the stock re rates much higher imo."
+        },
+        {
+          "post_id": "2077238519739867263",
+          "quote": "I can find names like $QTRX trading at 0.5X EV/S with 50% GMs, that's 1X GP."
+        },
+        {
+          "post_id": "2086182039762686248",
+          "quote": "$QTRX with a brand new mgmt team"
+        },
+        {
+          "post_id": "2086805869162045885",
+          "quote": "Very cheap stock but\nDead money for now is my thought"
+        },
+        {
+          "post_id": "2087201669750895025",
+          "quote": "Trusted too much in $QTRX"
+        }
+      ]
+    },
+    {
+      "symbol": "STIM",
+      "direction": "long",
+      "prospect": "Expected a re-rating from a depressed valuation, helped by a potential separation of the clinical business from the NeuroStar franchise and by an inflection in margins and cash flow.",
+      "risk_reward": "He named net debt as the constraint — the business must inflect margins and cash flow to positive for the cheapness to matter — against an upside he described as the stock being cheap no matter how you slice it. He also flagged his own execution error of not holding it through earnings.",
+      "thesis": "A stock at roughly one times sales growing modestly with decent gross margins, so a low multiple of gross profit, with a clear clinical inflection ahead and a CEO open to splitting the business. He also folded it into his broader psychedelics/TRD theme alongside CMPS and GHRS, and cited an insider buy as confirmation.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "catalyst-driven"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-07-16",
+      "sources": [
+        {
+          "post_id": "2077530948154077602",
+          "quote": "Psychedelic space is one to watch with huge TAM"
+        },
+        {
+          "post_id": "2077551950925902140",
+          "quote": "I really like STIM from this valuation\nI just got long this week"
+        },
+        {
+          "post_id": "2083016136938180858",
+          "quote": "$WGS $STIM $VOR"
+        },
+        {
+          "post_id": "2087201669750895025",
+          "quote": "Didn't hold $STIM through earnings"
+        },
+        {
+          "post_id": "2089461715658498402",
+          "quote": "$STIM $STLN also with insider buys today. Port is just rolling in it rn"
+        }
+      ]
+    },
+    {
+      "symbol": "TEM",
+      "direction": "long",
+      "prospect": "After initially cutting the position, he flipped to expecting TEM to be the long-term winner of the PSNL acquisition, arguing the acquired asset alone could eventually be worth a multiple of TEM's whole market cap even valuing the rest of the business at nothing.",
+      "risk_reward": "He laid out the trade explicitly: downside cushioned because the deal can terminate if TEM trades below a stated level, and if the deal breaks the equity should recover on the removal of dilution; upside is the acquired asset re-rating. By 8/21 he flagged the market pricing a break or a raised bid as a negative for TEM.",
+      "thesis": "TEM bought the MRD asset he had been pounding the table on at what he considered a steal, giving it a legitimate shot at a duopoly with NTRA. On 7/17 he had cut the position because a competing bid looked bad for TEM; the deal terms three days later reversed his view entirely.",
+      "time_frame": "position",
+      "tags": [
+        "disruptor",
+        "catalyst-driven",
+        "innovation"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-07-20",
+      "sources": [
+        {
+          "post_id": "2079230971808010336",
+          "quote": "$TEM is the winner of this $PSNL acq"
+        },
+        {
+          "post_id": "2079233201382592547",
+          "quote": "And downside feels cushioned bc deal falls through below 46"
+        },
+        {
+          "post_id": "2079253033444376966",
+          "quote": "$TEM is a great long from here"
+        },
+        {
+          "post_id": "2090824016101790014",
+          "quote": "Not good for $TEM imo"
+        }
+      ]
+    },
+    {
+      "symbol": "CCCC",
+      "direction": "long",
+      "prospect": "Expected a re-rate over the following year into and beyond phase 2 data, arguing the market is valuing a validated mechanism at a tiny enterprise value relative to a plausible peak-sales-derived value.",
+      "risk_reward": "He addressed it directly: phase 2 data he expects to be good, phase 3 an acknowledged question mark, the Q2 ATM raise as a near-term suppressant, and cash runway sufficient to reach the read-out — against a peak-sales-based value many multiples of the current enterprise value.",
+      "thesis": "CCCC is a validated IKZF1/3 degradation mechanism, effectively next-generation Revlimid/Pomalyst, and BMY's iberdomide approval de-risks the class and gives a direct read-through to eventual peak sales. He timed the entry technically off a 100-day and 9/21 EMA cross that previously preceded a large rally, with the stock temporarily suppressed by a material at-the-market offering.",
+      "time_frame": "position",
+      "tags": [
+        "speculative",
+        "value",
+        "catalyst-driven",
+        "innovation"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-08-15",
+      "sources": [
+        {
+          "post_id": "2088681608383692918",
+          "quote": "$CCCC bounced off 100d + 9/21EMA cross. Last time led to 100% rally"
+        },
+        {
+          "post_id": "2089192133458800775",
+          "quote": "I think ph2 data will be good but obv ph3 is a question mark"
+        },
+        {
+          "post_id": "2089192133458800775",
+          "quote": "There is a solid case for re rate over the next year into ph2 data and beyond"
+        }
+      ]
+    },
+    {
+      "symbol": "NKTR",
+      "direction": "long",
+      "prospect": "Expected the stock to be re-rated once a pending payment lands, leaving two phase 3 assets funded by internal cash at what he considers far too low an enterprise value.",
+      "risk_reward": "He split the two assets by probability of success — the atopic dermatitis program has multi-billion-dollar peak sales potential and a real shot at approval, the second asset has meaningful peak sales but a more questionable probability — and concluded the price ignores both. He did not put a number on the downside if the trials fail.",
+      "thesis": "Cash coming in leaves the enterprise value at a fraction of what two funded phase 3 programs should be worth. This is a name he has followed since well before this window and credits as a major contributor to his account's growth.",
+      "time_frame": "position",
+      "tags": [
+        "speculative",
+        "value",
+        "innovation"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-08-29",
+      "sources": [
+        {
+          "post_id": "2093736280513486901",
+          "quote": "AtD with multi-billion dollar peak sales potential and a real shot at approval"
+        },
+        {
+          "post_id": "2093736280513486901",
+          "quote": "It's too cheap."
+        }
+      ]
+    },
+    {
+      "symbol": "XBI",
+      "direction": "long",
+      "prospect": "Expected biotech to keep leading the market: relative strength versus SPY/QQQ/IWM through July's drawdown, then an all-time-high breakout in August that he argued had more fuel behind it rather than being a place to fade.",
+      "risk_reward": "He argued the sector had spent months or years carving out a base while AI names went vertical, so the downside was already discounted; the risk he acknowledged is exhaustion after the vertical move, which he said he would want to see before anyone tried to short it.",
+      "thesis": "Small and mid-cap biotech was under-owned and cheap while capital was crowded into AI, and M&A plus falling long-end yields would pull money in. He tracked it technically — red-to-green days on down tape, a morning-star pattern, a huge-volume gap up held for five sessions, and the highest weekly volume on record — as confirmation the sector had changed leadership.",
+      "time_frame": "position",
+      "tags": [
+        "momentum",
+        "macro",
+        "value"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-07-15",
+      "sources": [
+        {
+          "post_id": "2077423160979550336",
+          "quote": "$XBI red to green while other major indices fade"
+        },
+        {
+          "post_id": "2078255778855780655",
+          "quote": "Did you see the relative strength today in $XBI? Nice volume too. Green all day."
+        },
+        {
+          "post_id": "2089800653778649565",
+          "quote": "If only someone on here has been pounding the table on healthcare and biotechs"
+        },
+        {
+          "post_id": "2092620414128439439",
+          "quote": "Instead I think we are getting more fuel here"
+        },
+        {
+          "post_id": "2092629963103227967",
+          "quote": "Weekly HIGHEST volume EVER. More than Covid."
+        }
+      ]
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "neutral",
+      "prospect": "Expected tech to go nowhere — chop in a wide range rather than crash — for roughly three to six months and through year-end, driving both bulls and bears crazy, with a risk it tips from flat into a downtrend.",
+      "risk_reward": "He was explicit that this is not a bear call: fundamentals and the economy are fine, so he expected digestion, not a bear market, while conceding it could turn into something worse. He refused to short it; he simply owned none of it. He also defined 'flat' as a range that can still swing widely.",
+      "thesis": "QQQ is MAGS plus SMH plus IGV. MAGS is being punished for rising capex even when the ROI shows up, buybacks are cut off and free cash flow has turned negative; software will not get its old premium multiple back; and SMH has already priced in a lot of optimism, so none of the three components can carry the index. Layered on a high ten-year yield, higher oil, and midterm-year seasonality.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "tech"
+      ],
+      "conviction": 0.85,
+      "first_seen": "2026-07-18",
+      "sources": [
+        {
+          "post_id": "2078229513977422317",
+          "quote": "Are you ready if tech goes nowhere for next 3-6mo?"
+        },
+        {
+          "post_id": "2080089429763654049",
+          "quote": "I think market best case will chop through EOY and drive everyone crazy"
+        },
+        {
+          "post_id": "2080089429763654049",
+          "quote": "But instead, I'm not calling for a bear market. I'm simply calling for a digestion period."
+        },
+        {
+          "post_id": "2082111583770312782",
+          "quote": "I've been saying tech flat through EOY. Could be correction between now and then"
+        },
+        {
+          "post_id": "2086912633031278640",
+          "quote": "And flat doesn't mean we will have 0% volatility and it doesn't move a penny ever"
+        },
+        {
+          "post_id": "2089843267261374683",
+          "quote": "They kept trolling me over the last month for this take that tech could chop around through EOY."
+        },
+        {
+          "post_id": "2093433531460649173",
+          "quote": "Here's $QQQ even after a monster $NVDA Q"
+        }
+      ]
+    },
+    {
+      "symbol": "MAGS",
+      "direction": "neutral",
+      "prospect": "Expected the mega-cap complex to be flat to down going forward, and suggested the point of maximum pain from the capex cycle may not clear until well into 2027.",
+      "risk_reward": "He never framed a position-level risk/reward here — this is an avoidance call, not a trade. His stated basis for being wrong would be the market deciding to reward capex, which he says it visibly refused to do on GOOG's cloud beat.",
+      "thesis": "The market punished GOOG for raising AI capex even on a huge cloud beat, and rejected AMZN the same way. Buybacks are constrained, dividends immaterial, capex guides rising significantly into 2027, and balance sheets shifting from asset-light and cash-rich to debt-funded — so on a free-cash-flow multiple the group is astronomically valued. He drew the analogy to AMZN's 2021-22 negative-FCF stretch, when the right move was to wait roughly two years.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "tech"
+      ],
+      "conviction": 0.75,
+      "first_seen": "2026-07-23",
+      "sources": [
+        {
+          "post_id": "2080089429763654049",
+          "quote": "so I think the general direction for MAGS is flat to down moving forward"
+        },
+        {
+          "post_id": "2080664711864193509",
+          "quote": "Which means maybe you don't buy $MAGS until late 27"
+        },
+        {
+          "post_id": "2086534438771654912",
+          "quote": "$MAGS decent bounce but still below ATHs after monster rallies in individual names"
+        }
+      ]
+    },
+    {
+      "symbol": "SMH",
+      "direction": "neutral",
+      "prospect": "Expected semis to go sideways at best after losing their uptrend: bounces that fail, with the large caps that actually move the index refusing to respond to incremental capex news.",
+      "risk_reward": "He did not frame a risk/reward for a position — he was out of the group entirely. His stated reversal trigger elsewhere was large out-of-the-money 2027 call flow in QQQ, which he said would change his mind on tech's upside.",
+      "thesis": "SMH lost its uptrend in early July and its subsequent bounces were weak. The names that drive the index — NVDA, AMD, ARM — did not budge on the capex guide-up, so a lot of optimism is already priced in and incremental capex is not enough to push it higher. He also used the prior vertical rally in SMH as his central example of when to run away rather than lean in.",
+      "time_frame": "position",
+      "tags": [
+        "macro",
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-07-07",
+      "sources": [
+        {
+          "post_id": "2074575256103309713",
+          "quote": "$SMH lost uptrend"
+        },
+        {
+          "post_id": "2077238519739867263",
+          "quote": "Contrary to what most participants felt during a +76% rally in the $SMH, that was a time to run away - not lean in."
+        },
+        {
+          "post_id": "2080089429763654049",
+          "quote": "SMH may have already priced in a ton of optimism, and the incremental capex is not enough to move it higher."
+        },
+        {
+          "post_id": "2086534438771654912",
+          "quote": "$SMH weak bounce"
+        }
+      ]
+    },
+    {
+      "symbol": "NOW",
+      "direction": "short",
+      "prospect": "Expected NOW and software broadly to keep rolling over, treating its new low on a beat-and-raise as the confirming tell for the sector.",
+      "risk_reward": "He expressed this as a view, not a position — he never claimed to be short and never defined a downside or a stop for it. His only qualifier is that he allows for a bounce, which he says he has always been skeptical of playing beyond.",
+      "thesis": "If a beat and raise cannot hold the stock, nothing will. He argues software will not be granted its old premium multiples again, so IGV and the software component of QQQ drift flat to lower regardless of fundamentals.",
+      "time_frame": "swing",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-07-23",
+      "sources": [
+        {
+          "post_id": "2080089429763654049",
+          "quote": "I have always been skeptical of software beyond a bounce, and I don't think this sector sees its old premium multiples again."
+        },
+        {
+          "post_id": "2080319548864315591",
+          "quote": "$NOW with a new low vs yesterday even after a beat and raise"
+        },
+        {
+          "post_id": "2080319548864315591",
+          "quote": "Software likely continues rolling over across the board after seeing this."
+        }
+      ]
+    },
+    {
+      "symbol": "TTD",
+      "direction": "short",
+      "prospect": "Expected TTD to keep de-rating as the expensive side of an ad-tech pair against MGNI, and dismissed insider buying as a reason to expect a bottom.",
+      "risk_reward": "He never framed a risk/reward for the short in this window; he was claiming credit for a pair trade he says he laid out before it. His only risk framing is generic: valuation matters, and paying up leaves no room for error.",
+      "thesis": "Valuation. TTD was the crowded, richly-valued name in ad tech while MGNI and PUBM were cheap, and he argues insider buying is not a signal — the only near-signals he sees are the absence of insider selling after a pullback, or selling after one.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "tech"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-08-07",
+      "sources": [
+        {
+          "post_id": "2085463249441759719",
+          "quote": "Mind you $TTD was already down 50% at this point"
+        },
+        {
+          "post_id": "2085548491590500572",
+          "quote": "Said this many times but insider buying is not a signal $TTD"
+        },
+        {
+          "post_id": "2089041645048365292",
+          "quote": "The trade was long $MGNI short $TTD"
+        }
+      ]
+    },
+    {
+      "symbol": "MGNI",
+      "direction": "long",
+      "prospect": "Held up MGNI as the cheap long leg of an ad-tech pair against TTD, expecting the mispricing between them to keep converging.",
+      "risk_reward": "He never addressed risk for MGNI specifically in this window — the posts are retrospective confirmations of a call he says he made earlier, not a fresh entry with a defined stop.",
+      "thesis": "Pure relative valuation: MGNI and PUBM were priced far below TTD for businesses in the same ecosystem, and he treats the divergence as proof that valuation matters more than narrative.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "tech"
+      ],
+      "conviction": 0.45,
+      "first_seen": "2026-08-07",
+      "sources": [
+        {
+          "post_id": "2085459504674812050",
+          "quote": "Well well well $TTD $MGNI $PUBM"
+        },
+        {
+          "post_id": "2089041645048365292",
+          "quote": "Never let anyone tell you valuation doesn't matter"
+        }
+      ]
+    },
+    {
+      "symbol": "VOR",
+      "direction": "long",
+      "prospect": "Flagged it as one of the most bullish chart set-ups he could find in late July and pointed followers to it alongside his core healthcare names.",
+      "risk_reward": "He never addressed risk for this pick.",
+      "thesis": "Purely a chart and price-back-to-good-levels call within his small-cap biotech basket — he grouped it with WGS and STIM as the best-looking setups on his screen and recommended it directly to another investor.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "speculative"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-07-31",
+      "sources": [
+        {
+          "post_id": "2083001498871755146",
+          "quote": "We share several names! Check out $VOR"
+        },
+        {
+          "post_id": "2083016136938180858",
+          "quote": "$WGS $STIM $VOR"
+        }
+      ]
+    },
+    {
+      "symbol": "CMPS",
+      "direction": "long",
+      "prospect": "Expected the psychedelics space to inflect upward off a huge addressable market with further consolidation, and named CMPS as a way to own it.",
+      "risk_reward": "He never gave an explicit downside for CMPS; the closest is his acknowledgement that the name traded weakly in July, which he attributed to sector-level news rather than the company.",
+      "thesis": "Treatment-resistant depression is a large market where multiple therapies can coexist because no single treatment works for every patient, and the drugs have favourable trade-offs against Spravato on things like dosing frequency — so approval means a real place in the market. He repeatedly listed CMPS alongside GHRS and STIM as his expressions of the theme.",
+      "time_frame": "position",
+      "tags": [
+        "speculative",
+        "innovation",
+        "catalyst-driven"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-07-16",
+      "sources": [
+        {
+          "post_id": "2077530948154077602",
+          "quote": "$CMPS $GHRS $STIM"
+        },
+        {
+          "post_id": "2077921895656362199",
+          "quote": "$CMPS has basically doubled from avg price in Q1"
+        },
+        {
+          "post_id": "2090930373555614010",
+          "quote": "$CMPS $STIM $DFTX $GHRS"
+        }
+      ]
+    },
+    {
+      "symbol": "DERM",
+      "direction": "long",
+      "prospect": "Expected the stock to roughly double as the Emrosi ramp offsets a declining legacy base, with international licensing as unmodelled upside.",
+      "risk_reward": "He built the case around a declining legacy revenue base stabilising — that decline is the acknowledged risk — against an Emrosi ramp that on his peak-sales-times-two framework supports a much larger market cap. He did not put a downside number on a failed ramp.",
+      "thesis": "Strip out Emrosi and the base business is shrinking toward a floor he thinks it holds; Emrosi itself can scale to a multiple of that, and applying a modest multiple to combined peak revenue gets to a market cap far above where it trades. He surfaced the name by analogy to HROW and said he thinks it is a double.",
+      "time_frame": "position",
+      "tags": [
+        "value",
+        "speculative"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-08-22",
+      "sources": [
+        {
+          "post_id": "2091242447456403923",
+          "quote": "If you like $HROW you just might like $DERM"
+        },
+        {
+          "post_id": "2091253111759487318",
+          "quote": "I think it's a double"
+        },
+        {
+          "post_id": "2091267887441027117",
+          "quote": "Emrosi can push to $150M"
+        },
+        {
+          "post_id": "2091267887441027117",
+          "quote": "And this doesn't include international expansion via licensing of emrosi which is all upside"
+        }
+      ]
+    },
+    {
+      "symbol": "SRPT",
+      "direction": "long",
+      "prospect": "Bought call options and ran levered long for a short-duration move, then cashed out into resistance the same day — a trade, not an investment, and taken two days after he had argued the fundamental case was far weaker than bulls claimed.",
+      "risk_reward": "The risk he articulated was fundamental and negative: substantial debt with the majority of revenue coming from a product at regulatory risk, leaving only a minority of revenue he considered safe — which is why he framed the long side as a fast options trade rather than a position, and closed it into resistance.",
+      "thesis": "No fundamental long thesis was offered. He explicitly argued the stock was not priced for bankruptcy and that the revenue at risk mattered; the long exposure was a technical/flow trade on an unexpected move that he exited immediately.",
+      "time_frame": "intraday",
+      "tags": [
+        "catalyst-driven",
+        "speculative",
+        "momentum"
+      ],
+      "conviction": 0.35,
+      "first_seen": "2026-08-25",
+      "sources": [
+        {
+          "post_id": "2092248027377631613",
+          "quote": "most of their revenue is coming from PMO which is at risk"
+        },
+        {
+          "post_id": "2093029815624548372",
+          "quote": "+50% in less than a day on $SRPT calls"
+        },
+        {
+          "post_id": "2093033363942801427",
+          "quote": "Ok ya I had to cash out while running levered long $SRPT"
+        }
+      ]
+    }
+  ]
+}

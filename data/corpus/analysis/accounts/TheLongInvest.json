@@ -1,0 +1,514 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T21:58:21.675Z",
+  "account": "TheLongInvest",
+  "profile": {
+    "beat": "Long-horizon growth and macro commentary centred on Elliott Wave / 200-week-moving-average setups across US tech, China (BABA), crypto (ETH, BTC, HYPE, BMNR) and silver, plus promotion of a paid Patreon group.",
+    "style": "Loud, absolute conviction language ('There is only one direction left', 'It is a BUY NOW') built on Elliott Wave counts, Fibonacci targets and buying below the 200 WMA, with occasional fundamental bullets (ETH supply, BABA revenue, insider buys). Heavy victory-lap posting that re-quotes old calls and entry levels. Frames the market as smart money versus retail.",
+    "cadence": "Very high volume: dozens of one-liners and short multi-line posts a day, many quote-tweets of his own earlier calls, chart teasers with 'IYKYK', motivational aphorisms, and YouTube/Patreon links.",
+    "revisits": "Constantly revisits prior calls, almost exclusively winners: ETH (2102730238073422042), BTC (2102123036509897032), AMD (2102032383813771483, 2102737651279282675), DELL (2102726166323007800), PLTR (2103168543332430205), HYPE (2102051581550100535), COIN (2101988664662241574).",
+    "caveats": "Selective self-promotion: past calls are re-quoted mainly when they worked, and the account openly says free content exists to hook paid subscribers (2101679531580866806). Many targets are Elliott Wave extrapolations with no stated invalidation, and the author claims to be fully allocated while simultaneously preaching safe havens and warning of a market reset."
+  },
+  "narrative": "The window opens with the author leaning hard into ETH as it breaks toward his round-number magnet, framing it as a safe haven and a generational hold, with BMNR, COIN and BTC as satellite crypto longs. Through 21-23 September he runs a victory lap on AMD, DELL, ASML, PLTR and HYPE, while flipping to caution on the Wave 5 leaders: NVDA shows a bearish rising wedge, AMD and DELL are called parabolic tops where retail becomes exit liquidity. In their place he pushes hated or pulled-back names — BABA (insider buying, revenue compounding, Wave 2), ASTS (Wave 2 confirmed, connectivity moat), SE and HIMS. From 23-24 September the tone turns macro-defensive: the rising US 10-year, possible Fed hikes and the Iran war lead him to call for rotation into safe havens, with silver repeatedly named as the answer to rising yields and a 'freebie' add for portfolio protection. He describes 'two markets' — one already corrected and offering value, and a narrow tech leadership group yet to correct — and sets explicit lower buy levels for NVDA and NVO rather than chasing.",
+  "picks": [
+    {
+      "symbol": "ETH",
+      "direction": "long",
+      "prospect": "Ether continues its breakout toward the author's round-number magnet and ultimately a multi-year Wave 3 target; held as a generational asset.",
+      "risk_reward": "The author frames buying under the 200 WMA as the risk control and calls it better risk management than leverage; no downside scenario or invalidation level is given.",
+      "thesis": "Institutional ETF and treasury accumulation, tightening supply from staking and burns, its role as the settlement layer for stablecoins and tokenisation, staking yield, and a completed Wave 2 below the 200 WMA inside a six-year ascending triangle.",
+      "time_frame": "long_term",
+      "tags": [
+        "macro",
+        "momentum",
+        "innovation"
+      ],
+      "conviction": 0.95,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100945110150123989",
+          "quote": "$ETH is making its move"
+        },
+        {
+          "post_id": "2101311358604132558",
+          "quote": "$ETH buy, stake, hold."
+        },
+        {
+          "post_id": "2101387321559925193",
+          "quote": "There is only one direction left"
+        },
+        {
+          "post_id": "2102670790919626754",
+          "quote": "Tokenisation is the future"
+        },
+        {
+          "post_id": "2102708396486975929",
+          "quote": "It's for your kids."
+        },
+        {
+          "post_id": "2102118796211159272",
+          "quote": "When the price action dips below the oversold 200 WMA, I add."
+        }
+      ]
+    },
+    {
+      "symbol": "BABA",
+      "direction": "long",
+      "prospect": "Alibaba re-rates from a standard Wave 2 pullback toward the author's multi-year target as revenue growth and AI expansion get recognised.",
+      "risk_reward": "The author ties entry to insider buying levels and says it was not a buy at higher prices; no stated downside or invalidation.",
+      "thesis": "Insiders bought near current levels, revenue has compounded while the share price has gone nowhere, free cash flow is being reinvested, a global AI data-center push, and price action echoing Trump's first term which the author views as bullish for China.",
+      "time_frame": "long_term",
+      "tags": [
+        "value",
+        "tech"
+      ],
+      "conviction": 0.88,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100944919300903297",
+          "quote": "Buying where insiders buy is always the smart choice"
+        },
+        {
+          "post_id": "2101469613275951377",
+          "quote": "We’ve been adding"
+        },
+        {
+          "post_id": "2102009716155023539",
+          "quote": "You are buying 12 years ago right now."
+        },
+        {
+          "post_id": "2102342168782205043",
+          "quote": "$BABA Strong Buy"
+        },
+        {
+          "post_id": "2102818461281927591",
+          "quote": "$BABA this is where you buy a position that has pulled back for a standard Wave 2 while fundamentals have improved aggressively."
+        }
+      ]
+    },
+    {
+      "symbol": "SLV",
+      "direction": "long",
+      "prospect": "Silver outperforms gold on a catch-up trade and acts as the portfolio's safe haven while the 10-year yield stays high; Wave 5 of a cycle from the 2009 low is underway. (Author refers to silver itself; SLV is the tradeable proxy.)",
+      "risk_reward": "Framed explicitly as protection for the portfolio over the next 6-9 months; the author does not state a downside for silver itself.",
+      "thesis": "Elevated gold/silver ratio historically resolves with silver outperforming, metals win when bonds sell off on a rising 10-year, Chinese gold demand and a flight to safety, and an Elliott Wave count with Wave 4 complete.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.87,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101375054495785012",
+          "quote": "Silver is about to outperform Gold again"
+        },
+        {
+          "post_id": "2102007238990733801",
+          "quote": "Wave 5 is underway"
+        },
+        {
+          "post_id": "2103082953102290956",
+          "quote": "Silver is the answer to the US 10 YR."
+        },
+        {
+          "post_id": "2103106398897021429",
+          "quote": "Silver is at the exact price you want to add at to protect your portfolio over the next 6 - 9 months."
+        },
+        {
+          "post_id": "2103116988788912470",
+          "quote": "Silver is a haven."
+        }
+      ]
+    },
+    {
+      "symbol": "ASTS",
+      "direction": "long",
+      "prospect": "AST SpaceMobile confirms Wave 2 at the 0.618 Fib and runs through Wave 3 and Wave 5 targets over roughly two years if management executes.",
+      "risk_reward": "Conditional on management continuing to execute as expected; otherwise the author never addressed risk.",
+      "thesis": "Best-in-market chart, moat and management, and global uninterrupted connectivity is a prerequisite for AI, space and humanoids, a market the author expects Starlink and ASTS to dominate.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "disruptor",
+        "speculative",
+        "tech"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102437321844863041",
+          "quote": "Excellent bullish looking chart here, showing Wave 2 complete and Wave 3 is next"
+        },
+        {
+          "post_id": "2102706344797077983",
+          "quote": "once management continue to execute as expected"
+        },
+        {
+          "post_id": "2102706757894029572",
+          "quote": "$ASTS has one of the best charts in the market (just shared)"
+        },
+        {
+          "post_id": "2103135258111885340",
+          "quote": "Two companies will dominate this"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "neutral",
+      "prospect": "Nvidia tops in Wave 5 and corrects before it becomes a buy again; the author would not add now.",
+      "risk_reward": "Author sees limited upside from current levels until a reset; he names a lower buy zone but does not recommend shorting.",
+      "thesis": "A bearish rising wedge in Wave 5 and failure at resistance signal buyers are slowing and rotating to better opportunities; not a verdict on company quality.",
+      "time_frame": "position",
+      "tags": [
+        "momentum",
+        "tech"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2101011792369442818",
+          "quote": "Losing the 50 WMA on the rising wedge support level will indicate the start of its correction"
+        },
+        {
+          "post_id": "2101701775149441332",
+          "quote": "But a bearish rising wedge in Wave 5 is a signal that a top is soon."
+        },
+        {
+          "post_id": "2103155154338054519",
+          "quote": "$NVDA when it completes its correction under $160 is A BUY."
+        }
+      ]
+    },
+    {
+      "symbol": "SE",
+      "direction": "long",
+      "prospect": "Sea Limited is at a value price and a buy now.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Listed among good companies that were not buys at high prices but are now at value prices; otherwise signalled with 'IYKYK' teasers.",
+      "time_frame": "position",
+      "tags": [
+        "value"
+      ],
+      "conviction": 0.72,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100930765311598739",
+          "quote": "IYKYK"
+        },
+        {
+          "post_id": "2103156152980979980",
+          "quote": "It is a BUY NOW"
+        }
+      ]
+    },
+    {
+      "symbol": "BMNR",
+      "direction": "long",
+      "prospect": "BitMine rides Ether's move and can double from here; holders should sit tight.",
+      "risk_reward": "Author says hold when fundamentals do not change; no downside discussed.",
+      "thesis": "A leveraged proxy on ETH breaking out; the rebound has erased the losses since late 2025.",
+      "time_frame": "position",
+      "tags": [
+        "speculative",
+        "momentum"
+      ],
+      "conviction": 0.72,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100942232370962801",
+          "quote": "$BMNR is looking tasty here..."
+        },
+        {
+          "post_id": "2101053053344551160",
+          "quote": "$BMNR will have no issue doubling from here"
+        },
+        {
+          "post_id": "2102037542564417983",
+          "quote": "Hold your positions when fundamentals do not change."
+        }
+      ]
+    },
+    {
+      "symbol": "ZETA",
+      "direction": "long",
+      "prospect": "Zeta Global compounds like Palantir did and can still multiply from here; the author's Christmas-gift pick.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Consistent revenue beats and management quality; the author draws the Palantir analogy.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.75,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100954815442333803",
+          "quote": "This year we are going to make it 4/4"
+        },
+        {
+          "post_id": "2102761636310516127",
+          "quote": "$ZETA 21 STRAIGHT REVENUE BEATS"
+        },
+        {
+          "post_id": "2103168861290033243",
+          "quote": "And can still 5 X from here with this management"
+        }
+      ]
+    },
+    {
+      "symbol": "HIMS",
+      "direction": "long",
+      "prospect": "Hims & Hers repeats the AMD pattern of a hated stock bought under the 200 WMA re-rating higher.",
+      "risk_reward": "Author acknowledges volatility and tells holders who cannot handle it to move on; no stated downside level.",
+      "thesis": "The author doubled the position under the 200 WMA and argues the market is starting to see what he sees.",
+      "time_frame": "long_term",
+      "tags": [
+        "value",
+        "speculative"
+      ],
+      "conviction": 0.68,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102126313590890717",
+          "quote": "And we DOUBLED our position under the 200 WMA at $15"
+        },
+        {
+          "post_id": "2102445046800810239",
+          "quote": "because the market now sees what I see"
+        },
+        {
+          "post_id": "2103191622917968224",
+          "quote": "If you can’t handle her, move on"
+        }
+      ]
+    },
+    {
+      "symbol": "NBIS",
+      "direction": "long",
+      "prospect": "Nebius breaks out and runs to the next level if it holds above the breakout zone.",
+      "risk_reward": "Continuation is conditioned on a hold above the breakout level; no downside stated.",
+      "thesis": "Chart breakout in AI infrastructure; the author has long called for a much higher target.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "tech"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101284150833512517",
+          "quote": "$NBIS we’ve been calling for $400"
+        },
+        {
+          "post_id": "2102450904813502465",
+          "quote": "this will go straight to $279 next if there is a hold above $236"
+        },
+        {
+          "post_id": "2103168196429885535",
+          "quote": "BREAKOUT"
+        }
+      ]
+    },
+    {
+      "symbol": "IREN",
+      "direction": "long",
+      "prospect": "IREN is the one of the AI-compute trio breaking out next.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Chart breakout, picked over CIFR and NBIS as the name about to break out.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "tech"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102446414810992794",
+          "quote": "$IREN is the answer and it has just broken out...."
+        }
+      ]
+    },
+    {
+      "symbol": "ADUR",
+      "direction": "long",
+      "prospect": "Aduro Clean Technologies' management keeps delivering and the stock trends higher.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Positive plastic-recycling (hydrocarbon yield) campaign results and a management team the author praises.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "speculative"
+      ],
+      "conviction": 0.62,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102759930738413739",
+          "quote": "Bullish"
+        },
+        {
+          "post_id": "2103149461912646080",
+          "quote": "This management team is cooking"
+        }
+      ]
+    },
+    {
+      "symbol": "BTC",
+      "direction": "long",
+      "prospect": "Bitcoin's Wave 5 unfolds toward the author's 2030 target and new all-time highs.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Wave 2 completed at the 0.618 Fib and the 200 WMA, which the author says marked the bottom.",
+      "time_frame": "long_term",
+      "tags": [
+        "macro",
+        "momentum"
+      ],
+      "conviction": 0.7,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2101963321792417911",
+          "quote": "Both positions will make new all time highs again"
+        },
+        {
+          "post_id": "2102123036509897032",
+          "quote": "We said the bottom was in"
+        }
+      ]
+    },
+    {
+      "symbol": "HYPE",
+      "direction": "long",
+      "prospect": "Hyperliquid completes Wave 3 and heads for the author's Wave 5 target.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Elliott Wave count that the author says has tracked on schedule.",
+      "time_frame": "position",
+      "tags": [
+        "speculative",
+        "momentum"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100954108387541010",
+          "quote": "Wave 5 target is $151"
+        },
+        {
+          "post_id": "2102051581550100535",
+          "quote": "And within touching distance of our Wave 3 target"
+        }
+      ]
+    },
+    {
+      "symbol": "COIN",
+      "direction": "long",
+      "prospect": "Coinbase continues its confirmed reversal as crypto moves.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Crypto leaders ETH and BTC moving; Coinbase reclaimed its 200 WMA after being flagged below it.",
+      "time_frame": "position",
+      "tags": [
+        "momentum"
+      ],
+      "conviction": 0.58,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2101008720159261178",
+          "quote": "added to the Watchlist this morning"
+        },
+        {
+          "post_id": "2101988664662241574",
+          "quote": "Now the reversal is confirmed"
+        }
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "direction": "neutral",
+      "prospect": "After a large Wave 5 run, AMD is near a top; the author warns against chasing while crediting his long-held position.",
+      "risk_reward": "Explicitly warns that retail chasing now becomes exit liquidity for smart money; no action on the existing position is stated.",
+      "thesis": "Parabolic moves in Wave 5 indicate the top is approaching.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "tech"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2102035055417659400",
+          "quote": "Parabolic moves in Wave 5 indicate the top is approaching"
+        },
+        {
+          "post_id": "2102035055417659400",
+          "quote": "Don't be an idiot now"
+        }
+      ]
+    },
+    {
+      "symbol": "DELL",
+      "direction": "short",
+      "prospect": "Dell falls well below current levels despite a reasonable forward P/E after completing its Wave 5.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Dell hit its extended Wave 5 Fibonacci target; parabolic Wave 5 moves mark tops and smart money exits into retail.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "tech"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100995232934277538",
+          "quote": "And I watch $DELL drop to below $400 even though people think it won’t because it has a reasonable FWD PE"
+        },
+        {
+          "post_id": "2102726166323007800",
+          "quote": "This week it hit its extended fib for Wave 5 at $592"
+        }
+      ]
+    },
+    {
+      "symbol": "NVO",
+      "direction": "neutral",
+      "prospect": "Novo Nordisk is not a buy at current levels; the author would buy only much lower.",
+      "risk_reward": "Author sets a far lower buy level and says good companies at bad prices are not buys.",
+      "thesis": "Valuation discipline: good company, wrong price.",
+      "time_frame": "long_term",
+      "tags": [
+        "value"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-09-24",
+      "sources": [
+        {
+          "post_id": "2103155008422425048",
+          "quote": "$NVO at $145 is not a buy"
+        },
+        {
+          "post_id": "2103156152980979980",
+          "quote": "good companies at bad prices are not buys."
+        }
+      ]
+    }
+  ]
+}

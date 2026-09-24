@@ -1,0 +1,21 @@
+# CART
+
+_equity_
+
+| | |
+|---|---|
+| Mentions | 1 |
+| Distinct accounts | 1 |
+| Sessions mentioned | 1 |
+| First flagged | 2026-09-23 by [@StockSavvyShay](https://x.com/StockSavvyShay/status/2102523934176674147) |
+| Market | — |
+
+## Mention history
+
+| Session | Account | Source | Type |
+|---|---|---|---|
+| [2026-09-23](../daily/2026-09-23.md) | [@StockSavvyShay](https://x.com/StockSavvyShay/status/2102523934176674147) | cashtag_entity | original |
+
+---
+
+_Not investment advice. This is a record of what a fixed set of accounts said, not an evaluation of whether they were right._

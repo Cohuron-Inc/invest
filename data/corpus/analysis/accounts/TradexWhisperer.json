@@ -1,0 +1,166 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T21:58:21.676Z",
+  "account": "TradexWhisperer",
+  "profile": {
+    "beat": "Memory-supercycle bull focused on Micron, SK Hynix and SanDisk, relaying AI capex, HBM/DRAM supply-demand research and hyperscaler ASIC data, alongside intraday chart calls from a proprietary colored-candle signal service.",
+    "style": "Very high conviction, emphatic language ('Holy Structural Shit', 'Position accordingly', 'You know what to do') on the memory thesis, backed by relayed sell-side and TrendForce/Citi figures. Separately posts intraday and 4-hour chart reads using BLUE/PINK/RED candle signals, Fibonacci levels and Bollinger bands. Mentions no leverage and split entries; no explicit position sizes.",
+    "cadence": "Several original posts per day on memory data, plus many short replies; nearly every chart post ends with a sales pitch for paid Elite seats or a free trial.",
+    "revisits": "Returns to MU and the memory trio almost daily; tracks the MU Fib 0 test from a bullish setup (2102456334834954287) to a rejection and possible re-entry checklist (2102847333105049872, 2103205223917613147) ahead of earnings (2103201786572202074). Corrects a SNDK/SKHY ticker typo (2102591007338664419).",
+    "caveats": "The author sells a paid signal subscription (Elite tier, Patreon) and most chart posts are marketing for it, including a relayed subscriber P&L testimonial; intraday signal claims are unverified. Heavily concentrated in one theme (memory) with little discussion of downside."
+  },
+  "narrative": "The window is one sustained argument that AI inference and agentic AI create a structural memory shortage lasting to 2028 or beyond, making MU, SKHY and SNDK the core beneficiaries. The author stacks evidence daily: Intel's CEO saying no memory relief until 2028, Citi projecting DRAM and HBM undersupply worsening, TrendForce bottleneck data, hyperscaler ASIC and TPU doubling, Apple AI servers, Chinese accelerators absorbing CXMT output, and DeepSeek needing more HBM on Huawei chips. The view never softens; valuation is framed as absurdly cheap given long-term agreements and very high gross margins. In parallel, MU chart posts moved from bullish momentum toward the Fib 0 target on Sept 22 to a PINK profit-taking rejection on Sept 23, then a checklist for a BLUE re-entry on Sept 24, with Micron earnings on Sept 30 as the next catalyst. SNDK is traded actively off the signal and backed by a NAND-wear/KV-cache offload thesis. Side calls include AMD as an agentic-AI CPU play, TSM and advanced packaging, and a boast about cybersecurity leading agentic AI software.",
+  "picks": [
+    {
+      "symbol": "MU",
+      "direction": "long",
+      "prospect": "Continued re-rating as the memory shortage persists through 2028+, with the upcoming earnings expected to show strong results and new long-term agreements; near term, a re-test of the Fib 0 level if a BLUE candle prints.",
+      "risk_reward": "Author frames downside as limited by long-term agreements that set a price floor and a low forward multiple; the only acknowledged risk is a near-term cool-off or profit taking around earnings and a Fib 0 rejection.",
+      "thesis": "Inference and agentic AI multiply memory demand while fab output is finite; HBM consumes several times the wafer capacity per bit, supply is sold out to LTA holders, and capex dollars are shifting toward memory at very high margins.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "value",
+        "catalyst-driven",
+        "momentum"
+      ],
+      "conviction": 0.92,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100812983819726939",
+          "quote": "And agentic already needs 10 to 40x more memory than standard inference. Reasoning models generate 3 to 10x more tokens.\n\nPosition accordingly."
+        },
+        {
+          "post_id": "2101167020406677734",
+          "quote": "Infinite demand. Finite supply. You know what to do."
+        },
+        {
+          "post_id": "2101892595316322642",
+          "quote": "This shortage can run past 2030."
+        },
+        {
+          "post_id": "2102243967391973443",
+          "quote": "I am excited about memory in the next 10 years."
+        },
+        {
+          "post_id": "2103201786572202074",
+          "quote": "$MU earnings Sept 30. 4 trading days."
+        },
+        {
+          "post_id": "2103205223917613147",
+          "quote": "Fib 0 test (rejected) → PINK candle → BB Basis support → BLUE candle next?"
+        }
+      ]
+    },
+    {
+      "symbol": "SKHY",
+      "direction": "long",
+      "prospect": "Benefits alongside MU from a multi-year HBM and DRAM deficit and richer HBM4 margins.",
+      "risk_reward": "Author never addressed risk for this pick beyond noting Chinese HBM bits go to domestic suppliers rather than SK Hynix.",
+      "thesis": "One of three memory makers controlling finite fab output while HBM demand from GPUs, TPUs and custom ASICs keeps doubling; 8-high HBM4 carries better yields and pricing.",
+      "time_frame": "position",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-09-18",
+      "sources": [
+        {
+          "post_id": "2100812983819726939",
+          "quote": "$MU $SKHY $DRAM"
+        },
+        {
+          "post_id": "2101522761697071282",
+          "quote": "Citi Research says memory undersupply gets WORSE through 2031."
+        },
+        {
+          "post_id": "2103202676884525271",
+          "quote": "But 8hi yields far better. Potentially sweeter margins for memory makers."
+        }
+      ]
+    },
+    {
+      "symbol": "SNDK",
+      "direction": "long",
+      "prospect": "NAND demand rises as agentic AI spills KV cache to QLC NAND and wears drives out faster; actively traded intraday off the candle signals.",
+      "risk_reward": "Author notes intraday drawdowns and waits for signal confirmation but never addressed longer-term risk.",
+      "thesis": "Agentic AI context data cannot all live in HBM and overflows to NAND, and heavy AI read/write cycles force hyperscalers to overprovision or replace NAND more often; TrendForce rates NAND tight.",
+      "time_frame": "swing",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101048062957555903",
+          "quote": "$SNDK is on fire! RIP bears."
+        },
+        {
+          "post_id": "2102109714389897280",
+          "quote": "$SNDK NAND Tight"
+        },
+        {
+          "post_id": "2102470945734844874",
+          "quote": "Either way, more NAND or DRAM $MU $SNDK"
+        },
+        {
+          "post_id": "2102646762544750755",
+          "quote": "Agentic AI is exploding context data, and most of that KV cache can't live in HBM. It spills to QLC NAND."
+        }
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "direction": "long",
+      "prospect": "Participates in agentic AI as CPU demand rises alongside memory.",
+      "risk_reward": "Author never addressed risk for this pick.",
+      "thesis": "Agentic AI drives CPU demand, not just memory; chart showed a BLUE signal off Bollinger basis support confirmed by GREEN.",
+      "time_frame": "swing",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102255645848400198",
+          "quote": "$AMD Agentic AI is a CPU story too, not just Memory."
+        }
+      ]
+    },
+    {
+      "symbol": "TSM",
+      "direction": "long",
+      "prospect": "Gains share of global CPU manufacturing and benefits from advanced packaging demand in the AI buildout.",
+      "risk_reward": "Author never addressed risk for this pick.",
+      "thesis": "TSMC is becoming the dominant CPU maker and advanced packaging is the only way to achieve high bandwidth by bringing chips closer together.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102643315602767919",
+          "quote": "$TSM In 2018, TSMC made 2% of the world's CPUs."
+        },
+        {
+          "post_id": "2102894599035568190",
+          "quote": "The only way to achieve high bandwidth and performance is by bringing chips closer together via Advanced Packaging."
+        }
+      ]
+    }
+  ]
+}

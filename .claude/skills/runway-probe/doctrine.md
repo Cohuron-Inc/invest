@@ -247,7 +247,7 @@ For every Runway and One-leg-missing name:
 
 ## 5. Calibration
 
-Before writing, read `analysis_output/verdicts.jsonl` for every earlier verdict on the
+Before writing, read `data/ledger/verdicts.jsonl` for every earlier verdict on the
 same ticker. State whether it was right so far and why. Across all past verdicts, note
 the hit rate by tier and whether the scenario probabilities were too confident. Adjust
 this probe's probabilities toward the record. Write the calibration note into the

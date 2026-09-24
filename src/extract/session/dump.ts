@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync, rmSync, readdirSync } from 'node:fs'
+import { mkdirSync, writeFileSync, rmSync, readdirSync, readFileSync, existsSync, renameSync } from 'node:fs'
 import { join } from 'node:path'
 import { connect, rows, dataRoot, requireLayers } from '../../duck/connect.js'
 import { activeTags, loadEnums, loadTagTaxonomy } from '../../lib/config.js'
@@ -41,8 +41,8 @@ export function buildSpec(): string {
   const tags = loadTagTaxonomy().filter((t) => t.removed_date === '')
   return `# Account extraction contract (${SESSION_PROMPT_VERSION})
 
-You are a research analyst reading everything ONE market commentator posted over a
-two-month window. You are reporting what this account claimed. You are not
+You are a research analyst reading everything ONE market commentator posted over the
+window in WINDOW.json (with --since-last, only posts newer than the last extraction). You are reporting what this account claimed. You are not
 evaluating whether they were right, and you are not offering investment advice.
 
 ## Input
@@ -66,7 +66,7 @@ around it. It must match this shape:
     "revisits": "Do they revisit or update earlier calls, or only post new ones? Cite post_ids if so.",
     "caveats": "Anything that should make a reader discount this account's record. Say 'none observed' if so."
   },
-  "narrative": "The dominant arc of this account's two months, in 4-8 sentences. Where their view changed, say when and why.",
+  "narrative": "The dominant arc of this account over the window, in 4-8 sentences. Where their view changed, say when and why.",
   "picks": [
     {
       "symbol": "TICKER, uppercase, no $",
@@ -115,19 +115,54 @@ ${tags.map((t) => `- \`${t.tag}\` — ${t.description}`).join('\n')}
  * the analyses with the dates the subagents actually saw, rather than a
  * constant that was true for the first run only.
  */
-export type SessionWindow = { window_start: string; window_end: string; from_flag: boolean }
+export type SessionWindow = {
+  window_start: string
+  window_end: string
+  from_flag: boolean
+  /**
+   * The newest post_id handed to a subagent, per handle, across every dump so
+   * far. `--since-last` bundles only posts newer than this, so a post is read by
+   * an extractor once. Carried forward for accounts with nothing new.
+   */
+  last_post_ids?: Record<string, string>
+}
 
-export async function dumpAccounts(opts: { outDir?: string; from?: string; to?: string } = {}): Promise<string[]> {
+/**
+ * What the previous dump already handed out. Older WINDOW.json files predate
+ * last_post_ids, so fall back to the newest post_id in each existing bundle.
+ */
+export function previousLastPostIds(outDir: string): Record<string, string> {
+  const windowPath = join(outDir, 'WINDOW.json')
+  if (existsSync(windowPath)) {
+    const w = JSON.parse(readFileSync(windowPath, 'utf8')) as SessionWindow
+    if (w.last_post_ids) return w.last_post_ids
+  }
+  const out: Record<string, string> = {}
+  if (!existsSync(outDir)) return out
+  for (const f of readdirSync(outDir)) {
+    if (!f.endsWith('.posts.jsonl')) continue
+    let max: bigint | null = null
+    for (const line of readFileSync(join(outDir, f), 'utf8').split('\n')) {
+      if (!line.trim()) continue
+      const id = BigInt((JSON.parse(line) as BundlePost).post_id)
+      if (max === null || id > max) max = id
+    }
+    if (max !== null) out[f.slice(0, -'.posts.jsonl'.length)] = max.toString()
+  }
+  return out
+}
+
+export async function dumpAccounts(
+  opts: { outDir?: string; from?: string; to?: string; sinceLast?: boolean; accounts?: string[] } = {},
+): Promise<string[]> {
   const root = dataRoot()
   requireLayers(['posts'], root)
   const outDir = opts.outDir ?? join(root, '_session')
-  // Replace the bundles and the contract, but never out/: that holds subagent
-  // work that may not have been ingested yet, and re-dumping must not cost it.
-  mkdirSync(outDir, { recursive: true })
-  for (const f of readdirSync(outDir)) {
-    if (f.endsWith('.posts.jsonl') || f === 'SPEC.md' || f === 'WINDOW.json') rmSync(join(outDir, f), { force: true })
-  }
-
+  // Read before the old WINDOW.json and bundles are replaced below. Always
+  // carried forward, so an explicit --from/--to or --accounts re-read never
+  // resets the cursor of accounts it did not touch.
+  const carried = previousLastPostIds(outDir)
+  const previous = opts.sinceLast ? carried : {}
   const connection = await connect({ data: root })
   // Inclusive trading_day bounds. Without flags the bundle is the whole corpus,
   // which is right for a single backfill and wrong once history accumulates.
@@ -136,23 +171,60 @@ export async function dumpAccounts(opts: { outDir?: string; from?: string; to?: 
     opts.to ? `trading_day <= DATE '${opts.to}'` : null,
   ].filter(Boolean).map((c) => ` AND ${c}`).join('')
 
+  // --since-last: per handle, only posts newer than the last one already handed
+  // to an extractor. Post ids are snowflakes, so numeric order is time order.
+  const handles = Object.keys(previous)
+  const delta = handles.length === 0 ? '' : ` AND CASE author_username ${handles
+    .map((h) => `WHEN '${h.replace(/'/g, "''")}' THEN CAST(post_id AS UBIGINT) > ${BigInt(previous[h]!).toString()}`)
+    .join(' ')} ELSE TRUE END`
+  const only = opts.accounts?.length
+    ? ` AND author_username IN (${opts.accounts.map((h) => `'${h.replace(/'/g, "''")}'`).join(', ')})`
+    : ''
+  const filter = bounds + delta + only
+
   const accounts = (await rows(connection, `
     SELECT author_username AS handle, count(*) AS n
-      FROM posts_v WHERE post_type <> 'retweet'${bounds}
+      FROM posts_v WHERE post_type <> 'retweet'${filter}
      GROUP BY 1 ORDER BY n DESC`)).map((r) => String(r['handle']))
 
   const span = (await rows(connection, `
     SELECT min(trading_day)::VARCHAR AS lo, max(trading_day)::VARCHAR AS hi
-      FROM posts_v WHERE post_type <> 'retweet'${bounds}`))[0]
+      FROM posts_v WHERE post_type <> 'retweet'${filter}`))[0]
   const window: SessionWindow = {
     window_start: opts.from ?? String(span?.['lo'] ?? ''),
     window_end: opts.to ?? String(span?.['hi'] ?? ''),
-    from_flag: Boolean(opts.from || opts.to),
+    from_flag: Boolean(opts.from || opts.to || opts.sinceLast),
+    last_post_ids: { ...carried },
   }
-  if (!window.window_start || !window.window_end) throw new Error('no non-retweet posts in the requested window')
+  if (!window.window_start || !window.window_end) {
+    throw new Error(opts.sinceLast ? 'no posts newer than the last dump; nothing to extract' : 'no non-retweet posts in the requested window')
+  }
+  // Only now, with something to hand out, is the previous dump replaced: a
+  // --since-last with nothing new leaves the last bundles and cursor intact.
+  if (opts.sinceLast) {
+    // The previous run's subagent output was for the previous window. Leaving it
+    // in out/ would let ingest re-stamp it with the new window, so it is moved
+    // aside (never deleted) under out/done-<its window_end>/.
+    const outFiles = join(outDir, 'out')
+    const prevWindow = existsSync(join(outDir, 'WINDOW.json'))
+      ? (JSON.parse(readFileSync(join(outDir, 'WINDOW.json'), 'utf8')) as SessionWindow).window_end
+      : 'unknown'
+    if (existsSync(outFiles)) {
+      const done = join(outFiles, `done-${prevWindow}`)
+      for (const f of readdirSync(outFiles).filter((x) => x.endsWith('.json'))) {
+        mkdirSync(done, { recursive: true })
+        renameSync(join(outFiles, f), join(done, f))
+      }
+    }
+  }
+  // Replace the bundles and the contract, but never out/: that holds subagent
+  // work that may not have been ingested yet, and re-dumping must not cost it.
+  mkdirSync(outDir, { recursive: true })
+  for (const f of readdirSync(outDir)) {
+    if (f.endsWith('.posts.jsonl') || f === 'SPEC.md' || f === 'WINDOW.json') rmSync(join(outDir, f), { force: true })
+  }
 
   writeFileSync(join(outDir, 'SPEC.md'), buildSpec())
-  writeFileSync(join(outDir, 'WINDOW.json'), JSON.stringify(window, null, 2) + '\n')
 
   const written: string[] = []
   for (const handle of accounts) {
@@ -163,14 +235,18 @@ export async function dumpAccounts(opts: { outDir?: string; from?: string; to?: 
       SELECT post_id, created_at::VARCHAR AS created_at, trading_day::VARCHAR AS trading_day,
              post_type, COALESCE(full_text, text) AS text
         FROM posts_v
-       WHERE author_username = '${handle.replace(/'/g, "''")}' AND post_type <> 'retweet'${bounds}
+       WHERE author_username = '${handle.replace(/'/g, "''")}' AND post_type <> 'retweet'${filter}
        ORDER BY created_at, post_id`)) as unknown as BundlePost[]
+    const newest = posts.reduce<bigint | null>((m, p) => (m === null || BigInt(p.post_id) > m ? BigInt(p.post_id) : m), null)
+    const prev = window.last_post_ids![handle]
+    if (newest !== null && (prev === undefined || newest > BigInt(prev))) window.last_post_ids![handle] = newest.toString()
 
     const path = join(outDir, `${handle}.posts.jsonl`)
     writeFileSync(path, posts.map((p) => JSON.stringify(p)).join('\n') + '\n')
     written.push(path)
     log.info('session.dump', { handle, posts: posts.length, bytes: Buffer.byteLength(JSON.stringify(posts)) })
   }
+  writeFileSync(join(outDir, 'WINDOW.json'), JSON.stringify(window, null, 2) + '\n')
   log.info('session.dump.done', { accounts: written.length, outDir, window, tags: activeTags().length })
   return written
 }
@@ -180,7 +256,9 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     const i = process.argv.indexOf(flag)
     return i > -1 ? process.argv[i + 1] : undefined
   }
-  const opts: { from?: string; to?: string } = {}
+  const opts: { from?: string; to?: string; sinceLast?: boolean; accounts?: string[] } = {}
+  if (process.argv.includes('--since-last')) opts.sinceLast = true
+  const only = arg('--accounts'); if (only) opts.accounts = only.split(',').map((h) => h.trim()).filter(Boolean)
   const from = arg('--from'); if (from) opts.from = from
   const to = arg('--to'); if (to) opts.to = to
   dumpAccounts(opts).catch((err) => { console.error(String(err)); process.exit(1) })

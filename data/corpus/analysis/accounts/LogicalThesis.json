@@ -1,0 +1,170 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T21:58:21.670Z",
+  "account": "LogicalThesis",
+  "profile": {
+    "beat": "Small-cap and biotech long-biased stock picker who also posts market-structure and macro commentary (yields, oil, index breadth, geopolitical headlines) and is openly skeptical of consumer AI economics.",
+    "style": "Mostly discretionary position talk framed around gross exposure and leverage (repeatedly states being around 130% long, then degrossing to positive cash and back). Mixes fundamentals with technicals (weekly volume candles, breakouts, retests, 'clearly defined risk'). Frequently teases names without naming them and reveals later, and points readers to a paid community for full holdings.",
+    "cadence": "High-volume replies and quote-tweets with a handful of short original posts per day; no long threads. Recurring self-promotion of subscriber workshops and performance claims.",
+    "revisits": "Yes. The unnamed gene-therapy tease (2101053347113681069) is resolved as $RARE in 2102441191556214950. Exposure is updated several times: degross (2102053480743719365), back to 130% long on the biotech sell-off (2102845534264578382), then back to positive cash (2103150219487776940). The index-vs-breadth divergence view is restated in 2102991143369904496 and 2103146422438907954.",
+    "caveats": "Performance and track-record claims are self-reported and tied to promotion of a paid subscription; most current holdings are said to be shared only with subscribers, so public stances are partial. Positioning flips within days (levered long, degrossed, re-levered, back to cash), and he says he cuts dip buys quickly, so public stances may not persist."
+  },
+  "narrative": "The week opens with victory-lap posts about returns and being heavily net long while claiming alpha on red days, alongside a teased 'low-speculation' gene-therapy idea later revealed as $RARE. Over the weekend he argues at length that consumer AI is a solution looking for a problem that does not justify the CapEx, and states he has no tech exposure. On 2026-09-21 he degrosses to a small cash balance as his portfolio hits highs, and on 2026-09-22 closes out a $WGS trade. On 2026-09-23 his view turns aggressively toward biotech: specialist funds are being forced to degross, consensus longs are crushed, and he calls the move long in the tooth and says he is adding, going back to 130% long, prioritizing commercial and late-stage assets and defending $SRPT against a bear. He also takes his first tech positions in months and flags that de-escalation headlines could lift equities with $QQQ near highs. By 2026-09-24 he tempers this: he admits he may be days or weeks early, sees no capitulation yet, says the index must catch down to weak breadth or stocks catch up, cuts exposure back to positive cash, and wants the correction to get done, while a strong PMI print leads him to frame higher yields as normalization and say 'Own assets.'",
+  "picks": [
+    {
+      "symbol": "XBI",
+      "direction": "long",
+      "prospect": "A sharp snapback in biotech once forced selling by specialist funds exhausts itself.",
+      "risk_reward": "He acknowledges he may be days or weeks early since capitulation has not arrived, and says he cuts dip buys quickly if they lose support; he later moved back to positive cash to wait for the dust to settle.",
+      "thesis": "Specialist L/S funds are being forced to degross, pushing consensus longs down and consensus shorts up; buying from forced sellers is where value lies, and the more fierce the move the more fierce the snapback.",
+      "time_frame": "swing",
+      "tags": [
+        "value"
+      ],
+      "conviction": 0.65,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102798063811330190",
+          "quote": "This move is getting long in the tooth and the more fierce it gets, the more fierce the inevitable snapback"
+        },
+        {
+          "post_id": "2102845534264578382",
+          "quote": "Too much compelling opportunity, mostly due to bio meltdown"
+        },
+        {
+          "post_id": "2102857533702775134",
+          "quote": "In my view, many consensus longs are on sale due to forced degrossing by specialist funds. I love buying from forced sellers. Sorry if that's you and you see this. $XBI"
+        },
+        {
+          "post_id": "2102858016844575121",
+          "quote": "FWIW I acknowledge I may be a few days/weeks early on buying. Haven't seen real capitulation yet."
+        }
+      ]
+    },
+    {
+      "symbol": "RARE",
+      "direction": "long",
+      "prospect": "Exposure to approved, commercial gene therapy upside without heavy speculative risk.",
+      "risk_reward": "Framed as low-speculation because the gene therapy is already approved and commercialized; no explicit downside was addressed.",
+      "thesis": "A rare way to get gene-therapy exposure through a company with an approved, commercialized gene therapy rather than a clinical-stage bet; not a typical retail name.",
+      "time_frame": "position",
+      "tags": [
+        "innovation"
+      ],
+      "conviction": 0.55,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101053347113681069",
+          "quote": "There's a rare opportunity to get exposure to gene therapy without having to speculate much."
+        },
+        {
+          "post_id": "2101068470427557945",
+          "quote": "It is not the only approved/commercialized gene therapy."
+        },
+        {
+          "post_id": "2102441191556214950",
+          "quote": "For those of you who didn't get it"
+        }
+      ]
+    },
+    {
+      "symbol": "SRPT",
+      "direction": "long",
+      "prospect": "The bear case collapses if the FDA keeps PMO revenues on the market, with further upside if the non-ambulatory population regains a path.",
+      "risk_reward": "He calls it a decent chart with clearly defined risk and cites large call buying, but does not quantify the downside.",
+      "thesis": "The current FDA is unlikely to pull the PMO revenues, which is all that matters for the bear case; the sell-off is mostly a factor bet going the wrong way.",
+      "time_frame": "swing",
+      "tags": [
+        "catalyst-driven",
+        "speculative"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102801180481204264",
+          "quote": "Not a bad chart and clearly defined risk"
+        },
+        {
+          "post_id": "2102801801326256608",
+          "quote": "This FDA is shaping up, and I don't think they will take off the PMO revenues from the market. That's all that matters for bear case to crumble. And if non amb has a path back, it rips"
+        }
+      ]
+    },
+    {
+      "symbol": "VOR",
+      "direction": "long",
+      "prospect": "Favorable setup into a nearer-term catalyst than most biotech names.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Looks good at current levels and is closer to a catalyst than most other names during the biotech sell-off.",
+      "time_frame": "swing",
+      "tags": [
+        "catalyst-driven",
+        "speculative"
+      ],
+      "conviction": 0.3,
+      "first_seen": "2026-09-24",
+      "sources": [
+        {
+          "post_id": "2102871252709089453",
+          "quote": "I believe I saw you like $VOR. Looks good here."
+        },
+        {
+          "post_id": "2102894065201426904",
+          "quote": "It's closer to a catalyst than most other names"
+        }
+      ]
+    },
+    {
+      "symbol": "QQQ",
+      "direction": "neutral",
+      "prospect": "Either new highs on de-escalation and lower yields, or the index catches down to weak breadth in a correction.",
+      "risk_reward": "He names a double top as the fear and sees the index-versus-breadth divergence as resolving one way or the other, leaning toward the index catching down.",
+      "thesis": "De-escalation would push oil and yields down and lift equities, making it hard to be bearish near highs; but narrow breadth means the index should eventually show the weakness individual stocks already show.",
+      "time_frame": "swing",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.3,
+      "first_seen": "2026-09-23",
+      "sources": [
+        {
+          "post_id": "2102568859127701969",
+          "quote": "3) equities will have a huge tailwind"
+        },
+        {
+          "post_id": "2102571364880355646",
+          "quote": "Fear would be a double top"
+        },
+        {
+          "post_id": "2103146422438907954",
+          "quote": "Eventually the index will show the weakness"
+        }
+      ]
+    },
+    {
+      "symbol": "WGS",
+      "direction": "neutral",
+      "prospect": "Position closed; no further stance.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "A completed trade the author has exited and moved on from.",
+      "time_frame": "swing",
+      "tags": [],
+      "conviction": 0.2,
+      "first_seen": "2026-09-22",
+      "sources": [
+        {
+          "post_id": "2102401991440023835",
+          "quote": "Trade complete $WGS"
+        }
+      ]
+    }
+  ]
+}

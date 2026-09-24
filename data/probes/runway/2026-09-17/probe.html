@@ -1,0 +1,116 @@
+<title>September Runway Probe</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper: #F4F6F8; --paper-2: #EAEEF2; --ink: #17222E; --ink-2: #4A5866; --ink-3: #7B8794; --rule: #CDD5DD;
+    --core: #1F6F62; --core-bg: #DFEEEA; --watch: #A8731A; --watch-bg: #F3E8D2; --sat: #A3463A; --sat-bg: #F2DDD9;
+    --bar-track: #DCE2E8;
+    --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+      --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+      --bar-track: #243039;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+    --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+    --bar-track: #243039;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.55; margin: 0; }
+  .page { max-width: 76ch; margin: 0 auto; padding: 40px 24px 96px; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+  h1 { font-size: 2.35rem; line-height: 1.1; }
+  h2 { font-size: 1.45rem; line-height: 1.2; margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1.1rem; margin-top: 28px; }
+  p { margin: 12px 0; max-width: 68ch; }
+  .eyebrow { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+  .lede { font-size: 1.1rem; color: var(--ink-2); max-width: 64ch; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 18px; font-family: var(--mono); font-size: 0.78rem; color: var(--ink-3); }
+  .meta b { color: var(--ink-2); font-weight: 500; }
+  ul, ol { padding-left: 22px; margin: 10px 0; max-width: 68ch; }
+  li { margin: 6px 0; }
+  li b, p b { font-weight: 600; }
+  .t { font-family: var(--mono); font-weight: 500; font-size: 0.92em; }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 0.92em; }
+  .tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 24px; }
+  @media (max-width: 640px) { .tiers { grid-template-columns: 1fr; } }
+  .tier { padding: 14px 16px 16px; border-top: 3px solid; background: var(--paper-2); }
+  .tier.core { border-color: var(--core); } .tier.watch { border-color: var(--watch); } .tier.sat { border-color: var(--sat); }
+  .tier .eyebrow { margin-bottom: 6px; }
+  .tier.core .eyebrow { color: var(--core); } .tier.watch .eyebrow { color: var(--watch); } .tier.sat .eyebrow { color: var(--sat); }
+  .tier .names { font-family: var(--mono); font-size: 0.9rem; line-height: 1.7; }
+  .tier small { display: block; color: var(--ink-2); font-size: 0.82rem; margin-top: 8px; line-height: 1.45; }
+  .pill { display: inline-block; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 1px 6px; border-radius: 3px; vertical-align: middle; white-space: nowrap; }
+  .pill.core { color: var(--core); background: var(--core-bg); } .pill.watch { color: var(--watch); background: var(--watch-bg); } .pill.sat { color: var(--sat); background: var(--sat-bg); }
+  .tablewrap { overflow-x: auto; margin: 18px 0 8px; border: 1px solid var(--rule); }
+  table { border-collapse: collapse; width: 100%; min-width: 880px; font-size: 0.86rem; line-height: 1.4; }
+  th { text-align: left; font-family: var(--mono); font-weight: 500; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); padding: 10px 10px; border-bottom: 1px solid var(--rule); background: var(--paper-2); position: sticky; top: 0; }
+  td { padding: 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  td.tk { font-family: var(--mono); font-weight: 500; white-space: nowrap; }
+  td.rk { font-family: var(--mono); color: var(--ink-3); white-space: nowrap; }
+  td.up { white-space: nowrap; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .bar { display: block; height: 5px; background: var(--bar-track); margin-top: 5px; width: 96px; }
+  .bar i { display: block; height: 100%; background: var(--core); }
+  .bar.watch i { background: var(--watch); } .bar.sat i { background: var(--sat); }
+  .src { color: var(--ink-3); font-size: 0.8rem; }
+  .callout { border-left: 3px solid var(--core); background: var(--paper-2); padding: 12px 16px; margin: 18px 0; max-width: 68ch; }
+  .callout.warn { border-color: var(--watch); }
+  dl.acct { display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; margin: 14px 0; max-width: 72ch; }
+  dl.acct dt { font-family: var(--mono); font-size: 0.85rem; font-weight: 500; }
+  dl.acct dd { margin: 0; font-size: 0.92rem; color: var(--ink-2); }
+  table.appx { font-size: 0.8rem; min-width: 1100px; }
+  table.appx td { padding: 8px 9px; }
+  .foot { margin-top: 48px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 0.8rem; color: var(--ink-3); max-width: 70ch; }
+  a:focus-visible { outline: 2px solid var(--core); outline-offset: 2px; }
+</style>
+
+<div class="page">
+  <div class="eyebrow">Invest corpus · follow-up to the September Corpus Probe · prices at 17 Sep 2026 close</div>
+  <h1 style="margin-top:10px">September Runway Probe</h1>
+  <p class="lede">None of the 17 candidates clears all four strict gates with current verified data. NVDA leads the research queue, ORCL has the cleanest fresh delivery, and UBER has the strongest verified insider conviction signal.</p>
+  <div class="meta"><span><b>Mandate</b> high return, medium-to-low risk, 1 to 3 years</span><span><b>Names probed</b> 17</span><span><b>Signals</b> fundamentals · flows and positioning · price and chart · forward quality · context</span><span><b>13F vintage</b> not established; flow gate fails</span></div>
+  <div class="tiers">
+    <div class="tier core"><div class="eyebrow">Runway · all four gates</div><div class="names">None</div><small>No candidate has verified upside, delivery, institutional flow and complete insider coverage together.</small></div>
+    <div class="tier watch"><div class="eyebrow">One leg missing</div><div class="names">None</div><small>Every candidate is missing at least two strict gates or lacks enough data to establish them.</small></div>
+    <div class="tier sat"><div class="eyebrow">No verified runway</div><div class="names">ADBE · ORCL · UBER · DERM · BDSX · CIEN · NVDA · META · MU · TSM · NBIS · ASTS · TEM · RKLB · CRDO · SNDK · PLTR</div><small>Use the research queue below. Do not convert target gaps into conviction while flow and delivery evidence is missing.</small></div>
+  </div>
+  <h2>How the signals were read</h2>
+  <ul>
+    <li><b>Fundamentals.</b> The last print against consensus, guide direction, revisions, cash conversion, competitive trend, and the eight forward-quality metrics.</li>
+    <li><b>Flows and positioning.</b> Open-market Form 4 purchases and sales in 90 days, latest 13F share changes, short interest and corpus crowding.</li>
+    <li><b>Price and chart.</b> Close against targets, risk to the nearest anchor, and position against the 50-day and 200-day averages.</li>
+    <li><b>Context.</b> The 16 September hike, a <span class="num">5.01%</span> ten-year yield, <span class="num">2.68%</span> ten-year real yield, credit, oil and the live AI and memory themes.</li>
+  </ul>
+  <div class="callout"><b>Reading rule.</b> Upside alone is not runway. Missing data fails a gate rather than receiving an optimistic assumption. Finviz ROIC and operating margin are trailing proxies; they are not mislabeled as forward values.</div>
+  <h2>Runway: none pass</h2>
+  <div class="tablewrap"><table><thead><tr><th>#</th><th>Name</th><th>Upside · R:R</th><th>Consensus · score</th><th>Institutional flow</th><th>Insiders, 90d</th><th>What can break it</th></tr></thead><tbody><tr><td colspan="7">No candidate passes all four gates with verified current data.</td></tr></tbody></table></div>
+  <p class="src">The strict result reflects evidence quality. It is not a claim that all 17 stocks will underperform.</p>
+  <h2>One leg missing</h2>
+  <dl class="acct"><dt>None</dt><dd>No name is only one gate short. ORCL is closest on delivery and upside, but both institutional flow and complete insider coverage remain unverified.</dd></dl>
+  <h2>No runway on the numbers</h2>
+  <ul>
+    <li><b>At or above consensus.</b> <span class="t">TEM</span> is about <span class="num">16%</span> above the average target.</li>
+    <li><b>Modest upside.</b> <span class="t">ADBE · META · PLTR · BDSX</span> show less than <span class="num">20%</span> upside to the current average target.</li>
+    <li><b>Delivery missing.</b> Every name except <span class="t">ADBE · ORCL</span> lacks a fresh consensus-comparison scorecard in this X window.</li>
+    <li><b>Flow unverified.</b> All 17 lack a clean current share-based 13F record. Finviz institutional-transaction percentages remain visible in the evidence but do not pass the gate.</li>
+    <li><b>Insider coverage incomplete.</b> The two UBER purchases are verified from SEC Form 4s, but the full issuer-level 90-day filing set was not completely transaction-coded. Every other name also remains incomplete.</li>
+  </ul>
+  <h2>Fit to the mandate</h2>
+  <p><b>Research queue.</b> <span class="t">NVDA</span> leads on <span class="num">52%</span> proxy upside, a <span class="num">13.97x</span> forward P/E, <span class="num">0.22</span> PEG and strong current profitability. <span class="t">ORCL</span> combines a fresh beat with <span class="num">61%</span> upside and a <span class="num">0.51</span> PEG proxy. <span class="t">UBER</span> combines <span class="num">43%</span> upside, <span class="num">14.31x</span> P/FCF and two verified officer purchases totaling about <span class="num">$15.3M</span>. These are priorities for missing-data completion, not buy labels.</p>
+  <p><b>Satellite queue.</b> <span class="t">TSM</span> is the best proven-profitable AI infrastructure complement. <span class="t">MU · SNDK · CRDO</span> have strong growth proxies but weak sub-2:1 risk-to-reward anchors and high theme crowding. <span class="t">NBIS · ASTS · RKLB · TEM</span> remain emerging inflection cases with negative operating economics or event risk.</p>
+  <p><b>Forward quality.</b> NVDA passes two of two covered automatic checkpoints, with four of six unverified. TEM covers analyst support only and fails it. NBIS has period-aligned revenue and EPS forecasts, but no checkpoint can pass while EPS and cash generation remain negative. Sparse coverage is never normalized into a high score.</p>
+  <h2>All 17 names</h2>
+  <div class="tablewrap"><table class="appx"><thead><tr><th>Name</th><th>Probe tier</th><th>Price 17 Sep</th><th>Avg PT</th><th>Upside</th><th>Consensus · score</th><th>Institutional flow · short interest</th><th>Insiders, 90d</th><th>Next dated event</th></tr></thead><tbody><tr><td class="tk">ADBE</td><td><span class="pill core">core</span></td><td class="num">$252.67</td><td class="num">$268.91</td><td class="num">+6.4%</td><td>Hold · 44</td><td>13F n/f · SI 4.38%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">ORCL</td><td><span class="pill core">core</span></td><td class="num">$150.59</td><td class="num">$243.08</td><td class="num">+61.4%</td><td>Buy · 57</td><td>13F n/f · SI 2.48%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">UBER</td><td><span class="pill watch">watch</span></td><td class="num">$70.87</td><td class="num">$101.64</td><td class="num">+43.4%</td><td>Strong Buy · 49</td><td>13F n/f · SI 2.3%</td><td>2 verified officer buys; coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">DERM</td><td><span class="pill watch">watch</span></td><td class="num">$7.36</td><td class="num">$13.75</td><td class="num">+86.8%</td><td>Strong Buy · 47</td><td>13F n/f · SI 20.38%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">BDSX</td><td><span class="pill watch">watch</span></td><td class="num">$28.81</td><td class="num">$34.00</td><td class="num">+18.0%</td><td>Strong Buy · 35</td><td>13F n/f · SI 4.7%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">CIEN</td><td><span class="pill watch">watch</span></td><td class="num">$344.25</td><td class="num">$516.57</td><td class="num">+50.1%</td><td>Buy · 42</td><td>13F n/f · SI 2.38%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">NVDA</td><td><span class="pill sat">satellite</span></td><td class="num">$219.34</td><td class="num">$334.32</td><td class="num">+52.4%</td><td>Strong Buy · 58</td><td>13F n/f · SI 1.29%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">META</td><td><span class="pill sat">satellite</span></td><td class="num">$682.31</td><td class="num">$751.05</td><td class="num">+10.1%</td><td>Strong Buy · 40</td><td>13F n/f · SI 1.31%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">MU</td><td><span class="pill sat">satellite</span></td><td class="num">$977.50</td><td class="num">$1,575.35</td><td class="num">+61.2%</td><td>Strong Buy · 48</td><td>13F n/f · SI 2.64%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">TSM</td><td><span class="pill sat">satellite</span></td><td class="num">$430.26</td><td class="num">$543.66</td><td class="num">+26.4%</td><td>Strong Buy · 51</td><td>13F n/f · SI 0.58%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">NBIS</td><td><span class="pill sat">satellite</span></td><td class="num">$217.99</td><td class="num">$296.83</td><td class="num">+36.2%</td><td>Buy · 40</td><td>13F n/f · SI 20.27%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">ASTS</td><td><span class="pill sat">satellite</span></td><td class="num">$62.71</td><td class="num">$84.19</td><td class="num">+34.3%</td><td>Hold · 33</td><td>13F n/f · SI 34.18%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">TEM</td><td><span class="pill sat">satellite</span></td><td class="num">$80.36</td><td class="num">$67.53</td><td class="num">-16.0%</td><td>Hold · 31</td><td>13F n/f · SI 27.35%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">RKLB</td><td><span class="pill sat">satellite</span></td><td class="num">$67.82</td><td class="num">$111.89</td><td class="num">+65.0%</td><td>Strong Buy · 38</td><td>13F n/f · SI 7.7%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">CRDO</td><td><span class="pill sat">satellite</span></td><td class="num">$168.25</td><td class="num">$287.34</td><td class="num">+70.8%</td><td>Strong Buy · 42</td><td>13F n/f · SI 3.94%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">SNDK</td><td><span class="pill sat">satellite</span></td><td class="num">$1,614.39</td><td class="num">$2,263.88</td><td class="num">+40.2%</td><td>Buy · 43</td><td>13F n/f · SI 4.15%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr><tr><td class="tk">PLTR</td><td><span class="pill sat">satellite</span></td><td class="num">$176.24</td><td class="num">$203.70</td><td class="num">+15.6%</td><td>Buy · 41</td><td>13F n/f · SI 2.95%</td><td>90d coverage incomplete</td><td>Issuer-confirmed date n/f</td></tr></tbody></table></div>
+  <p class="src">Targets, recommendation scores and chart fields are current Finviz screening data. "n/f" means not found or not established. UBER purchases come from original SEC Form 4 filings.</p>
+  <h2>What this probe cannot tell you</h2>
+  <div class="callout warn">The 13F gate is unavailable rather than negative. Complete 90-day Form 4 coverage is unavailable rather than proof of no activity. Forward operating-margin expansion, FCF-margin expansion, FCF growth, forward ROIC, ROIC-WACC spread and EPS revision breadth remain missing for most names. Chart reads use aggregator moving-average distances. Targets were not checked against broker notes.</div>
+  <p>Three things would sharpen the next probe: connect a licensed estimates feed for period-aligned FY1 and FY2 inputs; parse every issuer Form 4 and the latest 13F cycle into share-based flows; and refresh delivery evidence from issuer filings after each earnings report.</p>
+  <div class="foot">Sources are Finviz snapshots fetched 17 September 2026, StockAnalysis forecast pages for NVDA, NBIS and TEM, SEC Form 4 filings for UBER, Federal Reserve and FRED macro data, and the account analyses in data/analysis/accounts. The full scorecard is in analysis_output/2026-09-17-runway-evidence.md. Nothing here is investment advice.</div>
+</div>

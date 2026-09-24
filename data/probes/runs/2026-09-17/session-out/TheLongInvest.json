@@ -1,0 +1,408 @@
+{
+  "account": "TheLongInvest",
+  "profile": {
+    "beat": "Growth equities, healthcare and consumer turnarounds alongside crypto, metals and macro rotation.",
+    "style": "Forceful conviction language, Elliott Wave projections and long-term moving averages dominate. Claims fundamentals guide chart-based entries and frequently recounts successful earlier calls. Portfolio guidance stresses cash, safe havens and avoiding leverage.",
+    "cadence": "Frequent daily one-liners, chart-linked posts, replies, macro commentary and subscription promotions, plus weekly research schedules.",
+    "revisits": "ASTS conviction returns in 2099854813601169606 and 2100581412126466151; OSCR accumulation is revisited in 2100576480472305731.",
+    "caveats": "This is the September incremental window, not two months. Paid-service promotion and retrospective success claims create selection and marketing bias. Charts, private-group trades and claimed insider activity are not independently verified. Crypto and silver views are retained narratively rather than mapped to equity tickers. Supplied trading-day labels include weekends and next-day labels after close."
+  },
+  "narrative": "The window opens with conviction in ASTS and crypto while NBIS receives a partnership-linked technical endorsement. As inflation and the Fed decision dominate, the author stresses cash, safe havens and purchases in companies believed to have already corrected. ASTS and OSCR remain recurring high-conviction equity ideas, with ADUR presented as a patented technology opportunity. The author waits for support in HIMS and UNH and a later correction in NVDA. Chinese AI exposure through BABA and BIDU is an alternative to a slowing US cycle, although BABA capital spending is acknowledged as a cash-flow issue. ETH and silver become prominent rotation themes; after initially describing the Clarity Act as a possible catalyst, the author argues crypto does not depend on it. At the end of the capture the author still anticipates seasonal market weakness despite near-term relief. These are account claims rather than independently established events or company fundamentals.",
+  "picks": [
+    {
+      "symbol": "ASTS",
+      "direction": "long",
+      "conviction": 0.97,
+      "time_frame": "long_term",
+      "prospect": "Management execution could create a major long-term compounder.",
+      "thesis": "Cites telecom integration, partnerships, purported insider buying and repeated support tests.",
+      "risk_reward": "Execution is an explicit condition and the author acknowledges the company is effectively pre-revenue.",
+      "tags": [
+        "innovation",
+        "disruptor",
+        "speculative",
+        "tech"
+      ],
+      "first_seen": "2026-09-07",
+      "sources": [
+        {
+          "post_id": "2096992916765831426",
+          "quote": "At $130 there were no doubts\n\nNot at a -50% discount\n\nYou question the story\n\nExcept nothing has changed\n\n$ASTS is the next $NVDA in terms of potential gains https://t.co/npf1suvYgb"
+        },
+        {
+          "post_id": "2097663867258130598",
+          "quote": "$ASTS \n\n-Insiders buying\n-Cantor bumping targets to $90. \n-Vodafone, Orange, Telefónica, Deutsche Telekom all in integration testing.\n- 3 Billion people agreed in partnership\n- Global Wifi designed for your Cell phone (unlike starlink)\n- 5-7% current valuation of Starlink\n- While moving into Wave 3\n\nWe've seen enough."
+        },
+        {
+          "post_id": "2099854813601169606",
+          "quote": "In case you forgot\n\n$ASTS is a Buy for all investors."
+        },
+        {
+          "post_id": "2100312249881542820",
+          "quote": "$ASTS is green, why?\n\nIt is in the exact opposite cycle to the US Market\n\nAnd this is a Pre Revenue company effectively."
+        },
+        {
+          "post_id": "2100581412126466151",
+          "quote": "$ASTS hit the mid $50’a twice in Sept\n\nBoth times holding support\n\nIts first investor also added at this supper\n\nTLI also added three times here\n\nAnd now back up another +10%\n\nThis WILL be the next $NVDA if management can execute now\n\nIf you need convincing on this\n\nGoogle their Founder \n\n100 X is a real possibility"
+        }
+      ]
+    },
+    {
+      "symbol": "NBIS",
+      "direction": "long",
+      "conviction": 0.84,
+      "time_frame": "position",
+      "prospect": "Expects another upward technical wave.",
+      "thesis": "Support holding and the Palantir partnership support the bullish setup.",
+      "risk_reward": "The setup depends on support holding; no detailed downside case is provided.",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097337853030093265",
+          "quote": "$NBIS \nHeld $200 support\nHeld the 50 Day MA support\nBouncing strong now after the $PLTR partnership\n\nWave 5 is active\nPT is $400 https://t.co/tTJ0UlYMIl"
+        },
+        {
+          "post_id": "2100551540448608700",
+          "quote": "$NBIS \n\nBullish wedge formed\n\n+9% in the PM https://t.co/QRu6xgeOkA"
+        }
+      ]
+    },
+    {
+      "symbol": "OSCR",
+      "direction": "long",
+      "conviction": 0.97,
+      "time_frame": "long_term",
+      "prospect": "Expects continued expansion and technical upside.",
+      "thesis": "Describes repeated accumulation as improving fundamentals diverged from market sentiment; emphasizes management and insurance disruption.",
+      "risk_reward": "Execution is the stated remaining requirement; no concrete downside scenario is given.",
+      "tags": [
+        "disruptor",
+        "value"
+      ],
+      "first_seen": "2026-09-15",
+      "sources": [
+        {
+          "post_id": "2099860715913752993",
+          "quote": "$OSCR Revenue was $5 Billion at the start of 2024\n\nBy the end of 2026, it is estimated to be $18.7 Billion.\n\nBut during this time, the share price dropped -60%\n\nHow did the market get this so wrong?\n\nAnd why did we show FULL conviction when the market got this wrong?\n\nBecause we understood the chart and the fundamentals.\n\n+215% gain since."
+        },
+        {
+          "post_id": "2100575423033737442",
+          "quote": "$OSCRs only job now is execution\n\nAnd they have the management to do that\n\nA truly brilliant company disrupting a monster market https://t.co/CiPreABLC2"
+        },
+        {
+          "post_id": "2100576480472305731",
+          "quote": "$OSCR we spent 18 months accumulating between $10 - $14 because the chart and fundamentals said it was extremely undervalued\n\nWe got rewarded for our conviction\n\nWe then added again in August at $25, our intention was not to buy the bottom but we assessed the risk v reward at $25 to consider where bulls would likely get back in....because the fundamentals were improving exponentially\n\nMany wanted a retest of $23 or even lower but the fundamentals disagreed\n\nWe are known for our charts but its the fundamentals that guide us.\n\nCharts show us the entry and exit points."
+        },
+        {
+          "post_id": "2100591527781159025",
+          "quote": "$OSCR Wave 3 target is $58\n\nA target I shared on Christmas Day 2024 at $12\n\nWhich will be correct"
+        }
+      ]
+    },
+    {
+      "symbol": "ADUR",
+      "direction": "long",
+      "conviction": 0.92,
+      "time_frame": "long_term",
+      "prospect": "Recommends buying for future upside.",
+      "thesis": "Presents patents around Hydrochemolytic Technology and sustained support as a defensible moat.",
+      "risk_reward": "Claims moat and support provide protection; commercial execution and financing downside are not analyzed.",
+      "tags": [
+        "innovation",
+        "speculative"
+      ],
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097664772913107353",
+          "quote": "$ADUR \n\n- Seven issued patents, four pending. \n-Aduro isn't just chasing a chemistry breakthroughit's building a defensible moat around Hydrochemolytic™ Technology."
+        },
+        {
+          "post_id": "2099539694459507016",
+          "quote": "$ADUR has been holding support on the 0.618 Fin since the 13th of July\n\nPrice has been consolidating while the market has been in a roller coaster.\n\n$ADURs Moat is its protection\n\nIt controls its market now. https://t.co/oc2VhHN1AX"
+        },
+        {
+          "post_id": "2100579668046782554",
+          "quote": "$ADUR is a BUY all day long under $18\n\nCurrently at $12"
+        }
+      ]
+    },
+    {
+      "symbol": "BABA",
+      "direction": "long",
+      "conviction": 0.85,
+      "time_frame": "position",
+      "prospect": "Expects upside from valuation and ongoing Chinese AI development.",
+      "thesis": "Compares the long-term moving-average setup with Microsoft and argues Chinese AI development will continue.",
+      "risk_reward": "Explicitly identifies AI capital spending as a free-cash-flow issue.",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "first_seen": "2026-09-10",
+      "sources": [
+        {
+          "post_id": "2098056874469818486",
+          "quote": "$BABA \n\nFWD PE: 11\nEPS this year: +61%\nEPS next 5 years: +42%\n\nFCF is the issue as they aggressively spend on Ai Capex as $MSFT had\n\n$BABA just sitting on its 200 WMA is almost identical to $MSFT before it jumped +30% too."
+        },
+        {
+          "post_id": "2098877011615793433",
+          "quote": "Will China slow down its Ai development while the US slows down its own?\n\nIt won’t. \n\nBullish\n$BABA\n$BIDU"
+        },
+        {
+          "post_id": "2099857274248306792",
+          "quote": "$BABA are you adding here on another test of the 200 WMA?\n\n$BABA is where $MSFT was when it tested its own 200 WMA and then bounced +30% https://t.co/4DGVg43l8y"
+        }
+      ]
+    },
+    {
+      "symbol": "BIDU",
+      "direction": "long",
+      "conviction": 0.65,
+      "time_frame": "position",
+      "prospect": "Bullish on Chinese AI development.",
+      "thesis": "Expects Chinese AI development to continue as the US sector slows.",
+      "risk_reward": "The author never addressed risk.",
+      "tags": [
+        "tech",
+        "innovation"
+      ],
+      "first_seen": "2026-09-13",
+      "sources": [
+        {
+          "post_id": "2098877011615793433",
+          "quote": "Will China slow down its Ai development while the US slows down its own?\n\nIt won’t. \n\nBullish\n$BABA\n$BIDU"
+        }
+      ]
+    },
+    {
+      "symbol": "HIMS",
+      "direction": "long",
+      "conviction": 0.72,
+      "time_frame": "position",
+      "prospect": "Favors adding if a support retest holds.",
+      "thesis": "Historical support and a long-term moving average converge after an earlier breakout.",
+      "risk_reward": "Entry explicitly requires support to hold; no detailed failure case is supplied.",
+      "tags": [
+        "value"
+      ],
+      "first_seen": "2026-09-13",
+      "sources": [
+        {
+          "post_id": "2099191255972339962",
+          "quote": "$HIMS price action and 200 WMA both moving to the blue historical support level at $25.40 next\n\nPrice action has bounced from $13 to $38 in 2026 and now retesting the breakout level\n\nA hold of support at $25.40 and you know what to do. https://t.co/CN7Q8u3laY"
+        }
+      ]
+    },
+    {
+      "symbol": "UNH",
+      "direction": "long",
+      "conviction": 0.9,
+      "time_frame": "long_term",
+      "prospect": "Plans to add after support confirmation and views it as a safe haven.",
+      "thesis": "Combines prior accumulation conviction with healthcare exposure during market stress.",
+      "risk_reward": "Warns against entering before support is tested and held.",
+      "tags": [
+        "value",
+        "macro"
+      ],
+      "first_seen": "2026-09-14",
+      "sources": [
+        {
+          "post_id": "2099494130736898366",
+          "quote": "$UNH Bulls stand down\n\nWe are nearly at our buy level to add\n\nstop going in early"
+        },
+        {
+          "post_id": "2099538600631128447",
+          "quote": "The easiest money I ever made was buying $UNH at $240 and we added 12 times. (all shared in our group)\n\nAnd we are about to start adding again shortly, once support is tested and held. \n\nWe were right last year\nAnd we'll be right again this year\n\nYou need a safe haven, $UNH is it."
+        },
+        {
+          "post_id": "2099538929196150978",
+          "quote": "$UNH Aug 2025\n\n'Stop flirting with me, give me $226 and give them a lesson  \n\nAnd I'll sit on this for the next 10 years laughing my ass off!' https://t.co/zRLPqqDcc2"
+        }
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "direction": "long",
+      "conviction": 0.81,
+      "time_frame": "long_term",
+      "prospect": "Maintains an upward multi-year projection.",
+      "thesis": "Sees an upward technical wave despite prolonged sideways performance.",
+      "risk_reward": "The author never addressed risk.",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "first_seen": "2026-09-15",
+      "sources": [
+        {
+          "post_id": "2099838479077142899",
+          "quote": "$AMZN Same chart but 17 months later and no changes\n\n$AMZN is still in Wave 3 with a target at $382\n\nAnd has been relatively flat since Jan 2025 and has not been following the market. https://t.co/1oxhqDVpX2 https://t.co/jhc822yLrg"
+        },
+        {
+          "post_id": "2099839086076846205",
+          "quote": "$AMZN before and after, 17 MONTHS in the difference. \n\n5 YEAR PROJECTION. https://t.co/i7JS2IWY5x"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "direction": "neutral",
+      "conviction": 0.82,
+      "time_frame": "position",
+      "prospect": "Prefers adding after a major corrective retest.",
+      "thesis": "Sees a late-cycle technical setup before a later stronger AI expansion.",
+      "risk_reward": "Warns of a corrective wave and prefers the long-term moving average as an entry.",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "first_seen": "2026-09-10",
+      "sources": [
+        {
+          "post_id": "2098050747908661329",
+          "quote": "Remember there are positions that have ALREADY completed their correction this year alone\n\nThat are in complete opposite cycles to the market\n\nWith strong fundamentals\n\nFocus on these companies\n\n@CathieDWood buying $NVDA this week is exactly where you DON'T want to be."
+        },
+        {
+          "post_id": "2098445356790882368",
+          "quote": "$NVDA still needs to break above $230 to get a final pop in this Cycle, otherwise Wave 2 is next for a retest of its 200 WMA\n\nAnd then the REAL AI Boom takes place after this\n\nCycle Wave 3 for $NVDA.\n\nAdding $NVDA at its 200 WMA is the dream buy. https://t.co/oy7aR6fgD5"
+        },
+        {
+          "post_id": "2099518404046557350",
+          "quote": "Cathie Wood buying $NVDA last week was not acknowledged enough by the market\n\nNot in Wave 2\n\nBut DEEP in Wave 5\n\nAmazing"
+        }
+      ]
+    },
+    {
+      "symbol": "CRM",
+      "direction": "long",
+      "conviction": 0.72,
+      "time_frame": "position",
+      "prospect": "Wants to add on the next corrective pullback.",
+      "thesis": "A completed breakout could be followed by a corrective entry opportunity.",
+      "risk_reward": "Prefers waiting for a pullback; detailed downside is absent.",
+      "tags": [
+        "tech",
+        "value"
+      ],
+      "first_seen": "2026-09-10",
+      "sources": [
+        {
+          "post_id": "2098016265860182179",
+          "quote": "$CRM\n\nIf you missed the hold of support and \nIf you missed the breakout, and \nIf you missed the +83% percentage gain in 3 months\n\nThen you should focus on watching for the pull back for Wave 2 next to add. https://t.co/nqi4GtMsca"
+        }
+      ]
+    },
+    {
+      "symbol": "MRAM",
+      "direction": "long",
+      "conviction": 0.73,
+      "time_frame": "swing",
+      "prospect": "Expects near-term breakout continuation.",
+      "thesis": "Views it as a beneficiary of strength in memory peers.",
+      "risk_reward": "The author never addressed risk.",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097318540588015957",
+          "quote": "$MRAM the beneficial play of $MU and $SNDK breaking higher https://t.co/5GbZUyjv54 https://t.co/xKVs99F96E"
+        },
+        {
+          "post_id": "2097680124351045920",
+          "quote": "$MRAM breakout...\n\n+10 to +15% session is possible here shortly"
+        }
+      ]
+    },
+    {
+      "symbol": "ONDS",
+      "direction": "long",
+      "conviction": 0.79,
+      "time_frame": "position",
+      "prospect": "Expects a strong upward wave after consolidation.",
+      "thesis": "Long consolidation and channel support underpin the rally expectation.",
+      "risk_reward": "The setup depends on holding support; operating downside is not discussed.",
+      "tags": [
+        "momentum",
+        "speculative"
+      ],
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097656735221633533",
+          "quote": "$ONDS the consolidation can continue in this channel while holding support\n\nBut we have seen that a long consolidation like this in Wave 2 results in a strong Wave 3 bounce\n\nWave 3 target is $30\nCurrent Price is $7.30 https://t.co/K4GJ0g0dbw"
+        }
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "direction": "long",
+      "conviction": 0.72,
+      "time_frame": "swing",
+      "prospect": "Expects another upward leg.",
+      "thesis": "Provides a technical directional call and a celebratory follow-up without an operating thesis.",
+      "risk_reward": "The author never addressed risk.",
+      "tags": [
+        "tech",
+        "momentum"
+      ],
+      "first_seen": "2026-09-17",
+      "sources": [
+        {
+          "post_id": "2100568418000806314",
+          "quote": "$AMD ready for its next leg higher.\n\nhttps://t.co/THIY3Y6aD2"
+        },
+        {
+          "post_id": "2100601025379860963",
+          "quote": "$AMD that didn't take long\n\n+5% https://t.co/J9VQnZurKO"
+        }
+      ]
+    },
+    {
+      "symbol": "NKE",
+      "direction": "long",
+      "conviction": 0.68,
+      "time_frame": "position",
+      "prospect": "Regards the current range as attractive for renewed growth.",
+      "thesis": "Presents a new board appointment as improving consumer marketing and brand reach.",
+      "risk_reward": "The author never addressed risk.",
+      "tags": [
+        "value"
+      ],
+      "first_seen": "2026-09-17",
+      "sources": [
+        {
+          "post_id": "2100570009374171538",
+          "quote": "$NKE added Alexandre Arnault to its board. Arnault, ex-Tiffany and Moët Hennessy deputy CEO, brings luxury brand and consumer marketing experience to boost Nike’s consumer reach and growth.\n\nWhile in the 'Impossible range to ignore' https://t.co/cAHvnProFi"
+        }
+      ]
+    },
+    {
+      "symbol": "LULU",
+      "direction": "neutral",
+      "conviction": 0.57,
+      "time_frame": "position",
+      "prospect": "Believes a bottom may still lie ahead.",
+      "thesis": "Sees a depressed technical position without a confirmed entry.",
+      "risk_reward": "Explicitly cautions that the bottom may not be in.",
+      "tags": [
+        "value"
+      ],
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097682262833692829",
+          "quote": "$LULU has a +200% gain just to get back to its 200 WMA.\n\nBut I feel the bottom is not in yet. https://t.co/M248ffGrSg"
+        }
+      ]
+    }
+  ]
+}

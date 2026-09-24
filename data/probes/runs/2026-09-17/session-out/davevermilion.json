@@ -1,0 +1,150 @@
+{
+  "account": "davevermilion",
+  "profile": {
+    "beat": "Macro, commodities, market breadth and sector relative strength, with tactical security selections.",
+    "style": "Charts and relative strength drive timing; sarcasm frequently expresses concern about inflation and consumer weakness. Explicit purchases are more reliable stance evidence than image-only ticker posts.",
+    "cadence": "Frequent originals, replies and quote posts with charts and references to client research and a finance show.",
+    "revisits": "Returns to oil and gold correlation throughout the window and revisits deteriorating sector breadth in 2098775711557222691 and 2100639590214205946.",
+    "caveats": "Incremental window only. Chart images and quoted source context are absent, so image-only references and ambiguous replies are excluded. Sarcasm and retrospective calls require care; leveraged instruments are tactical views rather than evidence of business quality."
+  },
+  "narrative": "The author remains bullish on energy and sees potential for a broader commodity cycle as gold and oil begin to move together. Supply disruption and persistent inflation dominate the macro framing. Beneath the broad market, weakening consumer and financial-sector breadth raises concern. Explicit actions include Brazil exposure, an offshore driller holding, a chemical-company purchase and a financial-sector inverse fund. A late nuclear-stock purchase shows willingness to take selected technical opportunities despite broad caution. The author repeatedly emphasizes timing and the possibility of false support breaks.",
+  "picks": [
+    {
+      "symbol": "BRZU",
+      "direction": "long",
+      "prospect": "A support-area reversal supports tactical Brazil exposure.",
+      "risk_reward": "The author says leverage is useful at the right turns, implying dependence on entry timing; no loss limit is stated.",
+      "thesis": "The author explicitly bought substantial exposure on a secondary pullback at horizontal support.",
+      "time_frame": "swing",
+      "tags": [
+        "macro",
+        "momentum"
+      ],
+      "conviction": 0.87,
+      "first_seen": "2026-09-08",
+      "sources": [
+        {
+          "post_id": "2097351805969592637",
+          "quote": "@kittiecougar99 I took a ton of BRZU on that secondary pullback at horizontal support. Leverage is good at the right turns."
+        }
+      ]
+    },
+    {
+      "symbol": "XOP",
+      "direction": "long",
+      "prospect": "Energy exposure remains favored.",
+      "risk_reward": "The author warns that the fund changes constituent weightings frequently.",
+      "thesis": "The author explicitly remains bullish while discussing the exploration and production fund.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.73,
+      "first_seen": "2026-09-09",
+      "sources": [
+        {
+          "post_id": "2097463320634626330",
+          "quote": "@scott32061303 I’m already bullish, so it fits. Just be aware that the XOP is a managed funds and the weightings get changed more than your underwear."
+        }
+      ]
+    },
+    {
+      "symbol": "RIG",
+      "direction": "long",
+      "prospect": "Maintains an offshore-driller position.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author explicitly states ownership in the broader context of energy-sector bullishness.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.78,
+      "first_seen": "2026-09-15",
+      "sources": [
+        {
+          "post_id": "2099909107733979292",
+          "quote": "@EladioSantiag14 well, I own a $RIG"
+        }
+      ]
+    },
+    {
+      "symbol": "CE",
+      "direction": "long",
+      "prospect": "Chemical exposure benefits from the commodity backdrop.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author describes chemical companies as akin to refineries and reports buying CE as commodity relative strength improves.",
+      "time_frame": "position",
+      "tags": [
+        "macro"
+      ],
+      "conviction": 0.81,
+      "first_seen": "2026-09-16",
+      "sources": [
+        {
+          "post_id": "2100027775167947175",
+          "quote": "@TommyThornton Which in turn means major price hikes. Totally no inflation, lol. The Bloomberg commodity index is now breaking a 5 year downtrend vs the S&amp;P 500, started hunting chemical companies today as there are incense refineries. Bot CE"
+        }
+      ]
+    },
+    {
+      "symbol": "FAZ",
+      "direction": "long",
+      "prospect": "An inverse financial-sector position expresses bearish financial exposure.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author explicitly reports being long FAZ after posting financial-sector weakness.",
+      "time_frame": "swing",
+      "tags": [
+        "macro",
+        "momentum"
+      ],
+      "conviction": 0.82,
+      "first_seen": "2026-09-16",
+      "sources": [
+        {
+          "post_id": "2100304099916796369",
+          "quote": "@KMACKROB I am long FAZ"
+        }
+      ]
+    },
+    {
+      "symbol": "SMR",
+      "direction": "long",
+      "prospect": "A tactical nuclear-stock purchase seeks upside.",
+      "risk_reward": "The author never addressed risk.",
+      "thesis": "The author reports buying that morning in a discussion about technical reversals; no company-specific fundamental rationale is given.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "speculative"
+      ],
+      "conviction": 0.77,
+      "first_seen": "2026-09-17",
+      "sources": [
+        {
+          "post_id": "2100630011107541466",
+          "quote": "@DavidDTawil BTW I bought SMR this am."
+        }
+      ]
+    },
+    {
+      "symbol": "FPS",
+      "direction": "long",
+      "prospect": "A bottom-fishing candidate may recover from support.",
+      "risk_reward": "The thesis depends on major support holding; no explicit loss limit is given.",
+      "thesis": "The author identifies FPS as a previously highlighted bottom-fishing candidate near major support.",
+      "time_frame": "swing",
+      "tags": [
+        "momentum",
+        "speculative"
+      ],
+      "conviction": 0.6,
+      "first_seen": "2026-09-16",
+      "sources": [
+        {
+          "post_id": "2100239535955177494",
+          "quote": "$FPS highlighted on my Substack a couple weeks ago as a bottom-fishing candidate. Was near major support. Also, $EROC, $MWH, $LGN https://t.co/wSX6rSvT6F"
+        }
+      ]
+    }
+  ]
+}

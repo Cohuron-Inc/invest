@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "capture_start": "2026-09-07T01:45:52Z",
+  "capture_end_exclusive": "2026-09-17T21:58:44Z",
+  "accounts": 14,
+  "posts_read": 2235,
+  "non_retweet_posts_in_exact_window": 2039,
+  "formal_picks": 92,
+  "estimated_x_api_cost_usd": 11.175,
+  "outputs": {
+    "raw_capture": "data/raw/ingest_dt=2026-09-17/",
+    "normalized_posts": "data/posts/ingest_dt=2026-09-17/posts.parquet",
+    "normalized_mentions": "data/mentions/ingest_dt=2026-09-17/mentions.parquet",
+    "account_analyses": "data/analysis/accounts/",
+    "picks": "data/picks/ingest_dt=2026-09-17/",
+    "pick_tags": "data/pick_tags/ingest_dt=2026-09-17/",
+    "corpus_evidence": "data/analysis/runs/2026-09-17/evidence/summary.md",
+    "corpus_probe": "data/analysis/probes/2026-09-17-probe.html",
+    "outside_source_cache": "analysis_output/2026-09-17-source-cache/",
+    "runway_records": "analysis_output/2026-09-17-runway-data/",
+    "runway_evidence": "analysis_output/2026-09-17-runway-evidence.md",
+    "runway_probe": "analysis_output/2026-09-17-runway-probe.html"
+  },
+  "validation": {
+    "account_citation_gate": "passed for all 14 accounts",
+    "vitest": "90 passed",
+    "typescript": "passed",
+    "forward_metric_tests": "6 passed",
+    "python_compile": "passed"
+  },
+  "known_gaps": [
+    "Current share-based 13F flow was not established for the 17 runway candidates.",
+    "Complete issuer-level 90-day Form 4 coverage was not established; UBER's two reported officer purchases were individually verified.",
+    "Period-aligned FY1/FY2 forward estimates were available only for NVDA, NBIS and TEM; missing fields fail rather than receive inferred values."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "window_start": "2026-09-18",
+  "window_end": "2026-09-25",
+  "model": "claude-opus-5-5[1m]/session-subagent",
+  "prompt_version": "v1-acct",
+  "spec_sha256": "13ba58a7cf0d534a",
+  "taxonomy_version": "v1",
+  "extracted_at": "2026-09-24T21:58:21.669Z",
+  "account": "JaguarAnalytics",
+  "profile": {
+    "beat": "A research-shop account (Jag, with paying European clients and a website) posting on US equity breadth, rates and geopolitics, plus a concentrated growth book led by META, the cybersecurity ETF BUG and RKLB, with space and speculative disruptor names on the side.",
+    "style": "Bold, promotional conviction language on core holdings ('You are still not bullish enough', 'a trillion dollar company in the making') set against a bearish macro and breadth tape read. Discloses top positions openly. Mostly one-line 'Bullish for $X' reactions to news rather than worked fundamental cases in-feed; deeper reports sit behind links to its own paid research.",
+    "cadence": "Several posts a day: short originals with charts, quote posts reacting to headlines, and many off-topic or joking replies. Recurring themes are market breadth deterioration, the 10-year yield, and the Houthi/Saudi conflict. Mentions a recurring weekend 'Convexity' trade (seventh in seven weeks).",
+    "revisits": "Returns to its own holdings repeatedly: META (2102032463333621925, 2102062254501879846), RKLB (2102032463333621925, 2102191579930701985), BUG (2102032463333621925, 2102877722116559260). Breadth deterioration is revisited across the week (2100949134064730416, 2101001985038110999, 2102758775610388707).",
+    "caveats": "The account sells research to clients and promotes teaser reports with undisclosed tickers (2102553954999742475, 2102797205719363645), so bullish calls double as marketing. Top-position disclosures mean it talks its own book. A large share of posts are political or off-topic banter. Macro stance (bearish breadth, rising yields) sits in tension with a very aggressive long growth book, and risk is rarely addressed on single names."
+  },
+  "narrative": "Across the window the account ran two tracks. On macro, it was consistently bearish on internals: terrible breadth, half the S&P below its 200-day while the index held up, many sector ETFs breaking down, and a K-shaped economy where crude, yields and the dollar rise while the Russell falls, which it tied to the ongoing Middle East war. By the end of the window it was pointing at the US 10-year yield rising daily and questioning why markets pretend this does not matter for consumers and businesses. On the book, it stayed aggressively long its top three positions, META, BUG and RKLB, calling META far from fully appreciated and RKLB a future trillion-dollar company that weak hands will sell. It added a conditional long on Petrobras/Brazil tied to the October Brazilian election outcome and flagged Planet Labs as bullish on a Google-linked program. It also teased an unnamed speculative disruptor report and an 'agentic economy' underwriter report for clients. There was no visible change of view during the week; the bearish macro read and bullish growth-book stance ran in parallel.",
+  "picks": [
+    {
+      "symbol": "META",
+      "direction": "long",
+      "prospect": "The author expects META to keep rising substantially and says the market is still not bullish enough.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "One of the author's top three portfolio positions; the author asserts the market underappreciates it, without laying out fundamentals in these posts.",
+      "time_frame": "long_term",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2102032463333621925",
+          "quote": "My top 3 positions in portfolio are $META $BUG and $RKLB"
+        },
+        {
+          "post_id": "2102062254501879846",
+          "quote": "$META Friendly reminder. You are still not bullish enough. See you at $1,000+ per share."
+        }
+      ]
+    },
+    {
+      "symbol": "RKLB",
+      "direction": "long",
+      "prospect": "The author expects Rocket Lab to grow into a very large company over the long run, with dips being bought by stronger hands.",
+      "risk_reward": "Acknowledges volatility that shakes out weaker holders but frames drawdowns as buying windows; no downside case given.",
+      "thesis": "A top-three holding; the author sees Rocket Lab as a generational space company and views panic selling as transfer to long-term holders.",
+      "time_frame": "long_term",
+      "tags": [
+        "innovation",
+        "tech",
+        "speculative"
+      ],
+      "conviction": 0.9,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2102032463333621925",
+          "quote": "My top 3 positions in portfolio are $META $BUG and $RKLB"
+        },
+        {
+          "post_id": "2102191579930701985",
+          "quote": "$RKLB Rocket Lab is a trillion dollar company in the making. It’s unfortunate many on FinX will panic sell along the journey, just to open a window each time for stronger hands to step in."
+        }
+      ]
+    },
+    {
+      "symbol": "BUG",
+      "direction": "long",
+      "prospect": "The author expects the cybersecurity ETF to benefit from news flow around AI and security threats.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "A top-three holding; the author reads recent news as bullish for cybersecurity, alongside repeated posts about rogue AI agents breaking into digital networks.",
+      "time_frame": "position",
+      "tags": [
+        "tech"
+      ],
+      "conviction": 0.8,
+      "first_seen": "2026-09-21",
+      "sources": [
+        {
+          "post_id": "2102032463333621925",
+          "quote": "My top 3 positions in portfolio are $META $BUG and $RKLB"
+        },
+        {
+          "post_id": "2102877722116559260",
+          "quote": "Bullish for Cybersecurity ETF $BUG"
+        }
+      ]
+    },
+    {
+      "symbol": "PBR",
+      "direction": "long",
+      "prospect": "The author expects Petrobras and Brazil broadly to rally into 2027 if Flavio Bolsonaro wins the October presidential election.",
+      "risk_reward": "Explicitly conditional on the election outcome; the author did not otherwise address downside.",
+      "thesis": "A political catalyst: a Bolsonaro win would be favorable for Brazilian assets and the state oil company.",
+      "time_frame": "position",
+      "tags": [
+        "catalyst-driven",
+        "macro"
+      ],
+      "conviction": 0.5,
+      "first_seen": "2026-09-19",
+      "sources": [
+        {
+          "post_id": "2101394964840169794",
+          "quote": "$PBR Petrobras -- Long Brazil into 2027 if Flavio Bolsonaro wins Presidential election in October."
+        }
+      ]
+    },
+    {
+      "symbol": "PL",
+      "direction": "long",
+      "prospect": "The author sees a news item as positive for Planet Labs.",
+      "risk_reward": "The author never addressed risk for this pick.",
+      "thesis": "Tied to Google's stake in Planet Labs and Google's Suncatcher program.",
+      "time_frame": "swing",
+      "tags": [
+        "innovation",
+        "tech",
+        "speculative"
+      ],
+      "conviction": 0.4,
+      "first_seen": "2026-09-24",
+      "sources": [
+        {
+          "post_id": "2103134827344245212",
+          "quote": "Bullish for Planet Labs $PL"
+        },
+        {
+          "post_id": "2103137433487376436",
+          "quote": "Google owns 10% of PL and this is Suncatcher program"
+        }
+      ]
+    }
+  ]
+}

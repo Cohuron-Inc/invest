@@ -1,0 +1,2333 @@
+{
+ "schema": "market-outlook/1",
+ "as_of": "2026-09-24",
+ "inputs": {
+  "regime_as_of": "2026-09-24",
+  "themes_as_of": "2026-09-24",
+  "corpus_last_day": "2026-09-25",
+  "corpus_stale_days": -1,
+  "judgment_files": {
+   "macro_narrative": true,
+   "theme_narrative": true,
+   "sentiment_read": true,
+   "outlook_judgment": true
+  }
+ },
+ "regime": {
+  "mechanical": "Lean risk-off",
+  "composite": -4.8,
+  "call": "Lean risk-off: a strong tape on a hostile discount rate",
+  "quadrant": "Goldilocks",
+  "duration": "hostile",
+  "flags": [
+   "LONG_END_TANTRUM",
+   "HIKING_CYCLE",
+   "OIL_SHOCK"
+  ],
+  "divergence": ""
+ },
+ "risk_budget": {
+  "gross_exposure_pct": 60,
+  "long_duration_cap_pct": 15,
+  "basis": "mandate medium-low risk; regime call 'Lean risk-off: a strong tape on a hostile discount rate'; duration hostile",
+  "hedges": [
+   "oil shock: producers over consumers of energy",
+   "hostile duration: rising real and long yields de-rate distant cash flows first",
+   "credit tail under strain: own balance sheets",
+   "mortgage rate above 7% and builders lagging",
+   "stocks and bonds falling together: Treasuries are not a hedge; use cash, T-bills, gold or options"
+  ]
+ },
+ "tilts": {
+  "quadrant": "Goldilocks",
+  "overweight": [
+   "XLK",
+   "XLC",
+   "growth",
+   "momentum",
+   "high beta",
+   "semis",
+   "XLE",
+   "short-duration cash yield",
+   "quality",
+   "gold"
+  ],
+  "underweight": [
+   "XLU",
+   "XLP",
+   "min vol",
+   "airlines and transports",
+   "chemicals",
+   "XLY",
+   "long-duration growth",
+   "XLRE",
+   "long Treasuries",
+   "levered small caps",
+   "CCC credit",
+   "homebuilders",
+   "housing-linked retail"
+  ],
+  "duration": "short",
+  "overlays": [
+   "oil shock: producers over consumers of energy",
+   "hostile duration: rising real and long yields de-rate distant cash flows first",
+   "credit tail under strain: own balance sheets",
+   "mortgage rate above 7% and builders lagging",
+   "stocks and bonds falling together: Treasuries are not a hedge; use cash, T-bills, gold or options"
+  ]
+ },
+ "archetypes": {
+  "long_duration_growth": {
+   "fit": -1.29,
+   "stance": "headwind",
+   "runway_macro_fit_pts": 1
+  },
+  "quality_megacap": {
+   "fit": 0.18,
+   "stance": "neutral",
+   "runway_macro_fit_pts": 4
+  },
+  "cash_flow_value": {
+   "fit": 0.44,
+   "stance": "neutral",
+   "runway_macro_fit_pts": 5
+  },
+  "small_caps": {
+   "fit": -0.12,
+   "stance": "neutral",
+   "runway_macro_fit_pts": 4
+  },
+  "banks": {
+   "fit": 0.09,
+   "stance": "neutral",
+   "runway_macro_fit_pts": 4
+  },
+  "homebuilders_reits": {
+   "fit": -0.73,
+   "stance": "headwind",
+   "runway_macro_fit_pts": 3
+  },
+  "energy": {
+   "fit": 0.88,
+   "stance": "tailwind",
+   "runway_macro_fit_pts": 6
+  },
+  "materials_industrials": {
+   "fit": 0.18,
+   "stance": "neutral",
+   "runway_macro_fit_pts": 4
+  },
+  "defensives": {
+   "fit": -1.0,
+   "stance": "headwind",
+   "runway_macro_fit_pts": 2
+  },
+  "em_international": {
+   "fit": -0.4,
+   "stance": "neutral",
+   "runway_macro_fit_pts": 3
+  },
+  "gold_hard_assets": {
+   "fit": -0.12,
+   "stance": "neutral",
+   "runway_macro_fit_pts": 4
+  },
+  "crypto_high_beta": {
+   "fit": -0.17,
+   "stance": "neutral",
+   "runway_macro_fit_pts": 4
+  }
+ },
+ "benchmarks": [
+  {
+   "symbol": "SPY",
+   "name": "S&P 500",
+   "ret_1w": 0.9,
+   "ret_1m": 0.4,
+   "ret_3m": 4.7,
+   "ret_6m": 17.4,
+   "ret_12m": 16.9,
+   "vs_200d_pct": 7.4
+  },
+  {
+   "symbol": "QQQ",
+   "name": "Nasdaq-100",
+   "ret_1w": 3.5,
+   "ret_1m": 4.4,
+   "ret_3m": 3.6,
+   "ret_6m": 26.3,
+   "ret_12m": 24.5,
+   "vs_200d_pct": 11.7
+  },
+  {
+   "symbol": "RSP",
+   "name": "S&P 500 equal weight",
+   "ret_1w": -0.6,
+   "ret_1m": -4.9,
+   "ret_3m": 0.3,
+   "ret_6m": 10.4,
+   "ret_12m": 13.3,
+   "vs_200d_pct": 3.3
+  },
+  {
+   "symbol": "IWM",
+   "name": "Russell 2000",
+   "ret_1w": -1.3,
+   "ret_1m": -5.6,
+   "ret_3m": -5.5,
+   "ret_6m": 12.4,
+   "ret_12m": 16.7,
+   "vs_200d_pct": 2.7
+  },
+  {
+   "symbol": "MDY",
+   "name": "S&P 400 mid caps",
+   "ret_1w": -0.1,
+   "ret_1m": -4.2,
+   "ret_3m": -3.7,
+   "ret_6m": 8.0,
+   "ret_12m": 12.0,
+   "vs_200d_pct": 1.1
+  }
+ ],
+ "concentration": {
+  "mag7_minus_rsp_3m_pp": 19.3,
+  "mag7_minus_rsp_12m_pp": 4.2,
+  "read": "mega-cap concentration rising"
+ },
+ "themes": [
+  {
+   "id": "energy",
+   "name": "Oil and gas",
+   "group": "commodities",
+   "archetype": "energy",
+   "stance": "Overweight",
+   "score": 1.21,
+   "inputs": {
+    "price_score": 2,
+    "macro_fit": 0.88,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "fading",
+    "trend": "uptrend",
+    "rel_spy_1m": -2.2,
+    "rel_spy_3m": 14.5,
+    "breadth_50d": 62.0,
+    "dd_52w": -6.8,
+    "leaders_1m": [
+     "MPC +7.8%",
+     "CVX +1.3%",
+     "XOM -1.2%"
+    ],
+    "laggards_1m": [
+     "FANG -8.1%",
+     "EOG -4.9%",
+     "SLB -4.3%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 17,
+    "velocity_rel": 0.75,
+    "tone": 0.02,
+    "stance": null,
+    "hot_members": [],
+    "read": "Heating (2.7x) on oil at $109 and war headlines, but no formal picks. Attention without positioning: the accounts talk oil as macro, not as a trade"
+   },
+   "narrative": {
+    "id": "energy",
+    "price_read": "+14.5pp vs SPY over 3m, fading over 1m as oil backed off before the 24 September Yanbu strike; 100% above 200d",
+    "narrative": "Hormuz disruption, the lowest SPR since 1982, Brent about $107",
+    "counter": "Iran's 60-day ceasefire road map; OPEC+ on 4 October",
+    "direction": "stable",
+    "harmony": "story-leads",
+    "macro_fit": "+0.9 tailwind",
+    "sources": [
+     "news.json inflation_oil"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "id": "cybersecurity",
+   "name": "Internet security",
+   "group": "software",
+   "archetype": "quality_megacap",
+   "stance": "Accumulate",
+   "score": 0.96,
+   "inputs": {
+    "price_score": 2,
+    "macro_fit": 0.18,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "accelerating",
+    "trend": "uptrend",
+    "rel_spy_1m": 22.8,
+    "rel_spy_3m": 47.1,
+    "breadth_50d": 100.0,
+    "dd_52w": -0.3,
+    "leaders_1m": [
+     "OKTA +57.8%",
+     "CRWD +36.2%",
+     "NET +28.0%"
+    ],
+    "laggards_1m": [
+     "TENB +5.7%",
+     "PANW +11.1%",
+     "S +15.2%"
+    ]
+   },
+   "sentiment": {
+    "labels": [
+     "cooling"
+    ],
+    "posts_recent": 8,
+    "velocity_rel": 0.4,
+    "tone": -0.12,
+    "stance": {
+     "accounts": 2,
+     "longs": 5,
+     "shorts": 1,
+     "net_long": 0.67,
+     "avg_conviction": 0.67,
+     "stances": "TradexWhisperer:long:0.9 LogicalThesis:short:0.66 StockSavvyShay:long:0.4 TradexWhisperer:long:0.9 StockSavvyShay:long:0.64 stocktalkweekly:long:0.6"
+    },
+    "hot_members": [
+     "CRWD (6)",
+     "PANW (4)",
+     "FTNT (2)",
+     "OKTA (1)"
+    ],
+    "read": "Heating (2.0x) and in step with the strongest basket on price; the CRWD AI-attack narrative"
+   },
+   "narrative": {
+    "id": "cybersecurity",
+    "price_read": "Accelerating: +47pp vs SPY over 3m, 100% of members above 50d and 200d, 0.3% off the high; the leaders are OKTA +58%, CRWD +36% and NET +28% in a month",
+    "narrative": "AI-driven attacks make security non-discretionary spend; CRWD at a 5-year valuation high",
+    "counter": "valuation at a 5-year high into a 5% 10y; the whole group re-rated at once",
+    "direction": "accelerating",
+    "harmony": "agree",
+    "macro_fit": "+0.2 neutral; the rates headwind offset by recurring FCF",
+    "sources": [
+     "x:2099327530436374532",
+     "x:2099902572207501550"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "id": "cloud_software",
+   "name": "Cloud and software",
+   "group": "software",
+   "archetype": "quality_megacap",
+   "stance": "Accumulate",
+   "score": 0.96,
+   "inputs": {
+    "price_score": 2,
+    "macro_fit": 0.18,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "fading",
+    "trend": "uptrend",
+    "rel_spy_1m": 0.8,
+    "rel_spy_3m": 39.7,
+    "breadth_50d": 69.0,
+    "dd_52w": -11.2,
+    "leaders_1m": [
+     "CRM +14.1%",
+     "DDOG +13.8%",
+     "TEAM +12.4%"
+    ],
+    "laggards_1m": [
+     "INTU -25.1%",
+     "ADBE -12.8%",
+     "HUBS -9.3%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 40,
+    "velocity_rel": 0.82,
+    "tone": 0.21,
+    "stance": {
+     "accounts": 2,
+     "longs": 5,
+     "shorts": 1,
+     "net_long": 0.67,
+     "avg_conviction": 0.69,
+     "stances": "TradexWhisperer:long:0.76 TheLongInvest:long:0.75 TheLongInvest:long:0.78 TheLongInvest:long:0.72 LogicalThesis:short:0.55 StockSavvyShay:long:0.7"
+    },
+    "hot_members": [
+     "MSFT (13)",
+     "ORCL (8)",
+     "SNOW (3)",
+     "CRM (1)"
+    ],
+    "read": null
+   },
+   "narrative": {
+    "id": "cloud_software",
+    "price_read": "+40pp vs SPY over 3m but fading over 1m (-3pp vs QQQ); the group is splitting: CRM, DDOG and TEAM up, INTU -25%, ADBE -13% and HUBS -9%",
+    "narrative": "the 'AI eats software' fear unwound; seat-based models now being sorted into winners and losers",
+    "counter": "AI agents disintermediate seat pricing (INTU, ADBE)",
+    "direction": "fading",
+    "harmony": "price-leads",
+    "macro_fit": "+0.2",
+    "sources": [
+     "themes.json"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "id": "mag7",
+   "name": "Magnificent 7",
+   "group": "mega-cap",
+   "archetype": "quality_megacap",
+   "stance": "Accumulate",
+   "score": 0.96,
+   "inputs": {
+    "price_score": 2,
+    "macro_fit": 0.18,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "accelerating",
+    "trend": "uptrend",
+    "rel_spy_1m": 7.0,
+    "rel_spy_3m": 14.9,
+    "breadth_50d": 71.0,
+    "dd_52w": -0.6,
+    "leaders_1m": [
+     "META +36.5%",
+     "AAPL +8.4%",
+     "TSLA +7.9%"
+    ],
+    "laggards_1m": [
+     "AMZN -4.5%",
+     "GOOGL -1.3%",
+     "MSFT +1.3%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 155,
+    "velocity_rel": 1.24,
+    "tone": 0.19,
+    "stance": {
+     "accounts": 5,
+     "longs": 18,
+     "shorts": 2,
+     "net_long": 0.8,
+     "avg_conviction": 0.72,
+     "stances": "TheLongInvest:short:0.6 TradexWhisperer:long:0.76 TheLongInvest:long:0.75 MarcosMillaYT:long:0.94 TheLongInvest:long:0.81 stocktalkweekly:long:0.4 StockSavvyShay:long:0.98 StockSavvyShay:long:0.95 JaguarAnalytics:long:0.9 RealJGBanks:long:0.78 FeroceResearch:long:0.72 TheLongInvest:short:0.65 StockSavvyShay:long:0.94 MarcosMillaYT:long:0.92 FeroceResearch:long:0.9 TheLongInvest:neutral:0.82 TheLon"
+    },
+    "hot_members": [
+     "META (65)",
+     "NVDA (62)",
+     "GOOGL (22)",
+     "TSLA (16)"
+    ],
+    "read": null
+   },
+   "narrative": {
+    "id": "mag7",
+    "price_read": "Accelerating: +19pp vs RSP over 3m, so concentration is rising; META +36.5% in a month leads, while AMZN, GOOGL and MSFT are flat to down",
+    "narrative": "AI monetization (Meta One subscriptions); hyperscaler capex about $770bn",
+    "counter": "'competition for capital': hyperscaler debt issuance lifts yields; breadth inside the Mag 7 is narrowing to META and NVDA",
+    "direction": "accelerating",
+    "harmony": "agree",
+    "macro_fit": "+0.2",
+    "sources": [
+     "x:2099877973495349704",
+     "news.json growth_labour"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "id": "crypto_equities",
+   "name": "Crypto equities",
+   "group": "crypto",
+   "archetype": "crypto_high_beta",
+   "stance": "Accumulate",
+   "score": 0.84,
+   "inputs": {
+    "price_score": 2,
+    "macro_fit": -0.17,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "accelerating",
+    "trend": "uptrend",
+    "rel_spy_1m": 10.8,
+    "rel_spy_3m": 10.4,
+    "breadth_50d": 100.0,
+    "dd_52w": -16.7,
+    "leaders_1m": [
+     "HUT +27.6%",
+     "MSTR +27.4%",
+     "CLSK +11.8%"
+    ],
+    "laggards_1m": [
+     "CRCL +1.1%",
+     "COIN +6.4%",
+     "HOOD +7.8%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 54,
+    "velocity_rel": 1.34,
+    "tone": 0.2,
+    "stance": {
+     "accounts": 1,
+     "longs": 4,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.54,
+     "stances": "TheLongInvest:long:0.65 StockSavvyShay:long:0.4 StockSavvyShay:neutral:0.64 StockSavvyShay:long:0.6 StockSavvyShay:long:0.5"
+    },
+    "hot_members": [
+     "IREN (16)",
+     "HOOD (5)",
+     "COIN (3)",
+     "HUT (1)"
+    ],
+    "read": null
+   },
+   "narrative": {
+    "id": "crypto_equities",
+    "price_read": "Accelerating: +11pp vs QQQ over 3m, 100% breadth; HUT and MSTR +27% in a month",
+    "narrative": "miners pivoting to AI hosting (IREN upgraded to Overweight by JPM)",
+    "counter": "liquidity-driven; net liquidity is flat to down and real yields are rising",
+    "direction": "accelerating",
+    "harmony": "price-leads",
+    "macro_fit": "-0.2",
+    "sources": [
+     "x:2099450530456306174"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "id": "biotech_large",
+   "name": "Large biotech and pharma",
+   "group": "biotech",
+   "archetype": "defensives",
+   "stance": "Accumulate",
+   "score": 0.55,
+   "inputs": {
+    "price_score": 2,
+    "macro_fit": -1.0,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "fading",
+    "trend": "uptrend",
+    "rel_spy_1m": -3.5,
+    "rel_spy_3m": 12.3,
+    "breadth_50d": 89.0,
+    "dd_52w": -4.1,
+    "leaders_1m": [
+     "GILD +2.6%",
+     "PFE +1.6%",
+     "JNJ -0.4%"
+    ],
+    "laggards_1m": [
+     "BMY -8.6%",
+     "AMGN -8.5%",
+     "LLY -5.2%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 2,
+    "velocity_rel": 0.7,
+    "tone": 0.0,
+    "stance": null,
+    "hot_members": [
+     "LLY (1)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": [
+    "price fights macro: leadership that needs the regime to change; size small, trail stops"
+   ]
+  },
+  {
+   "id": "glp1_obesity",
+   "name": "GLP-1 and obesity",
+   "group": "biotech",
+   "archetype": "defensives",
+   "stance": "Accumulate",
+   "score": 0.55,
+   "inputs": {
+    "price_score": 2,
+    "macro_fit": -1.0,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "improving",
+    "trend": "uptrend",
+    "rel_spy_1m": -3.1,
+    "rel_spy_3m": -0.6,
+    "breadth_50d": 60.0,
+    "dd_52w": -4.3,
+    "leaders_1m": [
+     "VKTX +7.6%",
+     "LLY -5.2%",
+     "HIMS -7.8%"
+    ],
+    "laggards_1m": [
+     "NVO -20.6%",
+     "AMGN -8.5%",
+     "HIMS -7.8%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 13,
+    "velocity_rel": 1.17,
+    "tone": 0.08,
+    "stance": {
+     "accounts": 1,
+     "longs": 4,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.79,
+     "stances": "TheLongInvest:long:0.85 StockSavvyShay:long:0.7 TheLongInvest:long:0.9 TheLongInvest:long:0.72"
+    },
+    "hot_members": [
+     "HIMS (6)",
+     "VKTX (4)",
+     "NVO (4)",
+     "LLY (1)"
+    ],
+    "read": "Cooling (0.45x): attention has left GLP-1 while price has quietly improved over 1m"
+   },
+   "narrative": null,
+   "flags": [
+    "price fights macro: leadership that needs the regime to change; size small, trail stops",
+    "quiet improvement: price turning before the crowd"
+   ]
+  },
+  {
+   "id": "ai_software",
+   "name": "AI applications and data",
+   "group": "software",
+   "archetype": "long_duration_growth",
+   "stance": "Accumulate",
+   "score": 0.45,
+   "inputs": {
+    "price_score": 2,
+    "macro_fit": -1.29,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "fading",
+    "trend": "uptrend",
+    "rel_spy_1m": 3.6,
+    "rel_spy_3m": 31.3,
+    "breadth_50d": 75.0,
+    "dd_52w": -2.3,
+    "leaders_1m": [
+     "TEM +19.7%",
+     "DDOG +13.8%",
+     "PLTR +11.5%"
+    ],
+    "laggards_1m": [
+     "PATH -24.4%",
+     "SNOW +3.5%",
+     "MDB +4.6%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 49,
+    "velocity_rel": 0.97,
+    "tone": 0.19,
+    "stance": {
+     "accounts": 3,
+     "longs": 7,
+     "shorts": 1,
+     "net_long": 0.75,
+     "avg_conviction": 0.63,
+     "stances": "StockSavvyShay:long:0.94 TradexWhisperer:long:0.7 TheLongInvest:neutral:0.6 StockSavvyShay:neutral:0.3 StockSavvyShay:long:0.7 JaguarAnalytics:long:0.84 StockSavvyShay:long:0.82 LogicalThesis:long:0.6 TheLongInvest:long:0.92 stocktalkweekly:short:0.4"
+    },
+    "hot_members": [
+     "PLTR (13)",
+     "APP (5)",
+     "SNOW (3)",
+     "ZETA (3)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": [
+    "price fights macro: leadership that needs the regime to change; size small, trail stops"
+   ]
+  },
+  {
+   "id": "ai_health_diagnostics",
+   "name": "AI health and diagnostics",
+   "group": "biotech",
+   "archetype": "long_duration_growth",
+   "stance": "Accumulate",
+   "score": 0.45,
+   "inputs": {
+    "price_score": 2,
+    "macro_fit": -1.29,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "accelerating",
+    "trend": "uptrend",
+    "rel_spy_1m": 8.4,
+    "rel_spy_3m": 16.4,
+    "breadth_50d": 100.0,
+    "dd_52w": 0.0,
+    "leaders_1m": [
+     "NTRA +24.7%",
+     "TEM +19.7%",
+     "VCYT +17.0%"
+    ],
+    "laggards_1m": [
+     "DOCS +2.9%",
+     "ISRG +6.9%",
+     "GH +8.1%"
+    ]
+   },
+   "sentiment": {
+    "labels": [
+     "cooling"
+    ],
+    "posts_recent": 2,
+    "velocity_rel": 0.4,
+    "tone": 0.0,
+    "stance": {
+     "accounts": 3,
+     "longs": 3,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.75,
+     "stances": "JaguarAnalytics:long:0.84 StockSavvyShay:long:0.82 LogicalThesis:long:0.6"
+    },
+    "hot_members": [
+     "ISRG (1)",
+     "TEM (1)"
+    ],
+    "read": null
+   },
+   "narrative": {
+    "id": "ai_health_diagnostics",
+    "price_read": "Accelerating: +17pp vs XBI over 3m; NTRA +25% and TEM +20% in a month",
+    "narrative": "precision diagnostics monetizing AI; TEM is the corpus's own archetype",
+    "counter": "a long-duration rate headwind (fit -1.3)",
+    "direction": "accelerating",
+    "harmony": "price-leads",
+    "macro_fit": "-1.3 headwind",
+    "sources": [
+     "themes.json"
+    ]
+   },
+   "flags": [
+    "price fights macro: leadership that needs the regime to change; size small, trail stops"
+   ]
+  },
+  {
+   "id": "internet_platforms",
+   "name": "Internet platforms",
+   "group": "internet",
+   "archetype": "quality_megacap",
+   "stance": "Neutral",
+   "score": 0.26,
+   "inputs": {
+    "price_score": 0,
+    "macro_fit": 0.18,
+    "sentiment_adj": 1.0
+   },
+   "price": {
+    "direction": "fading",
+    "trend": "above 200d, pulling back",
+    "rel_spy_1m": -8.3,
+    "rel_spy_3m": 5.6,
+    "breadth_50d": 17.0,
+    "dd_52w": -9.7,
+    "leaders_1m": [
+     "META +36.5%",
+     "RDDT +0.0%",
+     "GOOGL -1.3%"
+    ],
+    "laggards_1m": [
+     "BKNG -26.2%",
+     "ABNB -20.4%",
+     "DASH -18.1%"
+    ]
+   },
+   "sentiment": {
+    "labels": [
+     "heating"
+    ],
+    "posts_recent": 93,
+    "velocity_rel": 1.54,
+    "tone": 0.13,
+    "stance": {
+     "accounts": 5,
+     "longs": 9,
+     "shorts": 1,
+     "net_long": 0.8,
+     "avg_conviction": 0.71,
+     "stances": "MarcosMillaYT:long:0.94 StockSavvyShay:long:0.98 StockSavvyShay:long:0.95 JaguarAnalytics:long:0.9 RealJGBanks:long:0.78 FeroceResearch:long:0.72 TheLongInvest:short:0.65 TheLongInvest:long:0.81 stocktalkweekly:long:0.4 TradexWhisperer:neutral:0.56 TheLongInvest:long:0.6"
+    },
+    "hot_members": [
+     "META (65)",
+     "GOOGL (22)",
+     "AMZN (12)",
+     "SHOP (4)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": []
+  },
+  {
+   "id": "semi_memory",
+   "name": "Memory and storage",
+   "group": "semis",
+   "archetype": "materials_industrials",
+   "stance": "Neutral",
+   "score": 0.26,
+   "inputs": {
+    "price_score": 0,
+    "macro_fit": 0.18,
+    "sentiment_adj": 1.0
+   },
+   "price": {
+    "direction": "improving",
+    "trend": "uptrend",
+    "rel_spy_1m": 10.4,
+    "rel_spy_3m": -24.2,
+    "breadth_50d": 75.0,
+    "dd_52w": -21.6,
+    "leaders_1m": [
+     "SNDK +18.4%",
+     "MU +15.8%",
+     "STX +14.0%"
+    ],
+    "laggards_1m": [
+     "WDC -0.1%",
+     "STX +14.0%",
+     "MU +15.8%"
+    ]
+   },
+   "sentiment": {
+    "labels": [
+     "heating"
+    ],
+    "posts_recent": 111,
+    "velocity_rel": 1.54,
+    "tone": 0.24,
+    "stance": {
+     "accounts": 5,
+     "longs": 10,
+     "shorts": 2,
+     "net_long": 0.67,
+     "avg_conviction": 0.76,
+     "stances": "MarcosMillaYT:long:0.98 FeroceResearch:long:0.97 TradexWhisperer:long:0.94 TheLongInvest:short:0.85 StockSavvyShay:long:0.72 StockSavvyShay:long:0.6 StockSavvyShay:long:0.5 MarcosMillaYT:long:0.96 TheLongInvest:short:0.75 FeroceResearch:long:0.72 TradexWhisperer:long:0.7 FeroceResearch:long:0.72"
+    },
+    "hot_members": [
+     "MU (68)",
+     "SNDK (54)",
+     "WDC (0)"
+    ],
+    "read": "The highest-conviction heat: 2.1x velocity, the most bullish tone of the big themes (+0.26), anchored on memory pricing (Q1 2027 DRAM and NAND +30-40%). TheLongInvest is short MU, so it is not unanimous"
+   },
+   "narrative": {
+    "id": "semi_memory",
+    "price_read": "Improving: +2.8pp vs SMH over 1m after -14pp over 3m; SNDK +18% and MU +16% in a month; 100% above 200d",
+    "narrative": "DRAM and NAND contract prices up 30-40% for Q1 2027 (Apple accepting Samsung's pricing); HBM and 512GB DDR5",
+    "counter": "cyclical supply response; Micron's 30 September print is the test",
+    "direction": "improving",
+    "harmony": "agree",
+    "macro_fit": "+0.2",
+    "sources": [
+     "x:2099688747814228058",
+     "x:2099850360487637313"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "id": "gene_editing_rna",
+   "name": "Gene editing and RNA",
+   "group": "biotech",
+   "archetype": "long_duration_growth",
+   "stance": "Neutral",
+   "score": 0.2,
+   "inputs": {
+    "price_score": 1,
+    "macro_fit": -1.29,
+    "sentiment_adj": 1.0
+   },
+   "price": {
+    "direction": "fading",
+    "trend": "uptrend",
+    "rel_spy_1m": -8.0,
+    "rel_spy_3m": 10.4,
+    "breadth_50d": 50.0,
+    "dd_52w": -7.6,
+    "leaders_1m": [
+     "MRNA +22.7%",
+     "CRSP -2.4%",
+     "NTLA -3.2%"
+    ],
+    "laggards_1m": [
+     "IONS -29.4%",
+     "ARWR -23.8%",
+     "BEAM -13.0%"
+    ]
+   },
+   "sentiment": {
+    "labels": [
+     "heating"
+    ],
+    "posts_recent": 6,
+    "velocity_rel": 16.68,
+    "tone": 0.0,
+    "stance": null,
+    "hot_members": [],
+    "read": null
+   },
+   "narrative": null,
+   "flags": [
+    "price fights macro: leadership that needs the regime to change; size small, trail stops"
+   ]
+  },
+  {
+   "id": "semis",
+   "name": "Semiconductors",
+   "group": "semis",
+   "archetype": "quality_megacap",
+   "stance": "Neutral",
+   "score": 0.06,
+   "inputs": {
+    "price_score": 0,
+    "macro_fit": 0.18,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "improving",
+    "trend": "uptrend",
+    "rel_spy_1m": 11.3,
+    "rel_spy_3m": -11.3,
+    "breadth_50d": 71.0,
+    "dd_52w": -12.6,
+    "leaders_1m": [
+     "INTC +45.6%",
+     "AMD +31.3%",
+     "ARM +26.8%"
+    ],
+    "laggards_1m": [
+     "AVGO -1.6%",
+     "ASML -1.0%",
+     "ON +1.7%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 162,
+    "velocity_rel": 1.27,
+    "tone": 0.18,
+    "stance": {
+     "accounts": 5,
+     "longs": 27,
+     "shorts": 1,
+     "net_long": 0.93,
+     "avg_conviction": 0.74,
+     "stances": "StockSavvyShay:long:0.94 MarcosMillaYT:long:0.92 FeroceResearch:long:0.9 TheLongInvest:neutral:0.82 TheLongInvest:long:0.7 StockSavvyShay:long:0.65 StockSavvyShay:long:0.55 stocktalkweekly:neutral:0.35 MarcosMillaYT:long:0.86 FeroceResearch:long:0.72 StockSavvyShay:long:0.55 MarcosMillaYT:long:0.87 TheLongInvest:long:0.72 StockSavvyShay:long:0.45 TradexWhisperer:long:0.94 MarcosMillaYT:long:0.82 S"
+    },
+    "hot_members": [
+     "AMD (70)",
+     "MU (68)",
+     "NVDA (62)",
+     "INTC (24)"
+    ],
+    "read": "The loudest theme: 152 posts in 7 days from 8 accounts, 22 long / 1 short formal stances at 0.77 conviction. Heating, broadly bullish, driven by NVDA news flow rather than new theses"
+   },
+   "narrative": {
+    "id": "semis",
+    "price_read": "Improving: +7pp vs QQQ over 1m after -10pp over 3m; INTC +46%, AMD +31% and ARM +27% lead, AVGO and ASML flat",
+    "narrative": "AI compute demand intact (NVDA +106% revenue growth); a memory price surge",
+    "counter": "Morgan Stanley's rotation out of semis and AI hardware; the rates regime",
+    "direction": "improving",
+    "harmony": "agree",
+    "macro_fit": "+0.2",
+    "sources": [
+     "news.json growth_labour"
+    ]
+   },
+   "flags": [
+    "quiet improvement: price turning before the crowd"
+   ]
+  },
+  {
+   "id": "gold_miners",
+   "name": "Gold and metals",
+   "group": "commodities",
+   "archetype": "gold_hard_assets",
+   "stance": "Neutral",
+   "score": -0.04,
+   "inputs": {
+    "price_score": 0,
+    "macro_fit": -0.12,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "lagging, worsening",
+    "trend": "downtrend",
+    "rel_spy_1m": -13.9,
+    "rel_spy_3m": -2.7,
+    "breadth_50d": 67.0,
+    "dd_52w": -20.9,
+    "leaders_1m": [
+     "GOLD -2.6%",
+     "FCX -7.4%",
+     "NEM -7.8%"
+    ],
+    "laggards_1m": [
+     "MP -18.1%",
+     "UAMY -12.1%",
+     "AEM -10.8%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 21,
+    "velocity_rel": 1.06,
+    "tone": 0.29,
+    "stance": null,
+    "hot_members": [],
+    "read": "Heating (2.3x), led by TheLongInvest's silver thesis, while the basket is -14% in a month: crowd against tape"
+   },
+   "narrative": null,
+   "flags": []
+  },
+  {
+   "id": "fintech",
+   "name": "Fintech and brokers",
+   "group": "financials",
+   "archetype": "long_duration_growth",
+   "stance": "Neutral",
+   "score": -0.25,
+   "inputs": {
+    "price_score": 0,
+    "macro_fit": -1.29,
+    "sentiment_adj": 1.0
+   },
+   "price": {
+    "direction": "fading",
+    "trend": "uptrend",
+    "rel_spy_1m": -6.1,
+    "rel_spy_3m": 5.9,
+    "breadth_50d": 25.0,
+    "dd_52w": -22.9,
+    "leaders_1m": [
+     "HOOD +7.8%",
+     "COIN +6.4%",
+     "XYZ -5.7%"
+    ],
+    "laggards_1m": [
+     "UPST -17.6%",
+     "PYPL -15.3%",
+     "SOFI -11.6%"
+    ]
+   },
+   "sentiment": {
+    "labels": [
+     "heating"
+    ],
+    "posts_recent": 22,
+    "velocity_rel": 1.61,
+    "tone": 0.11,
+    "stance": {
+     "accounts": 2,
+     "longs": 4,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.54,
+     "stances": "StockSavvyShay:long:0.4 TheLongInvest:long:0.7 StockSavvyShay:long:0.45 TheLongInvest:long:0.65"
+    },
+    "hot_members": [
+     "SOFI (12)",
+     "HOOD (5)",
+     "COIN (3)",
+     "PYPL (2)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": []
+  },
+  {
+   "id": "semi_equipment",
+   "name": "Semicap equipment",
+   "group": "semis",
+   "archetype": "materials_industrials",
+   "stance": "Neutral",
+   "score": -0.39,
+   "inputs": {
+    "price_score": -1,
+    "macro_fit": 0.18,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "lagging, worsening",
+    "trend": "uptrend",
+    "rel_spy_1m": 0.2,
+    "rel_spy_3m": -23.8,
+    "breadth_50d": 50.0,
+    "dd_52w": -25.4,
+    "leaders_1m": [
+     "TER +6.3%",
+     "UCTT +5.1%",
+     "KLAC +3.1%"
+    ],
+    "laggards_1m": [
+     "LRCX -2.3%",
+     "AMAT -1.2%",
+     "ONTO -1.1%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 10,
+    "velocity_rel": 1.11,
+    "tone": 0.1,
+    "stance": {
+     "accounts": 1,
+     "longs": 2,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.7,
+     "stances": "TradexWhisperer:long:0.71 StockSavvyShay:long:0.7"
+    },
+    "hot_members": [
+     "ASML (6)",
+     "AMAT (4)",
+     "LRCX (4)",
+     "AEHR (1)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": []
+  },
+  {
+   "id": "biotech_smid",
+   "name": "SMID biotech",
+   "group": "biotech",
+   "archetype": "long_duration_growth",
+   "stance": "Underweight",
+   "score": -0.45,
+   "inputs": {
+    "price_score": 0,
+    "macro_fit": -1.29,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "fading",
+    "trend": "uptrend",
+    "rel_spy_1m": -1.9,
+    "rel_spy_3m": 3.3,
+    "breadth_50d": 56.0,
+    "dd_52w": -6.7,
+    "leaders_1m": [
+     "NTRA +24.7%",
+     "EXEL +6.2%",
+     "SRPT +1.4%"
+    ],
+    "laggards_1m": [
+     "IONS -29.4%",
+     "BMRN -5.7%",
+     "RVMD -5.5%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 7,
+    "velocity_rel": 0.81,
+    "tone": 0.43,
+    "stance": {
+     "accounts": 1,
+     "longs": 1,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.35,
+     "stances": "LogicalThesis:long:0.35"
+    },
+    "hot_members": [],
+    "read": null
+   },
+   "narrative": null,
+   "flags": []
+  },
+  {
+   "id": "defense",
+   "name": "Defense and drones",
+   "group": "industrial",
+   "archetype": "cash_flow_value",
+   "stance": "Underweight",
+   "score": -0.75,
+   "inputs": {
+    "price_score": -2,
+    "macro_fit": 0.44,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "fading",
+    "trend": "downtrend",
+    "rel_spy_1m": -3.5,
+    "rel_spy_3m": 1.6,
+    "breadth_50d": 22.0,
+    "dd_52w": -31.7,
+    "leaders_1m": [
+     "PLTR +11.5%",
+     "AVAV +7.0%",
+     "BYRN +0.0%"
+    ],
+    "laggards_1m": [
+     "GD -12.4%",
+     "KTOS -10.7%",
+     "RTX -9.9%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 17,
+    "velocity_rel": 0.83,
+    "tone": -0.01,
+    "stance": {
+     "accounts": 3,
+     "longs": 2,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.75,
+     "stances": "StockSavvyShay:long:0.94 TradexWhisperer:long:0.7 TheLongInvest:neutral:0.6"
+    },
+    "hot_members": [
+     "PLTR (13)",
+     "AVAV (1)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": []
+  },
+  {
+   "id": "ai_power",
+   "name": "AI power and grid",
+   "group": "ai-infra",
+   "archetype": "cash_flow_value",
+   "stance": "Underweight",
+   "score": -0.75,
+   "inputs": {
+    "price_score": -2,
+    "macro_fit": 0.44,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "improving",
+    "trend": "above 200d, pulling back",
+    "rel_spy_1m": 1.6,
+    "rel_spy_3m": -16.7,
+    "breadth_50d": 33.0,
+    "dd_52w": -14.6,
+    "leaders_1m": [
+     "BE +22.6%",
+     "ETN +7.7%",
+     "PWR +4.3%"
+    ],
+    "laggards_1m": [
+     "NRG -12.5%",
+     "CEG -4.3%",
+     "VRT -3.8%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 17,
+    "velocity_rel": 1.21,
+    "tone": 0.12,
+    "stance": {
+     "accounts": 1,
+     "longs": 5,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.68,
+     "stances": "StockSavvyShay:long:0.69 StockSavvyShay:long:0.7 StockSavvyShay:long:0.7 StockSavvyShay:long:0.6 StockSavvyShay:long:0.69"
+    },
+    "hot_members": [
+     "VRT (7)",
+     "BE (4)",
+     "GEV (4)",
+     "ETN (2)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": [
+    "quiet improvement: price turning before the crowd"
+   ]
+  },
+  {
+   "id": "banks",
+   "name": "Banks",
+   "group": "financials",
+   "archetype": "banks",
+   "stance": "Underweight",
+   "score": -0.87,
+   "inputs": {
+    "price_score": -2,
+    "macro_fit": 0.09,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "lagging, worsening",
+    "trend": "above 200d, pulling back",
+    "rel_spy_1m": -7.5,
+    "rel_spy_3m": -11.1,
+    "breadth_50d": 0.0,
+    "dd_52w": -10.3,
+    "leaders_1m": [
+     "C +0.3%",
+     "WFC -3.0%",
+     "JPM -5.1%"
+    ],
+    "laggards_1m": [
+     "GS -10.5%",
+     "BAC -9.8%",
+     "PNC -8.3%"
+    ]
+   },
+   "sentiment": {
+    "labels": [
+     "heating"
+    ],
+    "posts_recent": 10,
+    "velocity_rel": 3.09,
+    "tone": -0.1,
+    "stance": null,
+    "hot_members": [
+     "JPM (2)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": [
+    "crowd against tape: the allowlist is louder than the price action"
+   ]
+  },
+  {
+   "id": "space",
+   "name": "Space",
+   "group": "frontier",
+   "archetype": "long_duration_growth",
+   "stance": "Underweight",
+   "score": -0.9,
+   "inputs": {
+    "price_score": -1,
+    "macro_fit": -1.29,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "lagging, worsening",
+    "trend": "below 200d, basing",
+    "rel_spy_1m": -2.3,
+    "rel_spy_3m": -10.1,
+    "breadth_50d": 71.0,
+    "dd_52w": -45.7,
+    "leaders_1m": [
+     "RKLB +10.0%",
+     "IRDM +3.7%",
+     "RDW +1.0%"
+    ],
+    "laggards_1m": [
+     "PL -18.2%",
+     "LUNR -5.4%",
+     "ASTS -1.5%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 52,
+    "velocity_rel": 1.16,
+    "tone": 0.09,
+    "stance": {
+     "accounts": 3,
+     "longs": 8,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.83,
+     "stances": "StockSavvyShay:long:0.9 JaguarAnalytics:long:0.83 StockSavvyShay:long:0.65 TradexWhisperer:long:0.65 TheLongInvest:long:0.97 TheLongInvest:long:0.97 StockSavvyShay:long:0.85 StockSavvyShay:long:0.85"
+    },
+    "hot_members": [
+     "RKLB (21)",
+     "ASTS (8)",
+     "PL (2)"
+    ],
+    "read": "Relative velocity 0.77 despite the highest formal conviction (0.85): holders are staying quiet in a drawdown"
+   },
+   "narrative": {
+    "id": "space",
+    "price_read": "Lagging: -10pp vs SPY over 3m, -46% from the high",
+    "narrative": "orbital compute (SPCX), RKLB financing the Iridium deal with a $1.9bn ATM",
+    "counter": "dilution and long duration",
+    "direction": "fading",
+    "harmony": "diverge",
+    "macro_fit": "-1.3",
+    "sources": [
+     "x:2099264986652827813",
+     "x:2099830009875837327"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "id": "quantum",
+   "name": "Quantum computing",
+   "group": "frontier",
+   "archetype": "long_duration_growth",
+   "stance": "Underweight",
+   "score": -0.9,
+   "inputs": {
+    "price_score": -1,
+    "macro_fit": -1.29,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "lagging",
+    "trend": "below 200d, basing",
+    "rel_spy_1m": 0.3,
+    "rel_spy_3m": -14.6,
+    "breadth_50d": 75.0,
+    "dd_52w": -56.8,
+    "leaders_1m": [
+     "QUBT +8.3%",
+     "IONQ +7.0%",
+     "RGTI -2.6%"
+    ],
+    "laggards_1m": [
+     "QBTS -9.7%",
+     "RGTI -2.6%",
+     "IONQ +7.0%"
+    ]
+   },
+   "sentiment": {
+    "labels": [
+     "heating"
+    ],
+    "posts_recent": 8,
+    "velocity_rel": 1.59,
+    "tone": 0.25,
+    "stance": null,
+    "hot_members": [
+     "IONQ (7)",
+     "RGTI (1)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": [
+    "crowd against tape: the allowlist is louder than the price action"
+   ]
+  },
+  {
+   "id": "ai_networking",
+   "name": "AI networking and optics",
+   "group": "ai-infra",
+   "archetype": "long_duration_growth",
+   "stance": "Underweight",
+   "score": -0.9,
+   "inputs": {
+    "price_score": -1,
+    "macro_fit": -1.29,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "lagging, worsening",
+    "trend": "uptrend",
+    "rel_spy_1m": 1.7,
+    "rel_spy_3m": -18.6,
+    "breadth_50d": 50.0,
+    "dd_52w": -18.3,
+    "leaders_1m": [
+     "ALAB +27.5%",
+     "ANET +9.3%",
+     "LITE +4.9%"
+    ],
+    "laggards_1m": [
+     "CRDO -13.5%",
+     "AAOI -10.7%",
+     "CIEN -3.6%"
+    ]
+   },
+   "sentiment": {
+    "labels": [
+     "heating"
+    ],
+    "posts_recent": 43,
+    "velocity_rel": 1.53,
+    "tone": 0.14,
+    "stance": {
+     "accounts": 3,
+     "longs": 4,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.93,
+     "stances": "StockSavvyShay:long:0.95 MarcosMillaYT:long:0.93 FeroceResearch:long:0.9 FeroceResearch:long:0.93"
+    },
+    "hot_members": [
+     "CRDO (25)",
+     "LITE (14)",
+     "ALAB (9)",
+     "COHR (4)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": [
+    "crowd against tape: the allowlist is louder than the price action"
+   ]
+  },
+  {
+   "id": "consumer_discretionary",
+   "name": "Consumer discretionary",
+   "group": "cyclical",
+   "archetype": "small_caps",
+   "stance": "Avoid",
+   "score": -1.04,
+   "inputs": {
+    "price_score": -2,
+    "macro_fit": -0.12,
+    "sentiment_adj": -0.5
+   },
+   "price": {
+    "direction": "lagging",
+    "trend": "downtrend",
+    "rel_spy_1m": -5.8,
+    "rel_spy_3m": -15.4,
+    "breadth_50d": 10.0,
+    "dd_52w": -17.9,
+    "leaders_1m": [
+     "ANF +19.5%",
+     "ONON +5.7%",
+     "CROX -1.9%"
+    ],
+    "laggards_1m": [
+     "CAVA -25.6%",
+     "DKS -25.0%",
+     "RCL -17.8%"
+    ]
+   },
+   "sentiment": {
+    "labels": [
+     "cooling",
+     "contested"
+    ],
+    "posts_recent": 3,
+    "velocity_rel": 0.23,
+    "tone": 0.22,
+    "stance": {
+     "accounts": 2,
+     "longs": 3,
+     "shorts": 1,
+     "net_long": 0.5,
+     "avg_conviction": 0.64,
+     "stances": "TheLongInvest:long:0.68 TheLongInvest:long:0.68 TradexWhisperer:short:0.67 TheLongInvest:neutral:0.57 TheLongInvest:long:0.55"
+    },
+    "hot_members": [
+     "NKE (0)",
+     "LULU (0)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": []
+  },
+  {
+   "id": "homebuilders",
+   "name": "Homebuilders and housing",
+   "group": "rate-sensitive",
+   "archetype": "homebuilders_reits",
+   "stance": "Avoid",
+   "score": -1.16,
+   "inputs": {
+    "price_score": -2,
+    "macro_fit": -0.73,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "lagging, worsening",
+    "trend": "downtrend",
+    "rel_spy_1m": -14.7,
+    "rel_spy_3m": -26.1,
+    "breadth_50d": 0.0,
+    "dd_52w": -32.1,
+    "leaders_1m": [
+     "NVR -2.5%",
+     "DHI -5.8%",
+     "LEN -7.6%"
+    ],
+    "laggards_1m": [
+     "DFH -24.9%",
+     "BLDR -17.0%",
+     "KBH -16.6%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 2,
+    "velocity_rel": 1.39,
+    "tone": 0.5,
+    "stance": null,
+    "hot_members": [],
+    "read": null
+   },
+   "narrative": {
+    "id": "homebuilders",
+    "price_read": "Worst basket: -26pp vs SPY over 3m, 0% above 50d or 200d, -32% from the high",
+    "narrative": "the 7% mortgage re-freeze; NAHB 32; Lennar cut deliveries",
+    "counter": "GSE MBS buying could narrow the spread by 10-12bp",
+    "direction": "fading",
+    "harmony": "agree",
+    "macro_fit": "-0.7",
+    "sources": [
+     "news.json housing_mbs"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "id": "consumer_defensive",
+   "name": "Consumer defensive",
+   "group": "defensive",
+   "archetype": "defensives",
+   "stance": "Avoid",
+   "score": -1.25,
+   "inputs": {
+    "price_score": -2,
+    "macro_fit": -1.0,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "lagging, worsening",
+    "trend": "downtrend",
+    "rel_spy_1m": -5.9,
+    "rel_spy_3m": -8.7,
+    "breadth_50d": 17.0,
+    "dd_52w": -14.2,
+    "leaders_1m": [
+     "WMT +2.1%",
+     "PG -0.6%",
+     "KO -3.7%"
+    ],
+    "laggards_1m": [
+     "MCD -11.0%",
+     "PEP -10.5%",
+     "COST -7.7%"
+    ]
+   },
+   "sentiment": {
+    "labels": [
+     "heating"
+    ],
+    "posts_recent": 6,
+    "velocity_rel": 3.34,
+    "tone": 0.0,
+    "stance": null,
+    "hot_members": [
+     "MCD (5)"
+    ],
+    "read": null
+   },
+   "narrative": null,
+   "flags": [
+    "crowd against tape: the allowlist is louder than the price action"
+   ]
+  },
+  {
+   "id": "psychedelics_cns",
+   "name": "Psychedelics and CNS",
+   "group": "biotech",
+   "archetype": "long_duration_growth",
+   "stance": "Avoid",
+   "score": -1.35,
+   "inputs": {
+    "price_score": -2,
+    "macro_fit": -1.29,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "lagging, worsening",
+    "trend": "above 200d, pulling back",
+    "rel_spy_1m": -8.6,
+    "rel_spy_3m": -6.4,
+    "breadth_50d": 0.0,
+    "dd_52w": -18.0,
+    "leaders_1m": [
+     "ATAI +1.7%",
+     "CMPS -7.8%"
+    ],
+    "laggards_1m": [
+     "CMPS -7.8%",
+     "ATAI +1.7%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 0,
+    "velocity_rel": 0.0,
+    "tone": 0.0,
+    "stance": {
+     "accounts": 2,
+     "longs": 2,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.48,
+     "stances": "JaguarAnalytics:long:0.56 LogicalThesis:long:0.4"
+    },
+    "hot_members": [],
+    "read": null
+   },
+   "narrative": null,
+   "flags": []
+  },
+  {
+   "id": "neocloud_datacenter",
+   "name": "Neoclouds and data centers",
+   "group": "ai-infra",
+   "archetype": "long_duration_growth",
+   "stance": "Avoid",
+   "score": -1.35,
+   "inputs": {
+    "price_score": -2,
+    "macro_fit": -1.29,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "lagging",
+    "trend": "uptrend",
+    "rel_spy_1m": 1.6,
+    "rel_spy_3m": -17.2,
+    "breadth_50d": 33.0,
+    "dd_52w": -22.4,
+    "leaders_1m": [
+     "CIFR +11.0%",
+     "NBIS +9.7%",
+     "IREN +9.3%"
+    ],
+    "laggards_1m": [
+     "APLD -6.2%",
+     "ORCL -3.6%",
+     "DLR -3.3%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 42,
+    "velocity_rel": 0.7,
+    "tone": 0.25,
+    "stance": {
+     "accounts": 4,
+     "longs": 11,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.69,
+     "stances": "MarcosMillaYT:long:0.76 StockSavvyShay:neutral:0.59 StockSavvyShay:long:0.96 stocktalkweekly:long:0.85 TheLongInvest:long:0.84 TheLongInvest:long:0.8 StockSavvyShay:long:0.75 TradexWhisperer:long:0.73 StockSavvyShay:long:0.55 MarcosMillaYT:long:0.72 StockSavvyShay:neutral:0.64 StockSavvyShay:long:0.6 StockSavvyShay:long:0.5"
+    },
+    "hot_members": [
+     "NBIS (23)",
+     "CRWV (17)",
+     "IREN (16)",
+     "ORCL (8)"
+    ],
+    "read": "Still well covered (70 posts, 9 long / 0 short) while price lags by 16pp: the allowlist is holding a story the tape is fading"
+   },
+   "narrative": {
+    "id": "neocloud_datacenter",
+    "price_read": "Lagging: -16pp vs QQQ over 3m, breadth 33%, 22% off the high",
+    "narrative": "the corpus is still heavily long NBIS, IREN and CRWV; Anthropic compute deals of about $518bn",
+    "counter": "financing costs at 5% yields; Oracle at BBB-",
+    "direction": "fading",
+    "harmony": "story-leads",
+    "macro_fit": "-1.3 headwind",
+    "sources": [
+     "x:2099129098643910985"
+    ]
+   },
+   "flags": []
+  },
+  {
+   "id": "nuclear",
+   "name": "Nuclear and uranium",
+   "group": "energy-transition",
+   "archetype": "long_duration_growth",
+   "stance": "Avoid",
+   "score": -1.35,
+   "inputs": {
+    "price_score": -2,
+    "macro_fit": -1.29,
+    "sentiment_adj": 0.0
+   },
+   "price": {
+    "direction": "lagging, worsening",
+    "trend": "downtrend",
+    "rel_spy_1m": -16.8,
+    "rel_spy_3m": -22.2,
+    "breadth_50d": 0.0,
+    "dd_52w": -53.7,
+    "leaders_1m": [
+     "CEG -4.3%",
+     "BWXT -7.2%",
+     "OKLO -13.5%"
+    ],
+    "laggards_1m": [
+     "UUUU -29.1%",
+     "LEU -16.8%",
+     "CCJ -13.8%"
+    ]
+   },
+   "sentiment": {
+    "labels": [],
+    "posts_recent": 7,
+    "velocity_rel": 1.02,
+    "tone": 0.43,
+    "stance": {
+     "accounts": 1,
+     "longs": 1,
+     "shorts": 0,
+     "net_long": 1.0,
+     "avg_conviction": 0.77,
+     "stances": "davevermilion:long:0.77"
+    },
+    "hot_members": [
+     "OKLO (2)",
+     "CEG (1)"
+    ],
+    "read": null
+   },
+   "narrative": {
+    "id": "nuclear",
+    "price_read": "Lagging and worsening: -22pp vs SPY over 3m, 0% above 50d, -54% from the high",
+    "narrative": "SMR hype unwinding",
+    "counter": "hyperscaler PPAs",
+    "direction": "fading",
+    "harmony": "diverge",
+    "macro_fit": "-1.3",
+    "sources": [
+     "themes.json"
+    ]
+   },
+   "flags": []
+  }
+ ],
+ "watchlist": [
+  {
+   "theme": "Large biotech and pharma",
+   "flag": "price fights macro: leadership that needs the regime to change; size small, trail stops"
+  },
+  {
+   "theme": "GLP-1 and obesity",
+   "flag": "price fights macro: leadership that needs the regime to change; size small, trail stops"
+  },
+  {
+   "theme": "GLP-1 and obesity",
+   "flag": "quiet improvement: price turning before the crowd"
+  },
+  {
+   "theme": "AI applications and data",
+   "flag": "price fights macro: leadership that needs the regime to change; size small, trail stops"
+  },
+  {
+   "theme": "AI health and diagnostics",
+   "flag": "price fights macro: leadership that needs the regime to change; size small, trail stops"
+  },
+  {
+   "theme": "Gene editing and RNA",
+   "flag": "price fights macro: leadership that needs the regime to change; size small, trail stops"
+  },
+  {
+   "theme": "Semiconductors",
+   "flag": "quiet improvement: price turning before the crowd"
+  },
+  {
+   "theme": "AI power and grid",
+   "flag": "quiet improvement: price turning before the crowd"
+  },
+  {
+   "theme": "Banks",
+   "flag": "crowd against tape: the allowlist is louder than the price action"
+  },
+  {
+   "theme": "Quantum computing",
+   "flag": "crowd against tape: the allowlist is louder than the price action"
+  },
+  {
+   "theme": "AI networking and optics",
+   "flag": "crowd against tape: the allowlist is louder than the price action"
+  },
+  {
+   "theme": "Consumer defensive",
+   "flag": "crowd against tape: the allowlist is louder than the price action"
+  }
+ ],
+ "hot_symbols": [
+  {
+   "symbol": "AMD",
+   "posts_recent": 70,
+   "velocity_rel": 4.14,
+   "tone": 0.22,
+   "labels": [
+    "heating"
+   ],
+   "stance": {
+    "accounts": 3,
+    "longs": 3,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.68,
+    "stances": "MarcosMillaYT:long:0.87 TheLongInvest:long:0.72 StockSavvyShay:long:0.45"
+   }
+  },
+  {
+   "symbol": "MU",
+   "posts_recent": 68,
+   "velocity_rel": 1.36,
+   "tone": 0.23,
+   "labels": [],
+   "stance": {
+    "accounts": 5,
+    "longs": 6,
+    "shorts": 1,
+    "net_long": 0.71,
+    "avg_conviction": 0.79,
+    "stances": "MarcosMillaYT:long:0.98 FeroceResearch:long:0.97 TradexWhisperer:long:0.94 TheLongInvest:short:0.85 StockSavvyShay:long:0.72 StockSavvyShay:long:0.6 StockSavvyShay:long:0.5"
+   }
+  },
+  {
+   "symbol": "META",
+   "posts_recent": 65,
+   "velocity_rel": 2.51,
+   "tone": 0.15,
+   "labels": [
+    "heating"
+   ],
+   "stance": {
+    "accounts": 5,
+    "longs": 5,
+    "shorts": 1,
+    "net_long": 0.67,
+    "avg_conviction": 0.83,
+    "stances": "StockSavvyShay:long:0.98 StockSavvyShay:long:0.95 JaguarAnalytics:long:0.9 RealJGBanks:long:0.78 FeroceResearch:long:0.72 TheLongInvest:short:0.65"
+   }
+  },
+  {
+   "symbol": "NVDA",
+   "posts_recent": 62,
+   "velocity_rel": 0.97,
+   "tone": 0.27,
+   "labels": [],
+   "stance": {
+    "accounts": 5,
+    "longs": 6,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.73,
+    "stances": "StockSavvyShay:long:0.94 MarcosMillaYT:long:0.92 FeroceResearch:long:0.9 TheLongInvest:neutral:0.82 TheLongInvest:long:0.7 StockSavvyShay:long:0.65 StockSavvyShay:long:0.55 stocktalkweekly:neutral:0.35"
+   }
+  },
+  {
+   "symbol": "SNDK",
+   "posts_recent": 54,
+   "velocity_rel": 3.06,
+   "tone": 0.26,
+   "labels": [
+    "heating",
+    "contested"
+   ],
+   "stance": {
+    "accounts": 4,
+    "longs": 3,
+    "shorts": 1,
+    "net_long": 0.5,
+    "avg_conviction": 0.78,
+    "stances": "MarcosMillaYT:long:0.96 TheLongInvest:short:0.75 FeroceResearch:long:0.72 TradexWhisperer:long:0.7"
+   }
+  },
+  {
+   "symbol": "SKHY",
+   "posts_recent": 35,
+   "velocity_rel": 1.28,
+   "tone": 0.22,
+   "labels": [],
+   "stance": {
+    "accounts": 4,
+    "longs": 4,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.74,
+    "stances": "TradexWhisperer:long:0.86 MarcosMillaYT:long:0.83 FeroceResearch:long:0.8 StockSavvyShay:long:0.45"
+   }
+  },
+  {
+   "symbol": "CRDO",
+   "posts_recent": 25,
+   "velocity_rel": 1.62,
+   "tone": 0.24,
+   "labels": [
+    "heating"
+   ],
+   "stance": {
+    "accounts": 3,
+    "longs": 3,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.93,
+    "stances": "StockSavvyShay:long:0.95 MarcosMillaYT:long:0.93 FeroceResearch:long:0.9"
+   }
+  },
+  {
+   "symbol": "INTC",
+   "posts_recent": 24,
+   "velocity_rel": 3.18,
+   "tone": 0.42,
+   "labels": [
+    "heating"
+   ],
+   "stance": {
+    "accounts": 1,
+    "longs": 1,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.73,
+    "stances": "RealJGBanks:long:0.73"
+   }
+  },
+  {
+   "symbol": "DRAM",
+   "posts_recent": 24,
+   "velocity_rel": 1.24,
+   "tone": 0.0,
+   "labels": [],
+   "stance": null
+  },
+  {
+   "symbol": "NBIS",
+   "posts_recent": 23,
+   "velocity_rel": 0.93,
+   "tone": 0.33,
+   "labels": [],
+   "stance": {
+    "accounts": 4,
+    "longs": 7,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.78,
+    "stances": "StockSavvyShay:long:0.96 stocktalkweekly:long:0.85 TheLongInvest:long:0.84 TheLongInvest:long:0.8 StockSavvyShay:long:0.75 TradexWhisperer:long:0.73 StockSavvyShay:long:0.55"
+   }
+  },
+  {
+   "symbol": "GOOGL",
+   "posts_recent": 22,
+   "velocity_rel": 0.94,
+   "tone": 0.18,
+   "labels": [],
+   "stance": {
+    "accounts": 1,
+    "longs": 1,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.94,
+    "stances": "MarcosMillaYT:long:0.94"
+   }
+  },
+  {
+   "symbol": "ETH",
+   "posts_recent": 22,
+   "velocity_rel": 1.7,
+   "tone": 0.24,
+   "labels": [
+    "heating"
+   ],
+   "stance": {
+    "accounts": 1,
+    "longs": 1,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.9,
+    "stances": "TheLongInvest:long:0.9"
+   }
+  },
+  {
+   "symbol": "SPCX",
+   "posts_recent": 21,
+   "velocity_rel": 1.33,
+   "tone": 0.18,
+   "labels": [
+    "contested"
+   ],
+   "stance": {
+    "accounts": 2,
+    "longs": 1,
+    "shorts": 1,
+    "net_long": 0.0,
+    "avg_conviction": 0.6,
+    "stances": "TheLongInvest:short:0.8 StockSavvyShay:long:0.4"
+   }
+  },
+  {
+   "symbol": "TSM",
+   "posts_recent": 21,
+   "velocity_rel": 1.33,
+   "tone": 0.37,
+   "labels": [],
+   "stance": {
+    "accounts": 3,
+    "longs": 3,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.82,
+    "stances": "TradexWhisperer:long:0.94 MarcosMillaYT:long:0.82 StockSavvyShay:long:0.7"
+   }
+  },
+  {
+   "symbol": "RKLB",
+   "posts_recent": 21,
+   "velocity_rel": 2.65,
+   "tone": -0.05,
+   "labels": [
+    "heating"
+   ],
+   "stance": {
+    "accounts": 3,
+    "longs": 4,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.76,
+    "stances": "StockSavvyShay:long:0.9 JaguarAnalytics:long:0.83 StockSavvyShay:long:0.65 TradexWhisperer:long:0.65"
+   }
+  },
+  {
+   "symbol": "MRVL",
+   "posts_recent": 20,
+   "velocity_rel": 2.78,
+   "tone": 0.25,
+   "labels": [
+    "heating"
+   ],
+   "stance": {
+    "accounts": 1,
+    "longs": 1,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.8,
+    "stances": "FeroceResearch:long:0.8"
+   }
+  },
+  {
+   "symbol": "ANTHROPIC",
+   "posts_recent": 19,
+   "velocity_rel": 0.83,
+   "tone": -0.01,
+   "labels": [],
+   "stance": null
+  },
+  {
+   "symbol": "CRWV",
+   "posts_recent": 17,
+   "velocity_rel": 1.43,
+   "tone": 0.24,
+   "labels": [],
+   "stance": {
+    "accounts": 2,
+    "longs": 1,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.68,
+    "stances": "MarcosMillaYT:long:0.76 StockSavvyShay:neutral:0.59"
+   }
+  },
+  {
+   "symbol": "TSLA",
+   "posts_recent": 16,
+   "velocity_rel": 1.17,
+   "tone": 0.44,
+   "labels": [],
+   "stance": {
+    "accounts": 2,
+    "longs": 2,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.6,
+    "stances": "TheLongInvest:long:0.7 StockSavvyShay:long:0.5"
+   }
+  },
+  {
+   "symbol": "IREN",
+   "posts_recent": 16,
+   "velocity_rel": 0.89,
+   "tone": 0.31,
+   "labels": [],
+   "stance": {
+    "accounts": 1,
+    "longs": 2,
+    "shorts": 0,
+    "net_long": 1.0,
+    "avg_conviction": 0.58,
+    "stances": "StockSavvyShay:neutral:0.64 StockSavvyShay:long:0.6 StockSavvyShay:long:0.5"
+   }
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-09-30",
+   "event": "August PCE; Micron FQ4 earnings",
+   "why_it_matters": "core PCE path for the October hike; the memory cycle and AI-demand read for semis"
+  },
+  {
+   "date": "2026-10-02",
+   "event": "September payrolls",
+   "why_it_matters": "a second hot print cements an October hike; a miss starts the growth-scare branch"
+  },
+  {
+   "date": "2026-10-04",
+   "event": "OPEC+ meeting",
+   "why_it_matters": "supply response to $100 Brent"
+  },
+  {
+   "date": "2026-10-07",
+   "event": "10-year auction (30-year on 10-08)",
+   "why_it_matters": "demand at 5%+ yields; a tail is the long-end tantrum signal"
+  },
+  {
+   "date": "2026-10-13",
+   "event": "Bank earnings begin (JPM)",
+   "why_it_matters": "AFS losses, deposit costs, credit provisions after the long-end rout"
+  },
+  {
+   "date": "2026-10-14",
+   "event": "September CPI",
+   "why_it_matters": "the energy pass-through; core above 0.3% m/m means more hikes"
+  },
+  {
+   "date": "2026-10-28",
+   "event": "FOMC decision",
+   "why_it_matters": "about 54% priced for a hike; no SEP"
+  },
+  {
+   "date": "2026-10-30",
+   "event": "BoJ decision",
+   "why_it_matters": "yen carry unwind risk"
+  },
+  {
+   "date": "2026-11-03",
+   "event": "US midterms",
+   "why_it_matters": "about 87% odds of a Democratic House: fiscal path and tariffs"
+  },
+  {
+   "date": "2026-11-04",
+   "event": "Treasury quarterly refunding",
+   "why_it_matters": "the 2023 term-premium spike ended on a refunding statement; coupon sizes decide the long end"
+  },
+  {
+   "date": "2026-11-25",
+   "event": "NVIDIA Q3 FY27 (date from a search snippet)",
+   "why_it_matters": "the AI-capex earnings engine carrying the index"
+  },
+  {
+   "date": "2026-12-09",
+   "event": "FOMC with SEP",
+   "why_it_matters": "whether the hiking path extends into 2027"
+  },
+  {
+   "date": "2026-12-11",
+   "event": "Government funding deadline",
+   "why_it_matters": "shutdown risk after the midterms"
+  }
+ ],
+ "risks": [
+  {
+   "risk": "Long-end tantrum extends (30y above 5.75%)",
+   "probability": "medium",
+   "impact": "multiple compression of 10-20%, led by long-duration growth; housing and banks crack",
+   "tell": "auction tails, MOVE above 120, mortgage spread widening"
+  },
+  {
+   "risk": "Credit break from the weak tail (private credit, CCC)",
+   "probability": "low-medium",
+   "impact": "HY OAS to 450bp+, small caps and financials -20%",
+   "tell": "HY OAS +75bp in a month; BDC and alternative-manager stocks breaking down"
+  },
+  {
+   "risk": "Oil spike above $120 (Hormuz closure)",
+   "probability": "low-medium",
+   "impact": "stagflation quadrant; Fed forced to keep hiking",
+   "tell": "Brent above $115, tanker transits collapsing"
+  },
+  {
+   "risk": "Yen carry unwind",
+   "probability": "low",
+   "impact": "fast de-grossing of crowded momentum (semis, AI)",
+   "tell": "USD/JPY -5% in a month around the 30 October BoJ"
+  },
+  {
+   "risk": "Upside: disinflation plus a ceasefire",
+   "probability": "medium",
+   "impact": "bull flattening; broadening rally into small caps, housing and long-duration growth",
+   "tell": "oil below $80, core CPI at 0.2% m/m, 10y below 4.75%"
+  }
+ ],
+ "judgment": {
+  "summary": "Lean risk-off with a strong tape. The Fed is hiking into a hot economy and an oil shock, and the long end has broken out (10y 5.11%, 30y 5.40%, real 2.76%, MOVE about 105). Stocks and bonds are falling together, so cash, not duration, is the hedge. Credit and equity vol have not confirmed stress: HY 273bp, VIX 15.7. The index sits 1% from its high on +29% earnings growth, but leadership is narrow: Mag 7 is +19pp vs equal weight over 3 months, while small caps, housing and rate-sensitive groups break down. The book should run 60% gross with long-duration growth capped at 15%. Own earnings momentum that funds itself (Mag 7 led by META, cybersecurity, selected software), hold energy as the oil-shock hedge, and keep dry powder for the refunding and FOMC window (28 October to 4 November). The crowd's error is the neoclouds and AI infrastructure financing trade: the allowlist is 9/0 long while the basket lags by 16pp. Its opportunity is memory, where attention and price are turning up together into Micron's 30 September print.",
+  "top_calls": [
+   "Cybersecurity (CRWD, OKTA, NET, ZS): Overweight. Accelerating with 100% breadth; recurring FCF offsets the rates headwind. Invalidated by the basket losing its 50d, or the 10y above 5.5%",
+   "Magnificent 7: Accumulate, concentrated in META and NVDA. Earnings carry the index. Invalidated by breadth inside the Mag 7 falling below 50%, or hyperscaler capex guidance cuts",
+   "Energy (XOM, CVX, COP): Overweight as the oil-shock hedge. Invalidated by an Iran ceasefire road map that reopens Hormuz",
+   "Memory (MU, SNDK): Accumulate on confirmation after the 30 September print. Pricing +30-40% for Q1 2027 is the thesis; a guide below $50bn invalidates it",
+   "Neoclouds, nuclear, space, quantum: Avoid or underweight. Long-duration names with financing needs in a 2.8% real-yield world; revisit when the 10y is below 4.75%",
+   "Homebuilders and regional banks: Avoid until the mortgage spread and MOVE fall together",
+   "Hedge: index put spreads (equity vol is cheap against bond vol) plus T-bills; not long Treasuries"
+  ],
+  "overrides": [
+   {
+    "theme": "Large biotech and pharma",
+    "mechanical": "Accumulate",
+    "call": "Neutral",
+    "reason": "fading over 1m with LLY, AMGN and BMY all down; the defensive archetype fit is -1.0 while growth runs hot"
+   },
+   {
+    "theme": "AI health and diagnostics",
+    "mechanical": "Accumulate",
+    "call": "Accumulate, small size",
+    "reason": "price leadership is real but the rate fit is -1.3; size inside the 15% long-duration cap"
+   }
+  ],
+  "risks": [
+   "Long-end tantrum (30y above 5.75%), medium probability: a 10-20% multiple compression led by long duration; tell: auction tails on 7-8 October and MOVE above 120",
+   "Credit break in the weak tail, low-medium: HY to 450bp+, small caps and financials -20%; tell: HY OAS +75bp in a month",
+   "Upside, medium: a ceasefire plus soft CPI brings a bull-flattening broadening rally into small caps, housing and long-duration growth. Keep the dry powder for it"
+  ],
+  "what_changes": [
+   "2026-09-30 Micron and PCE: memory confirmation, core PCE path",
+   "2026-10-02 payrolls: hot means an October hike is locked; a miss starts the growth-scare branch",
+   "2026-10-07/08 10y and 30y auctions: tails mean long-end stress",
+   "2026-10-14 CPI: core +0.4% or more m/m cuts the long-duration cap to 10%",
+   "2026-10-28 FOMC and 2026-11-04 refunding: a pause or smaller coupons is the 2023-style release valve that upgrades the call"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+  "account": "RealJGBanks",
+  "profile": {
+    "beat": "Short-term technical trading in index options and momentum equities, organized around sector rotation and an 8/21 moving-average break-and-retest setup.",
+    "style": "Uses emphatic outcome posts, chart setups and retrospective winning-trade screenshots. Separates watchlists from confirmed entries and often says to wait for a cross, level break and retest.",
+    "cadence": "Daily promotional posts, setup lessons, trade-plan announcements and after-the-fact results.",
+    "revisits": "Repeatedly teaches the same 8/21 cross, break and retest framework across long and short trades.",
+    "caveats": "Sells paid memberships and scanner access, emphasizes large winning option returns, provides limited public evidence of losses, and keeps most live plans behind a paywall. Public watchlists are explicitly not buy signals."
+  },
+  "narrative": "The account began by reviewing profitable memory, fintech and space trades while screening for the next sector rotation. It repeatedly warned that watchlist inclusion was not a buy signal and asked for confirmation through an 8/21 cross, breakout and retest. As the market became choppier, it advocated protecting capital and waiting for three days of leader continuation. It then used the same framework for downside SPY trades after the FOMC selloff. Later posts showed META and INTC upside trades and a TEM trade, but mostly as retrospective outcomes. The dominant arc is tactical execution rather than a fundamental long-term stock thesis.",
+  "picks": [
+    {
+      "symbol": "META", "direction": "long", "prospect": "The author expected a confirmed intraday break-and-retest to continue upward.", "risk_reward": "The setup is invalidated if the retest or buyer confirmation fails; no fixed stop is stated.", "thesis": "An 8/21 cross and break of a major level created the account's preferred tactical entry.", "time_frame": "intraday", "tags": ["tech", "momentum", "catalyst-driven"], "conviction": 0.78, "first_seen": "2026-09-15",
+      "sources": [{"post_id": "2099871764507410605", "quote": "$META +140% TRADE TODAY\n\nSETUP:\n\n1. 8/21 cross.\n2. Break a major level.\n3. Wait for the retest."}]
+    },
+    {
+      "symbol": "INTC", "direction": "long", "prospect": "The author expected a confirmed swing breakout and retest to continue.", "risk_reward": "The setup requires a successful retest and buyer confirmation; no fixed downside is stated.", "thesis": "The author applied the same 8/21 cross and level-break system to INTC calls.", "time_frame": "swing", "tags": ["tech", "momentum"], "conviction": 0.73, "first_seen": "2026-09-17",
+      "sources": [{"post_id": "2100591953205248256", "quote": "$INTC 101C + 240% BANGER\n$INTC 110C +100% BANGER"}]
+    },
+    {
+      "symbol": "SPY", "direction": "short", "prospect": "The author expected downside continuation after support broke and a bear-flag retest rejected.", "risk_reward": "The 21 EMA is described as defense and the rejection setup fails if price reclaims the broken level.", "thesis": "An 8/21 cross down, support break and failed retest formed the account's short setup after FOMC.", "time_frame": "intraday", "tags": ["momentum", "macro", "catalyst-driven"], "conviction": 0.88, "first_seen": "2026-09-17",
+      "sources": [{"post_id": "2100319939152204264", "quote": "$SPY puts +453% and +331%.\n\nToday SPY printed it almost perfectly:\n\n8/21 cross down\nBreak key support\nBear flag retest into the broken level + 8 EMA\nReject = enter"}]
+    }
+  ]
+}

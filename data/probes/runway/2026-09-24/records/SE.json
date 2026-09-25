@@ -1,0 +1,1950 @@
+{
+ "ticker": "SE",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 100.73,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 193.48,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 77.05,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -9.33,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -2.9,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -18.23,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 13.17,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLY",
+   "source": "https://finviz.com/quote.ashx?t=XLY",
+   "as_of": "2026-09-24",
+   "note": "GICS Consumer Discretionary (broadline retail; Shopee)"
+  },
+  "sector_1m_pct": {
+   "value": -6.47,
+   "source": "https://finviz.com/quote.ashx?t=XLY",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -2.67,
+   "source": "https://finviz.com/quote.ashx?t=XLY",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24",
+   "note": "below 50-day (-9.3%) and 200-day (-2.9%); -18.2% in a month after a post-print spike to 131.51"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/se/history/",
+   "as_of": "2026-09-24",
+   "note": "print day +14.56%; +5 sessions close only 1.27% above the pre-print close (gave back ~90%), and has since broken lower"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/se/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 29,
+   "source": "https://stockanalysis.com/stocks/se/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 157.11,
+   "source": "https://stockanalysis.com/stocks/se/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 195,
+   "source": "https://stockanalysis.com/stocks/se/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 105,
+   "source": "https://stockanalysis.com/stocks/se/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not needed: MarketBeat $149.4 (14 analysts) within 10 points of upside of StockAnalysis"
+  },
+  "finviz_target": {
+   "value": 157.97,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded alongside"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "broker": "Morgan Stanley",
+     "action": "maintain Overweight",
+     "target": 153,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-08",
+     "broker": "RBC Capital",
+     "action": "upgrade Sector Perform -> Outperform",
+     "target": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-07",
+     "broker": "Arete Research",
+     "action": "upgrade Neutral -> Buy",
+     "target": 152,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "Bank of America",
+     "action": "maintain Buy",
+     "target": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-17",
+     "broker": "TD Cowen",
+     "action": "reiterate Hold, raise 100->115",
+     "target": 115,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-17",
+     "broker": "JPMorgan",
+     "action": "raise target 162->173, Overweight",
+     "target": 173,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-17",
+     "broker": "Phillip Securities",
+     "action": "maintain Buy",
+     "target": 170,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "Morgan Stanley",
+     "action": "reiterate Overweight",
+     "target": 153,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "UOB Kay Hian",
+     "action": "maintain Buy",
+     "target": 181,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "Barclays",
+     "action": "raise target 122->156, Overweight",
+     "target": 156,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "Benchmark",
+     "action": "raise target 140->175, Buy",
+     "target": 175,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/se/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings page (latest 8) merged with MarketBeat forecast table https://www.marketbeat.com/stocks/NYSE/SE/forecast/; Weiss/Zacks excluded; reasons not stated on the source unless given"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-11",
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 7790000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 7120000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 0.7,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted EPS as MarketBeat reports it"
+  },
+  "eps_estimate": {
+   "value": 0.859,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-sea-limited-tops-revenue-forecasts-in-q2-2026-93CH-4851797",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "Reaffirmed ~25% Shopee GMV growth for 2026 and ~$1B Shopee adjusted EBITDA; CFO: 2-3% margin \"within reach\". Revenue +48% beat, EPS missed by 19%",
+   "source": "https://www.investing.com/news/transcripts/earnings-call-transcript-sea-limited-tops-revenue-forecasts-in-q2-2026-93CH-4851797",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": 14.56,
+   "source": "https://stockanalysis.com/stocks/se/history/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_5d_pct": {
+   "value": 1.27,
+   "source": "https://stockanalysis.com/stocks/se/history/",
+   "as_of": "2026-09-24",
+   "note": "close 5 sessions after the print vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://www.zacks.com/stock/quote/SE/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Yahoo /analysis/ load error twice; Zacks numbers (2 estimates only). FY2026 EPS 3.79 now = 3.79 30d vs 4.24 90d (-10.6%)"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://www.zacks.com/stock/quote/SE/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Yahoo /analysis/ load error twice; Zacks numbers (2 estimates only). FY2026 EPS 3.79 now = 3.79 30d vs 4.24 90d (-10.6%)"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 3.79,
+    "d30": 3.79,
+    "d90": 4.24
+   },
+   "source": "https://www.zacks.com/stock/quote/SE/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year EPS consensus now, 30 and 90 days ago"
+  },
+  "fcf_ttm": {
+   "value": 4210000000.0,
+   "source": "https://stockanalysis.com/stocks/se/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "net_income_ttm": {
+   "value": 1640000000.0,
+   "source": "https://stockanalysis.com/stocks/se/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: SBC reported only in Q4 on StockAnalysis ($625M FY)"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Sea compounds Shopee (revenue +48%, GMV ~+25%), Monee credit (loan book +62%) and Garena cash, with EPS expected to rise ~36% in 2027 as Shopee reaches $1B adjusted EBITDA.",
+   "source": "https://www.investing.com/news/company-news/sea-q2-2026-slides-revenue-surges-48-shopee-eyes-1b-ebitda-93CH-4851856",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Shopee holding share against TikTok Shop while reaching ~$1B adjusted EBITDA",
+   "source": "https://www.investing.com/news/company-news/sea-q2-2026-slides-revenue-surges-48-shopee-eyes-1b-ebitda-93CH-4851856",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "TikTok Shop closing on Shopee in parcel volume (Vietnam share 52% vs TikTok 41%); margin reinvestment; EPS missed 5 straight quarters; heavy executive selling",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/sea-limited-se-fell-competition-144920237.html",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.investing.com/news/company-news/sea-q2-2026-slides-revenue-surges-48-shopee-eyes-1b-ebitda-93CH-4851856",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "MELI",
+    "PDD"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=MELI",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "losing",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/sea-limited-se-fell-competition-144920237.html",
+   "as_of": "2026-09-24",
+   "note": "Vietnam: Shopee 52% vs 64% in 2024; TikTok 41% vs 28%"
+  },
+  "gross_margin_4q": {
+   "value": [
+    45.58,
+    44.32,
+    43.76,
+    43.42
+   ],
+   "source": "https://stockanalysis.com/stocks/se/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarterly, latest first"
+  },
+  "fwd_pe": {
+   "value": 21.23,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "MELI": 32.36,
+    "PDD": 6.39
+   },
+   "source": "https://finviz.com/quote.ashx?t=MELI",
+   "as_of": "2026-09-24",
+   "note": "Finviz quote pages of each peer"
+  },
+  "ev_sales": {
+   "value": 1.8,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "MELI": "2.51",
+    "PDD": "0.52"
+   },
+   "source": "https://finviz.com/quote.ashx?t=MELI",
+   "as_of": "2026-09-24",
+   "note": "'-' means not published"
+  },
+  "substitute": {
+   "value": "TikTok Shop; Lazada",
+   "source": "https://www.bloomberg.com/news/articles/2026-03-03/sea-earnings-miss-estimates-on-competition-from-tiktok-lazada",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "foreign private issuer: no Form 4. Sea files Form 4s; Finviz shows ~90 sales (~$290M) by the CEO, COO, CFO, President and others in the window. Plan status opened only for the CEO $137M filing (10b5-1). Finviz table is capped at 100 rows and reaches back only to 2026-08-11, so 2026-06-26 to 2026-08-10 is not covered"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24",
+   "note": "none seen"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-22",
+     "name": "Chen Jingye",
+     "role": "CPO, Shopee",
+     "shares": 30000,
+     "price": 103.48,
+     "usd": 3104427.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526398436/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-21",
+     "name": "Chen Jingye",
+     "role": "CPO, Shopee",
+     "shares": 30000,
+     "price": 102.09,
+     "usd": 3062727.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526398436/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-22",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1200,
+     "price": 103.51,
+     "usd": 124213.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526398435/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-21",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1200,
+     "price": 102.0,
+     "usd": 122397.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526398435/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-18",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 102.01,
+     "usd": 2040159.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526396109/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-17",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 101.76,
+     "usd": 2035165.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526396109/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-17",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1200,
+     "price": 101.55,
+     "usd": 121858.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526396104/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-18",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1200,
+     "price": 101.33,
+     "usd": 121602.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526396104/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-17",
+     "name": "Hou Tianyu",
+     "role": "CFO",
+     "shares": 15000,
+     "price": 101.62,
+     "usd": 1524301.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526396100/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-17",
+     "name": "Chen Jingye",
+     "role": "CPO, Shopee",
+     "shares": 30000,
+     "price": 101.52,
+     "usd": 3045476.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526396004/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-18",
+     "name": "Chen Jingye",
+     "role": "CPO, Shopee",
+     "shares": 30000,
+     "price": 101.51,
+     "usd": 3045428.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526396004/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Chen Jingye",
+     "role": "CPO, Shopee",
+     "shares": 30000,
+     "price": 104.13,
+     "usd": 3123933.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526393666/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-15",
+     "name": "Chen Jingye",
+     "role": "CPO, Shopee",
+     "shares": 30000,
+     "price": 103.83,
+     "usd": 3114856.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526393666/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1200,
+     "price": 104.08,
+     "usd": 124895.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526393664/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-15",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1200,
+     "price": 103.84,
+     "usd": 124614.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526393664/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 104.11,
+     "usd": 2082287.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526393660/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-15",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 103.83,
+     "usd": 2076578.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526393660/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 108.32,
+     "usd": 162474.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526391234/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-11",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1200,
+     "price": 107.45,
+     "usd": 128943.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526391234/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Chen Jingye",
+     "role": "CPO, Shopee",
+     "shares": 30000,
+     "price": 107.94,
+     "usd": 3238284.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526391231/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-11",
+     "name": "Chen Jingye",
+     "role": "CPO, Shopee",
+     "shares": 30000,
+     "price": 107.51,
+     "usd": 3225312.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526391231/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 107.95,
+     "usd": 2158999.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526391225/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-11",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 107.49,
+     "usd": 2149773.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526391225/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Chen Jingye",
+     "role": "CPO, Shopee",
+     "shares": 30000,
+     "price": 108.87,
+     "usd": 3266148.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526388567/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-10",
+     "name": "Chen Jingye",
+     "role": "CPO, Shopee",
+     "shares": 30000,
+     "price": 108.05,
+     "usd": 3241564.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526388567/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 108.87,
+     "usd": 2177322.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526388564/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-10",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 108.04,
+     "usd": 2160819.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526388564/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1320,
+     "price": 108.88,
+     "usd": 143720.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526388562/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-10",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1200,
+     "price": 107.99,
+     "usd": 129586.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526388562/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-04",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 113.3,
+     "usd": 2265966.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526385825/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-08",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 112.73,
+     "usd": 2254506.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526385825/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-04",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 113.29,
+     "usd": 169938.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526385824/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-08",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 112.75,
+     "usd": 169128.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526385824/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 113.27,
+     "usd": 169908.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526382699/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-02",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 112.48,
+     "usd": 168723.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526382699/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 113.33,
+     "usd": 2266602.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526382698/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-02",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 112.47,
+     "usd": 2249366.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526382698/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-31",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 114.19,
+     "usd": 2283817.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526379282/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 113.29,
+     "usd": 2265820.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526379282/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-31",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 114.07,
+     "usd": 171105.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526379280/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 112.81,
+     "usd": 169211.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526379280/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-28",
+     "name": "Li Xiaodong",
+     "role": "Chairman and CEO",
+     "shares": 5164,
+     "price": 120.43,
+     "usd": 621901.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526377436/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-28",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 30000,
+     "price": 119.82,
+     "usd": 3594592.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526375301/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 117.5,
+     "usd": 2349977.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526375301/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-28",
+     "name": "Feng Zhimin",
+     "role": "President",
+     "shares": 4116,
+     "price": 120.45,
+     "usd": 495772.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526375300/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-28",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 119.58,
+     "usd": 179363.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526375298/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 117.46,
+     "usd": 176184.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526375298/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-28",
+     "name": "Zhao Feng",
+     "role": "President of Garena",
+     "shares": 2000,
+     "price": 120.07,
+     "usd": 240140.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526375297/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Feng Zhimin",
+     "role": "President",
+     "shares": 15000,
+     "price": 122.29,
+     "usd": 1834341.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526369446/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-26",
+     "name": "Feng Zhimin",
+     "role": "President",
+     "shares": 3872,
+     "price": 120.83,
+     "usd": 467868.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526369446/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-26",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 30000,
+     "price": 120.19,
+     "usd": 3605565.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526369441/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 30000,
+     "price": 119.96,
+     "usd": 3598678.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526369441/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-26",
+     "name": "Zhao Feng",
+     "role": "President of Garena",
+     "shares": 2000,
+     "price": 121.33,
+     "usd": 242660.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526369439/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Zhao Feng",
+     "role": "President of Garena",
+     "shares": 2000,
+     "price": 120.03,
+     "usd": 240060.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526369439/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Li Xiaodong",
+     "role": "Chairman and CEO",
+     "shares": 57690,
+     "price": 122.28,
+     "usd": 7054265.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526369435/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 119.92,
+     "usd": 179879.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526369433/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-26",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 119.81,
+     "usd": 179716.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526369433/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 117.74,
+     "usd": 2354710.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526364067/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 115.92,
+     "usd": 2318479.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526364067/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 117.74,
+     "usd": 176612.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526364066/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 115.93,
+     "usd": 173889.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526364066/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 117.9,
+     "usd": 176850.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526359855/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-20",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 117.18,
+     "usd": 175777.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526359855/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Feng Zhimin",
+     "role": "President",
+     "shares": 298,
+     "price": 120.0,
+     "usd": 35760.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526359854/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 21208,
+     "price": 117.98,
+     "usd": 2502194.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526359853/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-20",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 117.18,
+     "usd": 2343672.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526359853/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Zhao Feng",
+     "role": "President of Garena",
+     "shares": 420,
+     "price": 120.02,
+     "usd": 50408.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526359852/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "KUOK Khoon Hua",
+     "role": "Director",
+     "shares": 17395,
+     "price": 116.03,
+     "usd": 2018306.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526357685/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Zhao Feng",
+     "role": "President of Garena",
+     "shares": 2000,
+     "price": 120.16,
+     "usd": 240320.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526356060/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Hou Tianyu",
+     "role": "CFO",
+     "shares": 20000,
+     "price": 119.96,
+     "usd": 2399281.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526356057/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 119.88,
+     "usd": 179814.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526356054/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 116.65,
+     "usd": 174968.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526356054/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Feng Zhimin",
+     "role": "President",
+     "shares": 8423,
+     "price": 120.29,
+     "usd": 1013191.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526356053/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 30000,
+     "price": 120.08,
+     "usd": 3602264.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526356052/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 20000,
+     "price": 116.64,
+     "usd": 2332754.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526356052/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Heng Chen Seng",
+     "role": "Director",
+     "shares": 20000,
+     "price": 122.31,
+     "usd": 2446165.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526354675/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-13",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 124.03,
+     "usd": 186045.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526353155/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 122.24,
+     "usd": 183358.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526353155/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Zhao Feng",
+     "role": "President of Garena",
+     "shares": 2000,
+     "price": 124.05,
+     "usd": 248100.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526353154/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-13",
+     "name": "Zhao Feng",
+     "role": "President of Garena",
+     "shares": 2000,
+     "price": 124.04,
+     "usd": 248088.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526353154/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-13",
+     "name": "Feng Zhimin",
+     "role": "President",
+     "shares": 15000,
+     "price": 124.0,
+     "usd": 1859959.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526353150/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Feng Zhimin",
+     "role": "President",
+     "shares": 15000,
+     "price": 122.16,
+     "usd": 1832459.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526353150/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-13",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 30000,
+     "price": 124.06,
+     "usd": 3721834.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526353149/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 30000,
+     "price": 122.65,
+     "usd": 3679462.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526353149/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-13",
+     "name": "Li Xiaodong",
+     "role": "Chairman and CEO",
+     "shares": 19230,
+     "price": 123.96,
+     "usd": 2383820.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526353146/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-11",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 129.84,
+     "usd": 194767.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526347737/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-12",
+     "name": "Wang Yanjun",
+     "role": "CCO and General Counsel",
+     "shares": 1500,
+     "price": 128.66,
+     "usd": 192985.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526347737/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-11",
+     "name": "Li Xiaodong",
+     "role": "Chairman and CEO",
+     "shares": 1057650,
+     "price": 129.8,
+     "usd": 137287768.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526347736/xslF345X06/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 opened: code S, 10b5-1 box checked; $137.3M in 7 lots at $125.53-131.27 on the post-print spike; 288,450 direct shares after"
+    },
+    {
+     "date": "2026-08-11",
+     "name": "Feng Zhimin",
+     "role": "President",
+     "shares": 15000,
+     "price": 130.07,
+     "usd": 1951021.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526347735/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-12",
+     "name": "Feng Zhimin",
+     "role": "President",
+     "shares": 15000,
+     "price": 128.63,
+     "usd": 1929378.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526347735/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-12",
+     "name": "Zhao Feng",
+     "role": "President of Garena",
+     "shares": 2000,
+     "price": 128.65,
+     "usd": 257306.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526347732/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-11",
+     "name": "Zhao Feng",
+     "role": "President of Garena",
+     "shares": 2000,
+     "price": 128.26,
+     "usd": 256520.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526347732/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-11",
+     "name": "Hou Tianyu",
+     "role": "CFO",
+     "shares": 5000,
+     "price": 128.28,
+     "usd": 641400.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526347731/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-11",
+     "name": "Ye Gang",
+     "role": "COO",
+     "shares": 30000,
+     "price": 129.35,
+     "usd": 3880421.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1703399/000119312526347729/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24",
+   "note": "CEO Forrest Li $147M (incl. $137M 10b5-1 on Aug 11), COO Ye Gang ~$60M daily, CFO, President, Shopee CPO also selling; plan status unknown except the CEO filing; window seen only from 2026-08-11 (Finviz 100-row cap); total seen $276M across 94 rows"
+  },
+  "excluded_90d": {
+   "value": [
+    "2026-09-15 Devon Court Limited Proposed Sale",
+    "2026-09-11 Alpha Ally Holdings Limited Proposed Sale",
+    "2026-09-09 Chen Jingye Proposed Sale",
+    "2026-08-18 KUOK Khoon Hua Proposed Sale",
+    "2026-08-17 Tianyu Hou Proposed Sale",
+    "2026-08-14 Chen Seng Heng Proposed Sale"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24",
+   "note": "option exercises, proposed sales (Form 144) and non-issuer rows excluded"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -40.54,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest completed 13F cycle; MarketBeat most recent filing received 2026-09-23"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: fintel.io blocked (403 per failure log, not retried); MarketBeat does not give quarter net shares"
+  },
+  "holders_up": {
+   "value": 89,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 44,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split new vs increased holders"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split exited vs reduced holders"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "OCBC",
+     "usd": 28020000.0
+    },
+    {
+     "fund": "Norges Bank",
+     "usd": 14080000.0
+    },
+    {
+     "fund": "WCM",
+     "usd": 10280000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest buyers by dollar volume, MarketBeat FAQ, 24-month window; sizes are purchase dollars not position change"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Charles Lim Capital",
+     "usd": 375000.0
+    },
+    {
+     "fund": "Greenwoods AM HK",
+     "usd": 270000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest sellers by dollar volume, 24-month window; not confirmed full exits"
+  },
+  "short_pct_float": {
+   "value": 1.79,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 1.96% (no date); MarketBeat preferred because it states the settlement date"
+  },
+  "days_to_cover": {
+   "value": 3.2,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 2.49"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/SE/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "finviz_inst_trans_pct": {
+   "value": -0.74,
+   "source": "https://finviz.com/quote.ashx?t=SE",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-10",
+    "event": "Q3 2026 earnings",
+    "confirmed": false
+   },
+   {
+    "date": "2026-11-11",
+    "event": "11.11 regional sales event (Shopee)",
+    "confirmed": true
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NYSE/SE/earnings/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": "Down 47.9% from the $193.48 high: TikTok Shop competition compressing Shopee share and margins, estimate cuts on reinvestment, perceived AI disintermediation risk, and repeated EPS misses; the post-print spike to $131.51 faded amid heavy executive selling.",
+  "source": "https://finance.yahoo.com/markets/stocks/articles/sea-limited-se-fell-competition-144920237.html",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute currency units; EPS per share",
+  "accounting_basis": "GAAP revenue; adjusted EPS (S&P Global via StockAnalysis)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "StockAnalysis page retrieved 2026-09-24",
+  "model_assumptions": "none: no modelled leaves",
+  "fcf_basis": "not available: forward CFO/capex unpublished; StockAnalysis FY1 consensus FCF $4.81B recorded in note only",
+  "revision_period_end": "2026-09-24",
+  "alignment_note": null,
+  "fy1": {
+   "revenue": {
+    "value": 31120000000.0,
+    "source": "https://stockanalysis.com/stocks/se/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 2600000000.0,
+    "source": "https://stockanalysis.com/stocks/se/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus operating income"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 3.82,
+    "source": "https://stockanalysis.com/stocks/se/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 38170000000.0,
+    "source": "https://stockanalysis.com/stocks/se/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis Pro paywall; Yahoo does not publish EBIT estimates",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 5.19,
+    "source": "https://stockanalysis.com/stocks/se/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 28,
+    "source": "https://stockanalysis.com/stocks/se/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global via StockAnalysis, Sep 2026 column; strong buy grouped with buy, strong sell with sell"
+   },
+   "hold": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/se/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/se/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/SE/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Zacks Agreement table, current year (2 estimates only: thin)"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/SE/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 2,
+    "source": "https://www.zacks.com/stock/quote/SE/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimate count for the same fiscal year"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 100.73,
+    "source": "https://finviz.com/quote.ashx?t=SE",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 49870000000.0,
+    "source": "https://finviz.com/quote.ashx?t=SE",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: WACC not modelled in this pass",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 5,
+  "prospect_why": "Shopee +48% and Monee loans +62% are reported; EPS misses",
+  "competition_pts": 3,
+  "competition_why": "TikTok Shop taking share in Vietnam",
+  "macro_fit_pts": 3,
+  "macro_fit_why": "EM archetype 3",
+  "narrative_pts": 2,
+  "narrative_why": "consumer lagging; heavy executive selling",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

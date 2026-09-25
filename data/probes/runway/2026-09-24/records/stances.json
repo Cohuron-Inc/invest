@@ -1,0 +1,873 @@
+{
+ "JPM": [
+  {
+   "account": "davevermilion",
+   "direction": "short",
+   "conviction": 0.7,
+   "time_frame": "swing",
+   "first_seen": "2026-09-22",
+   "thesis": "Sector relative-strength reading: financials are rolling over, high-yield spreads are widening, and the author sees stress building in bank balance sheets; he flags JPM specifically as the lead name for multiple compression.",
+   "post_ids": [
+    "2102406034954273112",
+    "2102419940787605609",
+    "2102975512884973676"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "GS": [
+  {
+   "account": "davevermilion",
+   "direction": "short",
+   "conviction": 0.6,
+   "time_frame": "swing",
+   "first_seen": "2026-09-22",
+   "thesis": "Chart pattern (bear flag) plus the broader thesis that banks are the next group to crack as credit spreads widen and corporate debt issuance crowds the market.",
+   "post_ids": [
+    "2102406338739630409",
+    "2103135764989030780"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "RKLB": [
+  {
+   "account": "davevermilion",
+   "direction": "long",
+   "conviction": 0.35,
+   "time_frame": "swing",
+   "first_seen": "2026-09-22",
+   "thesis": "Chart-based watchlist call; no further reasoning given.",
+   "post_ids": [
+    "2102388150182056095"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.65,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-19",
+   "thesis": "Years of acquisitions assembled a full spacecraft stack that forms a moat, so Rocket Lab can monetize a mission whether it wins the prime contract or supplies components. The backlog shows demand is already there.",
+   "post_ids": [
+    "2101318761987047749",
+    "2101816939761049805",
+    "2102363716759249371"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "JaguarAnalytics",
+   "direction": "long",
+   "conviction": 0.9,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-21",
+   "thesis": "A top-three holding; the author sees Rocket Lab as a generational space company and views panic selling as transfer to long-term holders.",
+   "post_ids": [
+    "2102032463333621925",
+    "2102191579930701985"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "META": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.95,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-18",
+   "thesis": "Meta's installed base lets a free product scale instantly. Muse adds connectors, payments (Shopify, PayPal, Meta Pay), glasses and dedicated hardware, and the transaction-fee model expands the TAM. The author built conviction before the narrative turned.",
+   "post_ids": [
+    "2100887511522496644",
+    "2101334062782935377",
+    "2102030053404230063"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "MarcosMillaYT",
+   "direction": "long",
+   "conviction": 0.5,
+   "time_frame": "position",
+   "first_seen": "2026-09-21",
+   "thesis": "Author's belief in Meta's long-term value; no fundamental reasoning given.",
+   "post_ids": [
+    "2102104837957783798",
+    "2102134633257398611",
+    "2103011019534872578"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "artemis",
+   "direction": "long",
+   "conviction": 0.45,
+   "time_frame": "position",
+   "first_seen": "2026-09-21",
+   "thesis": "META was criticised for AI-leader-level spending without an AI product to show for it; Muse supplies that product and becomes the earnings catalyst.",
+   "post_ids": [
+    "2102017187015750051",
+    "2102074507091394975"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "JaguarAnalytics",
+   "direction": "long",
+   "conviction": 0.9,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-21",
+   "thesis": "One of the author's top three portfolio positions; the author asserts the market underappreciates it, without laying out fundamentals in these posts.",
+   "post_ids": [
+    "2102032463333621925",
+    "2102062254501879846"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "ON": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.85,
+   "time_frame": "position",
+   "first_seen": "2026-09-24",
+   "thesis": "The 800V transition multiplies power-semiconductor content per AI rack, and all that compute still has to be powered.",
+   "post_ids": [
+    "2103112576330846616",
+    "2103235593580974369",
+    "2103235593580974369"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "P": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.8,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-24",
+   "thesis": "Once AI runs everywhere, the constraint becomes how efficiently data is fed, stored and retrieved, and Everpure's guidance is starting to reflect that.",
+   "post_ids": [
+    "2103121045637238791",
+    "2103121045637238791"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "VRT": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.6,
+   "time_frame": "position",
+   "first_seen": "2026-09-23",
+   "thesis": "If GPU and TPU compute keeps scaling, the bottleneck moves to powering and cooling the racks, and this theme is still early.",
+   "post_ids": [
+    "2102763000981819614",
+    "2102835913822990615",
+    "2102873007136145609"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "IREN": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.6,
+   "time_frame": "position",
+   "first_seen": "2026-09-18",
+   "thesis": "Energized sites are the scarcest input, and lenders price that asset more cheaply than GPU-heavy balance sheets, which gives IREN the lowest cost of capital among the neoclouds.",
+   "post_ids": [
+    "2101011312432255188",
+    "2101686054692827637",
+    "2101781064255701294"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "TheLongInvest",
+   "direction": "long",
+   "conviction": 0.55,
+   "time_frame": "swing",
+   "first_seen": "2026-09-22",
+   "thesis": "Chart breakout, picked over CIFR and NBIS as the name about to break out.",
+   "post_ids": [
+    "2102446414810992794"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "NBIS": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.55,
+   "time_frame": "position",
+   "first_seen": "2026-09-18",
+   "thesis": "Customer-prepaid capex keeps the funding model cleaner than CoreWeave's, and repeated price hikes plus spot pricing show demand exceeding supply.",
+   "post_ids": [
+    "2101011312432255188",
+    "2101781064255701294",
+    "2102468143201550705"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "TheLongInvest",
+   "direction": "long",
+   "conviction": 0.7,
+   "time_frame": "swing",
+   "first_seen": "2026-09-19",
+   "thesis": "Chart breakout in AI infrastructure; the author has long called for a much higher target.",
+   "post_ids": [
+    "2101284150833512517",
+    "2102450904813502465",
+    "2103168196429885535"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "NVDA": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.55,
+   "time_frame": "position",
+   "first_seen": "2026-09-19",
+   "thesis": "Nvidia's growth and margins in the largest infrastructure buildout since the internet do not justify its valuation discount, and physical AI has barely reached its numbers.",
+   "post_ids": [
+    "2101331512830631971",
+    "2102796526842184004"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "MarcosMillaYT",
+   "direction": "neutral",
+   "conviction": 0.3,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-18",
+   "thesis": "Best business but too large to 'make you rich'; take profits and rotate into higher-growth names, while still 'continue to buy'.",
+   "post_ids": [
+    "2100806289773461708",
+    "2101503800116912346",
+    "2102979374425456839"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "TheLongInvest",
+   "direction": "neutral",
+   "conviction": 0.8,
+   "time_frame": "position",
+   "first_seen": "2026-09-18",
+   "thesis": "A bearish rising wedge in Wave 5 and failure at resistance signal buyers are slowing and rotating to better opportunities; not a verdict on company quality.",
+   "post_ids": [
+    "2101011792369442818",
+    "2101701775149441332",
+    "2103155154338054519"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "MU": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.5,
+   "time_frame": "position",
+   "first_seen": "2026-09-21",
+   "thesis": "AI servers drive most incremental DRAM demand while supply bit growth lags, so HBM and NAND pricing stays strong.",
+   "post_ids": [
+    "2101769850989552012",
+    "2101998210810269908"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "FeroceResearch",
+   "direction": "long",
+   "conviction": 0.8,
+   "time_frame": "position",
+   "first_seen": "2026-09-18",
+   "thesis": "Memory is the dominant cycle of 2026+; companies with the best memory exposure improve margins and the industry pivot toward memory is happening rapidly.",
+   "post_ids": [
+    "2100759256051986745",
+    "2101814727273828842",
+    "2101814727273828842"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "MarcosMillaYT",
+   "direction": "long",
+   "conviction": 0.6,
+   "time_frame": "position",
+   "first_seen": "2026-09-18",
+   "thesis": "HBM/DRAM leadership in AI memory, analyst Strong Buy ratings, relayed AI-chatbot rankings.",
+   "post_ids": [
+    "2100806289773461708",
+    "2102545805139956012",
+    "2102979374425456839"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "RealJGBanks",
+   "direction": "long",
+   "conviction": 0.65,
+   "time_frame": "swing",
+   "first_seen": "2026-09-19",
+   "thesis": "Memory led the last major AI move and is breaking out again; bought at major daily demand when others were scared of AI and memory names.",
+   "post_ids": [
+    "2101368669649687010",
+    "2102073562840396238",
+    "2102477596693053651"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "TradexWhisperer",
+   "direction": "long",
+   "conviction": 0.92,
+   "time_frame": "position",
+   "first_seen": "2026-09-18",
+   "thesis": "Inference and agentic AI multiply memory demand while fab output is finite; HBM consumes several times the wafer capacity per bit, supply is sold out to LTA holders, and capex dollars are shifting toward memory at very high margins.",
+   "post_ids": [
+    "2100812983819726939",
+    "2101167020406677734",
+    "2101892595316322642"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "SKHY": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.45,
+   "time_frame": "position",
+   "first_seen": "2026-09-21",
+   "thesis": "Server DRAM demand from AI and constrained supply push HBM pricing higher for the leading HBM suppliers.",
+   "post_ids": [
+    "2101769850989552012",
+    "2101998210810269908"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "TradexWhisperer",
+   "direction": "long",
+   "conviction": 0.8,
+   "time_frame": "position",
+   "first_seen": "2026-09-18",
+   "thesis": "One of three memory makers controlling finite fab output while HBM demand from GPUs, TPUs and custom ASICs keeps doubling; 8-high HBM4 carries better yields and pricing.",
+   "post_ids": [
+    "2100812983819726939",
+    "2101522761697071282",
+    "2103202676884525271"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "AMD": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.45,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-20",
+   "thesis": "Consumer agents such as Muse still need CPUs for tool calls, orchestration and data movement alongside GPUs, which gives AMD another way to monetize the agentic buildout.",
+   "post_ids": [
+    "2101676006616780844",
+    "2101676006616780844",
+    "2102102242602213407"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "MarcosMillaYT",
+   "direction": "long",
+   "conviction": 0.9,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-20",
+   "thesis": "AI compute share gains, analyst Strong Buy ratings, CEO Lisa Su's insider purchase, and smaller market cap giving more upside than NVIDIA.",
+   "post_ids": [
+    "2101457350972625129",
+    "2102068007455653966",
+    "2102132726145175927"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "TheLongInvest",
+   "direction": "neutral",
+   "conviction": 0.6,
+   "time_frame": "swing",
+   "first_seen": "2026-09-21",
+   "thesis": "Parabolic moves in Wave 5 indicate the top is approaching.",
+   "post_ids": [
+    "2102035055417659400",
+    "2102035055417659400"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "TradexWhisperer",
+   "direction": "long",
+   "conviction": 0.4,
+   "time_frame": "swing",
+   "first_seen": "2026-09-22",
+   "thesis": "Agentic AI drives CPU demand, not just memory; chart showed a BLUE signal off Bollinger basis support confirmed by GREEN.",
+   "post_ids": [
+    "2102255645848400198"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "SOFI": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.45,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-21",
+   "thesis": "The loan platform business and fee businesses monetize volume without holding the credit, and stablecoin settlement on the card program shows the platform expanding.",
+   "post_ids": [
+    "2102108888095137864",
+    "2102169395586068941",
+    "2102826654452355545"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "HOOD": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.4,
+   "time_frame": "swing",
+   "first_seen": "2026-09-18",
+   "thesis": "Net interest revenue is a large share of revenue and benefits from elevated rates, and zero-coupon convertible debt gives Robinhood cheap capital while rates stay high.",
+   "post_ids": [
+    "2100931289016914068"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "MarcosMillaYT",
+   "direction": "long",
+   "conviction": 0.4,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-20",
+   "thesis": "Called underrated; no further reasoning given.",
+   "post_ids": [
+    "2101402208684364023",
+    "2103012450065093029"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "APP": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "neutral",
+   "conviction": 0.3,
+   "time_frame": "position",
+   "first_seen": "2026-09-24",
+   "thesis": "The market is not pricing continued AXON improvement, but gaming is maturing.",
+   "post_ids": [
+    "2103096824588612026"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "QCOM": [
+  {
+   "account": "StockSavvyShay",
+   "direction": "long",
+   "conviction": 0.3,
+   "time_frame": "position",
+   "first_seen": "2026-09-21",
+   "thesis": "New AI data-center interconnect and edge-AI moves show Qualcomm working deeper into the AI stack.",
+   "post_ids": [
+    "2102096428013412410",
+    "2102873180163706924"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "ALAB": [
+  {
+   "account": "FeroceResearch",
+   "direction": "long",
+   "conviction": 0.85,
+   "time_frame": "position",
+   "first_seen": "2026-09-21",
+   "thesis": "CXL is the largest byproduct of the memory industry, and Astera Labs is the CXL play; recent breakout from a long sideways range confirms emerging strength.",
+   "post_ids": [
+    "2101814727273828842",
+    "2102107647675703500",
+    "2102160679666868329"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "SNDK": [
+  {
+   "account": "FeroceResearch",
+   "direction": "long",
+   "conviction": 0.4,
+   "time_frame": "position",
+   "first_seen": "2026-09-21",
+   "thesis": "Grouped with Micron as a core memory-cycle name; the author credits himself with calling the CPU and memory run that lifted Sandisk.",
+   "post_ids": [
+    "2101814727273828842",
+    "2101814727273828842",
+    "2102159849211539619"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "MarcosMillaYT",
+   "direction": "long",
+   "conviction": 0.8,
+   "time_frame": "position",
+   "first_seen": "2026-09-18",
+   "thesis": "High-beta memory/storage cycle exposure to AI demand, analyst Strong Buy ratings, and Seeking Alpha Alpha Picks ownership.",
+   "post_ids": [
+    "2100808370722844764",
+    "2102134921439662388",
+    "2103020102912512343"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "RealJGBanks",
+   "direction": "long",
+   "conviction": 0.6,
+   "time_frame": "swing",
+   "first_seen": "2026-09-19",
+   "thesis": "Part of the memory group that led the last AI move and is breaking out again; bought at major daily demand.",
+   "post_ids": [
+    "2101368669649687010",
+    "2102073562840396238",
+    "2102477596693053651"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  },
+  {
+   "account": "TradexWhisperer",
+   "direction": "long",
+   "conviction": 0.65,
+   "time_frame": "swing",
+   "first_seen": "2026-09-19",
+   "thesis": "Agentic AI context data cannot all live in HBM and overflows to NAND, and heavy AI read/write cycles force hyperscalers to overprovision or replace NAND more often; TrendForce rates NAND tight.",
+   "post_ids": [
+    "2101048062957555903",
+    "2102109714389897280",
+    "2102470945734844874"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "RARE": [
+  {
+   "account": "LogicalThesis",
+   "direction": "long",
+   "conviction": 0.55,
+   "time_frame": "position",
+   "first_seen": "2026-09-19",
+   "thesis": "A rare way to get gene-therapy exposure through a company with an approved, commercialized gene therapy rather than a clinical-stage bet; not a typical retail name.",
+   "post_ids": [
+    "2101053347113681069",
+    "2101068470427557945",
+    "2102441191556214950"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "WGS": [
+  {
+   "account": "LogicalThesis",
+   "direction": "neutral",
+   "conviction": 0.2,
+   "time_frame": "swing",
+   "first_seen": "2026-09-22",
+   "thesis": "A completed trade the author has exited and moved on from.",
+   "post_ids": [
+    "2102401991440023835"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "MRVL": [
+  {
+   "account": "MarcosMillaYT",
+   "direction": "long",
+   "conviction": 0.8,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-18",
+   "thesis": "AI networking, optics and custom silicon exposure, endorsement by NVIDIA's Jensen Huang, perceived underpricing and a possible short squeeze.",
+   "post_ids": [
+    "2100805849501577490",
+    "2101401796002664823",
+    "2102115235855499545"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "CRDO": [
+  {
+   "account": "MarcosMillaYT",
+   "direction": "long",
+   "conviction": 0.6,
+   "time_frame": "swing",
+   "first_seen": "2026-09-18",
+   "thesis": "Exploding AI data-center connectivity demand, smaller market cap, Point72 and Seeking Alpha ownership.",
+   "post_ids": [
+    "2100814991372988849",
+    "2101351528581996620",
+    "2103011019534872578"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "SPCX": [
+  {
+   "account": "MarcosMillaYT",
+   "direction": "long",
+   "conviction": 0.4,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-18",
+   "thesis": "Space economy exposure; preferred over Tesla, partly echoing AI-chatbot comparisons.",
+   "post_ids": [
+    "2100815921682203102",
+    "2102114670689878487",
+    "2103011019534872578"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "AKAM": [
+  {
+   "account": "stocktalkweekly",
+   "direction": "long",
+   "conviction": 0.7,
+   "time_frame": "position",
+   "first_seen": "2026-09-25",
+   "thesis": "The relevance of Akamai's technology and infrastructure suite is increasing. He first published this thesis in August, re-entered the day before the Anthropic deal was announced, and treats the deal as confirmation.",
+   "post_ids": [
+    "2103226017867264470",
+    "2103226017867264470"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "ORCL": [
+  {
+   "account": "deerpointmacro",
+   "direction": "short",
+   "conviction": 0.6,
+   "time_frame": "position",
+   "first_seen": "2026-09-24",
+   "thesis": "A large fixed-rate debt stack repriced at today's curve raises coupons materially, while elevated capex and deeply negative FCF increase financing needs, leaving the curve wide of BBB and creating a feedback loop of weaker FCF, more borrowing and weaker coverage.",
+   "post_ids": [
+    "2103126077384061181",
+    "2103126077384061181",
+    "2103138529895469241"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "ARM": [
+  {
+   "account": "RealJGBanks",
+   "direction": "long",
+   "conviction": 0.45,
+   "time_frame": "swing",
+   "first_seen": "2026-09-23",
+   "thesis": "Grouped with the AI/memory names bought at major daily demand; named a semiconductor leader under the SMH/EUV ETFs.",
+   "post_ids": [
+    "2102477596693053651",
+    "2102561000377418204",
+    "2102749498829160854"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "INTC": [
+  {
+   "account": "RealJGBanks",
+   "direction": "long",
+   "conviction": 0.35,
+   "time_frame": "swing",
+   "first_seen": "2026-09-19",
+   "thesis": "Semis that led the last AI move are breaking out again; he traded it with his 8/21 cross break-and-retest setup.",
+   "post_ids": [
+    "2101368669649687010",
+    "2102073562840396238"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "BABA": [
+  {
+   "account": "TheLongInvest",
+   "direction": "long",
+   "conviction": 0.88,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-18",
+   "thesis": "Insiders bought near current levels, revenue has compounded while the share price has gone nowhere, free cash flow is being reinvested, a global AI data-center push, and price action echoing Trump's first term which the author views as bullish for China.",
+   "post_ids": [
+    "2100944919300903297",
+    "2101469613275951377",
+    "2102009716155023539"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "ASTS": [
+  {
+   "account": "TheLongInvest",
+   "direction": "long",
+   "conviction": 0.9,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-22",
+   "thesis": "Best-in-market chart, moat and management, and global uninterrupted connectivity is a prerequisite for AI, space and humanoids, a market the author expects Starlink and ASTS to dominate.",
+   "post_ids": [
+    "2102437321844863041",
+    "2102706344797077983",
+    "2102706757894029572"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "SE": [
+  {
+   "account": "TheLongInvest",
+   "direction": "long",
+   "conviction": 0.72,
+   "time_frame": "position",
+   "first_seen": "2026-09-18",
+   "thesis": "Listed among good companies that were not buys at high prices but are now at value prices; otherwise signalled with 'IYKYK' teasers.",
+   "post_ids": [
+    "2100930765311598739",
+    "2103156152980979980"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "ZETA": [
+  {
+   "account": "TheLongInvest",
+   "direction": "long",
+   "conviction": 0.75,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-18",
+   "thesis": "Consistent revenue beats and management quality; the author draws the Palantir analogy.",
+   "post_ids": [
+    "2100954815442333803",
+    "2102761636310516127",
+    "2103168861290033243"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "HIMS": [
+  {
+   "account": "TheLongInvest",
+   "direction": "long",
+   "conviction": 0.68,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-22",
+   "thesis": "The author doubled the position under the 200 WMA and argues the market is starting to see what he sees.",
+   "post_ids": [
+    "2102126313590890717",
+    "2102445046800810239",
+    "2103191622917968224"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "ADUR": [
+  {
+   "account": "TheLongInvest",
+   "direction": "long",
+   "conviction": 0.62,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-23",
+   "thesis": "Positive plastic-recycling (hydrocarbon yield) campaign results and a management team the author praises.",
+   "post_ids": [
+    "2102759930738413739",
+    "2103149461912646080"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "COIN": [
+  {
+   "account": "TheLongInvest",
+   "direction": "long",
+   "conviction": 0.58,
+   "time_frame": "position",
+   "first_seen": "2026-09-18",
+   "thesis": "Crypto leaders ETH and BTC moving; Coinbase reclaimed its 200 WMA after being flagged below it.",
+   "post_ids": [
+    "2101008720159261178",
+    "2101988664662241574"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "DELL": [
+  {
+   "account": "TheLongInvest",
+   "direction": "short",
+   "conviction": 0.6,
+   "time_frame": "swing",
+   "first_seen": "2026-09-18",
+   "thesis": "Dell hit its extended Wave 5 Fibonacci target; parabolic Wave 5 moves mark tops and smart money exits into retail.",
+   "post_ids": [
+    "2100995232934277538",
+    "2102726166323007800"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "NVO": [
+  {
+   "account": "TheLongInvest",
+   "direction": "neutral",
+   "conviction": 0.55,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-24",
+   "thesis": "Valuation discipline: good company, wrong price.",
+   "post_ids": [
+    "2103155008422425048",
+    "2103156152980979980"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ],
+ "TSM": [
+  {
+   "account": "TradexWhisperer",
+   "direction": "long",
+   "conviction": 0.4,
+   "time_frame": "long_term",
+   "first_seen": "2026-09-23",
+   "thesis": "TSMC is becoming the dominant CPU maker and advanced packaging is the only way to achieve high bandwidth by bringing chips closer together.",
+   "post_ids": [
+    "2102643315602767919",
+    "2102894599035568190"
+   ],
+   "window": "2026-09-18..2026-09-25"
+  }
+ ]
+}

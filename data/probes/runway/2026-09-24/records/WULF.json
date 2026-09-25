@@ -1,0 +1,790 @@
+{
+ "ticker": "WULF",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 16.29,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 29.84,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 10.43,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -45.41,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24",
+   "note": "computed from close and 52w high"
+  },
+  "sma50_pct": {
+   "value": -3.57,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -9.77,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -0.18,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -37.49,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS information technology; XLK used as the sector benchmark"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24",
+   "note": "below 50d (-3.6%) and 200d (-9.8%), -37.5% quarter"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/wulf/history/",
+   "as_of": "2026-09-24",
+   "note": "pre-print close 18.88, reaction-day close 18.07 (-4.29%), close Aug 12, 2026 17.19 (-8.95% vs pre-print). down gap extended to -9% after five sessions"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 22,
+   "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 34.3,
+   "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 62.5,
+   "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 15,
+   "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 110.56,
+   "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed vs Finviz close"
+  },
+  "pt_avg_alt": {
+   "value": 33.33,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat consensus of 25 analysts; Finviz target mean 34.07"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-23",
+     "broker": "UBS",
+     "action": "initiate Buy",
+     "target": 24,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Rothschild & Co Redburn",
+     "action": "initiate Hold",
+     "target": 15,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "Wells Fargo",
+     "action": "initiate Buy",
+     "target": 30,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Northland",
+     "action": "maintain Buy",
+     "target": 30,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-08",
+     "broker": "Freedom Capital Markets",
+     "action": "initiate Buy",
+     "target": 19,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-05",
+     "broker": "Citi",
+     "action": "maintain Buy",
+     "target": null,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-05",
+     "broker": "William Blair",
+     "action": "maintain Buy",
+     "target": null,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "Bernstein",
+     "action": "maintain Buy",
+     "target": 36,
+     "reason": "see source; reason not given on the ratings table"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/wulf/ratings/",
+   "as_of": "2026-09-24",
+   "note": "free tier shows the latest 5-8 actions only; sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-05",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/earnings/",
+   "as_of": "2026-08-05"
+  },
+  "revenue_actual": {
+   "value": 44.77,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/earnings/",
+   "as_of": "2026-08-05",
+   "note": "USD millions"
+  },
+  "revenue_estimate": {
+   "value": 46.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/earnings/",
+   "as_of": "2026-08-05",
+   "note": "USD millions; consensus at print"
+  },
+  "eps_actual": {
+   "value": -1.94,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/earnings/",
+   "as_of": "2026-08-05",
+   "note": "GAAP; includes $755.7M non-cash warrant fair-value charge"
+  },
+  "eps_estimate": {
+   "value": -0.2437,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/earnings/",
+   "as_of": "2026-08-05"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://investors.terawulf.com/news-events/press-releases/detail/144/terawulf-reports-second-quarter-2026-results",
+   "as_of": "2026-08-05"
+  },
+  "guide_detail": {
+   "value": "No P&L guidance as policy; reaffirmed 250-500MW of new critical IT contracted per year and $8-10M per MW build cost",
+   "source": "https://investors.terawulf.com/news-events/press-releases/detail/144/terawulf-reports-second-quarter-2026-results",
+   "as_of": "2026-08-05"
+  },
+  "reaction_day_pct": {
+   "value": -4.29,
+   "source": "https://stockanalysis.com/stocks/wulf/history/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_5d_pct": {
+   "value": -8.95,
+   "source": "https://stockanalysis.com/stocks/wulf/history/",
+   "as_of": "2026-09-24",
+   "note": "close 5 sessions after the reaction day vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/WULF/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY26 EPS consensus -0.56 now vs -0.48 30d vs -0.47 90d (2 analysts); 0 up / 1 down in 30d; FY27 3 down"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/WULF/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY26 EPS consensus -0.56 now vs -0.48 30d vs -0.47 90d (2 analysts); 0 up / 1 down in 30d; FY27 3 down"
+  },
+  "eps_trend": {
+   "value": {
+    "current": -0.56,
+    "d30": -0.48,
+    "d90": -0.47
+   },
+   "source": "https://finance.yahoo.com/quote/WULF/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year normalized EPS consensus"
+  },
+  "fcf_ttm": {
+   "value": -2740,
+   "source": "https://stockanalysis.com/stocks/wulf/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD millions, trailing twelve months"
+  },
+  "net_income_ttm": {
+   "value": -1950,
+   "source": "https://stockanalysis.com/stocks/wulf/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD millions, trailing twelve months"
+  },
+  "sbc_pct_revenue": {
+   "value": 127.5,
+   "source": "https://stockanalysis.com/stocks/wulf/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "TTM SBC / TTM revenue, computed"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Contracted HPC leases (Fluidstack at Lake Mariner with a Google backstop; a ~$19B, 20-year, 401MW Anthropic lease at Justified) lift revenue from $0.27B in 2026 to ~$0.9B in 2027 as 336MW under construction energizes.",
+   "source": "https://investors.terawulf.com/news-events/press-releases/detail/144/terawulf-reports-second-quarter-2026-results",
+   "as_of": "2026-08-05"
+  },
+  "depends_on": {
+   "value": "On-time delivery of Lake Mariner CB-4/5 and Justified (H2 2027-early 2028) and refinancing of ~$1.1B of current converts",
+   "source": "https://investors.terawulf.com/news-events/press-releases/detail/144/terawulf-reports-second-quarter-2026-results",
+   "as_of": "2026-08-05"
+  },
+  "bear_case": {
+   "value": "Debt/equity 35x, $2.1B converts (half current) plus $3.2B secured notes; $1.2B of equity sold in H1 and shares +14.8% q/q; SBC exceeds revenue; CEO Prager selling monthly; 29-35% of float short.",
+   "source": "https://investors.terawulf.com/news-events/press-releases/detail/144/terawulf-reports-second-quarter-2026-results",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "reported",
+   "source": "https://investors.terawulf.com/news-events/press-releases/detail/144/terawulf-reports-second-quarter-2026-results",
+   "as_of": "2026-08-05"
+  },
+  "financing": {
+   "value": "Converts ~$2.1B on balance sheet ($1.10B current, $1.00B long-term; ~$2.5B par per coverage); $3.2B senior secured notes at WULF Compute; $1.20B net equity raised H1 2026; $600M Google credit support for Fluidstack effective after CB-3; cash incl. restricted $3.0B; contracted: Anthropic ~$19B/20y (up to $33B), Fluidstack Lake Mariner.",
+   "source": "https://investors.terawulf.com/news-events/press-releases/detail/144/terawulf-reports-second-quarter-2026-results",
+   "as_of": "2026-09-24",
+   "note": "debt, converts, ATM and contracted backlog; real 10y yield 2.76% (macro.json)"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "CIFR",
+    "APLD"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    72.3,
+    93.06,
+    47.28,
+    66.14
+   ],
+   "source": "https://stockanalysis.com/stocks/wulf/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "most recent quarter first; StockAnalysis gross margin (excludes some D&A; Finviz TTM gross margin 6.33%)"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: unprofitable on forward basis; Finviz shows \"-\""
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "CIFR": null,
+    "APLD": null
+   },
+   "source": "https://finviz.com/quote.ashx?t=CIFR",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 65.38,
+   "source": "https://stockanalysis.com/stocks/wulf/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz EV/Sales 64.19"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "CIFR": 47.45,
+    "APLD": 19.16
+   },
+   "source": "https://finviz.com/quote.ashx?t=CIFR",
+   "as_of": "2026-09-24",
+   "note": "Finviz"
+  },
+  "substitute": {
+   "value": "Other HPC landlords (CIFR, APLD, IREN, CORZ); hyperscaler self-build",
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table reviewed back to Nov 2025; covers the full 90 days"
+  },
+  "buys_90d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "name": "Bucella Michael C.",
+     "role": "Director",
+     "shares": 6085,
+     "price": 14.79,
+     "usd": 89967,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=WULF",
+     "plan_10b5_1": false,
+     "history": "serial small buyer since Nov 2025; Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Bucella Michael C.",
+     "role": "Director",
+     "shares": 2860,
+     "price": 17.47,
+     "usd": 49964,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=WULF",
+     "plan_10b5_1": false,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Bucella Michael C.",
+     "role": "Director",
+     "shares": 3023,
+     "price": 16.54,
+     "usd": 49985,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=WULF",
+     "plan_10b5_1": false,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-08",
+     "name": "Motz Catherine J.",
+     "role": "Director",
+     "shares": 56023,
+     "price": 17.81,
+     "usd": 997943,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=WULF",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-31",
+     "name": "Carter Walter E.",
+     "role": "Director",
+     "shares": 130626,
+     "price": 15.14,
+     "usd": 1977808,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=WULF",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Prager Paul B.",
+     "role": "CEO",
+     "shares": 137500,
+     "price": 17.06,
+     "usd": 2345654,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=WULF",
+     "plan_10b5_1": null,
+     "history": "monthly cadence since March suggests a plan; Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-06-29",
+     "name": "Prager Paul B.",
+     "role": "CEO",
+     "shares": 137500,
+     "price": 26.6,
+     "usd": 3656950,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=WULF",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24",
+   "note": "Buys: one director, $190K total. Sells: $8.98M across CEO and two directors. plan flags on buys assumed false for open-market purchases; not verified on EDGAR."
+  },
+  "finviz_insider_trans_pct": {
+   "value": -0.85,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; filings dated Aug-Sep 2026"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel is blocked (failure log) and MarketBeat gives no net share total; dollar totals excluded (CalSTRS row)"
+  },
+  "holders_up": {
+   "value": 289,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter 13F count"
+  },
+  "holders_down": {
+   "value": 103,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published by MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published by MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "BlueCrest Capital",
+     "change_pct": null,
+     "shares": 483594
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Steamboat Capital Partners",
+     "change_pct": -85.8,
+     "shares": 74149
+    },
+    {
+     "fund": "Engineers Gate",
+     "change_pct": -57.1,
+     "shares": 331395
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_trans_pct": {
+   "value": 24.37,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 34.67,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-15",
+   "note": "Finviz 121.15M shares matches MarketBeat 2026-09-15 settlement; MarketBeat states 28.87% on a larger float"
+  },
+  "days_to_cover": {
+   "value": 3.65,
+   "source": "https://finviz.com/quote.ashx?t=WULF",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/WULF/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "FINRA settlement date per MarketBeat"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-09",
+    "event": "Q3 2026 earnings (estimated)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/wulf/statistics/",
+  "as_of": "2026-09-24",
+  "note": "confirmed = company-announced; earnings dates are StockAnalysis/MarketBeat estimates unless stated"
+ },
+ "why_it_fell": {
+  "value": "Down 45% from the 29.84 high, -37% in the quarter: Q2 loss of $1.94/share on a $755.7M warrant charge, heavy equity issuance (+14.8% shares q/q), CEO selling and the July rotation out of AI-infrastructure miners.",
+  "source": "https://247wallst.com/cards/terawulf-inc-q2-2026-earnings-wulf-01kz8sxcgyshrp8z0q4rvktggt",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD millions; EPS in USD per share",
+  "accounting_basis": "revenue GAAP; EPS non-GAAP adjusted per S&P Global; EBIT = StockAnalysis operating-income consensus (FY1 only)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "StockAnalysis consensus FCF (CFO minus capex, levered) shown as fcf_consensus; CFO and capex split not published",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 267.21,
+    "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": -382.78,
+    "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by free sources",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex consensus not published; company capex guidance in prospect.financing where given",
+    "kind": "consensus"
+   },
+   "fcf_consensus": {
+    "value": -3970,
+    "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -0.56,
+    "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 906.53,
+    "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income behind StockAnalysis Pro paywall",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -0.24,
+    "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 20,
+    "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/wulf/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/WULF/analysis/",
+    "as_of": "2026-09-24",
+    "note": "Yahoo EPS Revisions, current fiscal year, revision events",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 1,
+    "source": "https://finance.yahoo.com/quote/WULF/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 2,
+    "source": "https://finance.yahoo.com/quote/WULF/analysis/",
+    "as_of": "2026-09-24",
+    "note": "Yahoo current-year EPS analyst count",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 16.29,
+    "source": "https://finviz.com/quote.ashx?t=WULF",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 10750,
+    "source": "https://stockanalysis.com/stocks/wulf/statistics/",
+    "as_of": "2026-09-24",
+    "note": "USD millions",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 3,
+  "prospect_why": "Anthropic ~$19B lease contracted, build ahead",
+  "competition_pts": 2,
+  "competition_why": "GM volatile; SBC 128% of revenue",
+  "macro_fit_pts": 0,
+  "macro_fit_why": "the thesis needs the regime to change: $5.3B debt and a hostile rate tape",
+  "narrative_pts": 1,
+  "narrative_why": "neoclouds lagging",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

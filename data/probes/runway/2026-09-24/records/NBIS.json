@@ -1,0 +1,825 @@
+{
+ "ticker": "NBIS",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 243.48,
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 299.86,
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 73.52,
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 13.64,
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 48.99,
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 9.69,
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -5.12,
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "GICS sector mapping per sources.md",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "data/market/2026-09-24/yahoo/XLK.json",
+   "as_of": "2026-09-24",
+   "note": "21-session change from repo Yahoo close series; SPY computed the same way matches Finviz exactly (0.17 / 4.48)"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "data/market/2026-09-24/yahoo/XLK.json",
+   "as_of": "2026-09-24",
+   "note": "63-session change from repo Yahoo close series"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24",
+   "note": "above both averages, 50 above 200; +11.7% in the week (+7.4% on 2026-09-24 on the BNP upgrade) but -5.1% over 3 months and 18.8% below the high: a rebound inside a range since June"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "data/market/2026-09-24/yahoo/NBIS.json",
+   "as_of": "2026-09-24",
+   "note": "Q2 print 2026-08-12 BMO: close 259.20 (+34.1% vs 193.23), five sessions later 2026-08-19 close 223.90 (+15.9% vs pre-print); gap held above the pre-print close but faded 13.6% from the print-day close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/nbis/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 19,
+   "source": "https://stockanalysis.com/stocks/nbis/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 276.26,
+   "source": "https://stockanalysis.com/stocks/nbis/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 415,
+   "source": "https://stockanalysis.com/stocks/nbis/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 84,
+   "source": "https://stockanalysis.com/stocks/nbis/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": 241.8,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat, 19 analysts, Moderate Buy (2 sell, 5 hold, 12 buy); differs from StockAnalysis by more than 10 points and sits below the close; Finviz Target Price 289.45"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-24",
+     "broker": "BNP Paribas Exane",
+     "action": "upgrade",
+     "target": 399,
+     "reason": "Neutral -> Outperform, PT 260->399"
+    },
+    {
+     "date": "2026-09-24",
+     "broker": "Bank of America",
+     "action": "reiterate",
+     "target": null,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Rothschild & Co Redburn",
+     "action": "initiate",
+     "target": 84,
+     "reason": "Sell"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "Northland Securities",
+     "action": "reiterate",
+     "target": 410,
+     "reason": "Outperform"
+    },
+    {
+     "date": "2026-09-09",
+     "broker": "Truist",
+     "action": "initiate",
+     "target": 355,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-14",
+     "broker": "Citi",
+     "action": "raise",
+     "target": 324,
+     "reason": "Buy, PT 278->324"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "DA Davidson",
+     "action": "reiterate",
+     "target": 175,
+     "reason": "Neutral"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "Baird",
+     "action": "raise",
+     "target": 340,
+     "reason": "Outperform, PT 250->340"
+    },
+    {
+     "date": "2026-08-03",
+     "broker": "Piper Sandler",
+     "action": "initiate",
+     "target": 224,
+     "reason": "Neutral"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/nbis/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis plus MarketBeat forecast pages; Zacks and Weiss excluded"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-12",
+   "source": "https://nebius.com/newsroom/nebius-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12",
+   "note": "MarketBeat lists 2026-08-13; company release and price action are 2026-08-12 BMO"
+  },
+  "revenue_actual": {
+   "value": 582300000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 567910000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": -0.12,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat basis; StockAnalysis GAAP diluted EPS -0.68"
+  },
+  "eps_estimate": {
+   "value": -0.67,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://nebius.com/newsroom/nebius-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12",
+   "note": "company reaffirmed FY26; MarketBeat labels it a cut because consensus $3.4B sat at the top of the $3.0-3.4B range"
+  },
+  "guide_detail": {
+   "value": "Reaffirmed FY26: ARR exiting 2026 $7-9B, revenue $3.0-3.4B, adj. EBITDA margin ~40%, capex $20-25B; raised year-end contracted power target to 5 GW. Q2 ARR $3B; adj. EBITDA $236M (41%); Q2 capex ~$5.7B",
+   "source": "https://financefeeds.com/nebius-nbis-q2-2026-result-stock-up-backlog-capex/",
+   "as_of": "2026-08-12"
+  },
+  "reaction_day_pct": {
+   "value": 34.14,
+   "source": "data/market/2026-09-24/yahoo/NBIS.json",
+   "as_of": "2026-09-24",
+   "note": "2026-08-12 close vs 2026-08-11"
+  },
+  "reaction_5d_pct": {
+   "value": 15.87,
+   "source": "data/market/2026-09-24/yahoo/NBIS.json",
+   "as_of": "2026-09-24",
+   "note": "2026-08-19 close vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/NBIS/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY26 GAAP EPS -2.34 now vs -2.36 30 days ago; 3 up / 2 down revisions in 30d (7 analysts)"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/NBIS/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY26 GAAP EPS -2.34 now vs -1.62 90 days ago; FY27 -5.23 vs -2.13 (loss widening from depreciation on the capex build); revenue estimates rose"
+  },
+  "eps_trend": {
+   "value": {
+    "current": -2.34,
+    "d30": -2.36,
+    "d90": -1.62
+   },
+   "source": "https://finance.yahoo.com/quote/NBIS/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY2026 GAAP EPS"
+  },
+  "fcf_ttm": {
+   "value": -5880000000.0,
+   "source": "https://stockanalysis.com/stocks/nbis/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "net_income_ttm": {
+   "value": 42400000.0,
+   "source": "https://stockanalysis.com/stocks/nbis/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz 61.6M; Q1 net income includes a large non-operating gain"
+  },
+  "sbc_pct_revenue": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown on StockAnalysis pages fetched"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: contracted multi-billion AI-cloud deals with 50-60% upfront prepayments fund a 5 GW build, taking ARR from $3B (June) to $7-9B by year-end and revenue to about $12B in 2027.",
+   "source": "https://nebius.com/newsroom/nebius-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12"
+  },
+  "depends_on": {
+   "value": "exit-2026 ARR inside $7-9B and power/GPU deliveries on schedule; FY27 revenue consensus $12.3B",
+   "source": "https://finance.yahoo.com/quote/NBIS/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: $20-25B annual capex against $1.4B TTM revenue means years of negative FCF, rising debt and dilution; GPU-rental pricing could compress; heavy, steady insider selling (Redburn Sell, PT $84).",
+   "source": "https://stockanalysis.com/stocks/nbis/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://nebius.com/newsroom/nebius-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "CRWV",
+    "IREN"
+   ],
+   "source": "data/cache/2026-09-24-runway/finviz/finviz-snapshots.json (Finviz quote pages fetched 2026-09-24)",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "gaining",
+   "source": "https://nebius.com/newsroom/nebius-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12",
+   "note": "revenue +454% y/y; no third-party share figure"
+  },
+  "gross_margin_4q": {
+   "value": [
+    70.64,
+    69.92,
+    73.98,
+    77.06
+   ],
+   "source": "https://stockanalysis.com/stocks/nbis/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "Sep-25 to Jun-26 per StockAnalysis; Finviz shows TTM gross margin 18.81%, a large definitional conflict (depreciation treatment)"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: negative forward EPS"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "CRWV": null,
+    "IREN": null
+   },
+   "source": "data/cache/2026-09-24-runway/finviz/finviz-snapshots.json (Finviz quote pages fetched 2026-09-24)",
+   "as_of": "2026-09-24",
+   "note": "Finviz snapshot, same page type as the name; null where Finviz shows '-'"
+  },
+  "ev_sales": {
+   "value": 50.33,
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24",
+   "note": "trailing; StockAnalysis 51.61"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "CRWV": 12.5,
+    "IREN": 26.08
+   },
+   "source": "data/cache/2026-09-24-runway/finviz/finviz-snapshots.json (Finviz quote pages fetched 2026-09-24)",
+   "as_of": "2026-09-24",
+   "note": "Finviz snapshot, same page type as the name; null where Finviz shows '-'"
+  },
+  "substitute": {
+   "value": "hyperscaler GPU capacity (AWS, Azure, GCP, Oracle) and CoreWeave",
+   "source": "https://stockanalysis.com/stocks/nbis/statistics/",
+   "as_of": "2026-09-24",
+   "note": "named from bear case"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24",
+   "note": "full Finviz insider table read for 2026-06-26..2026-09-24; Form 144 rows and the 2026-09-14 RSU exercise excluded; no buys"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "name": "John W. Boynton IV",
+     "role": "Director",
+     "shares": 6364,
+     "price": 210.36,
+     "usd": 1338712,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1513845/000151384526000114/xslF345X06/form4.xml",
+     "plan_10b5_1": null,
+     "history": "monthly ~$1.35M pattern via trust (Jun, Jul, Aug, Sep) suggests a plan"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Marc Boroditsky",
+     "role": "Chief Revenue Officer",
+     "shares": 7000,
+     "price": 209.08,
+     "usd": 1463560,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1513845/000151384526000112/xslF345X06/form4.xml",
+     "plan_10b5_1": null,
+     "history": "sale of shares from same-day RSU vest"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "Maria del Dado Alonso Sanchez",
+     "role": "CFO",
+     "shares": 470,
+     "price": 196.0,
+     "usd": 92120,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1513845/000151384526000094/xslF345X06/form4.xml",
+     "plan_10b5_1": null,
+     "history": "small"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Charles E. Ryan",
+     "role": "Director",
+     "shares": 50000,
+     "price": 265.53,
+     "usd": 13276633,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1513845/000151384526000092/xslF345X06/form4.xml",
+     "plan_10b5_1": null,
+     "history": "sold 15% of holding two days after the print; 272,533 held after"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "John W. Boynton IV",
+     "role": "Director",
+     "shares": 5296,
+     "price": 270.99,
+     "usd": 1435147,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1513845/000151384526000090/xslF345X06/form4.xml",
+     "plan_10b5_1": null,
+     "history": ""
+    },
+    {
+     "date": "2026-07-15",
+     "name": "Marc Boroditsky",
+     "role": "Chief Revenue Officer",
+     "shares": 22386,
+     "price": 197.0,
+     "usd": 4410042,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1513845/000151384526000116/xslF345X06/form4.xml",
+     "plan_10b5_1": null,
+     "history": "filed late (2026-09-21); holdings 0 after"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "John W. Boynton IV",
+     "role": "Director",
+     "shares": 6958,
+     "price": 197.0,
+     "usd": 1370744,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1513845/000151384526000084/xslF345X06/form4.xml",
+     "plan_10b5_1": null,
+     "history": ""
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Arkady Volozh",
+     "role": "CEO",
+     "shares": 46627,
+     "price": 235.45,
+     "usd": 10978327,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1513845/000151384526000080/xslF345X06/form4.xml",
+     "plan_10b5_1": null,
+     "history": "quarterly pattern (Apr 1, Jul 1) at identical prices across three officers suggests a scheduled/tax sale; 821,662 held after"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Danila Shtan",
+     "role": "CTO",
+     "shares": 16937,
+     "price": 235.45,
+     "usd": 3987817,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1513845/000151384526000078/xslF345X06/form4.xml",
+     "plan_10b5_1": null,
+     "history": ""
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Andrey Korolenko",
+     "role": "Chief Infrastructure Officer",
+     "shares": 33871,
+     "price": 235.45,
+     "usd": 7974927,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1513845/000151384526000076/xslF345X06/form4.xml",
+     "plan_10b5_1": null,
+     "history": ""
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24",
+   "note": "90-day sales about $46M across 8 insiders, no buys; 10b5-1 status not opened on EDGAR"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/institutional-ownership/",
+   "as_of": "2026-09-23",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; CalSTRS row ignored; dollar totals not used"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives no share-count net; Fintel 403 per failure log. Finviz Inst Trans +26.08%"
+  },
+  "holders_up": {
+   "value": 571,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/institutional-ownership/",
+   "as_of": "2026-09-23",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; CalSTRS row ignored; dollar totals not used"
+  },
+  "holders_down": {
+   "value": 199,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/institutional-ownership/",
+   "as_of": "2026-09-23",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; CalSTRS row ignored; dollar totals not used"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street",
+     "change_pct": 16.2,
+     "shares": 4069875
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/institutional-ownership/",
+   "as_of": "2026-09-22"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/institutional-ownership/",
+   "as_of": "2026-09-23",
+   "note": "trims: Andra AP-fonden -70.4%, Envestnet AM -20.4%"
+  },
+  "short_pct_float": {
+   "value": 20.31,
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis 19.80"
+  },
+  "days_to_cover": {
+   "value": 2.22,
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis 1.88"
+  },
+  "short_as_of": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: settlement date not stated on Finviz or StockAnalysis"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-10",
+    "event": "Q3 2026 earnings (consensus revenue $905M)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-12-31",
+    "event": "Exit-2026 ARR test against $7-9B guide",
+    "confirmed": true
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/NBIS/earnings/",
+  "as_of": "2026-09-24",
+  "note": "earnings date is a MarketBeat estimate"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": "https://finviz.com/quote.ashx?t=NBIS",
+  "as_of": "2026-09-24",
+  "note": "not applicable: 18.8% below the 52w high"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "periods_aligned_note": "calendar FY26/FY27 from the same Yahoo tables, USD, GAAP EPS",
+  "currency": "USD",
+  "units": "USD; EPS per share",
+  "accounting_basis": "GAAP EPS consensus (Yahoo)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24 (Yahoo)",
+  "model_assumptions": "none modelled",
+  "fcf_basis": "CFO minus capex (levered)",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 3340000000.0,
+    "source": "https://finance.yahoo.com/quote/NBIS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "19 analysts; guide $3.0-3.4B"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus; company guides adj. EBITDA margin ~40%, not EBIT"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no forward CFO published; prepayments make CFO lumpy"
+   },
+   "capex": {
+    "value": 22500000000.0,
+    "source": "https://financefeeds.com/nebius-nbis-q2-2026-result-stock-up-backlog-capex/",
+    "as_of": "2026-08-12",
+    "kind": "guidance",
+    "note": "midpoint of $20-25B"
+   },
+   "eps": {
+    "value": -2.34,
+    "source": "https://finance.yahoo.com/quote/NBIS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "7 analysts; StockAnalysis -2.21"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not meaningful with losses"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 12340000000.0,
+    "source": "https://finance.yahoo.com/quote/NBIS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "20 analysts, range $8.8-18.0B; StockAnalysis $12.10B"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no forward CFO published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no 2027 capex guidance"
+   },
+   "eps": {
+    "value": -5.23,
+    "source": "https://finance.yahoo.com/quote/NBIS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "8 analysts; StockAnalysis -3.29"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not meaningful"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 5,
+    "source": "https://stockanalysis.com/stocks/nbis/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "4 strong buy + 1 buy; S&P breakdown covers 9 of 19 analysts"
+   },
+   "hold": {
+    "value": 3,
+    "source": "https://stockanalysis.com/stocks/nbis/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/nbis/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "MarketBeat population (19): 12 buy, 5 hold, 2 sell"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 3,
+    "source": "https://finance.yahoo.com/quote/NBIS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY26 EPS"
+   },
+   "down_30d": {
+    "value": 2,
+    "source": "https://finance.yahoo.com/quote/NBIS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 7,
+    "source": "https://finance.yahoo.com/quote/NBIS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7/30-day counts only"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7/30-day counts only"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 243.48,
+    "source": "https://finviz.com/quote.ashx?t=NBIS",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 68210000000.0,
+    "source": "https://finviz.com/quote.ashx?t=NBIS",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modelled"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 4,
+  "prospect_why": "ARR guide $7-9B held; GAAP losses widening",
+  "competition_pts": 3,
+  "competition_why": "EV/S 50 vs CRWV 12.5",
+  "macro_fit_pts": 0,
+  "macro_fit_why": "the thesis needs the regime to change: capex $20-25B",
+  "narrative_pts": 1,
+  "narrative_why": "neoclouds lagging",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

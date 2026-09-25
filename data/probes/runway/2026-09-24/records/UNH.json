@@ -1,0 +1,748 @@
+{
+ "ticker": "UNH",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 375.01,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 461.62,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 255.96,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -18.76,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -6.32,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 5.59,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price distance to SMA50 < distance to SMA200"
+  },
+  "perf_1m_pct": {
+   "value": -5.44,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -9.75,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLV",
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -3.09,
+   "source": "https://finance.yahoo.com/quote/XLV/history/ (data/market/2026-09-24/yahoo/XLV.json)",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 9.15,
+   "source": "https://finance.yahoo.com/quote/XLV/history/ (data/market/2026-09-24/yahoo/XLV.json)",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24",
+   "note": "sliding since the 2026-07-16 high (461.62): 6.3% below 50 DMA, 5.6% above 200 DMA, 50>200 still; flat ~372-378 for two weeks"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://finance.yahoo.com/quote/UNH/history/",
+   "as_of": "2026-09-24",
+   "note": "print 2026-07-16 BMO: +1.16% on the day, +1.20% after 5 sessions; since then -11.4% below print-day close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 26,
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 481.72,
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 529,
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 380,
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 28.46,
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_finviz": {
+   "value": 481.52,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": 456.56,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat Moderate Buy 27 analysts (0/7/20), low $330, upside 21.8%"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "broker": "Wells Fargo",
+     "action": "reiterate",
+     "target": 526,
+     "reason": "Overweight"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "Evercore ISI",
+     "action": "reiterate",
+     "target": 480,
+     "reason": "Outperform"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "UBS",
+     "action": "reiterate",
+     "target": 490,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Barclays",
+     "action": "reiterate",
+     "target": 441,
+     "reason": "Overweight"
+    },
+    {
+     "date": "2026-09-09",
+     "broker": "Bernstein",
+     "action": "reiterate",
+     "target": 512,
+     "reason": "Outperform"
+    },
+    {
+     "date": "2026-08-27",
+     "broker": "Erste Group",
+     "action": "downgrade",
+     "target": null,
+     "reason": "Buy->Hold"
+    },
+    {
+     "date": "2026-08-03",
+     "broker": "Deutsche Bank",
+     "action": "reiterate",
+     "target": null,
+     "reason": "Hold"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/unh/ratings/",
+   "as_of": "2026-09-24",
+   "note": "no target changes found in 60 days; Zacks/Weiss excluded"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-16",
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 112030000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 110810000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 6.38,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted; GAAP 6.04"
+  },
+  "eps_estimate": {
+   "value": 4.94,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/earnings/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo est 4.92"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.businesswire.com/news/home/20260716830877/en/UnitedHealth-Group-Reports-Second-Quarter-2026-Results",
+   "as_of": "2026-07-16"
+  },
+  "guide_detail": {
+   "value": "FY26 adjusted EPS raised to $19.50-20.00 from the April outlook; consensus now 19.87",
+   "source": "https://www.businesswire.com/news/home/20260716830877/en/UnitedHealth-Group-Reports-Second-Quarter-2026-Results",
+   "as_of": "2026-07-16"
+  },
+  "reaction_day_pct": {
+   "value": 1.16,
+   "source": "https://finance.yahoo.com/quote/UNH/history/",
+   "as_of": "2026-07-16"
+  },
+  "reaction_5d_pct": {
+   "value": 1.2,
+   "source": "https://finance.yahoo.com/quote/UNH/history/",
+   "as_of": "2026-07-23"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/UNH/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY26: 4 up / 0 down in 30d; 19.81 -> 19.87"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/UNH/analysis/",
+   "as_of": "2026-09-24",
+   "note": "18.39 -> 19.87"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 19.87,
+    "d30": 19.81,
+    "d90": 18.39
+   },
+   "source": "https://finance.yahoo.com/quote/UNH/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "fcf_ttm": {
+   "value": 23617000000.0,
+   "source": "https://stockanalysis.com/stocks/unh/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": 14122000000.0,
+   "source": "https://stockanalysis.com/stocks/unh/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "FCF/NI 1.67"
+  },
+  "sbc_pct_revenue": {
+   "value": 0.2,
+   "source": "https://stockanalysis.com/stocks/unh/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: after the 2025 reset, repricing and cost actions restore margins; EPS rebounds +22% in 2026 and +14% in 2027 with guidance already raised twice.",
+   "source": "https://www.businesswire.com/news/home/20260716830877/en/UnitedHealth-Group-Reports-Second-Quarter-2026-Results",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Medical cost trend and Medicare Advantage margins; FY26 EPS $19.50-20.00 guide",
+   "source": "https://www.businesswire.com/news/home/20260716830877/en/UnitedHealth-Group-Reports-Second-Quarter-2026-Results",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: revenue flat in 2026 (consensus -0.2%) as membership is pruned, Q4 seasonally weak (Q4 est $2.10), policy/regulatory risk; shares -19% since the raise and Erste downgraded",
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.businesswire.com/news/home/20260716830877/en/UnitedHealth-Group-Reports-Second-Quarter-2026-Results",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "ELV",
+    "HUM"
+   ],
+   "source": "https://stockanalysis.com/stocks/elv/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "losing",
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24",
+   "note": "deliberate membership shrink; revenue -0.2% 2026E vs +11.9% 2025"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: insurer: gross margin not meaningful; operating margin 7.13/8.05/2.46/3.81 (Q2-26..Q3-25) from SA"
+  },
+  "fwd_pe": {
+   "value": 17.63,
+   "source": "https://stockanalysis.com/stocks/unh/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz 16.65"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "ELV": 14.71,
+    "HUM": 30.59
+   },
+   "source": "https://stockanalysis.com/stocks/elv/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 0.85,
+   "source": "https://stockanalysis.com/stocks/unh/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "ELV": 0.53,
+    "HUM": 0.37
+   },
+   "source": "https://stockanalysis.com/stocks/hum/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "none named",
+   "source": "https://stockanalysis.com/stocks/unh/statistics/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24",
+   "note": "Finviz table (to Apr 2026) and EDGAR Form 4s checked; only $0.66M of sales, no buys"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24",
+   "note": "window 2026-06-26 to 2026-09-24; Finviz insider table, each trade verified on the EDGAR Form 4 XML"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-08-21",
+     "name": "Patrick Conway",
+     "role": "CEO, Optum",
+     "shares": 1169,
+     "price": 390.0,
+     "usd": 455910,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000201/xslF345X06/wk-form4_1787690129.xml",
+     "plan_10b5_1": false,
+     "history": "15,328 after"
+    },
+    {
+     "date": "2026-08-05",
+     "name": "Patrick Conway",
+     "role": "CEO, Optum",
+     "shares": 500,
+     "price": 410.0,
+     "usd": 205000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/731766/000073176626000196/xslF345X06/wk-form4_1786133796.xml",
+     "plan_10b5_1": false,
+     "history": ""
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24",
+   "note": "open-market S-code sales only; option-exercise legs (M), tax withholding (F) and sell-to-cover excluded; plan flag from Form 4 10b5-1 checkbox/footnote"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_up": {
+   "value": 2311,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_down": {
+   "value": 1897,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Envestnet Asset Mgmt",
+     "change_pct": 20.2,
+     "shares": 327968
+    },
+    {
+     "fund": "State Street",
+     "change_pct": 0.7,
+     "shares": 317212
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Amundi",
+     "change_pct": -20.7,
+     "shares": -1319457
+    },
+    {
+     "fund": "Vulcan Value Partners",
+     "change_pct": -92.6,
+     "shares": -842272
+    },
+    {
+     "fund": "Manulife",
+     "change_pct": -19.7,
+     "shares": -508166
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 1.48,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 2.58,
+   "source": "https://finviz.com/quote.ashx?t=UNH",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/UNH/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "13.22M, -13.6%"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-13",
+    "event": "Q3 earnings (BMO)",
+    "confirmed": true
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NYSE/UNH/earnings/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not applicable: 18.8% below 52w high"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": {
+   "value": "USD",
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "units": {
+   "value": "USD; EPS per share",
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "accounting_basis": {
+   "value": "adjusted EPS",
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy1_end": {
+   "value": "2026-12-31",
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy2_end": {
+   "value": "2027-12-31",
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "estimate_vintage": {
+   "value": "2026-09-24",
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "model_assumptions": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "no model"
+  },
+  "fcf_basis": {
+   "value": "CFO minus capex (SA consensus FCF)",
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "revision_period_end": {
+   "value": "2026-09-24",
+   "source": "https://finance.yahoo.com/quote/UNH/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "fy1": {
+   "revenue": {
+    "value": 447190000000.0,
+    "source": "https://stockanalysis.com/stocks/unh/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: SA shows no operating-income forecast for UNH"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "fcf": {
+    "value": 24440000000.0,
+    "source": "https://stockanalysis.com/stocks/unh/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 19.87,
+    "source": "https://stockanalysis.com/stocks/unh/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": 14.5,
+    "source": "https://stockanalysis.com/stocks/unh/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 459660000000.0,
+    "source": "https://stockanalysis.com/stocks/unh/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": 22.61,
+    "source": "https://stockanalysis.com/stocks/unh/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 23,
+    "source": "https://stockanalysis.com/stocks/unh/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "16 strong buy + 7 buy"
+   },
+   "hold": {
+    "value": 4,
+    "source": "https://stockanalysis.com/stocks/unh/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/unh/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 4,
+    "source": "https://finance.yahoo.com/quote/UNH/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/UNH/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 25,
+    "source": "https://finance.yahoo.com/quote/UNH/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Yahoo 7d/30d only"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Yahoo 7d/30d only"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 375.01,
+    "source": "https://finviz.com/quote.ashx?t=UNH",
+    "as_of": "2026-09-24"
+   },
+   "enterprise_value": {
+    "value": 381350000000.0,
+    "source": "https://stockanalysis.com/stocks/unh/statistics/",
+    "as_of": "2026-09-24"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "periods_aligned_evidence": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/unh/forecast/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "repricing in the beat and raise to $19.50-20.00",
+  "competition_pts": 5,
+  "competition_why": "fwd P/E 17.6 vs ELV 14.7",
+  "macro_fit_pts": 5,
+  "macro_fit_why": "defensive with FCF 1.67x NI: plateau-tolerant",
+  "narrative_pts": 3,
+  "narrative_why": "managed care outside the themes",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

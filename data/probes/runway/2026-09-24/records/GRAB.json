@@ -1,0 +1,921 @@
+{
+ "ticker": "GRAB",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 3.11,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 6.6,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 2.74,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -8.66,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -20.23,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -13.13,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -10.12,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLI",
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -5.36,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -8.3,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24",
+   "note": "below 50-day (-8.7%) and 200-day (-20.2%); at a 3-year low (52w low 2.74), +10.7% in the last week off the low"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/grab/history/",
+   "as_of": "2026-09-24",
+   "note": "print day +1.36%; +5 sessions close 1.91% above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/grab/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 25,
+   "source": "https://stockanalysis.com/stocks/grab/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 5.82,
+   "source": "https://stockanalysis.com/stocks/grab/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 8.0,
+   "source": "https://stockanalysis.com/stocks/grab/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 4.6,
+   "source": "https://stockanalysis.com/stocks/grab/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not needed: MarketBeat $6.11 (11 analysts) within 10 points of upside of StockAnalysis"
+  },
+  "finviz_target": {
+   "value": 5.81,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded alongside"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "broker": "DBS",
+     "action": "lower target 5.93->5.00, Buy",
+     "target": 5.0,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-16",
+     "broker": "Barclays",
+     "action": "maintain Overweight",
+     "target": 5.0,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-16",
+     "broker": "Bank of America",
+     "action": "maintain Buy",
+     "target": 4.9,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-16",
+     "broker": "KeyBanc",
+     "action": "set target",
+     "target": 7.0,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-07",
+     "broker": "Maybank",
+     "action": "lower target 6.25->5.40, Buy",
+     "target": 5.4,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-24",
+     "broker": "Bernstein",
+     "action": "maintain Outperform",
+     "target": 5.9,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-11",
+     "broker": "Phillip Securities",
+     "action": "maintain Buy",
+     "target": 7.0,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "JPMorgan",
+     "action": "raise target 5.70->5.90, Overweight",
+     "target": 5.9,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "CGS International",
+     "action": "raise target 4.50->4.60, Add",
+     "target": 4.6,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "Benchmark",
+     "action": "reiterate Buy",
+     "target": null,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/grab/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings page (latest 8) merged with MarketBeat forecast table https://www.marketbeat.com/stocks/NASDAQ/GRAB/forecast/; Weiss/Zacks excluded; reasons not stated on the source unless given"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-04",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 997000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 994970000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 0.06,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted EPS as MarketBeat reports it"
+  },
+  "eps_estimate": {
+   "value": 0.0495,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.investing.com/news/company-news/grab-q2-2026-slides-profit-surges-54-amid-fuel-crisis-guidance-raised-93CH-4832677",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "FY2026 raised to revenue $4.10-4.15B and adjusted EBITDA $720-740M (includes Superbank consolidation and Stash acquisition); $750M buyback announced. Sep 15: $1.49B for 60% of Atome Financial; remaining ~$900M buyback to be executed within 12 months",
+   "source": "https://www.investing.com/news/company-news/grab-q2-2026-slides-profit-surges-54-amid-fuel-crisis-guidance-raised-93CH-4832677",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": 1.36,
+   "source": "https://stockanalysis.com/stocks/grab/history/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_5d_pct": {
+   "value": 1.91,
+   "source": "https://stockanalysis.com/stocks/grab/history/",
+   "as_of": "2026-09-24",
+   "note": "close 5 sessions after the print vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/GRAB/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo EPS Trend FY2026: 0.13 now = 0.13 30d vs 0.09 90d; 4 estimates only. Breadth FY26 2 up / 0 down"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/GRAB/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo EPS Trend FY2026: 0.13 now = 0.13 30d vs 0.09 90d; 4 estimates only. Breadth FY26 2 up / 0 down"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 0.13,
+    "d30": 0.13,
+    "d90": 0.09
+   },
+   "source": "https://finance.yahoo.com/quote/GRAB/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year EPS consensus now, 30 and 90 days ago"
+  },
+  "fcf_ttm": {
+   "value": -160000000.0,
+   "source": "https://stockanalysis.com/stocks/grab/statistics/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis TTM; company reports adjusted FCF $450M TTM (excludes lending-book flows)"
+  },
+  "net_income_ttm": {
+   "value": 598000000.0,
+   "source": "https://stockanalysis.com/stocks/grab/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 6.4,
+   "source": "https://stockanalysis.com/stocks/grab/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "computed: SBC last 4 quarters $240M / TTM revenue $3.73B"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Grab is Southeast Asia's profitable super-app: revenue +22%, adjusted EBITDA +54%, a $750M-plus buyback, and financial services scaled through Superbank and Atome.",
+   "source": "https://www.investing.com/news/company-news/grab-q2-2026-slides-profit-surges-54-amid-fuel-crisis-guidance-raised-93CH-4832677",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Adjusted EBITDA of $720-740M in 2026 and on-demand GMV growth ~20%",
+   "source": "https://www.investing.com/news/company-news/grab-q2-2026-slides-profit-surges-54-amid-fuel-crisis-guidance-raised-93CH-4832677",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Atome purchase ($1.49B for 60%, valuation up to $4.5B) adds BNPL credit risk and spends cash; EPS growth only ~3% into 2027; stock at a 3-year low",
+   "source": "https://www.tipranks.com/news/catalyst/grab-stock-sinks-despite-ceos-bold-buying-spree",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.investing.com/news/company-news/grab-q2-2026-slides-profit-surges-54-amid-fuel-crisis-guidance-raised-93CH-4832677",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "UBER",
+    "DASH"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no source states regional share in the window"
+  },
+  "gross_margin_4q": {
+   "value": [
+    43.79,
+    43.35,
+    30.68,
+    43.76
+   ],
+   "source": "https://stockanalysis.com/stocks/grab/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarterly, latest first"
+  },
+  "fwd_pe": {
+   "value": 18.03,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "UBER": 15.64,
+    "DASH": 39.88
+   },
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24",
+   "note": "Finviz quote pages of each peer"
+  },
+  "ev_sales": {
+   "value": 2.37,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "UBER": "2.74",
+    "DASH": "4.97"
+   },
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24",
+   "note": "'-' means not published"
+  },
+  "substitute": {
+   "value": "GoTo (Gojek) in Indonesia; ShopeeFood",
+   "source": "https://www.cnbc.com/2026/09/16/grab-financial-services-atome-purchase-.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24",
+   "note": "main agent 2026-09-24: issuer files Form 4s voluntarily; the Finviz table reaches back past 2026-06-26 and every buy was opened on EDGAR (form4 links in the entries). Subagent note: foreign private issuer: no Form 4. Grab files Form 4s; Finviz shows CEO $29.9M and COO $0.87M buys on Sep 21 and ~$4.9M of routine officer sales Jul-Sep"
+  },
+  "buys_90d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "name": "Hungate Alexander Charles",
+     "role": "President and COO",
+     "shares": 299571,
+     "price": 2.89,
+     "usd": 866839.0,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1855612/000202637326000010/xslF345X06/wk-form4_1790037678.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code P, direct; bought after selling 145k Sep 2"
+    },
+    {
+     "date": "2026-09-21",
+     "name": "Tan Anthony Ping Yeow",
+     "role": "CEO",
+     "shares": 10350000,
+     "price": 2.89,
+     "usd": 29876310.0,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1855612/000189649726000009/xslF345X06/wk-form4_1790037630.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code P, direct, 10b5-1 unchecked; 10.35M shares, $29.9M; holding to 10.78M from 0.43M. He had sold 400k shares Jul 10 and Aug 10"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24",
+   "note": "CEO Tan $29.9M and COO Hungate $0.87M on Sep 21 after the Atome selloff"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "name": "Kandal Philipp Wolfgang Josef",
+     "role": "Chief Product Officer",
+     "shares": 30000,
+     "price": 3.08,
+     "usd": 92400.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1696555/000169655526000010/xslF345X06/wk-form4_1789689354.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-15",
+     "name": "Oey Peter Henry",
+     "role": "CFO",
+     "shares": 50000,
+     "price": 2.9,
+     "usd": 145190.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000140/xslF345X06/wk-form4_1789689169.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Ong Chin Yin",
+     "role": "Chief Organisational Capability Officer",
+     "shares": 38000,
+     "price": 3.43,
+     "usd": 130412.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1855612/000199086526000011/xslF345X06/wk-form4_1788912392.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-09-02",
+     "name": "Hungate Alexander Charles",
+     "role": "President and COO",
+     "shares": 145349,
+     "price": 3.48,
+     "usd": 506236.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1855612/000202637326000008/xslF345X06/wk-form4_1788566254.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Oey Peter Henry",
+     "role": "CFO",
+     "shares": 50000,
+     "price": 3.6,
+     "usd": 180180.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1855612/000197671826000011/xslF345X06/wk-form4_1787171029.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Kandal Philipp Wolfgang Josef",
+     "role": "Chief Product Officer",
+     "shares": 30000,
+     "price": 3.64,
+     "usd": 109182.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1696555/000169655526000008/xslF345X06/wk-form4_1787085914.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-10",
+     "name": "Tan Anthony Ping Yeow",
+     "role": "CEO",
+     "shares": 400000,
+     "price": 3.62,
+     "usd": 1448720.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1855612/000189649726000007/xslF345X06/wk-form4_1786566255.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-03",
+     "name": "Ong Chin Yin",
+     "role": "Chief Organisational Capability Officer",
+     "shares": 38000,
+     "price": 3.61,
+     "usd": 137264.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1855612/000199086526000009/xslF345X06/wk-form4_1785965201.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "Oey Peter Henry",
+     "role": "CFO",
+     "shares": 50000,
+     "price": 3.83,
+     "usd": 191495.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1855612/000197671826000009/xslF345X06/wk-form4_1784327816.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "Kandal Philipp Wolfgang Josef",
+     "role": "Chief Product Officer",
+     "shares": 30000,
+     "price": 3.83,
+     "usd": 114945.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1696555/000185561226000119/xslF345X06/wk-form4_1784163093.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-07-13",
+     "name": "Kandal Philipp Wolfgang Josef",
+     "role": "Chief Product Officer",
+     "shares": 20000,
+     "price": 4.0,
+     "usd": 80000.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1696555/000185561226000119/xslF345X06/wk-form4_1784163093.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-07-10",
+     "name": "Tan Anthony Ping Yeow",
+     "role": "CEO",
+     "shares": 400000,
+     "price": 3.91,
+     "usd": 1563960.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000117/xslF345X06/wk-form4_1784076680.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-07-02",
+     "name": "Ong Chin Yin",
+     "role": "Chief Organisational Capability Officer",
+     "shares": 38000,
+     "price": 3.88,
+     "usd": 147368.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1855612/000185561226000099/xslF345X06/wk-form4_1783040596.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24",
+   "note": "routine officer sales ~$4.9M (CEO 400k shares twice, CFO, CPO, COO); plan status unknown"
+  },
+  "excluded_90d": {
+   "value": [
+    "2026-09-15 Peter Henry Oey Proposed Sale",
+    "2026-09-02 ALEXANDER CHARLES HUNGATE Proposed Sale",
+    "2026-08-14 PHILIPP KANDAL Proposed Sale",
+    "2026-07-15 Peter Henry Oey Proposed Sale",
+    "2026-07-10 ANTHONY PING YEOW TAN Proposed Sale",
+    "2026-07-02 ONG CHIN YIN Proposed Sale"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24",
+   "note": "option exercises, proposed sales (Form 144) and non-issuer rows excluded"
+  },
+  "finviz_insider_trans_pct": {
+   "value": 0.59,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest completed 13F cycle; MarketBeat most recent filing received 2026-09-23"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: fintel.io blocked (403 per failure log, not retried); MarketBeat does not give quarter net shares"
+  },
+  "holders_up": {
+   "value": 310,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 167,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split new vs increased holders"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split exited vs reduced holders"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Uber Technologies",
+     "usd": 535900000.0
+    },
+    {
+     "fund": "Toyota Motor",
+     "usd": 222910000.0
+    },
+    {
+     "fund": "Norges Bank",
+     "usd": 98110000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest buyers by dollar volume, MarketBeat FAQ, 24-month window; sizes are purchase dollars not position change"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Morgan Stanley",
+     "usd": 32380000.0
+    },
+    {
+     "fund": "UBS AM",
+     "usd": 23470000.0
+    },
+    {
+     "fund": "Wellington",
+     "usd": 22780000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest sellers by dollar volume, 24-month window; not confirmed full exits"
+  },
+  "short_pct_float": {
+   "value": 5.39,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 7.64% (no date); MarketBeat preferred because it states the settlement date"
+  },
+  "days_to_cover": {
+   "value": 3.6,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 4.14"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "finviz_inst_trans_pct": {
+   "value": 0.11,
+   "source": "https://finviz.com/quote.ashx?t=GRAB",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-03",
+    "event": "Q3 2026 earnings",
+    "confirmed": false
+   },
+   {
+    "date": "2026-12-31",
+    "event": "Atome 60% acquisition expected completion (timing not stated in sources fetched)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/GRAB/earnings/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": "Down 52.9% from the $6.60 high: a year-long derating, then a slide to a 3-year low ($2.74) after agreeing on Sep 15 to buy 60% of BNPL lender Atome Financial for $1.49B (valuation up to $4.5B); the CEO's $29.9M buy did not stop the drop.",
+  "source": "https://www.tipranks.com/news/catalyst/grab-stock-sinks-despite-ceos-bold-buying-spree",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute currency units; EPS per share",
+  "accounting_basis": "GAAP revenue; EPS (S&P Global via StockAnalysis, 4 estimates)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "StockAnalysis page retrieved 2026-09-24",
+  "model_assumptions": "none: no modelled leaves",
+  "fcf_basis": "not available: forward CFO/capex unpublished; StockAnalysis FY1 consensus FCF $701M recorded in note only",
+  "revision_period_end": "2026-09-24",
+  "alignment_note": null,
+  "fy1": {
+   "revenue": {
+    "value": 4190000000.0,
+    "source": "https://stockanalysis.com/stocks/grab/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 309390000.0,
+    "source": "https://stockanalysis.com/stocks/grab/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus operating income"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 0.13,
+    "source": "https://stockanalysis.com/stocks/grab/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 5190000000.0,
+    "source": "https://stockanalysis.com/stocks/grab/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis Pro paywall; Yahoo does not publish EBIT estimates",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 0.14,
+    "source": "https://stockanalysis.com/stocks/grab/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 26,
+    "source": "https://stockanalysis.com/stocks/grab/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global via StockAnalysis, Sep 2026 column; strong buy grouped with buy, strong sell with sell"
+   },
+   "hold": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/grab/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/grab/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 2,
+    "source": "https://finance.yahoo.com/quote/GRAB/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current year; 4 estimates"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/GRAB/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 4,
+    "source": "https://finance.yahoo.com/quote/GRAB/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimate count for the same fiscal year"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 3.11,
+    "source": "https://finviz.com/quote.ashx?t=GRAB",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 8850000000.0,
+    "source": "https://finviz.com/quote.ashx?t=GRAB",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: WACC not modelled in this pass",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 5,
+  "prospect_why": "adj. EBITDA +54% and the FY guide raised",
+  "competition_pts": 4,
+  "competition_why": "fwd P/E 18.0 vs UBER 15.6",
+  "macro_fit_pts": 3,
+  "macro_fit_why": "EM archetype 3",
+  "narrative_pts": 2,
+  "narrative_why": "outside the themes; the Atome deal clouds it",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

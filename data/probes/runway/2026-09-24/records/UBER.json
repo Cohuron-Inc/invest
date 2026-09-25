@@ -1,0 +1,863 @@
+{
+ "ticker": "UBER",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 69.22,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 101.29,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 65.41,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -5.68,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -8.03,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -13.85,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -4.19,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLI",
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -5.36,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -8.3,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24",
+   "note": "below 50- and 200-day, -13.9% in a month, 5.8% above the 52w low of 65.41"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/uber/history/",
+   "as_of": "2026-09-24",
+   "note": "print day -5.29% then recovered to +4.68% above the pre-print close by +5 sessions: the down gap filled (bullish reversal, not a held gap)"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/uber/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 50,
+   "source": "https://stockanalysis.com/stocks/uber/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 101.24,
+   "source": "https://stockanalysis.com/stocks/uber/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 150,
+   "source": "https://stockanalysis.com/stocks/uber/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 70,
+   "source": "https://stockanalysis.com/stocks/uber/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not needed: MarketBeat $103.03 (43 analysts) within 10 points of upside of StockAnalysis"
+  },
+  "finviz_target": {
+   "value": 101.35,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded alongside"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "broker": "Bank of America",
+     "action": "maintain Buy",
+     "target": 101,
+     "reason": "AV partnerships scale from 2028; sees 43% upside (TheStreet)"
+    },
+    {
+     "date": "2026-09-15",
+     "broker": "Citigroup",
+     "action": "reiterate Buy",
+     "target": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "Bernstein",
+     "action": "maintain Outperform",
+     "target": 95,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Arete Research",
+     "action": "downgrade to Neutral",
+     "target": 74,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-09",
+     "broker": "Scotiabank",
+     "action": "initiate Sector Outperform",
+     "target": 100,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-08",
+     "broker": "UBS",
+     "action": "reiterate Buy",
+     "target": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-08",
+     "broker": "Wedbush",
+     "action": "reiterate Outperform",
+     "target": 91,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-04",
+     "broker": "BTIG",
+     "action": "maintain Buy",
+     "target": 100,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "Jefferies",
+     "action": "maintain Buy",
+     "target": 110,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "BMO Capital",
+     "action": "set target",
+     "target": 119,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Wells Fargo",
+     "action": "reiterate Overweight",
+     "target": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "Rosenblatt",
+     "action": "initiate Buy",
+     "target": 100,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-25",
+     "broker": "Citizens JMP",
+     "action": "reiterate Market Outperform",
+     "target": 100,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-10",
+     "broker": "Roth Capital",
+     "action": "lower target 105->100",
+     "target": 100,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-10",
+     "broker": "Jefferies",
+     "action": "raise target 100->110",
+     "target": 110,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "Mizuho",
+     "action": "set target",
+     "target": 112,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "Susquehanna",
+     "action": "lower target 110->90",
+     "target": 90,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "Barclays",
+     "action": "lower target 107->106",
+     "target": 106,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "DA Davidson",
+     "action": "lower target 107->100",
+     "target": 100,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "Bernstein",
+     "action": "lower target 110->95",
+     "target": 95,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "Needham",
+     "action": "reiterate Buy",
+     "target": 109,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "Cantor Fitzgerald",
+     "action": "lower target 98->90",
+     "target": 90,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Evercore ISI",
+     "action": "reiterate Outperform",
+     "target": 150,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-28",
+     "broker": "Bank of America",
+     "action": "lower target 104->103",
+     "target": 103,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/uber/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings page (latest 8) merged with MarketBeat forecast table https://www.marketbeat.com/stocks/NYSE/UBER/forecast/; Weiss/Zacks excluded; reasons not stated on the source unless given"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-05",
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 14190000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 14240000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 0.81,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted EPS as MarketBeat reports it"
+  },
+  "eps_estimate": {
+   "value": 0.805,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "Quarterly guide only: Q3 gross bookings $58.25-60.25B (+18-22% cc), non-GAAP EPS $0.84-0.88 (+28-35%). Consensus it was measured against not found; recorded as held (no full-year guide to raise or cut). Revenue missed by 0.4%",
+   "source": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": -5.29,
+   "source": "https://stockanalysis.com/stocks/uber/history/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_5d_pct": {
+   "value": 4.68,
+   "source": "https://stockanalysis.com/stocks/uber/history/",
+   "as_of": "2026-09-24",
+   "note": "close 5 sessions after the print vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/UBER/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo EPS Trend, FY2026 (GAAP basis on the page): 3.19 now vs 3.23 30d (-1.2%) vs 3.04 90d (+4.9%); band +/-2% = flat. Breadth 27 up / 2 down in 30d"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/UBER/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo EPS Trend, FY2026 (GAAP basis on the page): 3.19 now vs 3.23 30d (-1.2%) vs 3.04 90d (+4.9%); band +/-2% = flat. Breadth 27 up / 2 down in 30d"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 3.19,
+    "d30": 3.23,
+    "d90": 3.04
+   },
+   "source": "https://finance.yahoo.com/quote/UBER/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year EPS consensus now, 30 and 90 days ago"
+  },
+  "fcf_ttm": {
+   "value": 10120000000.0,
+   "source": "https://stockanalysis.com/stocks/uber/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "net_income_ttm": {
+   "value": 9580000000.0,
+   "source": "https://stockanalysis.com/stocks/uber/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 3.5,
+   "source": "https://stockanalysis.com/stocks/uber/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "computed: SBC last 4 quarters $1,939M / TTM revenue $55.23B; below the 10% threshold"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Uber is the demand aggregator for rides and delivery; bookings grow high-teens to 20%+, non-GAAP EPS grows ~30%, and autonomous-vehicle partners plug into its network rather than bypass it.",
+   "source": "https://www.nasdaq.com/press-release/uber-announces-results-second-quarter-2026-2026-08-05",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Gross bookings growth of 18-22% and AV partners (Waymo, others) continuing to route through Uber after 2028",
+   "source": "https://www.nasdaq.com/press-release/uber-announces-results-second-quarter-2026-2026-08-05",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Robotaxi fleets (Tesla Cybercab from Sept 8 in Austin, Waymo own app in Austin/Atlanta Jan 2028, Zoox) disintermediate the marketplace and Tesla prices ~30% below",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/uber-stock-down-28-robotaxi-151734574.html",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.nasdaq.com/press-release/uber-announces-results-second-quarter-2026-2026-08-05",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "DASH",
+    "LYFT"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=DASH",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no source states US rideshare share in the window"
+  },
+  "gross_margin_4q": {
+   "value": [
+    39.26,
+    39.25,
+    49.63,
+    34.33
+   ],
+   "source": "https://stockanalysis.com/stocks/uber/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarterly, latest first"
+  },
+  "fwd_pe": {
+   "value": 15.64,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "DASH": 39.88,
+    "LYFT": 14.47
+   },
+   "source": "https://finviz.com/quote.ashx?t=DASH",
+   "as_of": "2026-09-24",
+   "note": "Finviz quote pages of each peer"
+  },
+  "ev_sales": {
+   "value": 2.74,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "DASH": "4.97",
+    "LYFT": "0.75"
+   },
+   "source": "https://finviz.com/quote.ashx?t=DASH",
+   "as_of": "2026-09-24",
+   "note": "'-' means not published"
+  },
+  "substitute": {
+   "value": "Robotaxi fleets operating their own apps (Tesla, Waymo, Zoox)",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/uber-stock-down-28-robotaxi-151734574.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table checked for the full window 2026-06-26 to 2026-09-24 (table extends back to 2025-10-20); every buy/sale Form 4 opened on EDGAR for code and 10b5-1 flag"
+  },
+  "buys_90d": {
+   "value": [
+    {
+     "date": "2026-09-10",
+     "name": "KHOSROWSHAHI DARA",
+     "role": "CEO",
+     "shares": 141000,
+     "price": 70.96,
+     "usd": 10005952.0,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1184237/000118423726000008/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code P, open market, $10.0M; 1,367,100 shares held after"
+    },
+    {
+     "date": "2026-09-04",
+     "name": "Macdonald Andrew",
+     "role": "President and COO",
+     "shares": 70000,
+     "price": 75.83,
+     "usd": 5308064.0,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1543151/000207176126000011/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code P in two lots (54,325 @75.65, 15,675 @76.44); 426,320 held after; second officer buy within a week of the CEO"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24",
+   "note": "two officer open-market buys, $15.3M, CEO and COO, 6 days apart, after a ~30% drawdown"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-11",
+     "name": "Hazelbaker Jill",
+     "role": "SVP Global Marketing, Comms & Public Policy (See Remarks)",
+     "shares": 28170,
+     "price": 71.31,
+     "usd": 2008673.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1543151/000177529726000012/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code S, 10b5-1 box unchecked; 149,525 shares held after. A Form 144 for 157,227 shares was filed the same day"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24",
+   "note": "one discretionary officer sale of $2.0M; Uber-as-10%-owner rows (sales of another issuer at $6-7) excluded"
+  },
+  "excluded_90d": {
+   "value": [
+    "2026-09-15 Uber Technologies, Inc Sale (reporting owner is the company itself trading another issuer's stock)",
+    "2026-09-11 Jill Hazelbaker Proposed Sale",
+    "2026-08-17 Uber Technologies, Inc Sale (reporting owner is the company itself trading another issuer's stock)"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24",
+   "note": "option exercises, proposed sales (Form 144) and non-issuer rows excluded"
+  },
+  "finviz_insider_trans_pct": {
+   "value": 0.23,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest completed 13F cycle; MarketBeat most recent filing received 2026-09-23"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: fintel.io blocked (403 per failure log, not retried); MarketBeat does not give quarter net shares"
+  },
+  "holders_up": {
+   "value": 1847,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 1063,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split new vs increased holders"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split exited vs reduced holders"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Norges Bank",
+     "usd": 80280000.0
+    },
+    {
+     "fund": "Public Investment Fund",
+     "usd": 72840000.0
+    },
+    {
+     "fund": "Capital Research Global Investors",
+     "usd": 55030000.0
+    },
+    {
+     "fund": "Pershing Square",
+     "usd": 30300000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest buyers by dollar volume, MarketBeat FAQ, 24-month window; sizes are purchase dollars not position change"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Jennison Associates",
+     "usd": 13940000.0
+    },
+    {
+     "fund": "Jump Financial",
+     "usd": 10010000.0
+    },
+    {
+     "fund": "Capital Research Global Investors",
+     "usd": 9750000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest sellers by dollar volume, 24-month window; not confirmed full exits"
+  },
+  "short_pct_float": {
+   "value": 2.33,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 2.30% (no date); MarketBeat preferred because it states the settlement date"
+  },
+  "days_to_cover": {
+   "value": 2.3,
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 2.33"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/UBER/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "finviz_inst_trans_pct": {
+   "value": -0.54,
+   "source": "https://finviz.com/quote.ashx?t=UBER",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-03",
+    "event": "Q3 2026 earnings",
+    "confirmed": false
+   },
+   {
+    "date": "2027-02-03",
+    "event": "Q4 2026 earnings (pattern; not published)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NYSE/UBER/earnings/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": "Down 31.7% from the $101.29 high: robotaxi disintermediation fear (Tesla Cybercab launch in Austin Sept 8, Uber -4% that day; Waymo to launch its own app in Austin and Atlanta Jan 2028) plus a -5.3% print day on a 0.4% revenue miss.",
+  "source": "https://finance.yahoo.com/markets/stocks/articles/uber-stock-down-28-robotaxi-151734574.html",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute currency units; EPS per share",
+  "accounting_basis": "non-GAAP adjusted EPS; GAAP revenue (S&P Global via StockAnalysis)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "StockAnalysis last updated 2026-09-21",
+  "model_assumptions": "none: no modelled leaves",
+  "fcf_basis": "not available: forward CFO/capex unpublished; StockAnalysis FY1 consensus FCF $10.49B recorded in note only",
+  "revision_period_end": "2026-09-24",
+  "alignment_note": null,
+  "fy1": {
+   "revenue": {
+    "value": 57890000000.0,
+    "source": "https://stockanalysis.com/stocks/uber/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 8470000000.0,
+    "source": "https://stockanalysis.com/stocks/uber/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus operating income"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 3.36,
+    "source": "https://stockanalysis.com/stocks/uber/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 66780000000.0,
+    "source": "https://stockanalysis.com/stocks/uber/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis Pro paywall; Yahoo does not publish EBIT estimates",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 4.41,
+    "source": "https://stockanalysis.com/stocks/uber/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 42,
+    "source": "https://stockanalysis.com/stocks/uber/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global via StockAnalysis, Sep 2026 column; strong buy grouped with buy, strong sell with sell"
+   },
+   "hold": {
+    "value": 8,
+    "source": "https://stockanalysis.com/stocks/uber/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/uber/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 27,
+    "source": "https://finance.yahoo.com/quote/UBER/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current year (FY2026), GAAP-basis page"
+   },
+   "down_30d": {
+    "value": 2,
+    "source": "https://finance.yahoo.com/quote/UBER/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 38,
+    "source": "https://finance.yahoo.com/quote/UBER/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimate count for the same fiscal year"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 69.22,
+    "source": "https://finviz.com/quote.ashx?t=UBER",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 151150000000.0,
+    "source": "https://finviz.com/quote.ashx?t=UBER",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: WACC not modelled in this pass",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "bookings +18-22% and EPS growth in the last prints",
+  "competition_pts": 5,
+  "competition_why": "GM ~39% stable; fwd P/E 15.6 vs DASH 39.9; the AV partner fear is a story",
+  "macro_fit_pts": 5,
+  "macro_fit_why": "cash-flow value shape: FCF $10.1B at 15.6x",
+  "narrative_pts": 3,
+  "narrative_why": "internet platforms fading; robotaxi fear",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

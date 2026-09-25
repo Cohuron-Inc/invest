@@ -1,0 +1,799 @@
+{
+ "ticker": "CAT",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 805.25,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 1073.46,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 459.58,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -24.99,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -3.02,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 2.13,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price distance to SMA50 < distance to SMA200"
+  },
+  "perf_1m_pct": {
+   "value": -0.74,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -23.82,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLI",
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -5.36,
+   "source": "https://finance.yahoo.com/quote/XLI/history/ (data/market/2026-09-24/yahoo/XLI.json)",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -8.3,
+   "source": "https://finance.yahoo.com/quote/XLI/history/ (data/market/2026-09-24/yahoo/XLI.json)",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24",
+   "note": "fell from 1073 (2026-06-30) to ~780 mid-Sep; now 2.1% above 200 DMA, 3.0% below 50 DMA, 50>200; basing 780-820"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://finance.yahoo.com/quote/CAT/history/",
+   "as_of": "2026-09-24",
+   "note": "print 2026-08-04 BMO: +5.60% on the day (876.54); 5 sessions later 843.37, +1.6% vs pre-print 830.03 but -3.8% off print-day close; now 805, below pre-print level"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 28,
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 975.61,
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 1225,
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 575,
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 21.16,
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_finviz": {
+   "value": 991.21,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": 994.38,
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat Moderate Buy 27 analysts (0 sell/11 hold/16 buy); within 10 points"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "broker": "Bernstein",
+     "action": "reiterate",
+     "target": 1002,
+     "reason": "Market Perform"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "Bank of America",
+     "action": "reiterate",
+     "target": null,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "President Capital",
+     "action": "initiate",
+     "target": 999,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-16",
+     "broker": "Barclays",
+     "action": "reiterate",
+     "target": 900,
+     "reason": "Equal Weight"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "Citi",
+     "action": "reiterate",
+     "target": 1100,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "Stifel",
+     "action": "upgrade",
+     "target": 980,
+     "reason": "to Buy"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Freedom Capital Markets",
+     "action": "upgrade",
+     "target": 980,
+     "reason": "Hold->Buy"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Needham",
+     "action": "set target",
+     "target": 980,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-18",
+     "broker": "Wells Fargo",
+     "action": "reiterate",
+     "target": 1155,
+     "reason": "Overweight"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "DA Davidson",
+     "action": "raise target",
+     "target": 882,
+     "reason": "Neutral; 845->882"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "Barclays",
+     "action": "raise target",
+     "target": 900,
+     "reason": "Equal Weight; 800->900"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "UBS",
+     "action": "raise target",
+     "target": 925,
+     "reason": "Neutral; 900->925"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "RBC",
+     "action": "raise target",
+     "target": 897,
+     "reason": "Sector Perform"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Truist",
+     "action": "set target",
+     "target": 980,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Baird",
+     "action": "set target",
+     "target": 970,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Bernstein",
+     "action": "reiterate",
+     "target": 1002,
+     "reason": "Market Perform"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "Oppenheimer",
+     "action": "reiterate",
+     "target": 1118,
+     "reason": "Outperform"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/forecast/",
+   "as_of": "2026-09-24",
+   "note": "2 upgrades, 0 downgrades, target raises post-print"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-04",
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 20540000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 19340000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 8.17,
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted; GAAP 7.77"
+  },
+  "eps_estimate": {
+   "value": 6.22,
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/earnings/",
+   "as_of": "2026-09-24",
+   "note": "CNBC cites 6.19"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.bnnbloomberg.ca/business/company-news/2026/08/04/caterpillar-raises-2026-revenue-growth-target-after-quarterly-profit-beat/",
+   "as_of": "2026-08-04"
+  },
+  "guide_detail": {
+   "value": "FY26 sales/revenue growth raised to mid-to-high teens from low-to-mid teens; tariff cost ~$2.2B (from $2.2-2.6B); record backlog $72B (+92% y/y), power/data-centre led",
+   "source": "https://www.investing.com/news/company-news/caterpillar-q2-2026-slides-record-205b-sales-backlog-soars-92-93CH-4835041",
+   "as_of": "2026-08-04"
+  },
+  "reaction_day_pct": {
+   "value": 5.6,
+   "source": "https://finance.yahoo.com/quote/CAT/history/",
+   "as_of": "2026-08-04"
+  },
+  "reaction_5d_pct": {
+   "value": 1.61,
+   "source": "https://finance.yahoo.com/quote/CAT/history/",
+   "as_of": "2026-08-11"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/CAT/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Yahoo /analysis/ load error; Zacks FY26: 2 up / 1 down in 30d; 13 up / 0 down in 60d"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/CAT/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "FY26 EPS 24.65 -> 27.37"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 27.37,
+    "d30": 27.14,
+    "d90": 24.65
+   },
+   "source": "https://www.zacks.com/stock/quote/CAT/detailed-earning-estimates",
+   "as_of": "2026-09-24"
+  },
+  "fcf_ttm": {
+   "value": 8994000000.0,
+   "source": "https://stockanalysis.com/stocks/cat/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": 10844000000.0,
+   "source": "https://stockanalysis.com/stocks/cat/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "FCF/NI 0.83"
+  },
+  "sbc_pct_revenue": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: SBC row not on SA page; well under 10%"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Caterpillar is an AI-power play; reciprocating engines and turbines (Solar) for data centres drive a $72B backlog, taking EPS +43% in 2026 and +19% in 2027.",
+   "source": "https://www.bnnbloomberg.ca/business/company-news/2026/08/04/caterpillar-raises-2026-revenue-growth-target-after-quarterly-profit-beat/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Power & Energy backlog conversion and data-centre capex; mid-to-high-teens 2026 sales growth",
+   "source": "https://www.caterpillar.com/en/news/corporate-press-releases/h/2q26-results-caterpillar-inc.html",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: 25x forward earnings for a cyclical, construction/mining softness, tariff costs ~$2.2B, and a data-centre capex slowdown would hit the richest segment; stock -24% in a quarter despite the beat",
+   "source": "https://stockanalysis.com/stocks/cat/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.caterpillar.com/en/news/corporate-press-releases/h/2q26-results-caterpillar-inc.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "DE",
+    "CNH"
+   ],
+   "source": "https://stockanalysis.com/stocks/de/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Komatsu is OTC; Cummins/GE Vernova compete in power"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://stockanalysis.com/stocks/cat/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "gross_margin_4q": {
+   "value": [
+    33.63,
+    30.03,
+    25.97,
+    28.9
+   ],
+   "source": "https://stockanalysis.com/stocks/cat/financials/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "fwd_pe": {
+   "value": 28.01,
+   "source": "https://stockanalysis.com/stocks/cat/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz 24.84"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "DE": 33.09,
+    "CNH": 24.42
+   },
+   "source": "https://stockanalysis.com/stocks/de/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 5.48,
+   "source": "https://stockanalysis.com/stocks/cat/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "DE": 5.11,
+    "CNH": 2.27
+   },
+   "source": "https://stockanalysis.com/stocks/cnh/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "gas turbines (GE Vernova, Siemens Energy), fuel cells (BE) for data-centre power",
+   "source": "https://www.investing.com/news/company-news/caterpillar-q2-2026-slides-record-205b-sales-backlog-soars-92-93CH-4835041",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24",
+   "note": "Finviz table (to Oct 2025) and the EDGAR Form 4 checked for 2026-06-26..09-24. One sale ($26.2M CEO exercise-and-sell); no buys"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24",
+   "note": "window 2026-06-26 to 2026-09-24; Finviz insider table, each trade verified on the EDGAR Form 4 XML"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-08-28",
+     "name": "Joseph Creed",
+     "role": "CEO",
+     "shares": 32401,
+     "price": 808.98,
+     "usd": 26211761,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/18230/000110465926104202/xslF345X06/tm2624382-1_4seq1.xml",
+     "plan_10b5_1": false,
+     "history": "exercise of 44,403 options struck $219.76 (2021 grant), 12,002 withheld for tax (F), 32,401 sold at a weighted $808.98; 34,555 shares after; no 10b5-1 flag"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24",
+   "note": "open-market S-code sales only; option-exercise legs (M), tax withholding (F) and sell-to-cover excluded; plan flag from Form 4 10b5-1 checkbox/footnote"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_up": {
+   "value": 2540,
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_down": {
+   "value": 1817,
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street",
+     "change_pct": 4.0,
+     "shares": 1395267
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Amundi",
+     "change_pct": -7.0,
+     "shares": -155230
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 1.65,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat 1.83%"
+  },
+  "days_to_cover": {
+   "value": 2.52,
+   "source": "https://finviz.com/quote.ashx?t=CAT",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/CAT/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat shows 8.38M vs Finviz 7.55M (Finviz shows prior settlement)"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-28",
+    "event": "Q3 earnings (StockAnalysis estimate; MarketBeat estimates 2026-11-04)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/cat/statistics/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not applicable: 25% below high (threshold 30%); fell from the 2026-06-30 high before the beat-and-raise and did not recover"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": {
+   "value": "USD",
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "units": {
+   "value": "USD; EPS per share",
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "accounting_basis": {
+   "value": "adjusted EPS",
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy1_end": {
+   "value": "2026-12-31",
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy2_end": {
+   "value": "2027-12-31",
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "estimate_vintage": {
+   "value": "2026-09-24",
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "model_assumptions": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "no model"
+  },
+  "fcf_basis": {
+   "value": "CFO minus capex (SA consensus FCF)",
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "revision_period_end": {
+   "value": "2026-09-24",
+   "source": "https://www.zacks.com/stock/quote/CAT/detailed-earning-estimates",
+   "as_of": "2026-09-24"
+  },
+  "fy1": {
+   "revenue": {
+    "value": 79150000000.0,
+    "source": "https://stockanalysis.com/stocks/cat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 15160000000.0,
+    "source": "https://stockanalysis.com/stocks/cat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "fcf": {
+    "value": 11360000000.0,
+    "source": "https://stockanalysis.com/stocks/cat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 27.19,
+    "source": "https://stockanalysis.com/stocks/cat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Zacks 27.37"
+   },
+   "tax_rate_pct": {
+    "value": 23.19,
+    "source": "https://stockanalysis.com/stocks/cat/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 88050000000.0,
+    "source": "https://stockanalysis.com/stocks/cat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: behind SA paywall"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": 32.38,
+    "source": "https://stockanalysis.com/stocks/cat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Zacks 32.99"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 14,
+    "source": "https://stockanalysis.com/stocks/cat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "13 strong buy + 1 buy"
+   },
+   "hold": {
+    "value": 12,
+    "source": "https://stockanalysis.com/stocks/cat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 2,
+    "source": "https://stockanalysis.com/stocks/cat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "1 sell + 1 strong sell"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 2,
+    "source": "https://www.zacks.com/stock/quote/CAT/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 1,
+    "source": "https://www.zacks.com/stock/quote/CAT/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 13,
+    "source": "https://www.zacks.com/stock/quote/CAT/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks 60d: 13 up"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks 60d: 0 down"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 805.25,
+    "source": "https://finviz.com/quote.ashx?t=CAT",
+    "as_of": "2026-09-24"
+   },
+   "enterprise_value": {
+    "value": 409350000000.0,
+    "source": "https://stockanalysis.com/stocks/cat/statistics/",
+    "as_of": "2026-09-24"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "periods_aligned_evidence": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/cat/forecast/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "judgment": {
+  "prospect_pts": 7,
+  "prospect_why": "data-center power backlog $72B, +92%, in the beat and raise",
+  "competition_pts": 6,
+  "competition_why": "GM 28.9 to 33.6% rising",
+  "macro_fit_pts": 5,
+  "macro_fit_why": "materials/industrials 4 plus 1: FCF and pricing",
+  "narrative_pts": 4,
+  "narrative_why": "AI power improving",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

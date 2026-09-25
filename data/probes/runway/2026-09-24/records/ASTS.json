@@ -1,0 +1,769 @@
+{
+ "ticker": "ASTS",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:28:55+00:00",
+ "price": {
+  "close": {
+   "value": 61.06,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 133.86,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 47.5,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -54.39,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24",
+   "note": "computed from close and 52w high"
+  },
+  "sma50_pct": {
+   "value": -2.55,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -25.16,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  },
+  "fifty_above_200": {
+   "value": false,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price sits further above the 200 than the 50"
+  },
+  "perf_1m_pct": {
+   "value": -1.53,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -6.95,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLC",
+   "source": "https://finviz.com/quote.ashx?t=XLC",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 0.72,
+   "source": "https://finviz.com/quote.ashx?t=XLC",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 7.97,
+   "source": "https://finviz.com/quote.ashx?t=XLC",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24",
+   "note": "just below the 50-day (-2.6%), -25% below the 200-day, flat over a month; 54% off the high"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/asts/history/",
+   "as_of": "2026-09-24",
+   "note": "reaction-day close 2026-08-11 71.63 vs +5 sessions 2026-08-18 67.07; held = +5d close at or above reaction-day close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Hold",
+   "source": "https://stockanalysis.com/stocks/asts/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 14,
+   "source": "https://stockanalysis.com/stocks/asts/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 79.61,
+   "source": "https://stockanalysis.com/stocks/asts/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 108,
+   "source": "https://stockanalysis.com/stocks/asts/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 42.5,
+   "source": "https://stockanalysis.com/stocks/asts/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 30.38,
+   "source": "https://stockanalysis.com/stocks/asts/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed: StockAnalysis average target vs Finviz close"
+  },
+  "pt_avg_finviz": {
+   "value": 84.19,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean; recorded beside StockAnalysis, not in place of it"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat forecast page not fetched; Finviz mean target is within 10 upside points of StockAnalysis, so the alt is not required"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-08",
+     "broker": "William Blair",
+     "action": "maintain",
+     "target": null,
+     "reason": "Hold"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Berenberg",
+     "action": "initiate",
+     "target": 92,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "Deutsche Bank",
+     "action": "lower",
+     "target": 93,
+     "reason": "Hold; 106 -> 93"
+    },
+    {
+     "date": "2026-08-11",
+     "broker": "UBS",
+     "action": "lower",
+     "target": 78,
+     "reason": "Hold; 80 -> 78"
+    },
+    {
+     "date": "2026-08-11",
+     "broker": "Clear Street",
+     "action": "maintain",
+     "target": 115,
+     "reason": "Buy"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/asts/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table, rows dated 2026-07-26 onward as rendered; sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-10",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASTS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 31520000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASTS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 34530000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASTS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": -0.77,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASTS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_estimate": {
+   "value": -0.32,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASTS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: FY2026 revenue guide $150-200M vs consensus $167.8M (MarketBeat); whether this raised, held or cut a prior range was not verified"
+  },
+  "guide_detail": {
+   "value": "FY2026 revenue guide $150-200M vs consensus $167.8M (MarketBeat); whether this raised, held or cut a prior range was not verified",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASTS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": 4.17,
+   "source": "https://stockanalysis.com/stocks/asts/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-11 vs prior close 2026-08-10 (68.76)"
+  },
+  "reaction_5d_pct": {
+   "value": -2.46,
+   "source": "https://stockanalysis.com/stocks/asts/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-18 vs pre-print close 2026-08-10"
+  },
+  "revisions_30d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/ASTS/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo FY2026 EPS revisions: 0 up / 4 down in 30 days, 5 down in 7 days (8 analysts). Nasdaq shows 0/0 (conflict; Yahoo is the registry primary)"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/ASTS/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo FY2026 EPS trend -1.51 (90d ago) -> -2.28 now; FY2027 -0.65 -> -1.10"
+  },
+  "eps_trend": {
+   "value": {
+    "current": -2.28,
+    "d30": -1.39,
+    "d90": -1.51
+   },
+   "source": "https://finance.yahoo.com/quote/ASTS/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current-year EPS consensus"
+  },
+  "fcf_ttm": {
+   "value": -1638039000,
+   "source": "https://stockanalysis.com/stocks/asts/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": -618761000,
+   "source": "https://stockanalysis.com/stocks/asts/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": 128.33,
+   "source": "https://stockanalysis.com/stocks/asts/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "SBC TTM 147,959,000 / Finviz sales TTM 115.30M"
+  },
+  "stock_issued_ttm": {
+   "value": 2553037000,
+   "source": "https://stockanalysis.com/stocks/asts/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "common stock issued, TTM to 2026-06-30"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: space-based cellular broadband direct to unmodified phones; 13 BlueBirds in orbit, BB14-16 ready to ship and a company target of ~45 in orbit during 2026, taking revenue from ~$169M (2026) to ~$651M (2027).",
+   "source": "https://finance.yahoo.com/technology/articles/ast-spacemobile-announces-launch-date-110500570.html",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Launch cadence (BlueBird 14+) and start of commercial service with AT&T/Verizon/Vodafone.",
+   "source": "https://finance.yahoo.com/technology/articles/ast-spacemobile-announces-launch-date-110500570.html",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "FCF -$1.64B TTM; two $1B convertibles in 2026 (Feb and July) plus equity; revenue and EPS missed; estimates cut; ~24-34% of float short; class-action lawsuit notices.",
+   "source": "https://finance.yahoo.com/technology/articles/ast-spacemobile-announces-launch-date-110500570.html",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "story",
+   "source": "https://finance.yahoo.com/technology/articles/ast-spacemobile-announces-launch-date-110500570.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "SPCX",
+    "Globalstar/Apple"
+   ],
+   "source": "https://stockanalysis.com/stocks/asts/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    62.61,
+    45.84,
+    20.94,
+    25.23
+   ],
+   "source": "https://stockanalysis.com/stocks/asts/financials/income-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarters Q3-25..Q2-26, oldest first"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no positive forward EPS"
+  },
+  "peer_fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peers not in the Finviz snapshot set or not US-listed"
+  },
+  "ev_sales": {
+   "value": 216.53,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peer pages not fetched"
+  },
+  "substitute": {
+   "value": "SpaceX Starlink direct-to-cell with T-Mobile; Apple-Globalstar satellite messaging.",
+   "source": "https://finance.yahoo.com/technology/articles/ast-spacemobile-announces-launch-date-110500570.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table runs back before 2026-06-26 for this name, so the full trailing 90 days is covered; exercises and proposed (Form 144) sales excluded"
+  },
+  "buys_90d": {
+   "value": [
+    {
+     "date": "2026-08-31",
+     "name": "Cisneros Adriana",
+     "role": "Director",
+     "shares": 10822,
+     "price": 57.22,
+     "usd": 619200,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1749229/000110465926104326/xslF345X06/tm2624604-1_4seq1.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 checked: three code-P lots on 2026-08-31, 10b5-1 unmarked; director's holdings 797,023 after"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-16",
+     "name": "Yao Huiwen",
+     "role": "Chief Technology Officer",
+     "shares": 40000,
+     "price": 58.93,
+     "usd": 2357200,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226043183/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Gupta Shanti B.",
+     "role": "Chief Operating Officer",
+     "shares": 12000,
+     "price": 58.89,
+     "usd": 706680,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226043182/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24",
+   "note": "plan_10b5_1 null = not verified on the Form 4"
+  },
+  "finviz_net_change_pct": {
+   "value": -2.19,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://api.nasdaq.com/api/company/ASTS/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-holder rows dated 6/30/2026; Vanguard Group row still 12/31/2025"
+  },
+  "net_shares": {
+   "value": 9364085,
+   "source": "https://api.nasdaq.com/api/company/ASTS/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq 13F summary (latest filings, most dated 2026-06-30); net = increased-position shares minus decreased-position shares"
+  },
+  "holders_up": {
+   "value": 560,
+   "source": "https://api.nasdaq.com/api/company/ASTS/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_down": {
+   "value": 243,
+   "source": "https://api.nasdaq.com/api/company/ASTS/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_new": {
+   "value": 180,
+   "source": "https://api.nasdaq.com/api/company/ASTS/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_exited": {
+   "value": 102,
+   "source": "https://api.nasdaq.com/api/company/ASTS/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Morgan Stanley",
+     "change_pct": 129.1,
+     "shares": 4124149
+    },
+    {
+     "fund": "Marex Group",
+     "change_pct": 135.6,
+     "shares": 3579695
+    },
+    {
+     "fund": "Jane Street",
+     "change_pct": 14292.4,
+     "shares": 3559370
+    },
+    {
+     "fund": "Vanguard Portfolio Mgmt",
+     "change_pct": 20.7,
+     "shares": 2286995
+    }
+   ],
+   "source": "https://api.nasdaq.com/api/company/ASTS/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-15 holders by value; change_pct null = new position"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://api.nasdaq.com/api/company/ASTS/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "no full exit among the top-15 holders; large reductions are listed in named_cuts"
+  },
+  "named_cuts": {
+   "value": [
+    {
+     "fund": "Rakuten Group",
+     "change_pct": -50.0,
+     "shares": -15510077
+    }
+   ],
+   "source": "https://api.nasdaq.com/api/company/ASTS/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 34.17,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 6.93,
+   "source": "https://api.nasdaq.com/api/quote/ASTS/short-interest?assetClass=stocks",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq, settlement 09/15/2026, 65,261,118 sh short; Finviz short ratio 4.81"
+  },
+  "short_as_of": {
+   "value": "2026-08-31",
+   "source": "https://api.nasdaq.com/api/quote/ASTS/short-interest?assetClass=stocks",
+   "as_of": "2026-09-24",
+   "note": "Finviz short interest 64.14M matches the Nasdaq row settling 08/31/2026"
+  },
+  "finviz_inst_change_pct": {
+   "value": 1.61,
+   "source": "https://finviz.com/quote.ashx?t=ASTS",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float_alt": {
+   "value": 24.07,
+   "source": "https://stockanalysis.com/stocks/asts/statistics/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis float basis; differs from Finviz"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-09",
+    "event": "Q3 2026 earnings (MarketBeat estimate; not confirmed)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-10",
+    "event": "BlueBird 14-16 launch ('ready to ship shortly'; no launch date announced)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-12-31",
+    "event": "Company target of ~45 BlueBirds in orbit during 2026 (13 in orbit after the 2026-08-05 launch)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-07-20",
+    "event": "Equity-linked raise: $1.0B 1.625% convertible notes due 2034 settled (conversion ~$79.57; capped call $149.20)",
+    "confirmed": true
+   }
+  ],
+  "source": "https://www.sec.gov/Archives/edgar/data/0001780312/000119312526342540/asts-ex99_1.htm",
+  "as_of": "2026-09-24",
+  "note": "next 6 months; 'confirmed' means company-announced"
+ },
+ "why_it_fell": {
+  "value": "Down 54% from the high: a $1B 1.625% convertible (conversion $79.57) in July knocked the stock ~13% alongside launch-provider acquisition talk; Q2 revenue and EPS missed and FY2026 EPS estimates fell from -1.51 to -2.28 in 90 days.",
+  "source": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-falls-13-1b-141614156.html",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute; EPS per share",
+  "accounting_basis": "revenue consensus; EPS = StockAnalysis adjusted (normalized) consensus; EBIT = StockAnalysis operating income consensus",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "not available (CFO/capex not published)",
+  "revision_period_end": "2026-09-24",
+  "note": "FY1/FY2 revenue and adjusted EPS from the same StockAnalysis snapshot; FY2 EBIT is behind a paywall",
+  "fy1": {
+   "revenue": {
+    "value": 168843670,
+    "source": "https://stockanalysis.com/stocks/asts/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -2.0374,
+    "source": "https://stockanalysis.com/stocks/asts/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": -643573770,
+    "source": "https://stockanalysis.com/stocks/asts/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF -1,947,613,600 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF -1,947,613,600 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 650775060,
+    "source": "https://stockanalysis.com/stocks/asts/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -1.28918,
+    "source": "https://stockanalysis.com/stocks/asts/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is [PRO]-gated on StockAnalysis",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 5,
+    "source": "https://stockanalysis.com/stocks/asts/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy"
+   },
+   "hold": {
+    "value": 7,
+    "source": "https://stockanalysis.com/stocks/asts/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 2,
+    "source": "https://stockanalysis.com/stocks/asts/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell + strong sell"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/ASTS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY2026 EPS; Yahoo EPS Revisions"
+   },
+   "down_30d": {
+    "value": 4,
+    "source": "https://finance.yahoo.com/quote/ASTS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 8,
+    "source": "https://finance.yahoo.com/quote/ASTS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimates for FY2026 EPS on that provider"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts from any fetchable source",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 61.06,
+    "source": "https://finviz.com/quote.ashx?t=ASTS",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 24470000000.0,
+    "source": "https://stockanalysis.com/stocks/asts/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 2,
+  "prospect_why": "direct-to-phone service needs ~45 satellites; 13 in orbit",
+  "competition_pts": 2,
+  "competition_why": "GM 62.6 to 25.2% falling; SpaceX direct-to-cell substitute shipping",
+  "macro_fit_pts": 0,
+  "macro_fit_why": "the thesis needs the regime to change: $2B of converts, SBC 128%",
+  "narrative_pts": 1,
+  "narrative_why": "space lagging and worsening",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

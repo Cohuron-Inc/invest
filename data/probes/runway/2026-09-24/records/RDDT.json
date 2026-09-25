@@ -1,0 +1,863 @@
+{
+ "ticker": "RDDT",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:30:55+00:00",
+ "price": {
+  "close": {
+   "value": 152.72,
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 263.5,
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 119.27,
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -4.68,
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -10.74,
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -5.99,
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -3.35,
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLC",
+   "source": "https://finviz.com/quote.ashx?t=XLC",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 0.72,
+   "source": "https://finviz.com/quote.ashx?t=XLC",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 7.97,
+   "source": "https://finviz.com/quote.ashx?t=XLC",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24",
+   "note": "-4.7% vs 50-day, -10.7% vs 200-day, 42% below the high; judgment by the research subagent from the listed data, not a sourced fact"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/rddt/history/",
+   "as_of": "2026-09-24",
+   "note": "print-reaction day 2026-07-31 -20.99% (close 140.67 vs prior 178.04); five sessions later 2026-08-07 close 161.7 (+14.95% from print day, -9.18% vs pre-print close). true = the five-session close stayed at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+   "as_of": "2026-09-24",
+   "note": "S&P Global: strong buy 16, buy 6, hold 11, sell 0, strong sell 1; Finviz Recom 1.81"
+  },
+  "analysts": {
+   "value": 34,
+   "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 213.71,
+   "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+   "as_of": "2026-09-24",
+   "note": "33 targets; median 210; Finviz Target Price 216.20"
+  },
+  "pt_high": {
+   "value": 300,
+   "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 130,
+   "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat price-target page not fetched; StockAnalysis and Finviz means agree within 10%"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-18",
+     "broker": "Exane BNP Paribas",
+     "action": "initiate",
+     "rating": "Hold",
+     "target": 180,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "D.A. Davidson",
+     "action": "reiterate (cut target)",
+     "rating": "Buy",
+     "target": 185,
+     "target_prior": 200,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "Truist Financial",
+     "action": "reiterate",
+     "rating": "Buy",
+     "target": 275,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-16",
+     "broker": "Guggenheim",
+     "action": "maintain",
+     "rating": "Buy",
+     "target": 255,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "Bernstein",
+     "action": "maintain",
+     "rating": "Hold",
+     "target": 180,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "Goldman Sachs",
+     "action": "maintain",
+     "rating": "Hold",
+     "target": 215,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-21",
+     "broker": "Morgan Stanley",
+     "action": "reiterate (cut target)",
+     "rating": "Buy",
+     "target": 210,
+     "target_prior": 240,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-17",
+     "broker": "Raymond James",
+     "action": "maintain (raise target)",
+     "rating": "Buy",
+     "target": 205,
+     "target_prior": 200,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/rddt/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free tier shows only the 8 most recent actions; older actions inside 60 days may be missing"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 804910000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 731000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 1.25,
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_estimate": {
+   "value": 0.949,
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://seekingalpha.com/news/4622399-reddit-forecasts-q3-2026-revenue-of-860m-870m-with-45-percent-adjusted-ebitda-margin-midpoint",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "Q3 revenue guide $860-870m (+47-49%), adjusted EBITDA $385-395m (45% margin at midpoint). Midpoint $865m sits below the current Q3 consensus of $872-886m. Labelled held: a new quarterly guide, not a revision of a prior range",
+   "source": "https://seekingalpha.com/news/4622399-reddit-forecasts-q3-2026-revenue-of-860m-870m-with-45-percent-adjusted-ebitda-margin-midpoint",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": -20.99,
+   "source": "https://stockanalysis.com/stocks/rddt/history/",
+   "as_of": "2026-09-24",
+   "note": "2026-07-31 close vs prior close"
+  },
+  "reaction_5d_pct": {
+   "value": -9.18,
+   "source": "https://stockanalysis.com/stocks/rddt/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-07 vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://www.zacks.com/stock/quote/RDDT/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2026 EPS: 5.33 30d ago, 4.92 90d ago, 5.27 now; 30d: 0 up / 0 down of 12 (level -1.1% from mix); 60d: 10 up / 1 down"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/RDDT/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2026 EPS: 5.33 30d ago, 4.92 90d ago, 5.27 now; 30d: 0 up / 0 down of 12 (level -1.1% from mix); 60d: 10 up / 1 down"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 5.27,
+    "d30": 5.33,
+    "d60": 4.93,
+    "d90": 4.92
+   },
+   "source": "https://www.zacks.com/stock/quote/RDDT/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks consensus, current fiscal year EPS; numbers only, Zacks Rank not used"
+  },
+  "fcf_ttm": {
+   "value": 1018649000,
+   "source": "https://stockanalysis.com/stocks/rddt/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "sum of last four quarters 2026-06-30, 2026-03-31, 2025-12-31, 2025-09-30"
+  },
+  "net_income_ttm": {
+   "value": 871095000,
+   "source": "https://stockanalysis.com/stocks/rddt/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 12.2,
+   "source": "https://stockanalysis.com/stocks/rddt/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): logged-in user growth, ads and AI data licensing sustain ~50% revenue growth at a 45% EBITDA margin.",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/reddit-shares-slump-management-warns-142100557.html",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "search referral stability and US daily users returning to growth",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/reddit-shares-slump-management-warns-142100557.html",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: Google AI Overviews reduce search traffic, US daily users fell to 53.2m from 53.5m, no new AI licensing deal, and short interest is 14% of float; CEO and COO sold $46m under plans.",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/reddit-shares-slump-management-warns-142100557.html",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/reddit-shares-slump-management-warns-142100557.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "META",
+    "PINS"
+   ],
+   "source": "https://stockanalysis.com/stocks/rddt/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://stockanalysis.com/stocks/rddt/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "gross_margin_4q": {
+   "value": [
+    91.27,
+    91.52,
+    91.91,
+    91.02
+   ],
+   "source": "https://stockanalysis.com/stocks/rddt/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarters 2026-06-30, 2026-03-31, 2025-12-31, 2025-09-30, newest first"
+  },
+  "fwd_pe": {
+   "value": 21.52,
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward PE 25.307"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "META": 22.91,
+    "PINS": 7.77
+   },
+   "source": "https://finviz.com/quote.ashx?t=META,PINS",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 9.58,
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "META": 8.77,
+    "PINS": 2.31
+   },
+   "source": "https://finviz.com/quote.ashx?t=META,PINS",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "AI answer engines (Google AI Overviews, ChatGPT) reducing search referrals; named in coverage",
+   "source": "https://stockanalysis.com/stocks/rddt/statistics/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to 2025-12-19; every Sale row from 2026-06-26 to 2026-09-24 verified in its Form 4 XML on EDGAR (transaction code, shares, price, aff10b5One checkbox). Form 144 proposed sales and option exercises excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases (code P) in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "name": "Huffman Steve Ladd",
+     "role": "CEO & President",
+     "shares": 17308,
+     "price": 160.11,
+     "usd": 2771194,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000109/wk-form4_1789682506.xml",
+     "plan_10b5_1": true,
+     "history": "4.9% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Wong Jennifer L.",
+     "role": "Chief Operating Officer",
+     "shares": 60000,
+     "price": 162.33,
+     "usd": 9739589,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1663651/000166365126000021/wk-form4_1789596929.xml",
+     "plan_10b5_1": true,
+     "history": "5.6% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-31",
+     "name": "Huffman Steve Ladd",
+     "role": "CEO & President",
+     "shares": 18000,
+     "price": 148.02,
+     "usd": 2664412,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1713445/000182701126000038/wk-form4_1788388675.xml",
+     "plan_10b5_1": true,
+     "history": "5.1% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Sauerberg Robert A.",
+     "role": "Director",
+     "shares": 5128,
+     "price": 159.92,
+     "usd": 820070,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1713445/000192441226000004/wk-form4_1787868043.xml",
+     "plan_10b5_1": false,
+     "history": "15.9% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Wong Jennifer L.",
+     "role": "Chief Operating Officer",
+     "shares": 75000,
+     "price": 178.55,
+     "usd": 13391000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1663651/000166365126000016/wk-form4_1787087222.xml",
+     "plan_10b5_1": true,
+     "history": "6.7% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Huffman Steve Ladd",
+     "role": "CEO & President",
+     "shares": 18000,
+     "price": 178.16,
+     "usd": 3206893,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1713445/000182701126000033/wk-form4_1787087348.xml",
+     "plan_10b5_1": true,
+     "history": "4.6% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-08-04",
+     "name": "Huffman Steve Ladd",
+     "role": "CEO & President",
+     "shares": 18000,
+     "price": 159.78,
+     "usd": 2876017,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000102/wk-form4_1786050527.xml",
+     "plan_10b5_1": true,
+     "history": "4.6% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "Wong Jennifer L.",
+     "role": "Chief Operating Officer",
+     "shares": 39167,
+     "price": 197.88,
+     "usd": 7750173,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1663651/000166365126000015/wk-form4_1784329990.xml",
+     "plan_10b5_1": true,
+     "history": "3.6% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "Huffman Steve Ladd",
+     "role": "CEO & President",
+     "shares": 18000,
+     "price": 197.86,
+     "usd": 3561471,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000094/wk-form4_1784329950.xml",
+     "plan_10b5_1": true,
+     "history": "4.6% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Reynolds Michelle Marie",
+     "role": "Chief Accounting Officer",
+     "shares": 808,
+     "price": 200.0,
+     "usd": 161600,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000093/wk-form4_1783372563.xml",
+     "plan_10b5_1": true,
+     "history": "5.1% of the reporting line's holding"
+    },
+    {
+     "date": "2026-06-30",
+     "name": "Huffman Steve Ladd",
+     "role": "CEO & President",
+     "shares": 18000,
+     "price": 173.13,
+     "usd": 3116401,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000092/wk-form4_1783033010.xml",
+     "plan_10b5_1": true,
+     "history": "4.6% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=RDDT",
+   "as_of": "2026-09-24",
+   "note": "11 Form 4 sale lines, $50,058,820 total, 4 sellers; weighted-average price per filing-day. CEO Huffman $18.2m and COO Wong $30.9m, both 10b5-1; director Sauerberg $0.8m not 10b5-1. Total $50.1m, just over the $50m gate line."
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; filings dated Aug-Sep 2026 describe 2026-06-30 holdings"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel blocked (403 per failure log); MarketBeat gives no net share figure; dollar totals excluded per failure log"
+  },
+  "holders_up": {
+   "value": 647,
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_down": {
+   "value": 277,
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no new-position count on MarketBeat; Fintel blocked"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no exited-position count on MarketBeat; Fintel blocked"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street Corp",
+     "change_pct": 8.7,
+     "shares": 2979587,
+     "filed": "2026-09-22"
+    },
+    {
+     "fund": "Amundi",
+     "change_pct": 21.2,
+     "shares": 272267,
+     "filed": "2026-08-26"
+    },
+    {
+     "fund": "Styrax Capital",
+     "change_pct": null,
+     "shares": 250000,
+     "filed": "2026-08-23",
+     "note": "likely new"
+    },
+    {
+     "fund": "Light Street Capital",
+     "change_pct": null,
+     "shares": 182500,
+     "filed": "2026-09-08",
+     "note": "likely new"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "from the most recent 13F filings listed on MarketBeat (Q2 2026 13F, late filers); the table shows the last ~40 filings only"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "no full exits visible in the recent-filings table; not a verified absence"
+  },
+  "short_pct_float": {
+   "value": 14.43,
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Float 14.33% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 4.4,
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Ratio 3.43"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/RDDT/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "FINRA settlement date"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-29",
+    "event": "Q3 2026 earnings (estimated)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/rddt/statistics/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": "Down 42% from $263.50: the Q2 print beat, but management warned of volatile search referrals from Google AI Overviews, US daily users slipped to 53.2m and no new AI licensing deal was announced; the shares fell 21% on 31 July.",
+  "source": "https://finance.yahoo.com/markets/stocks/articles/reddit-shares-slump-management-warns-142100557.html",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; per-share in USD",
+  "accounting_basis": "revenue as reported; EPS adjusted (S&P consensus basis) for both years; FY1 EBIT S&P consensus basis",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": "none; no modelled leaves",
+  "fcf_basis": "not available (CFO/capex consensus not published free)",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 3386459310,
+    "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global consensus, 31 analysts; Zacks 3.40B",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 7.67514,
+    "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks 5.27",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 1023830940,
+    "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus operating income, FY1",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published free; only consensus FCF",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published free",
+    "kind": "consensus"
+   },
+   "fcf_consensus": {
+    "value": 1314018180,
+    "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus FCF, informational; not split into CFO and capex",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 4463645960,
+    "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+    "as_of": "2026-09-24",
+    "note": "Zacks 4.51B",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 9.68749,
+    "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks 6.94",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating-income consensus is behind the StockAnalysis paywall",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 22,
+    "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+    "as_of": "2026-09-24",
+    "note": "strong buy + buy",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 11,
+    "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/rddt/forecast/",
+    "as_of": "2026-09-24",
+    "note": "sell + strong sell",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/RDDT/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "current fiscal year EPS, Zacks up-revisions last 30 days",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/RDDT/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 12,
+    "source": "https://www.zacks.com/stock/quote/RDDT/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "Zacks # of estimates, current fiscal year",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks shows 60-day counts only: up 10, down 1",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: see up_90d",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 152.72,
+    "source": "https://finviz.com/quote.ashx?t=RDDT",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 26617305007.0,
+    "source": "https://stockanalysis.com/stocks/rddt/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 5,
+  "prospect_why": "ads and licensing in the beat; Q3 guided below consensus",
+  "competition_pts": 4,
+  "competition_why": "GM ~91%; AI Overviews traffic risk",
+  "macro_fit_pts": 2,
+  "macro_fit_why": "internet platforms 4 minus 2: logged-in traffic risk plus SBC 12%",
+  "narrative_pts": 2,
+  "narrative_why": "internet platforms fading",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

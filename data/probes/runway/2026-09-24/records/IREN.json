@@ -1,0 +1,696 @@
+{
+ "ticker": "IREN",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 46.15,
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 76.87,
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 28.93,
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -39.96,
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24",
+   "note": "computed from close and 52w high"
+  },
+  "sma50_pct": {
+   "value": 12.5,
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 1.2,
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 9.33,
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -3.33,
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS information technology; XLK used as the sector benchmark"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24",
+   "note": "above 50d (+12.5%) and 200d (+1.2%), +9.3% month, 28.93-76.87 range; 50d below 200d"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/iren/history/",
+   "as_of": "2026-09-24",
+   "note": "pre-print close 40.53, reaction-day close 35.45 (-12.53%), close Sep 4, 2026 44.68 (+10.24% vs pre-print). down gap (-12.5%) fully reclaimed within five sessions; now above pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/iren/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 17,
+   "source": "https://stockanalysis.com/stocks/iren/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 79.03,
+   "source": "https://stockanalysis.com/stocks/iren/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 131,
+   "source": "https://stockanalysis.com/stocks/iren/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 43,
+   "source": "https://stockanalysis.com/stocks/iren/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 71.25,
+   "source": "https://stockanalysis.com/stocks/iren/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed vs Finviz close"
+  },
+  "pt_avg_alt": {
+   "value": 81.47,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/IREN/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat consensus of 22 analysts; Finviz target mean 80.03"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "broker": "Rothschild & Co Redburn",
+     "action": "initiate Hold",
+     "target": 40,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "Northland",
+     "action": "initiate Buy",
+     "target": 99,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "BTIG",
+     "action": "reiterate Buy",
+     "target": 80,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "J.P. Morgan",
+     "action": "upgrade to Buy",
+     "target": 65,
+     "reason": "PT 46 -> 65"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "Bernstein",
+     "action": "maintain Buy",
+     "target": 100,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "H.C. Wainwright",
+     "action": "reiterate Buy",
+     "target": 90,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-08-28",
+     "broker": "Cantor Fitzgerald",
+     "action": "maintain Buy",
+     "target": 99,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-08-28",
+     "broker": "Canaccord",
+     "action": "maintain Buy",
+     "target": 79,
+     "reason": "see source; reason not given on the ratings table"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/iren/ratings/",
+   "as_of": "2026-09-24",
+   "note": "free tier shows the latest 5-8 actions only; sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-27",
+   "source": "https://www.nasdaq.com/press-release/iren-reports-fy26-results-2026-08-27",
+   "as_of": "2026-08-27"
+  },
+  "revenue_actual": {
+   "value": 137.2,
+   "source": "https://www.nasdaq.com/press-release/iren-reports-fy26-results-2026-08-27",
+   "as_of": "2026-08-27",
+   "note": "USD millions"
+  },
+  "revenue_estimate": {
+   "value": 132.3,
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-08-27",
+   "note": "USD millions; derived from Finviz +3.71% sales surprise; a Zacks preview cited $157.1M, which would be a miss"
+  },
+  "eps_actual": {
+   "value": -0.25,
+   "source": "https://finance.yahoo.com/quote/IREN/analysis/",
+   "as_of": "2026-08-27",
+   "note": "Yahoo normalized EPS; GAAP net loss $684.0M incl. $450.4M impairments (Finviz shows -246% GAAP surprise)"
+  },
+  "eps_estimate": {
+   "value": -0.46,
+   "source": "https://finance.yahoo.com/quote/IREN/analysis/",
+   "as_of": "2026-08-27"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.nasdaq.com/press-release/iren-reports-fy26-results-2026-08-27",
+   "as_of": "2026-08-27"
+  },
+  "guide_detail": {
+   "value": "No P&L guidance; $4bn contracted ARR for 2026 capacity (up from the prior $3.4bn end-2026 target per coverage), $1bn operating ARR today; delivery ~0.3GW 2026, 0.8GW 2027",
+   "source": "https://www.nasdaq.com/press-release/iren-reports-fy26-results-2026-08-27",
+   "as_of": "2026-08-27"
+  },
+  "reaction_day_pct": {
+   "value": -12.53,
+   "source": "https://stockanalysis.com/stocks/iren/history/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_5d_pct": {
+   "value": 10.24,
+   "source": "https://stockanalysis.com/stocks/iren/history/",
+   "as_of": "2026-09-24",
+   "note": "close 5 sessions after the reaction day vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/IREN/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY27 (Jun-27) EPS consensus -3.42 now vs -1.00 30d ago vs -0.94 90d ago (4 analysts); losses deepening with depreciation ramp"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/IREN/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY27 (Jun-27) EPS consensus -3.42 now vs -1.00 30d ago vs -0.94 90d ago (4 analysts); losses deepening with depreciation ramp"
+  },
+  "eps_trend": {
+   "value": {
+    "current": -3.42,
+    "d30": -1.0,
+    "d90": -0.94
+   },
+   "source": "https://finance.yahoo.com/quote/IREN/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year normalized EPS consensus"
+  },
+  "fcf_ttm": {
+   "value": -2230,
+   "source": "https://stockanalysis.com/stocks/iren/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD millions, trailing twelve months"
+  },
+  "net_income_ttm": {
+   "value": -702.6,
+   "source": "https://stockanalysis.com/stocks/iren/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD millions, trailing twelve months"
+  },
+  "sbc_pct_revenue": {
+   "value": 29.0,
+   "source": "https://stockanalysis.com/stocks/iren/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "TTM SBC / TTM revenue, computed"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: A $4bn contracted ARR book for 2026 capacity (Microsoft Horizon 1-4 plus a frontier lab, Cohere, Perplexity) at >$20M revenue per MW and ~2-year paybacks lifts revenue from $0.7B to $2.8B in FY27 and $7.6B in FY28.",
+   "source": "https://www.nasdaq.com/press-release/iren-reports-fy26-results-2026-08-27",
+   "as_of": "2026-08-27"
+  },
+  "depends_on": {
+   "value": "Delivery of Horizon 2-4 in Q4 2026 and 0.8GW by 2027; GPU financing and prepayments keep equity dilution down",
+   "source": "https://www.nasdaq.com/press-release/iren-reports-fy26-results-2026-08-27",
+   "as_of": "2026-08-27"
+  },
+  "bear_case": {
+   "value": "Q4 revenue missed a $157M consensus and EPS consensus has collapsed; share count +41.6% y/y via ATM; 27% of float short; mining exit leaves revenue lumpy until GPUs ramp.",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/iren-report-q4-earnings-buy-153500923.html",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.nasdaq.com/press-release/iren-reports-fy26-results-2026-08-27",
+   "as_of": "2026-08-27"
+  },
+  "financing": {
+   "value": "$2.6B 1.00% converts due 2033 (May 2026, conv. $73.07, capped call to $110.30); $3.6B IG GPU financing at 6.0% (Microsoft); new $2.8B GPU financings incl. $2.4B at 9.0% (Blue Owl/PIMCO); ~$2.1B equity issued in the June quarter (ATM); $14B cash + committed financing + prepayments; total debt $7.84B vs cash $5.9B.",
+   "source": "https://www.nasdaq.com/press-release/iren-reports-fy26-results-2026-08-27",
+   "as_of": "2026-09-24",
+   "note": "debt, converts, ATM and contracted backlog; real 10y yield 2.76% (macro.json)"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "NBIS",
+    "CRWV"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    75.71,
+    72.42,
+    64.39,
+    66.43
+   ],
+   "source": "https://stockanalysis.com/stocks/iren/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "most recent quarter first; StockAnalysis gross margin (excludes some D&A; Finviz TTM gross margin 9.84%)"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: unprofitable on forward basis; Finviz shows \"-\""
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "NBIS": null,
+    "CRWV": null
+   },
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 28.59,
+   "source": "https://stockanalysis.com/stocks/iren/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz EV/Sales 26.08"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "NBIS": 50.33,
+    "CRWV": 12.5
+   },
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24",
+   "note": "Finviz"
+  },
+  "substitute": {
+   "value": "Neoclouds (CRWV, NBIS) and hyperscaler self-build compete for GPU cloud contracts",
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001878848&type=4&dateb=&owner=include&count=40",
+   "as_of": "2026-09-24",
+   "note": "EDGAR Form 4 list checked; only 2026-07-01 filings in window, all code A grants (co-CEO awards 9.1M+0.55M shares each). Finviz shows no rows."
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001878848&type=4&dateb=&owner=include&count=40",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [],
+   "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001878848&type=4&dateb=&owner=include&count=40",
+   "as_of": "2026-09-24"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -0.02,
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/IREN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; filings dated Aug-Sep 2026"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel is blocked (failure log) and MarketBeat gives no net share total; dollar totals excluded (CalSTRS row)"
+  },
+  "holders_up": {
+   "value": 319,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/IREN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter 13F count"
+  },
+  "holders_down": {
+   "value": 90,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/IREN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published by MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published by MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "NewEdge Advisors",
+     "change_pct": 302.5,
+     "shares": 118577
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/IREN/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Arlington Capital Management",
+     "change_pct": -94.3,
+     "shares": 5767
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/IREN/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_trans_pct": {
+   "value": 19.53,
+   "source": "https://finviz.com/quote.ashx?t=IREN",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 22.2,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/IREN/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "MarketBeat 83.09M at 2026-09-15 (down from 93.61M); Finviz 27.11% is the Aug 31 settlement"
+  },
+  "days_to_cover": {
+   "value": 2.3,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/IREN/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/IREN/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "FINRA settlement date per MarketBeat"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-05",
+    "event": "Q1 FY27 earnings (estimated)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-12-31",
+    "event": "Horizon 3-4 delivery targeted Q4 2026",
+    "confirmed": true
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/iren/statistics/",
+  "as_of": "2026-09-24",
+  "note": "confirmed = company-announced; earnings dates are StockAnalysis/MarketBeat estimates unless stated"
+ },
+ "why_it_fell": {
+  "value": "Down 40% from the 76.87 high: FY Q4 revenue missed as bitcoin mining was wound down, $450M impairments, heavy ATM and convert dilution, and FY27 EPS estimates cut; the stock fell 12.5% on the print before recovering.",
+  "source": "https://www.nasdaq.com/press-release/iren-reports-fy26-results-2026-08-27",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD millions; EPS in USD per share",
+  "accounting_basis": "revenue GAAP; EPS non-GAAP adjusted per S&P Global; EBIT = StockAnalysis operating-income consensus (FY1 only)",
+  "fy1_end": "2027-06-30",
+  "fy2_end": "2028-06-30",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "StockAnalysis consensus FCF (CFO minus capex, levered) shown as fcf_consensus; CFO and capex split not published",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 2810,
+    "source": "https://stockanalysis.com/stocks/iren/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": -779.73,
+    "source": "https://stockanalysis.com/stocks/iren/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by free sources",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex consensus not published; company capex guidance in prospect.financing where given",
+    "kind": "consensus"
+   },
+   "fcf_consensus": {
+    "value": -20690,
+    "source": "https://stockanalysis.com/stocks/iren/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -3.42,
+    "source": "https://stockanalysis.com/stocks/iren/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 7560,
+    "source": "https://stockanalysis.com/stocks/iren/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income behind StockAnalysis Pro paywall",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -3.98,
+    "source": "https://stockanalysis.com/stocks/iren/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 14,
+    "source": "https://stockanalysis.com/stocks/iren/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 3,
+    "source": "https://stockanalysis.com/stocks/iren/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/iren/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 2,
+    "source": "https://finance.yahoo.com/quote/IREN/analysis/",
+    "as_of": "2026-09-24",
+    "note": "Yahoo EPS Revisions, current fiscal year, revision events",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 1,
+    "source": "https://finance.yahoo.com/quote/IREN/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 4,
+    "source": "https://finance.yahoo.com/quote/IREN/analysis/",
+    "as_of": "2026-09-24",
+    "note": "Yahoo current-year EPS analyst count",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 46.15,
+    "source": "https://finviz.com/quote.ashx?t=IREN",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 20130,
+    "source": "https://stockanalysis.com/stocks/iren/statistics/",
+    "as_of": "2026-09-24",
+    "note": "USD millions",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 4,
+  "prospect_why": "$4bn contracted ARR from Microsoft and a frontier lab is guided",
+  "competition_pts": 3,
+  "competition_why": "GM 64.4 to 66.4% rising; EV/S 28.6",
+  "macro_fit_pts": 1,
+  "macro_fit_why": "long duration, FCF -$2.2B, converts and GPU debt at 9%",
+  "narrative_pts": 2,
+  "narrative_why": "neoclouds lagging; crypto equities accelerating",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

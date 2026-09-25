@@ -1,0 +1,703 @@
+{
+ "ticker": "ABCL",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:00:00Z",
+ "price": {
+  "close": {
+   "value": 12.65,
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 13.18,
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 2.74,
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -4.02,
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24",
+   "note": "computed close/52w high"
+  },
+  "sma50_pct": {
+   "value": 32.13,
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 122.99,
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/ABCL?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "computed from Yahoo 1y daily closes: SMA50 9.46, SMA200 5.63"
+  },
+  "perf_1m_pct": {
+   "value": 1.2,
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 89.94,
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLV",
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -3.09,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 9.15,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA distances, 1m/3m perf and 52w range"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/ABCL?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "print 2026-08-05 AMC: next-day 6.53 vs 5.92 (+10.3%); +5 sessions 10.97 (+85%) driven by ABCL635 Phase 2 data 2026-08-10, not the print"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 9,
+   "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 17.13,
+   "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 30.0,
+   "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 9.0,
+   "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat not fetched; Finviz mean target 16.67 is within 10 points of StockAnalysis"
+  },
+  "upside_pct": {
+   "value": 35.42,
+   "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed pt_avg/close"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-24",
+     "broker": "Goldman Sachs",
+     "action": "initiate",
+     "target": 13,
+     "reason": "Hold"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Truist",
+     "action": "reiterate",
+     "target": 30,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-18",
+     "broker": "BMO Capital",
+     "action": "maintain",
+     "target": 15,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-10",
+     "broker": "JonesTrading",
+     "action": "reiterate",
+     "target": 25,
+     "reason": "Buy; after ABCL635 Phase 2"
+    },
+    {
+     "date": "2026-08-07",
+     "broker": "Piper Sandler",
+     "action": "maintain",
+     "target": 12,
+     "reason": "Buy"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table (last entries shown); sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-05",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 4.05,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/earnings/",
+   "as_of": "2026-08-05"
+  },
+  "revenue_estimate": {
+   "value": 7.85,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/earnings/",
+   "as_of": "2026-08-05"
+  },
+  "eps_actual": {
+   "value": -0.18,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/earnings/",
+   "as_of": "2026-08-05"
+  },
+  "eps_estimate": {
+   "value": -0.16,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/earnings/",
+   "as_of": "2026-08-05"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000044/q22026earningspressrelease.htm",
+   "as_of": "2026-08-05"
+  },
+  "guide_detail": {
+   "value": "no revenue guidance as policy; liquidity stated sufficient for at least three years (before the $200M August offering)",
+   "source": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000044/q22026earningspressrelease.htm",
+   "as_of": "2026-08-05"
+  },
+  "reaction_day_pct": {
+   "value": 10.3,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/ABCL?range=1y&interval=1d",
+   "as_of": "2026-08-06"
+  },
+  "reaction_5d_pct": {
+   "value": 85.3,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/ABCL?range=1y&interval=1d",
+   "as_of": "2026-08-13",
+   "note": "contaminated by ABCL635 data 2026-08-10"
+  },
+  "revisions_30d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+  },
+  "revisions_90d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error"
+  },
+  "fcf_ttm": {
+   "value": -119.67,
+   "source": "https://stockanalysis.com/stocks/abcl/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "Q2-26 +23.8 from Jazz $84M upfront; underlying ~ -40M/q"
+  },
+  "net_income_ttm": {
+   "value": -164.67,
+   "source": "https://stockanalysis.com/stocks/abcl/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": 77.2,
+   "source": "https://stockanalysis.com/stocks/abcl/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "TTM SBC 51.1M / TTM sales 66.17M (Finviz)"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: ABCL635, a single-dose NK3R antibody, met both Phase 2 primary endpoints in menopausal hot flashes (2026-08-10) and could be a differentiated, infrequently dosed alternative to oral NK3/NK1,3 antagonists, backed by a T-cell-engager platform partnered with Jazz and Vertex.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000044/q22026earningspressrelease.htm",
+   "as_of": "2026-08-10"
+  },
+  "depends_on": {
+   "value": "full Phase 2 data at IMS (2026-09-30 to 10-03) and a Phase 3 design/start; ABCL575 Phase 1 in Q4 2026",
+   "source": "https://www.biospace.com/press-releases/abcellera-announces-presentation-of-phase-2-data-for-abcl635-at-the-ims-world-congress-on-menopause-2026",
+   "as_of": "2026-09-16"
+  },
+  "bear_case": {
+   "value": "Veozah (fezolinetant) and Lynkuet (elinzanetant) are already approved oral options; Phase 2 was 4-week endpoint; stock up ~270% YTD after a $200M raise; revenue estimates falling (FY26 $25M, -66%)",
+   "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "story",
+   "source": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000044/q22026earningspressrelease.htm",
+   "as_of": "2026-08-05"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "Astellas (fezolinetant)",
+    "Bayer (elinzanetant)"
+   ],
+   "source": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000044/q22026earningspressrelease.htm",
+   "as_of": "2026-08-10",
+   "note": "VMS drug competitors; platform peers ABSI/SDGR"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000044/q22026earningspressrelease.htm",
+   "as_of": "2026-09-24"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not meaningful for a research-fee revenue base; ratios page not fetched"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: loss-making"
+  },
+  "peer_fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "ev_sales": {
+   "value": 55.46,
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "substitute": {
+   "value": "oral NK3R antagonists Veozah and Lynkuet; hormone therapy",
+   "source": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000044/q22026earningspressrelease.htm",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers the full trailing 90 days to 2026-09-24 (window from 2026-06-26); Form 4s not opened individually on EDGAR"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table shows no Form 4 rows in the 90-day window; ABCL files 10-Q/10-K (domestic forms) so insiders file Form 4s; Finviz Insider Trans 0.00%"
+  },
+  "sells_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=ABCL",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table shows no Form 4 rows in the 90-day window; ABCL files 10-Q/10-K (domestic forms) so insiders file Form 4s; Finviz Insider Trans 0.00%"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter holders table"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives dollar flows only; dollar totals excluded per failure log; Fintel 403 per registry"
+  },
+  "holders_up": {
+   "value": 77,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional buyers (MarketBeat)"
+  },
+  "holders_down": {
+   "value": 29,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional sellers (MarketBeat)"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "HighTower Advisors",
+     "change_pct": 12.5,
+     "shares": 107933
+    },
+    {
+     "fund": "Headlands Technologies",
+     "change_pct": 34.8,
+     "shares": 246252
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Alyeska Investment Group",
+     "change_pct": -79.7,
+     "shares": 526577
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 15.46,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 13.38% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 9.6,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ABCL/short-interest/",
+   "as_of": "2026-09-15"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-09-30",
+    "event": "ABCL635 Phase 2 oral presentation, IMS World Congress (Sep 30-Oct 3)",
+    "confirmed": true
+   },
+   {
+    "date": "2026-11-05",
+    "event": "Q3 2026 results (aggregator estimate)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-12-31",
+    "event": "ABCL575 Phase 1 topline (guided Q4 2026)",
+    "confirmed": true
+   }
+  ],
+  "source": "https://www.biospace.com/press-releases/abcellera-announces-presentation-of-phase-2-data-for-abcl635-at-the-ims-world-congress-on-menopause-2026",
+  "as_of": "2026-09-16"
+ },
+ "why_it_fell": {
+  "value": "Not down: 4% below 52w high.",
+  "source": "https://finviz.com/quote.ashx?t=ABCL",
+  "as_of": "2026-09-24"
+ },
+ "financing": {
+  "cash": {
+   "value": 540.1,
+   "source": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000044/q22026earningspressrelease.htm",
+   "as_of": "2026-06-30",
+   "note": "USD millions, cash + equivalents + marketable securities unless noted"
+  },
+  "quarterly_burn": {
+   "value": -41.0,
+   "source": "https://stockanalysis.com/stocks/abcl/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "underlying burn = avg FCF Q4-25 and Q1-26 (-44.59, -37.35); Q2-26 FCF was +23.8 from Jazz upfront"
+  },
+  "runway_quarters": {
+   "value": 18.0,
+   "source": "https://stockanalysis.com/stocks/abcl/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "(540.1 + ~200 gross offering) / 41; gross, before fees; plus ~$110M government funding in stated liquidity"
+  },
+  "company_runway_statement": {
+   "value": "liquidity (cash + government funding) sufficient for at least three years (pre-offering)",
+   "source": "https://www.sec.gov/Archives/edgar/data/1703057/000170305726000044/q22026earningspressrelease.htm",
+   "as_of": "2026-08-05"
+  },
+  "recent_offering": {
+   "value": "2026-08-11 priced $200M gross: 17,435,897 shares at $9.75 plus pre-funded warrants for 3,076,926 shares; closed ~2026-08-14; ~6.7% dilution vs 306.5M shares",
+   "source": "https://www.investing.com/news/company-news/abcellera-prices-200-million-public-offering-at-975share-93CH-4856570",
+   "as_of": "2026-08-11"
+  },
+  "binary_events_6m": [
+   {
+    "date": "2026-09-30",
+    "event": "ABCL635 full Phase 2 data at IMS",
+    "confirmed": true
+   },
+   {
+    "date": "2026-12-31",
+    "event": "ABCL575 Phase 1 topline",
+    "confirmed": true
+   }
+  ]
+ },
+ "forward": {
+  "periods_aligned": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+   "as_of": "2026-09-24",
+   "note": "revenue/EPS aligned to FY2026/FY2027 calendar years, but EBIT/CFO/capex unavailable so periods not fully verified"
+  },
+  "currency": "USD",
+  "units": "USD millions except per-share",
+  "accounting_basis": "GAAP (StockAnalysis/S&P Global consensus)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex (levered)",
+  "revision_period_end": null,
+  "fy1": {
+   "revenue": {
+    "value": 25.25,
+    "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": -0.66,
+    "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 26.16,
+    "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": -0.72,
+    "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 9,
+    "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy, S&P Global via StockAnalysis"
+   },
+   "hold": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/abcl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ returned \"Oops, something went wrong\"; Zacks bot-blocked"
+   },
+   "down_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+   },
+   "analysts": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 12.65,
+    "source": "https://finviz.com/quote.ashx?t=ABCL",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 3670.0,
+    "source": "https://finviz.com/quote.ashx?t=ABCL",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled; loss-making biotech, WACC not meaningful for screening"
+   }
+  },
+  "note": ""
+ },
+ "judgment": {
+  "prospect_pts": 3,
+  "prospect_why": "ABCL635 Phase 2 hit; the IMS readout 30 Sep to 3 Oct is binary",
+  "competition_pts": 3,
+  "competition_why": "Veozah and Lynkuet already on market",
+  "macro_fit_pts": 1,
+  "macro_fit_why": "long duration; SBC 77% of revenue",
+  "narrative_pts": 3,
+  "narrative_why": "the stock is +123% vs its 200-day on the data",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

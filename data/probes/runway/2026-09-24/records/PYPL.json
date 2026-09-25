@@ -1,0 +1,903 @@
+{
+ "ticker": "PYPL",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 52.6,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 79.21,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 38.46,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -7.43,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 4.19,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -15.53,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 24.12,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLF",
+   "source": "https://finviz.com/quote.ashx?t=XLF",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -6.48,
+   "source": "https://finviz.com/quote.ashx?t=XLF",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 2.02,
+   "source": "https://finviz.com/quote.ashx?t=XLF",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24",
+   "note": "below 50-day (-7.4%) but above 200-day (+4.2%); +24% over 3 months then -15.5% in a month"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/pypl/history/",
+   "as_of": "2026-09-24",
+   "note": "print day +4.01%; +5 sessions close 4.41% above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Hold",
+   "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 43,
+   "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 57.07,
+   "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 80,
+   "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 36,
+   "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not needed: MarketBeat $56.03 (47 analysts) within 10 points of upside of StockAnalysis"
+  },
+  "finviz_target": {
+   "value": 56.67,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded alongside"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-24",
+     "broker": "Wells Fargo",
+     "action": "maintain Equal Weight",
+     "target": 61,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-04",
+     "broker": "UBS",
+     "action": "maintain Neutral",
+     "target": 61,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "Mizuho",
+     "action": "reiterate Neutral, lower 61->51",
+     "target": 51,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "Clear Street",
+     "action": "reiterate Hold, lower 61->55",
+     "target": 55,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "Truist",
+     "action": "reiterate Hold, lower 62->53",
+     "target": 53,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "RBC Capital",
+     "action": "raise target 65->70, Outperform",
+     "target": 70,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-28",
+     "broker": "KBW",
+     "action": "maintain Outperform",
+     "target": 70,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-28",
+     "broker": "Loop Capital",
+     "action": "lower target 62->50, Hold",
+     "target": 50,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-17",
+     "broker": "Piper Sandler",
+     "action": "raise target 42->59, Neutral",
+     "target": 59,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-03",
+     "broker": "Cantor Fitzgerald",
+     "action": "raise target 54->60, Neutral",
+     "target": 60,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Keefe Bruyette",
+     "action": "raise target 55->70, Outperform",
+     "target": 70,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "JPMorgan",
+     "action": "raise target 46->65, Neutral",
+     "target": 65,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Citigroup",
+     "action": "raise target 48->61, Neutral",
+     "target": 61,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "TD Cowen",
+     "action": "raise target 48->59, Hold",
+     "target": 59,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Baird",
+     "action": "raise target 50->57, Neutral",
+     "target": 57,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Barclays",
+     "action": "raise target 55->57, Equal Weight",
+     "target": 57,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Susquehanna",
+     "action": "raise target 63->67, Positive",
+     "target": 67,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Morgan Stanley",
+     "action": "set target",
+     "target": 45,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "UBS",
+     "action": "set target",
+     "target": 45,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Deutsche Bank",
+     "action": "reiterate Hold",
+     "target": 45,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Canaccord",
+     "action": "reiterate Hold",
+     "target": 55,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-28",
+     "broker": "Goldman Sachs",
+     "action": "set target",
+     "target": 50,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-07-28",
+     "broker": "Jefferies",
+     "action": "upgrade Hold -> Buy",
+     "target": null,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/pypl/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings page (latest 8) merged with MarketBeat forecast table https://www.marketbeat.com/stocks/NASDAQ/PYPL/forecast/; Weiss/Zacks excluded; reasons not stated on the source unless given"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-28",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 8680000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 8470000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 1.38,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted EPS as MarketBeat reports it"
+  },
+  "eps_estimate": {
+   "value": 1.28,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/paypal-q2-2026-earnings-beat-124337219.html",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "FY2026 non-GAAP EPS raised to ~$5.38 (from low-single-digit decline to slightly positive); transaction margin dollars ~$15.6B (from a slight decline). Consensus FY26 EPS now $5.39",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/paypal-q2-2026-earnings-beat-124337219.html",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": 4.01,
+   "source": "https://stockanalysis.com/stocks/pypl/history/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_5d_pct": {
+   "value": 4.41,
+   "source": "https://stockanalysis.com/stocks/pypl/history/",
+   "as_of": "2026-09-24",
+   "note": "close 5 sessions after the print vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/PYPL/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo EPS Trend FY2026: 5.39 now vs 5.38 30d vs 5.30 90d (+1.7%); band +/-2% = flat. Breadth FY26 36 up / 3 down in 30d"
+  },
+  "revisions_90d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/PYPL/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo EPS Trend FY2026: 5.39 now vs 5.38 30d vs 5.30 90d (+1.7%); band +/-2% = flat. Breadth FY26 36 up / 3 down in 30d"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 5.39,
+    "d30": 5.38,
+    "d90": 5.3
+   },
+   "source": "https://finance.yahoo.com/quote/PYPL/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year EPS consensus now, 30 and 90 days ago"
+  },
+  "fcf_ttm": {
+   "value": 6590000000.0,
+   "source": "https://stockanalysis.com/stocks/pypl/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "net_income_ttm": {
+   "value": 4900000000.0,
+   "source": "https://stockanalysis.com/stocks/pypl/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 2.9,
+   "source": "https://stockanalysis.com/stocks/pypl/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "computed: SBC last 4 quarters $1,001M / TTM revenue $34.13B"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: PayPal is a cash-rich turnaround at ~9x forward EPS: transaction-margin dollars return to growth, Venmo monetises (debit MAAs +50%), and ~$6B FCF funds buybacks.",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/paypal-q2-2026-earnings-beat-124337219.html",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Transaction margin dollars growing (guided ~$15.6B for 2026) and branded checkout stabilising",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/paypal-q2-2026-earnings-beat-124337219.html",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Low-single-digit revenue growth (4-5%), branded checkout losing share to Apple Pay/Shop Pay, and EPS growth of ~1.5% this year",
+   "source": "https://www.barchart.com/story/news/2499172/paypal-stock-is-deeply-oversold-in-2026-how-to-play-pypl-here",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/paypal-q2-2026-earnings-beat-124337219.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "XYZ",
+    "V"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=XYZ",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no source states checkout share in the window"
+  },
+  "gross_margin_4q": {
+   "value": [
+    39.6,
+    40.27,
+    41.35,
+    40.68
+   ],
+   "source": "https://stockanalysis.com/stocks/pypl/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarterly, latest first"
+  },
+  "fwd_pe": {
+   "value": 9.08,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "XYZ": 14.64,
+    "V": 24.5
+   },
+   "source": "https://finviz.com/quote.ashx?t=XYZ",
+   "as_of": "2026-09-24",
+   "note": "Finviz quote pages of each peer"
+  },
+  "ev_sales": {
+   "value": 1.4,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "XYZ": "1.82",
+    "V": "15.63"
+   },
+   "source": "https://finviz.com/quote.ashx?t=XYZ",
+   "as_of": "2026-09-24",
+   "note": "'-' means not published"
+  },
+  "substitute": {
+   "value": "Apple Pay, Shop Pay and card-network tokenised checkout",
+   "source": "https://www.barchart.com/story/news/2499172/paypal-stock-is-deeply-oversold-in-2026-how-to-play-pypl-here",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table checked for the full window 2026-06-26 to 2026-09-24 (table extends back to 2025-10-15); every buy/sale Form 4 opened on EDGAR for code and 10b5-1 flag"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24",
+   "note": "no open-market buys"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-03",
+     "name": "Natali Chris",
+     "role": "SVP, Chief Accounting Officer",
+     "shares": 552,
+     "price": 54.8,
+     "usd": 30250.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1633917/000190527226000016/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 opened: code S, 10b5-1 box checked"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Kereere Suzan",
+     "role": "President, Global Markets",
+     "shares": 3379,
+     "price": 55.72,
+     "usd": 188283.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1633917/000189608626000016/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 opened: code S, 10b5-1 box checked"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Keller Frank",
+     "role": "Pres., Checkout Sol. & PayPal",
+     "shares": 4612,
+     "price": 55.43,
+     "usd": 255656.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1633917/000200641626000017/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 opened: code S, 10b5-1 box checked"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "Kereere Suzan",
+     "role": "President, Global Markets",
+     "shares": 4162,
+     "price": 60.96,
+     "usd": 253723.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1633917/000189608626000012/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 opened: code S, 10b5-1 box checked"
+    },
+    {
+     "date": "2026-07-29",
+     "name": "Natali Chris",
+     "role": "SVP, Chief Accounting Officer",
+     "shares": 1337,
+     "price": 58.1,
+     "usd": 77680.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1633917/000190527226000012/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 opened: code S, 10b5-1 box checked"
+    },
+    {
+     "date": "2026-07-29",
+     "name": "Keller Frank",
+     "role": "Pres., Checkout Sol. & PayPal",
+     "shares": 732,
+     "price": 58.1,
+     "usd": 42529.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1633917/000200641626000013/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 opened: code S, 10b5-1 box checked"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24",
+   "note": "six small 10b5-1 officer sales totalling ~$0.85M (post-vest); no CEO/CFO sales"
+  },
+  "excluded_90d": {
+   "value": [
+    "2026-09-15 Miller Jamie S Option Exercise",
+    "2026-09-01 Webster Aaron Option Exercise",
+    "2026-09-01 Natali Chris Option Exercise",
+    "2026-09-01 Miller Jamie S Option Exercise",
+    "2026-09-01 Kereere Suzan Option Exercise",
+    "2026-09-01 Keller Frank Option Exercise",
+    "2026-09-03 SUZAN KEREERE Proposed Sale",
+    "2026-09-03 FRANK KELLER Proposed Sale",
+    "2026-09-03 CHRISTOPHER NATALI Proposed Sale",
+    "2026-08-18 SUZAN KEREERE Proposed Sale",
+    "2026-08-15 Kereere Suzan Option Exercise",
+    "2026-07-29 FRANK KELLER Proposed Sale",
+    "2026-07-29 CHRISTOPHER NATALI Proposed Sale",
+    "2026-07-15 Webster Aaron Option Exercise",
+    "2026-07-15 Natali Chris Option Exercise",
+    "2026-07-15 Keller Frank Option Exercise"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24",
+   "note": "option exercises, proposed sales (Form 144) and non-issuer rows excluded"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -3.71,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest completed 13F cycle; MarketBeat most recent filing received 2026-09-23"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: fintel.io blocked (403 per failure log, not retried); MarketBeat does not give quarter net shares"
+  },
+  "holders_up": {
+   "value": 960,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 906,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split new vs increased holders"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split exited vs reduced holders"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "BlackRock",
+     "usd": 74970000.0
+    },
+    {
+     "fund": "Norges Bank",
+     "usd": 41400000.0
+    },
+    {
+     "fund": "Bank of America",
+     "usd": 32950000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest buyers by dollar volume, MarketBeat FAQ, 24-month window; sizes are purchase dollars not position change"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Amundi",
+     "usd": 12410000.0
+    },
+    {
+     "fund": "Clearbridge",
+     "usd": 6150000.0
+    },
+    {
+     "fund": "Coatue",
+     "usd": 5270000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest sellers by dollar volume, 24-month window; not confirmed full exits"
+  },
+  "short_pct_float": {
+   "value": 3.45,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 3.91% (no date); MarketBeat preferred because it states the settlement date"
+  },
+  "days_to_cover": {
+   "value": 2.7,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 2.23"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "finviz_inst_trans_pct": {
+   "value": -3.26,
+   "source": "https://finviz.com/quote.ashx?t=PYPL",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-27",
+    "event": "Q3 2026 earnings",
+    "confirmed": false
+   },
+   {
+    "date": "2027-02-02",
+    "event": "Q4 2026 earnings and 2027 outlook (pattern; not published)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/PYPL/earnings/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": "Down 33.6% from the $79.21 high: slowing growth and competition in digital payments; a cautious outlook after the Q1 print sent the stock -7.7% on May 5, and September drift below the $56 consensus target.",
+  "source": "https://www.barchart.com/story/news/2499172/paypal-stock-is-deeply-oversold-in-2026-how-to-play-pypl-here",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute currency units; EPS per share",
+  "accounting_basis": "non-GAAP adjusted EPS; GAAP revenue (S&P Global via StockAnalysis)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "StockAnalysis last updated 2026-09 (page retrieved 2026-09-24)",
+  "model_assumptions": "none: no modelled leaves",
+  "fcf_basis": "not available: forward CFO/capex unpublished; StockAnalysis FY1 consensus FCF $6.03B recorded in note only",
+  "revision_period_end": "2026-09-24",
+  "alignment_note": null,
+  "fy1": {
+   "revenue": {
+    "value": 34750000000.0,
+    "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 5890000000.0,
+    "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus operating income"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 5.39,
+    "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 36210000000.0,
+    "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis Pro paywall; Yahoo does not publish EBIT estimates",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 5.79,
+    "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 7,
+    "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global via StockAnalysis, Sep 2026 column; strong buy grouped with buy, strong sell with sell"
+   },
+   "hold": {
+    "value": 33,
+    "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 3,
+    "source": "https://stockanalysis.com/stocks/pypl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 36,
+    "source": "https://finance.yahoo.com/quote/PYPL/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current year FY2026"
+   },
+   "down_30d": {
+    "value": 3,
+    "source": "https://finance.yahoo.com/quote/PYPL/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 42,
+    "source": "https://finance.yahoo.com/quote/PYPL/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimate count for the same fiscal year"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 52.6,
+    "source": "https://finviz.com/quote.ashx?t=PYPL",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 47960000000.0,
+    "source": "https://finviz.com/quote.ashx?t=PYPL",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: WACC not modelled in this pass",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 4,
+  "prospect_why": "turnaround at 9x EPS; guide raised",
+  "competition_pts": 4,
+  "competition_why": "GM 39.6 to 40.7% drifting",
+  "macro_fit_pts": 5,
+  "macro_fit_why": "cash-flow value: FCF 1.35x NI, buybacks",
+  "narrative_pts": 3,
+  "narrative_why": "fintech fading",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

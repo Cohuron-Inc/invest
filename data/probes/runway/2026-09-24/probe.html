@@ -1,0 +1,327 @@
+<title>September Runway Probe</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper: #F4F6F8; --paper-2: #EAEEF2; --ink: #17222E; --ink-2: #4A5866; --ink-3: #7B8794; --rule: #CDD5DD;
+    --core: #1F6F62; --core-bg: #DFEEEA; --watch: #A8731A; --watch-bg: #F3E8D2; --sat: #A3463A; --sat-bg: #F2DDD9;
+    --bar-track: #DCE2E8;
+    --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    --sans: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+      --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+      --bar-track: #243039;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0F161D; --paper-2: #182129; --ink: #E4E9EE; --ink-2: #AEB9C4; --ink-3: #7E8B98; --rule: #2B3641;
+    --core: #5CBBA8; --core-bg: #14302B; --watch: #D9A648; --watch-bg: #33260F; --sat: #E0776A; --sat-bg: #3A1D19;
+    --bar-track: #243039;
+  }
+  * { box-sizing: border-box; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--sans); font-size: 16px; line-height: 1.55; margin: 0; }
+  .page { max-width: 76ch; margin: 0 auto; padding: 40px 24px 96px; }
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+  h1 { font-size: 2.35rem; line-height: 1.1; }
+  h2 { font-size: 1.45rem; line-height: 1.2; margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1.1rem; margin-top: 28px; }
+  p { margin: 12px 0; max-width: 68ch; }
+  .eyebrow { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+  .lede { font-size: 1.1rem; color: var(--ink-2); max-width: 64ch; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 18px; font-family: var(--mono); font-size: 0.78rem; color: var(--ink-3); }
+  .meta b { color: var(--ink-2); font-weight: 500; }
+  ul, ol { padding-left: 22px; margin: 10px 0; max-width: 68ch; }
+  li { margin: 6px 0; }
+  li b, p b { font-weight: 600; }
+  .t { font-family: var(--mono); font-weight: 500; font-size: 0.92em; }
+  .num { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 0.92em; }
+  .tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 24px; }
+  @media (max-width: 640px) { .tiers { grid-template-columns: 1fr; } }
+  .tier { padding: 14px 16px 16px; border-top: 3px solid; background: var(--paper-2); }
+  .tier.core { border-color: var(--core); } .tier.watch { border-color: var(--watch); } .tier.sat { border-color: var(--sat); }
+  .tier .eyebrow { margin-bottom: 6px; }
+  .tier.core .eyebrow { color: var(--core); } .tier.watch .eyebrow { color: var(--watch); } .tier.sat .eyebrow { color: var(--sat); }
+  .tier .names { font-family: var(--mono); font-size: 0.9rem; line-height: 1.7; }
+  .tier small { display: block; color: var(--ink-2); font-size: 0.82rem; margin-top: 8px; line-height: 1.45; }
+  .pill { display: inline-block; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; padding: 1px 6px; border-radius: 3px; vertical-align: middle; white-space: nowrap; }
+  .pill.core { color: var(--core); background: var(--core-bg); } .pill.watch { color: var(--watch); background: var(--watch-bg); } .pill.sat { color: var(--sat); background: var(--sat-bg); }
+  .tablewrap { overflow-x: auto; margin: 18px 0 8px; border: 1px solid var(--rule); }
+  table { border-collapse: collapse; width: 100%; min-width: 880px; font-size: 0.86rem; line-height: 1.4; }
+  th { text-align: left; font-family: var(--mono); font-weight: 500; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); padding: 10px 10px; border-bottom: 1px solid var(--rule); background: var(--paper-2); position: sticky; top: 0; }
+  td { padding: 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  tr:last-child td { border-bottom: 0; }
+  td.tk { font-family: var(--mono); font-weight: 500; white-space: nowrap; }
+  td.rk { font-family: var(--mono); color: var(--ink-3); white-space: nowrap; }
+  td.up { white-space: nowrap; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  .bar { display: block; height: 5px; background: var(--bar-track); margin-top: 5px; width: 96px; }
+  .bar i { display: block; height: 100%; background: var(--core); }
+  .bar.watch i { background: var(--watch); } .bar.sat i { background: var(--sat); }
+  .src { color: var(--ink-3); font-size: 0.8rem; }
+  .callout { border-left: 3px solid var(--core); background: var(--paper-2); padding: 12px 16px; margin: 18px 0; max-width: 68ch; }
+  .callout.warn { border-color: var(--watch); }
+  dl.acct { display: grid; grid-template-columns: max-content 1fr; gap: 8px 18px; margin: 14px 0; max-width: 72ch; }
+  dl.acct dt { font-family: var(--mono); font-size: 0.85rem; font-weight: 500; }
+  dl.acct dd { margin: 0; font-size: 0.92rem; color: var(--ink-2); }
+  table.appx { font-size: 0.8rem; min-width: 1100px; }
+  table.appx td { padding: 8px 9px; }
+  .foot { margin-top: 48px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 0.8rem; color: var(--ink-3); max-width: 70ch; }
+  a:focus-visible { outline: 2px solid var(--core); outline-offset: 2px; }
+</style>
+
+<div class="page">
+  <!-- 1. Header. Eyebrow names the corpus probe this follows and the price date. Meta strip carries the 13F vintage. -->
+  <div class="eyebrow">Invest corpus · every ticker the 14 accounts named, 7 Jul to 25 Sep · prices at 24 Sep 2026 close</div>
+  <h1 style="margin-top:10px">September Runway Probe</h1>
+  <p class="lede">Which of the 123 stocks the fourteen accounts named since 7 July can still run over the next three to six months from today's price. The answer is short. One name passes every gate. The rest need a dated event first, because the Fed is hiking into an oil shock and the 10-year sits at 5.11%.</p>
+  <div class="meta">
+    <span><b>Mandate</b> high return, medium-to-low risk, 1 to 3 years · horizon read 3 to 6 months</span>
+    <span><b>Names probed</b> 123 screened · 74 researched</span>
+    <span><b>Signals</b> fundamentals · flows and positioning · price and chart · context</span>
+    <span><b>13F vintage</b> positions as of 30 Jun 2026</span>
+  </div>
+
+  <!-- 2. Tier cards. -->
+  <div class="tiers">
+    <div class="tier core">
+      <div class="eyebrow">Runway · all four gates</div>
+      <div class="names">UNH</div>
+      <small>Upside, flow, insider and delivery gates all pass, and risk to reward is at least 2 to 1. Ranked by score below.</small>
+    </div>
+    <div class="tier watch">
+      <div class="eyebrow">One leg missing</div>
+      <div class="names">NVDA VST NU BABA CRDO WDC GRAB UBER UUUU KURA AMZN LRCX ASML AMAT NXPI APP AVGO CSCO OSCR GLW SOFI RDDT PLPC AKAM SPCX APLD ORCL IREN ACHR WULF RKLB CIFR ONDS EOSE</div>
+      <small>One gate fails and a dated event resolves it. Each needs that specific thing to happen first.</small>
+    </div>
+    <div class="tier sat">
+      <div class="eyebrow">No runway on the numbers</div>
+      <div class="names">TXN AMBA DAL RARE STIM GRRR WYFI META MU SNDK ARM AI PSNL ANET LITE SNOW CAT GEV GOOGL COHR ON VIAV GS ABCL SE CCJ CRWV SKHY NBIS ALAB PYPL CRM ISRG STLN AMKR AAOI NKE ASTS ADUR <br>plus 49 screened out on the Finviz pass</div>
+      <small>Two or more gates fail, price is at or above consensus, or reward does not cover the risk. Hold what you own; do not add for upside.</small>
+    </div>
+  </div>
+
+  <!-- 3. Method. One bullet per signal group; keep the wording, update the 13F vintage. -->
+  <h2>How the signals were read</h2>
+  <ul>
+    <li><b>Fundamentals.</b> The last print against consensus and whether the guide was raised, held or cut; the direction of estimate revisions over 90 days; cash conversion; the twelve-month case as the company states it; share and gross-margin trend against the two nearest competitors.</li>
+    <li><b>Flows and positioning.</b> Open-market Form 4 buys and sells in 90 days, exercises and tax sales excluded; the latest 13F cycle's net share change, holder counts and named funds, dated 30 June 2026, so twelve weeks stale; short interest; and how crowded the name is among the corpus accounts, read as a contrarian signal.</li>
+    <li><b>Price and chart.</b> Close against the average, high and low sell-side targets; reward to the average against risk to the nearest anchor; position against the 50-day and 200-day lines, relative strength against the sector, and whether the last print gap held.</li>
+    <li><b>Context.</b> The rate, credit, dollar, oil and factor regime and whether the name's duration fits it; whether the name sits inside a live market theme that is accelerating or fading; dated events in three months.</li>
+  </ul>
+  <div class="callout">
+    <b>Reading rule.</b> Upside alone is not runway. A 60% gap to consensus with the CEO selling, estimates falling and the chart below its 200-day line is a target the Street has not yet lowered. Four gates decide the tier: upside, institutional flow, insider activity and delivery. The score decides the order inside it.
+  </div>
+
+  <!-- 4. Ranked table. Bar width = min(upside,100)%. -->
+  <h2>Runway: the 1 that pass</h2>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>#</th><th>Name</th><th>Upside · R:R</th><th>Consensus · score</th><th>Institutional flow, Q 13F · short interest</th><th>Insiders, 90d</th><th>What can break it</th></tr></thead>
+      <tbody>
+<tr><td class="rk">1</td><td class="tk">UNH</td><td class="up">+28% · 5.4:1<span class="bar"><i style="width:28%"></i></span></td><td>Buy, 26 · <span class="num">64</span>; revisions up 90d</td><td>TTM buyers 2311 / sellers 1897 · SI 1.5%</td><td>No buys. sells $661K</td><td>Kill if the 13 Oct Q3 print holds or cuts the FY26 range below its $19.75 midpoint, or reports a medical care ratio above guidance. Red team: revisions up is only +0.3% in 30 days, and the Optum CEO sold $661K outside a plan. Expected +6.9% in six months against an 8% bar.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="src">Upside uses the StockAnalysis (S&amp;P Global) average target unless noted; a range means MarketBeat and StockAnalysis disagree. Bars are capped at 100%.</p>
+
+  <!-- 5. Two of three. End each with what must happen first. -->
+  <h2>One leg missing</h2>
+  <dl class="acct">
+    <dt>NVDA</dt><dd><b>Insider fails: director Stevens sold $947M in September, plan status unverified.</b> Everything else passes: Q3 guide raised to $105.8-110.2B, revisions 39 up and 1 down, 14.3x FY28 earnings or 24x FY27. The late-November print resolves it. Kill if the Q4 guide is below $118B. Expected +8.4%, the only name above the core bar. Core starter size.</dd>
+    <dt>VST</dt><dd><b>Delivery fails: Q2 revenue $4.02B against $5.46B.</b> The CEO bought three times on the open market near the low, $1.17M, and the fleet is the cash-flow shape this regime pays for. A new hyperscaler PPA or the early-November print reaffirming $6.8-7.6B EBITDA resolves it. Expected +11%.</dd>
+    <dt>NU</dt><dd><b>Insider fails: the Form 4 record is not verified complete.</b> ROE 33% at 12x forward earnings with revisions up. The 12 Nov print decides it. Kill on 90-day NPL above 7.5%. Expected +10%.</dd>
+    <dt>BABA</dt><dd><b>Delivery fails: 90-day revisions down, 11 up and 17 down.</b> The chairman and CEO bought $25.7M on the open market into the $10.2B placement. The late-November print must show cloud above 40% with capex paying back. Expected +10%, below the satellite bar.</dd>
+    <dt>CRDO</dt><dd><b>Insider fails: $101.5M of sales, mostly planned.</b> Revisions 14 up and 2 down at 20x after a -20% print day. The 2 Dec print resolves it if gross margin is back above 66%. Expected +10%.</dd>
+    <dt>WDC</dt><dd><b>Upside fails on MarketBeat's $535 against StockAnalysis's $665.</b> Estimates up after a beat and raise that fell 13%. The 29 Oct print resolves it. Expected +9%.</dd>
+    <dt>GRAB</dt><dd><b>Moved down by the red team: base case misses the satellite bar.</b> CEO Anthony Tan bought $29.9M on 21 Sep after a 53% drawdown, the largest insider buy in the set. Kill below the $2.74 low or on Q3 EBITDA implying less than $720M. Expected +9%.</dd>
+    <dt>UBER</dt><dd><b>Delivery fails: Q2 revenue $14.19B against $14.24B.</b> The CEO bought $10.0M and the COO $5.3M in September. Revisions 27 up and 2 down at 15.6x. The 3 Nov print resolves it; kill on bookings below $58.25B. Red team: an SVP sold $2.0M outside a plan the next day, and Cybercab is live in Austin. Expected +7.6%.</dd>
+    <dt>UUUU</dt><dd><b>Delivery fails: Q2 revenue $25.1M against about $30.8M.</b> The CEO bought $968K, lifting his holding 41%, and 13F holders added. Rare-earth pricing is the risk. Expected +7%.</dd>
+    <dt>KURA</dt><dd><b>Moved down by the red team: base case misses the satellite bar.</b> The CEO bought $2.35M on the open market in August. The Q4 update is Phase 1 data at an unconfirmed ASH venue. Kill on Q3 KOMZIFTI sales below $12M on about 3 Nov. Binary inside three months, so never core.</dd>
+    <dt>AMZN</dt><dd><b>Insider fails: Bezos sold $346.5M under a plan.</b> AWS re-accelerated to +37%. The 29 Oct print resolves it; kill on AWS below 30%. Expected +6.7%.</dd>
+    <dt>LRCX</dt><dd><b>Insider fails: $58.3M of planned sales across five officers.</b> Beat and raise, revisions up. The 21 Oct print resolves it.</dd>
+    <dt>ASML</dt><dd><b>Insider fails: foreign issuer, no Form 4 coverage.</b> Guide raised, revisions 28 up and 0 down. The 14 Oct print resolves it.</dd>
+    <dt>AMAT</dt><dd><b>Insider fails: CEO Dickerson sold $55.6M on 29 and 30 June.</b> Estimates up after a sell-the-news print. The 12 Nov print resolves it.</dd>
+    <dt>NXPI</dt><dd><b>Moved down by the red team: estimates are flat, not up.</b> 15.3x FY26 earnings after a -10.8% post-print week. The 27 Oct print must guide Q4 at or above $3.7B.</dd>
+    <dt>APP</dt><dd><b>Delivery fails: Q3 guided below consensus.</b> 15.6x with FCF equal to net income. The 4 Nov print resolves it.</dd>
+    <dt>AVGO</dt><dd><b>Moved down by the red team: FY27 revisions 25 down and 11 up.</b> A lagging label until estimates turn. The 9 Dec print resolves it; kill on FY27 EPS below 19.0.</dd>
+    <dt>CSCO</dt><dd><b>Moved down by the red team: the FY27 guide midpoint sits below consensus.</b> The FQ1 beat is timing inside the year. The 11 Nov print must hold gross margin above 63.5%.</dd>
+    <dt>OSCR</dt><dd><b>Upside fails at 20%.</b> Beat and raise with 8 up and 0 down revisions. ACA subsidy policy is the dated risk.</dd>
+    <dt>GLW</dt><dd><b>Upside fails on MarketBeat's lower average.</b> Optical growth at 35x in a lagging theme. The 27 Oct print resolves it.</dd>
+    <dt>SOFI</dt><dd><b>Upside fails at 21% with a 34% range.</b> Members +35%. The 27 Oct print resolves it.</dd>
+    <dt>RDDT</dt><dd><b>Insider fails: $50.1M of planned CEO and COO sales.</b> US logged-in users are the test at the 29 Oct print.</dd>
+    <dt>PLPC</dt><dd><b>Upside fails: no current consensus exists.</b> Record Q2 with margin 29.7% to 34.3%. The 28 Oct print resolves it.</dd>
+    <dt>AKAM</dt><dd><b>Delivery fails: the FY EPS guide was trimmed.</b> Cash-flow value at 15.5x. The 5 Nov print resolves it.</dd>
+    <dt>SPCX</dt><dd><b>Insider fails: the COO sold $52.5M under a plan.</b> Lock-up tranches of 328M shares open on 24 Sep, 9 Oct and 24 Oct, then about 800M on 8 Dec. Kill below the $135 IPO price after 24 Oct.</dd>
+    <dt>APLD</dt><dd><b>Moved down by the red team: the consensus is stale.</b> Newest targets average about $33 against $66. Pass.</dd>
+    <dt>ORCL</dt><dd><b>Moved down by the red team: the balance sheet needs the regime to change.</b> FCF -$28.7B against $169B of debt. Pass.</dd>
+    <dt>IREN</dt><dd><b>Delivery fails: FY27 EPS cut from -0.94 to -3.42 in 30 days.</b> Pass until the 10-year is below 4.75%.</dd>
+    <dt>ACHR</dt><dd><b>Delivery fails: no certification, no guide.</b> Pass.</dd>
+    <dt>WULF</dt><dd><b>Delivery fails.</b> SBC 128% of revenue, short 35%. Pass.</dd>
+    <dt>RKLB</dt><dd><b>Insider fails: the CEO's trust sold $286M, and a $1.94B ATM is open.</b> Neutron slipping toward 2027. Pass.</dd>
+    <dt>CIFR</dt><dd><b>Delivery fails: Q2 gross margin -131%.</b> Pass.</dd>
+    <dt>ONDS</dt><dd><b>Delivery fails.</b> Short 42%, share count +259% in a year. Pass.</dd>
+    <dt>EOSE</dt><dd><b>Delivery fails: revenue guide cut.</b> Gross margin -71%. Pass.</dd>
+  </dl>
+
+  <!-- 6. Grouped by reason. -->
+  <h2>No runway on the numbers</h2>
+  <ul>
+    <li><b>Moved down by the red team.</b> <span class="t">TXN</span> base case +5% below the bar. <span class="t">AMBA</span> has no edge. <span class="t">DAL</span> consensus fell below its own guide on fuel. <span class="t">RARE</span> failed its Angelman Phase 3 on 2 Sep. <span class="t">STIM</span> carries a going-concern flag. <span class="t">GRRR</span> and <span class="t">WYFI</span> are dilution and financing stories.</li>
+    <li><b>At or above consensus.</b> <span class="t">META</span> at a new high, <span class="num">-2%</span> to target. <span class="t">ARM</span> <span class="num">-6%</span>, <span class="t">AI</span> <span class="num">-23%</span> with a Sell consensus, <span class="t">PSNL</span> trades above the $16.25 Tempus deal value. <span class="t">ALAB</span>, <span class="t">NBIS</span>, <span class="t">PYPL</span>, <span class="t">ANET</span>, <span class="t">CRM</span> and <span class="t">ISRG</span> sit under 20%.</li>
+    <li><b>Upside against insider selling.</b> <span class="t">MU</span> officers sold $182M, the CEO $122M under a plan, into the 30 Sep print. <span class="t">SNDK</span> $121M, <span class="t">LITE</span> $63M, <span class="t">SNOW</span> $556M. Memory has the best estimate momentum in the set; the price already has it.</li>
+    <li><b>Reward does not cover the stop.</b> <span class="t">CAT</span>, <span class="t">GEV</span>, <span class="t">GOOGL</span>, <span class="t">COHR</span>, <span class="t">VIAV</span>, <span class="t">ON</span>, <span class="t">STLN</span>, <span class="t">GS</span>, <span class="t">AMKR</span>, <span class="t">AAOI</span>, <span class="t">NKE</span> and <span class="t">ASTS</span> all score R:R below 1.5 because the nearest real anchor is the low target or the 52-week low. <span class="t">ABCL</span> has a binary readout on 30 Sep to 3 Oct.</li>
+    <li><b>Two legs missing.</b> <span class="t">SE</span>, whose executives sold about $276M since the print. <span class="t">CCJ</span>, <span class="t">CRWV</span>, <span class="t">ADUR</span> and <span class="t">SKHY</span>, where insider coverage is unknown and delivery failed.</li>
+    <li><b>Screened out on the Finviz pass.</b> 40 names at or within 20% of the Finviz mean target, including <span class="t">MSFT</span> <span class="t">AAPL</span> <span class="t">AMD</span> <span class="t">TSLA</span> <span class="t">PLTR</span> <span class="t">CRWD</span> <span class="t">NET</span> <span class="t">ZS</span> <span class="t">PANW</span> <span class="t">OKTA</span> <span class="t">NOW</span> <span class="t">LLY</span> <span class="t">NVO</span> <span class="t">HOOD</span> <span class="t">COIN</span> <span class="t">DELL</span> <span class="t">MRVL</span> <span class="t">INTC</span> <span class="t">TEM</span> <span class="t">HIMS</span> <span class="t">ZETA</span>, and 9 with two proxy gates failing: <span class="t">TSM</span> <span class="t">VRT</span> <span class="t">CEG</span> <span class="t">GNRC</span> <span class="t">IONQ</span> <span class="t">NFLX</span> <span class="t">MCD</span> <span class="t">NOK</span> <span class="t">AEHR</span>.</li>
+  </ul>
+
+  <!-- 7. Mandate. -->
+  <h2>Fit to the mandate</h2>
+  <p><span class="t">UNH</span> is the only name that fits: drawdown <span class="num">19%</span>, short interest <span class="num">1.5%</span>, beta <span class="num">0.61</span>, no binary event, macro fit neutral. Its edge is timing. Estimates rise while the price has fallen for three months. The scenario tree gives <span class="num">+6.9%</span> over six months against an <span class="num">8%</span> bar built from a single-A yield near <span class="num">5.6%</span>. So it is a half position now and a full one if the 13 Oct print raises the range again.</p>
+  <p><span class="t">NVDA</span> is the other core starter. It clears the bar at <span class="num">+8.4%</span>, but its insider leg fails, and it is the loudest name in the corpus, with 259 posts from 10 accounts. Add after the late-November guide holds.</p>
+  <p>Everything else waits for its date. The strongest insider-backed setups are <span class="t">GRAB</span>, <span class="t">UBER</span>, <span class="t">BABA</span>, <span class="t">VST</span>, <span class="t">KURA</span> and <span class="t">UUUU</span>, where officers bought with their own money after drawdowns. None clears the <span class="num">20%</span> satellite bar on its own tree today. The neoclouds, space, nuclear and speculative names are passes while real yields sit at <span class="num">2.76%</span>. The book stays at the outlook's <span class="num">60%</span> gross, with T-bills paying about <span class="num">2.4%</span> for the six months as the hurdle's floor.</p>
+
+  <!-- 8. Appendix: every input name exactly once. Pill = tier in the corpus probe. -->
+  <h2>All 123 names</h2>
+  <div class="tablewrap">
+    <table class="appx">
+      <thead><tr><th>Name</th><th>Tier</th><th>Price 24 Sep</th><th>Avg PT</th><th>Upside</th><th>Consensus · score</th><th>Institutional flow · short interest</th><th>Insiders, 90d</th><th>Next dated event</th></tr></thead>
+      <tbody>
+<tr><td class="tk">UNH</td><td><span class="pill core">runway</span></td><td class="num">$375</td><td class="num">$482</td><td class="num">+28%</td><td>Buy, 26 · <span class="num">64</span></td><td>TTM buyers 2311 / sellers 1897 · SI 1.5%</td><td>No buys. sells $661K</td><td>10-13 Q3 earnings (BMO)</td></tr>
+<tr><td class="tk">NVDA</td><td><span class="pill watch">one leg</span></td><td class="num">$225</td><td class="num">$328</td><td class="num">+46%</td><td>Strong Buy, 61 · <span class="num">60</span></td><td>TTM buyers 4283 / sellers 3487 · SI 1.3%</td><td>No buys. sells $967.6M</td><td>11-18 Q3 FY27 earnings (AMC) (est.)</td></tr>
+<tr><td class="tk">VST</td><td><span class="pill watch">one leg</span></td><td class="num">$138</td><td class="num">$218</td><td class="num">+58%</td><td>Strong Buy, 20 · <span class="num">57</span></td><td>TTM buyers 877 / sellers 570 · SI 3.2%</td><td>Buys $1.2M, top President and CEO $604K. sells $9.8M</td><td>11-05 Q3 2026 earnings (MarketBeat estimate; not confi (est.)</td></tr>
+<tr><td class="tk">NU</td><td><span class="pill watch">one leg</span></td><td class="num">$13.56</td><td class="num">$18.78</td><td class="num">+38%</td><td>Buy, 22 · <span class="num">59</span></td><td>TTM buyers 594 / sellers 302 · SI 2.7%</td><td>No Form 4 coverage. sells $5.6M</td><td>11-12 Q3 2026 earnings (est.)</td></tr>
+<tr><td class="tk">BABA</td><td><span class="pill watch">one leg</span></td><td class="num">$111</td><td class="num">$186</td><td class="num">+68%</td><td>Strong Buy, 40 · <span class="num">56</span></td><td>TTM buyers 853 / sellers 545 · SI 1.9%</td><td>Buys $25.7M, top Chairman (Director) $10.4M. sells $8.6M</td><td>11-11 Singles Day (11.11) GMV read</td></tr>
+<tr><td class="tk">CRDO</td><td><span class="pill watch">one leg</span></td><td class="num">$196</td><td class="num">$280</td><td class="num">+43%</td><td>Strong Buy, 19 · <span class="num">53</span></td><td>TTM buyers 582 / sellers 277 · SI 5.0%</td><td>No buys. sells $101.5M</td><td>12-02 Q2 FY27 earnings (MarketBeat estimate) (est.)</td></tr>
+<tr><td class="tk">WDC</td><td><span class="pill watch">one leg</span></td><td class="num">$450</td><td class="num">$665</td><td class="num">+48%</td><td>Buy, 26 · <span class="num">62</span></td><td>TTM buyers 1009 / sellers 424 · SI 5.0%</td><td>No buys. sells $15.8M</td><td>10-29 FQ1 FY2027 earnings (MarketBeat estimate) (est.)</td></tr>
+<tr><td class="tk">GRAB</td><td><span class="pill watch">one leg</span></td><td class="num">$3.11</td><td class="num">$5.82</td><td class="num">+87%</td><td>Strong Buy, 25 · <span class="num">60</span></td><td>TTM buyers 310 / sellers 167 · SI 5.4%</td><td>Buys $30.7M, top CEO $29.9M. sells $4.8M</td><td>11-03 Q3 2026 earnings (est.)</td></tr>
+<tr><td class="tk">UBER</td><td><span class="pill watch">one leg</span></td><td class="num">$69.22</td><td class="num">$101</td><td class="num">+46%</td><td>Buy, 50 · <span class="num">63</span></td><td>TTM buyers 1847 / sellers 1063 · SI 2.3%</td><td>Buys $15.3M, top CEO $10.0M. sells $2.0M</td><td>11-03 Q3 2026 earnings (est.)</td></tr>
+<tr><td class="tk">UUUU</td><td><span class="pill watch">one leg</span></td><td class="num">$11.32</td><td class="num">$24.15</td><td class="num">+113%</td><td>Strong Buy, 8 · <span class="num">53</span></td><td>TTM buyers 210 / sellers 146 · SI 21.4%</td><td>Buys $1.0M, top President and CEO $968K</td><td>11 Q3 2026 earnings (no date listed on MarketBeat;  (est.)</td></tr>
+<tr><td class="tk">KURA</td><td><span class="pill watch">one leg</span></td><td class="num">$10.86</td><td class="num">$32.00</td><td class="num">+195%</td><td>Strong Buy, 15 · <span class="num">63</span></td><td>TTM buyers 120 / sellers 58 · SI 18.0%</td><td>Buys $2.4M, top President and CEO $1.2M. sells $449K</td><td>11-03 Q3 2026 earnings (aggregator estimate) (est.)</td></tr>
+<tr><td class="tk">AMZN</td><td><span class="pill watch">one leg</span></td><td class="num">$249</td><td class="num">$328</td><td class="num">+32%</td><td>Strong Buy, 60 · <span class="num">59</span></td><td>TTM buyers 4634 / sellers 3077 · SI 0.8%</td><td>No buys. sells $365.0M</td><td>10-29 Q3 2026 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">LRCX</td><td><span class="pill watch">one leg</span></td><td class="num">$307</td><td class="num">$373</td><td class="num">+21%</td><td>Strong Buy, 35 · <span class="num">60</span></td><td>TTM buyers 1842 / sellers 1199 · SI 2.2%</td><td>No buys. sells $58.3M</td><td>10-21 Q1 FY27 earnings (est.)</td></tr>
+<tr><td class="tk">ASML</td><td><span class="pill watch">one leg</span></td><td class="num">$1,722</td><td class="num">$2,135</td><td class="num">+24%</td><td>Strong Buy, 42 · <span class="num">63</span></td><td>TTM buyers 1496 / sellers 909 · SI 0.4%</td><td>No Form 4 coverage</td><td>10-14 Q3 2026 results (BMO) (est.)</td></tr>
+<tr><td class="tk">AMAT</td><td><span class="pill watch">one leg</span></td><td class="num">$474</td><td class="num">$641</td><td class="num">+35%</td><td>Strong Buy, 39 · <span class="num">62</span></td><td>TTM buyers 1918 / sellers 1408 · SI 2.0%</td><td>No buys. sells $59.6M</td><td>11-12 Q4 FY26 earnings (est.)</td></tr>
+<tr><td class="tk">NXPI</td><td><span class="pill watch">one leg</span></td><td class="num">$230</td><td class="num">$311</td><td class="num">+35%</td><td>Buy, 30 · <span class="num">67</span></td><td>TTM buyers 674 / sellers 504 · SI 2.9%</td><td>No buys. sells $226K</td><td>10-27 Q3 2026 earnings (MarketBeat estimate) (est.)</td></tr>
+<tr><td class="tk">APP</td><td><span class="pill watch">one leg</span></td><td class="num">$312</td><td class="num">$498</td><td class="num">+59%</td><td>Buy, 33 · <span class="num">41</span></td><td>TTM buyers 1204 / sellers 689 · SI 3.8%</td><td>No buys. sells $1.6M</td><td>11-04 Q3 2026 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">AVGO</td><td><span class="pill watch">one leg</span></td><td class="num">$350</td><td class="num">$532</td><td class="num">+52%</td><td>Strong Buy, 50 · <span class="num">58</span></td><td>TTM buyers 3483 / sellers 2447 · SI 1.1%</td><td>No buys. sells $20.8M</td><td>12-09 Q4 FY26 earnings (est.)</td></tr>
+<tr><td class="tk">CSCO</td><td><span class="pill watch">one leg</span></td><td class="num">$107</td><td class="num">$137</td><td class="num">+28%</td><td>Buy, 28 · <span class="num">65</span></td><td>TTM buyers 2433 / sellers 1923 · SI 1.5%</td><td>No buys. sells $6.0M</td><td>10-02 ex-dividend</td></tr>
+<tr><td class="tk">OSCR</td><td><span class="pill watch">one leg</span></td><td class="num">$28.87</td><td class="num">$34.60</td><td class="num">+20%</td><td>Hold, 11 · <span class="num">50</span></td><td>TTM buyers 204 / sellers 94 · SI 7.1%</td><td>No buys. sells $25.7M</td><td>11-01 ACA 2027 open enrollment begins (statutory windo (est.)</td></tr>
+<tr><td class="tk">GLW</td><td><span class="pill watch">one leg</span></td><td class="num">$154</td><td class="num">$192</td><td class="num">+25%</td><td>Strong Buy, 17 · <span class="num">55</span></td><td>TTM buyers 1446 / sellers 903 · SI 2.0%</td><td>No buys. sells $3.5M</td><td>10-27 Q3 2026 earnings (MarketBeat estimate) (est.)</td></tr>
+<tr><td class="tk">SOFI</td><td><span class="pill watch">one leg</span></td><td class="num">$16.80</td><td class="num">$20.34</td><td class="num">+21%</td><td>Hold, 26 · <span class="num">40</span></td><td>TTM buyers 668 / sellers 282 · SI 15.0%</td><td>No buys. sells $891K</td><td>10-27 Q3 2026 earnings (est.)</td></tr>
+<tr><td class="tk">RDDT</td><td><span class="pill watch">one leg</span></td><td class="num">$153</td><td class="num">$214</td><td class="num">+40%</td><td>Buy, 34 · <span class="num">56</span></td><td>TTM buyers 647 / sellers 277 · SI 14.4%</td><td>No buys. sells $50.1M</td><td>10-29 Q3 2026 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">PLPC</td><td><span class="pill watch">one leg</span></td><td class="num">$430</td><td class="num">n/f</td><td class="num">n/f</td><td>None, 2 · <span class="num">46</span></td><td>TTM buyers 91 / sellers 37 · SI 4.5%</td><td>No buys. sells $3.0M</td><td>10-28 Q3 2026 earnings (MarketBeat/StockAnalysis estim (est.)</td></tr>
+<tr><td class="tk">AKAM</td><td><span class="pill watch">one leg</span></td><td class="num">$110</td><td class="num">$153</td><td class="num">+39%</td><td>Hold, 23 · <span class="num">49</span></td><td>TTM buyers 392 / sellers 247 · SI 13.4%</td><td>No buys. sells $720K</td><td>11-05 Q3 2026 earnings (StockAnalysis/MarketBeat estim (est.)</td></tr>
+<tr><td class="tk">SPCX</td><td><span class="pill watch">one leg</span></td><td class="num">$148</td><td class="num">$222</td><td class="num">+50%</td><td>Buy, 36 · <span class="num">55</span></td><td>TTM buyers 144 / sellers 0 · SI 7.7%</td><td>No buys. sells $52.5M</td><td>09-24 Lock-up tranche, 328.4M shares</td></tr>
+<tr><td class="tk">APLD</td><td><span class="pill watch">one leg</span></td><td class="num">$27.06</td><td class="num">$66.18</td><td class="num">+145%</td><td>Strong Buy, 14 · <span class="num">50</span></td><td>TTM buyers 310 / sellers 117 · SI 21.9%</td><td>No buys. sells $2.3M</td><td>10-08 FQ1 FY27 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">ORCL</td><td><span class="pill watch">one leg</span></td><td class="num">$140</td><td class="num">$238</td><td class="num">+71%</td><td>Buy, 43 · <span class="num">49</span></td><td>TTM buyers 2629 / sellers 2104 · SI 2.8%</td><td>No buys. sells $5.3M</td><td>10-09 Ex-dividend</td></tr>
+<tr><td class="tk">IREN</td><td><span class="pill watch">one leg</span></td><td class="num">$46.15</td><td class="num">$79.03</td><td class="num">+71%</td><td>Strong Buy, 17 · <span class="num">49</span></td><td>TTM buyers 319 / sellers 90 · SI 22.2%</td><td>No buys</td><td>11-05 Q1 FY27 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">ACHR</td><td><span class="pill watch">one leg</span></td><td class="num">$5.71</td><td class="num">$10.61</td><td class="num">+86%</td><td>Buy, 9 · <span class="num">49</span></td><td>TTM buyers 262 / sellers 238 · SI 14.7%</td><td>No buys. sells $1.7M</td><td>11-05 Q3 2026 earnings (MarketBeat estimate; not confi (est.)</td></tr>
+<tr><td class="tk">WULF</td><td><span class="pill watch">one leg</span></td><td class="num">$16.29</td><td class="num">$34.30</td><td class="num">+111%</td><td>Strong Buy, 22 · <span class="num">42</span></td><td>TTM buyers 289 / sellers 103 · SI 34.7%</td><td>Buys $190K, top Director $90K. sells $9.0M</td><td>11-09 Q3 2026 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">RKLB</td><td><span class="pill watch">one leg</span></td><td class="num">$73.61</td><td class="num">$109</td><td class="num">+49%</td><td>Buy, 20 · <span class="num">48</span></td><td>TTM buyers 827 / sellers 320 · SI 7.7%</td><td>No buys. sells $303.4M</td><td>11-09 Q3 2026 earnings (MarketBeat estimate; not confi (est.)</td></tr>
+<tr><td class="tk">CIFR</td><td><span class="pill watch">one leg</span></td><td class="num">$18.10</td><td class="num">$31.13</td><td class="num">+72%</td><td>Strong Buy, 20 · <span class="num">40</span></td><td>TTM buyers 260 / sellers 82 · SI 18.1%</td><td>No buys. sells $4.9M</td><td>11-02 Q3 2026 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">ONDS</td><td><span class="pill watch">one leg</span></td><td class="num">$7.60</td><td class="num">$19.42</td><td class="num">+156%</td><td>Strong Buy, 9 · <span class="num">40</span></td><td>TTM buyers 214 / sellers 41 · SI 42.2%</td><td>No buys. sells $67K</td><td>11-12 Q3 2026 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">EOSE</td><td><span class="pill watch">one leg</span></td><td class="num">$3.24</td><td class="num">$6.61</td><td class="num">+104%</td><td>Buy, 11 · <span class="num">41</span></td><td>TTM buyers 218 / sellers 152 · SI 33.6%</td><td>Buys $59K, top Director $40K. sells $3.1M</td><td>11-04 Q3 2026 earnings (MarketBeat estimate; not confi (est.)</td></tr>
+<tr><td class="tk">TXN</td><td><span class="pill sat">no runway</span></td><td class="num">$271</td><td class="num">$325</td><td class="num">+20%</td><td>Buy, 36 · <span class="num">64</span></td><td>TTM buyers 1595 / sellers 1200 · SI 2.2%</td><td>No buys. sells $1.9M</td><td>10-27 Q3 2026 earnings (est.)</td></tr>
+<tr><td class="tk">CAT</td><td><span class="pill sat">no runway</span></td><td class="num">$805</td><td class="num">$976</td><td class="num">+21%</td><td>Buy, 28 · <span class="num">64</span></td><td>TTM buyers 2540 / sellers 1817 · SI 1.6%</td><td>No buys. sells $26.2M</td><td>10-28 Q3 earnings (StockAnalysis estimate; MarketBeat  (est.)</td></tr>
+<tr><td class="tk">ANET</td><td><span class="pill sat">no runway</span></td><td class="num">$206</td><td class="num">$242</td><td class="num">+18%</td><td>Strong Buy, 31 · <span class="num">64</span></td><td>TTM buyers 1474 / sellers 939 · SI 1.1%</td><td>No buys. sells $857.8M</td><td>11-03 Q3 2026 earnings (StockAnalysis/MarketBeat estim (est.)</td></tr>
+<tr><td class="tk">AMBA</td><td><span class="pill sat">no runway</span></td><td class="num">$69.86</td><td class="num">$89.36</td><td class="num">+28%</td><td>Buy, 14 · <span class="num">59</span></td><td>TTM buyers 182 / sellers 123 · SI 13.5%</td><td>No buys. sells $3.0M</td><td>12-01 FQ3 FY2027 earnings (MarketBeat estimate) (est.)</td></tr>
+<tr><td class="tk">VIAV</td><td><span class="pill sat">no runway</span></td><td class="num">$37.23</td><td class="num">$61.43</td><td class="num">+65%</td><td>Strong Buy, 8 · <span class="num">59</span></td><td>TTM buyers 259 / sellers 127 · SI 4.7%</td><td>No buys. sells $8.4M</td><td>10-28 Q1 FY27 earnings (StockAnalysis/MarketBeat estim (est.)</td></tr>
+<tr><td class="tk">GEV</td><td><span class="pill sat">no runway</span></td><td class="num">$955</td><td class="num">$1,237</td><td class="num">+30%</td><td>Buy, 37 · <span class="num">59</span></td><td>TTM buyers 2025 / sellers 1175 · SI 3.3%</td><td>No buys</td><td>10-28 Q3 2026 earnings, 7:30am ET (listed on GE Vernov</td></tr>
+<tr><td class="tk">LITE</td><td><span class="pill sat">no runway</span></td><td class="num">$929</td><td class="num">$1,149</td><td class="num">+24%</td><td>Buy, 26 · <span class="num">58</span></td><td>TTM buyers 670 / sellers 290 · SI 7.3%</td><td>No buys. sells $63.1M</td><td>11-03 Q1 FY27 earnings (StockAnalysis/MarketBeat estim (est.)</td></tr>
+<tr><td class="tk">ON</td><td><span class="pill sat">no runway</span></td><td class="num">$73.15</td><td class="num">$104</td><td class="num">+42%</td><td>Buy, 29 · <span class="num">57</span></td><td>TTM buyers 399 / sellers 306 · SI 7.6%</td><td>No buys</td><td>11-02 Q3 2026 earnings (MarketBeat estimate) (est.)</td></tr>
+<tr><td class="tk">SNDK</td><td><span class="pill sat">no runway</span></td><td class="num">$1,754</td><td class="num">$2,137</td><td class="num">+22%</td><td>Buy, 25 · <span class="num">56</span></td><td>TTM buyers 897 / sellers 196 · SI 3.9%</td><td>No buys. sells $121.4M</td><td>11-05 FQ1 FY2027 earnings (estimate from prior-year da (est.)</td></tr>
+<tr><td class="tk">STIM</td><td><span class="pill sat">no runway</span></td><td class="num">$2.82</td><td class="num">$5.75</td><td class="num">+104%</td><td>Strong Buy, 4 · <span class="num">54</span></td><td>TTM buyers 45 / sellers 8 · SI 8.9%</td><td>Buys $107K, top 10% Owner $62K</td><td>09-30 Perceptive minimum liquidity covenant ($2.0M) pe</td></tr>
+<tr><td class="tk">DAL</td><td><span class="pill sat">no runway</span></td><td class="num">$82.76</td><td class="num">$103</td><td class="num">+25%</td><td>Strong Buy, 25 · <span class="num">54</span></td><td>TTM buyers 782 / sellers 463 · SI 4.0%</td><td>No buys. sells $33.1M</td><td>10-09 Q3 earnings (BMO) (est.)</td></tr>
+<tr><td class="tk">SNOW</td><td><span class="pill sat">no runway</span></td><td class="num">$334</td><td class="num">$425</td><td class="num">+27%</td><td>Buy, 50 · <span class="num">54</span></td><td>TTM buyers 889 / sellers 503 · SI 5.6%</td><td>No buys. sells $555.8M</td><td>12-02 Q3 FY2027 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">RARE</td><td><span class="pill sat">no runway</span></td><td class="num">$14.77</td><td class="num">$28.05</td><td class="num">+90%</td><td>Buy, 20 · <span class="num">52</span></td><td>TTM buyers 183 / sellers 84 · SI 17.7%</td><td>No buys. sells $340K</td><td>10-17 FAYUVI (UX111) first shipments; company guided 3</td></tr>
+<tr><td class="tk">STLN</td><td><span class="pill sat">no runway</span></td><td class="num">$6.51</td><td class="num">$9.00</td><td class="num">+38%</td><td>Strong Buy, 5 · <span class="num">51</span></td><td>TTM buyers 74 / sellers 22 · SI 7.5%</td><td>Buys $261K, top 10% Owner $95K. sells $2.1M</td><td>11-06 Q3 2026 earnings (aggregator pattern; company gu (est.)</td></tr>
+<tr><td class="tk">ISRG</td><td><span class="pill sat">no runway</span></td><td class="num">$400</td><td class="num">$476</td><td class="num">+19%</td><td>Buy, 32 · <span class="num">51</span></td><td>TTM buyers 1616 / sellers 1003 · SI 2.3%</td><td>No buys. sells $5.0M</td><td>10-20 Q3 earnings (AMC; ISRG pre-announces preliminary (est.)</td></tr>
+<tr><td class="tk">GRRR</td><td><span class="pill sat">no runway</span></td><td class="num">$14.36</td><td class="num">$34.40</td><td class="num">+140%</td><td>Strong Buy, 5 · <span class="num">49</span></td><td>TTM buyers 26 / sellers 8 · SI 19.4%</td><td>No buys</td><td>11-16 Q3 2026 results (estimated) (est.)</td></tr>
+<tr><td class="tk">GOOGL</td><td><span class="pill sat">no runway</span></td><td class="num">$342</td><td class="num">$428</td><td class="num">+25%</td><td>Strong Buy, 62 · <span class="num">49</span></td><td>TTM buyers 3756 / sellers 3288 · SI 0.8%</td><td>No buys. sells $3.5M</td><td>10-28 Q3 2026 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">CRM</td><td><span class="pill sat">no runway</span></td><td class="num">$238</td><td class="num">$281</td><td class="num">+18%</td><td>Buy, 54 · <span class="num">49</span></td><td>TTM buyers 2003 / sellers 1565 · SI 3.7%</td><td>Buys $999K, top Director $999K. sells $1.2M</td><td>10-31 Final settlement of the $25B accelerated share r</td></tr>
+<tr><td class="tk">COHR</td><td><span class="pill sat">no runway</span></td><td class="num">$291</td><td class="num">$415</td><td class="num">+43%</td><td>Buy, 23 · <span class="num">48</span></td><td>TTM buyers 709 / sellers 359 · SI 5.2%</td><td>No buys. sells $8.5M</td><td>11-04 Q1 FY27 earnings (StockAnalysis estimate) (est.)</td></tr>
+<tr><td class="tk">CCJ</td><td><span class="pill sat">no runway</span></td><td class="num">$88.12</td><td class="num">$128</td><td class="num">+45%</td><td>Buy, 21 · <span class="num">46</span></td><td>TTM buyers 525 / sellers 461 · SI 2.0%</td><td>No Form 4 coverage</td><td>10 Cigar Lake mill restart status (no dated company (est.)</td></tr>
+<tr><td class="tk">MU</td><td><span class="pill sat">no runway</span></td><td class="num">$1,081</td><td class="num">$1,515</td><td class="num">+40%</td><td>Strong Buy, 49 · <span class="num">46</span></td><td>TTM buyers 2462 / sellers 1246 · SI 2.5%</td><td>No buys. sells $182.2M</td><td>09-30 FQ4 FY2026 earnings, call 2:30pm MT</td></tr>
+<tr><td class="tk">SKHY</td><td><span class="pill sat">no runway</span></td><td class="num">$186</td><td class="num">$248</td><td class="num">+33%</td><td>Strong Buy, 15 · <span class="num">46</span></td><td>not found · SI 4.6%</td><td>No Form 4 coverage</td><td>not found</td></tr>
+<tr><td class="tk">PYPL</td><td><span class="pill sat">no runway</span></td><td class="num">$52.60</td><td class="num">$57.07</td><td class="num">+8%</td><td>Hold, 43 · <span class="num">46</span></td><td>TTM buyers 960 / sellers 906 · SI 3.5%</td><td>No buys. sells $848K</td><td>10-27 Q3 2026 earnings (est.)</td></tr>
+<tr><td class="tk">ALAB</td><td><span class="pill sat">no runway</span></td><td class="num">$361</td><td class="num">$390</td><td class="num">+8%</td><td>Buy, 26 · <span class="num">46</span></td><td>TTM buyers 605 / sellers 257 · SI 6.3%</td><td>No buys. sells $209.5M</td><td>11-03 Q3 2026 earnings (guide $540-560M) (est.)</td></tr>
+<tr><td class="tk">ARM</td><td><span class="pill sat">no runway</span></td><td class="num">$306</td><td class="num">$289</td><td class="num">-6%</td><td>Buy, 43 · <span class="num">46</span></td><td>TTM buyers 427 / sellers 225 · SI 1.6%</td><td>No buys. sells $5.8M</td><td>11-04 Q2 FY27 earnings (est.)</td></tr>
+<tr><td class="tk">SE</td><td><span class="pill sat">no runway</span></td><td class="num">$101</td><td class="num">$157</td><td class="num">+56%</td><td>Strong Buy, 29 · <span class="num">43</span></td><td>TTM buyers 89 / sellers 44 · SI 1.8%</td><td>No Form 4 coverage. sells $276.5M</td><td>11-10 Q3 2026 earnings (est.)</td></tr>
+<tr><td class="tk">ABCL</td><td><span class="pill sat">no runway</span></td><td class="num">$12.65</td><td class="num">$17.13</td><td class="num">+35%</td><td>Strong Buy, 9 · <span class="num">43</span></td><td>TTM buyers 77 / sellers 29 · SI 15.5%</td><td>No buys</td><td>09-30 ABCL635 Phase 2 oral presentation, IMS World Con</td></tr>
+<tr><td class="tk">GS</td><td><span class="pill sat">no runway</span></td><td class="num">$923</td><td class="num">$1,142</td><td class="num">+24%</td><td>Hold, 25 · <span class="num">43</span></td><td>TTM buyers 2056 / sellers 1370 · SI 2.4%</td><td>No buys. sells $1.1M</td><td>10-13 Q3 2026 earnings (Finviz Oct 13 BMO; MarketBeat  (est.)</td></tr>
+<tr><td class="tk">WYFI</td><td><span class="pill sat">no runway</span></td><td class="num">$20.26</td><td class="num">$40.50</td><td class="num">+100%</td><td>Strong Buy, 10 · <span class="num">40</span></td><td>TTM buyers 70 / sellers 6 · SI 50.5%</td><td>No buys</td><td>11-12 Q3 2026 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">AMKR</td><td><span class="pill sat">no runway</span></td><td class="num">$52.69</td><td class="num">$76.40</td><td class="num">+45%</td><td>Buy, 11 · <span class="num">39</span></td><td>TTM buyers 324 / sellers 153 · SI 16.3%</td><td>No buys. sells $4.0M</td><td>10-26 Q3 2026 earnings (est.)</td></tr>
+<tr><td class="tk">ADUR</td><td><span class="pill sat">no runway</span></td><td class="num">$12.56</td><td class="num">$26.98</td><td class="num">+115%</td><td>Strong Buy, 4 · <span class="num">37</span></td><td>TTM buyers 15 / sellers 1 · SI 13.0%</td><td>No Form 4 coverage</td><td>10-15 Q1 FY27 results (6-K; StockAnalysis estimate) (est.)</td></tr>
+<tr><td class="tk">META</td><td><span class="pill sat">no runway</span></td><td class="num">$778</td><td class="num">$761</td><td class="num">-2%</td><td>Strong Buy, 62 · <span class="num">37</span></td><td>TTM buyers 3968 / sellers 2687 · SI 1.4%</td><td>No buys. sells $82.7M</td><td>10-28 Q3 2026 earnings (estimated, after close) (est.)</td></tr>
+<tr><td class="tk">AAOI</td><td><span class="pill sat">no runway</span></td><td class="num">$101</td><td class="num">$163</td><td class="num">+62%</td><td>Buy, 6 · <span class="num">36</span></td><td>TTM buyers 197 / sellers 54 · SI 15.1%</td><td>No buys. sells $6.7M</td><td>11-05 Q3 2026 earnings (StockAnalysis/MarketBeat estim (est.)</td></tr>
+<tr><td class="tk">CRWV</td><td><span class="pill sat">no runway</span></td><td class="num">$90.13</td><td class="num">$141</td><td class="num">+56%</td><td>Buy, 40 · <span class="num">36</span></td><td>TTM buyers 667 / sellers 150 · SI 15.8%</td><td>No Form 4 coverage. sells $776.5M</td><td>10-01 Initial purchasers option on extra $500M of 2033</td></tr>
+<tr><td class="tk">NKE</td><td><span class="pill sat">no runway</span></td><td class="num">$35.99</td><td class="num">$47.32</td><td class="num">+31%</td><td>Hold, 42 · <span class="num">33</span></td><td>TTM buyers 1170 / sellers 1011 · SI 7.3%</td><td>No buys. sells $771K</td><td>10-01 Q1 FY27 earnings (AMC)</td></tr>
+<tr><td class="tk">AI</td><td><span class="pill sat">no runway</span></td><td class="num">$10.76</td><td class="num">$8.30</td><td class="num">-23%</td><td>Sell, 13 · <span class="num">31</span></td><td>TTM buyers 145 / sellers 63 · SI 32.9%</td><td>No buys. sells $16.9M</td><td>12-02 Q2 FY2027 earnings (estimated) (est.)</td></tr>
+<tr><td class="tk">ASTS</td><td><span class="pill sat">no runway</span></td><td class="num">$61.06</td><td class="num">$79.61</td><td class="num">+30%</td><td>Hold, 14 · <span class="num">30</span></td><td>TTM buyers 560 / sellers 243 · SI 34.2%</td><td>Buys $619K, top Director $619K. sells $3.1M</td><td>10 BlueBird 14-16 launch (&#x27;ready to ship short (est.)</td></tr>
+<tr><td class="tk">NBIS</td><td><span class="pill sat">no runway</span></td><td class="num">$243</td><td class="num">$276</td><td class="num">+13%</td><td>Buy, 19 · <span class="num">30</span></td><td>TTM buyers 571 / sellers 199 · SI 20.3%</td><td>No buys. sells $46.3M</td><td>11-10 Q3 2026 earnings (consensus revenue $905M) (est.)</td></tr>
+<tr><td class="tk">PSNL</td><td><span class="pill sat">no runway</span></td><td class="num">$16.57</td><td class="num">$15.44</td><td class="num">-7%</td><td>Buy, 5 · <span class="num">29</span></td><td>TTM buyers 64 / sellers 35 · SI 8.2%</td><td>No buys. sells $5.4M</td><td>10-02 HSR waiting period expiry (~30 days after 2026-0 (est.)</td></tr>
+<tr><td class="tk">AAPL</td><td><span class="pill sat">screened</span></td><td class="num">$336</td><td class="num">$338</td><td class="num">+0%</td><td>Finviz recom 2.13 · screen fails upside</td><td>Finviz inst trans +0.2% · SI 0.96%</td><td>Finviz insider trans -2.3%</td><td>Jul 30 AMC</td></tr>
+<tr><td class="tk">ADBE</td><td><span class="pill sat">screened</span></td><td class="num">$239</td><td class="num">$272</td><td class="num">+14%</td><td>Finviz recom 2.61 · screen fails upside, flow</td><td>Finviz inst trans -1.4% · SI 4.38%</td><td>Finviz insider trans -21.2%</td><td>Sep 10 AMC</td></tr>
+<tr><td class="tk">AEHR</td><td><span class="pill sat">screened</span></td><td class="num">$97.42</td><td class="num">$130</td><td class="num">+34%</td><td>Finviz recom 1.0 · screen fails insider, delivery</td><td>Finviz inst trans +3.0% · SI 13.95%</td><td>Finviz insider trans -31.3%</td><td>Jul 14 AMC</td></tr>
+<tr><td class="tk">AMD</td><td><span class="pill sat">screened</span></td><td class="num">$629</td><td class="num">$633</td><td class="num">+1%</td><td>Finviz recom 1.47 · screen fails upside</td><td>Finviz inst trans +3.6% · SI 2.57%</td><td>Finviz insider trans -6.8%</td><td>Aug 04 AMC</td></tr>
+<tr><td class="tk">BE</td><td><span class="pill sat">screened</span></td><td class="num">$267</td><td class="num">$287</td><td class="num">+8%</td><td>Finviz recom 2.06 · screen fails upside</td><td>Finviz inst trans +1.8% · SI 6.94%</td><td>Finviz insider trans -1.8%</td><td>Jul 28 AMC</td></tr>
+<tr><td class="tk">CEG</td><td><span class="pill sat">screened</span></td><td class="num">$262</td><td class="num">$350</td><td class="num">+34%</td><td>Finviz recom 1.42 · screen fails flow, delivery</td><td>Finviz inst trans -1.3% · SI 3.42%</td><td>Finviz insider trans +0.0%</td><td>Aug 06 BMO</td></tr>
+<tr><td class="tk">COIN</td><td><span class="pill sat">screened</span></td><td class="num">$199</td><td class="num">$202</td><td class="num">+2%</td><td>Finviz recom 1.92 · screen fails upside, flow, delivery</td><td>Finviz inst trans -0.2% · SI 12.69%</td><td>Finviz insider trans -0.3%</td><td>Jul 30 AMC</td></tr>
+<tr><td class="tk">CRWD</td><td><span class="pill sat">screened</span></td><td class="num">$260</td><td class="num">$239</td><td class="num">-8%</td><td>Finviz recom 1.65 · screen fails upside</td><td>Finviz inst trans +3.1% · SI 2.46%</td><td>Finviz insider trans -4.0%</td><td>Aug 26 AMC</td></tr>
+<tr><td class="tk">DDOG</td><td><span class="pill sat">screened</span></td><td class="num">$257</td><td class="num">$288</td><td class="num">+12%</td><td>Finviz recom 1.39 · screen fails upside</td><td>Finviz inst trans +2.2% · SI 3.12%</td><td>Finviz insider trans -8.6%</td><td>Aug 06 BMO</td></tr>
+<tr><td class="tk">DELL</td><td><span class="pill sat">screened</span></td><td class="num">$536</td><td class="num">$593</td><td class="num">+11%</td><td>Finviz recom 1.79 · screen fails upside, flow, insider</td><td>Finviz inst trans -5.2% · SI 4.94%</td><td>Finviz insider trans -2.5%</td><td>Sep 01 AMC</td></tr>
+<tr><td class="tk">EQIX</td><td><span class="pill sat">screened</span></td><td class="num">$1,035</td><td class="num">$1,236</td><td class="num">+20%</td><td>Finviz recom 1.39 · screen fails upside</td><td>Finviz inst trans +0.9% · SI 1.72%</td><td>Finviz insider trans -5.8%</td><td>Jul 29 AMC</td></tr>
+<tr><td class="tk">FTNT</td><td><span class="pill sat">screened</span></td><td class="num">$179</td><td class="num">$168</td><td class="num">-6%</td><td>Finviz recom 2.89 · screen fails upside, flow</td><td>Finviz inst trans -0.9% · SI 2.23%</td><td>Finviz insider trans -0.4%</td><td>Jul 29 AMC</td></tr>
+<tr><td class="tk">GME</td><td><span class="pill sat">screened</span></td><td class="num">$25.02</td><td class="num">$13.50</td><td class="num">-46%</td><td>Finviz recom 3.0 · screen fails upside, flow</td><td>Finviz inst trans -0.2% · SI 12.54%</td><td>Finviz insider trans +4.6%</td><td>Sep 08 BMO</td></tr>
+<tr><td class="tk">GNRC</td><td><span class="pill sat">screened</span></td><td class="num">$198</td><td class="num">$299</td><td class="num">+51%</td><td>Finviz recom 1.75 · screen fails flow, delivery</td><td>Finviz inst trans -2.5% · SI 4.25%</td><td>Finviz insider trans -3.1%</td><td>Jul 29 BMO</td></tr>
+<tr><td class="tk">HIMS</td><td><span class="pill sat">screened</span></td><td class="num">$29.28</td><td class="num">$32.21</td><td class="num">+10%</td><td>Finviz recom 2.6 · screen fails upside</td><td>Finviz inst trans +2.1% · SI 25.94%</td><td>Finviz insider trans -1.6%</td><td>Aug 10 AMC</td></tr>
+<tr><td class="tk">HOOD</td><td><span class="pill sat">screened</span></td><td class="num">$121</td><td class="num">$134</td><td class="num">+11%</td><td>Finviz recom 1.59 · screen fails upside</td><td>Finviz inst trans +6.6% · SI 4.67%</td><td>Finviz insider trans -0.8%</td><td>Jul 29 AMC</td></tr>
+<tr><td class="tk">IBM</td><td><span class="pill sat">screened</span></td><td class="num">$227</td><td class="num">$246</td><td class="num">+8%</td><td>Finviz recom 2.18 · screen fails upside, delivery</td><td>Finviz inst trans +1.3% · SI 2.38%</td><td>Finviz insider trans -2.6%</td><td>Jul 22 AMC</td></tr>
+<tr><td class="tk">INTC</td><td><span class="pill sat">screened</span></td><td class="num">$127</td><td class="num">$120</td><td class="num">-6%</td><td>Finviz recom 2.43 · screen fails upside</td><td>Finviz inst trans +1.5% · SI 3.35%</td><td>Finviz insider trans +0.0%</td><td>Jul 23 AMC</td></tr>
+<tr><td class="tk">IONQ</td><td><span class="pill sat">screened</span></td><td class="num">$44.98</td><td class="num">$69.25</td><td class="num">+54%</td><td>Finviz recom 1.4 · screen fails flow, delivery</td><td>Finviz inst trans -0.8% · SI 10.15%</td><td>Finviz insider trans -0.2%</td><td>Aug 05 AMC</td></tr>
+<tr><td class="tk">JPM</td><td><span class="pill sat">screened</span></td><td class="num">$339</td><td class="num">$377</td><td class="num">+11%</td><td>Finviz recom 2.0 · screen fails upside, flow</td><td>Finviz inst trans -1.1% · SI 1.0%</td><td>Finviz insider trans -2.0%</td><td>Oct 13 BMO</td></tr>
+<tr><td class="tk">LLY</td><td><span class="pill sat">screened</span></td><td class="num">$1,182</td><td class="num">$1,359</td><td class="num">+15%</td><td>Finviz recom 1.5 · screen fails upside</td><td>Finviz inst trans +0.0% · SI 0.93%</td><td>Finviz insider trans -0.0%</td><td>Aug 05 BMO</td></tr>
+<tr><td class="tk">LULU</td><td><span class="pill sat">screened</span></td><td class="num">$102</td><td class="num">$98.35</td><td class="num">-3%</td><td>Finviz recom 3.11 · screen fails upside, flow, delivery</td><td>Finviz inst trans -5.3% · SI 13.35%</td><td>Finviz insider trans +0.1%</td><td>Sep 03 AMC</td></tr>
+<tr><td class="tk">MCD</td><td><span class="pill sat">screened</span></td><td class="num">$237</td><td class="num">$301</td><td class="num">+27%</td><td>Finviz recom 2.05 · screen fails flow, delivery</td><td>Finviz inst trans -1.2% · SI 1.74%</td><td>Finviz insider trans -3.2%</td><td>Aug 04 BMO</td></tr>
+<tr><td class="tk">MRK</td><td><span class="pill sat">screened</span></td><td class="num">$148</td><td class="num">$154</td><td class="num">+4%</td><td>Finviz recom 1.81 · screen fails upside</td><td>Finviz inst trans +0.5% · SI 1.23%</td><td>Finviz insider trans -8.5%</td><td>Aug 04 BMO</td></tr>
+<tr><td class="tk">MRNA</td><td><span class="pill sat">screened</span></td><td class="num">$195</td><td class="num">$115</td><td class="num">-41%</td><td>Finviz recom 2.85 · screen fails upside</td><td>Finviz inst trans +2.1% · SI 9.0%</td><td>Finviz insider trans -2.3%</td><td>Jul 31 BMO</td></tr>
+<tr><td class="tk">MRVL</td><td><span class="pill sat">screened</span></td><td class="num">$259</td><td class="num">$294</td><td class="num">+14%</td><td>Finviz recom 1.35 · screen fails upside, flow</td><td>Finviz inst trans -3.4% · SI 4.38%</td><td>Finviz insider trans -6.7%</td><td>Aug 27 AMC</td></tr>
+<tr><td class="tk">MSFT</td><td><span class="pill sat">screened</span></td><td class="num">$498</td><td class="num">$571</td><td class="num">+15%</td><td>Finviz recom 1.22 · screen fails upside</td><td>Finviz inst trans +0.2% · SI 1.02%</td><td>Finviz insider trans -0.1%</td><td>Jul 29 AMC</td></tr>
+<tr><td class="tk">NET</td><td><span class="pill sat">screened</span></td><td class="num">$359</td><td class="num">$344</td><td class="num">-4%</td><td>Finviz recom 1.92 · screen fails upside</td><td>Finviz inst trans +0.8% · SI 2.13%</td><td>Finviz insider trans -4.1%</td><td>Aug 06 AMC</td></tr>
+<tr><td class="tk">NFLX</td><td><span class="pill sat">screened</span></td><td class="num">$71.72</td><td class="num">$93.57</td><td class="num">+30%</td><td>Finviz recom 1.78 · screen fails flow, delivery</td><td>Finviz inst trans -1.9% · SI 2.21%</td><td>Finviz insider trans -4.9%</td><td>Jul 16 AMC</td></tr>
+<tr><td class="tk">NOK</td><td><span class="pill sat">screened</span></td><td class="num">$10.43</td><td class="num">$13.21</td><td class="num">+27%</td><td>Finviz recom 2.03 · screen fails flow, delivery</td><td>Finviz inst trans -2.2% · SI 1.04%</td><td>n/f</td><td>Jul 23 BMO</td></tr>
+<tr><td class="tk">NOW</td><td><span class="pill sat">screened</span></td><td class="num">$138</td><td class="num">$146</td><td class="num">+6%</td><td>Finviz recom 1.36 · screen fails upside, flow</td><td>Finviz inst trans -3.4% · SI 2.96%</td><td>Finviz insider trans -0.5%</td><td>Jul 22 AMC</td></tr>
+<tr><td class="tk">NVO</td><td><span class="pill sat">screened</span></td><td class="num">$38.62</td><td class="num">$44.50</td><td class="num">+15%</td><td>Finviz recom 3.4 · screen fails upside, flow, delivery</td><td>Finviz inst trans -0.3% · SI 0.79%</td><td>Finviz insider trans +0.0%</td><td>Aug 04 AMC</td></tr>
+<tr><td class="tk">OKTA</td><td><span class="pill sat">screened</span></td><td class="num">$207</td><td class="num">$209</td><td class="num">+1%</td><td>Finviz recom 1.63 · screen fails upside, flow</td><td>Finviz inst trans -1.8% · SI 4.63%</td><td>Finviz insider trans -3.9%</td><td>Aug 26 AMC</td></tr>
+<tr><td class="tk">P</td><td><span class="pill sat">screened</span></td><td class="num">$122</td><td class="num">$144</td><td class="num">+18%</td><td>Finviz recom 1.48 · screen fails upside</td><td>Finviz inst trans +0.3% · SI 2.41%</td><td>Finviz insider trans -13.8%</td><td>Aug 26 AMC</td></tr>
+<tr><td class="tk">PANW</td><td><span class="pill sat">screened</span></td><td class="num">$390</td><td class="num">$403</td><td class="num">+3%</td><td>Finviz recom 1.66 · screen fails upside</td><td>Finviz inst trans +2.0% · SI 2.64%</td><td>Finviz insider trans -0.8%</td><td>Sep 01 AMC</td></tr>
+<tr><td class="tk">PLTR</td><td><span class="pill sat">screened</span></td><td class="num">$193</td><td class="num">$204</td><td class="num">+6%</td><td>Finviz recom 1.86 · screen fails upside</td><td>Finviz inst trans +3.0% · SI 2.95%</td><td>Finviz insider trans -0.9%</td><td>Aug 03 AMC</td></tr>
+<tr><td class="tk">QCOM</td><td><span class="pill sat">screened</span></td><td class="num">$194</td><td class="num">$197</td><td class="num">+1%</td><td>Finviz recom 2.65 · screen fails upside, flow, delivery</td><td>Finviz inst trans -2.2% · SI 3.23%</td><td>Finviz insider trans -0.7%</td><td>Jul 29 AMC</td></tr>
+<tr><td class="tk">QTRX</td><td><span class="pill sat">screened</span></td><td class="num">$3.18</td><td class="num">$3.00</td><td class="num">-6%</td><td>Finviz recom 3.0 · screen fails upside, flow, delivery</td><td>Finviz inst trans -16.5% · SI 11.91%</td><td>Finviz insider trans +1.9%</td><td>Aug 10 BMO</td></tr>
+<tr><td class="tk">SHOP</td><td><span class="pill sat">screened</span></td><td class="num">$145</td><td class="num">$174</td><td class="num">+20%</td><td>Finviz recom 1.64 · screen fails upside, flow</td><td>Finviz inst trans -0.7% · SI 1.37%</td><td>Finviz insider trans +0.0%</td><td>Aug 05 BMO</td></tr>
+<tr><td class="tk">TEM</td><td><span class="pill sat">screened</span></td><td class="num">$82.24</td><td class="num">$67.94</td><td class="num">-17%</td><td>Finviz recom 2.3 · screen fails upside, insider</td><td>Finviz inst trans +4.3% · SI 27.35%</td><td>Finviz insider trans -2.8%</td><td>Jul 30 AMC</td></tr>
+<tr><td class="tk">TSLA</td><td><span class="pill sat">screened</span></td><td class="num">$378</td><td class="num">$377</td><td class="num">-0%</td><td>Finviz recom 2.4 · screen fails upside</td><td>Finviz inst trans +1.7% · SI 2.63%</td><td>Finviz insider trans -0.0%</td><td>Jul 22 AMC</td></tr>
+<tr><td class="tk">TSM</td><td><span class="pill sat">screened</span></td><td class="num">$451</td><td class="num">$544</td><td class="num">+20%</td><td>Finviz recom 1.32 · screen fails flow, delivery</td><td>Finviz inst trans -0.6% · SI 0.58%</td><td>Finviz insider trans -3.8%</td><td>Jul 16 BMO</td></tr>
+<tr><td class="tk">TTD</td><td><span class="pill sat">screened</span></td><td class="num">$12.63</td><td class="num">$13.38</td><td class="num">+6%</td><td>Finviz recom 3.14 · screen fails upside, delivery</td><td>Finviz inst trans +0.1% · SI 21.1%</td><td>Finviz insider trans -0.1%</td><td>Aug 06 AMC</td></tr>
+<tr><td class="tk">V</td><td><span class="pill sat">screened</span></td><td class="num">$368</td><td class="num">$424</td><td class="num">+15%</td><td>Finviz recom 1.4 · screen fails upside</td><td>Finviz inst trans +0.9% · SI 1.09%</td><td>Finviz insider trans -0.1%</td><td>Jul 28 AMC</td></tr>
+<tr><td class="tk">VRT</td><td><span class="pill sat">screened</span></td><td class="num">$245</td><td class="num">$339</td><td class="num">+38%</td><td>Finviz recom 1.38 · screen fails flow, delivery</td><td>Finviz inst trans -1.3% · SI 3.59%</td><td>Finviz insider trans -1.2%</td><td>Jul 29 BMO</td></tr>
+<tr><td class="tk">WGS</td><td><span class="pill sat">screened</span></td><td class="num">$88.48</td><td class="num">$90.44</td><td class="num">+2%</td><td>Finviz recom 1.0 · screen fails upside, flow</td><td>Finviz inst trans -8.2% · SI 21.38%</td><td>n/f</td><td>Aug 03 AMC</td></tr>
+<tr><td class="tk">XGN</td><td><span class="pill sat">screened</span></td><td class="num">$8.74</td><td class="num">$10.14</td><td class="num">+16%</td><td>Finviz recom 1.0 · screen fails upside, flow</td><td>Finviz inst trans -10.0% · SI 5.49%</td><td>Finviz insider trans -0.2%</td><td>Aug 04 BMO</td></tr>
+<tr><td class="tk">ZETA</td><td><span class="pill sat">screened</span></td><td class="num">$29.57</td><td class="num">$31.36</td><td class="num">+6%</td><td>Finviz recom 1.47 · screen fails upside</td><td>Finviz inst trans +1.4% · SI 8.06%</td><td>Finviz insider trans -0.0%</td><td>Aug 04 AMC</td></tr>
+<tr><td class="tk">ZS</td><td><span class="pill sat">screened</span></td><td class="num">$215</td><td class="num">$209</td><td class="num">-3%</td><td>Finviz recom 1.57 · screen fails upside, flow</td><td>Finviz inst trans -7.2% · SI 6.15%</td><td>Finviz insider trans -0.1%</td><td>Sep 03 AMC</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="src">Tier is this probe's final placement after the red team; "screened" names were ranked on the Finviz snapshot only. Flow is MarketBeat's trailing-twelve-month buyer and seller counts, not a quarter-on-quarter 13F change. SI is short interest as a percent of float. The number after the consensus label is the 100-point score. (est.) marks an aggregator date the company has not confirmed.</p>
+
+  <!-- 9. Limits, then three next steps. -->
+  <h2>What this probe cannot tell you</h2>
+  <div class="callout warn">
+    The 13F figures describe 30 June 2026 and are twelve weeks stale. Fintel is blocked, so net share changes and new or exited holder counts are missing for every name, and the flow gate rests on MarketBeat's twelve-month counts. Yahoo's analysis page failed for most names, so revisions come from Zacks and StockAnalysis levels. Forward EBIT, cash flow and capex for FY2 sit behind paywalls, so operating-margin, FCF-growth and return-on-capital checks are uncovered. Almost every earnings date is an aggregator estimate; Micron on 30 Sep, Nike on 1 Oct, UNH on 13 Oct and GE Vernova on 28 Oct are confirmed. Chart reads come from moving-average distances, not a full price series. Prospect, competition, macro fit and narrative are analyst judgments and are written as such. The 49 screened-out names were judged on the Finviz mean target alone. Calibration: of the September verdicts still priced, <span class="t">IONQ</span> is <span class="num">+14%</span> against an expected <span class="num">+2%</span> and <span class="t">QCOM</span>, called no runway, is <span class="num">+15%</span>. Two names is too few to adjust on, but both errors ran the same way, too cautious.
+  </div>
+  <p>Three things would sharpen the next probe: a quarter-on-quarter 13F source to replace Fintel; opening every Form 4 above $10M to confirm its plan box; and rerunning this page after Micron on 30 Sep and CPI on 14 Oct, which decide the memory and duration calls.</p>
+
+  <div class="foot">Sources are Finviz, StockAnalysis (S&amp;P Global), MarketBeat, Yahoo, Zacks, Nasdaq, SEC EDGAR and company releases, as fetched on 24 Sep 2026, read against the account analyses in data/corpus/analysis/accounts and the macro regime of 24 Sep. Every figure's URL and date is in data/probes/runway/2026-09-24/records; the scorecard and verdicts are in data/probes/runway/2026-09-24/evidence.md. Nothing here is investment advice.</div>
+</div>

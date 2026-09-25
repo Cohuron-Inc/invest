@@ -116,7 +116,10 @@ def insider_pts(rec, close):
     elif ceo_sell_big or len(open_sells) >= 3:
         pts, why = 0, f"clustered or CEO selling ${sell_usd:,.0f}, no buys"
     elif sells:
-        pts, why = 2, f"no buys; sells ${sell_usd:,.0f}" + (" (10b5-1)" if not open_sells else "")
+        # Only a sale whose Form 4 box is checked is a plan sale; unverified (None) is said as such.
+        plan = "all 10b5-1" if all(s.get("plan_10b5_1") is True for s in sells) else \
+               "plan status unverified" if not open_sells else "some outside a plan"
+        pts, why = 2, f"no buys; sells ${sell_usd:,.0f} ({plan})"
     else:
         pts, why = 3, "verified no qualifying insider activity; neutral, not positive conviction"
     gate = bool(buys) or (not ceo_sell_big and sell_usd < 50_000_000)
@@ -212,7 +215,10 @@ def build(data_dir: Path) -> None:
         # Downside anchor: the highest of the low target, the 52w low, and the 200-day if price is above it.
         s200 = v(rec, "price", "sma200_pct")
         sma200_px = close / (1 + s200 / 100) if close and s200 is not None else None
-        anchors = [x for x in (pt_low, lo, sma200_px if (s200 is not None and s200 > 0) else None) if x is not None and close and x < close]
+        # An anchor closer than 5% below the close makes the ratio arithmetic, not analysis
+        # (QCOM 26.9:1, RKT 60.7:1 in September 2026); fall back to the next anchor down.
+        anchors = [x for x in (pt_low, lo, sma200_px if (s200 is not None and s200 > 0) else None)
+                   if x is not None and close and x <= close * 0.95]
         anchor = max(anchors) if anchors else None
         rr = None
         if close and pt_avg and anchor and close > anchor:
@@ -220,7 +226,9 @@ def build(data_dir: Path) -> None:
         e_pts, e_why = earnings_pts(rec)
         guide, r90 = v(rec, "earnings", "guide"), v(rec, "earnings", "revisions_90d")
         ra, re_ = v(rec, "earnings", "revenue_actual"), v(rec, "earnings", "revenue_estimate")
-        delivery = (ra is not None and re_ is not None and ra >= re_) and guide in ("raised", "held") and r90 in ("up", "flat", None)
+        # "none" means no guidance as a matter of policy: neutral, so the print and the
+        # revision direction decide the gate (PLPC, TPL, GS, GOOGL do not guide).
+        delivery = (ra is not None and re_ is not None and ra >= re_) and guide in ("raised", "held", "none") and r90 in ("up", "flat", None)
         i_pts, i_why, i_gate = insider_pts(rec, close)
         f_pts, f_why, f_gate = institution_pts(rec)
         r_pts, r_why = retail_pts(rec, retail.get(t), close, delivery)

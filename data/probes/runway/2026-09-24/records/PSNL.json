@@ -1,0 +1,786 @@
+{
+ "ticker": "PSNL",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:00:00Z",
+ "price": {
+  "close": {
+   "value": 16.57,
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 18.89,
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 4.95,
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -12.28,
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24",
+   "note": "computed close/52w high"
+  },
+  "sma50_pct": {
+   "value": 9.84,
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 60.65,
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/PSNL?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "computed from Yahoo 1y daily closes: SMA50 15.07, SMA200 10.28"
+  },
+  "perf_1m_pct": {
+   "value": -3.94,
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 31.61,
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLV",
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -3.09,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 9.15,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA distances, 1m/3m perf and 52w range"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/PSNL?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "print 2026-08-04 AMC: next-day close 13.52 unchanged; +5 sessions 14.21 (+5.1%); price tracks the Tempus deal, not the print"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 5,
+   "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 15.44,
+   "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 16.25,
+   "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 13.0,
+   "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat not fetched; Finviz mean target 16.25 is within 10 points of StockAnalysis"
+  },
+  "upside_pct": {
+   "value": -6.82,
+   "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed pt_avg/close"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-08-24",
+     "broker": "Craig-Hallum",
+     "action": "downgrade",
+     "target": 16,
+     "reason": "to Hold on pending Tempus acquisition"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table (last entries shown); sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-04",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 22.36,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/earnings/",
+   "as_of": "2026-08-04"
+  },
+  "revenue_estimate": {
+   "value": 16.69,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/earnings/",
+   "as_of": "2026-08-04"
+  },
+  "eps_actual": {
+   "value": -0.3,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/earnings/",
+   "as_of": "2026-08-04"
+  },
+  "eps_estimate": {
+   "value": -0.26,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/earnings/",
+   "as_of": "2026-08-04"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://www.biospace.com/press-releases/personalis-reports-second-quarter-2026-results-and-recent-highlights",
+   "as_of": "2026-08-04"
+  },
+  "guide_detail": {
+   "value": "no updated guidance found; company under merger agreement with Tempus AI",
+   "source": "https://www.biospace.com/press-releases/personalis-reports-second-quarter-2026-results-and-recent-highlights",
+   "as_of": "2026-08-04"
+  },
+  "reaction_day_pct": {
+   "value": 0.0,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/PSNL?range=1y&interval=1d",
+   "as_of": "2026-08-05"
+  },
+  "reaction_5d_pct": {
+   "value": 5.1,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/PSNL?range=1y&interval=1d",
+   "as_of": "2026-08-12"
+  },
+  "revisions_30d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ not fetched (error on other names)"
+  },
+  "revisions_90d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ not fetched"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "fcf_ttm": {
+   "value": -100.97,
+   "source": "https://stockanalysis.com/stocks/psnl/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": -107.18,
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 15.7,
+   "source": "https://stockanalysis.com/stocks/psnl/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "TTM SBC 10.91M / TTM sales 69.67M (Finviz)"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: this is a merger-arbitrage position; Tempus AI pays $16.25 per share in stock (floating ratio, 0.3356 max when TEM <= $48.42); with TEM at $82.24 the ratio is ~0.198 and value is fixed at $16.25.",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526376895/d864810ds4.htm",
+   "as_of": "2026-08-31"
+  },
+  "depends_on": {
+   "value": "HSR clearance (refiled 2026-09-02), S-4 effectiveness and PSNL shareholder vote",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526376895/d864810ds4.htm",
+   "as_of": "2026-08-31"
+  },
+  "bear_case": {
+   "value": "PSNL trades at $16.57, ~2% ABOVE the $16.25 fixed-value consideration, so the arb spread is negative; upside only from a competing bid; downside to pre-deal ~$13 on a break",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526376895/d864810ds4.htm",
+   "as_of": "2026-08-31"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526376895/d864810ds4.htm",
+   "as_of": "2026-08-31"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "NTRA",
+    "GH"
+   ],
+   "source": "https://www.biospace.com/press-releases/personalis-reports-second-quarter-2026-results-and-recent-highlights",
+   "as_of": "2026-08-04"
+  },
+  "share_trend": {
+   "value": "gaining",
+   "source": "https://www.biospace.com/press-releases/personalis-reports-second-quarter-2026-results-and-recent-highlights",
+   "as_of": "2026-08-04",
+   "note": "clinical test volume +199% y/y"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched; Finviz TTM 12.7%"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: loss-making"
+  },
+  "peer_fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "ev_sales": {
+   "value": 22.89,
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "substitute": {
+   "value": "Natera Signatera (tumor-informed MRD)",
+   "source": "https://www.biospace.com/press-releases/personalis-reports-second-quarter-2026-results-and-recent-highlights",
+   "as_of": "2026-08-04"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers the full trailing 90 days to 2026-09-24 (window from 2026-06-26); Form 4s not opened individually on EDGAR"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24",
+   "note": "option exercises themselves excluded; sales recorded"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-18",
+     "name": "Christopher Hall",
+     "role": "CEO",
+     "shares": 7459,
+     "price": 16.22,
+     "usd": 120985,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=PSNL",
+     "plan_10b5_1": null,
+     "history": "same-day same-price sales by 4 officers; likely tax sell-to-cover; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-09-18",
+     "name": "Richard Chen",
+     "role": "President and CMO",
+     "shares": 3998,
+     "price": 16.22,
+     "usd": 64848,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=PSNL",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-09-18",
+     "name": "Aaron Tachibana",
+     "role": "CFO and COO",
+     "shares": 2931,
+     "price": 16.22,
+     "usd": 47541,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=PSNL",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-09-18",
+     "name": "Stephen Moore",
+     "role": "SVP, Chief Legal Officer",
+     "shares": 2068,
+     "price": 16.22,
+     "usd": 33543,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=PSNL",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "Richard Chen",
+     "role": "President and CMO",
+     "shares": 100000,
+     "price": 15.15,
+     "usd": 1515000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=PSNL",
+     "plan_10b5_1": null,
+     "history": "exercise-and-sell of options at $2.44; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-07-09",
+     "name": "Christopher Hall",
+     "role": "CEO",
+     "shares": 100000,
+     "price": 15.08,
+     "usd": 1508000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=PSNL",
+     "plan_10b5_1": null,
+     "history": "exercise-and-sell of options at $1.61; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-06-29",
+     "name": "Aaron Tachibana",
+     "role": "CFO and COO",
+     "shares": 4982,
+     "price": 14.0,
+     "usd": 69748,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=PSNL",
+     "plan_10b5_1": null,
+     "history": "exercise-and-sell; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-06-26",
+     "name": "Aaron Tachibana",
+     "role": "CFO and COO",
+     "shares": 51251,
+     "price": 13.18,
+     "usd": 675488,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=PSNL",
+     "plan_10b5_1": null,
+     "history": "exercise-and-sell; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-06-26",
+     "name": "Christopher Hall",
+     "role": "CEO",
+     "shares": 100000,
+     "price": 13.15,
+     "usd": 1315000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=PSNL",
+     "plan_10b5_1": null,
+     "history": "exercise-and-sell; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=PSNL",
+   "as_of": "2026-09-24",
+   "note": "option exercises themselves excluded; sales recorded"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter holders table"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives dollar flows only; dollar totals excluded per failure log; Fintel 403 per registry"
+  },
+  "holders_up": {
+   "value": 64,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional buyers (MarketBeat)"
+  },
+  "holders_down": {
+   "value": 35,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional sellers (MarketBeat)"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Bank of America",
+     "change_pct": null,
+     "shares": 1820541
+    },
+    {
+     "fund": "UBS Asset Management",
+     "change_pct": 7822.5,
+     "shares": 87068
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 8.24,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 11.49% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 3.6,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PSNL/short-interest/",
+   "as_of": "2026-09-15"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-02",
+    "event": "HSR waiting period expiry (~30 days after 2026-09-02 refiling; derived, not stated)",
+    "confirmed": false
+   },
+   {
+    "date": null,
+    "event": "PSNL special meeting (date blank in preliminary S-4 filed 2026-08-31)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-11-03",
+    "event": "Q3 2026 earnings (aggregator estimate)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-12-31",
+    "event": "Deal close targeted late 2026 or early 2027; outside date 2027-04-20",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526376895/d864810ds4.htm",
+  "as_of": "2026-08-31"
+ },
+ "why_it_fell": {
+  "value": "Not down >30% (-12.3% from high).",
+  "source": "https://finviz.com/quote.ashx?t=PSNL",
+  "as_of": "2026-09-24"
+ },
+ "financing": {
+  "cash": {
+   "value": 212.7,
+   "source": "https://www.biospace.com/press-releases/personalis-reports-second-quarter-2026-results-and-recent-highlights",
+   "as_of": "2026-06-30",
+   "note": "USD millions, cash + equivalents + marketable securities unless noted"
+  },
+  "quarterly_burn": {
+   "value": -27.6,
+   "source": "https://stockanalysis.com/stocks/psnl/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "avg FCF Q1+Q2 2026 (-25.67, -29.55)"
+  },
+  "runway_quarters": {
+   "value": 7.7,
+   "source": "https://stockanalysis.com/stocks/psnl/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "212.7/27.6; moot if the Tempus deal closes"
+  },
+  "company_runway_statement": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no explicit runway statement"
+  },
+  "recent_offering": {
+   "value": "Q4 2025 common stock issuance $111.26M (StockAnalysis cash-flow statement); Tempus AI also bought ~$2.5M of stock Nov-Dec 2025 as 10% owner",
+   "source": "https://stockanalysis.com/stocks/psnl/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "binary_events_6m": [
+   {
+    "date": "2026-12-31",
+    "event": "Tempus AI merger close (binary on HSR/vote); termination fee $76.8M each way",
+    "confirmed": false
+   }
+  ]
+ },
+ "forward": {
+  "periods_aligned": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+   "as_of": "2026-09-24",
+   "note": "revenue/EPS aligned to FY2026/FY2027 calendar years, but EBIT/CFO/capex unavailable so periods not fully verified"
+  },
+  "currency": "USD",
+  "units": "USD millions except per-share",
+  "accounting_basis": "GAAP (StockAnalysis/S&P Global consensus)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex (levered)",
+  "revision_period_end": null,
+  "fy1": {
+   "revenue": {
+    "value": 82.47,
+    "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": -1.09,
+    "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 110.2,
+    "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": -0.94,
+    "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 2,
+    "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy, S&P Global via StockAnalysis"
+   },
+   "hold": {
+    "value": 3,
+    "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/psnl/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ returned \"Oops, something went wrong\"; Zacks bot-blocked"
+   },
+   "down_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+   },
+   "analysts": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 16.57,
+    "source": "https://finviz.com/quote.ashx?t=PSNL",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 1600.0,
+    "source": "https://finviz.com/quote.ashx?t=PSNL",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled; loss-making biotech, WACC not meaningful for screening"
+   }
+  },
+  "note": "deal pending: forward metrics secondary to merger terms"
+ },
+ "judgment": {
+  "prospect_pts": 1,
+  "prospect_why": "merger arbitrage at a fixed $16.25; no standalone case",
+  "competition_pts": 3,
+  "competition_why": "NTRA and GH",
+  "macro_fit_pts": 2,
+  "macro_fit_why": "deal spread insensitive to rates",
+  "narrative_pts": 2,
+  "narrative_why": "cash-out via TEM stock",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

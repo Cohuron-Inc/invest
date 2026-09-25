@@ -1,0 +1,242 @@
+
+##### KURA  (0 posts)
+
+##### GRRR  (0 posts)
+
+##### APLD  (4 posts)
+2026-09-21 StockSavvyShay   A  2102023470871929105 | Bernstein shows data center modularization shifting more value toward power and cooling rewarding companies that can industrialize AI buildout while making already energized sites even scarcer:  • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, $JCI, $NVT • Energized sites: $IREN, $CIFR, $CORZ, $APLD,
+2026-09-21 StockSavvyShay   A  2102040656575414454 | Morgan Stanley now sees a 33 GW U.S. data center power shortfall through 2028 as $NVDA Rubin Ultra pushes rack power toward 600 kW.  That makes already energized sites much more valuable because every year saved waiting for power is worth ~$4.50/W.  $NBIS, $CRWV, $IREN, $WULF, $CIFR, $APLD, $CORZ
+2026-09-24 StockSavvyShay   A  2103091887406256301 | Morgan Stanley sees data center power demand growing ~9x to nearly 79 GW by 2029.  At ~$25M of annual compute revenue per MW, that implies up to $2T of compute revenue and makes entire power stack a picks and shovels opportunity for the AI buildout:   • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, 
+2026-09-24 StockSavvyShay   A  2103149871629004910 | Goldman now sees global data center capacity reaching 217GW by 2030 while power demand growth jumps to 170%.  Behind the meter power was also raised from 40GW to 67GW as AI campuses increasingly bring their own generation.  $SPCX, $NBIS, $IREN, $CIFR, $CRWV, $APLD, $WULF https://t.co/tia30G6Pc6
+
+##### WYFI  (0 posts)
+
+##### EOSE  (2 posts)
+2026-09-21 StockSavvyShay   A  2102023470871929105 | Bernstein shows data center modularization shifting more value toward power and cooling rewarding companies that can industrialize AI buildout while making already energized sites even scarcer:  • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, $JCI, $NVT • Energized sites: $IREN, $CIFR, $CORZ, $APLD,
+2026-09-24 StockSavvyShay   A  2103091887406256301 | Morgan Stanley sees data center power demand growing ~9x to nearly 79 GW by 2029.  At ~$25M of annual compute revenue per MW, that implies up to $2T of compute revenue and makes entire power stack a picks and shovels opportunity for the AI buildout:   • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, 
+
+##### GRAB  (0 posts)
+
+##### ACHR  (0 posts)
+
+##### RARE  (0 posts)
+
+##### ORCL  (1 posts)
+2026-09-19 StockSavvyShay   A  2101305536927183327 | THE AI STACK AT ~$8T ARR BY 2030  Truist sees the AI economy shifting where value is captured as hardware monetizes buildout, cloud monetizes compute, models monetize intelligence and applications monetize the work AI ultimately replaces or improves:   CLOUD LAYER  • $AMZN selling AI infrastructure through AWS while pushing its own Trainium & Inferentia silicon to lower cost of training & inferenc
+
+##### IREN  (6 posts)
+2026-09-19 StockSavvyShay   A  2101305536927183327 | THE AI STACK AT ~$8T ARR BY 2030  Truist sees the AI economy shifting where value is captured as hardware monetizes buildout, cloud monetizes compute, models monetize intelligence and applications monetize the work AI ultimately replaces or improves:   CLOUD LAYER  • $AMZN selling AI infrastructure through AWS while pushing its own Trainium & Inferentia silicon to lower cost of training & inferenc
+2026-09-20 StockSavvyShay   A  2101686054692827637 | Bernstein models $IREN scaling to ~5.8 GW longer term with cloud revenue reaching ~$17B and adjusted EBITDA ~$13B by 2030.  Interesting that they assume Childress stays flat at 750 MW so almost all of that upside comes from proving Sweetwater design can be repeated across Oklahoma, Australia and Europe.  Thats where the opportunity gets really large if IREN can execute with three-year contract pri
+2026-09-21 StockSavvyShay   A  2102023470871929105 | Bernstein shows data center modularization shifting more value toward power and cooling rewarding companies that can industrialize AI buildout while making already energized sites even scarcer:  • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, $JCI, $NVT • Energized sites: $IREN, $CIFR, $CORZ, $APLD,
+2026-09-21 StockSavvyShay   A  2102040656575414454 | Morgan Stanley now sees a 33 GW U.S. data center power shortfall through 2028 as $NVDA Rubin Ultra pushes rack power toward 600 kW.  That makes already energized sites much more valuable because every year saved waiting for power is worth ~$4.50/W.  $NBIS, $CRWV, $IREN, $WULF, $CIFR, $APLD, $CORZ
+2026-09-24 StockSavvyShay   A  2103091887406256301 | Morgan Stanley sees data center power demand growing ~9x to nearly 79 GW by 2029.  At ~$25M of annual compute revenue per MW, that implies up to $2T of compute revenue and makes entire power stack a picks and shovels opportunity for the AI buildout:   • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, 
+2026-09-24 StockSavvyShay   A  2103149871629004910 | Goldman now sees global data center capacity reaching 217GW by 2030 while power demand growth jumps to 170%.  Behind the meter power was also raised from 40GW to 67GW as AI campuses increasingly bring their own generation.  $SPCX, $NBIS, $IREN, $CIFR, $CRWV, $APLD, $WULF https://t.co/tia30G6Pc6
+
+##### VIAV  (0 posts)
+
+##### AVGO  (0 posts)
+
+##### RKLB  (4 posts)
+2026-09-21 StockSavvyShay   A  2102005732254335067 | Cantor says $RKLB remains a good entry point with Neutron positioned to become “the only viable alternative” to $SPCX Falcon 9 once operational.  It also expects the Iridium acquisition to roughly double annual revenue and cement Rocket Lab as an end-to-end space company. https://t.co/3aGn9v5Uud
+2026-09-22 StockSavvyShay   I  2102219648460837209 | $RKLB CEO Peter Beck says space is really three layers with rockets, spacecraft and the applications built on top.  “We build rockets, we build satellites, and with our acquisition of Iridium, we’re also a services company from space.” https://t.co/sfC8jYIe7u
+2026-09-23 StockSavvyShay   I  2102550672738766885 | Cathie Wood bought ~$26M of $RKLB today https://t.co/ip6na0YOfK
+2026-09-25 StockSavvyShay   I  2103223778809700581 | $RKLB CEO Peter Beck says “we’re excited about what we can build together” as Rocket Lab moves one step closer to bringing Iridium into the fold.  The deal is expected to close by mid-2027. https://t.co/3hGipkIjoK https://t.co/oytqkqM5Y2
+
+##### NVDA  (8 posts)
+2026-09-19 StockSavvyShay   A  2101305536927183327 | THE AI STACK AT ~$8T ARR BY 2030  Truist sees the AI economy shifting where value is captured as hardware monetizes buildout, cloud monetizes compute, models monetize intelligence and applications monetize the work AI ultimately replaces or improves:   CLOUD LAYER  • $AMZN selling AI infrastructure through AWS while pushing its own Trainium & Inferentia silicon to lower cost of training & inferenc
+2026-09-19 StockSavvyShay   I  2101297575412523382 | $NVDA CEO Jensen Huang puts the odds of AI ending the world in 2030 at “zero percent.”  He argues most extreme AI doomsday claims are being pushed by people with “ulterior reasons” beyond the actual risks of the technology. https://t.co/BxB7N4nKYo
+2026-09-20 StockSavvyShay   A  2101664023582482761 | Goldman Sachs just more than tripled its 2035 humanoid TAM to $138B while raising its unit forecast to 6.5M with warehouses and logistics expected to lead adoption.  That growth should pull demand through entire robotics stack:  • Foundry: $TSM, $GFS • Sensing: $VPG, $NOVT • Vision: $OUST, $AEVA, $INVZ • Memory: $MU, $SKHY, $SNDK • Humanoids: $TSLA, $XPEV, $CCXI • AI Compute: $NVDA, $AMD, $ARM, $Q
+2026-09-20 StockSavvyShay   I  2101689892736729466 | $NVDA CEO Jensen Huang says the AI industry moved too fast on data centers without engaging communities early enough by saying “We’re sorry we didn’t come talk to you sooner.”  He says newer facilities use less water and should help fund local power, roads and schools. https://t.co/hEb3TbHOWD
+2026-09-21 StockSavvyShay   A  2102040656575414454 | Morgan Stanley now sees a 33 GW U.S. data center power shortfall through 2028 as $NVDA Rubin Ultra pushes rack power toward 600 kW.  That makes already energized sites much more valuable because every year saved waiting for power is worth ~$4.50/W.  $NBIS, $CRWV, $IREN, $WULF, $CIFR, $APLD, $CORZ
+2026-09-23 StockSavvyShay   I  2102787781462565336 | $NVDA CEO Jensen Huang says if OpenAI or Anthropic believe their models “aren’t safe” then we have to shut the labs down.  https://t.co/bDmW2stPtY
+2026-09-23 StockSavvyShay   I  2102821760152526933 | $NVDA CEO Jensen Huang says “I wouldn’t be surprised if the amount of compute necessary to develop these models increases by 10x” as AI evaluation becomes more rigorous.  The irony is that making AI safer could end up requiring a ton more compute.  https://t.co/9oPk10bK1j
+2026-09-24 StockSavvyShay   A  2103142891359285445 | BNP upgraded $NBIS to Outperform and raised its PT to $399 as it models ~$22B+ of exit 2027 ARR with new AI cloud pricing moving toward ~$40M/MW.  With $META and $MSFT largely ramped by early 2027, BNP points to a “sharp reset higher in the economics of incremental capacity” as $NVDA Vera Rubin adding another leg of upside.
+
+##### STLN  (0 posts)
+
+##### AKAM  (0 posts)
+
+##### AMAT  (1 posts)
+2026-09-20 StockSavvyShay   A  2101664023582482761 | Goldman Sachs just more than tripled its 2035 humanoid TAM to $138B while raising its unit forecast to 6.5M with warehouses and logistics expected to lead adoption.  That growth should pull demand through entire robotics stack:  • Foundry: $TSM, $GFS • Sensing: $VPG, $NOVT • Vision: $OUST, $AEVA, $INVZ • Memory: $MU, $SKHY, $SNDK • Humanoids: $TSLA, $XPEV, $CCXI • AI Compute: $NVDA, $AMD, $ARM, $Q
+
+##### SNOW  (1 posts)
+2026-09-19 StockSavvyShay   A  2101305536927183327 | THE AI STACK AT ~$8T ARR BY 2030  Truist sees the AI economy shifting where value is captured as hardware monetizes buildout, cloud monetizes compute, models monetize intelligence and applications monetize the work AI ultimately replaces or improves:   CLOUD LAYER  • $AMZN selling AI infrastructure through AWS while pushing its own Trainium & Inferentia silicon to lower cost of training & inferenc
+
+##### CSCO  (0 posts)
+
+##### SNDK  (3 posts)
+2026-09-20 StockSavvyShay   A  2101664023582482761 | Goldman Sachs just more than tripled its 2035 humanoid TAM to $138B while raising its unit forecast to 6.5M with warehouses and logistics expected to lead adoption.  That growth should pull demand through entire robotics stack:  • Foundry: $TSM, $GFS • Sensing: $VPG, $NOVT • Vision: $OUST, $AEVA, $INVZ • Memory: $MU, $SKHY, $SNDK • Humanoids: $TSLA, $XPEV, $CCXI • AI Compute: $NVDA, $AMD, $ARM, $Q
+2026-09-22 StockSavvyShay   A  2102352335767028029 | Rosenblatt initiated $SNDK at Buy with a $2,400 PT as AI turns NAND into a “more system-critical component of AI infrastructure.”  The firm sees ~80% gross margins and ~$300 of FY30 EPS as SanDisk moves closer to the compute stack and customer agreements reduce NAND cyclicality. https://t.co/FUaYo1Z6X1
+2026-09-22 StockSavvyShay   A  2102379136690053578 | Citi sees AI driving enterprise SSD demand up 53% in 2027 and another 41% in 2028 as KV-cache offloading pushes more high-capacity storage next to GPUs.  NAND demand is also expected to outgrow supply by ~25% which should keep pricing strong for $MU, $SKHY and $SNDK. https://t.co/NlNPysgTgb
+
+##### NKE  (0 posts)
+
+##### UNH  (0 posts)
+
+##### GS  (0 posts)
+
+##### GLW  (0 posts)
+
+##### LRCX  (1 posts)
+2026-09-20 StockSavvyShay   A  2101664023582482761 | Goldman Sachs just more than tripled its 2035 humanoid TAM to $138B while raising its unit forecast to 6.5M with warehouses and logistics expected to lead adoption.  That growth should pull demand through entire robotics stack:  • Foundry: $TSM, $GFS • Sensing: $VPG, $NOVT • Vision: $OUST, $AEVA, $INVZ • Memory: $MU, $SKHY, $SNDK • Humanoids: $TSLA, $XPEV, $CCXI • AI Compute: $NVDA, $AMD, $ARM, $Q
+
+##### LITE  (0 posts)
+
+##### CAT  (0 posts)
+
+##### ANET  (0 posts)
+
+##### ISRG  (0 posts)
+
+##### ONDS  (1 posts)
+2026-09-23 StockSavvyShay   I  2102750560520982783 | $ONDS is acquiring Insignito, Ottopia Defense and Caribou Labs for $56M to add drone detection, resilient comms and GPS-denied navigation.  CEO Eric Brock says the deals give Ondas “more to sell and more ways to win” as it moves into larger defense programs. https://t.co/w2dHQI3dd6
+
+##### UUUU  (0 posts)
+
+##### ADUR  (0 posts)
+
+##### WULF  (4 posts)
+2026-09-21 StockSavvyShay   A  2102023470871929105 | Bernstein shows data center modularization shifting more value toward power and cooling rewarding companies that can industrialize AI buildout while making already energized sites even scarcer:  • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, $JCI, $NVT • Energized sites: $IREN, $CIFR, $CORZ, $APLD,
+2026-09-21 StockSavvyShay   A  2102040656575414454 | Morgan Stanley now sees a 33 GW U.S. data center power shortfall through 2028 as $NVDA Rubin Ultra pushes rack power toward 600 kW.  That makes already energized sites much more valuable because every year saved waiting for power is worth ~$4.50/W.  $NBIS, $CRWV, $IREN, $WULF, $CIFR, $APLD, $CORZ
+2026-09-24 StockSavvyShay   A  2103091887406256301 | Morgan Stanley sees data center power demand growing ~9x to nearly 79 GW by 2029.  At ~$25M of annual compute revenue per MW, that implies up to $2T of compute revenue and makes entire power stack a picks and shovels opportunity for the AI buildout:   • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, 
+2026-09-24 StockSavvyShay   A  2103149871629004910 | Goldman now sees global data center capacity reaching 217GW by 2030 while power demand growth jumps to 170%.  Behind the meter power was also raised from 40GW to 67GW as AI campuses increasingly bring their own generation.  $SPCX, $NBIS, $IREN, $CIFR, $CRWV, $APLD, $WULF https://t.co/tia30G6Pc6
+
+##### STIM  (0 posts)
+
+##### BABA  (0 posts)
+
+##### AAOI  (0 posts)
+
+##### CIFR  (5 posts)
+2026-09-21 StockSavvyShay   A  2102023470871929105 | Bernstein shows data center modularization shifting more value toward power and cooling rewarding companies that can industrialize AI buildout while making already energized sites even scarcer:  • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, $JCI, $NVT • Energized sites: $IREN, $CIFR, $CORZ, $APLD,
+2026-09-21 StockSavvyShay   A  2102040656575414454 | Morgan Stanley now sees a 33 GW U.S. data center power shortfall through 2028 as $NVDA Rubin Ultra pushes rack power toward 600 kW.  That makes already energized sites much more valuable because every year saved waiting for power is worth ~$4.50/W.  $NBIS, $CRWV, $IREN, $WULF, $CIFR, $APLD, $CORZ
+2026-09-23 StockSavvyShay   A  2102717390169784346 | UBS initiated $CIFR at Buy with a $23 PT after 493MW of signed leases with $GOOGL Fluidstack and $AMZN with near-term leasing alone worth ~$12/share.  UBS also says the stock reflects “little-to-no value” for remaining 4.6GW pipeline as Cipher adds 2.5GW of onsite generation. https://t.co/yNtVtGIlp9
+2026-09-24 StockSavvyShay   A  2103091887406256301 | Morgan Stanley sees data center power demand growing ~9x to nearly 79 GW by 2029.  At ~$25M of annual compute revenue per MW, that implies up to $2T of compute revenue and makes entire power stack a picks and shovels opportunity for the AI buildout:   • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, 
+2026-09-24 StockSavvyShay   A  2103149871629004910 | Goldman now sees global data center capacity reaching 217GW by 2030 while power demand growth jumps to 170%.  Behind the meter power was also raised from 40GW to 67GW as AI campuses increasingly bring their own generation.  $SPCX, $NBIS, $IREN, $CIFR, $CRWV, $APLD, $WULF https://t.co/tia30G6Pc6
+
+##### VST  (0 posts)
+
+##### APP  (0 posts)
+
+##### SE  (0 posts)
+
+##### CRWV  (6 posts)
+2026-09-19 StockSavvyShay   A  2101305536927183327 | THE AI STACK AT ~$8T ARR BY 2030  Truist sees the AI economy shifting where value is captured as hardware monetizes buildout, cloud monetizes compute, models monetize intelligence and applications monetize the work AI ultimately replaces or improves:   CLOUD LAYER  • $AMZN selling AI infrastructure through AWS while pushing its own Trainium & Inferentia silicon to lower cost of training & inferenc
+2026-09-21 StockSavvyShay   A  2101990710820089948 | Rothschild Redburn comes out bearish on AI compute initiating Sell ratings on both $NBIS and $CRWV questioning whether AI compute “unit economics” can hold.  Its bear case is that lower GPU pricing, more in-house capacity and expensive financing eventually compress returns. https://t.co/co2TmKmcZ9
+2026-09-21 StockSavvyShay   A  2102040656575414454 | Morgan Stanley now sees a 33 GW U.S. data center power shortfall through 2028 as $NVDA Rubin Ultra pushes rack power toward 600 kW.  That makes already energized sites much more valuable because every year saved waiting for power is worth ~$4.50/W.  $NBIS, $CRWV, $IREN, $WULF, $CIFR, $APLD, $CORZ
+2026-09-23 StockSavvyShay   A  2102721818046206382 | UBS initiated $CRWV at Buy with a $120 price target citing “outstanding AI compute demand signals” and saying revenue per GW will march higher.  The firm also says leverage and credit concerns may be peaking while the stock still trades at just ~3x 2027 revenue. https://t.co/PcxXJHuS50
+2026-09-24 StockSavvyShay   A  2103080737880911917 | JPMorgan upgraded $CRWV to Overweight with a $125 PT as July pricing rose 25%, short-term compute is pricing at ~3x long-term rates &amp; recent contracts were signed at ~$40M/MW.  The firm says “pricing &amp; margins will overwhelm the increase in debt” as CoreWeave scales capacity. https://t.co/0mRvUPj3qE
+2026-09-24 StockSavvyShay   A  2103149871629004910 | Goldman now sees global data center capacity reaching 217GW by 2030 while power demand growth jumps to 170%.  Behind the meter power was also raised from 40GW to 67GW as AI campuses increasingly bring their own generation.  $SPCX, $NBIS, $IREN, $CIFR, $CRWV, $APLD, $WULF https://t.co/tia30G6Pc6
+
+##### WDC  (0 posts)
+
+##### AMKR  (0 posts)
+
+##### MU  (5 posts)
+2026-09-19 StockSavvyShay   A  2101305536927183327 | THE AI STACK AT ~$8T ARR BY 2030  Truist sees the AI economy shifting where value is captured as hardware monetizes buildout, cloud monetizes compute, models monetize intelligence and applications monetize the work AI ultimately replaces or improves:   CLOUD LAYER  • $AMZN selling AI infrastructure through AWS while pushing its own Trainium & Inferentia silicon to lower cost of training & inferenc
+2026-09-20 StockSavvyShay   A  2101664023582482761 | Goldman Sachs just more than tripled its 2035 humanoid TAM to $138B while raising its unit forecast to 6.5M with warehouses and logistics expected to lead adoption.  That growth should pull demand through entire robotics stack:  • Foundry: $TSM, $GFS • Sensing: $VPG, $NOVT • Vision: $OUST, $AEVA, $INVZ • Memory: $MU, $SKHY, $SNDK • Humanoids: $TSLA, $XPEV, $CCXI • AI Compute: $NVDA, $AMD, $ARM, $Q
+2026-09-21 StockSavvyShay   A  2101998210810269908 | Stifel says DRAM supply would need to grow ~50% in 2027 to close deficit but expects bit growth to slow to just ~20% while HBM4 pricing per bit could roughly double.  That keeps memory cycle tighter for longer with $MU and $SKHY heading into another major step-up in HBM pricing. https://t.co/Wm1izhTcd5
+2026-09-22 StockSavvyShay   A  2102379136690053578 | Citi sees AI driving enterprise SSD demand up 53% in 2027 and another 41% in 2028 as KV-cache offloading pushes more high-capacity storage next to GPUs.  NAND demand is also expected to outgrow supply by ~25% which should keep pricing strong for $MU, $SKHY and $SNDK. https://t.co/NlNPysgTgb
+2026-09-22 StockSavvyShay   I  2102447892065857902 | Michael Burry disclosed larger shorts in $MU and $NBIS. https://t.co/TKe2Hp8O2D
+
+##### CRDO  (0 posts)
+
+##### ON  (1 posts)
+2026-09-20 StockSavvyShay   A  2101664023582482761 | Goldman Sachs just more than tripled its 2035 humanoid TAM to $138B while raising its unit forecast to 6.5M with warehouses and logistics expected to lead adoption.  That growth should pull demand through entire robotics stack:  • Foundry: $TSM, $GFS • Sensing: $VPG, $NOVT • Vision: $OUST, $AEVA, $INVZ • Memory: $MU, $SKHY, $SNDK • Humanoids: $TSLA, $XPEV, $CCXI • AI Compute: $NVDA, $AMD, $ARM, $Q
+
+##### CCJ  (0 posts)
+
+##### COHR  (0 posts)
+
+##### RDDT  (0 posts)
+
+##### ASTS  (0 posts)
+
+##### NU  (0 posts)
+
+##### ASML  (1 posts)
+2026-09-20 StockSavvyShay   A  2101664023582482761 | Goldman Sachs just more than tripled its 2035 humanoid TAM to $138B while raising its unit forecast to 6.5M with warehouses and logistics expected to lead adoption.  That growth should pull demand through entire robotics stack:  • Foundry: $TSM, $GFS • Sensing: $VPG, $NOVT • Vision: $OUST, $AEVA, $INVZ • Memory: $MU, $SKHY, $SNDK • Humanoids: $TSLA, $XPEV, $CCXI • AI Compute: $NVDA, $AMD, $ARM, $Q
+
+##### NXPI  (1 posts)
+2026-09-20 StockSavvyShay   A  2101664023582482761 | Goldman Sachs just more than tripled its 2035 humanoid TAM to $138B while raising its unit forecast to 6.5M with warehouses and logistics expected to lead adoption.  That growth should pull demand through entire robotics stack:  • Foundry: $TSM, $GFS • Sensing: $VPG, $NOVT • Vision: $OUST, $AEVA, $INVZ • Memory: $MU, $SKHY, $SNDK • Humanoids: $TSLA, $XPEV, $CCXI • AI Compute: $NVDA, $AMD, $ARM, $Q
+
+##### AMZN  (2 posts)
+2026-09-19 StockSavvyShay   A  2101305536927183327 | THE AI STACK AT ~$8T ARR BY 2030  Truist sees the AI economy shifting where value is captured as hardware monetizes buildout, cloud monetizes compute, models monetize intelligence and applications monetize the work AI ultimately replaces or improves:   CLOUD LAYER  • $AMZN selling AI infrastructure through AWS while pushing its own Trainium & Inferentia silicon to lower cost of training & inferenc
+2026-09-23 StockSavvyShay   A  2102717390169784346 | UBS initiated $CIFR at Buy with a $23 PT after 493MW of signed leases with $GOOGL Fluidstack and $AMZN with near-term leasing alone worth ~$12/share.  UBS also says the stock reflects “little-to-no value” for remaining 4.6GW pipeline as Cipher adds 2.5GW of onsite generation. https://t.co/yNtVtGIlp9
+
+##### AMBA  (0 posts)
+
+##### DAL  (0 posts)
+
+##### GEV  (2 posts)
+2026-09-21 StockSavvyShay   A  2102023470871929105 | Bernstein shows data center modularization shifting more value toward power and cooling rewarding companies that can industrialize AI buildout while making already energized sites even scarcer:  • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, $JCI, $NVT • Energized sites: $IREN, $CIFR, $CORZ, $APLD,
+2026-09-24 StockSavvyShay   A  2103091887406256301 | Morgan Stanley sees data center power demand growing ~9x to nearly 79 GW by 2029.  At ~$25M of annual compute revenue per MW, that implies up to $2T of compute revenue and makes entire power stack a picks and shovels opportunity for the AI buildout:   • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, 
+
+##### GOOGL  (3 posts)
+2026-09-19 StockSavvyShay   A  2101305536927183327 | THE AI STACK AT ~$8T ARR BY 2030  Truist sees the AI economy shifting where value is captured as hardware monetizes buildout, cloud monetizes compute, models monetize intelligence and applications monetize the work AI ultimately replaces or improves:   CLOUD LAYER  • $AMZN selling AI infrastructure through AWS while pushing its own Trainium & Inferentia silicon to lower cost of training & inferenc
+2026-09-23 StockSavvyShay   A  2102717390169784346 | UBS initiated $CIFR at Buy with a $23 PT after 493MW of signed leases with $GOOGL Fluidstack and $AMZN with near-term leasing alone worth ~$12/share.  UBS also says the stock reflects “little-to-no value” for remaining 4.6GW pipeline as Cipher adds 2.5GW of onsite generation. https://t.co/yNtVtGIlp9
+2026-09-24 StockSavvyShay   I  2103210954096095705 | $GOOGL CEO Sundar Pichai says Project Suncatcher is launching on $SPCX Transporter-18 to test whether TPUs can survive and operate in space.  The prototype satellite was built with $PL as Google starts testing the hardware for orbital AI compute.  https://t.co/psOifemLSr
+
+##### TXN  (1 posts)
+2026-09-20 StockSavvyShay   A  2101664023582482761 | Goldman Sachs just more than tripled its 2035 humanoid TAM to $138B while raising its unit forecast to 6.5M with warehouses and logistics expected to lead adoption.  That growth should pull demand through entire robotics stack:  • Foundry: $TSM, $GFS • Sensing: $VPG, $NOVT • Vision: $OUST, $AEVA, $INVZ • Memory: $MU, $SKHY, $SNDK • Humanoids: $TSLA, $XPEV, $CCXI • AI Compute: $NVDA, $AMD, $ARM, $Q
+
+##### OSCR  (0 posts)
+
+##### PLPC  (0 posts)
+
+##### META  (12 posts)
+2026-09-19 StockSavvyShay   A  2101305536927183327 | THE AI STACK AT ~$8T ARR BY 2030  Truist sees the AI economy shifting where value is captured as hardware monetizes buildout, cloud monetizes compute, models monetize intelligence and applications monetize the work AI ultimately replaces or improves:   CLOUD LAYER  • $AMZN selling AI infrastructure through AWS while pushing its own Trainium & Inferentia silicon to lower cost of training & inferenc
+2026-09-19 StockSavvyShay   A  2101312580358930720 | Oppenheimer sees $META Muse reaching $28B of AI agent revenue by 2027 driven by 115M paying users at the same 6% conversion rate as ChatGPT.  Wild to see 80% Agentic AI operating margins which would make Muse way more profitable than Meta’s core ads engine. https://t.co/Lgi3o91tlg
+2026-09-21 StockSavvyShay   I  2102034304570421257 | “Be fearful when others are greedy and greedy when others are fearful” -- Warren Buffett  That was $META for me. https://t.co/J7Ep7rVbvq https://t.co/74ITMbctDR
+2026-09-22 StockSavvyShay   A  2102345437357449459 | This is what $META 7,000 km Petal subsea cable will look like connecting the U.S. and France by 2029.  At 1,000 Tbps of capacity, Meta is effectively doubling transatlantic bandwidth as AI drives a much higher need for global data movement.  https://t.co/2qaBameiy2
+2026-09-22 StockSavvyShay   A  2102372797544792492 | JPMorgan says $META Muse could become the most-used consumer AI app since ChatGPT after reaching #1 on the U.S. App Store and reiterated its $820 price target.  Distribution is everything in the new AI economy. https://t.co/I1nvrvG8le
+2026-09-22 StockSavvyShay   I  2102337958498214221 | Cathie Wood bought ~$37M of $META yesterday https://t.co/EPvlEGS3k9
+2026-09-23 StockSavvyShay   A  2102739695071555729 | Cantor says $META could be one of the biggest winners from personal AI agents as they emerge as the “third S-curve in AI.”  Muse gives Meta the model, compute and distribution to push that agent layer across billions of users before most competitors can match the reach. https://t.co/8g9KQUoWxw
+2026-09-23 StockSavvyShay   I  2102758626721202651 | $META is reportedly building Meta Pay for Muse giving its AI agent a first-party wallet to make purchases using saved payment methods.  With $SHOP already plugged into Muse you can see Meta connecting product discovery, recommendations and checkout inside one agent flow. https://t.co/DN13NCarHW
+2026-09-24 StockSavvyShay   A  2102902194681041259 | Alexandr Wang says $META is “pretty soon” dropping the most capable model it has ever trained.  That gives Meta another major model upgrade just as Muse starts scaling across the ecosystem.  https://t.co/aEEmqWGNru
+2026-09-24 StockSavvyShay   A  2103142891359285445 | BNP upgraded $NBIS to Outperform and raised its PT to $399 as it models ~$22B+ of exit 2027 ARR with new AI cloud pricing moving toward ~$40M/MW.  With $META and $MSFT largely ramped by early 2027, BNP points to a “sharp reset higher in the economics of incremental capacity” as $NVDA Vera Rubin adding another leg of upside.
+2026-09-24 StockSavvyShay   I  2102898297916813337 | $META CEO Mark Zuckerberg says Muse is now “the centerpiece of our vision for what we are building.”  He expects it to become the “personal superintelligence” billions of people use and says “it’s off to a great start.” https://t.co/4Og5YQBJ9a
+2026-09-24 StockSavvyShay   I  2103117871278928350 | Great to see $META getting bought up after Connect showed how it plans to become consumer operating layer for AI.  Muse is the agent, connectors add services, payments handle transactions, glasses add real world context and Meta already has billions of users to distribute it to. https://t.co/hfKZkQFbR6
+
+##### PSNL  (0 posts)
+
+##### ARM  (1 posts)
+2026-09-20 StockSavvyShay   A  2101664023582482761 | Goldman Sachs just more than tripled its 2035 humanoid TAM to $138B while raising its unit forecast to 6.5M with warehouses and logistics expected to lead adoption.  That growth should pull demand through entire robotics stack:  • Foundry: $TSM, $GFS • Sensing: $VPG, $NOVT • Vision: $OUST, $AEVA, $INVZ • Memory: $MU, $SKHY, $SNDK • Humanoids: $TSLA, $XPEV, $CCXI • AI Compute: $NVDA, $AMD, $ARM, $Q
+
+##### UBER  (0 posts)
+
+##### ABCL  (0 posts)
+
+##### SOFI  (0 posts)
+
+##### PYPL  (0 posts)
+
+##### AI  (28 posts)
+2026-09-18 StockSavvyShay   A  2100910515136725006 | Really interesting that Truist left AI Power out of the supplier row because generation and electrical equipment are arguably the constraints most likely to determine how much of this capacity actually comes online.
+2026-09-19 StockSavvyShay   A  2101048081441857968 | Wild to see Pocket FM hit $500M in ARR with no subscriptions.  This is the part of the AI economy I think people underappreciate where it’s going to make a lot more creator businesses possible. https://t.co/3bYxR5Ks8m
+2026-09-19 StockSavvyShay   A  2101305536927183327 | THE AI STACK AT ~$8T ARR BY 2030  Truist sees the AI economy shifting where value is captured as hardware monetizes buildout, cloud monetizes compute, models monetize intelligence and applications monetize the work AI ultimately replaces or improves:   CLOUD LAYER  • $AMZN selling AI infrastructure through AWS while pushing its own Trainium & Inferentia silicon to lower cost of training & inferenc
+2026-09-19 StockSavvyShay   A  2101312580358930720 | Oppenheimer sees $META Muse reaching $28B of AI agent revenue by 2027 driven by 115M paying users at the same 6% conversion rate as ChatGPT.  Wild to see 80% Agentic AI operating margins which would make Muse way more profitable than Meta’s core ads engine. https://t.co/Lgi3o91tlg
+2026-09-19 StockSavvyShay   I  2101297575412523382 | $NVDA CEO Jensen Huang puts the odds of AI ending the world in 2030 at “zero percent.”  He argues most extreme AI doomsday claims are being pushed by people with “ulterior reasons” beyond the actual risks of the technology. https://t.co/BxB7N4nKYo
+2026-09-20 StockSavvyShay   A  2101664023582482761 | Goldman Sachs just more than tripled its 2035 humanoid TAM to $138B while raising its unit forecast to 6.5M with warehouses and logistics expected to lead adoption.  That growth should pull demand through entire robotics stack:  • Foundry: $TSM, $GFS • Sensing: $VPG, $NOVT • Vision: $OUST, $AEVA, $INVZ • Memory: $MU, $SKHY, $SNDK • Humanoids: $TSLA, $XPEV, $CCXI • AI Compute: $NVDA, $AMD, $ARM, $Q
+2026-09-20 StockSavvyShay   I  2101689892736729466 | $NVDA CEO Jensen Huang says the AI industry moved too fast on data centers without engaging communities early enough by saying “We’re sorry we didn’t come talk to you sooner.”  He says newer facilities use less water and should help fund local power, roads and schools. https://t.co/hEb3TbHOWD
+2026-09-21 StockSavvyShay   A  2101990710820089948 | Rothschild Redburn comes out bearish on AI compute initiating Sell ratings on both $NBIS and $CRWV questioning whether AI compute “unit economics” can hold.  Its bear case is that lower GPU pricing, more in-house capacity and expensive financing eventually compress returns. https://t.co/co2TmKmcZ9
+2026-09-21 StockSavvyShay   A  2102023470871929105 | Bernstein shows data center modularization shifting more value toward power and cooling rewarding companies that can industrialize AI buildout while making already energized sites even scarcer:  • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, $JCI, $NVT • Energized sites: $IREN, $CIFR, $CORZ, $APLD,
+2026-09-21 StockSavvyShay   A  2102115445725896943 | Morgan Stanley says $SPCX and $TSLA are converging into one physical AI stack as the next decade gets decided by who can “build, power, connect, and instrument AI in the physical world.”  SpaceX brings compute, connectivity and capital while Tesla brings robots, data, energy and manufacturing creating what the firm calls “synergistically linked” physical AI capabilities.
+2026-09-21 StockSavvyShay   I  2102122957082611772 | Dont ask me how Burry can be short AI data centers and still long copper...  hes basically short the building and long the wiring  🤣
+2026-09-22 StockSavvyShay   A  2102345437357449459 | This is what $META 7,000 km Petal subsea cable will look like connecting the U.S. and France by 2029.  At 1,000 Tbps of capacity, Meta is effectively doubling transatlantic bandwidth as AI drives a much higher need for global data movement.  https://t.co/2qaBameiy2
+2026-09-22 StockSavvyShay   A  2102352335767028029 | Rosenblatt initiated $SNDK at Buy with a $2,400 PT as AI turns NAND into a “more system-critical component of AI infrastructure.”  The firm sees ~80% gross margins and ~$300 of FY30 EPS as SanDisk moves closer to the compute stack and customer agreements reduce NAND cyclicality. https://t.co/FUaYo1Z6X1
+2026-09-22 StockSavvyShay   A  2102372797544792492 | JPMorgan says $META Muse could become the most-used consumer AI app since ChatGPT after reaching #1 on the U.S. App Store and reiterated its $820 price target.  Distribution is everything in the new AI economy. https://t.co/I1nvrvG8le
+2026-09-22 StockSavvyShay   A  2102379136690053578 | Citi sees AI driving enterprise SSD demand up 53% in 2027 and another 41% in 2028 as KV-cache offloading pushes more high-capacity storage next to GPUs.  NAND demand is also expected to outgrow supply by ~25% which should keep pricing strong for $MU, $SKHY and $SNDK. https://t.co/NlNPysgTgb
+2026-09-23 StockSavvyShay   A  2102707874007056666 | Stifel upgrades $MSFT to Buy with a $575 price target saying “open-weight model advancement has boosted management’s LLM-agnostic strategy” as Azure &amp; Copilot keep scaling.  Open-weight models give Microsoft more AI flexibility while better Azure efficiency helps protect margins. https://t.co/BKME25HCbm
+2026-09-23 StockSavvyShay   A  2102721818046206382 | UBS initiated $CRWV at Buy with a $120 price target citing “outstanding AI compute demand signals” and saying revenue per GW will march higher.  The firm also says leverage and credit concerns may be peaking while the stock still trades at just ~3x 2027 revenue. https://t.co/PcxXJHuS50
+2026-09-23 StockSavvyShay   A  2102739695071555729 | Cantor says $META could be one of the biggest winners from personal AI agents as they emerge as the “third S-curve in AI.”  Muse gives Meta the model, compute and distribution to push that agent layer across billions of users before most competitors can match the reach. https://t.co/8g9KQUoWxw
+2026-09-23 StockSavvyShay   I  2102758626721202651 | $META is reportedly building Meta Pay for Muse giving its AI agent a first-party wallet to make purchases using saved payment methods.  With $SHOP already plugged into Muse you can see Meta connecting product discovery, recommendations and checkout inside one agent flow. https://t.co/DN13NCarHW
+2026-09-23 StockSavvyShay   I  2102821760152526933 | $NVDA CEO Jensen Huang says “I wouldn’t be surprised if the amount of compute necessary to develop these models increases by 10x” as AI evaluation becomes more rigorous.  The irony is that making AI safer could end up requiring a ton more compute.  https://t.co/9oPk10bK1j
+2026-09-24 StockSavvyShay   A  2103091887406256301 | Morgan Stanley sees data center power demand growing ~9x to nearly 79 GW by 2029.  At ~$25M of annual compute revenue per MW, that implies up to $2T of compute revenue and makes entire power stack a picks and shovels opportunity for the AI buildout:   • Grid equipment: $GEV, $FPS, $HUBB • Busway & liquid cooling: $VRT, $ETN • Battery storage: $EOSE, $TSLA, $FLNC • Cooling & CDUs: $VRT, $TT, $MOD, 
+2026-09-24 StockSavvyShay   A  2103142891359285445 | BNP upgraded $NBIS to Outperform and raised its PT to $399 as it models ~$22B+ of exit 2027 ARR with new AI cloud pricing moving toward ~$40M/MW.  With $META and $MSFT largely ramped by early 2027, BNP points to a “sharp reset higher in the economics of incremental capacity” as $NVDA Vera Rubin adding another leg of upside.
+2026-09-24 StockSavvyShay   A  2103149871629004910 | Goldman now sees global data center capacity reaching 217GW by 2030 while power demand growth jumps to 170%.  Behind the meter power was also raised from 40GW to 67GW as AI campuses increasingly bring their own generation.  $SPCX, $NBIS, $IREN, $CIFR, $CRWV, $APLD, $WULF https://t.co/tia30G6Pc6
+2026-09-24 StockSavvyShay   I  2102852291040837719 | Anthropic CEO Dario Amodei warned the UN Security Council that AI could become “a risk to humanity as a whole” if managed poorly.  He says Anthropic will “slow down as much as necessary” as it focuses on misuse and loss-of-control risks. https://t.co/aro4JHvNAD
+2026-09-24 StockSavvyShay   I  2103072989432733851 | $INTC CEO says $IONQ was his first quantum investment and he still owns half the position today.  His view of the category is even bigger now by saying “quantum can be 10x bigger than AI” and calls the race for leadership a national-security priority. https://t.co/n2uTMyTSp5
+2026-09-24 StockSavvyShay   I  2103117871278928350 | Great to see $META getting bought up after Connect showed how it plans to become consumer operating layer for AI.  Muse is the agent, connectors add services, payments handle transactions, glasses add real world context and Meta already has billions of users to distribute it to. https://t.co/hfKZkQFbR6
+2026-09-24 StockSavvyShay   I  2103121045637238791 | Holy moly $P is up nearly 20% today.  At the start of the year I called Everpure the next AI rerating after memory and bought $75 2028 leaps at $20.50. Now the stock now pushing above $130 and those options have officially tripled.  My thesis was that once AI runs everywhere then the next constraint becomes how efficiently all that data is fed, stored, retrieved and managed.  Thats starting to sho
+2026-09-24 StockSavvyShay   I  2103210954096095705 | $GOOGL CEO Sundar Pichai says Project Suncatcher is launching on $SPCX Transporter-18 to test whether TPUs can survive and operate in space.  The prototype satellite was built with $PL as Google starts testing the hardware for orbital AI compute.  https://t.co/psOifemLSr

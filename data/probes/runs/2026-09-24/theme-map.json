@@ -1,0 +1,507 @@
+{
+"KURA": [],
+"GRRR": [],
+"APLD": [
+[
+"neocloud_datacenter",
+"long_duration_growth",
+"lagging",
+"Avoid",
+1
+]
+],
+"WYFI": [],
+"EOSE": [],
+"GRAB": [],
+"ACHR": [],
+"RARE": [],
+"ORCL": [
+[
+"neocloud_datacenter",
+"long_duration_growth",
+"lagging",
+"Avoid",
+1
+],
+[
+"cloud_software",
+"quality_megacap",
+"fading",
+"Accumulate",
+4
+]
+],
+"IREN": [
+[
+"neocloud_datacenter",
+"long_duration_growth",
+"lagging",
+"Avoid",
+1
+],
+[
+"crypto_equities",
+"crypto_high_beta",
+"accelerating",
+"Accumulate",
+4
+]
+],
+"VIAV": [],
+"AVGO": [
+[
+"semis",
+"quality_megacap",
+"improving",
+"Neutral",
+4
+]
+],
+"RKLB": [
+[
+"space",
+"long_duration_growth",
+"lagging, worsening",
+"Underweight",
+1
+]
+],
+"NVDA": [
+[
+"mag7",
+"quality_megacap",
+"accelerating",
+"Accumulate",
+4
+],
+[
+"semis",
+"quality_megacap",
+"improving",
+"Neutral",
+4
+]
+],
+"STLN": [],
+"AKAM": [],
+"AMAT": [
+[
+"semi_equipment",
+"materials_industrials",
+"lagging, worsening",
+"Neutral",
+4
+]
+],
+"SNOW": [
+[
+"cloud_software",
+"quality_megacap",
+"fading",
+"Accumulate",
+4
+],
+[
+"ai_software",
+"long_duration_growth",
+"fading",
+"Accumulate",
+1
+]
+],
+"CSCO": [],
+"SNDK": [
+[
+"semi_memory",
+"materials_industrials",
+"improving",
+"Neutral",
+4
+]
+],
+"NKE": [
+[
+"consumer_discretionary",
+"small_caps",
+"lagging",
+"Avoid",
+4
+]
+],
+"UNH": [],
+"GS": [
+[
+"banks",
+"banks",
+"lagging, worsening",
+"Underweight",
+4
+]
+],
+"GLW": [
+[
+"ai_networking",
+"long_duration_growth",
+"lagging, worsening",
+"Underweight",
+1
+]
+],
+"LRCX": [
+[
+"semi_equipment",
+"materials_industrials",
+"lagging, worsening",
+"Neutral",
+4
+]
+],
+"LITE": [
+[
+"ai_networking",
+"long_duration_growth",
+"lagging, worsening",
+"Underweight",
+1
+]
+],
+"CAT": [],
+"ANET": [
+[
+"ai_networking",
+"long_duration_growth",
+"lagging, worsening",
+"Underweight",
+1
+]
+],
+"ISRG": [
+[
+"ai_health_diagnostics",
+"long_duration_growth",
+"accelerating",
+"Accumulate",
+1
+]
+],
+"ONDS": [],
+"UUUU": [
+[
+"nuclear",
+"long_duration_growth",
+"lagging, worsening",
+"Avoid",
+1
+]
+],
+"ADUR": [],
+"WULF": [
+[
+"neocloud_datacenter",
+"long_duration_growth",
+"lagging",
+"Avoid",
+1
+]
+],
+"STIM": [],
+"BABA": [],
+"AAOI": [
+[
+"ai_networking",
+"long_duration_growth",
+"lagging, worsening",
+"Underweight",
+1
+]
+],
+"CIFR": [
+[
+"neocloud_datacenter",
+"long_duration_growth",
+"lagging",
+"Avoid",
+1
+]
+],
+"VST": [
+[
+"ai_power",
+"cash_flow_value",
+"improving",
+"Underweight",
+5
+]
+],
+"APP": [
+[
+"ai_software",
+"long_duration_growth",
+"fading",
+"Accumulate",
+1
+]
+],
+"SE": [],
+"CRWV": [
+[
+"neocloud_datacenter",
+"long_duration_growth",
+"lagging",
+"Avoid",
+1
+]
+],
+"WDC": [
+[
+"semi_memory",
+"materials_industrials",
+"improving",
+"Neutral",
+4
+]
+],
+"AMKR": [],
+"MU": [
+[
+"semis",
+"quality_megacap",
+"improving",
+"Neutral",
+4
+],
+[
+"semi_memory",
+"materials_industrials",
+"improving",
+"Neutral",
+4
+]
+],
+"CRDO": [
+[
+"ai_networking",
+"long_duration_growth",
+"lagging, worsening",
+"Underweight",
+1
+]
+],
+"ON": [
+[
+"semis",
+"quality_megacap",
+"improving",
+"Neutral",
+4
+]
+],
+"CCJ": [
+[
+"nuclear",
+"long_duration_growth",
+"lagging, worsening",
+"Avoid",
+1
+]
+],
+"COHR": [
+[
+"ai_networking",
+"long_duration_growth",
+"lagging, worsening",
+"Underweight",
+1
+]
+],
+"RDDT": [
+[
+"internet_platforms",
+"quality_megacap",
+"fading",
+"Neutral",
+4
+]
+],
+"ASTS": [
+[
+"space",
+"long_duration_growth",
+"lagging, worsening",
+"Underweight",
+1
+]
+],
+"NU": [
+[
+"fintech",
+"long_duration_growth",
+"fading",
+"Neutral",
+1
+]
+],
+"ASML": [
+[
+"semis",
+"quality_megacap",
+"improving",
+"Neutral",
+4
+],
+[
+"semi_equipment",
+"materials_industrials",
+"lagging, worsening",
+"Neutral",
+4
+]
+],
+"NXPI": [
+[
+"semis",
+"quality_megacap",
+"improving",
+"Neutral",
+4
+]
+],
+"AMZN": [
+[
+"mag7",
+"quality_megacap",
+"accelerating",
+"Accumulate",
+4
+],
+[
+"internet_platforms",
+"quality_megacap",
+"fading",
+"Neutral",
+4
+]
+],
+"AMBA": [],
+"DAL": [],
+"GEV": [
+[
+"ai_power",
+"cash_flow_value",
+"improving",
+"Underweight",
+5
+]
+],
+"GOOGL": [
+[
+"mag7",
+"quality_megacap",
+"accelerating",
+"Accumulate",
+4
+],
+[
+"internet_platforms",
+"quality_megacap",
+"fading",
+"Neutral",
+4
+]
+],
+"TXN": [
+[
+"semis",
+"quality_megacap",
+"improving",
+"Neutral",
+4
+]
+],
+"OSCR": [],
+"PLPC": [],
+"META": [
+[
+"mag7",
+"quality_megacap",
+"accelerating",
+"Accumulate",
+4
+],
+[
+"internet_platforms",
+"quality_megacap",
+"fading",
+"Neutral",
+4
+]
+],
+"PSNL": [],
+"ARM": [
+[
+"semis",
+"quality_megacap",
+"improving",
+"Neutral",
+4
+]
+],
+"SPCX": [],
+"UBER": [
+[
+"internet_platforms",
+"quality_megacap",
+"fading",
+"Neutral",
+4
+]
+],
+"SKHY": [],
+"ABCL": [],
+"SOFI": [
+[
+"fintech",
+"long_duration_growth",
+"fading",
+"Neutral",
+1
+]
+],
+"NBIS": [
+[
+"neocloud_datacenter",
+"long_duration_growth",
+"lagging",
+"Avoid",
+1
+]
+],
+"ALAB": [
+[
+"ai_networking",
+"long_duration_growth",
+"lagging, worsening",
+"Underweight",
+1
+]
+],
+"PYPL": [
+[
+"fintech",
+"long_duration_growth",
+"fading",
+"Neutral",
+1
+]
+],
+"AI": [],
+"CRM": [
+[
+"cloud_software",
+"quality_megacap",
+"fading",
+"Accumulate",
+4
+]
+]
+}

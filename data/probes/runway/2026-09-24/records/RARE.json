@@ -1,0 +1,773 @@
+{
+ "ticker": "RARE",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:00:00Z",
+ "price": {
+  "close": {
+   "value": 14.77,
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 39.89,
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 12.73,
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -62.97,
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24",
+   "note": "computed close/52w high"
+  },
+  "sma50_pct": {
+   "value": -35.31,
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -40.27,
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": false,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/RARE?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "computed from Yahoo 1y daily closes: SMA50 22.83, SMA200 24.73"
+  },
+  "perf_1m_pct": {
+   "value": -44.18,
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -49.5,
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLV",
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -3.09,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 9.15,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "breakdown",
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA distances, 1m/3m perf and 52w range"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/RARE?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "print 2026-08-04 AMC: next-day close 24.93 vs 25.81 (-3.4%); +5 sessions 26.86 (+4.1%) so the down gap did not hold (reversed up); gap later erased by the 2026-09-03 Angelman failure"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/rare/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 20,
+   "source": "https://stockanalysis.com/stocks/rare/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 28.05,
+   "source": "https://stockanalysis.com/stocks/rare/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 40.0,
+   "source": "https://stockanalysis.com/stocks/rare/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 18.0,
+   "source": "https://stockanalysis.com/stocks/rare/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat not fetched; Finviz mean target 26.79 is within 10 points of StockAnalysis"
+  },
+  "upside_pct": {
+   "value": 89.91,
+   "source": "https://stockanalysis.com/stocks/rare/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed pt_avg/close"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "broker": "Evercore ISI",
+     "action": "raise",
+     "target": 18,
+     "reason": "Hold; PT 16->18 after FAYUVI approval"
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Morgan Stanley",
+     "action": "raise",
+     "target": 20,
+     "reason": "Hold; PT 18->20"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "Leerink Partners",
+     "action": "maintain",
+     "target": 33,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "Wedbush",
+     "action": "maintain",
+     "target": 23,
+     "reason": "Hold"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "Canaccord Genuity",
+     "action": "raise",
+     "target": 39,
+     "reason": "Buy; PT 37->39"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/rare/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table (last entries shown); sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-04",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 214.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/earnings/",
+   "as_of": "2026-08-04"
+  },
+  "revenue_estimate": {
+   "value": 183.08,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/earnings/",
+   "as_of": "2026-08-04"
+  },
+  "eps_actual": {
+   "value": -0.9,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/earnings/",
+   "as_of": "2026-08-04"
+  },
+  "eps_estimate": {
+   "value": -1.22,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/earnings/",
+   "as_of": "2026-08-04"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001515673/000119312526332802/rare-ex99_1.htm",
+   "as_of": "2026-08-04"
+  },
+  "guide_detail": {
+   "value": "reaffirmed FY26 revenue $730-760M (ex new launches), Crysvita $500-520M, Dojolvi $100-110M; 2027 R&D+SG&A down >=15%",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001515673/000119312526332802/rare-ex99_1.htm",
+   "as_of": "2026-08-04"
+  },
+  "reaction_day_pct": {
+   "value": -3.41,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/RARE?range=1y&interval=1d",
+   "as_of": "2026-08-05"
+  },
+  "reaction_5d_pct": {
+   "value": 4.07,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/RARE?range=1y&interval=1d",
+   "as_of": "2026-08-12"
+  },
+  "revisions_30d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+  },
+  "revisions_90d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error"
+  },
+  "fcf_ttm": {
+   "value": -489.47,
+   "source": "https://stockanalysis.com/stocks/rare/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "Q1-26 -198 includes restructuring/one-offs"
+  },
+  "net_income_ttm": {
+   "value": -585.97,
+   "source": "https://stockanalysis.com/stocks/rare/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": 19.3,
+   "source": "https://stockanalysis.com/stocks/rare/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "TTM SBC 138.6M / TTM sales 716.9M (Finviz)"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: two gene-therapy approvals in 29 days (GENGLYCOS 2026-08-19, FAYUVI 2026-09-17) plus Crysvita growth and 15%+ 2027 opex cuts put the company on a path to 2027 profitability, and two sellable priority review vouchers (~$180-205M each at 2026 prices) fund the bridge.",
+   "source": "https://ir.ultragenyx.com/news-releases/news-release-details/ultragenyx-announces-approval-fayuvitm-gene-therapy-first-ever",
+   "as_of": "2026-09-17"
+  },
+  "depends_on": {
+   "value": "gene-therapy launch uptake and PRV monetization before cash (436M at 2026-06-30) runs down",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001515673/000119312526332802/rare-ex99_1.htm",
+   "as_of": "2026-08-04"
+  },
+  "bear_case": {
+   "value": "Angelman Phase 3 failure removed the largest pipeline value driver; burn ~$100M/q leaves ~4-5 quarters of cash without PRV sales; ultra-rare launches are slow",
+   "source": "https://www.globenewswire.com/news-release/2026/09/02/3355481/20739/en/ultragenyx-announces-phase-3-aspire-results-in-angelman-syndrome.html",
+   "as_of": "2026-09-02"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001515673/000119312526332802/rare-ex99_1.htm",
+   "as_of": "2026-08-04"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "BMRN",
+    "SRPT"
+   ],
+   "source": "https://www.sec.gov/Archives/edgar/data/0001515673/000119312526332802/rare-ex99_1.htm",
+   "as_of": "2026-08-04"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001515673/000119312526332802/rare-ex99_1.htm",
+   "as_of": "2026-08-04"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: ratios page not fetched; Finviz TTM gross margin 78.5%"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: loss-making FY26"
+  },
+  "peer_fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "ev_sales": {
+   "value": 3.3,
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "substitute": {
+   "value": "Ionis/others in Angelman; no approved competitor in MPS IIIA or GSDIa",
+   "source": "https://www.globenewswire.com/news-release/2026/09/02/3355481/20739/en/ultragenyx-announces-phase-3-aspire-results-in-angelman-syndrome.html",
+   "as_of": "2026-09-02"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers the full trailing 90 days to 2026-09-24 (window from 2026-06-26); Form 4s not opened individually on EDGAR"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24",
+   "note": "no open-market buys in 90 days; all sales small"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "name": "Theodore Huizenga",
+     "role": "SVP, Chief Accounting Officer",
+     "shares": 1283,
+     "price": 13.57,
+     "usd": 17410,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=RARE",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Theodore Huizenga",
+     "role": "SVP, Chief Accounting Officer",
+     "shares": 161,
+     "price": 13.99,
+     "usd": 2252,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=RARE",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-08-03",
+     "name": "Karah Parschauer",
+     "role": "EVP, Chief Legal Officer",
+     "shares": 1900,
+     "price": 24.92,
+     "usd": 47348,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=RARE",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-08-03",
+     "name": "Howard Horn",
+     "role": "CFO",
+     "shares": 4696,
+     "price": 24.92,
+     "usd": 117024,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=RARE",
+     "plan_10b5_1": null,
+     "history": "monthly pattern (1st of month) suggests plan or sell-to-cover; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Howard Horn",
+     "role": "CFO",
+     "shares": 4698,
+     "price": 33.13,
+     "usd": 155645,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=RARE",
+     "plan_10b5_1": null,
+     "history": "monthly pattern; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=RARE",
+   "as_of": "2026-09-24",
+   "note": "no open-market buys in 90 days; all sales small"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter holders table"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives dollar flows only; dollar totals excluded per failure log; Fintel 403 per registry"
+  },
+  "holders_up": {
+   "value": 183,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional buyers (MarketBeat)"
+  },
+  "holders_down": {
+   "value": 84,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional sellers (MarketBeat)"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Corient Private Wealth",
+     "change_pct": 7.3,
+     "shares": 146493
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Engineers Gate",
+     "change_pct": -45.7,
+     "shares": 48557
+    },
+    {
+     "fund": "Squarepoint Ops",
+     "change_pct": -23.9,
+     "shares": 338368
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 17.73,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 18.43% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 2.2,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RARE/short-interest/",
+   "as_of": "2026-09-15"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-17",
+    "event": "FAYUVI (UX111) first shipments; company guided 30-60 days after 2026-09-17 approval",
+    "confirmed": true
+   },
+   {
+    "date": "2026-11-03",
+    "event": "Q3 2026 earnings (aggregator estimate)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-12-31",
+    "event": "UX701 Wilson disease dose-finding data (guided Q4 2026)",
+    "confirmed": true
+   },
+   {
+    "date": null,
+    "event": "Possible sale of one or both priority review vouchers (undated)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.sec.gov/Archives/edgar/data/0001515673/000119312526332802/rare-ex99_1.htm",
+  "as_of": "2026-08-04"
+ },
+ "why_it_fell": {
+  "value": "Phase 3 Aspire trial of apazunersen (GTX-102) in Angelman syndrome missed its primary (Bayley-4 cognitive) and key secondary endpoints on 2026-09-02; stock fell ~44% on 2026-09-03 (26.53 -> 14.85).",
+  "source": "https://www.globenewswire.com/news-release/2026/09/02/3355481/20739/en/ultragenyx-announces-phase-3-aspire-results-in-angelman-syndrome.html",
+  "as_of": "2026-09-02"
+ },
+ "financing": {
+  "cash": {
+   "value": 436.0,
+   "source": "https://www.sec.gov/Archives/edgar/data/0001515673/000119312526332802/rare-ex99_1.htm",
+   "as_of": "2026-06-30",
+   "note": "USD millions, cash + equivalents + marketable securities unless noted"
+  },
+  "quarterly_burn": {
+   "value": -98.0,
+   "source": "https://stockanalysis.com/stocks/rare/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "Q2 2026 FCF; Q1 -198 was inflated by restructuring and one-offs"
+  },
+  "runway_quarters": {
+   "value": 4.4,
+   "source": "https://stockanalysis.com/stocks/rare/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "436/98 excluding PRV sales; two PRVs could add ~$360-410M (investing.com estimate from 2026 voucher prices, not a transaction)"
+  },
+  "company_runway_statement": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no explicit runway statement"
+  },
+  "recent_offering": {
+   "value": "none found in the last 6 months",
+   "source": "https://www.investing.com/analysis/is-ultragenyx-stock-a-buy-with-2-fda-vouchers-worth-a-quarter-of-its-market-value-200688078",
+   "as_of": "2026-09-24"
+  },
+  "binary_events_6m": [
+   {
+    "date": "2026-12-31",
+    "event": "UX701 Wilson data (Q4 2026)",
+    "confirmed": true
+   },
+   {
+    "date": "2027-06-30",
+    "event": "DTX301 OTC Phase 3 results (H1 2027, outside 6m)",
+    "confirmed": true
+   }
+  ]
+ },
+ "forward": {
+  "periods_aligned": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/rare/forecast/",
+   "as_of": "2026-09-24",
+   "note": "revenue/EPS aligned to FY2026/FY2027 calendar years, but EBIT/CFO/capex unavailable so periods not fully verified"
+  },
+  "currency": "USD",
+  "units": "USD millions except per-share",
+  "accounting_basis": "GAAP (StockAnalysis/S&P Global consensus)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex (levered)",
+  "revision_period_end": null,
+  "fy1": {
+   "revenue": {
+    "value": 762.99,
+    "source": "https://stockanalysis.com/stocks/rare/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": -3.87,
+    "source": "https://stockanalysis.com/stocks/rare/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 1000.0,
+    "source": "https://stockanalysis.com/stocks/rare/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": 0.68,
+    "source": "https://stockanalysis.com/stocks/rare/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 11,
+    "source": "https://stockanalysis.com/stocks/rare/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy, S&P Global via StockAnalysis"
+   },
+   "hold": {
+    "value": 9,
+    "source": "https://stockanalysis.com/stocks/rare/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/rare/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ returned \"Oops, something went wrong\"; Zacks bot-blocked"
+   },
+   "down_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+   },
+   "analysts": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 14.77,
+    "source": "https://finviz.com/quote.ashx?t=RARE",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 2360.0,
+    "source": "https://finviz.com/quote.ashx?t=RARE",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled; loss-making biotech, WACC not meaningful for screening"
+   }
+  },
+  "note": ""
+ },
+ "judgment": {
+  "prospect_pts": 3,
+  "prospect_why": "two approvals landed; the Angelman Phase 3 failed",
+  "competition_pts": 3,
+  "competition_why": "BMRN and SRPT; EV/S 3.3",
+  "macro_fit_pts": 1,
+  "macro_fit_why": "long duration with about 4.4 quarters of cash",
+  "narrative_pts": 1,
+  "narrative_why": "SMID biotech fading",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

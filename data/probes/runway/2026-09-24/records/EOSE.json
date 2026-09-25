@@ -1,0 +1,884 @@
+{
+ "ticker": "EOSE",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:28:55+00:00",
+ "price": {
+  "close": {
+   "value": 3.24,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 19.86,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 3.01,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -83.69,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24",
+   "note": "computed from close and 52w high"
+  },
+  "sma50_pct": {
+   "value": -14.33,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -58.05,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  },
+  "fifty_above_200": {
+   "value": false,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price sits further above the 200 than the 50"
+  },
+  "perf_1m_pct": {
+   "value": -8.33,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -46.72,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLI",
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -5.36,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -8.3,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24",
+   "note": "-58% below the 200-day, -14% below the 50-day, 8% above the 52w low"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/eose/history/",
+   "as_of": "2026-09-24",
+   "note": "reaction-day close 2026-08-05 3.82 vs +5 sessions 2026-08-12 4.24; held = +5d close at or above reaction-day close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/eose/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 11,
+   "source": "https://stockanalysis.com/stocks/eose/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 6.61,
+   "source": "https://stockanalysis.com/stocks/eose/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 10,
+   "source": "https://stockanalysis.com/stocks/eose/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 4.0,
+   "source": "https://stockanalysis.com/stocks/eose/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 104.01,
+   "source": "https://stockanalysis.com/stocks/eose/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed: StockAnalysis average target vs Finviz close"
+  },
+  "pt_avg_finviz": {
+   "value": 6.5,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean; recorded beside StockAnalysis, not in place of it"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat forecast page not fetched; Finviz mean target is within 10 upside points of StockAnalysis, so the alt is not required"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "broker": "Needham",
+     "action": "lower",
+     "target": 10,
+     "reason": "Buy; 11 -> 10"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "Stifel",
+     "action": "maintain",
+     "target": 9,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Truist",
+     "action": "reiterate",
+     "target": 7,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Roth MKM",
+     "action": "raise",
+     "target": 4.5,
+     "reason": "Hold; 4 -> 4.5"
+    },
+    {
+     "date": "2026-08-07",
+     "broker": "J.P. Morgan",
+     "action": "lower",
+     "target": 5,
+     "reason": "Hold; 6 -> 5"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/eose/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table, rows dated 2026-07-26 onward as rendered; sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-05",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/EOSE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 68780000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/EOSE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 68320000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/EOSE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": -1.2,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/EOSE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_estimate": {
+   "value": -0.19,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/EOSE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "cut",
+   "source": "https://investors.eose.com/news-releases/news-release-details/eos-energy-enterprises-reports-second-quarter-2026-financial",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "FY2026 revenue range narrowed to $300-350M from $300-400M (top cut; consensus $308M) as Line 1 downtime during manufacturing consolidation hits volume; adj. gross margin -62%",
+   "source": "https://investors.eose.com/news-releases/news-release-details/eos-energy-enterprises-reports-second-quarter-2026-financial",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": -12.18,
+   "source": "https://stockanalysis.com/stocks/eose/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-05 vs prior close 2026-08-04 (4.35)"
+  },
+  "reaction_5d_pct": {
+   "value": -2.53,
+   "source": "https://stockanalysis.com/stocks/eose/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-12 vs pre-print close 2026-08-04"
+  },
+  "revisions_30d": {
+   "value": "down",
+   "source": "https://api.nasdaq.com/api/analyst/EOSE/earnings-forecast",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq FY2026 EPS: 0 up / 2 down over 4 weeks (3 estimates)"
+  },
+  "revisions_90d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ load error; no 90-day series"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo EPS Trend table empty or failed for this name"
+  },
+  "fcf_ttm": {
+   "value": -420191000,
+   "source": "https://stockanalysis.com/stocks/eose/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": -528673000,
+   "source": "https://stockanalysis.com/stocks/eose/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": 10.39,
+   "source": "https://stockanalysis.com/stocks/eose/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "SBC TTM 22,260,000 / Finviz sales TTM 214.25M"
+  },
+  "stock_issued_ttm": {
+   "value": 564581000,
+   "source": "https://stockanalysis.com/stocks/eose/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "common stock issued, TTM to 2026-06-30"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: zinc long-duration storage scales with Cerberus-backed Frontier Power USA (~$263M initial capital, >$1B deployable), revenue rising to ~$306M in 2026 and ~$576M in 2027.",
+   "source": "https://investors.eose.com/news-releases/news-release-details/completed-rights-offering-together-hudson-bay-capital-management",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Gross margin turning positive as lines consolidate; FY2026 revenue in the $300-350M range.",
+   "source": "https://investors.eose.com/news-releases/news-release-details/completed-rights-offering-together-hudson-bay-capital-management",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Adj. gross margin still -62%; FCF -$420M TTM against $305M cash and $641M debt; repeated dilution (rights offering July 2026); CEO and officers selling.",
+   "source": "https://investors.eose.com/news-releases/news-release-details/completed-rights-offering-together-hudson-bay-capital-management",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://investors.eose.com/news-releases/news-release-details/completed-rights-offering-together-hudson-bay-capital-management",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "FLNC",
+    "ESS"
+   ],
+   "source": "https://stockanalysis.com/stocks/eose/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    -111.19,
+    -93.83,
+    -77.99,
+    -70.96
+   ],
+   "source": "https://stockanalysis.com/stocks/eose/financials/income-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarters Q3-25..Q2-26, oldest first"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no positive forward EPS"
+  },
+  "peer_fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peers not in the Finviz snapshot set or not US-listed"
+  },
+  "ev_sales": {
+   "value": 10.21,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peer pages not fetched"
+  },
+  "substitute": {
+   "value": "Lithium-ion (LFP) storage at falling cell prices; iron-flow (ESS) and other LDES.",
+   "source": "https://investors.eose.com/news-releases/news-release-details/completed-rights-offering-together-hudson-bay-capital-management",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table runs back before 2026-06-26 for this name, so the full trailing 90 days is covered; exercises and proposed (Form 144) sales excluded"
+  },
+  "buys_90d": {
+   "value": [
+    {
+     "date": "2026-09-11",
+     "name": "Song Haiyan",
+     "role": "Director",
+     "shares": 10000,
+     "price": 3.95,
+     "usd": 39500,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1804708/000162828026061975/xslF345X06/wk-form4_1789477005.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Song Haiyan",
+     "role": "Director",
+     "shares": 5000,
+     "price": 3.84,
+     "usd": 19200,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1804708/000162828026061975/xslF345X06/wk-form4_1789477005.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-16",
+     "name": "Puri Sumeet",
+     "role": "Chief Accounting Officer",
+     "shares": 43750,
+     "price": 3.92,
+     "usd": 171500,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026062273/xslF345X06/wk-form4_1789590505.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Mastrangelo Joe",
+     "role": "Chief Executive Officer",
+     "shares": 250000,
+     "price": 3.92,
+     "usd": 980000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026062270/xslF345X06/wk-form4_1789590447.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Puri Sumeet",
+     "role": "Chief Accounting Officer",
+     "shares": 34167,
+     "price": 4.13,
+     "usd": 141110,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026061188/xslF345X06/wk-form4_1788991502.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-07-28",
+     "name": "Puri Sumeet",
+     "role": "Chief Accounting Officer",
+     "shares": 29167,
+     "price": 3.36,
+     "usd": 98001,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026050230/xslF345X06/wk-form4_1785272585.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-07-28",
+     "name": "Kroeker Nathan",
+     "role": "Chief Commercial Officer",
+     "shares": 110417,
+     "price": 3.36,
+     "usd": 371001,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1613718/000162828026050227/xslF345X06/wk-form4_1785272551.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-07-27",
+     "name": "Mastrangelo Joe",
+     "role": "Chief Executive Officer",
+     "shares": 159154,
+     "price": 3.61,
+     "usd": 574546,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026050226/xslF345X06/wk-form4_1785272514.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-07-07",
+     "name": "Kroeker Nathan",
+     "role": "CCO and Interim CFO",
+     "shares": 79309,
+     "price": 4.68,
+     "usd": 371166,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1613718/000162828026047542/xslF345X06/wk-form4_1783459213.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-06-30",
+     "name": "Puri Sumeet",
+     "role": "Chief Accounting Officer",
+     "shares": 8823,
+     "price": 5.86,
+     "usd": 51703,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026046292/xslF345X06/wk-form4_1782853651.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-06-30",
+     "name": "Buczkowski Michelle",
+     "role": "Chief Administration Officer",
+     "shares": 11469,
+     "price": 5.87,
+     "usd": 67323,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026046290/xslF345X06/wk-form4_1782853620.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-06-30",
+     "name": "Silberman Michael W",
+     "role": "Chief Legal Officer",
+     "shares": 14998,
+     "price": 5.87,
+     "usd": 88038,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026046289/xslF345X06/wk-form4_1782853590.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-06-30",
+     "name": "Kroeker Nathan",
+     "role": "CCO and Interim CFO",
+     "shares": 35289,
+     "price": 5.86,
+     "usd": 206794,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1613718/000162828026046286/xslF345X06/wk-form4_1782853547.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24",
+   "note": "plan_10b5_1 null = not verified on the Form 4"
+  },
+  "finviz_net_change_pct": {
+   "value": -9.83,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://api.nasdaq.com/api/company/EOSE/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-holder rows dated 6/30/2026; Vanguard Group row still 12/31/2025"
+  },
+  "net_shares": {
+   "value": 28038849,
+   "source": "https://api.nasdaq.com/api/company/EOSE/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq 13F summary (latest filings, most dated 2026-06-30); net = increased-position shares minus decreased-position shares"
+  },
+  "holders_up": {
+   "value": 218,
+   "source": "https://api.nasdaq.com/api/company/EOSE/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_down": {
+   "value": 152,
+   "source": "https://api.nasdaq.com/api/company/EOSE/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_new": {
+   "value": 79,
+   "source": "https://api.nasdaq.com/api/company/EOSE/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_exited": {
+   "value": 45,
+   "source": "https://api.nasdaq.com/api/company/EOSE/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Hudson Bay Capital",
+     "change_pct": null,
+     "shares": 13683634
+    },
+    {
+     "fund": "Susquehanna",
+     "change_pct": 52.5,
+     "shares": 3332709
+    },
+    {
+     "fund": "BlackRock",
+     "change_pct": 12.7,
+     "shares": 3046526
+    },
+    {
+     "fund": "Legal & General",
+     "change_pct": 272.9,
+     "shares": 2854116
+    }
+   ],
+   "source": "https://api.nasdaq.com/api/company/EOSE/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-15 holders by value; change_pct null = new position"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://api.nasdaq.com/api/company/EOSE/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "no full exit among the top-15 holders; large reductions are listed in named_cuts"
+  },
+  "named_cuts": {
+   "value": [
+    {
+     "fund": "Driehaus",
+     "change_pct": -8.8,
+     "shares": -1313160
+    },
+    {
+     "fund": "Two Sigma",
+     "change_pct": -9.2,
+     "shares": -1290118
+    }
+   ],
+   "source": "https://api.nasdaq.com/api/company/EOSE/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 33.65,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 4.13,
+   "source": "https://api.nasdaq.com/api/quote/EOSE/short-interest?assetClass=stocks",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq, settlement 09/15/2026, 120,015,346 sh short; Finviz short ratio 4.57"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://api.nasdaq.com/api/quote/EOSE/short-interest?assetClass=stocks",
+   "as_of": "2026-09-24",
+   "note": "Finviz short interest 120.02M matches the Nasdaq row settling 09/15/2026"
+  },
+  "finviz_inst_change_pct": {
+   "value": 5.81,
+   "source": "https://finviz.com/quote.ashx?t=EOSE",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float_alt": {
+   "value": 31.19,
+   "source": "https://stockanalysis.com/stocks/eose/statistics/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis float basis; differs from Finviz"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-04",
+    "event": "Q3 2026 earnings (MarketBeat estimate; not confirmed)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/EOSE/earnings/",
+  "as_of": "2026-09-24",
+  "note": "next 6 months; 'confirmed' means company-announced"
+ },
+ "why_it_fell": {
+  "value": "Down 84% from the high: persistent negative gross margins, a Q2 EPS miss (-$1.20 vs -$0.19) with the top of the revenue guide cut, and dilution via equity and a July rights offering; shares fell ~17% on the print.",
+  "source": "https://ca.investing.com/news/transcripts/earnings-call-transcript-eos-energy-misses-q2-2026-eps-shares-slide-17-93CH-4777724",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute; EPS per share",
+  "accounting_basis": "revenue consensus; EPS = StockAnalysis adjusted (normalized) consensus; EBIT = StockAnalysis operating income consensus",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "not available (CFO/capex not published)",
+  "revision_period_end": "2026-09-24",
+  "note": "FY1/FY2 revenue and adjusted EPS from the same StockAnalysis snapshot; FY2 EBIT is behind a paywall",
+  "fy1": {
+   "revenue": {
+    "value": 306186660,
+    "source": "https://stockanalysis.com/stocks/eose/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -0.08831,
+    "source": "https://stockanalysis.com/stocks/eose/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": -287492900,
+    "source": "https://stockanalysis.com/stocks/eose/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF -442,202,800 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF -442,202,800 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 575574260,
+    "source": "https://stockanalysis.com/stocks/eose/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -0.17355,
+    "source": "https://stockanalysis.com/stocks/eose/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is [PRO]-gated on StockAnalysis",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 4,
+    "source": "https://stockanalysis.com/stocks/eose/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy"
+   },
+   "hold": {
+    "value": 7,
+    "source": "https://stockanalysis.com/stocks/eose/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/eose/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell + strong sell"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://api.nasdaq.com/api/analyst/EOSE/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY2026 EPS; Nasdaq 4-week revision counts"
+   },
+   "down_30d": {
+    "value": 2,
+    "source": "https://api.nasdaq.com/api/analyst/EOSE/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 3,
+    "source": "https://api.nasdaq.com/api/analyst/EOSE/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimates for FY2026 EPS on that provider"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts from any fetchable source",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 3.24,
+    "source": "https://finviz.com/quote.ashx?t=EOSE",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 1520000000.0,
+    "source": "https://stockanalysis.com/stocks/eose/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 2,
+  "prospect_why": "zinc storage scale-up via the JV; guide cut",
+  "competition_pts": 1,
+  "competition_why": "GM -111 to -71%, negative",
+  "macro_fit_pts": 0,
+  "macro_fit_why": "the thesis needs the regime to change: negative margins and dilution",
+  "narrative_pts": 2,
+  "narrative_why": "AI power improving but the name is -84% from its high",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

@@ -1,0 +1,712 @@
+{
+ "ticker": "NXPI",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 230.16,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 339.95,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 183.0,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -32.3,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24",
+   "note": "computed from Finviz close and 52w high"
+  },
+  "sma50_pct": {
+   "value": -2.76,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -6.23,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 2.41,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -22.93,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS Information Technology"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA50/SMA200 distance, drawdown and 1m/3m performance"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/nxpi/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-05 (231.15) vs pre-print close 2026-07-28 (259.12); true = price 5 sessions after the print at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 30,
+   "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 311.1,
+   "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 400.0,
+   "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 190.0,
+   "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 35.17,
+   "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+   "as_of": "2026-09-24",
+   "note": "SA average target vs Finviz close"
+  },
+  "pt_finviz": {
+   "value": 313.29,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded for comparison"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "broker": "Bernstein",
+     "action": "maintains",
+     "rating": "Hold",
+     "target": 290,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-08-03",
+     "broker": "UBS",
+     "action": "downgrades",
+     "rating": "Hold",
+     "target": 270,
+     "target_old": 305,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-07-31",
+     "broker": "J.P. Morgan",
+     "action": "maintains",
+     "rating": "Hold",
+     "target": 300,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Cantor Fitzgerald",
+     "action": "reiterates",
+     "rating": "Buy",
+     "target": 400,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Goldman Sachs",
+     "action": "reiterates",
+     "rating": "Buy",
+     "target": 325,
+     "target_old": null,
+     "reason": "not stated on source page"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free page shows only the five most recent sell-side actions; older actions in the 60-day window may be missing"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat $305.65 within 10 points of StockAnalysis (32.8% vs 35.2% upside); not needed"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-28",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 3500000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 3470000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 3.61,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/earnings/",
+   "as_of": "2026-09-24",
+   "note": "non-GAAP"
+  },
+  "eps_estimate": {
+   "value": 3.52,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/earnings/",
+   "as_of": "2026-07-28"
+  },
+  "guide_detail": {
+   "value": "Q3 guide non-GAAP EPS $3.89-4.32 vs $3.92 consensus; revenue $3.7-3.9B vs $3.7B consensus; 2030 target to double non-GAAP EPS",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/earnings/",
+   "as_of": "2026-07-28"
+  },
+  "reaction_day_pct": {
+   "value": -7.0,
+   "source": "https://stockanalysis.com/stocks/nxpi/history/",
+   "as_of": "2026-07-29",
+   "note": "2026-07-29 close 240.98 vs 2026-07-28 close 259.12"
+  },
+  "reaction_5d_pct": {
+   "value": -10.79,
+   "source": "https://stockanalysis.com/stocks/nxpi/history/",
+   "as_of": "2026-08-05",
+   "note": "pre-print close to the close five sessions after the reaction day"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/NXPI/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Dec-2026): current 15.06, 30d ago 15.06, 90d ago 14.76; flat = within 0.5%"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/NXPI/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Dec-2026): current 15.06, 30d ago 15.06, 90d ago 14.76; flat = within 0.5%"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 15.06,
+    "d30": 15.06,
+    "d90": 14.76
+   },
+   "source": "https://finance.yahoo.com/quote/NXPI/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Dec-2026)"
+  },
+  "fcf_ttm": {
+   "value": 2806000000,
+   "source": "https://stockanalysis.com/stocks/nxpi/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-28",
+   "note": "sum of last four quarters, quarters ending 2026-06-28, 2026-03-29, 2025-12-31, 2025-09-28"
+  },
+  "net_income_ttm": {
+   "value": 2975000000,
+   "source": "https://stockanalysis.com/stocks/nxpi/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-28"
+  },
+  "fcf_to_ni": {
+   "value": 0.94,
+   "source": "https://stockanalysis.com/stocks/nxpi/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-28"
+  },
+  "sbc_pct_revenue": {
+   "value": 3.28,
+   "source": "https://stockanalysis.com/stocks/nxpi/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-28",
+   "note": "TTM stock-based compensation / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): a broad auto and industrial upcycle, with Q2 revenue +19% YoY and a Q3 guide above consensus; management targets doubling non-GAAP EPS by 2030 through software-defined vehicles, physical AI at the edge and a new data-center business.",
+   "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "auto semiconductor content and industrial restocking lifting revenue to consensus $14.2B (FY26) and $15.9B (FY27)",
+   "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: guide ranges were wide, the 2030 targets are doubted against valuation, and autos are cyclical; UBS downgraded to Hold on 2026-08-03.",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/earnings/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "TXN",
+    "ON"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": null,
+   "note": "no source read states a share trend"
+  },
+  "gross_margin_4q": {
+   "value": [
+    57.27,
+    56.18,
+    54.6,
+    56.32
+   ],
+   "source": "https://stockanalysis.com/stocks/nxpi/financials/?p=quarterly",
+   "as_of": "2026-06-28",
+   "note": "latest first, quarters ending 2026-06-28, 2026-03-29, 2025-12-31, 2025-09-28"
+  },
+  "fwd_pe": {
+   "value": 12.66,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "TXN": 26.34,
+    "ON": 16.26
+   },
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 5.02,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "TXN": 13.07,
+    "ON": 4.73
+   },
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute or new entrant in the sources read"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to before 2026-06-26 (full 90 days); every Form 4 sale opened on EDGAR and the 10b5-1 checkbox read; option exercises, Form 144 notices and withholding (F) excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "name": "Micallef Andrew",
+     "role": "EVP, Chief Operations Officer",
+     "shares": 1000,
+     "price": 226.04,
+     "usd": 226040,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1341767/000134176726000006/xslF345X06/wk-form4_1789640316.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 7,942 sh; The reported sale of 1,000 shares occurred automatically pursuant to a Rule 10b5-1 trading plan adopted by the reporting person on 8/1/2025"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24",
+   "note": "1 sales, $226,040; unique sellers 1"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -3.99,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle (Q2 2026) as shown on MarketBeat filings list"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel is 403 per failure log and MarketBeat dollar totals are excluded; no clean net share change"
+  },
+  "holders_up": {
+   "value": 674,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 504,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street Corp",
+     "change_pct": 6.4,
+     "shares": 11699143
+    },
+    {
+     "fund": "Amundi",
+     "change_pct": null,
+     "shares": 1827193,
+     "note": "new position"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 2.89,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 2.89% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 2.2,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 1.87"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/short-interest/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_trans_pct": {
+   "value": -1.96,
+   "source": "https://finviz.com/quote.ashx?t=NXPI",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-27",
+    "event": "Q3 2026 earnings (MarketBeat estimate)",
+    "confirmed": false,
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/earnings/"
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/NXPI/earnings/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": "Fell 7.0% on 2026-07-29 despite a Q2 beat and above-consensus guide (wide guide ranges, doubts over 2030 targets) and 18.5% in July, the worst semiconductor month in over a decade; 32.3% below the $339.95 high.",
+  "source": "https://www.fool.com/investing/2026/08/10/why-nxp-semiconductors-stock-dropped-185-in-july/",
+  "as_of": "2026-08-10"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; EPS in USD per share",
+  "accounting_basis": "consensus adjusted (non-GAAP) EPS; revenue and operating income as S&P Global consensus",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex; forward CFO/capex not published on free sources",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 14244730500,
+    "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": 5055204760,
+    "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global consensus operating income from the StockAnalysis estimates table"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward CFO not published; StockAnalysis shows consensus FY1 free cash flow of 3,830,508,330 only"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward capex not published on free sources"
+   },
+   "eps": {
+    "value": 15.0591,
+    "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "fcf_consensus": {
+    "value": 3830508330,
+    "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus FY1 free cash flow; not split into CFO and capex"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 15857452420,
+    "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis paywall"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": 18.09511,
+    "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 22,
+    "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global Sep '26: strong buy 16 + buy 6"
+   },
+   "hold": {
+    "value": 7,
+    "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/nxpi/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell 0 + strong sell 1"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 19,
+    "source": "https://finance.yahoo.com/quote/NXPI/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 column; provider counts revision events"
+   },
+   "down_30d": {
+    "value": 2,
+    "source": "https://finance.yahoo.com/quote/NXPI/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "analysts": {
+    "value": 25,
+    "source": "https://finance.yahoo.com/quote/NXPI/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "number of FY1 EPS estimates on the same page"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 230.16,
+    "source": "https://finviz.com/quote.ashx?t=NXPI",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": null
+   },
+   "enterprise_value": {
+    "value": 66150000000.00001,
+    "source": "https://finviz.com/quote.ashx?t=NXPI",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "Finviz enterprise value"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: WACC not modelled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 5,
+  "prospect_why": "auto upcycle in the raised Q3 guide; 2030 EPS doubling is a story",
+  "competition_pts": 5,
+  "competition_why": "GM 56.3 to 57.3% stable; fwd P/E 12.7 cheapest in analog",
+  "macro_fit_pts": 5,
+  "macro_fit_why": "quality megacap 4 plus 1: 12.7x forward earnings with 0.94x cash conversion suits the plateau",
+  "narrative_pts": 3,
+  "narrative_why": "semis improving; auto outside the AI theme",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

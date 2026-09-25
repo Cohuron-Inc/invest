@@ -1,0 +1,209 @@
+{
+  "fed_target_pct": {
+    "value": "3.75-4.00",
+    "source": "https://fred.stlouisfed.org/series/DFEDTARU",
+    "as_of": "2026-09-24"
+  },
+  "dgs2_pct": {
+    "value": 4.85,
+    "source": "https://fred.stlouisfed.org/series/DGS2",
+    "as_of": "2026-09-23"
+  },
+  "dgs10_pct": {
+    "value": 5.11,
+    "source": "https://fred.stlouisfed.org/series/DGS10",
+    "as_of": "2026-09-23"
+  },
+  "dgs30_pct": {
+    "value": 5.4,
+    "source": "https://fred.stlouisfed.org/series/DGS30",
+    "as_of": "2026-09-23"
+  },
+  "real10y_pct": {
+    "value": 2.76,
+    "source": "https://fred.stlouisfed.org/series/DFII10",
+    "as_of": "2026-09-23"
+  },
+  "t10y2y_pct": {
+    "value": 0.26,
+    "source": "https://fred.stlouisfed.org/series/T10Y2Y",
+    "as_of": "2026-09-23"
+  },
+  "ig_oas_pct": {
+    "value": 0.77,
+    "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+    "as_of": "2026-09-23"
+  },
+  "hy_oas_pct": {
+    "value": 2.73,
+    "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "as_of": "2026-09-23"
+  },
+  "vix": {
+    "value": 14.21,
+    "source": "https://fred.stlouisfed.org/series/VIXCLS",
+    "as_of": "2026-09-22"
+  },
+  "move": {
+    "value": 104.58,
+    "source": "https://finance.yahoo.com/quote/^MOVE",
+    "as_of": "2026-09-24"
+  },
+  "dxy": {
+    "value": 101.25,
+    "source": "https://finance.yahoo.com/quote/DX-Y.NYB",
+    "as_of": "2026-09-24"
+  },
+  "wti": {
+    "value": 96.41,
+    "source": "https://fred.stlouisfed.org/series/DCOILWTICO",
+    "as_of": "2026-09-22"
+  },
+  "mortgage30_pct": {
+    "value": 7.03,
+    "source": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+    "as_of": "2026-09-24"
+  },
+  "unrate_pct": {
+    "value": 4.1,
+    "source": "https://fred.stlouisfed.org/series/UNRATE",
+    "as_of": "2026-08-01"
+  },
+  "themes": [
+    {
+      "theme": "Long-end bond rout / higher for longer",
+      "direction": "accelerating",
+      "counter": "strong 10y and 30y auctions on 9-10 September, Treasury buybacks, GSE MBS buying; Lord Abbett sees yields near the top of the range",
+      "evidence": "10y 5.11% (highest since 2007), 30y about 5.45% intraday (highest since 2004); weak 20y auction on 15 September with record-low indirects",
+      "source": "news.json rates_long_end"
+    },
+    {
+      "theme": "Fed re-tightening under Warsh",
+      "direction": "accelerating",
+      "counter": "core CPI only 2.4% y/y; Goolsbee sees one hike as enough if the shock is supply; Trump pressure on the Fed",
+      "evidence": "hike on 16 September, dots up, Musalem calls 3.75-4% 'accommodative'",
+      "source": "news.json fed"
+    },
+    {
+      "theme": "Iran war / Hormuz oil shock",
+      "direction": "stable",
+      "counter": "Iran's 60-day ceasefire road map; Saudi exports via Yanbu",
+      "evidence": "Brent about $107 after strikes on Yanbu on 24 September; SPR at its lowest since 1982",
+      "source": "news.json inflation_oil"
+    },
+    {
+      "theme": "AI capex boom vs competition for capital",
+      "direction": "accelerating",
+      "counter": "capex outrunning cash flow; hyperscaler IG issuance adds to duration supply; Oracle at BBB-",
+      "evidence": "NVDA Q2 FY27 revenue $96.2bn (+106%); Q3 S&P EPS estimate +28.9%",
+      "source": "news.json growth_labour"
+    },
+    {
+      "theme": "Housing re-freeze at 7% mortgages",
+      "direction": "accelerating",
+      "counter": "builder buydowns lifted August new-home sales 6.4%; GSE MBS purchases could narrow the spread",
+      "evidence": "PMMS 7.03%, NAHB 32, Lennar cut deliveries",
+      "source": "news.json housing_mbs"
+    },
+    {
+      "theme": "Global tightening and yen carry",
+      "direction": "accelerating",
+      "counter": "two BoJ dissents; Japan CPI 1.9%",
+      "evidence": "BoJ hiked to 1.25% on 24 September; JGB 10y at a 30-year high",
+      "source": "news.json rates_long_end"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-09-30",
+      "event": "August PCE; Micron FQ4 earnings"
+    },
+    {
+      "date": "2026-10-02",
+      "event": "September payrolls"
+    },
+    {
+      "date": "2026-10-04",
+      "event": "OPEC+ meeting"
+    },
+    {
+      "date": "2026-10-07",
+      "event": "10-year auction (30-year on 10-08)"
+    },
+    {
+      "date": "2026-10-13",
+      "event": "Bank earnings begin (JPM)"
+    },
+    {
+      "date": "2026-10-14",
+      "event": "September CPI"
+    },
+    {
+      "date": "2026-10-28",
+      "event": "FOMC decision"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "BoJ decision"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "US midterms"
+    },
+    {
+      "date": "2026-11-04",
+      "event": "Treasury quarterly refunding"
+    },
+    {
+      "date": "2026-11-25",
+      "event": "NVIDIA Q3 FY27 (date from a search snippet)"
+    },
+    {
+      "date": "2026-12-09",
+      "event": "FOMC with SEP"
+    },
+    {
+      "date": "2026-12-11",
+      "event": "Government funding deadline"
+    }
+  ],
+  "regime_read": {
+    "long_duration": "headwind (fit -1.3); against: R_REAL10, R_10Y_1M, R_LONG_END; for: none",
+    "cash_flow": "neutral (fit +0.4); against: R_10Y_LEVEL, E_BREADTH_RSP; for: C_HY_LEVEL, G_CLAIMS, G_GDPNOW",
+    "small_caps": "neutral (fit -0.1); against: R_10Y_1M, E_SMALL_CAPS; for: L_NFCI, G_CLAIMS, C_HY_LEVEL",
+    "regime": "Lean risk-off (-4.8)"
+  },
+  "macro_regime": {
+    "label": "Lean risk-off",
+    "composite": -4.8,
+    "quadrant": "Goldilocks",
+    "archetype_fit": {
+      "long_duration_growth": -1.29,
+      "quality_megacap": 0.18,
+      "cash_flow_value": 0.44,
+      "small_caps": -0.12,
+      "banks": 0.09,
+      "homebuilders_reits": -0.73,
+      "energy": 0.88,
+      "materials_industrials": 0.18,
+      "defensives": -1.0,
+      "em_international": -0.4,
+      "gold_hard_assets": -0.12,
+      "crypto_high_beta": -0.17
+    },
+    "runway_macro_fit_pts": {
+      "long_duration_growth": 1,
+      "quality_megacap": 4,
+      "cash_flow_value": 5,
+      "small_caps": 4,
+      "banks": 4,
+      "homebuilders_reits": 3,
+      "energy": 6,
+      "materials_industrials": 4,
+      "defensives": 2,
+      "em_international": 3,
+      "gold_hard_assets": 4,
+      "crypto_high_beta": 4
+    }
+  }
+}

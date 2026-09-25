@@ -1,0 +1,1048 @@
+{
+ "ticker": "CRDO",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 195.97,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 308.67,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 86.49,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -36.51,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -6.64,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 11.34,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  },
+  "sma20_pct": {
+   "value": 7.66,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  },
+  "fifty_above_200": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24",
+   "note": "derived: price sits further above the 200-day than the 50-day"
+  },
+  "perf_1m_pct": {
+   "value": -13.48,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -26.89,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24",
+   "note": "36.5% below the 52w high, back above the 200-day and 7.7% above the 20-day after a 16.5% week, still 6.6% under the 50-day: basing after the post-print breakdown; XLK used as sector ETF (GICS IT/semis)"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/crdo/history/",
+   "as_of": "2026-09-24",
+   "note": "print-day close 2026-09-02 165.22 (-20.04% vs 2026-09-01 close 206.63); five sessions later 2026-09-10 160.31 (-22.42%). gap down persisted"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/crdo/forecast/",
+   "as_of": "2026-09-18"
+  },
+  "analysts": {
+   "value": 19,
+   "source": "https://stockanalysis.com/stocks/crdo/forecast/",
+   "as_of": "2026-09-18"
+  },
+  "pt_avg": {
+   "value": 280.1,
+   "source": "https://stockanalysis.com/stocks/crdo/forecast/",
+   "as_of": "2026-09-18"
+  },
+  "pt_high": {
+   "value": 350,
+   "source": "https://stockanalysis.com/stocks/crdo/forecast/",
+   "as_of": "2026-09-18"
+  },
+  "pt_low": {
+   "value": 185,
+   "source": "https://stockanalysis.com/stocks/crdo/forecast/",
+   "as_of": "2026-09-18"
+  },
+  "upside_pct": {
+   "value": 42.93,
+   "source": "https://stockanalysis.com/stocks/crdo/forecast/",
+   "as_of": "2026-09-24",
+   "note": "pt_avg vs 2026-09-24 close"
+  },
+  "finviz_target": {
+   "value": 285.09,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded alongside StockAnalysis"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-18",
+     "broker": "Mizuho",
+     "action": "reiterate Outperform, lower target",
+     "target": 245,
+     "reason": "SA dates it Sep 18, MarketBeat Sep 21"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Goldman Sachs",
+     "action": "maintain Buy",
+     "target": 285,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Evercore ISI",
+     "action": "maintain Outperform, lower target",
+     "target": 292,
+     "reason": "post-print; 325 to 292"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Susquehanna",
+     "action": "reiterate Positive",
+     "target": 250,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Roth MKM",
+     "action": "maintain Buy",
+     "target": 300,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Rosenblatt",
+     "action": "maintain Neutral, raise target",
+     "target": 235,
+     "reason": "post-print; 215 to 235"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "J.P. Morgan",
+     "action": "maintain Overweight, lower target",
+     "target": 310,
+     "reason": "post-print; 335 to 310"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Bank of America",
+     "action": "maintain Buy, lower target",
+     "target": 275,
+     "reason": "post-print; 340 to 275"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Stifel",
+     "action": "reiterate Buy",
+     "target": 350,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-18",
+     "broker": "TD Cowen",
+     "action": "maintain Buy, raise target",
+     "target": 300,
+     "reason": "pre-print; 260 to 300"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat ratings table plus StockAnalysis latest-forecasts rows; Weiss, Zacks and Freedom-style quant rows excluded unless sell-side"
+  },
+  "pt_avg_marketbeat": {
+   "value": 264.89,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/forecast/",
+   "as_of": "2026-09-24",
+   "note": "18 analysts, Moderate Buy, low 200; within 10 points of StockAnalysis upside so not used as pt_avg_alt"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-09-01",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings/",
+   "as_of": "2026-09-01"
+  },
+  "revenue_actual": {
+   "value": 479.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings/",
+   "as_of": "2026-09-01",
+   "note": "USD m"
+  },
+  "revenue_estimate": {
+   "value": 473.3,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings/",
+   "as_of": "2026-09-01",
+   "note": "USD m, consensus at the print"
+  },
+  "eps_actual": {
+   "value": 1.2,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings/",
+   "as_of": "2026-09-01",
+   "note": "adjusted"
+  },
+  "eps_estimate": {
+   "value": 1.17,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings/",
+   "as_of": "2026-09-01"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://seekingalpha.com/news/4639142-credo-technology-shares-fall-as-margin-pressure-overshadows-earnings-beat",
+   "as_of": "2026-09-01"
+  },
+  "guide_detail": {
+   "value": "Fiscal Q2 FY27 revenue guided $525-535M (MarketBeat pre-print estimate $513.8M; Yahoo current Q2 consensus $531.8M); full-year growth of more than 85% and optical revenue above $600M reiterated, so the annual outlook is held. GAAP gross margin fell to 64.5% from 68.2% and GAAP opex rose to $188.4M from $142.2M, which the market punished.",
+   "source": "https://seekingalpha.com/news/4639142-credo-technology-shares-fall-as-margin-pressure-overshadows-earnings-beat",
+   "as_of": "2026-09-01"
+  },
+  "reaction_day_pct": {
+   "value": -20.04,
+   "source": "https://stockanalysis.com/stocks/crdo/history/",
+   "as_of": "2026-09-02",
+   "note": "close 2026-09-02 vs close 2026-09-01"
+  },
+  "reaction_5d_pct": {
+   "value": -22.42,
+   "source": "https://stockanalysis.com/stocks/crdo/history/",
+   "as_of": "2026-09-10",
+   "note": "close 2026-09-10 vs pre-print close 2026-09-01"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/CRDO/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/CRDO/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 6.31,
+    "d30": 6.15,
+    "d90": 6.11
+   },
+   "source": "https://finance.yahoo.com/quote/CRDO/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year EPS consensus now / 30 / 90 days ago"
+  },
+  "fcf_ttm": {
+   "value": 438.6,
+   "source": "https://stockanalysis.com/stocks/crdo/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD m, trailing four quarters"
+  },
+  "net_income_ttm": {
+   "value": 538.31,
+   "source": "https://stockanalysis.com/stocks/crdo/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD m, GAAP"
+  },
+  "sbc_pct_revenue": {
+   "value": 14.78,
+   "source": "https://stockanalysis.com/stocks/crdo/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "trailing four quarters SBC / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: AEC and optical DSP demand from hyperscaler AI clusters carries FY27 revenue up more than 85% to about $2.5B with optical revenue above $600M.",
+   "source": "https://seekingalpha.com/news/4639142-credo-technology-shares-fall-as-margin-pressure-overshadows-earnings-beat",
+   "as_of": "2026-09-01"
+  },
+  "depends_on": {
+   "value": "Second-half FY27 revenue ramp implied by the >85% growth guide, and gross margin recovering toward 68% from 64.5%",
+   "source": "https://www.top1markets.com/insights/stocks/credo-crdo-stock-earnings-guidance-math-2026",
+   "as_of": "2026-09-02"
+  },
+  "bear_case": {
+   "value": "Bears: margin compression, opex growth and heavy customer concentration; half the year already booked leaves a steep back-half requirement",
+   "source": "https://seekingalpha.com/news/4639142-credo-technology-shares-fall-as-margin-pressure-overshadows-earnings-beat",
+   "as_of": "2026-09-01"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://seekingalpha.com/news/4639142-credo-technology-shares-fall-as-margin-pressure-overshadows-earnings-beat",
+   "as_of": "2026-09-01"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "MRVL",
+    "ALAB"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": null,
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    67.55,
+    68.52,
+    68.21,
+    64.53
+   ],
+   "source": "https://stockanalysis.com/stocks/crdo/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "GAAP gross margin, oldest to newest, last four reported quarters"
+  },
+  "fwd_pe": {
+   "value": 20.32,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward PE 26.85"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "MRVL": 38.25,
+    "ALAB": 55.57
+   },
+   "source": "https://finviz.com/quote.ashx?t=MRVL",
+   "as_of": "2026-09-24",
+   "note": "Finviz Forward P/E for each peer, fetched 2026-09-24"
+  },
+  "ev_sales": {
+   "value": 22.69,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "MRVL": 24.19,
+    "ALAB": 51.03
+   },
+   "source": "https://finviz.com/quote.ashx?t=MRVL",
+   "as_of": "2026-09-24",
+   "note": "Finviz EV/Sales for each peer"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute found in the sources read"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table (saved HTML) runs back before 2026-06-26, so the full trailing 90 days are covered; Form 144 \"Proposed Sale\" and option-exercise rows excluded; each sale checked against its EDGAR Form 4 for the 10b5-1 flag"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in the 90 days to 2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "name": "Laufman James",
+     "role": "Chief Legal Officer, Secretary",
+     "role_full": "Chief Legal Officer, Secretary",
+     "shares": 5000,
+     "price": 185.0,
+     "usd": 925000,
+     "held_after": 169223,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1622943/000162828026063214/xslF345X06/wk-form4_1790194619.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 filed Sep 23 04:17 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-17",
+     "name": "Cheng Chi Fung",
+     "role": "Chief Technology Officer",
+     "role_full": "Chief Technology Officer",
+     "shares": 27500,
+     "price": 166.38,
+     "usd": 4575581,
+     "held_after": 5717397,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026062896/xslF345X06/wk-form4_1790022099.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 21 04:21 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Brennan William Joseph",
+     "role": "CEO",
+     "role_full": "Pres & Chief Executive Officer",
+     "shares": 16672,
+     "price": 151.88,
+     "usd": 2532209,
+     "held_after": 1600830,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026062295/xslF345X06/wk-form4_1789591996.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 16 04:53 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-11",
+     "name": "Cheng Chi Fung",
+     "role": "Chief Technology Officer",
+     "role_full": "Chief Technology Officer",
+     "shares": 27500,
+     "price": 162.73,
+     "usd": 4475185,
+     "held_after": 5744897,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026062039/xslF345X06/wk-form4_1789502519.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 15 04:02 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-04",
+     "name": "Cheng Chi Fung",
+     "role": "Chief Technology Officer",
+     "role_full": "Chief Technology Officer",
+     "shares": 3790,
+     "price": 170.0,
+     "usd": 644300,
+     "held_after": 136568,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026061180/xslF345X06/wk-form4_1788990548.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 filed Sep 09 05:49 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-31",
+     "name": "Lam Yat Tung",
+     "role": "Chief Operating Officer",
+     "role_full": "Chief Operating Officer",
+     "shares": 55441,
+     "price": 213.02,
+     "usd": 11810055,
+     "held_after": 2529169,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026052758/xslF345X06/wk-form4_1785879245.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 04 05:34 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-31",
+     "name": "Lam Yat Tung",
+     "role": "Chief Operating Officer",
+     "role_full": "Chief Operating Officer",
+     "shares": 50000,
+     "price": 213.33,
+     "usd": 10666591,
+     "held_after": 300000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026052758/xslF345X06/wk-form4_1785879245.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 04 05:34 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-31",
+     "name": "Cheng Chi Fung",
+     "role": "Chief Technology Officer",
+     "role_full": "Chief Technology Officer",
+     "shares": 27473,
+     "price": 209.53,
+     "usd": 5756395,
+     "held_after": 5772397,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026052757/xslF345X06/wk-form4_1785879216.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 04 05:33 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-27",
+     "name": "Cheng Chi Fung",
+     "role": "Chief Technology Officer",
+     "role_full": "Chief Technology Officer",
+     "shares": 27500,
+     "price": 205.54,
+     "usd": 5652225,
+     "held_after": 5799870,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026050561/xslF345X06/wk-form4_1785354392.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 29 03:46 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-21",
+     "name": "Cheng Chi Fung",
+     "role": "Chief Technology Officer",
+     "role_full": "Chief Technology Officer",
+     "shares": 27500,
+     "price": 222.34,
+     "usd": 6114360,
+     "held_after": 5827370,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026049379/xslF345X06/wk-form4_1784836822.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 23 04:00 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "Lam Yat Tung",
+     "role": "Chief Operating Officer",
+     "role_full": "Chief Operating Officer",
+     "shares": 50000,
+     "price": 225.45,
+     "usd": 11272535,
+     "held_after": 350000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026048460/xslF345X06/wk-form4_1784232876.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 16 04:14 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "Lam Yat Tung",
+     "role": "Chief Operating Officer",
+     "role_full": "Chief Operating Officer",
+     "shares": 55998,
+     "price": 225.44,
+     "usd": 12624400,
+     "held_after": 2584610,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026048458/xslF345X06/wk-form4_1784232751.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 16 04:12 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-14",
+     "name": "Cheng Chi Fung",
+     "role": "Chief Technology Officer",
+     "role_full": "Chief Technology Officer",
+     "shares": 27500,
+     "price": 240.21,
+     "usd": 6605779,
+     "held_after": 5854870,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026048456/xslF345X06/wk-form4_1784232689.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 16 04:11 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-08",
+     "name": "Fleming Daniel W.",
+     "role": "CFO",
+     "role_full": "Chief Financial Officer",
+     "shares": 7580,
+     "price": 245.88,
+     "usd": 1863772,
+     "held_after": 504708,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026047992/xslF345X06/wk-form4_1783972698.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 13 03:58 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-07",
+     "name": "Cheng Chi Fung",
+     "role": "Chief Technology Officer",
+     "role_full": "Chief Technology Officer",
+     "shares": 27500,
+     "price": 243.06,
+     "usd": 6684260,
+     "held_after": 5882370,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026047780/xslF345X06/wk-form4_1783627515.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 09 04:05 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-08",
+     "name": "Cheng Chi Fung",
+     "role": "Chief Technology Officer",
+     "role_full": "Chief Technology Officer",
+     "shares": 3790,
+     "price": 258.71,
+     "usd": 980511,
+     "held_after": 140358,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026047780/xslF345X06/wk-form4_1783627515.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 09 04:05 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-06-30",
+     "name": "Cheng Chi Fung",
+     "role": "Chief Technology Officer",
+     "role_full": "Chief Technology Officer",
+     "shares": 27500,
+     "price": 269.84,
+     "usd": 7420535,
+     "held_after": 5909870,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026046874/xslF345X06/wk-form4_1783022729.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 02 04:05 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "HOSEIN CLYDE",
+     "role": "Director",
+     "role_full": "Director",
+     "shares": 3451,
+     "price": 262.32,
+     "usd": 905284,
+     "held_after": 16850,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1230185/000162828026046833/xslF345X06/wk-form4_1783020490.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 filed Jul 02 03:28 PM; plan status read from the Form 4 checkbox and footnotes"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24",
+   "note": "18 open-market sales, $101,508,977 total; 6 unique sellers; 15 flagged 10b5-1 on the Form 4; heavy, clustered selling by CTO, COO and CEO; COO Lam sold $46.4M in July"
+  },
+  "finviz_net_change_pct": {
+   "value": -4.74,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24",
+   "note": "Finviz 6-month insider transaction %"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle in the MarketBeat holder table (filings dated Jul-Sep 2026)"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no share-count net flow published free; Fintel 403 per failure log, MarketBeat gives dollars only"
+  },
+  "holders_up": {
+   "value": 582,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals not used (CalSTRS rule)."
+  },
+  "holders_down": {
+   "value": 277,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals not used (CalSTRS rule)."
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "Q2 2026 13F rows with >=0.1% of the company and a >=25% increase or a new position; "
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "no full exit (-100%) among material holders in the latest 100 13F rows"
+  },
+  "named_cuts": {
+   "value": [
+    {
+     "fund": "The Manufacturers Life Insurance Company",
+     "change_pct": -54.0,
+     "shares": 482051,
+     "filed": "2026-09-09"
+    },
+    {
+     "fund": "Spyglass Capital Management LLC",
+     "change_pct": -32.2,
+     "shares": 401503,
+     "filed": "2026-08-20"
+    },
+    {
+     "fund": "Wellington Management Group LLP",
+     "change_pct": -60.6,
+     "shares": 1345366,
+     "filed": "2026-08-19"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "material holders cutting >=25% in the latest 13F rows"
+  },
+  "inst_own_pct": {
+   "value": 80.46,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_change_pct": {
+   "value": -2.82,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24",
+   "note": "secondary directional proxy"
+  },
+  "short_pct_float": {
+   "value": 5.04,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "MarketBeat settlement 2026-09-15, 8.61M shares; Finviz shows 3.94% float / 0.91 DTC undated"
+  },
+  "days_to_cover": {
+   "value": 0.8,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_pct_float_finviz": {
+   "value": 3.94,
+   "source": "https://finviz.com/quote.ashx?t=CRDO",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-12-02",
+    "event": "Q2 FY27 earnings (MarketBeat estimate)",
+    "confirmed": false
+   },
+   {
+    "date": "2027-03-02",
+    "event": "Q3 FY27 earnings (estimated from the prior-year schedule)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/earnings/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": "Down 36.5% from the $308.67 high: the June-July photonics valuation reset hit the group, then the Sep 1 print fell 20% on the day as GAAP gross margin compression and rising opex overshadowed a beat.",
+  "source": "https://seekingalpha.com/news/4639142-credo-technology-shares-fall-as-margin-pressure-overshadows-earnings-beat",
+  "as_of": "2026-09-02"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "millions (EPS per share)",
+  "accounting_basis": "revenue GAAP; EPS non-GAAP adjusted consensus",
+  "fy1_end": "2027-04-30",
+  "fy2_end": "2028-04-30",
+  "estimate_vintage": "Yahoo analysis page read 2026-09-24; StockAnalysis forecast last updated 2026-09-18",
+  "model_assumptions": "none; no modelled leaves",
+  "fcf_basis": "CFO minus capex (levered); forward FCF not filled",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 2500,
+    "source": "https://finance.yahoo.com/quote/CRDO/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "USD m, Yahoo avg; matches StockAnalysis forecast"
+   },
+   "ebit": {
+    "value": 1270,
+    "source": "https://stockanalysis.com/stocks/crdo/forecast/",
+    "as_of": "2026-09-18",
+    "kind": "consensus",
+    "note": "StockAnalysis FY1 \"Operating Income\" consensus; basis (adjusted vs GAAP) not stated by the page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward CFO not published free; not modelled"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward capex not published free; not modelled"
+   },
+   "eps": {
+    "value": 6.31,
+    "source": "https://finance.yahoo.com/quote/CRDO/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "non-GAAP EPS"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 3880,
+    "source": "https://finance.yahoo.com/quote/CRDO/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "USD m, Yahoo avg"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: StockAnalysis FY2 operating income is behind the Pro paywall; Yahoo gives no EBIT"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward CFO not published free; not modelled"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward capex not published free; not modelled"
+   },
+   "eps": {
+    "value": 9.7,
+    "source": "https://finance.yahoo.com/quote/CRDO/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "non-GAAP EPS"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 18,
+    "source": "https://stockanalysis.com/stocks/crdo/forecast/",
+    "as_of": "2026-09-18",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   },
+   "hold": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/crdo/forecast/",
+    "as_of": "2026-09-18",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/crdo/forecast/",
+    "as_of": "2026-09-18",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 14,
+    "source": "https://finance.yahoo.com/quote/CRDO/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current fiscal year, up last 30 days"
+   },
+   "down_30d": {
+    "value": 2,
+    "source": "https://finance.yahoo.com/quote/CRDO/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current fiscal year, down last 30 days; \"--\" read as 0"
+   },
+   "analysts": {
+    "value": 19,
+    "source": "https://finance.yahoo.com/quote/CRDO/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo number of analysts, current fiscal year EPS"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7d and 30d counts only"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7d and 30d counts only"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 195.97,
+    "source": "https://finviz.com/quote.ashx?t=CRDO",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 36090.0,
+    "source": "https://finviz.com/quote.ashx?t=CRDO",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "USD m, Finviz"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modelled"
+   }
+  },
+  "evidence": {
+   "sa_fy1_fcf_consensus": {
+    "value": 828.88,
+    "source": "https://stockanalysis.com/stocks/crdo/forecast/",
+    "as_of": "2026-09-18",
+    "kind": "consensus",
+    "note": "StockAnalysis FY1 free cash flow consensus, USD m; FY2 paywalled"
+   }
+  },
+  "periods_aligned_note": "Yahoo and StockAnalysis fiscal-year labels and FY1 values checked against each other (https://finance.yahoo.com/quote/CRDO/analysis/, 2026-09-24)"
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "AEC and optical DSP demand in the last print; FY >85% growth reiterated",
+  "competition_pts": 4,
+  "competition_why": "GM 68.5 to 64.5% compressing; fwd P/E 20.3 below MRVL 38 and ALAB 56",
+  "macro_fit_pts": 1,
+  "macro_fit_why": "AI networking archetype 1: long duration at 2.76% real yields",
+  "narrative_pts": 1,
+  "narrative_why": "AI networking and optics lagging and worsening; crowd against tape",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

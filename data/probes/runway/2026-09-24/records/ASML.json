@@ -1,0 +1,657 @@
+{
+ "ticker": "ASML",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 1722.5,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 1999.96,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 935.41,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -13.87,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 0.24,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 13.19,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -1.24,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -6.45,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS Information Technology; SMH (semis) 1m +8.04%, 3m -5.71% from data/market/2026-09-24/yahoo/SMH.json"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24",
+   "note": "at 50d (+0.2%), above 200d (+13.2%), 50>200; 14% below June high; range 1550-1810"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/ASML (cached at data/market/2026-09-24/yahoo/ASML.json)",
+   "as_of": "2026-09-24",
+   "note": "print day 2026-07-15 (BMO) +2.23%; +5 sessions (2026-07-22) +1.48% vs pre-print close 1775.64"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/asml/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 42,
+   "source": "https://stockanalysis.com/stocks/asml/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 2135,
+   "source": "https://stockanalysis.com/stocks/asml/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 2843,
+   "source": "https://stockanalysis.com/stocks/asml/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 887.8,
+   "source": "https://stockanalysis.com/stocks/asml/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": 1970.33,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat 30 analysts, Moderate Buy, high 2623 low 1150; Finviz mean 2345.02; StockAnalysis low 887.8 may mix EUR/USD targets"
+  },
+  "pt_finviz_mean": {
+   "value": 2345.02,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-08",
+     "broker": "Bank of America",
+     "action": "maintain Buy",
+     "target": null,
+     "reason": null
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/asml/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis shows the five most recent actions only; reasons not stated on the page"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 10.64,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/earnings/",
+   "as_of": "2026-07-15",
+   "note": "USD billions"
+  },
+  "revenue_estimate": {
+   "value": 10.24,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/earnings/",
+   "as_of": "2026-07-15",
+   "note": "USD billions, consensus at print"
+  },
+  "eps_actual": {
+   "value": 8.65,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/earnings/",
+   "as_of": "2026-07-15"
+  },
+  "eps_estimate": {
+   "value": 7.98,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/earnings/",
+   "as_of": "2026-07-15"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/earnings/",
+   "as_of": "2026-07-15"
+  },
+  "guide_detail": {
+   "value": "Q3 2026 revenue guide $12.8-14.0B (MarketBeat USD conversion) vs consensus $11.3B; company guides in EUR",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/earnings/",
+   "as_of": "2026-07-15"
+  },
+  "reaction_day_pct": {
+   "value": 2.23,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/ASML (cached at data/market/2026-09-24/yahoo/ASML.json)",
+   "as_of": "2026-09-24",
+   "note": "close-to-close from the pre-print session; Yahoo daily chart"
+  },
+  "reaction_5d_pct": {
+   "value": 1.48,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/ASML (cached at data/market/2026-09-24/yahoo/ASML.json)",
+   "as_of": "2026-09-24",
+   "note": "close-to-close from the pre-print session; Yahoo daily chart"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/ASML/analysis/",
+   "as_of": "2026-09-24",
+   "note": "EUR. FY1 EPS 38.03 -> 38.33 30d, 31.62 90d ago; 28 up / 0 down in 30d"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/ASML/analysis/",
+   "as_of": "2026-09-24",
+   "note": "EUR. FY1 EPS 38.03 -> 38.33 30d, 31.62 90d ago; 28 up / 0 down in 30d"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 38.33,
+    "d30": 38.03,
+    "d90": 31.62,
+    "fy2_current": 51.72,
+    "fy2_d30": 51.42,
+    "fy2_d90": 41.58,
+    "currency": "EUR"
+   },
+   "source": "https://finance.yahoo.com/quote/ASML/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year (FY1) consensus EPS"
+  },
+  "fcf_ttm": {
+   "value": 10041,
+   "source": "https://stockanalysis.com/stocks/asml/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-28",
+   "note": "EUR millions, sum of last four quarters"
+  },
+  "net_income_ttm": {
+   "value": 10640,
+   "source": "https://stockanalysis.com/stocks/asml/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-28",
+   "note": "EUR millions, sum of last four quarters"
+  },
+  "sbc_pct_revenue": {
+   "value": 0.57,
+   "source": "https://stockanalysis.com/stocks/asml/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-28",
+   "note": "TTM SBC / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: EUV and High-NA demand from AI logic and DRAM lifts 2026 revenue ~31% to EUR 42.9B and 2027 to EUR 54.6B",
+   "source": "https://finance.yahoo.com/quote/ASML/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "EUV shipments and 2027 order intake",
+   "source": "https://finance.yahoo.com/quote/ASML/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: lumpy orders, China normalization and export controls, customer capex delays; FCF swings (Q1 2026 negative)",
+   "source": "https://stockanalysis.com/stocks/asml/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/earnings/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "AMAT",
+    "LRCX"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    51.63,
+    52.15,
+    52.98,
+    53.99
+   ],
+   "source": "https://stockanalysis.com/stocks/asml/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "oldest to newest"
+  },
+  "fwd_pe": {
+   "value": 28.36,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "AMAT": 25.34,
+    "LRCX": 25.89
+   },
+   "source": "https://finviz.com/quote.ashx?t=AMAT,LRCX",
+   "as_of": "2026-09-24",
+   "note": "no direct EUV competitor; deposition/etch peers shown"
+  },
+  "ev_sales": {
+   "value": 15.96,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "AMAT": 12.14,
+    "LRCX": 16.48
+   },
+   "source": "https://finviz.com/quote.ashx?t=AMAT,LRCX",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute or new entrant in the fetched sources"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": false,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24",
+   "note": "foreign private issuer: no Form 4 filings; Finviz insider table empty. Coverage unknown, not verified absence"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "foreign private issuer: no Form 4 filings; Finviz insider table empty. Coverage unknown, not verified absence"
+  },
+  "sells_90d": {
+   "value": [],
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "foreign private issuer: no Form 4 filings; Finviz insider table empty. Coverage unknown, not verified absence"
+  },
+  "finviz_net_change_pct": {
+   "value": 0.0,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "13F filings reported Aug-Sep 2026 describe the quarter ended 2026-06-30"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives no net share figure; Fintel blocked (failure log)"
+  },
+  "holders_up": {
+   "value": 1496,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals excluded (CalSTRS-row risk)"
+  },
+  "holders_down": {
+   "value": 909,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals excluded (CalSTRS-row risk)"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Envestnet Asset Management",
+     "change_pct": 6.5,
+     "shares": 440721
+    },
+    {
+     "fund": "State Street Corp",
+     "change_pct": 4.4,
+     "shares": 85872
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "from the eight most recent 13F rows; small filers only"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Miramontes Capital",
+     "change_pct": -29.3,
+     "shares": 236
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "inst_own_pct": {
+   "value": 26.07,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ASML/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_change_pct": {
+   "value": -2.4,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 0.4,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 0.94,
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "short_shares": {
+   "value": "1.52M",
+   "source": "https://finviz.com/quote.ashx?t=ASML",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Finviz shows the latest FINRA settlement figure without its date; secondary pages not fetched"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-14",
+    "event": "Q3 2026 results (BMO)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://finviz.com/quote.ashx?t=ASML",
+  "as_of": "2026-09-24",
+  "note": "Finviz and MarketBeat both show Oct 14; not checked on the ASML IR calendar"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": "2026-09-24",
+  "note": "not applicable: 13.9% below 52w high"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "EUR",
+  "units": "revenue EUR billions; EPS EUR/share; price and EV converted to EUR",
+  "accounting_basis": "adjusted (non-GAAP) consensus EPS; revenue as reported",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "not available (no forward CFO/capex)",
+  "revision_period_end": "2026-09-24",
+  "note": null,
+  "fy1": {
+   "revenue": {
+    "value": 42.87,
+    "source": "https://stockanalysis.com/stocks/asml/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 38.33,
+    "source": "https://stockanalysis.com/stocks/asml/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no free consensus EBIT (StockAnalysis FY2+ is Pro-gated; Yahoo has no EBIT); EBITDA not substituted"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed analyst cash-flow model or company CFO guidance"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed consensus or guided capex for the fiscal year"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 54.59,
+    "source": "https://finance.yahoo.com/quote/ASML/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 51.72,
+    "source": "https://finance.yahoo.com/quote/ASML/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no free consensus EBIT (StockAnalysis FY2+ is Pro-gated; Yahoo has no EBIT); EBITDA not substituted"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed analyst cash-flow model or company CFO guidance"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed consensus or guided capex for the fiscal year"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 39,
+    "source": "https://stockanalysis.com/stocks/asml/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 3,
+    "source": "https://stockanalysis.com/stocks/asml/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/asml/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 28,
+    "source": "https://finance.yahoo.com/quote/ASML/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS, Yahoo revision events"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/ASML/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS, Yahoo revision events"
+   },
+   "analysts": {
+    "value": 31,
+    "source": "https://finance.yahoo.com/quote/ASML/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS estimate count"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 1509.91,
+    "source": "https://finviz.com/quote.ashx?t=ASML",
+    "as_of": "2026-09-24",
+    "kind": "model",
+    "note": "USD 1722.50 / 1.1408 USD per EUR (implied by MarketBeat USD 10.64B vs StockAnalysis EUR 9.327B for Q2 revenue)"
+   },
+   "enterprise_value": {
+    "value": 576.34,
+    "source": "https://finviz.com/quote.ashx?t=ASML",
+    "as_of": "2026-09-24",
+    "kind": "model",
+    "note": "Finviz EV USD 657.49B / 1.1408"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: WACC not modelled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "EUV and High-NA demand in the raised Q3 guide",
+  "competition_pts": 7,
+  "competition_why": "EUV monopoly; GM 51.6 to 54.0% rising; fwd P/E 28.4 near peers",
+  "macro_fit_pts": 4,
+  "macro_fit_why": "quality megacap archetype 4",
+  "narrative_pts": 3,
+  "narrative_why": "semis improving, semicap lagging; mixed",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

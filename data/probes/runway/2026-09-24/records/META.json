@@ -1,0 +1,986 @@
+{
+ "ticker": "META",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:30:55+00:00",
+ "price": {
+  "close": {
+   "value": 777.59,
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 763.9,
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24",
+   "note": "close sits above this figure: the 24 Sep close is a new 52-week high. The 2026-09-17 record listed 790.80, which has since rolled out of the window or reflects a different source; conflict noted"
+  },
+  "low_52w": {
+   "value": 520.26,
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 26.64,
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 24.21,
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 36.41,
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 43.24,
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLC",
+   "source": "https://finviz.com/quote.ashx?t=XLC",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 0.72,
+   "source": "https://finviz.com/quote.ashx?t=XLC",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 7.97,
+   "source": "https://finviz.com/quote.ashx?t=XLC",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "breakout",
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24",
+   "note": "close $777.59 is above the prior 52-week high of $763.90 (+26.6% vs 50-day, +24.2% vs 200-day); judgment by the research subagent from the listed data, not a sourced fact"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/meta/history/",
+   "as_of": "2026-09-24",
+   "note": "print-reaction day 2026-07-30 -7.95% (close 539.03 vs prior 585.61); five sessions later 2026-08-06 close 589.9 (+9.44% from print day, +0.73% vs pre-print close). true = the five-session close stayed at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/meta/forecast/",
+   "as_of": "2026-09-24",
+   "note": "S&P Global: strong buy 47, buy 9, hold 6, sell 0, strong sell 0; Finviz Recom 1.25"
+  },
+  "analysts": {
+   "value": 62,
+   "source": "https://stockanalysis.com/stocks/meta/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 761.01,
+   "source": "https://stockanalysis.com/stocks/meta/forecast/",
+   "as_of": "2026-09-24",
+   "note": "56 targets; median 756.5; Finviz Target Price 783.79"
+  },
+  "pt_high": {
+   "value": 1000,
+   "source": "https://stockanalysis.com/stocks/meta/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 580,
+   "source": "https://stockanalysis.com/stocks/meta/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat price-target page not fetched; StockAnalysis and Finviz means agree within 10%"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-24",
+     "broker": "Tigress Financial",
+     "action": "reiterate (raise target)",
+     "rating": "Buy",
+     "target": 995,
+     "target_prior": 945,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-24",
+     "broker": "Wedbush",
+     "action": "maintain",
+     "rating": "Hold",
+     "target": 650,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-24",
+     "broker": "BMO Capital",
+     "action": "maintain",
+     "rating": "Hold",
+     "target": 580,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-24",
+     "broker": "Raymond James",
+     "action": "maintain (raise target)",
+     "rating": "Buy",
+     "target": 860,
+     "target_prior": 650,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-24",
+     "broker": "Truist Financial",
+     "action": "maintain",
+     "rating": "Buy",
+     "target": null,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-24",
+     "broker": "Citizens JMP",
+     "action": "maintain (raise target)",
+     "rating": "Buy",
+     "target": 885,
+     "target_prior": 770,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-24",
+     "broker": "William Blair",
+     "action": "maintain",
+     "rating": "Buy",
+     "target": null,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-24",
+     "broker": "Evercore ISI",
+     "action": "reiterate",
+     "rating": "Buy",
+     "target": 860,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Wells Fargo",
+     "action": "maintain (raise target)",
+     "rating": "Buy",
+     "target": 796,
+     "target_prior": 640,
+     "reason": "AI product launches (Muse) give a stronger AI story",
+     "source": "https://www.tipranks.com/news/why-meta-stock-jumped-over-11-today-september-21-2026"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/meta/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free tier shows only the 8 most recent actions; older actions inside 60 days may be missing"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-29",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 60800000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 60220000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 6.18,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/earnings/",
+   "as_of": "2026-09-24",
+   "note": "GAAP EPS; the miss reflects $2.4bn legal charges and a higher tax rate (webull.com Q2 recap)"
+  },
+  "eps_estimate": {
+   "value": 7.19,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "Q3 revenue guide $61-64bn (current consensus $63.2-63.3bn sits in the upper half); FY26 total expenses raised at the low end to $165-169bn incl. $2.4bn legal charges; capex narrowed upward to $130-145bn from $125-145bn; tax rate raised to 15-17% from 13-16%. Revenue guide in line, cost guide worse",
+   "source": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": -7.95,
+   "source": "https://stockanalysis.com/stocks/meta/history/",
+   "as_of": "2026-09-24",
+   "note": "2026-07-30 close vs prior close"
+  },
+  "reaction_5d_pct": {
+   "value": 0.73,
+   "source": "https://stockanalysis.com/stocks/meta/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-06 vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "down",
+   "source": "https://www.zacks.com/stock/quote/META/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2026 EPS: 31.90 30d ago, 33.01 90d ago, 31.38 now; 30d: 0 up / 3 down of 17; 60d: 1 up / 14 down"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://www.zacks.com/stock/quote/META/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2026 EPS: 31.90 30d ago, 33.01 90d ago, 31.38 now; 30d: 0 up / 3 down of 17; 60d: 1 up / 14 down"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 31.38,
+    "d30": 31.9,
+    "d60": 33.05,
+    "d90": 33.01
+   },
+   "source": "https://www.zacks.com/stock/quote/META/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks consensus, current fiscal year EPS; numbers only, Zacks Rank not used"
+  },
+  "fcf_ttm": {
+   "value": 40976000000,
+   "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "sum of last four quarters 2026-06-30, 2026-03-31, 2025-12-31, 2025-09-30"
+  },
+  "net_income_ttm": {
+   "value": 68098000000,
+   "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 11.0,
+   "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): Muse and Meta AI agents plus AI ad ranking sustain 20%+ revenue growth and justify $130-145bn of 2026 capex; Muse hit No. 1 on the US App Store in September.",
+   "source": "https://www.fool.com/coverage/stock-market-today/2026/09/21/stock-market-today-sept-21-meta-surges-on-excitement-over-muse-personal-ai-agent/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "FY27 revenue near $306bn (+20%) while FCF recovers from a consensus FY26 FCF of about -$6.3bn",
+   "source": "https://www.fool.com/coverage/stock-market-today/2026/09/21/stock-market-today-sept-21-meta-surges-on-excitement-over-muse-personal-ai-agent/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: capex and expenses outrun revenue (Q2 FCF $1.7bn), legal charges, EPS estimates falling, stock at a record after +36% in a month while nine insiders sold $82.7m under plans.",
+   "source": "https://www.fool.com/coverage/stock-market-today/2026/09/21/stock-market-today-sept-21-meta-surges-on-excitement-over-muse-personal-ai-agent/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.fool.com/coverage/stock-market-today/2026/09/21/stock-market-today-sept-21-meta-surges-on-excitement-over-muse-personal-ai-agent/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "GOOGL",
+    "PINS"
+   ],
+   "source": "https://stockanalysis.com/stocks/meta/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://stockanalysis.com/stocks/meta/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "gross_margin_4q": {
+   "value": [
+    81.37,
+    81.85,
+    81.79,
+    82.03
+   ],
+   "source": "https://stockanalysis.com/stocks/meta/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarters 2026-06-30, 2026-03-31, 2025-12-31, 2025-09-30, newest first"
+  },
+  "fwd_pe": {
+   "value": 22.91,
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward PE 23.066"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "GOOGL": 22.63,
+    "PINS": 7.77
+   },
+   "source": "https://finviz.com/quote.ashx?t=GOOGL,PINS",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 8.77,
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "GOOGL": 9.11,
+    "PINS": 2.31
+   },
+   "source": "https://finviz.com/quote.ashx?t=GOOGL,PINS",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "OpenAI/ChatGPT consumer agents and TikTok for attention; named in coverage, not a measured share figure",
+   "source": "https://stockanalysis.com/stocks/meta/statistics/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to 2026-05-11; every Sale row from 2026-06-26 to 2026-09-24 verified in its Form 4 XML on EDGAR (transaction code, shares, price, aff10b5One checkbox). Form 144 proposed sales and option exercises excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases (code P) in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "name": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "shares": 1575,
+     "price": 680.27,
+     "usd": 1071425,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014402/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "2.0% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-09-21",
+     "name": "Cox Christopher K",
+     "role": "Chief Product Officer",
+     "shares": 40000,
+     "price": 712.76,
+     "usd": 28510260,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014403/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "17.8% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-09-15",
+     "name": "Cox Christopher K",
+     "role": "Chief Product Officer",
+     "shares": 20000,
+     "price": 675.23,
+     "usd": 13504556,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014140/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "8.2% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "shares": 1575,
+     "price": 657.73,
+     "usd": 1035925,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326014061/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "2.0% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Cox Christopher K",
+     "role": "Chief Product Officer",
+     "shares": 20000,
+     "price": 650.28,
+     "usd": 13005575,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326013860/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "7.6% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-09-08",
+     "name": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "shares": 5354,
+     "price": 616.58,
+     "usd": 3301175,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326013794/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "6.4% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Anderson Aaron",
+     "role": "Chief Accounting Officer",
+     "shares": 3240,
+     "price": 618.06,
+     "usd": 2002508,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326013672/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "34.1% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "Bosworth Andrew",
+     "role": "Chief Technology Officer",
+     "shares": 7848,
+     "price": 558.0,
+     "usd": 4379184,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012726/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "90.5% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "LI SUSAN J",
+     "role": "Chief Financial Officer",
+     "shares": 9196,
+     "price": 550.61,
+     "usd": 5063389,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012727/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "41.1% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "Mahoney Curtis J.",
+     "role": "Chief Legal Officer",
+     "shares": 1559,
+     "price": 558.0,
+     "usd": 869922,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012729/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "44.3% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-15",
+     "name": "LI SUSAN J",
+     "role": "Chief Financial Officer",
+     "shares": 2127,
+     "price": 689.85,
+     "usd": 1467311,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012607/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "12.2% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-08-10",
+     "name": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "shares": 1692,
+     "price": 600.69,
+     "usd": 1016373,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326012279/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "2.1% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-08-04",
+     "name": "Andreessen Marc L",
+     "role": "Director",
+     "shares": 426,
+     "price": 588.98,
+     "usd": 250907,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1160077/000116007726000008/form4-08072026_010856.xml",
+     "plan_10b5_1": false,
+     "history": "100.0% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-08-03",
+     "name": "KIMMITT ROBERT M",
+     "role": "Director",
+     "shares": 500,
+     "price": 561.56,
+     "usd": 280780,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1181218/000095010326011964/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "14.5% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-31",
+     "name": "Alford Peggy",
+     "role": "Director",
+     "shares": 464,
+     "price": 543.56,
+     "usd": 252212,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326011909/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "14.0% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-27",
+     "name": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "shares": 1466,
+     "price": 607.85,
+     "usd": 891108,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326011342/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "1.8% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-20",
+     "name": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "shares": 1466,
+     "price": 645.85,
+     "usd": 946816,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326011028/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "1.8% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-13",
+     "name": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "shares": 2163,
+     "price": 661.02,
+     "usd": 1429787,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326010694/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "2.6% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-06",
+     "name": "Olivan Javier",
+     "role": "Chief Operating Officer",
+     "shares": 5235,
+     "price": 600.84,
+     "usd": 3145422,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326010417/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "6.0% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "KIMMITT ROBERT M",
+     "role": "Director",
+     "shares": 500,
+     "price": 607.75,
+     "usd": 303875,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1181218/000095010326010283/ownership.xml",
+     "plan_10b5_1": true,
+     "history": "12.7% of the reporting line's holding"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=META",
+   "as_of": "2026-09-24",
+   "note": "20 Form 4 sale lines, $82,728,510 total, 9 sellers; weighted-average price per filing-day. All but two lines (CFO Li 8/15 and director Andreessen 8/4, both tiny) are marked 10b5-1. Largest: CPO Cox $55.0m over three sales in September."
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; filings dated Aug-Sep 2026 describe 2026-06-30 holdings"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel blocked (403 per failure log); MarketBeat gives no net share figure; dollar totals excluded per failure log"
+  },
+  "holders_up": {
+   "value": 3968,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_down": {
+   "value": 2687,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no new-position count on MarketBeat; Fintel blocked"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no exited-position count on MarketBeat; Fintel blocked"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street Corp",
+     "change_pct": 4.0,
+     "shares": 92033963,
+     "filed": "2026-09-22"
+    },
+    {
+     "fund": "National Pension Service",
+     "change_pct": 3.3,
+     "shares": 4850873,
+     "filed": "2026-09-09"
+    },
+    {
+     "fund": "Darsana Capital Partners",
+     "change_pct": null,
+     "shares": 300000,
+     "filed": "2026-09-09",
+     "note": "change N/A on MarketBeat, likely new"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "from the most recent 13F filings listed on MarketBeat (Q2 2026 13F, late filers); the table shows the last ~40 filings only"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "no full exits visible in the recent-filings table; not a verified absence"
+  },
+  "short_pct_float": {
+   "value": 1.41,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Float 1.31% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 1.6,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Ratio 1.50"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/META/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "FINRA settlement date"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-28",
+    "event": "Q3 2026 earnings (estimated, after close)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/meta/statistics/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not found: drawdown from the 52-week high is under 30%; not required"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; per-share in USD",
+  "accounting_basis": "revenue as reported; EPS adjusted (S&P consensus basis) for both years; FY1 EBIT S&P consensus basis",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": "none; no modelled leaves",
+  "fcf_basis": "not available (CFO/capex consensus not published free)",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 254118093320,
+    "source": "https://stockanalysis.com/stocks/meta/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global consensus, 58 analysts; Zacks 254.02B",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 31.07412,
+    "source": "https://stockanalysis.com/stocks/meta/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks 31.38",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 87255244120,
+    "source": "https://stockanalysis.com/stocks/meta/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus operating income, FY1",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published free; only consensus FCF",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published free",
+    "kind": "consensus"
+   },
+   "fcf_consensus": {
+    "value": -6305138100,
+    "source": "https://stockanalysis.com/stocks/meta/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus FCF, informational; not split into CFO and capex",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 306059169400,
+    "source": "https://stockanalysis.com/stocks/meta/forecast/",
+    "as_of": "2026-09-24",
+    "note": "Zacks 306.71B",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 34.83968,
+    "source": "https://stockanalysis.com/stocks/meta/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks 34.36",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating-income consensus is behind the StockAnalysis paywall",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 56,
+    "source": "https://stockanalysis.com/stocks/meta/forecast/",
+    "as_of": "2026-09-24",
+    "note": "strong buy + buy",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 6,
+    "source": "https://stockanalysis.com/stocks/meta/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/meta/forecast/",
+    "as_of": "2026-09-24",
+    "note": "sell + strong sell",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/META/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "current fiscal year EPS, Zacks up-revisions last 30 days",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 3,
+    "source": "https://www.zacks.com/stock/quote/META/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 17,
+    "source": "https://www.zacks.com/stock/quote/META/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "Zacks # of estimates, current fiscal year",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks shows 60-day counts only: up 1, down 14",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: see up_90d",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 777.59,
+    "source": "https://finviz.com/quote.ashx?t=META",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 2002973365498.0,
+    "source": "https://stockanalysis.com/stocks/meta/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 7,
+  "prospect_why": "AI ad ranking visible in +22% revenue; costs and capex raised",
+  "competition_pts": 6,
+  "competition_why": "GM ~81-82% flat; fwd P/E 22.9 in line",
+  "macro_fit_pts": 4,
+  "macro_fit_why": "quality megacap 4",
+  "narrative_pts": 5,
+  "narrative_why": "Mag 7 accelerating, the outlook's top Mag 7 pick, but at a new high with the most longs in the corpus",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

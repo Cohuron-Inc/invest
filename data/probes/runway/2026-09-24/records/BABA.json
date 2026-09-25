@@ -1,0 +1,797 @@
+{
+ "ticker": "BABA",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 110.63,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 192.67,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 91.99,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -6.21,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -16.43,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -7.38,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 16.37,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLY",
+   "source": "https://finviz.com/quote.ashx?t=XLY",
+   "as_of": "2026-09-24",
+   "note": "GICS Consumer Discretionary (broadline retail)"
+  },
+  "sector_1m_pct": {
+   "value": -6.47,
+   "source": "https://finviz.com/quote.ashx?t=XLY",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -2.67,
+   "source": "https://finviz.com/quote.ashx?t=XLY",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24",
+   "note": "below 50-day (-6.2%) and 200-day (-16.4%); +16.4% over 3 months from the $91.99 low, -7.4% in a month"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/baba/history/",
+   "as_of": "2026-09-24",
+   "note": "print Aug 20 +1.26% then -8.57% next day on a $10.2B share placement; +5 sessions close 9.77% below the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/baba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 40,
+   "source": "https://stockanalysis.com/stocks/baba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 185.88,
+   "source": "https://stockanalysis.com/stocks/baba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 238.56,
+   "source": "https://stockanalysis.com/stocks/baba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 95.34,
+   "source": "https://stockanalysis.com/stocks/baba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not needed: MarketBeat $187.05 (21 analysts) within 10 points of upside of StockAnalysis"
+  },
+  "finviz_target": {
+   "value": 187.58,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded alongside"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-24",
+     "broker": "Barclays",
+     "action": "maintain Overweight",
+     "target": 200,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-23",
+     "broker": "Citigroup",
+     "action": "reiterate Buy",
+     "target": 190,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-23",
+     "broker": "DBS",
+     "action": "raise target 204->207, Buy",
+     "target": 207,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-22",
+     "broker": "Bernstein",
+     "action": "maintain Outperform",
+     "target": 165,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-22",
+     "broker": "UBS",
+     "action": "maintain Buy",
+     "target": 206,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-22",
+     "broker": "Bank of America",
+     "action": "maintain Buy",
+     "target": 175,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Morgan Stanley",
+     "action": "maintain Overweight",
+     "target": 180,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-07",
+     "broker": "Bernstein",
+     "action": "reiterate Outperform",
+     "target": 165,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-28",
+     "broker": "Susquehanna",
+     "action": "raise target 185->190, Positive",
+     "target": 190,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-21",
+     "broker": "Barclays",
+     "action": "raise target 195->200",
+     "target": 200,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-21",
+     "broker": "JPMorgan",
+     "action": "raise target 205->210",
+     "target": 210,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-21",
+     "broker": "Baird",
+     "action": "lower target 164->160",
+     "target": 160,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-20",
+     "broker": "Benchmark",
+     "action": "reiterate Buy",
+     "target": null,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/baba/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings page (latest 8) merged with MarketBeat forecast table https://www.marketbeat.com/stocks/NYSE/BABA/forecast/; Weiss/Zacks excluded; reasons not stated on the source unless given"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-20",
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 39640000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/earnings/",
+   "as_of": "2026-09-24",
+   "note": "USD translation per MarketBeat; Yahoo CNY EPS 8.52 vs 10.82 est (-21%)"
+  },
+  "revenue_estimate": {
+   "value": 39520000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/earnings/",
+   "as_of": "2026-09-24",
+   "note": "USD translation per MarketBeat; Yahoo CNY EPS 8.52 vs 10.82 est (-21%)"
+  },
+  "eps_actual": {
+   "value": 1.256,
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted EPS as MarketBeat reports it"
+  },
+  "eps_estimate": {
+   "value": 1.94,
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "Alibaba gives no quantitative revenue/EPS guidance as policy. Q: cloud external revenue +45%, AI products triple-digit; operating income -57%, capex +75% to RMB67.7B; buyback cut ~80%; $10.2B (~3.7%) share placement Aug 24 to fund AI",
+   "source": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": 1.26,
+   "source": "https://stockanalysis.com/stocks/baba/history/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_5d_pct": {
+   "value": -9.77,
+   "source": "https://stockanalysis.com/stocks/baba/history/",
+   "as_of": "2026-09-24",
+   "note": "close 5 sessions after the print vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/BABA/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo EPS Trend FY Mar-2027 (CNY/ADS): 44.05 now vs 44.86 30d (-1.8%) vs 45.02 90d (-2.2%); band +/-2%. Breadth 11 up / 17 down in 30d"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/BABA/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo EPS Trend FY Mar-2027 (CNY/ADS): 44.05 now vs 44.86 30d (-1.8%) vs 45.02 90d (-2.2%); band +/-2%. Breadth 11 up / 17 down in 30d"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 44.05,
+    "d30": 44.86,
+    "d90": 45.02
+   },
+   "source": "https://finance.yahoo.com/quote/BABA/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year EPS consensus now, 30 and 90 days ago"
+  },
+  "fcf_ttm": {
+   "value": -11410000000.0,
+   "source": "https://stockanalysis.com/stocks/baba/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD per StockAnalysis statistics; capex-driven outflow (Q Jun-26 FCF RMB -44.7B)"
+  },
+  "net_income_ttm": {
+   "value": 10790000000.0,
+   "source": "https://stockanalysis.com/stocks/baba/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: SBC not reported every quarter on StockAnalysis"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Alibaba is the leading Chinese AI cloud (external revenue +45%, AI triple-digit for 12 quarters) at ~12x forward EPS, with EPS expected to rise ~70% in FY27 and ~40% in FY28 as capex converts to revenue.",
+   "source": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Cloud revenue growth outpacing capex (new cloud revenue was ~22% of capex in the June quarter)",
+   "source": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Capex of ~RMB68B a quarter swamps cash flow, buyback cut 80%, $10.2B dilutive placement; Michael Burry says it needs to fall by half",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/down-40-ai-pressure-michael-134106375.html",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "story",
+   "source": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "PDD",
+    "JD"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=PDD",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "stable",
+   "source": "https://www.sec.gov/Archives/edgar/data/1577552/000110465926099220/tm2623667d1_ex99-1.htm",
+   "as_of": "2026-09-24",
+   "note": "company says quick commerce maintained market share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    38.24,
+    34.51,
+    40.48,
+    39.15
+   ],
+   "source": "https://stockanalysis.com/stocks/baba/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarterly, latest first"
+  },
+  "fwd_pe": {
+   "value": 12.15,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "PDD": 6.39,
+    "JD": 6.39
+   },
+   "source": "https://finviz.com/quote.ashx?t=PDD",
+   "as_of": "2026-09-24",
+   "note": "Finviz quote pages of each peer"
+  },
+  "ev_sales": {
+   "value": 1.74,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "PDD": "0.52",
+    "JD": "0.12"
+   },
+   "source": "https://finviz.com/quote.ashx?t=PDD",
+   "as_of": "2026-09-24",
+   "note": "'-' means not published"
+  },
+  "substitute": {
+   "value": "Tencent/ByteDance/Huawei clouds; Meituan and JD in quick commerce",
+   "source": "https://www.cnbc.com/2026/08/20/alibaba-cloud-revenue.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24",
+   "note": "main agent 2026-09-24: issuer files Form 4s voluntarily; the Finviz table reaches back past 2026-06-26 and every buy was opened on EDGAR (form4 links in the entries). Subagent note: foreign private issuer: no Form 4. Alibaba files Form 4s; Finviz shows chairman and CEO buys totalling $25.7M on Aug 24-25, the days of the placement"
+  },
+  "buys_90d": {
+   "value": [
+    {
+     "date": "2026-08-25",
+     "name": "Tsai Joseph C",
+     "role": "Chairman (Director)",
+     "shares": 720000,
+     "price": 14.47,
+     "usd": 10418400.0,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526364044/xslF345X06/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code P, indirect; ordinary shares (8 per ADS); follows the Aug 24 buy"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Tsai Joseph C",
+     "role": "Chairman (Director)",
+     "shares": 720000,
+     "price": 14.29,
+     "usd": 10288800.0,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526361902/xslF345X06/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code P, indirect ordinary shares"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Wu Yongming",
+     "role": "CEO",
+     "shares": 350000,
+     "price": 14.24,
+     "usd": 4984000.0,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526361711/xslF345X06/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code P, direct ordinary shares; 1,364,418 held after"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24",
+   "note": "Chairman Tsai $20.7M and CEO Wu $5.0M, ordinary shares, Aug 24-25, alongside the $10.2B placement"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-06-29",
+     "name": "EVANS J. MICHAEL",
+     "role": "Director (former President)",
+     "shares": 720000,
+     "price": 94.95,
+     "usd": 8600000.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1428339/000119312526291402/xslF345X06/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code S, 10b5-1 unchecked; 720,000 ordinary shares reported at a per-ADS price ($94.92-95.59). 720,000 ordinary = 90,000 ADS (Form 144 filed the same day: 90,000 at $95.51 = $8.6M), so the dollar value is ~$8.6M, not the $68.4M Finviz multiplies out; 28,000 held after"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24",
+   "note": "one director sale Jun 29 (~$8.6M, 90,000 ADS equivalent); Finviz dollar value overstated 8x by applying the ADS price to ordinary shares"
+  },
+  "excluded_90d": {
+   "value": [
+    "2026-06-29 John Michael Evans Proposed Sale"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24",
+   "note": "option exercises, proposed sales (Form 144) and non-issuer rows excluded"
+  },
+  "finviz_insider_trans_pct": {
+   "value": 45.47,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest completed 13F cycle; MarketBeat most recent filing received 2026-09-23"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: fintel.io blocked (403 per failure log, not retried); MarketBeat does not give quarter net shares"
+  },
+  "holders_up": {
+   "value": 853,
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 545,
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split new vs increased holders"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split exited vs reduced holders"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Kingstone Capital Partners Texas",
+     "usd": 49010000.0
+    },
+    {
+     "fund": "Norges Bank",
+     "usd": 15610000.0
+    },
+    {
+     "fund": "UBS AM",
+     "usd": 8440000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest buyers by dollar volume, MarketBeat FAQ, 24-month window; sizes are purchase dollars not position change"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Bank of Montreal",
+     "usd": 138140000.0
+    },
+    {
+     "fund": "Ghisallo Capital",
+     "usd": 5000000.0
+    },
+    {
+     "fund": "Pinpoint AM Singapore",
+     "usd": 4990000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest sellers by dollar volume, 24-month window; not confirmed full exits"
+  },
+  "short_pct_float": {
+   "value": 1.89,
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 1.70% (no date); MarketBeat preferred because it states the settlement date"
+  },
+  "days_to_cover": {
+   "value": 5.4,
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 3.52"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/BABA/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "finviz_inst_trans_pct": {
+   "value": -1.28,
+   "source": "https://finviz.com/quote.ashx?t=BABA",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-24",
+    "event": "September-quarter 2026 earnings",
+    "confirmed": false
+   },
+   {
+    "date": "2026-11-11",
+    "event": "Singles Day (11.11) GMV read",
+    "confirmed": true
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NYSE/BABA/earnings/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": "Down 42.6% from the $192.67 high: AI capex (+75% YoY to RMB67.7B) drove operating income -57% and net income -75%, FCF turned sharply negative, the buyback was cut ~80% and a $10.2B share placement followed on Aug 24.",
+  "source": "https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": false,
+  "currency": "CNY",
+  "units": "absolute currency units; EPS per share",
+  "accounting_basis": "Yahoo consensus in CNY per ADS; price in USD",
+  "fy1_end": "2027-03-31",
+  "fy2_end": "2028-03-31",
+  "estimate_vintage": "Yahoo analysis page retrieved 2026-09-24",
+  "model_assumptions": "none: no modelled leaves",
+  "fcf_basis": "not available: forward CFO/capex unpublished",
+  "revision_period_end": "2026-09-24",
+  "alignment_note": "not aligned: estimates in CNY per ADS, price and EV in USD; P/E and PEG would mix currencies. StockAnalysis lists USD-looking EPS 5.70/7.99 with CNY revenue, basis unclear",
+  "fy1": {
+   "revenue": {
+    "value": 1120000000000.0,
+    "source": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 90760000000.0,
+    "source": "https://stockanalysis.com/stocks/baba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus operating income FY Mar-2027, CNY"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 44.05,
+    "source": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 1270000000000.0,
+    "source": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis Pro paywall; Yahoo does not publish EBIT estimates",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 61.76,
+    "source": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 38,
+    "source": "https://stockanalysis.com/stocks/baba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global via StockAnalysis, Sep 2026 column; strong buy grouped with buy, strong sell with sell"
+   },
+   "hold": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/baba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/baba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 11,
+    "source": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current year FY Mar-2027"
+   },
+   "down_30d": {
+    "value": 17,
+    "source": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 30,
+    "source": "https://finance.yahoo.com/quote/BABA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimate count for the same fiscal year"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 110.63,
+    "source": "https://finviz.com/quote.ashx?t=BABA",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 260710000000.0,
+    "source": "https://finviz.com/quote.ashx?t=BABA",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: WACC not modelled in this pass",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 4,
+  "prospect_why": "AI cloud +45%; operating income -57% on capex",
+  "competition_pts": 4,
+  "competition_why": "fwd P/E 12.2 vs PDD 6.4",
+  "macro_fit_pts": 2,
+  "macro_fit_why": "EM 3 minus 1: negative FCF and a $10.2B placement",
+  "narrative_pts": 3,
+  "narrative_why": "China AI outside the US themes",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

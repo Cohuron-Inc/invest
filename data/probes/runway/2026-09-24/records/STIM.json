@@ -1,0 +1,696 @@
+{
+ "ticker": "STIM",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:00:00Z",
+ "price": {
+  "close": {
+   "value": 2.82,
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 3.44,
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 0.8,
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -18.02,
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24",
+   "note": "computed close/52w high"
+  },
+  "sma50_pct": {
+   "value": 7.71,
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 57.3,
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/STIM?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "computed from Yahoo 1y daily closes: SMA50 2.6, SMA200 1.78"
+  },
+  "perf_1m_pct": {
+   "value": -5.37,
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 122.05,
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLV",
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -3.09,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 9.15,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA distances, 1m/3m perf and 52w range"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/STIM?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "print 2026-08-11 BMO: close 3.19 vs 2.17 (+47%); +5 sessions 3.15 (+45%), gap held"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/stim/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 4,
+   "source": "https://stockanalysis.com/stocks/stim/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 5.75,
+   "source": "https://stockanalysis.com/stocks/stim/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 7.0,
+   "source": "https://stockanalysis.com/stocks/stim/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 5.0,
+   "source": "https://stockanalysis.com/stocks/stim/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat not fetched; Finviz mean target 5.75 is within 10 points of StockAnalysis"
+  },
+  "upside_pct": {
+   "value": 103.9,
+   "source": "https://stockanalysis.com/stocks/stim/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed pt_avg/close"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-18",
+     "broker": "BTIG",
+     "action": "reiterate",
+     "target": 6,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "B. Riley",
+     "action": "initiate",
+     "target": 5,
+     "reason": "Buy"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/stim/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table (last entries shown); sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-11",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 41.57,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/earnings/",
+   "as_of": "2026-08-11"
+  },
+  "revenue_estimate": {
+   "value": 40.17,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/earnings/",
+   "as_of": "2026-08-11"
+  },
+  "eps_actual": {
+   "value": -0.05,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/earnings/",
+   "as_of": "2026-08-11"
+  },
+  "eps_estimate": {
+   "value": -0.12,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/earnings/",
+   "as_of": "2026-08-11"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://www.globenewswire.com/news-release/2026/08/11/3342616/0/en/neuronetics-reports-second-quarter-2026-financial-and-operating-results.html",
+   "as_of": "2026-08-11"
+  },
+  "guide_detail": {
+   "value": "FY26 revenue $160-164M (narrowed from $160-166M, midpoint -1M); gross margin 48-50% (up from 47-49%); opex ex-SBC $91-96M (from $100-105M); ops+investing cash use $10.5-14.5M (from $13-17M)",
+   "source": "https://www.globenewswire.com/news-release/2026/08/11/3342616/0/en/neuronetics-reports-second-quarter-2026-financial-and-operating-results.html",
+   "as_of": "2026-08-11"
+  },
+  "reaction_day_pct": {
+   "value": 47.0,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/STIM?range=1y&interval=1d",
+   "as_of": "2026-08-11"
+  },
+  "reaction_5d_pct": {
+   "value": 45.16,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/STIM?range=1y&interval=1d",
+   "as_of": "2026-08-18"
+  },
+  "revisions_30d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+  },
+  "revisions_90d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error"
+  },
+  "fcf_ttm": {
+   "value": -11.26,
+   "source": "https://stockanalysis.com/stocks/stim/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": -30.44,
+   "source": "https://stockanalysis.com/stocks/stim/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: below 10% of revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: after absorbing Greenbrook clinics, NeuroStar TMS revenue grows ~9% with gross margin expanding to 51% and adj. EBITDA turning positive, while 10% owner Jorey Chernett keeps buying and gets a board seat recommendation.",
+   "source": "https://www.globenewswire.com/news-release/2026/08/11/3342616/0/en/neuronetics-reports-second-quarter-2026-financial-and-operating-results.html",
+   "as_of": "2026-08-11"
+  },
+  "depends_on": {
+   "value": "meeting the escalating minimum-revenue covenant on the $65M Perceptive loan at 2027-03-31",
+   "source": "https://www.sec.gov/Archives/edgar/data/1227636/000110465926094078/stim-20260630x10q.htm",
+   "as_of": "2026-06-30"
+  },
+  "bear_case": {
+   "value": "10-Q going-concern doubt: company projects TTM revenue at 2027-03-31 below the covenant minimum; lender may call the loan and company would lack liquidity to repay",
+   "source": "https://www.sec.gov/Archives/edgar/data/1227636/000110465926094078/stim-20260630x10q.htm",
+   "as_of": "2026-06-30"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.globenewswire.com/news-release/2026/08/11/3342616/0/en/neuronetics-reports-second-quarter-2026-financial-and-operating-results.html",
+   "as_of": "2026-08-11"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "BWAY",
+    "Magnus Medical (private)"
+   ],
+   "source": "https://www.globenewswire.com/news-release/2026/08/11/3342616/0/en/neuronetics-reports-second-quarter-2026-financial-and-operating-results.html",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://www.globenewswire.com/news-release/2026/08/11/3342616/0/en/neuronetics-reports-second-quarter-2026-financial-and-operating-results.html",
+   "as_of": "2026-09-24"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: ratios page not fetched; Q2 GM 51.1%, Finviz TTM 47.6%"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: loss-making"
+  },
+  "peer_fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "ev_sales": {
+   "value": 1.81,
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "substitute": {
+   "value": "Spravato (esketamine), accelerated TMS protocols (SAINT)",
+   "source": "https://www.globenewswire.com/news-release/2026/08/11/3342616/0/en/neuronetics-reports-second-quarter-2026-financial-and-operating-results.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers the full trailing 90 days to 2026-09-24 (window from 2026-06-26); Form 4s not opened individually on EDGAR"
+  },
+  "buys_90d": {
+   "value": [
+    {
+     "date": "2026-08-14",
+     "name": "Jorey Chernett",
+     "role": "10% Owner",
+     "shares": 14000,
+     "price": 3.16,
+     "usd": 44240,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=STIM",
+     "plan_10b5_1": null,
+     "history": "serial buyer since Mar 2026 (~3.6M shares); also 10% owner/buyer of STLN; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-07-14",
+     "name": "Jorey Chernett",
+     "role": "10% Owner",
+     "shares": 35000,
+     "price": 1.78,
+     "usd": 62300,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=STIM",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24",
+   "note": "Excluded: Form 144 proposed sales by former officer William Macan (2026-08-18 121,033 sh; 2026-08-19 149,891 sh, ~$0.85M combined) with no Form 4 in the table"
+  },
+  "sells_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=STIM",
+   "as_of": "2026-09-24",
+   "note": "Excluded: Form 144 proposed sales by former officer William Macan (2026-08-18 121,033 sh; 2026-08-19 149,891 sh, ~$0.85M combined) with no Form 4 in the table"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter holders table"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives dollar flows only; dollar totals excluded per failure log; Fintel 403 per registry"
+  },
+  "holders_up": {
+   "value": 45,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional buyers (MarketBeat)"
+  },
+  "holders_down": {
+   "value": 8,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional sellers (MarketBeat)"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Madryn Asset Management",
+     "change_pct": null,
+     "shares": 18540488
+    },
+    {
+     "fund": "BlackRock",
+     "change_pct": null,
+     "shares": 596622
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 8.9,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 21.5% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 3.7,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STIM/short-interest/",
+   "as_of": "2026-09-15"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-09-30",
+    "event": "Perceptive minimum liquidity covenant ($2.0M) period ends; requirement after this date not found",
+    "confirmed": true
+   },
+   {
+    "date": "2026-11-03",
+    "event": "Q3 2026 earnings (aggregator estimate, BMO)",
+    "confirmed": false
+   },
+   {
+    "date": "2027-03-31",
+    "event": "Perceptive minimum-revenue covenant test the company projects it will miss (just outside 6 months)",
+    "confirmed": true
+   }
+  ],
+  "source": "https://www.sec.gov/Archives/edgar/data/1227636/000110465926094078/stim-20260630x10q.htm",
+  "as_of": "2026-06-30"
+ },
+ "why_it_fell": {
+  "value": "Not down >30% (-18% from high).",
+  "source": "https://finviz.com/quote.ashx?t=STIM",
+  "as_of": "2026-09-24"
+ },
+ "financing": {
+  "cash": {
+   "value": 19.2,
+   "source": "https://www.globenewswire.com/news-release/2026/08/11/3342616/0/en/neuronetics-reports-second-quarter-2026-financial-and-operating-results.html",
+   "as_of": "2026-06-30",
+   "note": "USD millions, cash + equivalents + marketable securities unless noted"
+  },
+  "quarterly_burn": {
+   "value": -5.5,
+   "source": "https://stockanalysis.com/stocks/stim/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "avg FCF Q1+Q2 2026 (-9.62, -1.43); FY26 guide implies ~-0.1 to -4.1M in H2"
+  },
+  "runway_quarters": {
+   "value": 3.5,
+   "source": "https://stockanalysis.com/stocks/stim/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "19.2/5.5 unrestricted cash (plus $5.8M restricted); binding constraint is the $65M Perceptive loan covenant, not burn"
+  },
+  "company_runway_statement": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no explicit runway statement"
+  },
+  "recent_offering": {
+   "value": "none found; going-concern language in 2026-06-30 10-Q",
+   "source": "https://www.sec.gov/Archives/edgar/data/1227636/000110465926094078/stim-20260630x10q.htm",
+   "as_of": "2026-06-30"
+  },
+  "binary_events_6m": [
+   {
+    "date": "2027-03-31",
+    "event": "minimum-revenue covenant test (going-concern trigger)",
+    "confirmed": true
+   }
+  ]
+ },
+ "forward": {
+  "periods_aligned": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/stim/forecast/",
+   "as_of": "2026-09-24",
+   "note": "revenue/EPS aligned to FY2026/FY2027 calendar years, but EBIT/CFO/capex unavailable so periods not fully verified"
+  },
+  "currency": "USD",
+  "units": "USD millions except per-share",
+  "accounting_basis": "GAAP (StockAnalysis/S&P Global consensus)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex (levered)",
+  "revision_period_end": null,
+  "fy1": {
+   "revenue": {
+    "value": 162.03,
+    "source": "https://stockanalysis.com/stocks/stim/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": -0.47,
+    "source": "https://stockanalysis.com/stocks/stim/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 177.0,
+    "source": "https://stockanalysis.com/stocks/stim/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": -0.34,
+    "source": "https://stockanalysis.com/stocks/stim/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 4,
+    "source": "https://stockanalysis.com/stocks/stim/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy, S&P Global via StockAnalysis"
+   },
+   "hold": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/stim/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/stim/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ returned \"Oops, something went wrong\"; Zacks bot-blocked"
+   },
+   "down_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+   },
+   "analysts": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 2.82,
+    "source": "https://finviz.com/quote.ashx?t=STIM",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 280.01,
+    "source": "https://finviz.com/quote.ashx?t=STIM",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled; loss-making biotech, WACC not meaningful for screening"
+   }
+  },
+  "note": ""
+ },
+ "judgment": {
+  "prospect_pts": 3,
+  "prospect_why": "adj. EBITDA positive but a going-concern flag",
+  "competition_pts": 2,
+  "competition_why": "GM 51%",
+  "macro_fit_pts": 0,
+  "macro_fit_why": "a covenant breach it expects on 31 Mar 2027",
+  "narrative_pts": 1,
+  "narrative_why": "psychedelics and CNS lagging and worsening",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

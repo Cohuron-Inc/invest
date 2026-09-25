@@ -1,0 +1,830 @@
+{
+ "ticker": "CSCO",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 106.97,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 130.37,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 66.81,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -17.95,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24",
+   "note": "computed from Finviz close and 52w high"
+  },
+  "sma50_pct": {
+   "value": -4.92,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 10.46,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -3.73,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -10.09,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS Information Technology"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA50/SMA200 distance, drawdown and 1m/3m performance"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/csco/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-20 (109.59) vs pre-print close 2026-08-12 (123.88); true = price 5 sessions after the print at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/csco/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 28,
+   "source": "https://stockanalysis.com/stocks/csco/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 137.25,
+   "source": "https://stockanalysis.com/stocks/csco/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 170.0,
+   "source": "https://stockanalysis.com/stocks/csco/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 115.0,
+   "source": "https://stockanalysis.com/stocks/csco/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 28.31,
+   "source": "https://stockanalysis.com/stocks/csco/forecast/",
+   "as_of": "2026-09-24",
+   "note": "SA average target vs Finviz close"
+  },
+  "pt_finviz": {
+   "value": 139.73,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded for comparison"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-22",
+     "broker": "Piper Sandler",
+     "action": "reiterates",
+     "rating": "Hold",
+     "target": 125,
+     "target_old": 132,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "Deutsche Bank",
+     "action": "initiates",
+     "rating": "Buy",
+     "target": 135,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-08-24",
+     "broker": "Truist Financial",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 140,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-08-24",
+     "broker": "Morgan Stanley",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 135,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-08-17",
+     "broker": "Evercore ISI",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 150,
+     "target_old": null,
+     "reason": "not stated on source page"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/csco/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free page shows only the five most recent sell-side actions; older actions in the 60-day window may be missing"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat $129.36 within 10 points of StockAnalysis (20.9% vs 28.3% upside); not needed"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-12",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 17250000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 16840000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 1.22,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+   "as_of": "2026-09-24",
+   "note": "non-GAAP"
+  },
+  "eps_estimate": {
+   "value": 1.17,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+   "as_of": "2026-08-12"
+  },
+  "guide_detail": {
+   "value": "FQ1 FY27 guide revenue $18.0-18.2B vs $16.7B consensus; non-GAAP EPS $1.32-1.34 vs $1.11 consensus; gross-margin outlook cautious",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+   "as_of": "2026-08-12"
+  },
+  "reaction_day_pct": {
+   "value": -8.4,
+   "source": "https://stockanalysis.com/stocks/csco/history/",
+   "as_of": "2026-08-13",
+   "note": "2026-08-13 close 113.47 vs 2026-08-12 close 123.88"
+  },
+  "reaction_5d_pct": {
+   "value": -11.54,
+   "source": "https://stockanalysis.com/stocks/csco/history/",
+   "as_of": "2026-08-20",
+   "note": "pre-print close to the close five sessions after the reaction day"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://www.zacks.com/stock/quote/CSCO/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Jul-2027): current 5.11, 30d ago 5.11, 90d ago 4.78; flat = within 0.5%; Yahoo /analysis/ returned an error page on repeated tries, Zacks used for numbers only"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/CSCO/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Jul-2027): current 5.11, 30d ago 5.11, 90d ago 4.78; flat = within 0.5%; Yahoo /analysis/ returned an error page on repeated tries, Zacks used for numbers only"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 5.11,
+    "d30": 5.11,
+    "d90": 4.78
+   },
+   "source": "https://www.zacks.com/stock/quote/CSCO/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Jul-2027)"
+  },
+  "fcf_ttm": {
+   "value": 12767000000,
+   "source": "https://stockanalysis.com/stocks/csco/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-25",
+   "note": "sum of last four quarters, quarters ending 2026-07-25, 2026-04-25, 2026-01-24, 2025-10-25"
+  },
+  "net_income_ttm": {
+   "value": 13267000000,
+   "source": "https://stockanalysis.com/stocks/csco/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-25"
+  },
+  "fcf_to_ni": {
+   "value": 0.96,
+   "source": "https://stockanalysis.com/stocks/csco/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-25"
+  },
+  "sbc_pct_revenue": {
+   "value": 6.05,
+   "source": "https://stockanalysis.com/stocks/csco/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-25",
+   "note": "TTM stock-based compensation / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): hyperscaler AI infrastructure orders ($4B in Q4, $9.3B in FY26) plus a campus refresh; the FQ1 guide is $1.3B above consensus and FY27 EPS consensus is $5.15 (+19%).",
+   "source": "https://stockanalysis.com/stocks/csco/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "AI systems orders converting to revenue without further gross-margin dilution",
+   "source": "https://stockanalysis.com/stocks/csco/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: the AI systems mix squeezes gross margin (the reason for the 8.4% fall on the print), 9 of 28 analysts are at Hold, and the trailing P/E is 32.",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "ANET",
+    "HPE"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": null,
+   "note": "no source read states a share trend"
+  },
+  "gross_margin_4q": {
+   "value": [
+    64.13,
+    63.63,
+    64.97,
+    65.48
+   ],
+   "source": "https://stockanalysis.com/stocks/csco/financials/?p=quarterly",
+   "as_of": "2026-07-25",
+   "note": "latest first, quarters ending 2026-07-25, 2026-04-25, 2026-01-24, 2025-10-25"
+  },
+  "fwd_pe": {
+   "value": 19.3,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "ANET": 39.35,
+    "HPE": 13.82
+   },
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 6.9,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "ANET": 23.35,
+    "HPE": 2.35
+   },
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute or new entrant in the sources read"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to before 2026-06-26 (full 90 days); every Form 4 sale opened on EDGAR and the 10b5-1 checkbox read; option exercises, Form 144 notices and withholding (F) excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-14",
+     "name": "Subaiya Thimaya K.",
+     "role": "EVP, Operations",
+     "shares": 312,
+     "price": 110.18,
+     "usd": 34376,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/858877/000201528726000020/xslF345X06/wk-form4_1789427580.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 127,661 sh; This transaction was effected pursuant to a Rule 10b5-1 plan adopted by the reporting person on March 17, 2026 Remarks: /s/ Thimaya K"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Tuszik Oliver",
+     "role": "EVP, Global Sales",
+     "shares": 680,
+     "price": 110.18,
+     "usd": 74922,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000138/xslF345X06/wk-form4_1789427487.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 163,337 sh; This transaction was effected pursuant to a Rule 10b5-1 plan adopted by the reporting person on December 17, 2025"
+    },
+    {
+     "date": "2026-09-11",
+     "name": "Patterson Mark",
+     "role": "EVP and CFO",
+     "shares": 1795,
+     "price": 108.87,
+     "usd": 195422,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000137/xslF345X06/wk-form4_1789427467.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 165,778 sh; This transaction was effected pursuant to a Rule 10b5-1 plan adopted by the reporting person on December 19, 2025"
+    },
+    {
+     "date": "2026-09-08",
+     "name": "Fink Nichlas A",
+     "role": "SVP, Chief Accounting Officer",
+     "shares": 2274,
+     "price": 109.36,
+     "usd": 248685,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000134/xslF345X06/wk-form4_1788984494.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 31,352 sh; This transaction was effected pursuant to a Rule 10b5-1 plan adopted by the reporting person on June 6, 2026"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Subaiya Thimaya K.",
+     "role": "EVP, Operations",
+     "shares": 5832,
+     "price": 111.47,
+     "usd": 650074,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/858877/000201528726000017/xslF345X06/wk-form4_1787258920.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 128,382 sh; This transaction was effected pursuant to a Rule 10b5-1 plan adopted by the reporting person on March 17, 2026"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Patel Jeetendra I",
+     "role": "President and CPO",
+     "shares": 7170,
+     "price": 111.57,
+     "usd": 799928,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000128/xslF345X06/wk-form4_1787002094.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 230,593 sh; This transaction was effected pursuant to a Rule 10b5-1 plan adopted by the reporting person on December 19, 2025"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Tuszik Oliver",
+     "role": "EVP, Global Sales",
+     "shares": 2760,
+     "price": 112.46,
+     "usd": 310390,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000127/xslF345X06/wk-form4_1787002031.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 165,276 sh; This transaction was effected pursuant to a Rule 10b5-1 plan adopted by the reporting person on December 17, 2025"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Patterson Mark",
+     "role": "EVP and CFO",
+     "shares": 5192,
+     "price": 111.51,
+     "usd": 578979,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000126/xslF345X06/wk-form4_1787001941.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 169,127 sh; This transaction was effected pursuant to a Rule 10b5-1 plan adopted by the reporting person on December 19, 2025"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Stahlkopf Deborah L",
+     "role": "EVP and Chief Legal Officer",
+     "shares": 6487,
+     "price": 111.53,
+     "usd": 723494,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000125/xslF345X06/wk-form4_1787001888.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 167,116 sh; This transaction was effected pursuant to a Rule 10b5-1 plan adopted by the reporting person on December 16, 2025"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Robbins Charles",
+     "role": "Chair and CEO",
+     "shares": 21628,
+     "price": 111.54,
+     "usd": 2412346,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000124/xslF345X06/wk-form4_1787001786.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 602,710 sh; This transaction was effected pursuant to a Rule 10b5-1 plan adopted by the reporting person on February 18, 2026"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24",
+   "note": "10 sales, $6,028,616; unique sellers 7"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -1.15,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle (Q2 2026) as shown on MarketBeat filings list"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel is 403 per failure log and MarketBeat dollar totals are excluded; no clean net share change"
+  },
+  "holders_up": {
+   "value": 2433,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 1923,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street Corp",
+     "change_pct": 7.0,
+     "shares": 207106569
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 1.46,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 1.47% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 4.4,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 2.77"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/short-interest/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_trans_pct": {
+   "value": 0.23,
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-02",
+    "event": "ex-dividend",
+    "confirmed": true,
+    "source": "https://finviz.com/quote.ashx?t=CSCO"
+   },
+   {
+    "date": "2026-11-11",
+    "event": "FQ1 FY2027 earnings (MarketBeat estimate)",
+    "confirmed": false,
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/"
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/CSCO/earnings/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not found: drawdown -17.9% is less than 30% from the high; not required"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; EPS in USD per share",
+  "accounting_basis": "consensus adjusted (non-GAAP) EPS; revenue and operating income as S&P Global consensus",
+  "fy1_end": "2027-07-31",
+  "fy2_end": "2028-07-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex; forward CFO/capex not published on free sources",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 73163599460,
+    "source": "https://stockanalysis.com/stocks/csco/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": 25640419600,
+    "source": "https://stockanalysis.com/stocks/csco/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global consensus operating income from the StockAnalysis estimates table"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward CFO not published; StockAnalysis shows consensus FY1 free cash flow of 20,158,033,640 only"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward capex not published on free sources"
+   },
+   "eps": {
+    "value": 5.1466,
+    "source": "https://stockanalysis.com/stocks/csco/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "fcf_consensus": {
+    "value": 20158033640,
+    "source": "https://stockanalysis.com/stocks/csco/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus FY1 free cash flow; not split into CFO and capex"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 77995456650,
+    "source": "https://stockanalysis.com/stocks/csco/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis paywall"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": 5.62188,
+    "source": "https://stockanalysis.com/stocks/csco/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 19,
+    "source": "https://stockanalysis.com/stocks/csco/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global Sep '26: strong buy 14 + buy 5"
+   },
+   "hold": {
+    "value": 9,
+    "source": "https://stockanalysis.com/stocks/csco/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/csco/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell 0 + strong sell 0"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/CSCO/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 column; provider counts revision events"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/CSCO/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "analysts": {
+    "value": 10,
+    "source": "https://www.zacks.com/stock/quote/CSCO/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "number of FY1 EPS estimates on the same page"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 106.97,
+    "source": "https://finviz.com/quote.ashx?t=CSCO",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": null
+   },
+   "enterprise_value": {
+    "value": 437000000000.0,
+    "source": "https://finviz.com/quote.ashx?t=CSCO",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "Finviz enterprise value"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: WACC not modelled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 5,
+  "prospect_why": "hyperscaler AI orders $9.3B FY26; FQ1 guide raised above consensus",
+  "competition_pts": 4,
+  "competition_why": "GM 65.5 to 64.1% drifting; fwd P/E 19.3 vs ANET 39.4",
+  "macro_fit_pts": 5,
+  "macro_fit_why": "cash-flow value shape: 0.96x conversion, dividend, 19x",
+  "narrative_pts": 3,
+  "narrative_why": "outside the AI networking basket's direction; mixed",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

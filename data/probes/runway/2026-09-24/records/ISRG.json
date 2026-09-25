@@ -1,0 +1,1003 @@
+{
+ "ticker": "ISRG",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 399.52,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 603.88,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 328.57,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -33.84,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 6.86,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -11.55,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": false,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price distance to SMA50 < distance to SMA200"
+  },
+  "perf_1m_pct": {
+   "value": 7.44,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -0.04,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLV",
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -3.09,
+   "source": "https://finance.yahoo.com/quote/XLV/history/ (data/market/2026-09-24/yahoo/XLV.json)",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 9.15,
+   "source": "https://finance.yahoo.com/quote/XLV/history/ (data/market/2026-09-24/yahoo/XLV.json)",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24",
+   "note": "basing 330-400 since the July gap-down: 6.9% above 50 DMA, 11.6% below 200 DMA, 50<200; testing the 400 post-print high"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://finance.yahoo.com/quote/ISRG/history/",
+   "as_of": "2026-09-24",
+   "note": "print 2026-07-16 AMC: -14.15% on 07-17 and -16.1% after 5 sessions (down-gap, held lower for weeks); price has since recovered 15.7% above the print-day close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 32,
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 476.34,
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 685,
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 324,
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 19.23,
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_finviz": {
+   "value": 479.86,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": 508.68,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat Moderate Buy 31 analysts (1 sell/8 hold/22 buy), upside 27.3% (8 points above SA)"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "broker": "Bank of America",
+     "action": "reiterate",
+     "target": 470,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-08",
+     "broker": "BTIG",
+     "action": "reiterate",
+     "target": 469,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-28",
+     "broker": "BMO Capital",
+     "action": "reiterate",
+     "target": null,
+     "reason": "Outperform"
+    },
+    {
+     "date": "2026-08-21",
+     "broker": "Piper Sandler",
+     "action": "reiterate",
+     "target": 470,
+     "reason": "Overweight"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "Citi",
+     "action": "reiterate",
+     "target": 500,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "Bernstein",
+     "action": "reiterate",
+     "target": 685,
+     "reason": "Outperform"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "KeyCorp",
+     "action": "reiterate",
+     "target": null,
+     "reason": "Overweight"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "Oppenheimer",
+     "action": "upgrade",
+     "target": 500,
+     "reason": "Market Perform->Outperform"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "TD Cowen",
+     "action": "reiterate",
+     "target": 485,
+     "reason": "Buy/Hold per source (MarketBeat logs a 07-28 downgrade to Hold)"
+    },
+    {
+     "date": "2026-07-30",
+     "broker": "HSBC",
+     "action": "downgrade",
+     "target": 391,
+     "reason": "Buy->Hold"
+    },
+    {
+     "date": "2026-07-28",
+     "broker": "UBS",
+     "action": "initiate",
+     "target": 500,
+     "reason": "Neutral"
+    },
+    {
+     "date": "2026-07-28",
+     "broker": "BNP Paribas Exane",
+     "action": "upgrade",
+     "target": null,
+     "reason": "to Outperform"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/forecast/",
+   "as_of": "2026-09-24",
+   "note": "SA ratings + MarketBeat; TD Cowen rating conflicts between the two sources"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-16",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 2890000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 2830000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 2.8,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted; GAAP 2.29"
+  },
+  "eps_estimate": {
+   "value": 2.48,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://www.fool.com/investing/2026/09/24/intuitive-surgical-stock-has-plunged-29-this-year/",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "FY26 da Vinci procedure growth 13.5-15.5% not raised despite the beat; Q2 procedures +15% (Q4-25 +17%); US bariatric cases down high single digits on GLP-1s; ACA subsidy expiry a modest headwind",
+   "source": "https://www.fool.com/investing/2026/09/24/intuitive-surgical-stock-has-plunged-29-this-year/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": -14.15,
+   "source": "https://finance.yahoo.com/quote/ISRG/history/",
+   "as_of": "2026-07-17"
+  },
+  "reaction_5d_pct": {
+   "value": -16.11,
+   "source": "https://finance.yahoo.com/quote/ISRG/history/",
+   "as_of": "2026-07-24"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://www.zacks.com/stock/quote/ISRG/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Yahoo load error; Zacks FY26 0 up/0 down in 30d, 10.76 -> 10.74"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/ISRG/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "10.47 -> 10.74 (print beat)"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 10.74,
+    "d30": 10.76,
+    "d90": 10.47
+   },
+   "source": "https://www.zacks.com/stock/quote/ISRG/detailed-earning-estimates",
+   "as_of": "2026-09-24"
+  },
+  "fcf_ttm": {
+   "value": 3222600000.0,
+   "source": "https://stockanalysis.com/stocks/isrg/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": 3138800000.0,
+   "source": "https://stockanalysis.com/stocks/isrg/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "FCF/NI 1.03"
+  },
+  "sbc_pct_revenue": {
+   "value": 7.5,
+   "source": "https://stockanalysis.com/stocks/isrg/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "SBC $826M / revenue $11.03B"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: da Vinci 5 upgrade cycle plus only ~3.2M of ~9M eligible procedures penetrated keeps mid-teens procedure growth and 20% EPS growth, with a razor/blade recurring model.",
+   "source": "https://www.fool.com/investing/2026/09/24/intuitive-surgical-stock-has-plunged-29-this-year/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Procedure growth staying >=13.5% and da Vinci 5 placements; FY26 EPS 10.74",
+   "source": "https://www.fool.com/investing/2026/09/24/intuitive-surgical-stock-has-plunged-29-this-year/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: Medtronic Hugo FDA clearance (Dec 2025), J&J Ottava, Chinese rivals, GLP-1 cutting bariatric volume, decelerating procedure growth at 33x forward earnings",
+   "source": "https://www.tikr.com/blog/intuitive-surgical-fell-30-in-2026-as-a-rival-arrived-heres-where-the-stock-could-go",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.fool.com/investing/2026/09/24/intuitive-surgical-stock-has-plunged-29-this-year/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "MDT",
+    "SYK"
+   ],
+   "source": "https://stockanalysis.com/stocks/mdt/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "stable",
+   "source": "https://www.tikr.com/blog/intuitive-surgical-fell-30-in-2026-as-a-rival-arrived-heres-where-the-stock-could-go",
+   "as_of": "2026-09-24",
+   "note": "dominant share; first US competitor (Hugo) cleared Dec 2025, share impact not yet quantified"
+  },
+  "gross_margin_4q": {
+   "value": [
+    67.78,
+    66.06,
+    66.44,
+    66.36
+   ],
+   "source": "https://stockanalysis.com/stocks/isrg/financials/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "fwd_pe": {
+   "value": 35.36,
+   "source": "https://stockanalysis.com/stocks/isrg/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz 33.07"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "MDT": 14.86,
+    "SYK": 17.1
+   },
+   "source": "https://stockanalysis.com/stocks/mdt/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 12.32,
+   "source": "https://stockanalysis.com/stocks/isrg/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "MDT": 3.53,
+    "SYK": 4.49
+   },
+   "source": "https://stockanalysis.com/stocks/syk/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "Medtronic Hugo, J&J Ottava, Chinese surgical robots",
+   "source": "https://www.tikr.com/blog/intuitive-surgical-fell-30-in-2026-as-a-rival-arrived-heres-where-the-stock-could-go",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24",
+   "note": "Finviz table (to Feb 2026) and all EDGAR Form 4s 2026-06-26..09-24 checked; every sale carries a 10b5-1 footnote; ~$4.9M total, $4.0M of it Guthart. No buys"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24",
+   "note": "window 2026-06-26 to 2026-09-24; Finviz insider table, each trade verified on the EDGAR Form 4 XML"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "name": "Fredrik Widman",
+     "role": "VP Corporate Controller",
+     "shares": 1089,
+     "price": 374.44,
+     "usd": 407765,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000189797026000008/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "exercise-and-sell under plan expiring 2027-09-15"
+    },
+    {
+     "date": "2026-08-11",
+     "name": "Gary Guthart",
+     "role": "Director (former CEO)",
+     "shares": 10000,
+     "price": 400.0,
+     "usd": 4000000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000128062826000014/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "plan expires 2027-06-15; 1,245,679 shares after (<1%)"
+    },
+    {
+     "date": "2026-08-10",
+     "name": "Amy Ladd",
+     "role": "Director",
+     "shares": 400,
+     "price": 379.0,
+     "usd": 151600,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000178175026000006/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": ""
+    },
+    {
+     "date": "2026-08-11",
+     "name": "Amy Ladd",
+     "role": "Director",
+     "shares": 72,
+     "price": 393.1,
+     "usd": 28303,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000178175026000006/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": ""
+    },
+    {
+     "date": "2026-08-10",
+     "name": "Gary Loeb",
+     "role": "EVP Chief Legal & Compliance",
+     "shares": 400,
+     "price": 379.0,
+     "usd": 151600,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000156173326000014/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": ""
+    },
+    {
+     "date": "2026-09-11",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 25,
+     "price": 365.79,
+     "usd": 9145,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000033/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-09-10",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 23,
+     "price": 347.66,
+     "usd": 7996,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000033/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 23,
+     "price": 350.2,
+     "usd": 8055,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000031/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-09-08",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 46,
+     "price": 361.23,
+     "usd": 16617,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000031/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 77,
+     "price": 375.57,
+     "usd": 28919,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000029/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-08-20",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 77,
+     "price": 396.37,
+     "usd": 30520,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000029/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 77,
+     "price": 394.26,
+     "usd": 30358,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000027/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 77,
+     "price": 394.0,
+     "usd": 30338,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000027/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 77,
+     "price": 390.67,
+     "usd": 30082,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000027/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-07-31",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 28,
+     "price": 351.0,
+     "usd": 9828,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000025/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-07-30",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 28,
+     "price": 346.83,
+     "usd": 9711,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000025/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-07-29",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 28,
+     "price": 360.21,
+     "usd": 10086,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000023/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-07-28",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 28,
+     "price": 365.58,
+     "usd": 10236,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000023/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    },
+    {
+     "date": "2026-07-27",
+     "name": "Mark Brosius",
+     "role": "EVP Chief Manufacturing & Supply Chain",
+     "shares": 28,
+     "price": 344.0,
+     "usd": 9632,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1035267/000201030026000023/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "small scheduled plan sales (plan expires 2027-02-14)"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24",
+   "note": "open-market S-code sales only; option-exercise legs (M), tax withholding (F) and sell-to-cover excluded; plan flag from Form 4 10b5-1 checkbox/footnote"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_up": {
+   "value": 1616,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_down": {
+   "value": 1003,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Andra AP-fonden",
+     "change_pct": 63.4,
+     "shares": 31727
+    },
+    {
+     "fund": "Munich Re",
+     "change_pct": 48.0,
+     "shares": 31376
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "only small holders in the visible table"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "NS Partners",
+     "change_pct": -35.8,
+     "shares": -25580
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 2.31,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 2.68,
+   "source": "https://finviz.com/quote.ashx?t=ISRG",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat 3.4"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ISRG/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "8.12M shares, +5%"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-20",
+    "event": "Q3 earnings (AMC; ISRG pre-announces preliminary procedures in mid-Oct historically)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/isrg/statistics/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": "Down 34% from the Jan-2026 high: procedure growth slowed (GLP-1 hit bariatrics), Medtronic Hugo won FDA clearance, and the Q2 beat came without a guide raise (-14% on 2026-07-17).",
+  "source": "https://www.tikr.com/blog/intuitive-surgical-fell-30-in-2026-as-a-rival-arrived-heres-where-the-stock-could-go",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": {
+   "value": "USD",
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "units": {
+   "value": "USD; EPS per share",
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "accounting_basis": {
+   "value": "adjusted EPS",
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy1_end": {
+   "value": "2026-12-31",
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy2_end": {
+   "value": "2027-12-31",
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "estimate_vintage": {
+   "value": "2026-09-24",
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "model_assumptions": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "no model"
+  },
+  "fcf_basis": {
+   "value": "CFO minus capex (SA consensus FCF)",
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "revision_period_end": {
+   "value": "2026-09-24",
+   "source": "https://www.zacks.com/stock/quote/ISRG/detailed-earning-estimates",
+   "as_of": "2026-09-24"
+  },
+  "fy1": {
+   "revenue": {
+    "value": 11760000000.0,
+    "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 4670000000.0,
+    "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "SA operating income forecast; likely non-GAAP (TTM GAAP op income ~3.45B), so basis mismatch with reported"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "fcf": {
+    "value": 4330000000.0,
+    "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 10.78,
+    "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Zacks 10.74"
+   },
+   "tax_rate_pct": {
+    "value": 17.02,
+    "source": "https://stockanalysis.com/stocks/isrg/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 13260000000.0,
+    "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: behind SA paywall"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": 12.09,
+    "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Zacks 11.98"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 24,
+    "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "17 strong buy + 7 buy"
+   },
+   "hold": {
+    "value": 7,
+    "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong sell"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/ISRG/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/ISRG/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 13,
+    "source": "https://www.zacks.com/stock/quote/ISRG/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks 60d: 1 up"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks 60d: 1 down"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 399.52,
+    "source": "https://finviz.com/quote.ashx?t=ISRG",
+    "as_of": "2026-09-24"
+   },
+   "enterprise_value": {
+    "value": 135930000000.0,
+    "source": "https://stockanalysis.com/stocks/isrg/statistics/",
+    "as_of": "2026-09-24"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "periods_aligned_evidence": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/isrg/forecast/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "judgment": {
+  "prospect_pts": 5,
+  "prospect_why": "procedure growth held at 13.5-15.5%; not raised",
+  "competition_pts": 5,
+  "competition_why": "GM ~66-68% stable; Medtronic Hugo cleared",
+  "macro_fit_pts": 3,
+  "macro_fit_why": "long duration 1 plus 2: net cash, FCF 1.03x NI",
+  "narrative_pts": 4,
+  "narrative_why": "AI health accelerating",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

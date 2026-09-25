@@ -1,0 +1,738 @@
+{
+ "ticker": "STLN",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:00:00Z",
+ "price": {
+  "close": {
+   "value": 6.51,
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 7.13,
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 2.32,
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -8.7,
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24",
+   "note": "computed close/52w high"
+  },
+  "sma50_pct": {
+   "value": 8.95,
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 50.65,
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/STLN?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "computed from Yahoo 1y daily closes: SMA50 5.95, SMA200 4.3"
+  },
+  "perf_1m_pct": {
+   "value": 3.33,
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 27.15,
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLV",
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -3.09,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 9.15,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA distances, 1m/3m perf and 52w range"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/STLN?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "print 2026-08-06 AMC: next-day 6.41 vs 4.99 (+28.5%); +5 sessions 6.45 (+29.3%), gap held"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/stln/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 5,
+   "source": "https://stockanalysis.com/stocks/stln/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 9.0,
+   "source": "https://stockanalysis.com/stocks/stln/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 11.0,
+   "source": "https://stockanalysis.com/stocks/stln/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 7.0,
+   "source": "https://stockanalysis.com/stocks/stln/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat not fetched; Finviz mean target 9.25 is within 10 points of StockAnalysis"
+  },
+  "upside_pct": {
+   "value": 38.25,
+   "source": "https://stockanalysis.com/stocks/stln/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed pt_avg/close"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-08-07",
+     "broker": "Needham",
+     "action": "reiterate",
+     "target": 7,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-07",
+     "broker": "B. Riley",
+     "action": "raise",
+     "target": 11,
+     "reason": "Buy; PT 8->11 after Q2 beat and guide raise"
+    },
+    {
+     "date": "2026-07-16",
+     "broker": "BTIG",
+     "action": "raise",
+     "target": 9,
+     "reason": "Buy; PT 8->9"
+    },
+    {
+     "date": "2026-07-06",
+     "broker": "Lake Street",
+     "action": "initiate",
+     "target": 10,
+     "reason": "Buy"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/stln/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table (last entries shown); sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-06",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 161.28,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/earnings/",
+   "as_of": "2026-08-06"
+  },
+  "revenue_estimate": {
+   "value": 155.28,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/earnings/",
+   "as_of": "2026-08-06",
+   "note": "MarketBeat shows range 152.80-155.28"
+  },
+  "eps_actual": {
+   "value": -0.08,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/earnings/",
+   "as_of": "2026-08-06"
+  },
+  "eps_estimate": {
+   "value": -0.07,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/earnings/",
+   "as_of": "2026-08-06"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001799191/000107997326001006/ex99x1.htm",
+   "as_of": "2026-08-06"
+  },
+  "guide_detail": {
+   "value": "FY26 revenue $650-670M (from $630-650M), gross profit $105-110M (from $97-107M), adj. EBITDA $2-7M (from $0-9M; narrowed, midpoint unchanged at 4.5), FCF $5-15M unchanged",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001799191/000107997326001006/ex99x1.htm",
+   "as_of": "2026-08-06"
+  },
+  "reaction_day_pct": {
+   "value": 28.46,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/STLN?range=1y&interval=1d",
+   "as_of": "2026-08-07"
+  },
+  "reaction_5d_pct": {
+   "value": 29.26,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/STLN?range=1y&interval=1d",
+   "as_of": "2026-08-14"
+  },
+  "revisions_30d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ not fetched (error on other names)"
+  },
+  "revisions_90d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "fcf_ttm": {
+   "value": -3.29,
+   "source": "https://stockanalysis.com/stocks/stln/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": -36.29,
+   "source": "https://stockanalysis.com/stocks/stln/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: below 10% of revenue (TTM SBC ~5.1M)"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Starling (formerly The Oncology Institute, renamed 2026) scales value-based oncology care and specialty pharmacy (Part D fills +58% y/y), turned adj. EBITDA positive in Q2 and raised FY revenue guidance, with capitated contracts spreading beyond Florida.",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001799191/000107997326001006/ex99x1.htm",
+   "as_of": "2026-08-06"
+  },
+  "depends_on": {
+   "value": "capitated revenue ramp (~$150M expected) at 80-90% medical loss ratio",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001799191/000107997326001006/ex99x1.htm",
+   "as_of": "2026-08-06"
+  },
+  "bear_case": {
+   "value": "14.5% gross margin, thin EBITDA, $80M OrbiMed debt, negative book equity; capitation risk if utilization rises",
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001799191/000107997326001006/ex99x1.htm",
+   "as_of": "2026-08-06"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "PRVA",
+    "AGL"
+   ],
+   "source": "https://www.sec.gov/Archives/edgar/data/0001799191/000107997326001006/ex99x1.htm",
+   "as_of": "2026-09-24",
+   "note": "value-based provider groups; no pure listed oncology peer"
+  },
+  "share_trend": {
+   "value": "gaining",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001799191/000107997326001006/ex99x1.htm",
+   "as_of": "2026-08-06"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: ratios page not fetched; Finviz TTM 14.5%"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: loss-making"
+  },
+  "peer_fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "ev_sales": {
+   "value": 1.22,
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not fetched"
+  },
+  "substitute": {
+   "value": "health-system and community oncology practices (e.g., OneOncology, private)",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001799191/000107997326001006/ex99x1.htm",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers the full trailing 90 days to 2026-09-24 (window from 2026-06-26); Form 4s not opened individually on EDGAR"
+  },
+  "buys_90d": {
+   "value": [
+    {
+     "date": "2026-08-14",
+     "name": "Jorey Chernett",
+     "role": "10% Owner",
+     "shares": 12000,
+     "price": 6.54,
+     "usd": 78480,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=STLN",
+     "plan_10b5_1": null,
+     "history": "serial buyer since Mar 2026 (~1.0M shares bought); also 10% owner and buyer of STIM; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-07-21",
+     "name": "Jorey Chernett",
+     "role": "10% Owner",
+     "shares": 18000,
+     "price": 5.27,
+     "usd": 94860,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=STLN",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-07-10",
+     "name": "Jorey Chernett",
+     "role": "10% Owner",
+     "shares": 15000,
+     "price": 5.85,
+     "usd": 87750,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=STLN",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24",
+   "note": "Chernett is a 10% owner, not an officer; no officer/director open-market buys"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-08-21",
+     "name": "Brad Hively",
+     "role": "Director",
+     "shares": 298853,
+     "price": 6.51,
+     "usd": 1946310,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=STLN",
+     "plan_10b5_1": null,
+     "history": "~42% of his direct holding (411,976 left); Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-07-14",
+     "name": "Yale Podnos",
+     "role": "Chief Medical Officer",
+     "shares": 23452,
+     "price": 6.41,
+     "usd": 150340,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=STLN",
+     "plan_10b5_1": null,
+     "history": "exercise-and-sell; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24",
+   "note": "Chernett is a 10% owner, not an officer; no officer/director open-market buys"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter holders table"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives dollar flows only; dollar totals excluded per failure log; Fintel 403 per registry"
+  },
+  "holders_up": {
+   "value": 74,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional buyers (MarketBeat)"
+  },
+  "holders_down": {
+   "value": 22,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional sellers (MarketBeat)"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street",
+     "change_pct": null,
+     "shares": 1552917
+    },
+    {
+     "fund": "Formula Growth",
+     "change_pct": null,
+     "shares": 300000
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 7.47,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 11.1% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 7.4,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/STLN/short-interest/",
+   "as_of": "2026-09-15"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-06",
+    "event": "Q3 2026 earnings (aggregator pattern; company guided Q3 adj. EBITDA $0.5-1.5M)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.sec.gov/Archives/edgar/data/0001799191/000107997326001006/ex99x1.htm",
+  "as_of": "2026-08-06"
+ },
+ "why_it_fell": {
+  "value": "Not down: 8.7% below 52w high.",
+  "source": "https://finviz.com/quote.ashx?t=STLN",
+  "as_of": "2026-09-24"
+ },
+ "financing": {
+  "cash": {
+   "value": 41.1,
+   "source": "https://www.sec.gov/Archives/edgar/data/0001799191/000107997326001006/ex99x1.htm",
+   "as_of": "2026-06-30",
+   "note": "USD millions, cash + equivalents + marketable securities unless noted"
+  },
+  "quarterly_burn": {
+   "value": 3.9,
+   "source": "https://stockanalysis.com/stocks/stln/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "avg quarterly FCF H1 2026 (+11.03, -3.26); positive, not a burn"
+  },
+  "runway_quarters": {
+   "value": null,
+   "source": "https://stockanalysis.com/stocks/stln/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "not meaningful: guided FY26 FCF +$5-15M; debt $79.9M (OrbiMed refinancing repaid $86M Deerfield convertible)"
+  },
+  "company_runway_statement": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no explicit runway statement"
+  },
+  "recent_offering": {
+   "value": "no equity offering; 2026 OrbiMed debt refinancing repaid $86M Deerfield convertible note",
+   "source": "https://finviz.com/quote.ashx?t=STLN",
+   "as_of": "2026-09-24"
+  },
+  "binary_events_6m": []
+ },
+ "forward": {
+  "periods_aligned": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/stln/forecast/",
+   "as_of": "2026-09-24",
+   "note": "revenue/EPS aligned to FY2026/FY2027 calendar years, but EBIT/CFO/capex unavailable so periods not fully verified"
+  },
+  "currency": "USD",
+  "units": "USD millions except per-share",
+  "accounting_basis": "GAAP (StockAnalysis/S&P Global consensus)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex (levered)",
+  "revision_period_end": null,
+  "fy1": {
+   "revenue": {
+    "value": 665.01,
+    "source": "https://stockanalysis.com/stocks/stln/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: EPS consensus not shown on StockAnalysis"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 883.97,
+    "source": "https://stockanalysis.com/stocks/stln/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: EPS consensus not shown on StockAnalysis"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 5,
+    "source": "https://stockanalysis.com/stocks/stln/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy, S&P Global via StockAnalysis"
+   },
+   "hold": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/stln/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/stln/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ returned \"Oops, something went wrong\"; Zacks bot-blocked"
+   },
+   "down_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+   },
+   "analysts": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 6.51,
+    "source": "https://finviz.com/quote.ashx?t=STLN",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 714.28,
+    "source": "https://finviz.com/quote.ashx?t=STLN",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled; loss-making biotech, WACC not meaningful for screening"
+   }
+  },
+  "note": "EPS consensus not shown on StockAnalysis; MarketBeat shows Q3/Q4 EPS -0.06 each"
+ },
+ "judgment": {
+  "prospect_pts": 5,
+  "prospect_why": "value-based oncology; FY revenue raised to $650-670M",
+  "competition_pts": 3,
+  "competition_why": "GM 14.5%, EV/S 1.2",
+  "macro_fit_pts": 3,
+  "macro_fit_why": "small cap with OrbiMed debt",
+  "narrative_pts": 3,
+  "narrative_why": "outside the themes",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

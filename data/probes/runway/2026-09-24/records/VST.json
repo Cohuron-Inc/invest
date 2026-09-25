@@ -1,0 +1,779 @@
+{
+ "ticker": "VST",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:28:55+00:00",
+ "price": {
+  "close": {
+   "value": 137.94,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 217.1,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 132.66,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -36.46,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24",
+   "note": "computed from close and 52w high"
+  },
+  "sma50_pct": {
+   "value": -5.45,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -11.45,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "fifty_above_200": {
+   "value": false,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price sits further above the 200 than the 50"
+  },
+  "perf_1m_pct": {
+   "value": -0.78,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -17.78,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLU",
+   "source": "https://finviz.com/quote.ashx?t=XLU",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -9.12,
+   "source": "https://finviz.com/quote.ashx?t=XLU",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -14.15,
+   "source": "https://finviz.com/quote.ashx?t=XLU",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24",
+   "note": "below both averages, 50-day below 200-day, 4% above the 52w low after a -17.8% quarter"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/vst/history/",
+   "as_of": "2026-09-24",
+   "note": "reaction-day close 2026-08-07 140.59 vs +5 sessions 2026-08-14 148.13; held = +5d close at or above reaction-day close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/vst/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 20,
+   "source": "https://stockanalysis.com/stocks/vst/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 217.58,
+   "source": "https://stockanalysis.com/stocks/vst/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 305,
+   "source": "https://stockanalysis.com/stocks/vst/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 106,
+   "source": "https://stockanalysis.com/stocks/vst/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 57.74,
+   "source": "https://stockanalysis.com/stocks/vst/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed: StockAnalysis average target vs Finviz close"
+  },
+  "pt_avg_finviz": {
+   "value": 221.0,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean; recorded beside StockAnalysis, not in place of it"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat forecast page not fetched; Finviz mean target is within 10 upside points of StockAnalysis, so the alt is not required"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-18",
+     "broker": "Morgan Stanley",
+     "action": "maintain",
+     "target": 227,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "Wells Fargo",
+     "action": "maintain",
+     "target": 212,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-24",
+     "broker": "Mizuho",
+     "action": "initiate",
+     "target": 169,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-19",
+     "broker": "Exane BNP Paribas",
+     "action": "lower",
+     "target": 255,
+     "reason": "Buy; 282 -> 255"
+    },
+    {
+     "date": "2026-08-19",
+     "broker": "TD Cowen",
+     "action": "lower",
+     "target": 221,
+     "reason": "Buy; 222 -> 221"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/vst/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table, rows dated 2026-07-26 onward as rendered; sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-07",
+   "source": "https://www.marketbeat.com/stocks/NYSE/VST/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 4020000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/VST/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 5460000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/VST/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 0.76,
+   "source": "https://www.marketbeat.com/stocks/NYSE/VST/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_estimate": {
+   "value": 1.61,
+   "source": "https://www.marketbeat.com/stocks/NYSE/VST/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://ts2.tech/en/vistra-nysevst-shares-fall-despite-31-rise-in-ebitda-maintains-2026-outlook/",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "Reaffirmed 2026 adj. EBITDA $6.8-7.6B and adj. FCF before growth $3.925-4.725B, expects at or above midpoint; adj. EBITDA +30.8% y/y. MarketBeat EPS basis 0.76 vs 1.61; a second source quotes adj. EPS $1.68 vs $2.05 and revenue consensus $5.73B: a miss on either basis",
+   "source": "https://ts2.tech/en/vistra-nysevst-shares-fall-despite-31-rise-in-ebitda-maintains-2026-outlook/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": -0.56,
+   "source": "https://stockanalysis.com/stocks/vst/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-07 vs prior close 2026-08-06 (141.38)"
+  },
+  "reaction_5d_pct": {
+   "value": 4.77,
+   "source": "https://stockanalysis.com/stocks/vst/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-14 vs pre-print close 2026-08-06"
+  },
+  "revisions_30d": {
+   "value": "down",
+   "source": "https://api.nasdaq.com/api/analyst/VST/earnings-forecast",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq (Zacks-sourced) FY2026 EPS: 0 up / 2 down revisions over the last 4 weeks, 7 estimates"
+  },
+  "revisions_90d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ returned 'Oops, something went wrong' (twice); Zacks blocked; no 90-day series"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo EPS Trend table empty or failed for this name"
+  },
+  "fcf_ttm": {
+   "value": 2255000000,
+   "source": "https://stockanalysis.com/stocks/vst/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": 2219000000,
+   "source": "https://stockanalysis.com/stocks/vst/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": 0.76,
+   "source": "https://stockanalysis.com/stocks/vst/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "SBC TTM 134,000,000 / Finviz sales TTM 17.60B"
+  },
+  "stock_issued_ttm": {
+   "value": 0,
+   "source": "https://stockanalysis.com/stocks/vst/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "common stock issued, TTM to 2026-06-30"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: nuclear/gas fleet re-rates on hyperscaler power contracts while 2026 adj. EBITDA lands at or above the $6.8-7.6B midpoint and FCF before growth of ~$4.3B funds buybacks.",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/vistra-won-t-stop-declining-113252369.html",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Delivery at or above the 2026 EBITDA guide midpoint and new data-centre PPAs; ERCOT forward power prices.",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/vistra-won-t-stop-declining-113252369.html",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "ERCOT forward prices have softened since Oct 2025 as battery build-out compresses scarcity pricing; revenue missed by >$1.4B in Q2.",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/vistra-won-t-stop-declining-113252369.html",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/vistra-won-t-stop-declining-113252369.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "CEG",
+    "NRG"
+   ],
+   "source": "https://stockanalysis.com/stocks/vst/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: gross margin not reported in this format (utility income statement)"
+  },
+  "fwd_pe": {
+   "value": 13.62,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "CEG": 19.65
+   },
+   "source": "https://finviz.com/quote.ashx?t=CEG",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 3.88,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peer pages not fetched"
+  },
+  "substitute": {
+   "value": "Battery storage in ERCOT compressing peak prices; new gas build.",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/vistra-won-t-stop-declining-113252369.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table runs back before 2026-06-26 for this name, so the full trailing 90 days is covered; exercises and proposed (Form 144) sales excluded"
+  },
+  "buys_90d": {
+   "value": [
+    {
+     "date": "2026-09-01",
+     "name": "BURKE JAMES A",
+     "role": "President and CEO",
+     "shares": 4465,
+     "price": 135.25,
+     "usd": 603891,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1268406/000126840626000009/xslF345X06/wk-form4_1788356308.xml",
+     "plan_10b5_1": false,
+     "history": "3 buys in 9 days (Aug 24, Aug 31, Sep 1) by the CEO via JAMEB LP; Form 4 checked: code P, 10b5-1 box unmarked, weighted-average prices"
+    },
+    {
+     "date": "2026-08-31",
+     "name": "BURKE JAMES A",
+     "role": "President and CEO",
+     "shares": 2200,
+     "price": 135.99,
+     "usd": 299178,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1268406/000126840626000009/xslF345X06/wk-form4_1788356308.xml",
+     "plan_10b5_1": false,
+     "history": "3 buys in 9 days (Aug 24, Aug 31, Sep 1) by the CEO via JAMEB LP; Form 4 checked: code P, 10b5-1 box unmarked, weighted-average prices"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "BURKE JAMES A",
+     "role": "President and CEO",
+     "shares": 2000,
+     "price": 135.0,
+     "usd": 270000,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1268406/000126840626000007/xslF345X06/wk-form4_1787601817.xml",
+     "plan_10b5_1": false,
+     "history": "3 buys in 9 days (Aug 24, Aug 31, Sep 1) by the CEO via JAMEB LP; Form 4 checked: code P, 10b5-1 box unmarked, weighted-average prices"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-08",
+     "name": "Moldovan Kristopher E.",
+     "role": "EVP and CFO",
+     "shares": 20000,
+     "price": 151.03,
+     "usd": 3020600,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1692819/000194049426000006/xslF345X06/wk-form4_1789072625.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-09-08",
+     "name": "HUDSON SCOTT A",
+     "role": "EVP & President Vistra Retail",
+     "shares": 44444,
+     "price": 151.82,
+     "usd": 6747545,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1692819/000172855326000006/xslF345X06/wk-form4_1789072599.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24",
+   "note": "plan_10b5_1 null = not verified on the Form 4"
+  },
+  "finviz_net_change_pct": {
+   "value": -3.4,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://api.nasdaq.com/api/company/VST/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-holder rows dated 6/30/2026; Vanguard Group row still 12/31/2025"
+  },
+  "net_shares": {
+   "value": 3094073,
+   "source": "https://api.nasdaq.com/api/company/VST/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq 13F summary (latest filings, most dated 2026-06-30); net = increased-position shares minus decreased-position shares"
+  },
+  "holders_up": {
+   "value": 877,
+   "source": "https://api.nasdaq.com/api/company/VST/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_down": {
+   "value": 570,
+   "source": "https://api.nasdaq.com/api/company/VST/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_new": {
+   "value": 235,
+   "source": "https://api.nasdaq.com/api/company/VST/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_exited": {
+   "value": 135,
+   "source": "https://api.nasdaq.com/api/company/VST/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Goldman Sachs Group",
+     "change_pct": 42.0,
+     "shares": 1403075
+    },
+    {
+     "fund": "Norges Bank",
+     "change_pct": 25.6,
+     "shares": 1182621
+    },
+    {
+     "fund": "UBS Group",
+     "change_pct": 17.4,
+     "shares": 800517
+    },
+    {
+     "fund": "Morgan Stanley",
+     "change_pct": 7.6,
+     "shares": 623792
+    }
+   ],
+   "source": "https://api.nasdaq.com/api/company/VST/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-15 holders by value; change_pct null = new position"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://api.nasdaq.com/api/company/VST/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "no full exit among the top-15 holders; large reductions are listed in named_cuts"
+  },
+  "named_cuts": {
+   "value": [
+    {
+     "fund": "JPMorgan Chase",
+     "change_pct": -56.6,
+     "shares": -4236776
+    },
+    {
+     "fund": "FMR",
+     "change_pct": -10.4,
+     "shares": -1647805
+    },
+    {
+     "fund": "MFS",
+     "change_pct": -20.0,
+     "shares": -790963
+    }
+   ],
+   "source": "https://api.nasdaq.com/api/company/VST/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 3.24,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 2.46,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Finviz gives no settlement date; Nasdaq short-interest API covers Nasdaq-listed names only"
+  },
+  "finviz_inst_change_pct": {
+   "value": 0.62,
+   "source": "https://finviz.com/quote.ashx?t=VST",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float_alt": {
+   "value": 3.44,
+   "source": "https://stockanalysis.com/stocks/vst/statistics/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis float basis; differs from Finviz"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-05",
+    "event": "Q3 2026 earnings (MarketBeat estimate; not confirmed by company)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NYSE/VST/earnings/",
+  "as_of": "2026-09-24",
+  "note": "next 6 months; 'confirmed' means company-announced"
+ },
+ "why_it_fell": {
+  "value": "Down 36% from the high: ERCOT forward power prices softened from Oct 2025 as battery capacity flooded the grid, and Q2 revenue ($4.02B) and EPS missed badly despite EBITDA +31% and a reaffirmed guide.",
+  "source": "https://finance.yahoo.com/markets/stocks/articles/vistra-won-t-stop-declining-113252369.html",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute; EPS per share",
+  "accounting_basis": "revenue consensus; EPS = StockAnalysis adjusted (normalized) consensus; EBIT = StockAnalysis operating income consensus",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "not available (CFO/capex not published)",
+  "revision_period_end": "2026-09-24",
+  "note": "FY1/FY2 revenue and adjusted EPS from the same StockAnalysis snapshot; FY2 EBIT is behind a paywall",
+  "fy1": {
+   "revenue": {
+    "value": 22464876530,
+    "source": "https://stockanalysis.com/stocks/vst/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 8.61655,
+    "source": "https://stockanalysis.com/stocks/vst/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 5091028180,
+    "source": "https://stockanalysis.com/stocks/vst/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF 4,050,351,670 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF 4,050,351,670 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 23912457850,
+    "source": "https://stockanalysis.com/stocks/vst/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 10.36561,
+    "source": "https://stockanalysis.com/stocks/vst/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is [PRO]-gated on StockAnalysis",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 19,
+    "source": "https://stockanalysis.com/stocks/vst/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy"
+   },
+   "hold": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/vst/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/vst/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell + strong sell"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://api.nasdaq.com/api/analyst/VST/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY2026 EPS; Nasdaq 4-week revision counts"
+   },
+   "down_30d": {
+    "value": 2,
+    "source": "https://api.nasdaq.com/api/analyst/VST/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 7,
+    "source": "https://api.nasdaq.com/api/analyst/VST/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimates for FY2026 EPS on that provider"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts from any fetchable source",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 137.94,
+    "source": "https://finviz.com/quote.ashx?t=VST",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 66370000000.0,
+    "source": "https://stockanalysis.com/stocks/vst/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 4,
+  "prospect_why": "EBITDA guide held after a large Q2 revenue miss; PPAs are the story",
+  "competition_pts": 5,
+  "competition_why": "nuclear and gas fleet; fwd P/E 13.6 below CEG 19.7",
+  "macro_fit_pts": 5,
+  "macro_fit_why": "cash-flow value archetype 5: FCF equals net income, buybacks",
+  "narrative_pts": 4,
+  "narrative_why": "AI power improving from a low base; quiet improvement",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

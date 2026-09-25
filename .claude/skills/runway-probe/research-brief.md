@@ -15,6 +15,8 @@ below, in this order of sources:
 3. Use WebSearch only for "why it fell" and to locate a page the registry does not
    cover. Record the URL you end up reading.
 
+SEC EDGAR requires a contact User-Agent. Never put the operator's email or any personal address in a request header; if EDGAR refuses a generic project string, cite the Finviz row and mark the Form 4 unopened.
+
 Never guess a number. A field you cannot find is `null` with a note saying why. Every
 value carries the URL it came from and the date the page states for it. Budget 6 to 10
 fetches per ticker.

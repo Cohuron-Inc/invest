@@ -1,0 +1,719 @@
+{
+ "ticker": "GLW",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 154.15,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 271.78,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 77.05,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -43.28,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24",
+   "note": "computed from Finviz close and 52w high"
+  },
+  "sma50_pct": {
+   "value": 0.88,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 3.8,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 4.75,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -32.39,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS Information Technology"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA50/SMA200 distance, drawdown and 1m/3m performance"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/glw/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-04 (159.89) vs pre-print close 2026-07-27 (143.36); true = price 5 sessions after the print at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/glw/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 17,
+   "source": "https://stockanalysis.com/stocks/glw/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 192.44,
+   "source": "https://stockanalysis.com/stocks/glw/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 238.0,
+   "source": "https://stockanalysis.com/stocks/glw/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 129.0,
+   "source": "https://stockanalysis.com/stocks/glw/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 24.84,
+   "source": "https://stockanalysis.com/stocks/glw/forecast/",
+   "as_of": "2026-09-24",
+   "note": "SA average target vs Finviz close"
+  },
+  "pt_finviz": {
+   "value": 193.87,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded for comparison"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-14",
+     "broker": "Mizuho Securities",
+     "action": "reiterates",
+     "rating": "Buy",
+     "target": 180,
+     "target_old": 210,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Truist Financial",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": null,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Oppenheimer",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 200,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-09",
+     "broker": "Citi",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 220,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-08-26",
+     "broker": "J.P. Morgan",
+     "action": "maintains",
+     "rating": "Hold",
+     "target": null,
+     "target_old": null,
+     "reason": "not stated on source page"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/glw/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free page shows only the five most recent sell-side actions; older actions in the 60-day window may be missing"
+  },
+  "pt_avg_alt": {
+   "value": 176.5,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat consensus; upside 14.5% vs StockAnalysis 24.8%"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-28",
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 4740000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 4630000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 0.78,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/earnings/",
+   "as_of": "2026-09-24",
+   "note": "non-GAAP"
+  },
+  "eps_estimate": {
+   "value": 0.755,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/earnings/",
+   "as_of": "2026-07-28"
+  },
+  "guide_detail": {
+   "value": "Q3 guide core EPS $0.85-0.89 vs $0.85 consensus, core sales $4.9-5.0B vs $5.0B consensus; coverage called it slightly below elevated expectations. Labelled held (in line), not cut",
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/earnings/",
+   "as_of": "2026-07-28"
+  },
+  "reaction_day_pct": {
+   "value": -12.1,
+   "source": "https://stockanalysis.com/stocks/glw/history/",
+   "as_of": "2026-07-28",
+   "note": "2026-07-28 close 126.01 vs 2026-07-27 close 143.36"
+  },
+  "reaction_5d_pct": {
+   "value": 11.53,
+   "source": "https://stockanalysis.com/stocks/glw/history/",
+   "as_of": "2026-08-04",
+   "note": "pre-print close to the close five sessions after the reaction day"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/GLW/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Dec-2026): current 3.28, 30d ago 3.27, 90d ago 3.18; flat = within 0.5%"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/GLW/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Dec-2026): current 3.28, 30d ago 3.27, 90d ago 3.18; flat = within 0.5%"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 3.28,
+    "d30": 3.27,
+    "d90": 3.18
+   },
+   "source": "https://finance.yahoo.com/quote/GLW/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Dec-2026)"
+  },
+  "fcf_ttm": {
+   "value": 2395000000,
+   "source": "https://stockanalysis.com/stocks/glw/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "sum of last four quarters, quarters ending 2026-06-30, 2026-03-31, 2025-12-31, 2025-09-30"
+  },
+  "net_income_ttm": {
+   "value": 1900000000,
+   "source": "https://stockanalysis.com/stocks/glw/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "fcf_to_ni": {
+   "value": 1.26,
+   "source": "https://stockanalysis.com/stocks/glw/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": 2.47,
+   "source": "https://stockanalysis.com/stocks/glw/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "TTM stock-based compensation / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): AI data-center fiber and connectivity drive Optical Communications (+32% YoY to $2.07B in Q2); consensus core EPS $3.28 (FY26) to $4.35 (FY27).",
+   "source": "https://stockanalysis.com/stocks/glw/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "optical growth re-accelerating as hyperscaler fiber orders ship",
+   "source": "https://stockanalysis.com/stocks/glw/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: optical growth slowed from 36% to 32%, the Q3 guide was only in line, Gorilla Glass smartphone demand is soft, and the forward P/E of 35 is above its optics peers.",
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/earnings/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "COHR",
+    "LITE"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": null,
+   "note": "no source read states a share trend"
+  },
+  "gross_margin_4q": {
+   "value": [
+    36.14,
+    36.87,
+    35.54,
+    37.07
+   ],
+   "source": "https://stockanalysis.com/stocks/glw/financials/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "latest first, quarters ending 2026-06-30, 2026-03-31, 2025-12-31, 2025-09-30"
+  },
+  "fwd_pe": {
+   "value": 35.45,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "COHR": 20.65,
+    "LITE": 27.39
+   },
+   "source": "https://finviz.com/quote.ashx?t=COHR",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 8.27,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "COHR": 8.26,
+    "LITE": 27.3
+   },
+   "source": "https://finviz.com/quote.ashx?t=COHR",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute or new entrant in the sources read"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to before 2026-06-26 (full 90 days); every Form 4 sale opened on EDGAR and the 10b5-1 checkbox read; option exercises, Form 144 notices and withholding (F) excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-04",
+     "name": "Gullo Michelle L",
+     "role": "Senior Vice President & CHRO",
+     "shares": 9874,
+     "price": 152.29,
+     "usd": 1503713,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000259/xslF345X06/form4.xml",
+     "plan_10b5_1": false,
+     "history": "owned after: 9,384 sh"
+    },
+    {
+     "date": "2026-08-28",
+     "name": "STEVERSON LEWIS A",
+     "role": "Vice Chairman, EVP and CLAO",
+     "shares": 13100,
+     "price": 151.29,
+     "usd": 1981929,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000257/xslF345X06/form4.xml",
+     "plan_10b5_1": false,
+     "history": "owned after: 15,052 sh"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24",
+   "note": "2 sales, $3,485,642; unique sellers 2"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -0.43,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle (Q2 2026) as shown on MarketBeat filings list"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel is 403 per failure log and MarketBeat dollar totals are excluded; no clean net share change"
+  },
+  "holders_up": {
+   "value": 1446,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 903,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street Corp",
+     "change_pct": 13.4,
+     "shares": 41108384
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 2.05,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 2.53% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 1.9,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 1.59"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/GLW/short-interest/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_trans_pct": {
+   "value": 0.95,
+   "source": "https://finviz.com/quote.ashx?t=GLW",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-27",
+    "event": "Q3 2026 earnings (MarketBeat estimate)",
+    "confirmed": false,
+    "source": "https://www.marketbeat.com/stocks/NYSE/GLW/earnings/"
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NYSE/GLW/earnings/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": "Fell 12% on 2026-07-28 (as much as 20% intraday) on a Q3 guide slightly below elevated consensus and slower optical growth, leading a rout in optical stocks; 43.3% below the $271.78 high.",
+  "source": "https://www.cnbc.com/2026/07/28/corning-glw-stock-optical-ai.html",
+  "as_of": "2026-07-28"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; EPS in USD per share",
+  "accounting_basis": "consensus adjusted (non-GAAP) EPS; revenue and operating income as S&P Global consensus",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex; forward CFO/capex not published on free sources",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 19257200370,
+    "source": "https://stockanalysis.com/stocks/glw/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": 4162261209.999999,
+    "source": "https://stockanalysis.com/stocks/glw/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global consensus operating income from the StockAnalysis estimates table"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward CFO not published; StockAnalysis shows consensus FY1 free cash flow of 2,254,480,000 only"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward capex not published on free sources"
+   },
+   "eps": {
+    "value": 3.27771,
+    "source": "https://stockanalysis.com/stocks/glw/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "fcf_consensus": {
+    "value": 2254480000,
+    "source": "https://stockanalysis.com/stocks/glw/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus FY1 free cash flow; not split into CFO and capex"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 22951459370,
+    "source": "https://stockanalysis.com/stocks/glw/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis paywall"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": 4.34986,
+    "source": "https://stockanalysis.com/stocks/glw/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 13,
+    "source": "https://stockanalysis.com/stocks/glw/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global Sep '26: strong buy 13 + buy 0"
+   },
+   "hold": {
+    "value": 4,
+    "source": "https://stockanalysis.com/stocks/glw/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/glw/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell 0 + strong sell 0"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 10,
+    "source": "https://finance.yahoo.com/quote/GLW/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 column; provider counts revision events"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/GLW/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "analysts": {
+    "value": 15,
+    "source": "https://finance.yahoo.com/quote/GLW/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "number of FY1 EPS estimates on the same page"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 154.15,
+    "source": "https://finviz.com/quote.ashx?t=GLW",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": null
+   },
+   "enterprise_value": {
+    "value": 140220000000.0,
+    "source": "https://finviz.com/quote.ashx?t=GLW",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "Finviz enterprise value"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: WACC not modelled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 5,
+  "prospect_why": "optical +32% y/y is reported; Q3 guide soft",
+  "competition_pts": 4,
+  "competition_why": "GM 37.1 to 36.1% flat; fwd P/E 35.5 above COHR and LITE",
+  "macro_fit_pts": 3,
+  "macro_fit_why": "AI networking archetype 1 plus 2: a dividend-paying industrial with 1.26x cash conversion is not long duration",
+  "narrative_pts": 2,
+  "narrative_why": "AI networking and optics lagging and worsening",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

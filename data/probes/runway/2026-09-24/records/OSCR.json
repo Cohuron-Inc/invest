@@ -1,0 +1,812 @@
+{
+ "ticker": "OSCR",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 28.87,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 34.48,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 10.69,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -16.27,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -5.91,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 34.2,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price distance to SMA50 < distance to SMA200"
+  },
+  "perf_1m_pct": {
+   "value": -6.66,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 0.7,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLV",
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -3.09,
+   "source": "https://finance.yahoo.com/quote/XLV/history/ (data/market/2026-09-24/yahoo/XLV.json)",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 9.15,
+   "source": "https://finance.yahoo.com/quote/XLV/history/ (data/market/2026-09-24/yahoo/XLV.json)",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24",
+   "note": "pulled back 16% from the 2026-09-14 high (34.48): 5.9% below 50 DMA, 34% above 200 DMA, 50>200; -9.7% this week, -5.4% on 09-24"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://finance.yahoo.com/quote/OSCR/history/",
+   "as_of": "2026-09-24",
+   "note": "print 2026-08-06 BMO: -11.86% on the day despite the raise, then +16% in 5 sessions to 30.78 (+2.2% vs pre-print 30.11); gap-down fully reversed"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Hold",
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 11,
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 34.6,
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 49,
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 26,
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 19.85,
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_finviz": {
+   "value": 35.36,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": 33.9,
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat Hold 13 analysts (1/8/4), low $16; within 10 points"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-23",
+     "broker": "Piper Sandler",
+     "action": "reiterate",
+     "target": 48,
+     "reason": "Overweight"
+    },
+    {
+     "date": "2026-09-22",
+     "broker": "Raymond James",
+     "action": "reiterate",
+     "target": 42,
+     "reason": "Outperform (raised 34->42 on 09-18)"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "Jefferies",
+     "action": "reiterate",
+     "target": 31,
+     "reason": "Hold"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "Baird",
+     "action": "raise target",
+     "target": 33,
+     "reason": "Neutral; 27->33"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "Goldman Sachs",
+     "action": "raise target",
+     "target": 34,
+     "reason": "Neutral; 30->34"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "Bank of America",
+     "action": "raise target",
+     "target": 30,
+     "reason": "Underperform; 28->30"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "Barclays",
+     "action": "raise target",
+     "target": 49,
+     "reason": "Overweight; 39->49"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "Stephens",
+     "action": "reiterate",
+     "target": 34,
+     "reason": "Equal Weight"
+    },
+    {
+     "date": "2026-09-15",
+     "broker": "Wells Fargo",
+     "action": "reiterate",
+     "target": 27,
+     "reason": "Equal Weight (raised 20->27 on 08-13)"
+    },
+    {
+     "date": "2026-08-07",
+     "broker": "UBS",
+     "action": "raise target",
+     "target": 26,
+     "reason": "Neutral; 20->26"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/forecast/",
+   "as_of": "2026-09-24",
+   "note": "cluster of target raises 09-17 (likely an investor event); no rating changes"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-06",
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 4880000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 4730000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 1.1,
+   "source": "https://www.sec.gov/Archives/edgar/data/1568651/000156865126000066/oscarhealthsecondquarter20.htm",
+   "as_of": "2026-08-06",
+   "note": "GAAP diluted"
+  },
+  "eps_estimate": {
+   "value": 0.4,
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.sec.gov/Archives/edgar/data/1568651/000156865126000066/oscarhealthsecondquarter20.htm",
+   "as_of": "2026-08-06"
+  },
+  "guide_detail": {
+   "value": "FY26 revenue raised to $18.7-19.0B and earnings from operations to $500-700M; Q2 helped by favourable prior-period development. Stock fell 11.9% on the day",
+   "source": "https://www.sec.gov/Archives/edgar/data/1568651/000156865126000066/oscarhealthsecondquarter20.htm",
+   "as_of": "2026-08-06"
+  },
+  "reaction_day_pct": {
+   "value": -11.86,
+   "source": "https://finance.yahoo.com/quote/OSCR/history/",
+   "as_of": "2026-08-06"
+  },
+  "reaction_5d_pct": {
+   "value": 2.23,
+   "source": "https://finance.yahoo.com/quote/OSCR/history/",
+   "as_of": "2026-08-13"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/OSCR/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY26: 8 up / 0 down in 30d; 1.75 -> 1.91"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/OSCR/analysis/",
+   "as_of": "2026-09-24",
+   "note": "1.06 -> 1.91"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 1.91,
+    "d30": 1.75,
+    "d90": 1.06
+   },
+   "source": "https://finance.yahoo.com/quote/OSCR/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "fcf_ttm": {
+   "value": 4380000000.0,
+   "source": "https://stockanalysis.com/stocks/oscr/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "insurer float: premium timing and risk-adjustment balances swing CFO"
+  },
+  "net_income_ttm": {
+   "value": 550750000.0,
+   "source": "https://stockanalysis.com/stocks/oscr/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "FCF/NI ~8x, not a quality signal for an insurer"
+  },
+  "sbc_pct_revenue": {
+   "value": 0.5,
+   "source": "https://stockanalysis.com/stocks/oscr/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Oscar is the ACA-exchange leader turning structurally profitable (first full-year profit in 2026, revenue +60%), with ICHRA and AI-run operations extending margin.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1568651/000156865126000066/oscarhealthsecondquarter20.htm",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "ACA risk pool and 2027 pricing; FY26 earnings from operations $500-700M",
+   "source": "https://www.sec.gov/Archives/edgar/data/1568651/000156865126000066/oscarhealthsecondquarter20.htm",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: exchange enrolment and subsidy policy risk, Q3/Q4 seasonal losses (Q4 est -$1.13), results flattered by prior-period development, founder and CEO selling ($22.8M Schlosser in Aug); BofA Underperform",
+   "source": "https://finance.yahoo.com/quote/OSCR/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.sec.gov/Archives/edgar/data/1568651/000156865126000066/oscarhealthsecondquarter20.htm",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "CNC",
+    "MOH"
+   ],
+   "source": "https://stockanalysis.com/stocks/cnc/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "gaining",
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24",
+   "note": "revenue +60% 2026E vs peers; qualitative"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: insurer: gross margin not meaningful; operating margin 7.96/15.15/-11.90/-4.33 (Q2-26..Q3-25)"
+  },
+  "fwd_pe": {
+   "value": 16.55,
+   "source": "https://stockanalysis.com/stocks/oscr/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz 12.30"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "CNC": 13.33,
+    "MOH": 27.47
+   },
+   "source": "https://stockanalysis.com/stocks/cnc/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 0.35,
+   "source": "https://stockanalysis.com/stocks/oscr/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "CNC": 0.12,
+    "MOH": 0.21
+   },
+   "source": "https://stockanalysis.com/stocks/moh/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "employer ICHRA vs group plans; Centene Ambetter on exchanges",
+   "source": "https://stockanalysis.com/stocks/cnc/statistics/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24",
+   "note": "Finviz table (to Nov 2025) and every EDGAR Form 4 2026-06-26..09-24 checked. Excluded as tax withholding: CEO Bertolini ~1.24M shares Jun 26-30 (~$35.8M, sell-to-cover for PSU/RSU vesting under 10b5-1 instruction letter) and the 2026-09-03 sell-to-cover by Liang, Baltrus, Blackley, McAnaney, Schlosser. Discretionary sales ~$25M, no buys"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24",
+   "note": "window 2026-06-26 to 2026-09-24; Finviz insider table, each trade verified on the EDGAR Form 4 XML"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-18",
+     "name": "Vanessa Wittman",
+     "role": "Director",
+     "shares": 25000,
+     "price": 32.24,
+     "usd": 806000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1229265/000122926526000024/xslF345X06/wk-form4_1790108402.xml",
+     "plan_10b5_1": true,
+     "history": "plan adopted 2026-06-18; 112,121 after"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Mario Schlosser",
+     "role": "Director, co-founder",
+     "shares": 600000,
+     "price": 30.34,
+     "usd": 18204000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1568651/000184432026000016/xslF345X06/wk-form4_1788207372.xml",
+     "plan_10b5_1": false,
+     "history": "Class B converted then sold; no 10b5-1 flag; 480,866 Class A after (plus Class B/trust holdings)"
+    },
+    {
+     "date": "2026-08-28",
+     "name": "Mario Schlosser",
+     "role": "Director, co-founder",
+     "shares": 150000,
+     "price": 30.79,
+     "usd": 4618500,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1568651/000184432026000016/xslF345X06/wk-form4_1788207372.xml",
+     "plan_10b5_1": false,
+     "history": "same filing"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "R. Scott Blackley",
+     "role": "CFO",
+     "shares": 18750,
+     "price": 31.74,
+     "usd": 595125,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1525020/000152502026000013/xslF345X06/wk-form4_1787257015.xml",
+     "plan_10b5_1": false,
+     "history": "no 10b5-1 flag; 56,250 after (25% of direct holding in that line)"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Mario Schlosser",
+     "role": "Director, co-founder",
+     "shares": 47500,
+     "price": 31.24,
+     "usd": 1483900,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1568651/000184432026000013/xslF345X06/wk-form4_1783368657.xml",
+     "plan_10b5_1": true,
+     "history": "plan adopted 2026-03-24"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24",
+   "note": "open-market S-code sales only; option-exercise legs (M), tax withholding (F) and sell-to-cover excluded; plan flag from Form 4 10b5-1 checkbox/footnote"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat visible table only runs to 2026-09-09 and mixes Q4-25/Q1-26 filings"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_up": {
+   "value": 204,
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_down": {
+   "value": 94,
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Bank of America",
+     "change_pct": 205.1,
+     "shares": 1922810
+    },
+    {
+     "fund": "Dimensional",
+     "change_pct": 22.1,
+     "shares": 758889
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "Q1-26 filings"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Engineers Gate",
+     "change_pct": -58.3,
+     "shares": -431492
+    },
+    {
+     "fund": "Farallon (Q4-25)",
+     "change_pct": -92.7,
+     "shares": -3352438
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 7.07,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat 7.44%"
+  },
+  "days_to_cover": {
+   "value": 3.2,
+   "source": "https://finviz.com/quote.ashx?t=OSCR",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/OSCR/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "17.77M, +8.6%"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-01",
+    "event": "ACA 2027 open enrollment begins (statutory window)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-11-05",
+    "event": "Q3 earnings (SA estimate; MarketBeat estimates 11-09)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/oscr/statistics/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not applicable: 16.3% below 52w high; the 09-21 gap-down had no stated cause (MarketBeat)"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": {
+   "value": "USD",
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "units": {
+   "value": "USD; EPS per share",
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "accounting_basis": {
+   "value": "GAAP/adjusted EPS (same for OSCR)",
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy1_end": {
+   "value": "2026-12-31",
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy2_end": {
+   "value": "2027-12-31",
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "estimate_vintage": {
+   "value": "2026-09-24",
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "model_assumptions": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "no model"
+  },
+  "fcf_basis": {
+   "value": "CFO minus capex (SA consensus FCF); insurer float distorts",
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "revision_period_end": {
+   "value": "2026-09-24",
+   "source": "https://finance.yahoo.com/quote/OSCR/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "fy1": {
+   "revenue": {
+    "value": 18730000000.0,
+    "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 600000000.0,
+    "source": "https://www.sec.gov/Archives/edgar/data/1568651/000156865126000066/oscarhealthsecondquarter20.htm",
+    "as_of": "2026-08-06",
+    "kind": "guidance",
+    "note": "midpoint of earnings-from-operations guide $500-700M"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "fcf": {
+    "value": 3190000000.0,
+    "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 1.91,
+    "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": 6.59,
+    "source": "https://stockanalysis.com/stocks/oscr/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "NOL-shielded"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 20790000000.0,
+    "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": 2.17,
+    "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 3,
+    "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 7,
+    "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 8,
+    "source": "https://finance.yahoo.com/quote/OSCR/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/OSCR/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 8,
+    "source": "https://finance.yahoo.com/quote/OSCR/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Yahoo 7d/30d only"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Yahoo 7d/30d only"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 28.87,
+    "source": "https://finviz.com/quote.ashx?t=OSCR",
+    "as_of": "2026-09-24"
+   },
+   "enterprise_value": {
+    "value": 5310000000.0,
+    "source": "https://stockanalysis.com/stocks/oscr/statistics/",
+    "as_of": "2026-09-24"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "periods_aligned_evidence": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/oscr/forecast/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "EPS $1.10 vs $0.40; guide raised",
+  "competition_pts": 4,
+  "competition_why": "fwd P/E 16.6",
+  "macro_fit_pts": 3,
+  "macro_fit_why": "small cap 4 minus 1: ACA subsidy policy risk",
+  "narrative_pts": 3,
+  "narrative_why": "outside the themes",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

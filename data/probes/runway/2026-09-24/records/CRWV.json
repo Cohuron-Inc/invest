@@ -1,0 +1,878 @@
+{
+ "ticker": "CRWV",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 90.13,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 153.2,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 60.55,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -41.17,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24",
+   "note": "computed from close and 52w high"
+  },
+  "sma50_pct": {
+   "value": 5.45,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -2.22,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 2.37,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -8.74,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS information technology; XLK used as the sector benchmark"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24",
+   "note": "above 50d (+5.5%), just below 200d (-2.2%), 60.55-153.20 range, +12.8% week on converts/JPM upgrade"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/crwv/history/",
+   "as_of": "2026-09-24",
+   "note": "pre-print close 90.32, reaction-day close 107.73 (+19.28%), close Aug 19, 2026 90.87 (+0.61% vs pre-print). +19.3% gap faded to +0.6% within five sessions"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 40,
+   "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 140.81,
+   "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 317,
+   "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 39,
+   "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 56.23,
+   "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed vs Finviz close"
+  },
+  "pt_avg_alt": {
+   "value": 138.78,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat consensus of 34 analysts; Finviz target mean 141.16"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-24",
+     "broker": "J.P. Morgan",
+     "action": "upgrade to Buy",
+     "target": 125,
+     "reason": "PT 120 -> 125"
+    },
+    {
+     "date": "2026-09-22",
+     "broker": "UBS",
+     "action": "initiate Buy",
+     "target": 120,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-22",
+     "broker": "Evercore ISI",
+     "action": "maintain Buy",
+     "target": null,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Rothschild & Co Redburn",
+     "action": "initiate Sell",
+     "target": 54,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-20",
+     "broker": "Freedom Capital Markets",
+     "action": "maintain Buy",
+     "target": 151,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "Barclays",
+     "action": "maintain Hold",
+     "target": 105,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "Rosenblatt",
+     "action": "reiterate Buy",
+     "target": 250,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "Bernstein",
+     "action": "maintain Sell, raise PT",
+     "target": 74,
+     "reason": "PT 67 -> 74"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/crwv/ratings/",
+   "as_of": "2026-09-24",
+   "note": "free tier shows the latest 5-8 actions only; sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-11",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/earnings/",
+   "as_of": "2026-08-11"
+  },
+  "revenue_actual": {
+   "value": 2575,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/earnings/",
+   "as_of": "2026-08-11",
+   "note": "USD millions"
+  },
+  "revenue_estimate": {
+   "value": 2555,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-08-11",
+   "note": "USD millions; derived: $2,575M / (1 + 0.80% Finviz sales surprise); MarketBeat shows no revenue estimate"
+  },
+  "eps_actual": {
+   "value": -1.14,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/earnings/",
+   "as_of": "2026-08-11"
+  },
+  "eps_estimate": {
+   "value": -1.52,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/earnings/",
+   "as_of": "2026-08-11"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://trendspider.com/blog/coreweave-stock-q2-earnings-guidance-2026/",
+   "as_of": "2026-08-11"
+  },
+  "guide_detail": {
+   "value": "FY26 revenue raised to $12.4-13.2B, adj. operating income $960M-1.15B; Q3 revenue $3.45-3.6B vs $3.4B consensus (MarketBeat); 2026 capex $35-39B, Q3 capex $11.5-13.5B",
+   "source": "https://trendspider.com/blog/coreweave-stock-q2-earnings-guidance-2026/",
+   "as_of": "2026-08-11"
+  },
+  "reaction_day_pct": {
+   "value": 19.28,
+   "source": "https://stockanalysis.com/stocks/crwv/history/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_5d_pct": {
+   "value": 0.61,
+   "source": "https://stockanalysis.com/stocks/crwv/history/",
+   "as_of": "2026-09-24",
+   "note": "close 5 sessions after the reaction day vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/CRWV/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY26 EPS consensus -5.08 now vs -5.19 30d ago vs -4.61 90d ago; 30d: 9 up / 8 down"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/CRWV/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY26 EPS consensus -5.08 now vs -5.19 30d ago vs -4.61 90d ago; 30d: 9 up / 8 down"
+  },
+  "eps_trend": {
+   "value": {
+    "current": -5.08,
+    "d30": -5.19,
+    "d90": -4.61
+   },
+   "source": "https://finance.yahoo.com/quote/CRWV/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year normalized EPS consensus"
+  },
+  "fcf_ttm": {
+   "value": -13660,
+   "source": "https://stockanalysis.com/stocks/crwv/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD millions, trailing twelve months"
+  },
+  "net_income_ttm": {
+   "value": -1930,
+   "source": "https://stockanalysis.com/stocks/crwv/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD millions, trailing twelve months"
+  },
+  "sbc_pct_revenue": {
+   "value": 8.2,
+   "source": "https://stockanalysis.com/stocks/crwv/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "TTM SBC / TTM revenue, computed"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Revenue backlog of ~$104B at June 30 plus >$25B of new commitments converts into revenue as active power grows from 1.5GW to >1.85GW by year-end, doubling revenue again to $26B in 2027.",
+   "source": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx",
+   "as_of": "2026-08-11"
+  },
+  "depends_on": {
+   "value": "Timely power/data-center delivery and continued access to cheap debt; net interest expense ($640M in Q2) must be outrun by adjusted operating income",
+   "source": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx",
+   "as_of": "2026-08-11"
+  },
+  "bear_case": {
+   "value": "Debt/equity 10x, $51.6B debt, net interest $640M a quarter, FCF -$13.7B TTM; customer concentration; insiders and Magnetar selling heavily; repeated converts dilute.",
+   "source": "https://qz.com/coreweave-q2-2026-earnings-revenue-losses-interest-costs-081126",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx",
+   "as_of": "2026-08-11"
+  },
+  "financing": {
+   "value": "Q2: >$10B unsecured notes and converts (incl. inaugural Eurobond), $3.1B DDTL, $1B Jane Street equity; 2026-09-18 priced upsized $3.7B 2.875% converts due 2033 (conv. $97.85, +22.5%; +$500M option); total debt $51.6B vs cash $5.5B; backlog ~$104B + >$25B; capex 2026 $35-39B.",
+   "source": "https://www.nasdaq.com/press-release/coreweave-prices-upsized-37-billion-convertible-senior-notes-offering-2026-09-18",
+   "as_of": "2026-09-24",
+   "note": "debt, converts, ATM and contracted backlog; real 10y yield 2.76% (macro.json)"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "NBIS",
+    "ORCL"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    65.86,
+    65.54,
+    67.61,
+    72.97
+   ],
+   "source": "https://stockanalysis.com/stocks/crwv/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "most recent quarter first; StockAnalysis gross margin (excludes some D&A; Finviz TTM gross margin 24.39%)"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: unprofitable on forward basis; Finviz shows \"-\""
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "NBIS": null,
+    "ORCL": 12.66
+   },
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 12.66,
+   "source": "https://stockanalysis.com/stocks/crwv/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz EV/Sales 12.50"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "NBIS": 50.33,
+    "ORCL": 7.79
+   },
+   "source": "https://finviz.com/quote.ashx?t=NBIS",
+   "as_of": "2026-09-24",
+   "note": "Finviz"
+  },
+  "substitute": {
+   "value": "Hyperscalers building own GPU capacity; NBIS, IREN and Oracle OCI bid for the same labs",
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": false,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24",
+   "note": "Finviz table truncated at 100 rows and stops at 2026-08-04; 2026-06-26 to 2026-08-03 not checked on EDGAR"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "name": "Intrator Michael N",
+     "role": "CEO",
+     "shares": 307692,
+     "price": 81.91,
+     "usd": 25204098,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "two lines 200,000 + 107,692 summed; weekly cadence since Aug suggests a plan; Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-09-08",
+     "name": "Intrator Michael N",
+     "role": "CEO",
+     "shares": 307692,
+     "price": 100.08,
+     "usd": 30794542,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "Intrator Michael N",
+     "role": "CEO",
+     "shares": 307692,
+     "price": 81.66,
+     "usd": 25127375,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Intrator Michael N",
+     "role": "CEO",
+     "shares": 307692,
+     "price": 88.6,
+     "usd": 27262966,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "Intrator Michael N",
+     "role": "CEO",
+     "shares": 307692,
+     "price": 95.72,
+     "usd": 29450777,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-11",
+     "name": "Intrator Michael N",
+     "role": "CEO",
+     "shares": 307692,
+     "price": 89.18,
+     "usd": 27440423,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-04",
+     "name": "Intrator Michael N",
+     "role": "CEO",
+     "shares": 307692,
+     "price": 91.8,
+     "usd": 28245815,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-12",
+     "name": "Magnetar Financial LLC",
+     "role": "10% Owner",
+     "shares": 4376261,
+     "price": 109.4,
+     "usd": 478784912,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Aug 12-14, three lines summed; Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Agrawal Nitin",
+     "role": "CFO",
+     "shares": 66576,
+     "price": 83.7,
+     "usd": 5572345,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-09-08",
+     "name": "McVeety Kristen J",
+     "role": "GC",
+     "shares": 97500,
+     "price": 93.94,
+     "usd": 9158766,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "McVeety Kristen J",
+     "role": "GC",
+     "shares": 156000,
+     "price": 81.63,
+     "usd": 12734129,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-10",
+     "name": "McBee Brannin",
+     "role": "Chief Development Officer",
+     "shares": 750000,
+     "price": null,
+     "usd": 70333187,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Aug 10, 17 and 24 blocks summed; price varies 85.51-106.10; Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-10",
+     "name": "Jain Sachin",
+     "role": "COO",
+     "shares": 13608,
+     "price": 92.09,
+     "usd": 1253161,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Goldberg Chen",
+     "role": "EVP Product & Engineering",
+     "shares": 54426,
+     "price": null,
+     "usd": 5177948,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=CRWV",
+     "plan_10b5_1": null,
+     "history": "Aug 4, 5, 17 and Sep 8 lines summed; Aug 20 withholding-style line excluded; Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24",
+   "note": "Only Aug 4 - Sep 24 visible. Visible sales total about $777M incl. Magnetar $479M, CEO $194M, CDO $70M. Aug 20 lines at $91.88 across officers look like tax withholding and are excluded."
+  },
+  "finviz_insider_trans_pct": {
+   "value": -19.0,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; filings dated Aug-Sep 2026"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel is blocked (failure log) and MarketBeat gives no net share total; dollar totals excluded (CalSTRS row)"
+  },
+  "holders_up": {
+   "value": 667,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter 13F count"
+  },
+  "holders_down": {
+   "value": 150,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published by MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published by MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street",
+     "change_pct": 139.7,
+     "shares": 7058846
+    },
+    {
+     "fund": "National Pension Service",
+     "change_pct": 1194.7,
+     "shares": 524854
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_trans_pct": {
+   "value": 33.05,
+   "source": "https://finviz.com/quote.ashx?t=CRWV",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 15.8,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "MarketBeat 54.94M at 2026-09-15; Finviz 15.01% / 55.57M is the Aug 31 settlement"
+  },
+  "days_to_cover": {
+   "value": 2.4,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CRWV/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "FINRA settlement date per MarketBeat"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-09",
+    "event": "Q3 2026 earnings (estimated)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-10-01",
+    "event": "Initial purchasers option on extra $500M of 2033 converts expires (13 days from issue)",
+    "confirmed": true
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/crwv/statistics/",
+  "as_of": "2026-09-24",
+  "note": "confirmed = company-announced; earnings dates are StockAnalysis/MarketBeat estimates unless stated"
+ },
+ "why_it_fell": {
+  "value": "Down 41% from the 153.20 high as heavy insider and Magnetar selling, widening losses from interest costs ($640M/qtr) and serial debt and convert issuance weighed on the equity.",
+  "source": "https://qz.com/coreweave-q2-2026-earnings-revenue-losses-interest-costs-081126",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD millions; EPS in USD per share",
+  "accounting_basis": "revenue GAAP; EPS non-GAAP adjusted per S&P Global; EBIT = StockAnalysis operating-income consensus (FY1 only)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "StockAnalysis consensus FCF (CFO minus capex, levered) shown as fcf_consensus; CFO and capex split not published",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 12880,
+    "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 1060,
+    "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by free sources",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex consensus not published; company capex guidance in prospect.financing where given",
+    "kind": "consensus"
+   },
+   "fcf_consensus": {
+    "value": -27620,
+    "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -3.96,
+    "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 26320,
+    "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income behind StockAnalysis Pro paywall",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -1.94,
+    "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 28,
+    "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 9,
+    "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 3,
+    "source": "https://stockanalysis.com/stocks/crwv/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 9,
+    "source": "https://finance.yahoo.com/quote/CRWV/analysis/",
+    "as_of": "2026-09-24",
+    "note": "Yahoo EPS Revisions, current fiscal year, revision events",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 8,
+    "source": "https://finance.yahoo.com/quote/CRWV/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 20,
+    "source": "https://finance.yahoo.com/quote/CRWV/analysis/",
+    "as_of": "2026-09-24",
+    "note": "Yahoo current-year EPS analyst count",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 90.13,
+    "source": "https://finviz.com/quote.ashx?t=CRWV",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 95740,
+    "source": "https://stockanalysis.com/stocks/crwv/statistics/",
+    "as_of": "2026-09-24",
+    "note": "USD millions",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 4,
+  "prospect_why": "~$104B backlog is contracted; the 2027 revenue path needs financing",
+  "competition_pts": 2,
+  "competition_why": "GM 73.0 to 65.9% falling; 10x debt to equity",
+  "macro_fit_pts": 0,
+  "macro_fit_why": "the thesis needs the regime to change: $51.6B debt, $640M/quarter interest",
+  "narrative_pts": 1,
+  "narrative_why": "neoclouds lagging",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

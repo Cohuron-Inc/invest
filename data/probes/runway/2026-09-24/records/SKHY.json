@@ -1,0 +1,727 @@
+{
+ "ticker": "SKHY",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "adr": {
+  "value": {
+   "ratio": "1 ADR = 1/10 common share",
+   "listed": "2026-07-10",
+   "offer_price_usd": 149.0,
+   "adrs_offered": 177900000,
+   "exchange": "NASDAQ"
+  },
+  "source": "https://graniteshares.com/research/sk-hynix-adr-skhy-what-the-nasdaq-listing-means-for-the-us-investors/",
+  "as_of": "2026-07-10",
+  "note": "offer $149, first close $168.01 (search summaries of Bloomberg/GraniteShares). Korean market closed 2026-09-24 (last Seoul close 1,862,000 KRW on 2026-09-23). USD/KRW 1,365.24 (Yahoo KRW=X, 2026-09-24). ADR-implied price per common share = 186.37 x 10 x 1,365.24 = 2,544,000 KRW, about 37% above Seoul: an ADR premium or a data error; not resolved"
+ },
+ "price": {
+  "close": {
+   "value": 186.37,
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 199.87,
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 124.8,
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 14.21,
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 13.72,
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 16.82,
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Finviz Perf Quarter blank: listed under one quarter ago"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "GICS sector mapping per sources.md",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "data/market/2026-09-24/yahoo/XLK.json",
+   "as_of": "2026-09-24",
+   "note": "21-session change from repo Yahoo close series; SPY computed the same way matches Finviz exactly (0.17 / 4.48)"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "data/market/2026-09-24/yahoo/XLK.json",
+   "as_of": "2026-09-24",
+   "note": "63-session change from repo Yahoo close series"
+  },
+  "structure": {
+   "value": "breakout",
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24",
+   "note": "ADR +23.6% on 2026-09-21 (151.16 to 188.86 per StockAnalysis history) to within 6.8% of the 199.87 high; averages cover only ~2.5 months of trading; the 50-day sits marginally below the 200-day (price 14.21% over the 50, 13.72% over the 200)"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/skhy/history/",
+   "as_of": "2026-09-24",
+   "note": "Q2 print 2026-07-29 KST (pre US open): ADR close 126.79 (-2.6% vs 130.17); 2026-08-05 close 151.03 (+16.0% vs pre-print). StockAnalysis history returned a Sunday date (Sep 20), so these closes are low-confidence"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/skhy/forecast/",
+   "as_of": "2026-09-23"
+  },
+  "analysts": {
+   "value": 15,
+   "source": "https://stockanalysis.com/stocks/skhy/forecast/",
+   "as_of": "2026-09-23"
+  },
+  "pt_avg": {
+   "value": 248.43,
+   "source": "https://stockanalysis.com/stocks/skhy/forecast/",
+   "as_of": "2026-09-23"
+  },
+  "pt_high": {
+   "value": 355,
+   "source": "https://stockanalysis.com/stocks/skhy/forecast/",
+   "as_of": "2026-09-23"
+  },
+  "pt_low": {
+   "value": 152,
+   "source": "https://stockanalysis.com/stocks/skhy/forecast/",
+   "as_of": "2026-09-23"
+  },
+  "pt_avg_alt": {
+   "value": 253.22,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SKHY/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat, 14 analysts; within 10 points. Finviz Target Price 258.45"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-23",
+     "broker": "Wolfe Research",
+     "action": "raise",
+     "target": 250,
+     "reason": "Outperform, PT 200->250"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "Bank of America",
+     "action": "raise",
+     "target": 268,
+     "reason": "Buy, PT 250->268"
+    },
+    {
+     "date": "2026-09-09",
+     "broker": "J.P. Morgan",
+     "action": "initiate",
+     "target": 245,
+     "reason": "Overweight"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Citi",
+     "action": "upgrade",
+     "target": null,
+     "reason": "to Strong Buy"
+    },
+    {
+     "date": "2026-08-24",
+     "broker": "Needham",
+     "action": "raise",
+     "target": 220,
+     "reason": "Buy, PT 200->220"
+    },
+    {
+     "date": "2026-08-20",
+     "broker": "Barclays",
+     "action": "maintain",
+     "target": 300,
+     "reason": "Overweight"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "Rosenblatt",
+     "action": "initiate",
+     "target": 320,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "Cantor Fitzgerald",
+     "action": "initiate",
+     "target": 300,
+     "reason": "Overweight"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "Stifel",
+     "action": "initiate",
+     "target": 240,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "RBC",
+     "action": "initiate",
+     "target": 200,
+     "reason": "Outperform"
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "William Blair",
+     "action": "initiate",
+     "target": null,
+     "reason": "Outperform (ADR quiet-period initiations)"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SKHY/forecast/",
+   "as_of": "2026-09-24",
+   "note": "US ADR coverage only; Korean-listing coverage is 39-45 analysts (Yahoo 000660.KS)"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-29",
+   "source": "https://news.skhynix.com/en/q2-2026-business-results/",
+   "as_of": "2026-07-29",
+   "note": "MarketBeat also lists a 2026-08-18 'report' (likely the 6-K/ADR filing)"
+  },
+  "revenue_actual": {
+   "value": 79320000000000.0,
+   "source": "https://news.skhynix.com/en/q2-2026-business-results/",
+   "as_of": "2026-07-29",
+   "note": "KRW; ~US$58.1B at 1,365.24"
+  },
+  "revenue_estimate": {
+   "value": 84000000000000.0,
+   "source": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+   "as_of": "2026-07-29",
+   "note": "KRW; LSEG SmartEstimate cited by CNBC (search summary). Finviz sales surprise -1.62% uses a different consensus"
+  },
+  "eps_actual": {
+   "value": 8.76,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SKHY/earnings/",
+   "as_of": "2026-09-24",
+   "note": "USD per ADR as MarketBeat reports the 2026-07-29 print (beat of $3.64); KRW EPS 131,478 per common share (StockAnalysis). Net profit KRW 93.9T includes large non-operating gains"
+  },
+  "eps_estimate": {
+   "value": 5.12,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SKHY/earnings/",
+   "as_of": "2026-09-24",
+   "note": "USD per ADR; Finviz EPS surprise +89.46%"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://news.skhynix.com/en/q2-2026-business-results/",
+   "as_of": "2026-07-29",
+   "note": "SK hynix does not issue numeric revenue/EPS guidance; qualitative: HBM4 mass shipments began Q2, ramp in H2"
+  },
+  "guide_detail": {
+   "value": "Record Q2: revenue KRW 79.32T, operating profit KRW 60.54T (76% margin) vs LSEG ~84T / 64T: missed on HBM4 shipment timing pushing revenue into later quarters. Seoul shares fell 9.6%",
+   "source": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+   "as_of": "2026-07-29"
+  },
+  "reaction_day_pct": {
+   "value": -2.6,
+   "source": "https://stockanalysis.com/stocks/skhy/history/",
+   "as_of": "2026-09-24",
+   "note": "ADR 2026-07-29 close vs 2026-07-28 (low-confidence history); Korean shares -9.6% (CNBC)"
+  },
+  "reaction_5d_pct": {
+   "value": 16.0,
+   "source": "https://stockanalysis.com/stocks/skhy/history/",
+   "as_of": "2026-09-24",
+   "note": "ADR 2026-08-05 close vs pre-print (low-confidence history)"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Korean listing, KRW: FY26 EPS 354,324 vs 353,554 30d ago (+0.2%); FY26 revisions 5 up / 0 down in 30d; FY27 472,677 vs 459,592 (+2.8%, 4 up / 3 down)"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY26 EPS 354,324 vs 311,443 90d ago (+13.8%); FY27 +8.9%"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 354323.75,
+    "d30": 353554.31,
+    "d90": 311442.62
+   },
+   "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY2026 EPS, KRW per common share (= 10 ADRs)"
+  },
+  "fcf_ttm": {
+   "value": 66960000000.0,
+   "source": "https://stockanalysis.com/stocks/skhy/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD, StockAnalysis converted"
+  },
+  "net_income_ttm": {
+   "value": 104590000000.0,
+   "source": "https://stockanalysis.com/stocks/skhy/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD; includes non-operating gains (Q2 net > operating profit)"
+  },
+  "sbc_pct_revenue": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not separately disclosed (StockAnalysis)"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: HBM3E/HBM4 leadership into NVIDIA and custom-ASIC platforms keeps memory pricing tight, lifting revenue from KRW 347T (2026) to KRW 534T (2027) at ~5x forward earnings.",
+   "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "HBM4 ramp in H2 2026 and DRAM contract prices holding; FY27 revenue consensus KRW 534T (range 378-670T)",
+   "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: memory is cyclical and capex across Samsung, Micron and Hynix is surging; peak-margin (76%) earnings get a low multiple for a reason, HBM4 shipments slipped in Q2, and the ADR trades at an unexplained premium to Seoul.",
+   "source": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+   "as_of": "2026-07-29"
+  },
+  "visibility": {
+   "value": "reported",
+   "source": "https://news.skhynix.com/en/q2-2026-business-results/",
+   "as_of": "2026-07-29"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "MU",
+    "SNDK"
+   ],
+   "source": "data/cache/2026-09-24-runway/finviz/finviz-snapshots.json (Finviz quote pages fetched 2026-09-24)",
+   "as_of": "2026-09-24",
+   "note": "Samsung Electronics is the main HBM rival but is not US-listed"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://news.skhynix.com/en/q2-2026-business-results/",
+   "as_of": "2026-07-29",
+   "note": "no fetched source states HBM share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    57.38,
+    68.77,
+    79.27,
+    83.2
+   ],
+   "source": "https://stockanalysis.com/stocks/skhy/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "Sep-25 to Jun-26, KRW statements"
+  },
+  "fwd_pe": {
+   "value": 5.48,
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis 4.60; Yahoo 000660.KS 3.90"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "MU": 6.84,
+    "SNDK": 6.72
+   },
+   "source": "data/cache/2026-09-24-runway/finviz/finviz-snapshots.json (Finviz quote pages fetched 2026-09-24)",
+   "as_of": "2026-09-24",
+   "note": "Finviz snapshot, same page type as the name; null where Finviz shows '-'"
+  },
+  "ev_sales": {
+   "value": 10.2,
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis 7.92; Finviz market cap $1,358B vs StockAnalysis $994B (share-count/ADR basis conflict)"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "MU": 13.3,
+    "SNDK": 12.46
+   },
+   "source": "data/cache/2026-09-24-runway/finviz/finviz-snapshots.json (Finviz quote pages fetched 2026-09-24)",
+   "as_of": "2026-09-24",
+   "note": "Finviz snapshot, same page type as the name; null where Finviz shows '-'"
+  },
+  "substitute": {
+   "value": "Samsung HBM4 qualification at NVIDIA; Micron HBM4",
+   "source": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+   "as_of": "2026-07-29",
+   "note": "named, not measured"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "foreign issuer: no Form 4 obligation; Finviz insider table empty; Korean DART filings not checked. Unknown coverage, not verified absence"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24",
+   "note": "foreign issuer; none on Finviz"
+  },
+  "sells_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24",
+   "note": "foreign issuer; none on Finviz"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SKHY/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "ADR listed 2026-07-10, after the Q2 quarter-end: no 13F holds it yet; the first cycle is Q3 (filed by mid-November)"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no 13F data yet (listed after 2026-06-30)"
+  },
+  "holders_up": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no 13F data yet"
+  },
+  "holders_down": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no 13F data yet"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no 13F data yet"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no 13F data yet"
+  },
+  "named_adds": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SKHY/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat: 'minimal institutional ownership'. Finviz Inst Trans -21.18% (basis unclear)"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SKHY/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 4.57,
+   "source": "https://stockanalysis.com/stocks/skhy/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Float blank; 26.56M ADRs short"
+  },
+  "days_to_cover": {
+   "value": 0.84,
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis 1.18"
+  },
+  "short_as_of": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: settlement date not stated"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": null,
+    "event": "Q3 2026 results (Korean listing; date not announced, Q2 was reported 2026-07-29)",
+    "confirmed": false
+   },
+   {
+    "date": null,
+    "event": "First 13F cycle showing US institutional ADR ownership (Q3 filings, by 2026-11-16)",
+    "confirmed": true
+   },
+   {
+    "date": null,
+    "event": "HBM4 volume ramp into NVIDIA next-generation platform, H2 2026 (company)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://news.skhynix.com/en/q2-2026-business-results/",
+  "as_of": "2026-07-29"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": "https://finviz.com/quote.ashx?t=SKHY",
+  "as_of": "2026-09-24",
+  "note": "not applicable: 6.8% below the 52w high"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "periods_aligned_note": "calendar FY26/FY27 from Yahoo 000660.KS, KRW, per common share; ADR = 1/10 share",
+  "currency": "KRW",
+  "units": "revenue and EV in KRW; EPS and price in KRW per common share (10 ADRs). USD/KRW 1,365.24 (2026-09-24)",
+  "accounting_basis": "K-IFRS consensus (Yahoo 000660.KS)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24 (Yahoo)",
+  "model_assumptions": "none modelled",
+  "fcf_basis": "CFO minus capex (levered)",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 346530000000000.0,
+    "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "44 analysts"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on Yahoo"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no forward CFO published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no forward capex published"
+   },
+   "eps": {
+    "value": 354323.75,
+    "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "39 analysts; = ~US$25.95 per ADR at 1,365.24"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "reported",
+    "note": "not found: forward rate not published; TTM 21.6% (StockAnalysis)"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 534100000000000.0,
+    "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "45 analysts, range 378-670T"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no forward CFO published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no forward capex published"
+   },
+   "eps": {
+    "value": 472677.44,
+    "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "39 analysts; = ~US$34.62 per ADR"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not published"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 14,
+    "source": "https://stockanalysis.com/stocks/skhy/forecast/",
+    "as_of": "2026-09-23",
+    "kind": "consensus",
+    "note": "ADR coverage: 9 strong buy + 5 buy"
+   },
+   "hold": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/skhy/forecast/",
+    "as_of": "2026-09-23",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/skhy/forecast/",
+    "as_of": "2026-09-23",
+    "kind": "consensus",
+    "note": "US ADR population of 15; Korean coverage not broken down"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 5,
+    "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY26 EPS, Korean listing"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 39,
+    "source": "https://finance.yahoo.com/quote/000660.KS/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7/30-day counts only"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7/30-day counts only"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 1862000,
+    "source": "https://finance.yahoo.com/quote/000660.KS/",
+    "as_of": "2026-09-23",
+    "kind": "reported",
+    "note": "Seoul close 2026-09-23 (market closed 2026-09-24); the ADR at $186.37 implies ~2,544,000 KRW per share, a ~37% premium"
+   },
+   "enterprise_value": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: KRW EV not fetched; StockAnalysis USD EV $968B conflicts with Finviz $1,315B"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modelled"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 7,
+  "prospect_why": "HBM3E/HBM4 leadership; revenue KRW 347T to 534T",
+  "competition_pts": 5,
+  "competition_why": "GM 57 to 83%; fwd P/E 5.5",
+  "macro_fit_pts": 4,
+  "macro_fit_why": "materials/industrials 4",
+  "narrative_pts": 5,
+  "narrative_why": "memory improving",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

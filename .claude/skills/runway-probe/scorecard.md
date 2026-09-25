@@ -10,7 +10,7 @@ found", score 0 and mark it; do not spread the missing points over the others.
 | Upside | average consensus target is at least 20% above the close, or at least 25% on the lower of two aggregators when they disagree by more than ten points |
 | Flow | the latest 13F cycle shows net share adds, or holders increasing exceed holders decreasing, or named funds add with no large named exit |
 | Insider | an open-market insider buy in 90 days, or no insider selling cluster above roughly $50M or 1% of float |
-| Delivery | the last print beat on revenue and the guide was held or raised, and 90-day consensus revisions are flat or up |
+| Delivery | the last print beat on revenue and the guide was held or raised (no guidance as a matter of policy is neutral), and 90-day consensus revisions are flat or up |
 
 ## A. Fundamentals, 30 points
 
@@ -105,7 +105,8 @@ for 20 to 35%; 2 to 4 for 10 to 20%; 0 to 1 below 10% or negative.
 **Risk : reward, 0 to 10.** Reward is average target minus close. Risk is close minus
 the downside anchor, where the anchor is the highest of: the low consensus target, the
 52-week low, and the nearest well-defined support (a prior base or the 200-day line if
-price is above it). R : R is reward divided by risk. Score: 9 to 10 at 3 : 1 or better;
+price is above it). An anchor less than 5% below the close is rejected and the next one
+down is used; with none left, R : R is not meaningful. R : R is reward divided by risk. Score: 9 to 10 at 3 : 1 or better;
 6 to 8 for 2 to 3; 3 to 5 for 1.5 to 2; 0 to 2 below 1.5. When the anchor is more than
 40% below the close, note that the reward is being bought with a very deep stop.
 

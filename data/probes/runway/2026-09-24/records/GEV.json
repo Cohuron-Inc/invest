@@ -1,0 +1,721 @@
+{
+ "ticker": "GEV",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:28:55+00:00",
+ "price": {
+  "close": {
+   "value": 955.04,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 1195.94,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 530.16,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -20.14,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24",
+   "note": "computed from close and 52w high"
+  },
+  "sma50_pct": {
+   "value": -1.99,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 5.1,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "fifty_above_200": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price sits further above the 200 than the 50"
+  },
+  "perf_1m_pct": {
+   "value": 3.05,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -12.02,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLI",
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -5.36,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -8.3,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24",
+   "note": "between the 50-day (-2.0%) and 200-day (+5.1%); 50-day above 200-day; 20% off the high"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/gev/history/",
+   "as_of": "2026-09-24",
+   "note": "reaction-day close 2026-07-22 985.03 vs +5 sessions 2026-07-29 900.28; held = +5d close at or above reaction-day close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/gev/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 37,
+   "source": "https://stockanalysis.com/stocks/gev/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 1237.0,
+   "source": "https://stockanalysis.com/stocks/gev/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 1450,
+   "source": "https://stockanalysis.com/stocks/gev/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 940,
+   "source": "https://stockanalysis.com/stocks/gev/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 29.52,
+   "source": "https://stockanalysis.com/stocks/gev/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed: StockAnalysis average target vs Finviz close"
+  },
+  "pt_avg_finviz": {
+   "value": 1214.37,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean; recorded beside StockAnalysis, not in place of it"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat forecast page not fetched; Finviz mean target is within 10 upside points of StockAnalysis, so the alt is not required"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-22",
+     "broker": "Jefferies",
+     "action": "lower",
+     "target": 1185,
+     "reason": "Buy; 1210 -> 1185"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "Morgan Stanley",
+     "action": "maintain",
+     "target": 1350,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "BofA Securities",
+     "action": "maintain",
+     "target": 1310,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "GLJ Research",
+     "action": "initiate",
+     "target": 470,
+     "reason": "Sell"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "Bernstein",
+     "action": "maintain",
+     "target": 1298,
+     "reason": "Buy"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/gev/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table, rows dated 2026-07-26 onward as rendered; sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-22",
+   "source": "https://www.marketbeat.com/stocks/NYSE/GEV/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 11100000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GEV/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 10790000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GEV/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 2.47,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GEV/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_estimate": {
+   "value": 3.17,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GEV/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.gevernova.com/news/press-releases/ge-vernova-reports-second-quarter-2026-financial-results-raises-2026-financial",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "FY2026 revenue raised $1B to $45.5-46.5B (consensus $45.5B); FCF raised to $11.5-12.5B from $6.5-7.5B; orders +88% to $24.2B, backlog $176B. EPS missed ($2.47 vs $3.17 MarketBeat; $3.04 per another source)",
+   "source": "https://www.gevernova.com/news/press-releases/ge-vernova-reports-second-quarter-2026-financial-results-raises-2026-financial",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": -8.69,
+   "source": "https://stockanalysis.com/stocks/gev/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-07-22 vs prior close 2026-07-21 (1078.81)"
+  },
+  "reaction_5d_pct": {
+   "value": -16.55,
+   "source": "https://stockanalysis.com/stocks/gev/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-07-29 vs pre-print close 2026-07-21"
+  },
+  "revisions_30d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/GEV/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo FY2026 EPS revisions: 1 up / 2 down in 30 days (20 analysts); Nasdaq FY2026: 0 up / 1 down"
+  },
+  "revisions_90d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/GEV/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Yahoo FY2026 EPS trend 30.77 (90d ago) -> 30.78 now (GAAP basis); FY2027 24.36 -> 24.85"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 30.78,
+    "d30": 30.79,
+    "d90": 30.77
+   },
+   "source": "https://finance.yahoo.com/quote/GEV/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current-year EPS consensus"
+  },
+  "fcf_ttm": {
+   "value": 12438000000,
+   "source": "https://stockanalysis.com/stocks/gev/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": 9529000000,
+   "source": "https://stockanalysis.com/stocks/gev/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: SBC line not on the StockAnalysis cash-flow page"
+  },
+  "stock_issued_ttm": {
+   "value": 0,
+   "source": "https://stockanalysis.com/stocks/gev/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "common stock issued, TTM to 2026-06-30"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: a $176B backlog with 116 GW of gas-turbine reservations (>=125 GW by year-end) plus grid electrification drive price and margin expansion and FCF of $11.5-12.5B in 2026.",
+   "source": "https://www.investing.com/news/company-news/ge-vernova-q2-2026-slides-backlog-hits-176b-guidance-raised-93CH-4805961",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Gas Power slot pricing and Electrification margin; FY2026 FCF $11.5-12.5B.",
+   "source": "https://www.investing.com/news/company-news/ge-vernova-q2-2026-slides-backlog-hits-176b-guidance-raised-93CH-4805961",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "EBIT margin (7.5% in Q2) lags the order boom; Wind remains loss-making; GLJ initiated Sell at $470; forward P/E ~39-45.",
+   "source": "https://www.investing.com/news/company-news/ge-vernova-q2-2026-slides-backlog-hits-176b-guidance-raised-93CH-4805961",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.investing.com/news/company-news/ge-vernova-q2-2026-slides-backlog-hits-176b-guidance-raised-93CH-4805961",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "Siemens Energy",
+    "Mitsubishi Heavy Industries"
+   ],
+   "source": "https://stockanalysis.com/stocks/gev/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    19.18,
+    21.36,
+    19.97,
+    21.57
+   ],
+   "source": "https://stockanalysis.com/stocks/gev/financials/income-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarters Q3-25..Q2-26, oldest first"
+  },
+  "fwd_pe": {
+   "value": 38.92,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peers not in the Finviz snapshot set or not US-listed"
+  },
+  "ev_sales": {
+   "value": 5.93,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peer pages not fetched"
+  },
+  "substitute": {
+   "value": "Reciprocating engines and fuel cells for behind-the-meter data-centre power (CAT fwd P/E 24.8, BE 53.9 on Finviz).",
+   "source": "https://www.investing.com/news/company-news/ge-vernova-q2-2026-slides-backlog-hits-176b-guidance-raised-93CH-4805961",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table runs back before 2026-06-26 for this name, so the full trailing 90 days is covered; exercises and proposed (Form 144) sales excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24",
+   "note": "plan_10b5_1 null = not verified on the Form 4"
+  },
+  "finviz_net_change_pct": {
+   "value": -1.26,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://api.nasdaq.com/api/company/GEV/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-holder rows dated 6/30/2026; Vanguard Group row still 12/31/2025"
+  },
+  "net_shares": {
+   "value": 6931187,
+   "source": "https://api.nasdaq.com/api/company/GEV/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq 13F summary (latest filings, most dated 2026-06-30); net = increased-position shares minus decreased-position shares"
+  },
+  "holders_up": {
+   "value": 2025,
+   "source": "https://api.nasdaq.com/api/company/GEV/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_down": {
+   "value": 1175,
+   "source": "https://api.nasdaq.com/api/company/GEV/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_new": {
+   "value": 500,
+   "source": "https://api.nasdaq.com/api/company/GEV/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_exited": {
+   "value": 134,
+   "source": "https://api.nasdaq.com/api/company/GEV/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Fisher Asset Management",
+     "change_pct": 90036.0,
+     "shares": 3555530
+    },
+    {
+     "fund": "Capital World Investors",
+     "change_pct": 17.5,
+     "shares": 744545
+    },
+    {
+     "fund": "Goldman Sachs Group",
+     "change_pct": 41.9,
+     "shares": 868562
+    },
+    {
+     "fund": "BlackRock",
+     "change_pct": 5.0,
+     "shares": 1037370
+    }
+   ],
+   "source": "https://api.nasdaq.com/api/company/GEV/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-15 holders by value; change_pct null = new position"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://api.nasdaq.com/api/company/GEV/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "no full exit among the top-15 holders; large reductions are listed in named_cuts"
+  },
+  "named_cuts": {
+   "value": [
+    {
+     "fund": "FMR",
+     "change_pct": -11.9,
+     "shares": -2186436
+    },
+    {
+     "fund": "Morgan Stanley",
+     "change_pct": -10.3,
+     "shares": -653764
+    },
+    {
+     "fund": "JPMorgan Chase",
+     "change_pct": -7.4,
+     "shares": -499658
+    }
+   ],
+   "source": "https://api.nasdaq.com/api/company/GEV/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 3.3,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 3.5,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Finviz gives no settlement date; Nasdaq short-interest API covers Nasdaq-listed names only"
+  },
+  "finviz_inst_change_pct": {
+   "value": 1.52,
+   "source": "https://finviz.com/quote.ashx?t=GEV",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float_alt": {
+   "value": 3.3,
+   "source": "https://stockanalysis.com/stocks/gev/statistics/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis float basis; differs from Finviz"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-28",
+    "event": "Q3 2026 earnings, 7:30am ET (listed on GE Vernova events page)",
+    "confirmed": true
+   }
+  ],
+  "source": "https://www.gevernova.com/investors/events",
+  "as_of": "2026-09-24",
+  "note": "next 6 months; 'confirmed' means company-announced"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not applicable: drawdown under 30%"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute; EPS per share",
+  "accounting_basis": "revenue consensus; EPS = StockAnalysis adjusted (normalized) consensus; EBIT = StockAnalysis operating income consensus",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "not available (CFO/capex not published)",
+  "revision_period_end": "2026-09-24",
+  "note": "FY1/FY2 revenue and adjusted EPS from the same StockAnalysis snapshot; FY2 EBIT is behind a paywall",
+  "fy1": {
+   "revenue": {
+    "value": 46281859660,
+    "source": "https://stockanalysis.com/stocks/gev/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 15.16426,
+    "source": "https://stockanalysis.com/stocks/gev/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 4662133250,
+    "source": "https://stockanalysis.com/stocks/gev/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF 12,017,340,670 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF 12,017,340,670 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 52740252540,
+    "source": "https://stockanalysis.com/stocks/gev/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 25.12577,
+    "source": "https://stockanalysis.com/stocks/gev/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is [PRO]-gated on StockAnalysis",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 30,
+    "source": "https://stockanalysis.com/stocks/gev/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy"
+   },
+   "hold": {
+    "value": 7,
+    "source": "https://stockanalysis.com/stocks/gev/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/gev/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell + strong sell"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 1,
+    "source": "https://finance.yahoo.com/quote/GEV/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY2026 EPS; Yahoo EPS Revisions"
+   },
+   "down_30d": {
+    "value": 2,
+    "source": "https://finance.yahoo.com/quote/GEV/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 20,
+    "source": "https://finance.yahoo.com/quote/GEV/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimates for FY2026 EPS on that provider"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts from any fetchable source",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 955.04,
+    "source": "https://finviz.com/quote.ashx?t=GEV",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 245360000000.0,
+    "source": "https://stockanalysis.com/stocks/gev/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "$176B backlog, FY revenue and FCF guides raised",
+  "competition_pts": 6,
+  "competition_why": "GM 19.2 to 21.6% rising; oligopoly with Siemens Energy and MHI",
+  "macro_fit_pts": 5,
+  "macro_fit_why": "cash-flow value archetype 5: FCF $12B",
+  "narrative_pts": 4,
+  "narrative_why": "AI power improving",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

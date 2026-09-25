@@ -1,0 +1,811 @@
+{
+ "ticker": "AKAM",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 110.41,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 165.45,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 70.82,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -33.27,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -2.61,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -0.52,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  },
+  "sma20_pct": {
+   "value": 1.64,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  },
+  "fifty_above_200": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24",
+   "note": "derived: price sits further above the 200-day than the 50-day"
+  },
+  "perf_1m_pct": {
+   "value": 4.42,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -2.2,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24",
+   "note": "33% below the 165.45 high, just under the 50-day (-2.6%) and 200-day (-0.5%); fell 6.8% on 2026-09-24 (cause not found) after a rebound from the Sep 16 low near $104"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/akam/history/",
+   "as_of": "2026-09-24",
+   "note": "print-day close 2026-08-07 110.54 (-6.76% vs 2026-08-06 close 118.55); five sessions later 2026-08-14 124.99 (+5.43%). gap down recovered above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Hold",
+   "source": "https://stockanalysis.com/stocks/akam/forecast/",
+   "as_of": "2026-09-15"
+  },
+  "analysts": {
+   "value": 23,
+   "source": "https://stockanalysis.com/stocks/akam/forecast/",
+   "as_of": "2026-09-15"
+  },
+  "pt_avg": {
+   "value": 153.31,
+   "source": "https://stockanalysis.com/stocks/akam/forecast/",
+   "as_of": "2026-09-15"
+  },
+  "pt_high": {
+   "value": 195,
+   "source": "https://stockanalysis.com/stocks/akam/forecast/",
+   "as_of": "2026-09-15"
+  },
+  "pt_low": {
+   "value": 93,
+   "source": "https://stockanalysis.com/stocks/akam/forecast/",
+   "as_of": "2026-09-15"
+  },
+  "upside_pct": {
+   "value": 38.86,
+   "source": "https://stockanalysis.com/stocks/akam/forecast/",
+   "as_of": "2026-09-24",
+   "note": "pt_avg vs 2026-09-24 close"
+  },
+  "finviz_target": {
+   "value": 156.14,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded alongside StockAnalysis"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "broker": "Goldman Sachs",
+     "action": "maintain Sell",
+     "target": 93,
+     "reason": "AI compute expansion risk, colocation cost pressure, cloud infrastructure margin uncertainty"
+    },
+    {
+     "date": "2026-09-04",
+     "broker": "Citigroup",
+     "action": "maintain Neutral, lower target",
+     "target": 122,
+     "reason": "160 to 122"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "Piper Sandler",
+     "action": "upgrade to Overweight, lower target",
+     "target": 125,
+     "reason": "140 to 125"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "Morgan Stanley",
+     "action": "reiterate Buy (StockAnalysis label)",
+     "target": 165,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "J.P. Morgan",
+     "action": "upgrade Underweight to Neutral, raise target",
+     "target": 158,
+     "reason": "132 to 158"
+    },
+    {
+     "date": "2026-08-10",
+     "broker": "HSBC",
+     "action": "downgrade Buy to Hold, lower target",
+     "target": 123,
+     "reason": "171 to 123"
+    },
+    {
+     "date": "2026-08-10",
+     "broker": "Susquehanna",
+     "action": "maintain Positive, lower target",
+     "target": 140,
+     "reason": "175 to 140"
+    },
+    {
+     "date": "2026-08-07",
+     "broker": "UBS",
+     "action": "maintain Neutral, raise target",
+     "target": 143,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-07",
+     "broker": "TD Cowen",
+     "action": "maintain Hold, raise target",
+     "target": 140,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-07",
+     "broker": "RBC",
+     "action": "maintain Sector Perform, lower target",
+     "target": 135,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-07",
+     "broker": "Guggenheim",
+     "action": "maintain Buy, raise target",
+     "target": 190,
+     "reason": "post-print"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat ratings table plus StockAnalysis latest-forecasts rows; Weiss, Zacks and Freedom-style quant rows excluded unless sell-side"
+  },
+  "pt_avg_alt": {
+   "value": 141.62,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat: 24 analysts, Hold (2 sell, 9 hold, 13 buy), low $87; upside 28.3% vs StockAnalysis 38.9%"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-06",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/earnings/",
+   "as_of": "2026-08-06"
+  },
+  "revenue_actual": {
+   "value": 1100.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/earnings/",
+   "as_of": "2026-08-06",
+   "note": "USD m"
+  },
+  "revenue_estimate": {
+   "value": 1090.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/earnings/",
+   "as_of": "2026-08-06",
+   "note": "USD m, consensus at the print"
+  },
+  "eps_actual": {
+   "value": 1.59,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/earnings/",
+   "as_of": "2026-08-06",
+   "note": "adjusted"
+  },
+  "eps_estimate": {
+   "value": 1.57,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/earnings/",
+   "as_of": "2026-08-06"
+  },
+  "guide": {
+   "value": "cut",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001086222/000108622226000083/exhibit991-q22026.htm",
+   "as_of": "2026-08-06",
+   "note": "prior guide from the Q1 2026 release https://www.sec.gov/Archives/edgar/data/0001086222/000108622226000054/exhibit991-q12026.htm"
+  },
+  "guide_detail": {
+   "value": "FY2026 guide trimmed at the top: revenue $4.445-4.53B (was $4.445-4.55B in May), non-GAAP operating margin 25-26% (was 26%), non-GAAP EPS $6.40-7.05 (was $6.40-7.15). Q3 guided revenue $1.105-1.13B, below estimates; EPS $1.60-1.80.",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001086222/000108622226000083/exhibit991-q22026.htm",
+   "as_of": "2026-08-06"
+  },
+  "reaction_day_pct": {
+   "value": -6.76,
+   "source": "https://stockanalysis.com/stocks/akam/history/",
+   "as_of": "2026-08-07",
+   "note": "close 2026-08-07 vs close 2026-08-06"
+  },
+  "reaction_5d_pct": {
+   "value": 5.43,
+   "source": "https://stockanalysis.com/stocks/akam/history/",
+   "as_of": "2026-08-14",
+   "note": "close 2026-08-14 vs pre-print close 2026-08-06"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/AKAM/analysis/",
+   "as_of": "2026-09-24",
+   "note": "level 6.70 to 6.69; breadth 12 up vs 11 down"
+  },
+  "revisions_90d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/AKAM/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 6.69,
+    "d30": 6.7,
+    "d90": 6.71
+   },
+   "source": "https://finance.yahoo.com/quote/AKAM/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year EPS consensus now / 30 / 90 days ago"
+  },
+  "fcf_ttm": {
+   "value": 956.1,
+   "source": "https://stockanalysis.com/stocks/akam/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD m, trailing four quarters"
+  },
+  "net_income_ttm": {
+   "value": 410.97,
+   "source": "https://stockanalysis.com/stocks/akam/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD m, GAAP"
+  },
+  "sbc_pct_revenue": {
+   "value": 11.79,
+   "source": "https://stockanalysis.com/stocks/akam/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "trailing four quarters SBC / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: cloud infrastructure and AI inference services reaccelerate revenue to +13% in 2027 ($5.08B) on top of a cash-generative security franchise.",
+   "source": "https://finance.yahoo.com/quote/AKAM/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "2027 revenue consensus $5.08B and margins recovering after the compute capex build",
+   "source": "https://finance.yahoo.com/technology/ai/articles/akamai-q2-earnings-highlight-ai-152400172.html",
+   "as_of": "2026-08-07"
+  },
+  "bear_case": {
+   "value": "Bears: GAAP operating margin fell to 7.3% from 14.5%, colocation and compute costs pressure margins, 2026 EPS declines 6%, Goldman has a Sell with a $93 target",
+   "source": "https://www.tradingview.com/news/zacks:1a245244e094b:0-akamai-stock-falls-22-in-3-months-as-ai-growth-meets-execution-risks/",
+   "as_of": "2026-09-15"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001086222/000108622226000083/exhibit991-q22026.htm",
+   "as_of": "2026-08-06"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "NET",
+    "FSLY"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": null,
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    59.27,
+    58.67,
+    56.1,
+    55.81
+   ],
+   "source": "https://stockanalysis.com/stocks/akam/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "GAAP gross margin, oldest to newest, last four reported quarters"
+  },
+  "fwd_pe": {
+   "value": 15.45,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward PE 17.26"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "NET": 214.49,
+    "FSLY": 42.3
+   },
+   "source": "https://finviz.com/quote.ashx?t=NET",
+   "as_of": "2026-09-24",
+   "note": "Finviz Forward P/E for each peer, fetched 2026-09-24"
+  },
+  "ev_sales": {
+   "value": 5.05,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "NET": 50.6,
+    "FSLY": 6.27
+   },
+   "source": "https://finviz.com/quote.ashx?t=NET",
+   "as_of": "2026-09-24",
+   "note": "Finviz EV/Sales for each peer"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute found in the sources read"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table (saved HTML) runs back before 2026-06-26, so the full trailing 90 days are covered; Form 144 \"Proposed Sale\" and option-exercise rows excluded; each sale checked against its EDGAR Form 4 for the 10b5-1 flag"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in the 90 days to 2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-15",
+     "name": "Joseph Paul C",
+     "role": "EVP - Global Sales",
+     "role_full": "EVP - Global Sales",
+     "shares": 3100,
+     "price": 105.63,
+     "usd": 327453,
+     "held_after": 28472,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1086222/000184557426000018/xslF345X06/wk-form4_1789507920.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 15 05:32 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "Joseph Paul C",
+     "role": "EVP - Global Sales",
+     "role_full": "EVP - Global Sales",
+     "shares": 3100,
+     "price": 126.77,
+     "usd": 392987,
+     "held_after": 31572,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1086222/000184557426000016/xslF345X06/wk-form4_1784145921.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 15 04:05 PM; plan status read from the Form 4 checkbox and footnotes"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24",
+   "note": "2 open-market sales, $720,440 total; 1 unique sellers; 2 flagged 10b5-1 on the Form 4; one officer, small 10b5-1 sales"
+  },
+  "finviz_net_change_pct": {
+   "value": -0.27,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24",
+   "note": "Finviz 6-month insider transaction %"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle in the MarketBeat holder table (filings dated Jul-Sep 2026)"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no share-count net flow published free; Fintel 403 per failure log, MarketBeat gives dollars only"
+  },
+  "holders_up": {
+   "value": 392,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals not used (CalSTRS rule)."
+  },
+  "holders_down": {
+   "value": 247,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals not used (CalSTRS rule)."
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Tidal Investments LLC",
+     "change_pct": 328.9,
+     "shares": 181197,
+     "filed": "2026-09-09"
+    },
+    {
+     "fund": "Susquehanna Fundamental Investments LLC",
+     "change_pct": 1540.6,
+     "shares": 193578,
+     "filed": "2026-08-20"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "Q2 2026 13F rows with >=0.1% of the company and a >=25% increase or a new position; "
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "no full exit (-100%) among material holders in the latest 100 13F rows"
+  },
+  "named_cuts": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "material holders cutting >=25% in the latest 13F rows"
+  },
+  "inst_own_pct": {
+   "value": 94.28,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_change_pct": {
+   "value": 3.55,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24",
+   "note": "secondary directional proxy"
+  },
+  "short_pct_float": {
+   "value": 13.39,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "MarketBeat settlement 2026-09-15, 18.79M shares; Finviz shows 13.38% float / 5.25 DTC undated"
+  },
+  "days_to_cover": {
+   "value": 5.9,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AKAM/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_pct_float_finviz": {
+   "value": 13.38,
+   "source": "https://finviz.com/quote.ashx?t=AKAM",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-05",
+    "event": "Q3 2026 earnings (StockAnalysis/MarketBeat estimate)",
+    "confirmed": false
+   },
+   {
+    "date": "2027-02-11",
+    "event": "Q4 2026 earnings and 2027 guide (estimated)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/akam/statistics/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": "Down 33% from the $165.45 high: Q2 showed GAAP operating margin halving to 7.3% as AI compute and colocation costs rose, the FY guide was trimmed and Q3 revenue guided below estimates; Goldman reiterated Sell at $93 on Sep 15.",
+  "source": "https://www.tradingview.com/news/zacks:1a245244e094b:0-akamai-stock-falls-22-in-3-months-as-ai-growth-meets-execution-risks/",
+  "as_of": "2026-09-15"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "millions (EPS per share)",
+  "accounting_basis": "revenue GAAP; EPS non-GAAP adjusted consensus",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "Yahoo analysis page read 2026-09-24; StockAnalysis forecast last updated 2026-09-15",
+  "model_assumptions": "none; no modelled leaves",
+  "fcf_basis": "CFO minus capex (levered); forward FCF not filled",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 4490,
+    "source": "https://finance.yahoo.com/quote/AKAM/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "USD m, Yahoo avg; matches StockAnalysis forecast"
+   },
+   "ebit": {
+    "value": 1140,
+    "source": "https://stockanalysis.com/stocks/akam/forecast/",
+    "as_of": "2026-09-15",
+    "kind": "consensus",
+    "note": "StockAnalysis FY1 \"Operating Income\" consensus; basis (adjusted vs GAAP) not stated by the page; $1.14B vs $515M TTM GAAP EBIT, so this is an adjusted figure"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward CFO not published free; not modelled"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward capex not published free; not modelled"
+   },
+   "eps": {
+    "value": 6.69,
+    "source": "https://finance.yahoo.com/quote/AKAM/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "non-GAAP EPS"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 5080,
+    "source": "https://finance.yahoo.com/quote/AKAM/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "USD m, Yahoo avg"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: StockAnalysis FY2 operating income is behind the Pro paywall; Yahoo gives no EBIT"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward CFO not published free; not modelled"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward capex not published free; not modelled"
+   },
+   "eps": {
+    "value": 7.21,
+    "source": "https://finance.yahoo.com/quote/AKAM/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "non-GAAP EPS"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 15,
+    "source": "https://stockanalysis.com/stocks/akam/forecast/",
+    "as_of": "2026-09-15",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   },
+   "hold": {
+    "value": 9,
+    "source": "https://stockanalysis.com/stocks/akam/forecast/",
+    "as_of": "2026-09-15",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/akam/forecast/",
+    "as_of": "2026-09-15",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 12,
+    "source": "https://finance.yahoo.com/quote/AKAM/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current fiscal year, up last 30 days"
+   },
+   "down_30d": {
+    "value": 11,
+    "source": "https://finance.yahoo.com/quote/AKAM/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current fiscal year, down last 30 days; \"--\" read as 0"
+   },
+   "analysts": {
+    "value": 25,
+    "source": "https://finance.yahoo.com/quote/AKAM/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo number of analysts, current fiscal year EPS"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7d and 30d counts only"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7d and 30d counts only"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 110.41,
+    "source": "https://finviz.com/quote.ashx?t=AKAM",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 21850.0,
+    "source": "https://finviz.com/quote.ashx?t=AKAM",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "USD m, Finviz"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modelled"
+   }
+  },
+  "evidence": {
+   "sa_fy1_fcf_consensus": {
+    "value": -180.45,
+    "source": "https://stockanalysis.com/stocks/akam/forecast/",
+    "as_of": "2026-09-15",
+    "kind": "consensus",
+    "note": "StockAnalysis FY1 free cash flow consensus, USD m; FY2 paywalled"
+   }
+  },
+  "periods_aligned_note": "Yahoo and StockAnalysis fiscal-year labels and FY1 values checked against each other (https://finance.yahoo.com/quote/AKAM/analysis/, 2026-09-24)"
+ },
+ "judgment": {
+  "prospect_pts": 3,
+  "prospect_why": "AI inference services are a story; FY EPS guide trimmed",
+  "competition_pts": 3,
+  "competition_why": "GM 59.3 to 55.8% falling against NET and FSLY",
+  "macro_fit_pts": 5,
+  "macro_fit_why": "cash-flow value: FCF 2.3x NI, 15.5x forward earnings",
+  "narrative_pts": 3,
+  "narrative_why": "outside any theme",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

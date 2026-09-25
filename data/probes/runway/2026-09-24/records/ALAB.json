@@ -1,0 +1,805 @@
+{
+ "ticker": "ALAB",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 360.51,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 499.48,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 97.89,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 18.54,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 53.23,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 27.55,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -9.42,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "GICS sector mapping per sources.md",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "data/market/2026-09-24/yahoo/XLK.json",
+   "as_of": "2026-09-24",
+   "note": "21-session change from repo Yahoo close series; SPY computed the same way matches Finviz exactly (0.17 / 4.48)"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "data/market/2026-09-24/yahoo/XLK.json",
+   "as_of": "2026-09-24",
+   "note": "63-session change from repo Yahoo close series"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24",
+   "note": "above both averages with the 50 above the 200; +22.8% in the week and +27.6% in the month recovering from the July-August drawdown; still 27.8% below the 52w high and -9.4% over 3 months"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "data/market/2026-09-24/yahoo/ALAB.json",
+   "as_of": "2026-09-24",
+   "note": "Q2 print 2026-08-04 AMC: 2026-08-05 close 318.43 (-12.0% vs 361.67), 2026-08-12 close 318.80 (-11.9%); the down gap held for five sessions (false = post-print gap was negative and was not recovered in 5 sessions); price regained 360 only in late September"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/alab/forecast/",
+   "as_of": "2026-09-14"
+  },
+  "analysts": {
+   "value": 26,
+   "source": "https://stockanalysis.com/stocks/alab/forecast/",
+   "as_of": "2026-09-14"
+  },
+  "pt_avg": {
+   "value": 389.95,
+   "source": "https://stockanalysis.com/stocks/alab/forecast/",
+   "as_of": "2026-09-14"
+  },
+  "pt_high": {
+   "value": 500,
+   "source": "https://stockanalysis.com/stocks/alab/forecast/",
+   "as_of": "2026-09-14"
+  },
+  "pt_low": {
+   "value": 190,
+   "source": "https://stockanalysis.com/stocks/alab/forecast/",
+   "as_of": "2026-09-14"
+  },
+  "pt_avg_alt": {
+   "value": 348.33,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/forecast/",
+   "as_of": "2026-08-18",
+   "note": "MarketBeat page dated 2026-08-18 (stale), 21 analysts; differs from StockAnalysis by more than 10 points; Finviz Target Price 420.47"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-12",
+     "broker": "Susquehanna",
+     "action": "maintain",
+     "target": 310,
+     "reason": "Neutral"
+    },
+    {
+     "date": "2026-08-17",
+     "broker": "Northland Securities",
+     "action": "upgrade",
+     "target": 350,
+     "reason": "Market Perform -> Outperform after the post-print selloff"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "Citi",
+     "action": "raise",
+     "target": 430,
+     "reason": "Buy, PT 315->430"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Evercore ISI",
+     "action": "raise",
+     "target": 452,
+     "reason": "Outperform, PT 297->452"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Bank of America",
+     "action": "reiterate",
+     "target": 450,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "TD Cowen",
+     "action": "lower",
+     "target": 375,
+     "reason": "Hold, PT 425->375"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "RBC",
+     "action": "raise",
+     "target": 500,
+     "reason": "Outperform, PT 425->500"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Jefferies",
+     "action": "raise",
+     "target": 450,
+     "reason": "Buy, PT 270->450"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Needham",
+     "action": "raise",
+     "target": 425,
+     "reason": "Buy, PT 260->425"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Roth Capital",
+     "action": "reiterate",
+     "target": 450,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "UBS",
+     "action": "reiterate",
+     "target": 425,
+     "reason": "Neutral"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/alab/forecast/",
+   "as_of": "2026-09-24",
+   "note": "combined from StockAnalysis ratings table and MarketBeat price-target list (page dated 2026-08-18); Zacks and Weiss excluded"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-04",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 392400000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 360850000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 0.8,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/earnings/",
+   "as_of": "2026-09-24",
+   "note": "non-GAAP"
+  },
+  "eps_estimate": {
+   "value": 0.69,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/earnings/",
+   "as_of": "2026-09-24",
+   "note": "Q3 guide far above prior consensus; ALAB guides one quarter ahead"
+  },
+  "guide_detail": {
+   "value": "Q3 revenue $540-560M vs consensus $410.3M; EPS $1.16-1.21 vs $0.59; Scorpio fabric switches become the largest product line a quarter early. GAAP gross margin fell to 73.3%",
+   "source": "https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-04"
+  },
+  "reaction_day_pct": {
+   "value": -11.96,
+   "source": "data/market/2026-09-24/yahoo/ALAB.json",
+   "as_of": "2026-09-24",
+   "note": "2026-08-05 close vs 2026-08-04 close, despite the guide; stock had run +13% into the print"
+  },
+  "reaction_5d_pct": {
+   "value": -11.85,
+   "source": "data/market/2026-09-24/yahoo/ALAB.json",
+   "as_of": "2026-09-24",
+   "note": "2026-08-12 close vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: finance.yahoo.com /analysis/ returned 'Oops, something went wrong' (twice); zacks.com detailed-estimates blocked by bot check; StockAnalysis forecast has no revision table"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/earnings/",
+   "as_of": "2026-09-24",
+   "note": "derived: pre-print Q3 EPS consensus $0.59 (MarketBeat) vs current Q3 consensus $1.19 (Finviz EPS next Q); Yahoo tables unavailable"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 1.19,
+    "d30": null,
+    "d90": 0.59
+   },
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24",
+   "note": "current-quarter EPS; d90 is the pre-print consensus from MarketBeat, not a Yahoo 90-day point"
+  },
+  "fcf_ttm": {
+   "value": 276680000.0,
+   "source": "https://stockanalysis.com/stocks/alab/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "net_income_ttm": {
+   "value": 369490000.0,
+   "source": "https://stockanalysis.com/stocks/alab/statistics/",
+   "as_of": "2026-09-24",
+   "note": "cash conversion 0.75; Q2 net income includes a tax benefit (net income 153M vs operating income 89M)"
+  },
+  "sbc_pct_revenue": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: SBC not shown on StockAnalysis pages fetched; non-GAAP to GAAP gap suggests it is large"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Scorpio PCIe/UALink fabric switches plus Aries/Taurus retimers ride custom-ASIC and GPU rack scale-up, so revenue roughly doubles from $1.9B (FY26) to about $3.0B (FY27) at 70%+ gross margin.",
+   "source": "https://stockanalysis.com/stocks/alab/forecast/",
+   "as_of": "2026-09-14"
+  },
+  "depends_on": {
+   "value": "Q3 revenue landing in the $540-560M guide and Scorpio X-series design wins shipping in 2027 racks",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: gross margin is falling as switches mix in (76.3% to 73.3%), Broadcom and NVIDIA NVLink compete for scale-up, insiders have sold heavily at every price, and 52x EV/sales leaves no room for a guide miss.",
+   "source": "https://stockanalysis.com/stocks/alab/financials/?p=quarterly",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/earnings/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "CRDO",
+    "MRVL"
+   ],
+   "source": "data/cache/2026-09-24-runway/finviz/finviz-snapshots.json (Finviz quote pages fetched 2026-09-24)",
+   "as_of": "2026-09-24",
+   "note": "Broadcom (AVGO) is the main switch rival"
+  },
+  "share_trend": {
+   "value": "gaining",
+   "source": "https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-04",
+   "note": "company says Scorpio became largest product family a quarter early; no third-party share figure"
+  },
+  "gross_margin_4q": {
+   "value": [
+    76.25,
+    75.57,
+    76.25,
+    73.28
+   ],
+   "source": "https://stockanalysis.com/stocks/alab/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "Sep-25 to Jun-26"
+  },
+  "fwd_pe": {
+   "value": 55.57,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward P/E 64.24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "CRDO": 20.32,
+    "MRVL": 38.25
+   },
+   "source": "data/cache/2026-09-24-runway/finviz/finviz-snapshots.json (Finviz quote pages fetched 2026-09-24)",
+   "as_of": "2026-09-24",
+   "note": "Finviz snapshot, same page type as the name; null where Finviz shows '-'"
+  },
+  "ev_sales": {
+   "value": 51.03,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "CRDO": 22.69,
+    "MRVL": 24.19
+   },
+   "source": "data/cache/2026-09-24-runway/finviz/finviz-snapshots.json (Finviz quote pages fetched 2026-09-24)",
+   "as_of": "2026-09-24",
+   "note": "Finviz snapshot, same page type as the name; null where Finviz shows '-'"
+  },
+  "substitute": {
+   "value": "Broadcom PCIe/Tomahawk scale-up switches and NVIDIA NVLink Fusion",
+   "source": "https://stockanalysis.com/stocks/alab/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "named from bear case"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24",
+   "note": "full Finviz insider table read for 2026-06-26..2026-09-24; Form 144 'Proposed Sale' rows excluded as duplicates; no buys"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-02",
+     "name": "Stefan A. Dyckerhoff",
+     "role": "Director",
+     "shares": 12499,
+     "price": 274.96,
+     "usd": 3436753,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1484394/000148439426000011/xslF345X06/form4-09032026_110939.xml",
+     "plan_10b5_1": null,
+     "history": "two rows (8,994 + 3,505) combined; monthly pattern (Apr, May, Jun, Jul, Aug, Sep) suggests a plan"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "Manuel Alba",
+     "role": "Director",
+     "shares": 183000,
+     "price": 280.13,
+     "usd": 51263695,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1134727/000113472726000013/xslF345X06/wk-form4_1788467442.xml",
+     "plan_10b5_1": null,
+     "history": "via trusts; quarterly 183,000-share pattern (Dec, Apr, Jul, Sep) suggests a plan; 253,863 held after"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Jitendra Mohan",
+     "role": "CEO",
+     "shares": 90630,
+     "price": 340.35,
+     "usd": 30846356,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1736297/000199805326000023/xslF345X06/wk-form4_1787177400.xml",
+     "plan_10b5_1": null,
+     "history": "1.27M held after; CEO sold ~$270M+ in Feb-May 2026 as well"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Sanjay Gajendra",
+     "role": "President and COO",
+     "shares": 90630,
+     "price": 340.35,
+     "usd": 30846356,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1736297/000199817926000024/xslF345X06/wk-form4_1787177527.xml",
+     "plan_10b5_1": null,
+     "history": "same day and size as CEO: likely scheduled; 1.12M held after"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Philip Mazzara",
+     "role": "General Counsel",
+     "shares": 6801,
+     "price": 340.5,
+     "usd": 2315754,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1736297/000199816326000022/xslF345X06/wk-form4_1787177484.xml",
+     "plan_10b5_1": null,
+     "history": ""
+    },
+    {
+     "date": "2026-08-06",
+     "name": "Stefan A. Dyckerhoff",
+     "role": "Director",
+     "shares": 12499,
+     "price": 311.83,
+     "usd": 3897587,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1484394/000148439426000009/xslF345X06/form4-08102026_080832.xml",
+     "plan_10b5_1": null,
+     "history": "two rows combined"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Manuel Alba",
+     "role": "Director",
+     "shares": 183000,
+     "price": 443.87,
+     "usd": 81228288,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1134727/000113472726000006/xslF345X06/wk-form4_1783387626.xml",
+     "plan_10b5_1": null,
+     "history": "three rows (136,974 @442.01, 37,535 @447.39, 8,491 @458.38) combined; weighted price"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Stefan A. Dyckerhoff",
+     "role": "Director",
+     "shares": 12499,
+     "price": 450.0,
+     "usd": 5624550,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "http://www.sec.gov/Archives/edgar/data/1484394/000148439426000006/xslF345X06/form4-07022026_110723.xml",
+     "plan_10b5_1": null,
+     "history": "two rows combined"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24",
+   "note": "90-day sales total about $210M from 5 people, no buys; 10b5-1 status not opened on EDGAR"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/institutional-ownership/",
+   "as_of": "2026-09-23",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; CalSTRS row ignored; dollar totals not used"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives no share-count net; Fintel 403 per failure log"
+  },
+  "holders_up": {
+   "value": 605,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/institutional-ownership/",
+   "as_of": "2026-09-23",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; CalSTRS row ignored; dollar totals not used"
+  },
+  "holders_down": {
+   "value": 257,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/institutional-ownership/",
+   "as_of": "2026-09-23",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; CalSTRS row ignored; dollar totals not used"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Twin Peaks Capital",
+     "change_pct": null,
+     "shares": 10000
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/institutional-ownership/",
+   "as_of": "2026-09-16",
+   "note": "new position; small"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/institutional-ownership/",
+   "as_of": "2026-09-23",
+   "note": "trims only: National Pension Service -20.6% to 209,418"
+  },
+  "short_pct_float": {
+   "value": 6.33,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis 5.79"
+  },
+  "days_to_cover": {
+   "value": 2.04,
+   "source": "https://finviz.com/quote.ashx?t=ALAB",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis 2.22"
+  },
+  "short_as_of": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: settlement date not stated on Finviz or StockAnalysis"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-03",
+    "event": "Q3 2026 earnings (guide $540-560M)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/ALAB/earnings/",
+  "as_of": "2026-09-24",
+  "note": "MarketBeat estimate"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": "https://finviz.com/quote.ashx?t=ALAB",
+  "as_of": "2026-09-24",
+  "note": "not applicable: 27.8% below the 52w high (threshold 30%); the -12% print-day drop came despite a large guide raise"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "periods_aligned_note": "calendar FY26 and FY27 from the same StockAnalysis table, USD, non-GAAP EPS",
+  "currency": "USD",
+  "units": "USD; EPS per share",
+  "accounting_basis": "consensus non-GAAP EPS",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-14 (StockAnalysis)",
+  "model_assumptions": "none modelled",
+  "fcf_basis": "CFO minus capex (levered)",
+  "revision_period_end": null,
+  "fy1": {
+   "revenue": {
+    "value": 1910000000.0,
+    "source": "https://stockanalysis.com/stocks/alab/forecast/",
+    "as_of": "2026-09-14",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on fetched pages"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no forward CFO published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no forward capex published"
+   },
+   "eps": {
+    "value": 4.03,
+    "source": "https://stockanalysis.com/stocks/alab/forecast/",
+    "as_of": "2026-09-14",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "reported",
+    "note": "not found: TTM effective rate n/a (tax benefit)"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 2970000000.0,
+    "source": "https://stockanalysis.com/stocks/alab/forecast/",
+    "as_of": "2026-09-14",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no forward CFO published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no forward capex published"
+   },
+   "eps": {
+    "value": 6.39,
+    "source": "https://stockanalysis.com/stocks/alab/forecast/",
+    "as_of": "2026-09-14",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not published"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not computed"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 19,
+    "source": "https://stockanalysis.com/stocks/alab/forecast/",
+    "as_of": "2026-09-14",
+    "kind": "consensus",
+    "note": "12 strong buy + 7 buy"
+   },
+   "hold": {
+    "value": 7,
+    "source": "https://stockanalysis.com/stocks/alab/forecast/",
+    "as_of": "2026-09-14",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/alab/forecast/",
+    "as_of": "2026-09-14",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: finance.yahoo.com /analysis/ returned 'Oops, something went wrong' (twice); zacks.com detailed-estimates blocked by bot check; StockAnalysis forecast has no revision table"
+   },
+   "down_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: finance.yahoo.com /analysis/ returned 'Oops, something went wrong' (twice); zacks.com detailed-estimates blocked by bot check; StockAnalysis forecast has no revision table"
+   },
+   "analysts": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: finance.yahoo.com /analysis/ returned 'Oops, something went wrong' (twice); zacks.com detailed-estimates blocked by bot check; StockAnalysis forecast has no revision table"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: finance.yahoo.com /analysis/ returned 'Oops, something went wrong' (twice); zacks.com detailed-estimates blocked by bot check; StockAnalysis forecast has no revision table"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: finance.yahoo.com /analysis/ returned 'Oops, something went wrong' (twice); zacks.com detailed-estimates blocked by bot check; StockAnalysis forecast has no revision table"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 360.51,
+    "source": "https://finviz.com/quote.ashx?t=ALAB",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 61330000000.0,
+    "source": "https://finviz.com/quote.ashx?t=ALAB",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modelled"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "Q3 guide $540-560M vs $410M",
+  "competition_pts": 4,
+  "competition_why": "GM 76.3 to 73.3% falling; fwd P/E 56",
+  "macro_fit_pts": 1,
+  "macro_fit_why": "AI networking 1",
+  "narrative_pts": 1,
+  "narrative_why": "AI networking lagging",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

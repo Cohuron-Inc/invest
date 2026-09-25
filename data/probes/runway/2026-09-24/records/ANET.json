@@ -1,0 +1,1192 @@
+{
+ "ticker": "ANET",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 205.7,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 214.89,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 114.52,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -4.28,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 8.56,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 31.31,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "sma20_pct": {
+   "value": 4.79,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "fifty_above_200": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24",
+   "note": "derived: price sits further above the 200-day than the 50-day"
+  },
+  "perf_1m_pct": {
+   "value": 7.73,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 24.33,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24",
+   "note": "4.3% below the 214.89 high, 8.6% above the 50-day and 31.3% above the 200-day, +24% over three months; the Aug 5 gap held and extended"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/anet/history/",
+   "as_of": "2026-09-24",
+   "note": "print-day close 2026-08-05 197.31 (+3.57% vs 2026-08-04 close 190.51); five sessions later 2026-08-12 210.5 (+10.49%). gap up held above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/anet/forecast/",
+   "as_of": "2026-08-31"
+  },
+  "analysts": {
+   "value": 31,
+   "source": "https://stockanalysis.com/stocks/anet/forecast/",
+   "as_of": "2026-08-31"
+  },
+  "pt_avg": {
+   "value": 241.93,
+   "source": "https://stockanalysis.com/stocks/anet/forecast/",
+   "as_of": "2026-08-31"
+  },
+  "pt_high": {
+   "value": 289,
+   "source": "https://stockanalysis.com/stocks/anet/forecast/",
+   "as_of": "2026-08-31"
+  },
+  "pt_low": {
+   "value": 190,
+   "source": "https://stockanalysis.com/stocks/anet/forecast/",
+   "as_of": "2026-08-31"
+  },
+  "upside_pct": {
+   "value": 17.61,
+   "source": "https://stockanalysis.com/stocks/anet/forecast/",
+   "as_of": "2026-09-24",
+   "note": "pt_avg vs 2026-09-24 close"
+  },
+  "finviz_target": {
+   "value": 248.86,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded alongside StockAnalysis"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-10",
+     "broker": "Evercore ISI",
+     "action": "reiterate Outperform",
+     "target": null,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "Deutsche Bank",
+     "action": "initiate Buy",
+     "target": 220,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-27",
+     "broker": "Bank of America",
+     "action": "maintain Buy",
+     "target": 240,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-21",
+     "broker": "Piper Sandler",
+     "action": "maintain Overweight",
+     "target": 240,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-10",
+     "broker": "Goldman Sachs",
+     "action": "maintain Buy, raise target",
+     "target": 225,
+     "reason": "196 to 225"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "Citigroup",
+     "action": "reiterate Buy",
+     "target": null,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "UBS",
+     "action": "reiterate Buy, raise target",
+     "target": 259,
+     "reason": "post-print; 187 to 259"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Morgan Stanley",
+     "action": "reiterate Overweight, raise target",
+     "target": 220,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Wells Fargo",
+     "action": "reiterate Overweight, raise target",
+     "target": 255,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "KeyBanc",
+     "action": "reiterate Overweight, raise target",
+     "target": 250,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Barclays",
+     "action": "reiterate Overweight, raise target",
+     "target": 289,
+     "reason": "post-print; 195 to 289"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Needham",
+     "action": "reiterate Buy, raise target",
+     "target": 260,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Jefferies",
+     "action": "set target",
+     "target": 250,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "TD Cowen",
+     "action": "maintain Buy, raise target",
+     "target": 250,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Truist",
+     "action": "maintain Buy, raise target",
+     "target": 234,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "Rosenblatt",
+     "action": "maintain Buy, raise target",
+     "target": 280,
+     "reason": "post-print"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat ratings table plus StockAnalysis latest-forecasts rows; Weiss, Zacks and Freedom-style quant rows excluded unless sell-side"
+  },
+  "pt_avg_marketbeat": {
+   "value": 227.8,
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/forecast/",
+   "as_of": "2026-09-24",
+   "note": "23 analysts, Buy, low 164"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-04",
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/earnings/",
+   "as_of": "2026-08-04"
+  },
+  "revenue_actual": {
+   "value": 3036.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/earnings/",
+   "as_of": "2026-08-04",
+   "note": "USD m"
+  },
+  "revenue_estimate": {
+   "value": 2830.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/earnings/",
+   "as_of": "2026-08-04",
+   "note": "USD m, consensus at the print"
+  },
+  "eps_actual": {
+   "value": 1.02,
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/earnings/",
+   "as_of": "2026-08-04",
+   "note": "adjusted"
+  },
+  "eps_estimate": {
+   "value": 0.886,
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/earnings/",
+   "as_of": "2026-08-04"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.gurufocus.com/news/9004375/arista-networks-inc-anet-q2-2026-earnings-call-highlights-record-3-billion-quarter-and-raised-2026-guidance-signal-strong-ai-momentum",
+   "as_of": "2026-08-04"
+  },
+  "guide_detail": {
+   "value": "FY2026 revenue guide raised for the third time to $12.6B (+40%); AI fabrics goal at least $3.5B, campus at least $1.25B. Q3 guided revenue about $3.3B, non-GAAP gross margin about 63%, operating margin 48-49%, EPS $1.06-1.08 (Q3 consensus was $0.91 sixty days ago).",
+   "source": "https://www.gurufocus.com/news/9004375/arista-networks-inc-anet-q2-2026-earnings-call-highlights-record-3-billion-quarter-and-raised-2026-guidance-signal-strong-ai-momentum",
+   "as_of": "2026-08-04"
+  },
+  "reaction_day_pct": {
+   "value": 3.57,
+   "source": "https://stockanalysis.com/stocks/anet/history/",
+   "as_of": "2026-08-05",
+   "note": "close 2026-08-05 vs close 2026-08-04"
+  },
+  "reaction_5d_pct": {
+   "value": 10.49,
+   "source": "https://stockanalysis.com/stocks/anet/history/",
+   "as_of": "2026-08-12",
+   "note": "close 2026-08-12 vs pre-print close 2026-08-04"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/ANET/analysis/",
+   "as_of": "2026-09-24",
+   "note": "consensus level unchanged over 30 days (4.11), although Yahoo counts 26 up and 0 down revisions in the window"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/ANET/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 4.11,
+    "d30": 4.11,
+    "d90": 3.63
+   },
+   "source": "https://finance.yahoo.com/quote/ANET/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year EPS consensus now / 30 / 90 days ago"
+  },
+  "fcf_ttm": {
+   "value": 5160.0,
+   "source": "https://stockanalysis.com/stocks/anet/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD m, trailing four quarters"
+  },
+  "net_income_ttm": {
+   "value": 4040.0,
+   "source": "https://stockanalysis.com/stocks/anet/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD m, GAAP"
+  },
+  "sbc_pct_revenue": {
+   "value": 4.77,
+   "source": "https://stockanalysis.com/stocks/anet/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "trailing four quarters SBC / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Ethernet wins AI back-end and scale-out fabrics, taking 2026 revenue up 40% to $12.6B and 2027 to about $16.2B with 48%+ operating margin.",
+   "source": "https://www.gurufocus.com/news/9004375/arista-networks-inc-anet-q2-2026-earnings-call-highlights-record-3-billion-quarter-and-raised-2026-guidance-signal-strong-ai-momentum",
+   "as_of": "2026-08-04"
+  },
+  "depends_on": {
+   "value": "AI fabrics revenue of at least $3.5B in 2026 and 2027 revenue consensus $16.23B",
+   "source": "https://finance.yahoo.com/quote/ANET/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: 44x FY1 PE, cloud-titan concentration, Nvidia and Cisco competing in AI Ethernet, and heavy founder and CEO selling ($858M of open-market sales in 90 days)",
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.gurufocus.com/news/9004375/arista-networks-inc-anet-q2-2026-earnings-call-highlights-record-3-billion-quarter-and-raised-2026-guidance-signal-strong-ai-momentum",
+   "as_of": "2026-08-04"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "CSCO",
+    "NVDA"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": null,
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    64.56,
+    62.86,
+    61.9,
+    62.93
+   ],
+   "source": "https://stockanalysis.com/stocks/anet/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "GAAP gross margin, oldest to newest, last four reported quarters"
+  },
+  "fwd_pe": {
+   "value": 39.35,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward PE 43.8"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "CSCO": 19.3,
+    "NVDA": 14.27
+   },
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24",
+   "note": "Finviz Forward P/E for each peer, fetched 2026-09-24"
+  },
+  "ev_sales": {
+   "value": 23.35,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "CSCO": 6.9,
+    "NVDA": 17.66
+   },
+   "source": "https://finviz.com/quote.ashx?t=CSCO",
+   "as_of": "2026-09-24",
+   "note": "Finviz EV/Sales for each peer"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute found in the sources read"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table (saved HTML) runs back before 2026-06-26, so the full trailing 90 days are covered; Form 144 \"Proposed Sale\" and option-exercise rows excluded; each sale checked against its EDGAR Form 4 for the 10b5-1 flag"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in the 90 days to 2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "name": "Duda Kenneth",
+     "role": "President and CTO",
+     "role_full": "President and CTO",
+     "shares": 26000,
+     "price": 203.5,
+     "usd": 5290958,
+     "held_after": 442400,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000232/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 23 07:05 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-21",
+     "name": "Duda Kenneth",
+     "role": "President and CTO",
+     "role_full": "President and CTO",
+     "shares": 17333,
+     "price": 203.5,
+     "usd": 3527237,
+     "held_after": 12976,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000232/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 23 07:05 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-17",
+     "name": "BECHTOLSHEIM ANDREAS",
+     "role": "10% Owner",
+     "role_full": "10% Owner",
+     "shares": 300000,
+     "price": 198.95,
+     "usd": 59686334,
+     "held_after": 180543048,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1133206/000159653226000230/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 21 07:06 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-08",
+     "name": "TEMPLETON MARK B",
+     "role": "Director",
+     "role_full": "Director",
+     "shares": 5000,
+     "price": 197.16,
+     "usd": 985788,
+     "held_after": 53410,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1201938/000159653226000226/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 10 07:47 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "Breithaupt Chantelle Yvette",
+     "role": "CFO",
+     "role_full": "Senior Vice President, CFO",
+     "shares": 612,
+     "price": 195.77,
+     "usd": 119811,
+     "held_after": 69921,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000222/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 03 06:56 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "BECHTOLSHEIM ANDREAS",
+     "role": "10% Owner",
+     "role_full": "10% Owner",
+     "shares": 300000,
+     "price": 202.6,
+     "usd": 60780047,
+     "held_after": 180843048,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1133206/000159653226000218/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 31 06:45 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Ullal Jayshree",
+     "role": "CEO",
+     "role_full": "CEO and Chairperson",
+     "shares": 13809,
+     "price": 191.79,
+     "usd": 2648491,
+     "held_after": 9917,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000216/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 27 06:21 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "Battles Kelly Bodnar",
+     "role": "Director",
+     "role_full": "Director",
+     "shares": 422,
+     "price": 187.34,
+     "usd": 79057,
+     "held_after": 10194,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000214/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 25 06:53 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-20",
+     "name": "Duda Kenneth",
+     "role": "President and CTO",
+     "role_full": "President and CTO",
+     "shares": 26000,
+     "price": 185.42,
+     "usd": 4820855,
+     "held_after": 452400,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000210/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 24 06:14 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-20",
+     "name": "Duda Kenneth",
+     "role": "President and CTO",
+     "role_full": "President and CTO",
+     "shares": 17333,
+     "price": 185.42,
+     "usd": 3213844,
+     "held_after": 12976,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000210/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 24 06:14 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-12",
+     "name": "Ullal Jayshree",
+     "role": "CEO",
+     "role_full": "CEO and Chairperson",
+     "shares": 573509,
+     "price": 208.13,
+     "usd": 119364068,
+     "held_after": 25000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000190/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 14 06:47 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-06",
+     "name": "BECHTOLSHEIM ANDREAS",
+     "role": "10% Owner",
+     "role_full": "10% Owner",
+     "shares": 300000,
+     "price": 192.75,
+     "usd": 57824691,
+     "held_after": 181143048,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1133206/000159653226000188/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 10 06:43 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-06",
+     "name": "BECHTOLSHEIM ANDREAS",
+     "role": "10% Owner",
+     "role_full": "10% Owner",
+     "shares": 111848,
+     "price": 192.75,
+     "usd": 21558590,
+     "held_after": 0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1133206/000159653226000188/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 10 06:43 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-05",
+     "name": "BECHTOLSHEIM ANDREAS",
+     "role": "10% Owner",
+     "role_full": "10% Owner",
+     "shares": 300000,
+     "price": 203.3,
+     "usd": 60989688,
+     "held_after": 181443048,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1133206/000159653226000186/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 07 06:35 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-05",
+     "name": "Ullal Jayshree",
+     "role": "CEO",
+     "role_full": "CEO and Chairperson",
+     "shares": 767029,
+     "price": 201.22,
+     "usd": 154341086,
+     "held_after": 16387981,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000185/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 07 06:34 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-05",
+     "name": "Ullal Jayshree",
+     "role": "CEO",
+     "role_full": "CEO and Chairperson",
+     "shares": 1032,
+     "price": 201.24,
+     "usd": 207680,
+     "held_after": 29484,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000184/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 07 06:34 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-05",
+     "name": "Ullal Jayshree",
+     "role": "CEO",
+     "role_full": "CEO and Chairperson",
+     "shares": 331434,
+     "price": 201.22,
+     "usd": 66690914,
+     "held_after": 4968490,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000183/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 07 06:34 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-03",
+     "name": "Giancarlo Charles H",
+     "role": "Director",
+     "role_full": "Director",
+     "shares": 8000,
+     "price": 181.02,
+     "usd": 1448180,
+     "held_after": 184333,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1299634/000159653226000178/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 filed Aug 05 06:12 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-20",
+     "name": "Duda Kenneth",
+     "role": "President and CTO",
+     "role_full": "President and CTO",
+     "shares": 26000,
+     "price": 170.51,
+     "usd": 4433357,
+     "held_after": 462400,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000166/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 22 06:56 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-20",
+     "name": "Duda Kenneth",
+     "role": "President and CTO",
+     "role_full": "President and CTO",
+     "shares": 17333,
+     "price": 170.51,
+     "usd": 2955515,
+     "held_after": 12976,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000166/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 22 06:56 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-14",
+     "name": "BECHTOLSHEIM ANDREAS",
+     "role": "10% Owner",
+     "role_full": "10% Owner",
+     "shares": 300000,
+     "price": 180.77,
+     "usd": 54231399,
+     "held_after": 181743048,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1133206/000159653226000164/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 16 07:13 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-10",
+     "name": "Ullal Jayshree",
+     "role": "CEO",
+     "role_full": "CEO and Chairperson",
+     "shares": 234578,
+     "price": 187.18,
+     "usd": 43907278,
+     "held_after": 5134207,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000162/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 14 06:55 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-09",
+     "name": "Ullal Jayshree",
+     "role": "CEO",
+     "role_full": "CEO and Chairperson",
+     "shares": 242422,
+     "price": 188.17,
+     "usd": 45616220,
+     "held_after": 5171095,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000160/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 13 07:07 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-02",
+     "name": "BECHTOLSHEIM ANDREAS",
+     "role": "10% Owner",
+     "role_full": "10% Owner",
+     "shares": 240000,
+     "price": 162.67,
+     "usd": 39040876,
+     "held_after": 182043048,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1133206/000159653226000158/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 07 07:11 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "BECHTOLSHEIM ANDREAS",
+     "role": "10% Owner",
+     "role_full": "10% Owner",
+     "shares": 260000,
+     "price": 164.22,
+     "usd": 42696873,
+     "held_after": 182283048,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1133206/000159653226000156/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 06 06:23 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Giancarlo Charles H",
+     "role": "Director",
+     "role_full": "Director",
+     "shares": 8000,
+     "price": 167.06,
+     "usd": 1336474,
+     "held_after": 192333,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1299634/000159653226000155/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Jul 06 06:22 PM; plan status read from the Form 4 checkbox and footnotes"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24",
+   "note": "26 open-market sales, $857,795,311 total; 7 unique sellers; 25 flagged 10b5-1 on the Form 4; CEO Jayshree Ullal sold about $433M (Jul 9-Aug 25) and 10% owner Andreas Bechtolsheim about $397M; most flagged 10b5-1"
+  },
+  "finviz_net_change_pct": {
+   "value": -3.24,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24",
+   "note": "Finviz 6-month insider transaction %"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle in the MarketBeat holder table (filings dated Jul-Sep 2026)"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no share-count net flow published free; Fintel 403 per failure log, MarketBeat gives dollars only"
+  },
+  "holders_up": {
+   "value": 1474,
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals not used (CalSTRS rule)."
+  },
+  "holders_down": {
+   "value": 939,
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals not used (CalSTRS rule)."
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "Q2 2026 13F rows with >=0.1% of the company and a >=25% increase or a new position; State Street (+159%, 9.6% of shares) and Envestnet (+199%) rows excluded as implausible, the same class of artifact as the CalSTRS row"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "no full exit (-100%) among material holders in the latest 100 13F rows"
+  },
+  "named_cuts": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "material holders cutting >=25% in the latest 13F rows"
+  },
+  "inst_own_pct": {
+   "value": 82.47,
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_change_pct": {
+   "value": 0.66,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24",
+   "note": "secondary directional proxy"
+  },
+  "short_pct_float": {
+   "value": 1.08,
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "MarketBeat settlement 2026-09-15, 13.25M shares; Finviz shows 1.26% float / 1.89 DTC undated"
+  },
+  "days_to_cover": {
+   "value": 3.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/ANET/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_pct_float_finviz": {
+   "value": 1.26,
+   "source": "https://finviz.com/quote.ashx?t=ANET",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-03",
+    "event": "Q3 2026 earnings (StockAnalysis/MarketBeat estimate)",
+    "confirmed": false
+   },
+   {
+    "date": "2027-02-11",
+    "event": "Q4 2026 earnings (estimated from prior-year schedule)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/anet/statistics/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": "Not applicable: 4.3% below the 52-week high.",
+  "source": "https://finviz.com/quote.ashx?t=ANET",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "millions (EPS per share)",
+  "accounting_basis": "revenue GAAP; EPS non-GAAP adjusted consensus",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "Yahoo analysis page read 2026-09-24; StockAnalysis forecast last updated 2026-08-31",
+  "model_assumptions": "none; no modelled leaves",
+  "fcf_basis": "CFO minus capex (levered); forward FCF not filled",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 12670,
+    "source": "https://finance.yahoo.com/quote/ANET/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "USD m, Yahoo avg; matches StockAnalysis forecast"
+   },
+   "ebit": {
+    "value": 6150,
+    "source": "https://stockanalysis.com/stocks/anet/forecast/",
+    "as_of": "2026-08-31",
+    "kind": "consensus",
+    "note": "StockAnalysis FY1 \"Operating Income\" consensus; basis (adjusted vs GAAP) not stated by the page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward CFO not published free; not modelled"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward capex not published free; not modelled"
+   },
+   "eps": {
+    "value": 4.11,
+    "source": "https://finance.yahoo.com/quote/ANET/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "non-GAAP EPS"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 16230,
+    "source": "https://finance.yahoo.com/quote/ANET/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "USD m, Yahoo avg"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: StockAnalysis FY2 operating income is behind the Pro paywall; Yahoo gives no EBIT"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward CFO not published free; not modelled"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward capex not published free; not modelled"
+   },
+   "eps": {
+    "value": 5.19,
+    "source": "https://finance.yahoo.com/quote/ANET/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "non-GAAP EPS"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 31,
+    "source": "https://stockanalysis.com/stocks/anet/forecast/",
+    "as_of": "2026-08-31",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   },
+   "hold": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/anet/forecast/",
+    "as_of": "2026-08-31",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/anet/forecast/",
+    "as_of": "2026-08-31",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 26,
+    "source": "https://finance.yahoo.com/quote/ANET/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current fiscal year, up last 30 days"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/ANET/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current fiscal year, down last 30 days; \"--\" read as 0"
+   },
+   "analysts": {
+    "value": 28,
+    "source": "https://finance.yahoo.com/quote/ANET/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo number of analysts, current fiscal year EPS"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7d and 30d counts only"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7d and 30d counts only"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 205.7,
+    "source": "https://finviz.com/quote.ashx?t=ANET",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 246090.0,
+    "source": "https://finviz.com/quote.ashx?t=ANET",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "USD m, Finviz"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modelled"
+   }
+  },
+  "evidence": {
+   "sa_fy1_fcf_consensus": {
+    "value": 5700,
+    "source": "https://stockanalysis.com/stocks/anet/forecast/",
+    "as_of": "2026-08-31",
+    "kind": "consensus",
+    "note": "StockAnalysis FY1 free cash flow consensus, USD m; FY2 paywalled"
+   }
+  },
+  "periods_aligned_note": "Yahoo and StockAnalysis fiscal-year labels and FY1 values checked against each other (https://finance.yahoo.com/quote/ANET/analysis/, 2026-09-24)"
+ },
+ "judgment": {
+  "prospect_pts": 7,
+  "prospect_why": "AI Ethernet fabrics in the third FY raise to $12.6B",
+  "competition_pts": 6,
+  "competition_why": "GM ~62-63% stable with share gains; fwd P/E 39.4 premium",
+  "macro_fit_pts": 3,
+  "macro_fit_why": "quality megacap 4 minus 1: 39x forward earnings",
+  "narrative_pts": 3,
+  "narrative_why": "AI networking lagging, but the name itself is near highs; outside the basket's weakness",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

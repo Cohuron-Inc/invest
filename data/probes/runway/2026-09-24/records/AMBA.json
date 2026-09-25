@@ -1,0 +1,761 @@
+{
+ "ticker": "AMBA",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 69.86,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 96.69,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 48.3,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -27.75,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24",
+   "note": "computed from Finviz close and 52w high"
+  },
+  "sma50_pct": {
+   "value": -2.66,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 2.23,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -1.3,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 8.97,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS Information Technology"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA50/SMA200 distance, drawdown and 1m/3m performance"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/amba/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-09-14 (63.98) vs pre-print close 2026-09-03 (63.38); true = price 5 sessions after the print at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/amba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 14,
+   "source": "https://stockanalysis.com/stocks/amba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 89.36,
+   "source": "https://stockanalysis.com/stocks/amba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 120.0,
+   "source": "https://stockanalysis.com/stocks/amba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 65.0,
+   "source": "https://stockanalysis.com/stocks/amba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 27.91,
+   "source": "https://stockanalysis.com/stocks/amba/forecast/",
+   "as_of": "2026-09-24",
+   "note": "SA average target vs Finviz close"
+  },
+  "pt_finviz": {
+   "value": 91.33,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded for comparison"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-18",
+     "broker": "Morgan Stanley",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 96,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-04",
+     "broker": "Northland Securities",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 101,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-04",
+     "broker": "Oppenheimer",
+     "action": "reiterates",
+     "rating": "Hold",
+     "target": null,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-04",
+     "broker": "Susquehanna",
+     "action": "reiterates",
+     "rating": "Buy",
+     "target": 110,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-04",
+     "broker": "Rosenblatt Securities",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 120,
+     "target_old": null,
+     "reason": "not stated on source page"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/amba/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free page shows only the five most recent sell-side actions; older actions in the 60-day window may be missing"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat $89.56 within 10 points of StockAnalysis (28.2% vs 27.9% upside); not needed"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-09-03",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 108130000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 107760000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 0.18,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/earnings/",
+   "as_of": "2026-09-24",
+   "note": "non-GAAP"
+  },
+  "eps_estimate": {
+   "value": 0.171,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/earnings/",
+   "as_of": "2026-09-03"
+  },
+  "guide_detail": {
+   "value": "FQ3 FY27 revenue guide $115-124M (mid $119.5M) vs $119.3M consensus: in line; no EPS guide",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/earnings/",
+   "as_of": "2026-09-03"
+  },
+  "reaction_day_pct": {
+   "value": -0.77,
+   "source": "https://stockanalysis.com/stocks/amba/history/",
+   "as_of": "2026-09-04",
+   "note": "2026-09-04 close 62.89 vs 2026-09-03 close 63.38"
+  },
+  "reaction_5d_pct": {
+   "value": 0.95,
+   "source": "https://stockanalysis.com/stocks/amba/history/",
+   "as_of": "2026-09-14",
+   "note": "pre-print close to the close five sessions after the reaction day"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/AMBA/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Jan-2027): current 0.8, 30d ago 0.77, 90d ago 0.78; flat = within 0.5%; Yahoo /analysis/ returned an error page on repeated tries, Zacks used for numbers only"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/AMBA/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Jan-2027): current 0.8, 30d ago 0.77, 90d ago 0.78; flat = within 0.5%; Yahoo /analysis/ returned an error page on repeated tries, Zacks used for numbers only"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 0.8,
+    "d30": 0.77,
+    "d90": 0.78
+   },
+   "source": "https://www.zacks.com/stock/quote/AMBA/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Jan-2027)"
+  },
+  "fcf_ttm": {
+   "value": 9721000,
+   "source": "https://stockanalysis.com/stocks/amba/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-31",
+   "note": "sum of last four quarters, quarters ending 2026-07-31, 2026-04-30, 2026-01-31, 2025-10-31"
+  },
+  "net_income_ttm": {
+   "value": -56324000.0,
+   "source": "https://stockanalysis.com/stocks/amba/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-31"
+  },
+  "fcf_to_ni": {
+   "value": null,
+   "source": "https://stockanalysis.com/stocks/amba/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-31",
+   "note": "negative net income; ratio not meaningful"
+  },
+  "sbc_pct_revenue": {
+   "value": 21.86,
+   "source": "https://stockanalysis.com/stocks/amba/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-31",
+   "note": "TTM stock-based compensation / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): edge-AI vision SoCs for autos, robotics and enterprise security grow revenue about 13% a year; consensus non-GAAP EPS $0.80 (FY Jan-27) to $1.12 (FY Jan-28).",
+   "source": "https://stockanalysis.com/stocks/amba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "edge-AI SoC design wins converting to revenue: consensus $441M (FY27) and $500M (FY28)",
+   "source": "https://stockanalysis.com/stocks/amba/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: still GAAP loss-making (TTM net income -$56M) with stock compensation at 22% of revenue and near-zero free cash flow; 13.5% of the float is short; 8 of 14 analysts at Hold.",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/earnings/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "MBLY",
+    "QCOM"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": null,
+   "note": "no source read states a share trend"
+  },
+  "gross_margin_4q": {
+   "value": [
+    57.73,
+    58.38,
+    58.41,
+    59.55
+   ],
+   "source": "https://stockanalysis.com/stocks/amba/financials/?p=quarterly",
+   "as_of": "2026-07-31",
+   "note": "latest first, quarters ending 2026-07-31, 2026-04-30, 2026-01-31, 2025-10-31"
+  },
+  "fwd_pe": {
+   "value": 65.96,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "MBLY": 15.24,
+    "QCOM": 19.15
+   },
+   "source": "https://finviz.com/quote.ashx?t=MBLY",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 6.76,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "MBLY": 2.53,
+    "QCOM": 4.79
+   },
+   "source": "https://finviz.com/quote.ashx?t=MBLY",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute or new entrant in the sources read"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to before 2026-06-26 (full 90 days); every Form 4 sale opened on EDGAR and the 10b5-1 checkbox read; option exercises, Form 144 notices and withholding (F) excluded; excluded 4 sell-to-cover sales on 2026-09-17 ($915,010) footnoted as sold to pay RSU tax obligations"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-18",
+     "name": "Young John Alexander",
+     "role": "CFO",
+     "shares": 1896,
+     "price": 67.28,
+     "usd": 127563,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1280263/000128026326000075/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 107,806 sh; The sales reported on this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted on January 15, 2026"
+    },
+    {
+     "date": "2026-07-09",
+     "name": "Chen Yun-Lung",
+     "role": "VP, Business Dev. & Marketing",
+     "shares": 5958,
+     "price": 78.66,
+     "usd": 468656,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1280263/000128026326000055/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": false,
+     "history": "owned after: 60,557 sh"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Ju Chi-Hong",
+     "role": "Senior VP, Systems & GM",
+     "shares": 10000,
+     "price": 88.84,
+     "usd": 888400,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1280263/000128026326000053/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": false,
+     "history": "owned after: 155,924 sh"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Wang Feng-Ming",
+     "role": "CEO",
+     "shares": 16250,
+     "price": 90.08,
+     "usd": 1463800,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1280263/000128026326000052/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 773,607 sh; The sales reported on this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted on October 8, 2025"
+    },
+    {
+     "date": "2026-06-26",
+     "name": "PAISLEY CHRISTOPHER B",
+     "role": "Director",
+     "shares": 250,
+     "price": 62.01,
+     "usd": 15502,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1189229/000128026326000049/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": null,
+     "history": "owned after: 41,029 sh"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24",
+   "note": "5 sales, $2,963,921; unique sellers 5"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -5.08,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle (Q2 2026) as shown on MarketBeat filings list"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel is 403 per failure log and MarketBeat dollar totals are excluded; no clean net share change"
+  },
+  "holders_up": {
+   "value": 182,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 123,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "WINTON GROUP Ltd",
+     "change_pct": 517.3,
+     "shares": 32100
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "Squarepoint -22.1% to 359k sh; Handelsbanken Fonder -66.1% to 134k sh; Engineers Gate -96.8%"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 13.54,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 13.56% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 2.3,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 3.08"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/short-interest/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_trans_pct": {
+   "value": -2.1,
+   "source": "https://finviz.com/quote.ashx?t=AMBA",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-12-01",
+    "event": "FQ3 FY2027 earnings (MarketBeat estimate)",
+    "confirmed": false,
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/earnings/"
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/AMBA/earnings/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not found: drawdown -27.7% is less than 30% from the high; not required"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; EPS in USD per share",
+  "accounting_basis": "consensus adjusted (non-GAAP) EPS; revenue and operating income as S&P Global consensus",
+  "fy1_end": "2027-01-31",
+  "fy2_end": "2028-01-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex; forward CFO/capex not published on free sources",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 441029160,
+    "source": "https://stockanalysis.com/stocks/amba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": 31944380,
+    "source": "https://stockanalysis.com/stocks/amba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global consensus operating income from the StockAnalysis estimates table"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward CFO not published; StockAnalysis shows consensus FY1 free cash flow of -766,670 only"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward capex not published on free sources"
+   },
+   "eps": {
+    "value": 0.80441,
+    "source": "https://stockanalysis.com/stocks/amba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "fcf_consensus": {
+    "value": -766670,
+    "source": "https://stockanalysis.com/stocks/amba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus FY1 free cash flow; not split into CFO and capex"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 499899660,
+    "source": "https://stockanalysis.com/stocks/amba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis paywall"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": 1.12058,
+    "source": "https://stockanalysis.com/stocks/amba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 6,
+    "source": "https://stockanalysis.com/stocks/amba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global Sep '26: strong buy 4 + buy 2"
+   },
+   "hold": {
+    "value": 8,
+    "source": "https://stockanalysis.com/stocks/amba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/amba/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell 0 + strong sell 0"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 5,
+    "source": "https://www.zacks.com/stock/quote/AMBA/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 column; provider counts revision events"
+   },
+   "down_30d": {
+    "value": 1,
+    "source": "https://www.zacks.com/stock/quote/AMBA/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "analysts": {
+    "value": 6,
+    "source": "https://www.zacks.com/stock/quote/AMBA/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "number of FY1 EPS estimates on the same page"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 69.86,
+    "source": "https://finviz.com/quote.ashx?t=AMBA",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": null
+   },
+   "enterprise_value": {
+    "value": 2820000000.0,
+    "source": "https://finviz.com/quote.ashx?t=AMBA",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "Finviz enterprise value"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: WACC not modelled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 4,
+  "prospect_why": "edge-AI SoC growth guided; EPS 0.80 to 1.12 is consensus",
+  "competition_pts": 3,
+  "competition_why": "GM 59.6 to 57.7% falling; fwd P/E 66",
+  "macro_fit_pts": 2,
+  "macro_fit_why": "small cap and GAAP loss-making with SBC 22% of revenue: long duration",
+  "narrative_pts": 3,
+  "narrative_why": "edge AI is outside the main themes",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

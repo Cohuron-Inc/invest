@@ -1,0 +1,733 @@
+{
+ "ticker": "UUUU",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:28:55+00:00",
+ "price": {
+  "close": {
+   "value": 11.32,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 27.9,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 10.69,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -59.43,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24",
+   "note": "computed from close and 52w high"
+  },
+  "sma50_pct": {
+   "value": -14.51,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -34.37,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "fifty_above_200": {
+   "value": false,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price sits further above the 200 than the 50"
+  },
+  "perf_1m_pct": {
+   "value": -29.12,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -21.5,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLE",
+   "source": "https://finviz.com/quote.ashx?t=XLE",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 0.87,
+   "source": "https://finviz.com/quote.ashx?t=XLE",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 15.73,
+   "source": "https://finviz.com/quote.ashx?t=XLE",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "breakdown",
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24",
+   "note": "-29% in a month, -14.5% below the 50-day and -34% below the 200-day, 6% above the 52w low"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/uuuu/history/",
+   "as_of": "2026-09-24",
+   "note": "reaction-day close 2026-08-06 12.9 vs +5 sessions 2026-08-13 14.58; held = +5d close at or above reaction-day close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 8,
+   "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 24.15,
+   "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 32.5,
+   "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 16,
+   "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 113.34,
+   "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed: StockAnalysis average target vs Finviz close"
+  },
+  "pt_avg_finviz": {
+   "value": 25.77,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean; recorded beside StockAnalysis, not in place of it"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat forecast page not fetched; Finviz mean target is within 10 upside points of StockAnalysis, so the alt is not required"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-02",
+     "broker": "Cantor Fitzgerald",
+     "action": "reiterate",
+     "target": 33,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "H.C. Wainwright",
+     "action": "reiterate",
+     "target": 29,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-14",
+     "broker": "BMO Capital",
+     "action": "initiate",
+     "target": 18,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-10",
+     "broker": "B. Riley",
+     "action": "lower",
+     "target": 25,
+     "reason": "Buy; 27 -> 25"
+    },
+    {
+     "date": "2026-08-07",
+     "broker": "Roth MKM",
+     "action": "upgrade",
+     "target": 16,
+     "reason": "to Buy"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table, rows dated 2026-07-26 onward as rendered; sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-05",
+   "source": "https://www.marketbeat.com/stocks/NYSEAMERICAN/UUUU/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 25110000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSEAMERICAN/UUUU/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 30760000.0,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24",
+   "note": "derived: Finviz sales surprise -18.38% on reported $25.11M; MarketBeat does not list the revenue consensus"
+  },
+  "eps_actual": {
+   "value": -0.13,
+   "source": "https://www.marketbeat.com/stocks/NYSEAMERICAN/UUUU/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_estimate": {
+   "value": -0.04,
+   "source": "https://www.marketbeat.com/stocks/NYSEAMERICAN/UUUU/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/energy-fuels-stock-falls-3-10-percent-as-q2-loss-widens/70178417",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "No revenue/EPS guidance against consensus (company issues production/sales volume guidance only). Q2 net loss widened to $33.4M from $21.8M; ASM acquisition ($299M) closed 2026-08-28",
+   "source": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/energy-fuels-stock-falls-3-10-percent-as-q2-loss-widens/70178417",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": 3.7,
+   "source": "https://stockanalysis.com/stocks/uuuu/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-06 vs prior close 2026-08-05 (12.44)"
+  },
+  "reaction_5d_pct": {
+   "value": 17.2,
+   "source": "https://stockanalysis.com/stocks/uuuu/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-13 vs pre-print close 2026-08-05"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://api.nasdaq.com/api/analyst/UUUU/earnings-forecast",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq FY2026 EPS: 0 up / 0 down over 4 weeks (3 estimates)"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/energy-fuels-down-28-past-153400034.html",
+   "as_of": "2026-09-24",
+   "note": "Zacks-sourced article: 2026 and 2027 estimates moved lower over the past 60 days (60d, not 90d window)"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo EPS Trend table empty or failed for this name"
+  },
+  "fcf_ttm": {
+   "value": -120425000,
+   "source": "https://stockanalysis.com/stocks/uuuu/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": -81747000,
+   "source": "https://stockanalysis.com/stocks/uuuu/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": 13.48,
+   "source": "https://stockanalysis.com/stocks/uuuu/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "SBC TTM 14,256,000 / Finviz sales TTM 105.76M"
+  },
+  "stock_issued_ttm": {
+   "value": 285758000,
+   "source": "https://stockanalysis.com/stocks/uuuu/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "common stock issued, TTM to 2026-06-30"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: the only US mill producing both uranium and separated rare-earth oxides; with ASM's Korean metals plant it claims the largest integrated rare-earth chain outside China, and revenue doubles in 2026 and again in 2027 (consensus $132M -> $262M).",
+   "source": "https://kalkine.ca/news/mining/energy-fuels-stock-faces-fresh-pressure-as-uranium-momentum-meets-rare-earth-execution-risk",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Dy/Tb oxide qualification and offtake (terbium qualified by a major magnet maker in August); uranium sales volumes.",
+   "source": "https://kalkine.ca/news/mining/energy-fuels-stock-faces-fresh-pressure-as-uranium-momentum-meets-rare-earth-execution-risk",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Theme stock repriced on US-China thaw hopes; losses widening; EV/sales ~25x; repeated ATM issuance (share count +22% y/y).",
+   "source": "https://kalkine.ca/news/mining/energy-fuels-stock-faces-fresh-pressure-as-uranium-momentum-meets-rare-earth-execution-risk",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "story",
+   "source": "https://kalkine.ca/news/mining/energy-fuels-stock-faces-fresh-pressure-as-uranium-momentum-meets-rare-earth-execution-risk",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "UEC",
+    "MP"
+   ],
+   "source": "https://stockanalysis.com/stocks/uuuu/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    27.82,
+    35.04,
+    40.08,
+    57.42
+   ],
+   "source": "https://stockanalysis.com/stocks/uuuu/financials/income-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarters Q3-25..Q2-26, oldest first"
+  },
+  "fwd_pe": {
+   "value": 74.84,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peers not in the Finviz snapshot set or not US-listed"
+  },
+  "ev_sales": {
+   "value": 25.93,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peer pages not fetched"
+  },
+  "substitute": {
+   "value": "Chinese rare-earth supply if export curbs ease; MP Materials' integrated magnet chain.",
+   "source": "https://kalkine.ca/news/mining/energy-fuels-stock-faces-fresh-pressure-as-uranium-momentum-meets-rare-earth-execution-risk",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table runs back before 2026-06-26 for this name, so the full trailing 90 days is covered; exercises and proposed (Form 144) sales excluded"
+  },
+  "buys_90d": {
+   "value": [
+    {
+     "date": "2026-07-07",
+     "name": "Bhappu Ross R.",
+     "role": "President and CEO",
+     "shares": 74000,
+     "price": 13.08,
+     "usd": 967920,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1385849/000091228226000955/xslF345X06/form4.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 checked: code P, 10b5-1 unmarked; 74,000 sh took holdings to 256,583 (+41%); one of only 2 open-market buys in the Finviz table since Nov 2025"
+    },
+    {
+     "date": "2026-07-08",
+     "name": "HANSEN BRUCE D",
+     "role": "Director",
+     "shares": 4000,
+     "price": 12.7,
+     "usd": 50780,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1064614/000138584926000023/xslF345X06/primary_doc.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24",
+   "note": "plan_10b5_1 null = not verified on the Form 4"
+  },
+  "finviz_net_change_pct": {
+   "value": 1.53,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://api.nasdaq.com/api/company/UUUU/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-holder rows dated 6/30/2026; Vanguard Group row still 12/31/2025"
+  },
+  "net_shares": {
+   "value": 18866054,
+   "source": "https://api.nasdaq.com/api/company/UUUU/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq 13F summary (latest filings, most dated 2026-06-30); net = increased-position shares minus decreased-position shares"
+  },
+  "holders_up": {
+   "value": 210,
+   "source": "https://api.nasdaq.com/api/company/UUUU/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_down": {
+   "value": 146,
+   "source": "https://api.nasdaq.com/api/company/UUUU/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_new": {
+   "value": 65,
+   "source": "https://api.nasdaq.com/api/company/UUUU/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_exited": {
+   "value": 48,
+   "source": "https://api.nasdaq.com/api/company/UUUU/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "American Century",
+     "change_pct": 1315.2,
+     "shares": 3927725
+    },
+    {
+     "fund": "Van Eck",
+     "change_pct": 25.1,
+     "shares": 3912973
+    },
+    {
+     "fund": "T. Rowe Price",
+     "change_pct": 55.7,
+     "shares": 3126579
+    },
+    {
+     "fund": "Ameriprise",
+     "change_pct": 50.3,
+     "shares": 2887443
+    },
+    {
+     "fund": "Norges Bank",
+     "change_pct": null,
+     "shares": 3256725
+    }
+   ],
+   "source": "https://api.nasdaq.com/api/company/UUUU/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-15 holders by value; change_pct null = new position"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://api.nasdaq.com/api/company/UUUU/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "no full exit among the top-15 holders; large reductions are listed in named_cuts"
+  },
+  "named_cuts": {
+   "value": [],
+   "source": "https://api.nasdaq.com/api/company/UUUU/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 21.37,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 7.7,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Finviz gives no settlement date; Nasdaq short-interest API covers Nasdaq-listed names only"
+  },
+  "finviz_inst_change_pct": {
+   "value": 4.52,
+   "source": "https://finviz.com/quote.ashx?t=UUUU",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float_alt": {
+   "value": 21.8,
+   "source": "https://stockanalysis.com/stocks/uuuu/statistics/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis float basis; differs from Finviz"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11",
+    "event": "Q3 2026 earnings (no date listed on MarketBeat; early November by prior-year pattern)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NYSEAMERICAN/UUUU/earnings/",
+  "as_of": "2026-09-24",
+  "note": "next 6 months; 'confirmed' means company-announced"
+ },
+ "why_it_fell": {
+  "value": "Down 59% from the high: the rare-earth theme repriced on US-China thaw headlines in September (-18% in a week), the Q2 loss widened and estimates fell, while the ASM acquisition added execution risk.",
+  "source": "https://247wallst.com/investing/2026/09/10/rare-earth-stocks-tumble-on-u-s-china-thaw-hopes-usa-rare-earth-sinks-4-mp-materials-drops-5-critical-metals-slips/",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute; EPS per share",
+  "accounting_basis": "revenue consensus; EPS = StockAnalysis adjusted (normalized) consensus; EBIT = StockAnalysis operating income consensus",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "not available (CFO/capex not published)",
+  "revision_period_end": "2026-09-24",
+  "note": "FY1/FY2 revenue and adjusted EPS from the same StockAnalysis snapshot; FY2 EBIT is behind a paywall",
+  "fy1": {
+   "revenue": {
+    "value": 132204385.6,
+    "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -0.28178,
+    "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": -62083816.9,
+    "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF -68,818,717 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF -68,818,717 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 262348088.2,
+    "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 0.49485,
+    "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is [PRO]-gated on StockAnalysis",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 8,
+    "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy"
+   },
+   "hold": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/uuuu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell + strong sell"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://api.nasdaq.com/api/analyst/UUUU/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY2026 EPS; Nasdaq 4-week revision counts"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://api.nasdaq.com/api/analyst/UUUU/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 3,
+    "source": "https://api.nasdaq.com/api/analyst/UUUU/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimates for FY2026 EPS on that provider"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts from any fetchable source",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 11.32,
+    "source": "https://finviz.com/quote.ashx?t=UUUU",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 2620000000.0,
+    "source": "https://stockanalysis.com/stocks/uuuu/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 3,
+  "prospect_why": "rare-earth and uranium ramp; ASM deal closed",
+  "competition_pts": 3,
+  "competition_why": "GM 27.8 to 57.4% rising from a small base",
+  "macro_fit_pts": 1,
+  "macro_fit_why": "nuclear archetype 1",
+  "narrative_pts": 1,
+  "narrative_why": "nuclear lagging and worsening",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

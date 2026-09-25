@@ -1,0 +1,871 @@
+{
+ "ticker": "AMZN",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:30:55+00:00",
+ "price": {
+  "close": {
+   "value": 249.38,
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 287.2,
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 196.0,
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -2.65,
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 3.59,
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -4.47,
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 9.85,
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLY",
+   "source": "https://finviz.com/quote.ashx?t=XLY",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -6.47,
+   "source": "https://finviz.com/quote.ashx?t=XLY",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -2.67,
+   "source": "https://finviz.com/quote.ashx?t=XLY",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24",
+   "note": "-2.7% vs 50-day, +3.6% vs 200-day, 13% below the high after the post-print run faded; judgment by the research subagent from the listed data, not a sourced fact"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/amzn/history/",
+   "as_of": "2026-09-24",
+   "note": "print-reaction day 2026-07-31 +15.32% (close 271.58 vs prior 235.5); five sessions later 2026-08-07 close 274.48 (+1.07% from print day, +16.55% vs pre-print close). true = the five-session close stayed at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+   "as_of": "2026-09-24",
+   "note": "S&P Global: strong buy 43, buy 15, hold 2, sell 0, strong sell 0; Finviz Recom 1.22"
+  },
+  "analysts": {
+   "value": 60,
+   "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 328.22,
+   "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+   "as_of": "2026-09-24",
+   "note": "59 targets; median 326; Finviz Target Price 330.94"
+  },
+  "pt_high": {
+   "value": 405,
+   "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 230,
+   "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat price-target page not fetched; StockAnalysis and Finviz means agree within 10%"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "broker": "Pivotal Research",
+     "action": "maintain",
+     "rating": "Buy",
+     "target": 333,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Rothschild & Co Redburn",
+     "action": "maintain",
+     "rating": "Hold",
+     "target": 230,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-16",
+     "broker": "Wells Fargo",
+     "action": "maintain (raise target)",
+     "rating": "Buy",
+     "target": 338,
+     "target_prior": 328,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-15",
+     "broker": "Bernstein",
+     "action": "maintain",
+     "rating": "Buy",
+     "target": 320,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "Bank of America Securities",
+     "action": "reiterate",
+     "rating": "Buy",
+     "target": 320,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "Truist Financial",
+     "action": "maintain",
+     "rating": "Buy",
+     "target": null,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "Citi",
+     "action": "reiterate",
+     "rating": "Buy",
+     "target": 350,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "Goldman Sachs",
+     "action": "maintain",
+     "rating": "Buy",
+     "target": 375,
+     "target_prior": null,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/amzn/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free tier shows only the 8 most recent actions; older actions inside 60 days may be missing"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 200610000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 197030000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 5.75,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
+   "as_of": "2026-09-24",
+   "note": "GAAP EPS $5.75 includes a large non-operating investment gain (Q2 net income $62.6bn on $27.5bn operating income); adjusted EPS per coverage $1.97 vs $1.82"
+  },
+  "eps_estimate": {
+   "value": 1.82,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "Q3 net sales guide $197-202bn (+9-12%); operating income $22.5-26.5bn vs StreetAccount $24.92bn. Current Q3 revenue consensus $202.0-202.1bn sits at the top of the range",
+   "source": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": 15.32,
+   "source": "https://stockanalysis.com/stocks/amzn/history/",
+   "as_of": "2026-09-24",
+   "note": "2026-07-31 close vs prior close"
+  },
+  "reaction_5d_pct": {
+   "value": 16.55,
+   "source": "https://stockanalysis.com/stocks/amzn/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-07 vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://www.zacks.com/stock/quote/AMZN/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2026 EPS: 13.04 30d ago, 8.86 90d ago, 13.01 now (the 90d jump reflects the Q2 investment gain, not operations); 30d: 1 up / 0 down of 13"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/AMZN/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2026 EPS: 13.04 30d ago, 8.86 90d ago, 13.01 now (the 90d jump reflects the Q2 investment gain, not operations); 30d: 1 up / 0 down of 13"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 13.01,
+    "d30": 13.04,
+    "d60": 9.38,
+    "d90": 8.86
+   },
+   "source": "https://www.zacks.com/stock/quote/AMZN/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks consensus, current fiscal year EPS; numbers only, Zacks Rank not used"
+  },
+  "fcf_ttm": {
+   "value": -11625000000,
+   "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "sum of last four quarters 2026-06-30, 2026-03-31, 2025-12-31, 2025-09-30"
+  },
+  "net_income_ttm": {
+   "value": 135281000000,
+   "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 2.5,
+   "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): AWS re-accelerating (+37% in Q2 to $42.2bn, fastest in 18 quarters) on AI demand drives operating income growth while retail margins expand.",
+   "source": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "AWS growth holding above 30% and the $180bn+ capex run-rate earning a return",
+   "source": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: TTM FCF is -$11.6bn on capex; 2026 EPS is inflated by investment gains so FY27 EPS consensus falls 19%; consumer discretionary is the weakest sector (XLY -6.5% in a month); Bezos sold $346m in August.",
+   "source": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "MSFT",
+    "GOOGL"
+   ],
+   "source": "https://stockanalysis.com/stocks/amzn/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://stockanalysis.com/stocks/amzn/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "gross_margin_4q": {
+   "value": [
+    52.26,
+    51.82,
+    48.47,
+    50.79
+   ],
+   "source": "https://stockanalysis.com/stocks/amzn/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarters 2026-06-30, 2026-03-31, 2025-12-31, 2025-09-30, newest first"
+  },
+  "fwd_pe": {
+   "value": 23.47,
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward PE 27.098"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "MSFT": 21.2,
+    "GOOGL": 22.63
+   },
+   "source": "https://finviz.com/quote.ashx?t=MSFT,GOOGL",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 3.62,
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "MSFT": 11.3,
+    "GOOGL": 9.11
+   },
+   "source": "https://finviz.com/quote.ashx?t=MSFT,GOOGL",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "Microsoft Azure and Google Cloud in cloud; Temu/Shein and Walmart in retail; named in coverage",
+   "source": "https://stockanalysis.com/stocks/amzn/statistics/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to 2025-11-21; every Sale row from 2026-06-26 to 2026-09-24 verified in its Form 4 XML on EDGAR (transaction code, shares, price, aff10b5One checkbox). Form 144 proposed sales and option exercises excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases (code P) in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-01",
+     "name": "Herrington Douglas J",
+     "role": "CEO Worldwide Amazon Stores",
+     "shares": 1000,
+     "price": 254.77,
+     "usd": 254770,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000024/wk-form4_1788468119.xml",
+     "plan_10b5_1": true,
+     "history": "0.2% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Zapolsky David",
+     "role": "Senior Vice President",
+     "shares": 9258,
+     "price": 259.77,
+     "usd": 2404951,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000008/wk-form4_1787690696.xml",
+     "plan_10b5_1": true,
+     "history": "18.4% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "Jassy Andrew R",
+     "role": "President and CEO",
+     "shares": 20000,
+     "price": 259.01,
+     "usd": 5180213,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000137454526000010/wk-form4_1787692115.xml",
+     "plan_10b5_1": true,
+     "history": "0.9% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "Reynolds Shelley",
+     "role": "Vice President",
+     "shares": 2343,
+     "price": 259.01,
+     "usd": 606854,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000139733326000006/wk-form4_1787689790.xml",
+     "plan_10b5_1": true,
+     "history": "1.9% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "Zapolsky David",
+     "role": "Senior Vice President",
+     "shares": 6172,
+     "price": 259.14,
+     "usd": 1599394,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000155797926000008/wk-form4_1787690696.xml",
+     "plan_10b5_1": true,
+     "history": "10.9% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "Olsavsky Brian T",
+     "role": "Senior Vice President and CFO",
+     "shares": 6172,
+     "price": 260.31,
+     "usd": 1606633,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000163990226000008/wk-form4_1787690246.xml",
+     "plan_10b5_1": true,
+     "history": "5.3% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "Herrington Douglas J",
+     "role": "CEO Worldwide Amazon Stores",
+     "shares": 6362,
+     "price": 259.01,
+     "usd": 1647810,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000022/wk-form4_1787691176.xml",
+     "plan_10b5_1": true,
+     "history": "1.3% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "Garman Matthew S",
+     "role": "CEO Amazon Web Services",
+     "shares": 14541,
+     "price": 259.06,
+     "usd": 3766920,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000202481326000010/wk-form4_1787691690.xml",
+     "plan_10b5_1": true,
+     "history": "45.0% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Herrington Douglas J",
+     "role": "CEO Worldwide Amazon Stores",
+     "shares": 3741,
+     "price": 262.76,
+     "usd": 982993,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000193600626000020/wk-form4_1787174724.xml",
+     "plan_10b5_1": true,
+     "history": "0.8% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-03",
+     "name": "BEZOS JEFFREY P",
+     "role": "Executive Chair",
+     "shares": 1209649,
+     "price": 286.41,
+     "usd": 346453514,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000028/wk-form4_1785962062.xml",
+     "plan_10b5_1": true,
+     "history": "0.1% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-03",
+     "name": "Herrington Douglas J",
+     "role": "CEO Worldwide Amazon Stores",
+     "shares": 1000,
+     "price": 278.39,
+     "usd": 278390,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000030/wk-form4_1785962562.xml",
+     "plan_10b5_1": true,
+     "history": "0.2% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Herrington Douglas J",
+     "role": "CEO Worldwide Amazon Stores",
+     "shares": 1000,
+     "price": 239.77,
+     "usd": 239770,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000022/wk-form4_1783023822.xml",
+     "plan_10b5_1": true,
+     "history": "0.2% of the reporting line's holding"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=AMZN",
+   "as_of": "2026-09-24",
+   "note": "12 Form 4 sale lines, $365,022,212 total, 7 sellers; weighted-average price per filing-day. All lines marked 10b5-1. Executive Chair Bezos $346.5m on 2026-08-03 (0.1% of his holding); CEO Jassy $5.2m."
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; filings dated Aug-Sep 2026 describe 2026-06-30 holdings"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel blocked (403 per failure log); MarketBeat gives no net share figure; dollar totals excluded per failure log"
+  },
+  "holders_up": {
+   "value": 4634,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_down": {
+   "value": 3077,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no new-position count on MarketBeat; Fintel blocked"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no exited-position count on MarketBeat; Fintel blocked"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street Corp",
+     "change_pct": 5.5,
+     "shares": 411848346,
+     "filed": "2026-09-22"
+    },
+    {
+     "fund": "Dragoneer Investment Group",
+     "change_pct": null,
+     "shares": 1271500,
+     "filed": "2026-09-09",
+     "note": "change N/A, likely new"
+    },
+    {
+     "fund": "Junto Capital Management",
+     "change_pct": 78.9,
+     "shares": 594790,
+     "filed": "2026-09-09"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "from the most recent 13F filings listed on MarketBeat (Q2 2026 13F, late filers); the table shows the last ~40 filings only"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "no full exits visible in the recent-filings table; not a verified absence"
+  },
+  "short_pct_float": {
+   "value": 0.83,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Float 0.94% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 2.8,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Ratio 2.03"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMZN/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "FINRA settlement date"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-29",
+    "event": "Q3 2026 earnings (estimated)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/amzn/statistics/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not found: drawdown from the 52-week high is under 30%; not required"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; per-share in USD",
+  "accounting_basis": "revenue as reported; EPS adjusted (S&P consensus basis) for both years; FY1 EBIT S&P consensus basis",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": "none; no modelled leaves",
+  "fcf_basis": "not available (CFO/capex consensus not published free)",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 828283165220,
+    "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global consensus, 56 analysts; Zacks 829.29B",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 12.86623,
+    "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks 13.01",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 109866004510,
+    "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus operating income, FY1",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published free; only consensus FCF",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published free",
+    "kind": "consensus"
+   },
+   "fcf_consensus": {
+    "value": -34182333330,
+    "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus FCF, informational; not split into CFO and capex",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 947791141040,
+    "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+    "as_of": "2026-09-24",
+    "note": "Zacks 949.80B",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 10.38846,
+    "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks 10.52",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating-income consensus is behind the StockAnalysis paywall",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 58,
+    "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+    "as_of": "2026-09-24",
+    "note": "strong buy + buy",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 2,
+    "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/amzn/forecast/",
+    "as_of": "2026-09-24",
+    "note": "sell + strong sell",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 1,
+    "source": "https://www.zacks.com/stock/quote/AMZN/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "current fiscal year EPS, Zacks up-revisions last 30 days",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/AMZN/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 13,
+    "source": "https://www.zacks.com/stock/quote/AMZN/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "Zacks # of estimates, current fiscal year",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks shows 60-day counts only: up 12, down 1",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: see up_90d",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 249.38,
+    "source": "https://finviz.com/quote.ashx?t=AMZN",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 2818537878585.0,
+    "source": "https://stockanalysis.com/stocks/amzn/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "AWS re-accelerated to +37% in the last print",
+  "competition_pts": 6,
+  "competition_why": "GM 48.5 to 52.3% rising",
+  "macro_fit_pts": 4,
+  "macro_fit_why": "quality megacap 4",
+  "narrative_pts": 6,
+  "narrative_why": "Mag 7 accelerating",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

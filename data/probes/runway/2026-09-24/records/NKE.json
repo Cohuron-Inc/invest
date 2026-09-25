@@ -1,0 +1,925 @@
+{
+ "ticker": "NKE",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 35.99,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 76.97,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 35.35,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -53.24,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -9.71,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -27.49,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": false,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price distance to SMA50 < distance to SMA200"
+  },
+  "perf_1m_pct": {
+   "value": -8.84,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -12.0,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLY",
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -6.47,
+   "source": "https://finance.yahoo.com/quote/XLY/history/ (data/market/2026-09-24/yahoo/XLY.json)",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -2.67,
+   "source": "https://finance.yahoo.com/quote/XLY/history/ (data/market/2026-09-24/yahoo/XLY.json)",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24",
+   "note": "below falling 50 and 200 DMA, 50<200, 1.8% above 52w low; lower highs since Oct 2025"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://finance.yahoo.com/quote/NKE/history/",
+   "as_of": "2026-09-24",
+   "note": "print 2026-06-30 AMC: +4.90% on 2026-07-01, close 5 sessions later (07-09) 42.78 still above pre-print 41.05; gap since fully given back (price 35.99)"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Hold",
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 42,
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 47.32,
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 94,
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 23,
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_median": {
+   "value": 44.8,
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 31.48,
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_finviz": {
+   "value": 46.3,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24",
+   "note": "Finviz Target Price mean"
+  },
+  "pt_avg_alt": {
+   "value": 48.41,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat 38 analysts, Hold (6 sell/22 hold/10 buy); within 10 points of StockAnalysis, recorded for reference"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-23",
+     "broker": "Oppenheimer",
+     "action": "cut target",
+     "target": 52,
+     "reason": "Outperform kept; target 60->52 ahead of Q1 FY27"
+    },
+    {
+     "date": "2026-09-23",
+     "broker": "Barclays",
+     "action": "cut target",
+     "target": 48,
+     "reason": "Overweight kept; 52->48"
+    },
+    {
+     "date": "2026-09-23",
+     "broker": "BTIG",
+     "action": "reiterate",
+     "target": 55,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-22",
+     "broker": "RBC Capital",
+     "action": "reiterate",
+     "target": 45,
+     "reason": "Sector Perform/Neutral"
+    },
+    {
+     "date": "2026-09-22",
+     "broker": "Benchmark",
+     "action": "upgrade",
+     "target": null,
+     "reason": "upgrade to Hold"
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Stifel",
+     "action": "cut target",
+     "target": 40,
+     "reason": "Hold; 45->40"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "UBS",
+     "action": "cut target",
+     "target": 42,
+     "reason": "Neutral; 48->42, warns Q1 FY27 EPS may miss as global sales weaken"
+    },
+    {
+     "date": "2026-09-15",
+     "broker": "Telsey Advisory",
+     "action": "cut target",
+     "target": 44,
+     "reason": "Market Perform; 47->44"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "Baird",
+     "action": "downgrade",
+     "target": 44,
+     "reason": "Outperform->Neutral, 70->44; sluggish sales, turnaround pace"
+    },
+    {
+     "date": "2026-09-14",
+     "broker": "Citigroup",
+     "action": "downgrade",
+     "target": null,
+     "reason": "Neutral->Negative"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Morgan Stanley",
+     "action": "set target",
+     "target": 31,
+     "reason": "Underweight"
+    },
+    {
+     "date": "2026-09-08",
+     "broker": "BMO Capital",
+     "action": "initiate",
+     "target": 30,
+     "reason": "Underperform"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "JPMorgan",
+     "action": "reiterate",
+     "target": null,
+     "reason": "Sell/Underweight"
+    },
+    {
+     "date": "2026-08-26",
+     "broker": "Truist",
+     "action": "downgrade",
+     "target": 42,
+     "reason": "Buy->Hold, 47->42"
+    },
+    {
+     "date": "2026-08-25",
+     "broker": "Jefferies",
+     "action": "reiterate",
+     "target": null,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Bernstein",
+     "action": "cut target",
+     "target": 68,
+     "reason": "Outperform; 72->68"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat ratings table cross-checked with StockAnalysis ratings page; Zacks/Weiss excluded. Net: 3 downgrades, 1 upgrade (to Hold), 8 target cuts"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 10970000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/earnings/",
+   "as_of": "2026-09-24",
+   "note": "press release: $11.0B, -1% reported, -4% currency-neutral"
+  },
+  "revenue_estimate": {
+   "value": 10850000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 0.2,
+   "source": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000076/q4fy26exhibit991er.htm",
+   "as_of": "2026-06-30",
+   "note": "GAAP diluted EPS $0.72 includes $0.52 benefit from expected IEEPA tariff recovery; $0.20 ex-benefit (MarketBeat reported EPS). Yahoo shows 0.72 vs 0.13"
+  },
+  "eps_estimate": {
+   "value": 0.11,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://www.sec.gov/Archives/edgar/data/0000320187/000032018726000076/q4fy26exhibit991er.htm",
+   "as_of": "2026-06-30"
+  },
+  "guide_detail": {
+   "value": "Q1 FY27 revenue down low-to-mid single digits, Q2 decelerating sequentially; earnings flattish through 1H FY27 (reiterated); Q1 gross margin slightly up. Consensus at the time not found",
+   "source": "https://www.cnbc.com/2026/06/30/nike-nke-q4-2026-earnings.html",
+   "as_of": "2026-06-30",
+   "note": "CNBC returned 403 to WebFetch; detail from search-result summaries of the call"
+  },
+  "reaction_day_pct": {
+   "value": 4.9,
+   "source": "https://finance.yahoo.com/quote/NKE/history/",
+   "as_of": "2026-07-01"
+  },
+  "reaction_5d_pct": {
+   "value": 4.21,
+   "source": "https://finance.yahoo.com/quote/NKE/history/",
+   "as_of": "2026-07-09",
+   "note": "close 07-09 vs pre-print close 06-30"
+  },
+  "revisions_30d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/NKE/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY27 (May-27): 1 up / 5 down in 30d"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://finance.yahoo.com/quote/NKE/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY27 EPS 1.82 -> 1.68 over 90d"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 1.68,
+    "d30": 1.72,
+    "d90": 1.82
+   },
+   "source": "https://finance.yahoo.com/quote/NKE/analysis/",
+   "as_of": "2026-09-24",
+   "note": "fiscal year ending May 2027"
+  },
+  "fcf_ttm": {
+   "value": 2184000000.0,
+   "source": "https://stockanalysis.com/stocks/nke/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-05-31",
+   "note": "4 quarters to May-26"
+  },
+  "net_income_ttm": {
+   "value": 3108000000.0,
+   "source": "https://stockanalysis.com/stocks/nke/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-05-31",
+   "note": "includes ~$0.8B IEEPA tariff-recovery benefit in Q4; FCF/NI 0.70"
+  },
+  "sbc_pct_revenue": {
+   "value": 1.5,
+   "source": "https://stockanalysis.com/stocks/nke/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-05-31",
+   "note": "SBC $715M / revenue $46.4B"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company/bulls): Elliott Hill's \"win now\" reset clears wholesale inventory and restores sport-led product, returning Nike to revenue growth and margin recovery in FY28 (consensus EPS +34% FY28).",
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Return to revenue growth after Q1-Q2 FY27 declines; gross-margin recovery net of tariffs; China stabilisation",
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: demand weak globally, China share loss to Anta/Li Ning, tariffs, removal from S&P 100 (Sep 21) and serial downgrades; UBS flags a Q1 FY27 miss risk",
+   "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nike-stock-falls-as-s-and-p-100-removal-and-analyst-downgrades-deepen/70144132",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "story",
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "DECK",
+    "ONON"
+   ],
+   "source": "https://stockanalysis.com/stocks/deck/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "losing",
+   "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nike-stock-falls-as-index-removal-and-analyst-downgrades-sharpen/70124363",
+   "as_of": "2026-09-24",
+   "note": "Converse -32%; NIKE Direct -9% c-n in Q4; China share loss named; no quantified share source"
+  },
+  "gross_margin_4q": {
+   "value": [
+    50.1,
+    40.49,
+    40.6,
+    42.18
+   ],
+   "source": "https://stockanalysis.com/stocks/nke/financials/?p=quarterly",
+   "as_of": "2026-05-31",
+   "note": "Q4 FY26 to Q1 FY26; Q4 includes ~900bp IEEPA tariff-recovery benefit"
+  },
+  "fwd_pe": {
+   "value": 21.23,
+   "source": "https://stockanalysis.com/stocks/nke/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Forward P/E 16.96 (next-FY basis)"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "DECK": 10.32,
+    "ONON": 16.64
+   },
+   "source": "https://stockanalysis.com/stocks/deck/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 1.19,
+   "source": "https://stockanalysis.com/stocks/nke/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "DECK": 1.72,
+    "ONON": 2.3
+   },
+   "source": "https://stockanalysis.com/stocks/onon/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "Hoka (DECK), On, Anta/Li Ning in China",
+   "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nike-stock-falls-as-s-and-p-100-removal-and-analyst-downgrades-deepen/70144132",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24",
+   "note": "Finviz table covers Oct 2025 onward; every row 2026-06-26..09-24 checked on EDGAR Form 4 XML. No open-market buys. Sales are small (~$0.8M total), mostly plan sales"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24",
+   "note": "window 2026-06-26 to 2026-09-24; Finviz insider table, each trade verified on the EDGAR Form 4 XML"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-09",
+     "name": "Philip McCartney",
+     "role": "EVP Chief Innovation, Product & Design",
+     "shares": 2559,
+     "price": 37.59,
+     "usd": 96193,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000167/xslF345X06/form4.xml",
+     "plan_10b5_1": true,
+     "history": "10b5-1 plan adopted 2026-01-24; 78,121 shares after"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Robert Leinwand",
+     "role": "EVP Chief Legal Officer",
+     "shares": 3646,
+     "price": 37.59,
+     "usd": 137053,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000165/xslF345X06/form4.xml",
+     "plan_10b5_1": true,
+     "history": "87,758 after"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Venkatesh Alagirisamy",
+     "role": "EVP COO",
+     "shares": 3671,
+     "price": 37.59,
+     "usd": 137993,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000163/xslF345X06/form4.xml",
+     "plan_10b5_1": true,
+     "history": "104,862 after"
+    },
+    {
+     "date": "2026-08-07",
+     "name": "Amy Montagne",
+     "role": "President, NIKE",
+     "shares": 4867,
+     "price": 42.05,
+     "usd": 204657,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000114/xslF345X06/form4.xml",
+     "plan_10b5_1": false,
+     "history": "no 10b5-1 flag; 57,436 after (~8% of holding)"
+    },
+    {
+     "date": "2026-08-05",
+     "name": "Robert Leinwand",
+     "role": "EVP Chief Legal Officer",
+     "shares": 821,
+     "price": 41.6,
+     "usd": 34154,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000109/xslF345X06/form4.xml",
+     "plan_10b5_1": true,
+     "history": ""
+    },
+    {
+     "date": "2026-08-05",
+     "name": "Venkatesh Alagirisamy",
+     "role": "EVP COO",
+     "shares": 890,
+     "price": 41.6,
+     "usd": 37024,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000107/xslF345X06/form4.xml",
+     "plan_10b5_1": true,
+     "history": ""
+    },
+    {
+     "date": "2026-08-05",
+     "name": "Philip McCartney",
+     "role": "EVP Chief Innovation, Product & Design",
+     "shares": 524,
+     "price": 41.6,
+     "usd": 21798,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000105/xslF345X06/form4.xml",
+     "plan_10b5_1": true,
+     "history": ""
+    },
+    {
+     "date": "2026-08-05",
+     "name": "Matthew Friend",
+     "role": "EVP CFO (former officer by Sep)",
+     "shares": 2463,
+     "price": 41.6,
+     "usd": 102461,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000103/xslF345X06/form4.xml",
+     "plan_10b5_1": true,
+     "history": "10b5-1 plan adopted 2026-01-08"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24",
+   "note": "open-market S-code sales only; option-exercise legs (M), tax withholding (F) and sell-to-cover excluded; plan flag from Form 4 10b5-1 checkbox/footnote"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "13F filings dated Aug 18 to Sep 23 2026"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403; MarketBeat gives no net 13F share total"
+  },
+  "holders_up": {
+   "value": 1170,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyers, trailing 12 months, not quarter-over-quarter"
+  },
+  "holders_down": {
+   "value": 1011,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street",
+     "change_pct": 6.8,
+     "shares": 4049361
+    },
+    {
+     "fund": "Amundi",
+     "change_pct": 59.4,
+     "shares": 2407450
+    },
+    {
+     "fund": "Envestnet Asset Mgmt",
+     "change_pct": 98.4,
+     "shares": 1092409
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Wellington Management",
+     "change_pct": -42.1,
+     "shares": -16148464
+    },
+    {
+     "fund": "HighTower Advisors",
+     "change_pct": -81.1,
+     "shares": -1597541
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 7.3,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat 5.84% (different float); SA 6.42% at prior settlement"
+  },
+  "days_to_cover": {
+   "value": 3.11,
+   "source": "https://finviz.com/quote.ashx?t=NKE",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/NKE/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "85.70M shares, +13.4% vs prior"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-01",
+    "event": "Q1 FY27 earnings (AMC)",
+    "confirmed": true
+   },
+   {
+    "date": "2026-12-18",
+    "event": "Q2 FY27 earnings (estimated, prior-year timing)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://investors.nike.com/investors/news-events-and-reports/investor-news/investor-news-details/2026/NIKE-Inc--Announces-First-Quarter-Fiscal-2027-Earnings-and-Conference-Call/default.aspx",
+  "as_of": "2026-08-28"
+ },
+ "why_it_fell": {
+  "value": "Down 53% from the Oct-2025 high: weak global demand and slow turnaround, China share loss, tariff costs, a Q1 FY27 revenue-decline guide, then September downgrades (Baird, Citi, Truist) and removal from the S&P 100 on 2026-09-21.",
+  "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/nike-stock-falls-as-s-and-p-100-removal-and-analyst-downgrades-deepen/70144132",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": {
+   "value": "USD",
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "units": {
+   "value": "USD; EPS per share",
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "accounting_basis": {
+   "value": "adjusted (non-GAAP) EPS; revenue GAAP",
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy1_end": {
+   "value": "2027-05-31",
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy2_end": {
+   "value": "2028-05-31",
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "estimate_vintage": {
+   "value": "2026-09-24",
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "model_assumptions": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "no model built"
+  },
+  "fcf_basis": {
+   "value": "CFO minus capex (StockAnalysis consensus FCF; levered)",
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "revision_period_end": {
+   "value": "2026-09-24",
+   "source": "https://finance.yahoo.com/quote/NKE/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "fy1": {
+   "revenue": {
+    "value": 45530000000.0,
+    "source": "https://stockanalysis.com/stocks/nke/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 3120000000.0,
+    "source": "https://stockanalysis.com/stocks/nke/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "SA operating income forecast"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published; SA consensus FCF FY27 $3.17B",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published",
+    "kind": "consensus"
+   },
+   "fcf": {
+    "value": 3170000000.0,
+    "source": "https://stockanalysis.com/stocks/nke/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 1.7,
+    "source": "https://stockanalysis.com/stocks/nke/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo 1.68 (35 analysts)"
+   },
+   "tax_rate_pct": {
+    "value": 20.31,
+    "source": "https://stockanalysis.com/stocks/nke/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "TTM effective rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 47250000000.0,
+    "source": "https://stockanalysis.com/stocks/nke/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: SA FY2 operating income behind paywall",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 2.27,
+    "source": "https://stockanalysis.com/stocks/nke/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo 2.14"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 10,
+    "source": "https://stockanalysis.com/stocks/nke/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global Sep-26: 9 strong buy + 1 buy"
+   },
+   "hold": {
+    "value": 27,
+    "source": "https://stockanalysis.com/stocks/nke/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 5,
+    "source": "https://stockanalysis.com/stocks/nke/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "2 sell + 3 strong sell"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 1,
+    "source": "https://finance.yahoo.com/quote/NKE/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY27 EPS"
+   },
+   "down_30d": {
+    "value": 5,
+    "source": "https://finance.yahoo.com/quote/NKE/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 35,
+    "source": "https://finance.yahoo.com/quote/NKE/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Yahoo gives 7d/30d only"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Yahoo gives 7d/30d only"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 35.99,
+    "source": "https://finviz.com/quote.ashx?t=NKE",
+    "as_of": "2026-09-24"
+   },
+   "enterprise_value": {
+    "value": 55410000000.0,
+    "source": "https://stockanalysis.com/stocks/nke/statistics/",
+    "as_of": "2026-09-24"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: WACC not modelled in this pass"
+   }
+  },
+  "periods_aligned_evidence": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/nke/forecast/",
+   "as_of": "2026-09-24",
+   "note": "FY ends May 31; FY1=FY2027, FY2=FY2028; SA and Yahoo both label the same years"
+  }
+ },
+ "judgment": {
+  "prospect_pts": 2,
+  "prospect_why": "the reset is a story; revenue guided down",
+  "competition_pts": 2,
+  "competition_why": "losing share to ONON and in China",
+  "macro_fit_pts": 3,
+  "macro_fit_why": "consumer discretionary 4 minus 1: oil above $85 hurts consumer",
+  "narrative_pts": 1,
+  "narrative_why": "consumer discretionary lagging",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

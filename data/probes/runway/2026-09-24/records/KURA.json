@@ -1,0 +1,748 @@
+{
+ "ticker": "KURA",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:00:00Z",
+ "price": {
+  "close": {
+   "value": 10.86,
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 13.9,
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 7.36,
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -21.87,
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24",
+   "note": "computed close/52w high"
+  },
+  "sma50_pct": {
+   "value": -2.82,
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 10.74,
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/KURA?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "computed from Yahoo 1y daily closes: SMA50 11.18, SMA200 9.81"
+  },
+  "perf_1m_pct": {
+   "value": -20.09,
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 4.83,
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLV",
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -3.09,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 9.15,
+   "source": "https://finviz.com/quote.ashx?t=XLV",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA distances, 1m/3m perf and 52w range"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/KURA?range=1y&interval=1d",
+   "as_of": "2026-09-24",
+   "note": "print 2026-08-12 AMC: next-day close 10.09 vs 9.94 prior (+1.5%); +5 sessions 11.71 (+17.8%, aided by CEO buy 2026-08-17)"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/kura/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 15,
+   "source": "https://stockanalysis.com/stocks/kura/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 32.0,
+   "source": "https://stockanalysis.com/stocks/kura/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 76.0,
+   "source": "https://stockanalysis.com/stocks/kura/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 15.0,
+   "source": "https://stockanalysis.com/stocks/kura/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat not fetched; Finviz mean target 32.0 is within 10 points of StockAnalysis"
+  },
+  "upside_pct": {
+   "value": 194.66,
+   "source": "https://stockanalysis.com/stocks/kura/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed pt_avg/close"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-10",
+     "broker": "Lake Street",
+     "action": "reiterate",
+     "target": 23,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Leerink Partners",
+     "action": "maintain",
+     "target": 12,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "Barclays",
+     "action": "maintain",
+     "target": 28,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-09",
+     "broker": "H.C. Wainwright",
+     "action": "maintain",
+     "target": 40,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "Mizuho",
+     "action": "maintain",
+     "target": 25,
+     "reason": "Buy"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/kura/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table (last entries shown); sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-12",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 20.87,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/earnings/",
+   "as_of": "2026-08-12",
+   "note": "USD M; product 9.1 + collaboration 11.8"
+  },
+  "revenue_estimate": {
+   "value": 20.16,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/earnings/",
+   "as_of": "2026-08-12"
+  },
+  "eps_actual": {
+   "value": -0.77,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/earnings/",
+   "as_of": "2026-08-12"
+  },
+  "eps_estimate": {
+   "value": -0.88,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/earnings/",
+   "as_of": "2026-08-12"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12"
+  },
+  "guide_detail": {
+   "value": "no financial guidance; runway statement only: cash plus $180M expected Kyowa Kirin payments fund ziftomenib AML program through KOMET-017 Phase 3 topline in 2028",
+   "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12"
+  },
+  "reaction_day_pct": {
+   "value": 1.51,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/KURA?range=1y&interval=1d",
+   "as_of": "2026-08-13"
+  },
+  "reaction_5d_pct": {
+   "value": 17.81,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/KURA?range=1y&interval=1d",
+   "as_of": "2026-08-20",
+   "note": "vs pre-print close; includes CEO $1.1M buy on 2026-08-17"
+  },
+  "revisions_30d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+  },
+  "revisions_90d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ error"
+  },
+  "fcf_ttm": {
+   "value": -117.43,
+   "source": "https://stockanalysis.com/stocks/kura/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "sum of 4 quarters; Q4-25 +114.95 from $135M Kyowa Kirin milestone; underlying burn ~ -75M/q"
+  },
+  "net_income_ttm": {
+   "value": -296.78,
+   "source": "https://stockanalysis.com/stocks/kura/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": 50.4,
+   "source": "https://stockanalysis.com/stocks/kura/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "TTM SBC 38.95M / TTM sales 77.22M (Finviz)"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: KOMZIFTI (ziftomenib) launch in R/R NPM1-m AML ramps (Q2 product sales $9.1M, +57% q/q) and frontline combination data (KOMET-007/008) in Q4 2026 expand the menin-inhibitor market into newly diagnosed AML.",
+   "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12"
+  },
+  "depends_on": {
+   "value": "quarterly KOMZIFTI sales growth and Q4 2026 frontline combination data",
+   "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12"
+  },
+  "bear_case": {
+   "value": "Syndax revumenib is first-to-market menin inhibitor with broader label; launch small vs ~$75M/q burn; frontline Phase 3 readout not until 2028",
+   "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12"
+  },
+  "visibility": {
+   "value": "story",
+   "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "SNDX",
+    "Johnson & Johnson (bleximenib)"
+   ],
+   "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12",
+   "note": "menin inhibitor competitors"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: quarterly ratios page not fetched; Finviz TTM gross margin 97.6%"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: loss-making"
+  },
+  "peer_fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: loss-making peers"
+  },
+  "ev_sales": {
+   "value": 6.11,
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peer pages not fetched"
+  },
+  "substitute": {
+   "value": "revumenib (Revuforj, Syndax); venetoclax combinations",
+   "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers the full trailing 90 days to 2026-09-24 (window from 2026-06-26); Form 4s not opened individually on EDGAR"
+  },
+  "buys_90d": {
+   "value": [
+    {
+     "date": "2026-08-24",
+     "name": "Troy E. Wilson",
+     "role": "President and CEO",
+     "shares": 100000,
+     "price": 12.39,
+     "usd": 1239000,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=KURA",
+     "plan_10b5_1": null,
+     "history": "2nd buy in 8 days; Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-08-17",
+     "name": "Troy E. Wilson",
+     "role": "President and CEO",
+     "shares": 100000,
+     "price": 11.12,
+     "usd": 1112000,
+     "transaction_code": "P",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=KURA",
+     "plan_10b5_1": null,
+     "history": "first open-market buy in the Finviz table (history to Sep 2025); Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24",
+   "note": "Excluded: Form 144 proposed sale by CSO Francis Burrows filed 2026-09-24 (20,726 sh, ~$224.5K), not yet a Form 4; CMO Leoni sale 2026-06-18 falls outside the 90-day window"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-08-21",
+     "name": "Brian T. Powl",
+     "role": "Chief Commercial Officer",
+     "shares": 4345,
+     "price": 11.89,
+     "usd": 51663,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=KURA",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Teresa Bair",
+     "role": "Chief Legal Officer",
+     "shares": 31487,
+     "price": 12.63,
+     "usd": 397681,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=KURA",
+     "plan_10b5_1": null,
+     "history": "Form 4 not opened on EDGAR; row from Finviz insider table; 10b5-1 status not shown"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24",
+   "note": "Excluded: Form 144 proposed sale by CSO Francis Burrows filed 2026-09-24 (20,726 sh, ~$224.5K), not yet a Form 4; CMO Leoni sale 2026-06-18 falls outside the 90-day window"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter holders table"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives dollar flows only; dollar totals excluded per failure log; Fintel 403 per registry"
+  },
+  "holders_up": {
+   "value": 120,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional buyers (MarketBeat)"
+  },
+  "holders_down": {
+   "value": 58,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "TTM institutional sellers (MarketBeat)"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not shown by MarketBeat"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Corient Private Wealth",
+     "change_pct": 134.5,
+     "shares": 122709
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Pale Fire Capital SE",
+     "change_pct": -93.4,
+     "shares": 56600
+    },
+    {
+     "fund": "Squarepoint Ops",
+     "change_pct": -88.5,
+     "shares": 10171
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 18.03,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 17.15% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 8.8,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/KURA/short-interest/",
+   "as_of": "2026-09-15"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-03",
+    "event": "Q3 2026 earnings (aggregator estimate)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-12-05",
+    "event": "ASH 2026 (early Dec): updated KOMET-007 ven/aza, initial KOMET-007 7+3+quizartinib, initial KOMET-008 gilteritinib data guided for 2H26; venue not confirmed",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+  "as_of": "2026-08-12"
+ },
+ "why_it_fell": {
+  "value": "Not down >30% from high (-21.9%). -20% over the past month after the post-print/CEO-buy run to a 52w high; no single dated cause found.",
+  "source": "https://finviz.com/quote.ashx?t=KURA",
+  "as_of": "2026-09-24"
+ },
+ "financing": {
+  "cash": {
+   "value": 519.0,
+   "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-06-30",
+   "note": "USD millions, cash + equivalents + marketable securities unless noted"
+  },
+  "quarterly_burn": {
+   "value": -74.6,
+   "source": "https://stockanalysis.com/stocks/kura/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "avg FCF Q1+Q2 2026 (-85.98, -63.21)"
+  },
+  "runway_quarters": {
+   "value": 7.0,
+   "source": "https://stockanalysis.com/stocks/kura/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "519/74.6 excluding $180M anticipated Kyowa Kirin payments; ~9.4 quarters including them"
+  },
+  "company_runway_statement": {
+   "value": "cash + $180M Kyowa Kirin payments fund ziftomenib AML program through KOMET-017 topline in 2028",
+   "source": "https://www.biospace.com/press-releases/kura-oncology-reports-second-quarter-2026-financial-results",
+   "as_of": "2026-08-12"
+  },
+  "recent_offering": {
+   "value": "none found in 2026; Caspian Therapeutics spin-out raised $50M (Sep 2026) at the subsidiary level, Lilly-backed",
+   "source": "https://finviz.com/quote.ashx?t=KURA",
+   "as_of": "2026-09-24"
+  },
+  "binary_events_6m": [
+   {
+    "date": "2026-12",
+    "event": "Frontline combo data (KOMET-007/008), not company-dated",
+    "confirmed": false
+   }
+  ]
+ },
+ "forward": {
+  "periods_aligned": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/kura/forecast/",
+   "as_of": "2026-09-24",
+   "note": "revenue/EPS aligned to FY2026/FY2027 calendar years, but EBIT/CFO/capex unavailable so periods not fully verified"
+  },
+  "currency": "USD",
+  "units": "USD millions except per-share",
+  "accounting_basis": "GAAP (StockAnalysis/S&P Global consensus)",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex (levered)",
+  "revision_period_end": null,
+  "fy1": {
+   "revenue": {
+    "value": 96.57,
+    "source": "https://stockanalysis.com/stocks/kura/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": -3.16,
+    "source": "https://stockanalysis.com/stocks/kura/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 212.18,
+    "source": "https://stockanalysis.com/stocks/kura/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus on StockAnalysis forecast page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward CFO consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no published forward capex"
+   },
+   "eps": {
+    "value": -2.3,
+    "source": "https://stockanalysis.com/stocks/kura/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: loss-making; no normalized tax rate"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 14,
+    "source": "https://stockanalysis.com/stocks/kura/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy, S&P Global via StockAnalysis"
+   },
+   "hold": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/kura/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/kura/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ returned \"Oops, something went wrong\"; Zacks bot-blocked"
+   },
+   "down_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error; Zacks blocked"
+   },
+   "analysts": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo /analysis/ error"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 10.86,
+    "source": "https://finviz.com/quote.ashx?t=KURA",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 471.55,
+    "source": "https://finviz.com/quote.ashx?t=KURA",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modeled; loss-making biotech, WACC not meaningful for screening"
+   }
+  },
+  "note": ""
+ },
+ "judgment": {
+  "prospect_pts": 5,
+  "prospect_why": "KOMZIFTI launch ramp +57% q/q is reported; the frontline combination data is ahead",
+  "competition_pts": 4,
+  "competition_why": "menin class against SNDX; GM 97.6%",
+  "macro_fit_pts": 1,
+  "macro_fit_why": "SMID biotech: long duration",
+  "narrative_pts": 2,
+  "narrative_why": "SMID biotech fading",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

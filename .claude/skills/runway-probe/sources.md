@@ -71,13 +71,21 @@ the discovery.
 | 2026-09-07 | federalreserve.gov fomccalendars.htm | does not carry the current target range or vote split | fetch the individual statement press release as well |
 | 2026-09-07 | finviz vs marketbeat short interest | material disagreement from different float denominators (TEM 27.75 vs 21.86, AMKR 15.96 vs 5.27, RKT 5.50 vs 8.56) | record both as a range; prefer the one that states a settlement date |
 | 2026-09-07 | marketbeat.com institutional pages | the buyer/seller counts are trailing-12-month, not a quarter-over-quarter 13F holders table | usable only as a proxy for the flow gate; say so per ticker |
+| 2026-09-24 | finance.yahoo.com `/analysis/` and the quoteSummary API | page errored on most of 74 names; API returned 429 | revisions from Zacks detailed-estimates (numbers only) and StockAnalysis levels |
+| 2026-09-24 | api.nasdaq.com (JSON, via curl) | works: 4-week EPS revision counts, 13F summaries with holders up/down/new/exited for the quarter, short interest with settlement date (Nasdaq-listed only) | add as the secondary for 13F counts and revisions next run |
+| 2026-09-24 | marketbeat.com `/price-target/` | 301 for every name | use `/forecast/` |
+| 2026-09-24 | stockanalysis.com `/financials/?p=quarterly` | now serves an overview page | use `/financials/income-statement/?p=quarterly` |
+| 2026-09-24 | stockanalysis.com `/forecast/` | FY2 estimates, FY2 EBIT and the full ratings history are behind Pro | FY2 from Yahoo or Zacks; forward margin checks uncovered |
+| 2026-09-24 | finviz insider table | capped at 100 rows (SE reached back only to 8/11); ADR sale valued at per-ADS price times ordinary shares (BABA, 8x overstated); rows for another issuer where the filer is a fund (GOOGL, GV) | check the Form 4 for any trade that decides a gate |
+| 2026-09-24 | finviz via curl without a browser User-Agent | empty body | use the fetch-finviz-snapshots.py User-Agent |
+| 2026-09-24 | SEC EDGAR | requires a contact User-Agent; one subagent used the operator's email without asking | the research brief should name a project contact string, never the operator's address |
 
 ## Rubric behaviour to fix, found 2026-09-07
 
 | Signal | Behaviour | Proposed fix |
 |---|---|---|
-| Risk : reward | When the downside anchor lands within about 1% of the close the ratio explodes and is arithmetic, not analysis. QCOM's 200-day sat 0.54% below the close giving 26.9:1; RKT's low target of $14.00 sat 0.4% below the $14.06 close giving 60.7:1. | Reject an anchor closer than about 5% to the close and fall back to the next anchor down; if none qualifies, return "not meaningful" rather than a number. |
-| Delivery gate | The gate requires the guide to be held or raised, so a company that does not guide can never pass it. PLPC beat EPS by 86% and rose 30% on the day and still failed. TPL does not guide either. | Treat "no guidance issued as a matter of policy" as neutral and decide the gate on the print and the revision direction alone. |
+| Risk : reward | **Implemented 2026-09-24.** When the downside anchor lands within about 1% of the close the ratio explodes and is arithmetic, not analysis. QCOM's 200-day sat 0.54% below the close giving 26.9:1; RKT's low target of $14.00 sat 0.4% below the $14.06 close giving 60.7:1. | Reject an anchor closer than about 5% to the close and fall back to the next anchor down; if none qualifies, return "not meaningful" rather than a number. |
+| Delivery gate | **Implemented 2026-09-24.** The gate requires the guide to be held or raised, so a company that does not guide can never pass it. PLPC beat EPS by 86% and rose 30% on the day and still failed. TPL does not guide either. | Treat "no guidance issued as a matter of policy" as neutral and decide the gate on the print and the revision direction alone. |
 | Retail interest | Zero corpus coverage scores 6 to 9 points as "quiet with fundamentals", which is indistinguishable from "the six accounts never mentioned it". Five of eight names in this probe scored on an absent signal. | Return "not covered" and drop the 10 points from the denominator for that name, rather than awarding a contrarian score to silence. |
 | Insider and earnings signals on non-operating instruments | GLD, a commodity trust, scored 3 for "no insider activity found" and 0 for "no print". The four gates do not apply to it at all. | Detect non-operating instruments and route them to a separate, shorter rubric instead of scoring them against equity gates. |
 

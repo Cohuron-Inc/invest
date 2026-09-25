@@ -1,0 +1,826 @@
+{
+ "ticker": "MU",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 1080.53,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 1255.0,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 154.65,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -13.9,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24",
+   "note": "computed from Finviz close and 52w high"
+  },
+  "sma50_pct": {
+   "value": 15.31,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 64.48,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 15.82,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -10.96,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS Information Technology"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA50/SMA200 distance, drawdown and 1m/3m performance"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/mu/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-07-02 (975.56) vs pre-print close 2026-06-24 (1048.51); true = price 5 sessions after the print at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/mu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 49,
+   "source": "https://stockanalysis.com/stocks/mu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 1515.0,
+   "source": "https://stockanalysis.com/stocks/mu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 2200.0,
+   "source": "https://stockanalysis.com/stocks/mu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 361.0,
+   "source": "https://stockanalysis.com/stocks/mu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 40.21,
+   "source": "https://stockanalysis.com/stocks/mu/forecast/",
+   "as_of": "2026-09-24",
+   "note": "SA average target vs Finviz close"
+  },
+  "pt_finviz": {
+   "value": 1575.88,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded for comparison"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-24",
+     "broker": "Rosenblatt Securities",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 1500,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-23",
+     "broker": "Wolfe Research",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 1500,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-23",
+     "broker": "UBS",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 1625,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-23",
+     "broker": "Wells Fargo",
+     "action": "reiterates",
+     "rating": "Buy",
+     "target": 1400,
+     "target_old": 1525,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-23",
+     "broker": "Citi",
+     "action": "reiterates",
+     "rating": "Buy",
+     "target": 1300,
+     "target_old": 1150,
+     "reason": "not stated on source page"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/mu/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free page shows only the five most recent sell-side actions; older actions in the 60-day window may be missing"
+  },
+  "pt_avg_alt": {
+   "value": 1341.87,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat consensus; upside 24.2% vs StockAnalysis 40.2%"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-06-24",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 41460000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 35910000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat consensus at print"
+  },
+  "eps_actual": {
+   "value": 25.11,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+   "as_of": "2026-09-24",
+   "note": "non-GAAP"
+  },
+  "eps_estimate": {
+   "value": 21.39,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html",
+   "as_of": "2026-06-24"
+  },
+  "guide_detail": {
+   "value": "FQ4 (Aug-26) guide revenue ~$50B ($49-51B), non-GAAP EPS $30-32, vs ~$43.5B revenue consensus at the time",
+   "source": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html",
+   "as_of": "2026-06-24"
+  },
+  "reaction_day_pct": {
+   "value": 15.74,
+   "source": "https://stockanalysis.com/stocks/mu/history/",
+   "as_of": "2026-06-25",
+   "note": "2026-06-25 close 1213.56 vs 2026-06-24 close 1048.51"
+  },
+  "reaction_5d_pct": {
+   "value": -6.96,
+   "source": "https://stockanalysis.com/stocks/mu/history/",
+   "as_of": "2026-07-02",
+   "note": "pre-print close to the close five sessions after the reaction day"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/MU/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Next Year (FY Aug-2027): current 159.12, 30d ago 155.8, 90d ago 148.74; flat = within 0.5%; Yahoo current-year column (FY Aug-2026: 73.57 / 73.44 / 73.32) belongs to a fiscal year already ended on the calendar; trend uses the next-year column. forward.revisions counts are the current-year (FY1) column"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/MU/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Next Year (FY Aug-2027): current 159.12, 30d ago 155.8, 90d ago 148.74; flat = within 0.5%; Yahoo current-year column (FY Aug-2026: 73.57 / 73.44 / 73.32) belongs to a fiscal year already ended on the calendar; trend uses the next-year column. forward.revisions counts are the current-year (FY1) column"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 159.12,
+    "d30": 155.8,
+    "d90": 148.74
+   },
+   "source": "https://finance.yahoo.com/quote/MU/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Next Year (FY Aug-2027)"
+  },
+  "fcf_ttm": {
+   "value": 26172000000,
+   "source": "https://stockanalysis.com/stocks/mu/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-05-28",
+   "note": "sum of last four quarters, quarters ending 2026-05-28, 2026-02-26, 2025-11-27, 2025-08-28"
+  },
+  "net_income_ttm": {
+   "value": 50469000000,
+   "source": "https://stockanalysis.com/stocks/mu/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-05-28"
+  },
+  "fcf_to_ni": {
+   "value": 0.52,
+   "source": "https://stockanalysis.com/stocks/mu/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-05-28"
+  },
+  "sbc_pct_revenue": {
+   "value": 1.33,
+   "source": "https://stockanalysis.com/stocks/mu/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-05-28",
+   "note": "TTM stock-based compensation / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): an AI-driven HBM/DRAM shortage keeps pricing and margins at records into FY2027; consensus revenue goes from $129.9B (FY Aug-26) to $247.6B (FY Aug-27).",
+   "source": "https://stockanalysis.com/stocks/mu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "DRAM/HBM contract pricing holding through 2027, first test the FQ4 print on 2026-09-30 against the ~$50B guide",
+   "source": "https://stockanalysis.com/stocks/mu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: memory is cyclical; an 84.6% gross margin invites capacity from Samsung and SK Hynix and a price rollover; the CEO sold about $122M under a 10b5-1 plan in the window.",
+   "source": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "SKHY",
+    "SNDK"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": null,
+   "note": "no source read states a share trend"
+  },
+  "gross_margin_4q": {
+   "value": [
+    84.56,
+    74.41,
+    56.04,
+    44.67
+   ],
+   "source": "https://stockanalysis.com/stocks/mu/financials/?p=quarterly",
+   "as_of": "2026-05-28",
+   "note": "latest first, quarters ending 2026-05-28, 2026-02-26, 2025-11-27, 2025-08-28"
+  },
+  "fwd_pe": {
+   "value": 6.84,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "SKHY": 5.48,
+    "SNDK": 6.72
+   },
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 13.3,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "SKHY": 10.2,
+    "SNDK": 12.46
+   },
+   "source": "https://finviz.com/quote.ashx?t=SKHY",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute or new entrant in the sources read"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to before 2026-06-26 (full 90 days); every Form 4 sale opened on EDGAR and the 10b5-1 checkbox read; option exercises, Form 144 notices and withholding (F) excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-06-26",
+     "name": "Bjorlin Alexis",
+     "role": "Director",
+     "shares": 25,
+     "price": 1132.33,
+     "usd": 28308,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/723125/000179875726000007/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": false,
+     "history": "owned after: 235 sh"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "MEHROTRA SANJAY",
+     "role": "President and CEO",
+     "shares": 40000,
+     "price": 968.9,
+     "usd": 38756162,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000015/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 264,503 sh; The sales reported on this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on January 30, 2026"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "Sadana Sumit",
+     "role": "EVP and Chief Business Officer",
+     "shares": 15000,
+     "price": 934.29,
+     "usd": 14014350,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/723125/000131107926000003/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": false,
+     "history": "owned after: 191,021 sh"
+    },
+    {
+     "date": "2026-07-24",
+     "name": "MEHROTRA SANJAY",
+     "role": "President and CEO",
+     "shares": 8715,
+     "price": 951.72,
+     "usd": 8294275,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000014/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 304,503 sh; The sales reported on this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on January 30, 2026"
+    },
+    {
+     "date": "2026-07-24",
+     "name": "MEHROTRA SANJAY",
+     "role": "President and CEO",
+     "shares": 31285,
+     "price": 926.83,
+     "usd": 28995816,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000013/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 313,218 sh; The sales reported on this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on January 30, 2026"
+    },
+    {
+     "date": "2026-07-23",
+     "name": "ALLEN SCOTT R.",
+     "role": "CVP, Chief Accounting Officer",
+     "shares": 879,
+     "price": 1000.0,
+     "usd": 879000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/723125/000165214926000005/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": false,
+     "history": "owned after: 34,958 sh"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "ARNZEN APRIL S",
+     "role": "EVP and Chief People Officer",
+     "shares": 40000,
+     "price": 1083.94,
+     "usd": 43357473,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/723125/000163206326000003/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 85,737 sh; The sales reported on this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on December 19, 2025 2"
+    },
+    {
+     "date": "2026-06-30",
+     "name": "Dugle Lynn A",
+     "role": "Director",
+     "shares": 1300,
+     "price": 1150.43,
+     "usd": 1495559,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/723125/000145336826000001/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": false,
+     "history": "owned after: 17,728 sh"
+    },
+    {
+     "date": "2026-06-26",
+     "name": "MEHROTRA SANJAY",
+     "role": "President and CEO",
+     "shares": 11494,
+     "price": 1180.96,
+     "usd": 13573977,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000012/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 344,503 sh; The sales reported on this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on January 30, 2026"
+    },
+    {
+     "date": "2026-06-26",
+     "name": "MEHROTRA SANJAY",
+     "role": "President and CEO",
+     "shares": 28506,
+     "price": 1149.28,
+     "usd": 32761315,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/723125/000124265426000011/xslF345X06/primarydocument.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 355,997 sh; The sales reported on this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on January 30, 2026"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24",
+   "note": "10 sales, $182,156,235; unique sellers 6"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -8.54,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle (Q2 2026) as shown on MarketBeat filings list"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel is 403 per failure log and MarketBeat dollar totals are excluded; no clean net share change"
+  },
+  "holders_up": {
+   "value": 2462,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 1246,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "State Street trimmed 4.1% to 50.08M sh (13F filed 2026-09-22); no large named adds on the first page"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 2.45,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 2.64% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 1.1,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 0.78"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/short-interest/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_trans_pct": {
+   "value": -1.09,
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-09-30",
+    "event": "FQ4 FY2026 earnings, call 2:30pm MT",
+    "confirmed": true,
+    "source": "https://www.globenewswire.com/news-release/2026/08/26/3351673/14450/en/micron-technology-to-report-fiscal-fourth-quarter-results-on-september-30-2026.html"
+   },
+   {
+    "date": "2026-12-16",
+    "event": "FQ1 FY2027 earnings (estimate from prior-year date 2025-12-17)",
+    "confirmed": false,
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/"
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/MU/earnings/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not found: drawdown -13.9% is less than 30% from the high; not required"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; EPS in USD per share",
+  "accounting_basis": "consensus adjusted (non-GAAP) EPS; revenue and operating income as S&P Global consensus",
+  "fy1_end": "2026-08-31",
+  "fy2_end": "2027-08-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex; forward CFO/capex not published on free sources",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 129923318820,
+    "source": "https://stockanalysis.com/stocks/mu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": 98243370670,
+    "source": "https://stockanalysis.com/stocks/mu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global consensus operating income from the StockAnalysis estimates table"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward CFO not published; StockAnalysis shows consensus FY1 free cash flow of 49,909,500,000 only"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward capex not published on free sources"
+   },
+   "eps": {
+    "value": 73.51801,
+    "source": "https://stockanalysis.com/stocks/mu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "fcf_consensus": {
+    "value": 49909500000,
+    "source": "https://stockanalysis.com/stocks/mu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus FY1 free cash flow; not split into CFO and capex"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 247600931990,
+    "source": "https://stockanalysis.com/stocks/mu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis paywall"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": 158.92643,
+    "source": "https://stockanalysis.com/stocks/mu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 45,
+    "source": "https://stockanalysis.com/stocks/mu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global Sep '26: strong buy 36 + buy 9"
+   },
+   "hold": {
+    "value": 4,
+    "source": "https://stockanalysis.com/stocks/mu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/mu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell 0 + strong sell 0"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 1,
+    "source": "https://finance.yahoo.com/quote/MU/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 column; provider counts revision events"
+   },
+   "down_30d": {
+    "value": 1,
+    "source": "https://finance.yahoo.com/quote/MU/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "analysts": {
+    "value": 36,
+    "source": "https://finance.yahoo.com/quote/MU/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "number of FY1 EPS estimates on the same page"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 1080.53,
+    "source": "https://finviz.com/quote.ashx?t=MU",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": null
+   },
+   "enterprise_value": {
+    "value": 1200670000000.0,
+    "source": "https://finviz.com/quote.ashx?t=MU",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "Finviz enterprise value"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: WACC not modelled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 7,
+  "prospect_why": "HBM and DRAM pricing is in the last two prints: FQ3 beat by 15% on revenue, FQ4 guide ~$50B vs $43.5B",
+  "competition_pts": 5,
+  "competition_why": "GM 44.7 to 84.6% on pricing, cyclical not structural; fwd P/E 6.8 at peak margins",
+  "macro_fit_pts": 4,
+  "macro_fit_why": "materials/industrials 4",
+  "narrative_pts": 5,
+  "narrative_why": "memory improving with attention heating into the 30 Sep print",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

@@ -1,0 +1,686 @@
+{
+ "ticker": "ADUR",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 12.56,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 18.19,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 9.0,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -30.95,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -11.13,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -4.46,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price distance to SMA50 < distance to SMA200"
+  },
+  "perf_1m_pct": {
+   "value": -18.6,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -12.84,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLI",
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -5.36,
+   "source": "https://finance.yahoo.com/quote/XLI/history/ (data/market/2026-09-24/yahoo/XLI.json)",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -8.3,
+   "source": "https://finance.yahoo.com/quote/XLI/history/ (data/market/2026-09-24/yahoo/XLI.json)",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24",
+   "note": "peaked 18.19 on 2026-06-02 then fell after the June US$15.20 offering; 11.1% below 50 DMA, 4.5% below 200 DMA, 50<200; flat 12.3-12.7 in the last two weeks"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://finance.yahoo.com/quote/ADUR/history/",
+   "as_of": "2026-09-24",
+   "note": "FY26 results 2026-08-31/09-01: -3.47% on 09-01, -4.05% cumulative after 5 sessions vs the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 4,
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 26.98,
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 32.32,
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 21.38,
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 114.81,
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24",
+   "note": "four analysts, all small-cap/issuer-paid-adjacent brokers; weak evidence"
+  },
+  "pt_finviz": {
+   "value": 28.07,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": 29.25,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ADUR/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat Moderate Buy, 6 ratings in 12 months (1 sell/1 hold/4 buy), range $19-46, upside 132.9%: 18 points above SA"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-22",
+     "broker": "H.C. Wainwright",
+     "action": "reiterate",
+     "target": 22,
+     "reason": "Buy (after the 75-hour pilot campaign data)"
+    },
+    {
+     "date": "2026-07-31",
+     "broker": "Roth MKM",
+     "action": "initiate",
+     "target": 30,
+     "reason": "Buy (MarketBeat dates the initiation 07-27)"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-31",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ADUR/earnings/",
+   "as_of": "2026-09-24",
+   "note": "40-F filed 2026-08-31; press release dated 2026-09-01"
+  },
+  "revenue_actual": {
+   "value": 0,
+   "source": "https://investors.adurocleantech.com/press-releases/press-releases-details/2026/Aduro-Clean-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results-and-Provides-Business-Update/default.aspx",
+   "as_of": "2026-09-01",
+   "note": "Q4 FY26 revenue C$0 (FY26 C$167,206)"
+  },
+  "revenue_estimate": {
+   "value": 240000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ADUR/earnings/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat, currency not stated"
+  },
+  "eps_actual": {
+   "value": -0.27,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ADUR/earnings/",
+   "as_of": "2026-09-24",
+   "note": "Q4 FY26; net loss C$12.43M"
+  },
+  "eps_estimate": {
+   "value": -0.08,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ADUR/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://investors.adurocleantech.com/press-releases/press-releases-details/2026/Aduro-Clean-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results-and-Provides-Business-Update/default.aspx",
+   "as_of": "2026-09-01",
+   "note": "pre-revenue; no financial guidance issued"
+  },
+  "guide_detail": {
+   "value": "No financial guidance. Milestones: Next Generation Process pilot in structured campaigns; FOAK plant at Chemelot (Netherlands) with work starting in 2026 and completion targeted early 2028; March 2026 EPC MOU and offtake LOI (non-binding)",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001863934/000106299326004744/exhibit99-1.htm",
+   "as_of": "2026-08-31"
+  },
+  "reaction_day_pct": {
+   "value": -3.47,
+   "source": "https://finance.yahoo.com/quote/ADUR/history/",
+   "as_of": "2026-09-01"
+  },
+  "reaction_5d_pct": {
+   "value": -4.05,
+   "source": "https://finance.yahoo.com/quote/ADUR/history/",
+   "as_of": "2026-09-09"
+  },
+  "revisions_30d": {
+   "value": "down",
+   "source": "https://www.zacks.com/stock/quote/ADUR/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Yahoo load error; Zacks FY27 (May-27): 0 up / 1 down, -0.35 -> -0.40 (2 estimates)"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://www.zacks.com/stock/quote/ADUR/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "-0.37 -> -0.40"
+  },
+  "eps_trend": {
+   "value": {
+    "current": -0.4,
+    "d30": -0.35,
+    "d90": -0.37
+   },
+   "source": "https://www.zacks.com/stock/quote/ADUR/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "fiscal year ending May 2027; 2 estimates"
+  },
+  "fcf_ttm": {
+   "value": -14670000.0,
+   "source": "https://stockanalysis.com/stocks/adur/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-05-31",
+   "note": "CAD"
+  },
+  "net_income_ttm": {
+   "value": -26850000.0,
+   "source": "https://stockanalysis.com/stocks/adur/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-05-31",
+   "note": "CAD; includes non-cash items"
+  },
+  "sbc_pct_revenue": {
+   "value": 3804,
+   "source": "https://stockanalysis.com/stocks/adur/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-05-31",
+   "note": "not meaningful: SBC C$6.36M on revenue C$0.167M"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Aduro's Hydrochemolytic low-temperature process turns mixed waste plastics into ~89-91% condensable hydrocarbons, and licensing through a FOAK plant could open a large chemical-recycling market.",
+   "source": "https://www.benzinga.com/trading-ideas/movers/26/09/61946348/aduro-trending-after-reporting-strong-yields-in-75-hour-pilot-campaign",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "FOAK plant financing/FID and licensing deals; revenue C$6.2M in FY28 consensus (story)",
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: pre-revenue, C$27M FY26 loss, repeated equity raises (two US offerings in FY26 plus a June 2026 US$15.64M offering at $15.20 and a C$9.16M placement), FOAK not before 2028; chemical recycling peers (PureCycle) have struggled",
+   "source": "https://investors.adurocleantech.com/press-releases/press-releases-details/2026/Aduro-Clean-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results-and-Provides-Business-Update/default.aspx",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "story",
+   "source": "https://investors.adurocleantech.com/press-releases/press-releases-details/2026/Aduro-Clean-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results-and-Provides-Business-Update/default.aspx",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "PCT",
+    "LYB"
+   ],
+   "source": "https://stockanalysis.com/stocks/pct/statistics/",
+   "as_of": "2026-09-24",
+   "note": "PureCycle (PP purification) and LyondellBasell MoReTec; Agilyx/Plastic Energy are not US-listed"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://stockanalysis.com/stocks/adur/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: pre-revenue: SA shows 100%/n.m. on trivial revenue"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: loss-making"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "PCT": null,
+    "LYB": 7.88
+   },
+   "source": "https://stockanalysis.com/stocks/lyb/statistics/",
+   "as_of": "2026-09-24",
+   "note": "PCT loss-making"
+  },
+  "ev_sales": {
+   "value": 3520.88,
+   "source": "https://stockanalysis.com/stocks/adur/statistics/",
+   "as_of": "2026-09-24",
+   "note": "not meaningful"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "PCT": 95.63,
+    "LYB": 1.0
+   },
+   "source": "https://stockanalysis.com/stocks/pct/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "pyrolysis (Plastic Energy, Agilyx), PP purification (PureCycle), mechanical recycling",
+   "source": "https://stockanalysis.com/stocks/pct/statistics/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Form 4 does not apply: Aduro is a Canadian MJDS foreign private issuer (files 40-F/6-K, fiscal year May 31), so insiders report on SEDI (sedi.ca), which was not checked. Finviz shows no insider table. Coverage unknown, not verified absence"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24",
+   "note": "window 2026-06-26 to 2026-09-24; Finviz insider table, each trade verified on the EDGAR Form 4 XML"
+  },
+  "sells_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24",
+   "note": "open-market S-code sales only; option-exercise legs (M), tax withholding (F) and sell-to-cover excluded; plan flag from Form 4 10b5-1 checkbox/footnote"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ADUR/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "only 6 13F rows visible (Feb-Sep 2026)"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_up": {
+   "value": 15,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ADUR/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_down": {
+   "value": 1,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ADUR/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "NewEdge Advisors",
+     "change_pct": 18.3,
+     "shares": 5929
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ADUR/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "holdings tiny; Finviz Inst Trans +9.40%"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ADUR/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 12.96,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat 8.68%, SA 11.67%: float definitions differ"
+  },
+  "days_to_cover": {
+   "value": 6.69,
+   "source": "https://finviz.com/quote.ashx?t=ADUR",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat 9.3"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/ADUR/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "3.07M shares, +8.2%"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-15",
+    "event": "Q1 FY27 results (6-K; StockAnalysis estimate)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-12-31",
+    "event": "FOAK plant final design / start of work targeted in calendar 2026",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/adur/statistics/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": "Down 31% from the 2026-06-02 high: the slide began with the June US$15.64M offering at US$15.20 plus a C$9.16M placement, then a wider FY26 loss (C$26.8M) with no revenue in Q4; no single news item found for the -18.6% month.",
+  "source": "https://investors.adurocleantech.com/press-releases/press-releases-details/2026/Aduro-Clean-Technologies-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results-and-Provides-Business-Update/default.aspx",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": false,
+  "currency": {
+   "value": "CAD (financials); USD (share price)",
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "units": {
+   "value": "CAD; EPS per share",
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "accounting_basis": {
+   "value": "IFRS",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001863934/000106299326004744/exhibit99-1.htm",
+   "as_of": "2026-08-31"
+  },
+  "fy1_end": {
+   "value": "2027-05-31",
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy2_end": {
+   "value": "2028-05-31",
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "estimate_vintage": {
+   "value": "2026-09-24",
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "model_assumptions": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "no model"
+  },
+  "fcf_basis": {
+   "value": "CFO minus capex (SA consensus FCF)",
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "revision_period_end": {
+   "value": "2026-09-24",
+   "source": "https://www.zacks.com/stock/quote/ADUR/detailed-earning-estimates",
+   "as_of": "2026-09-24"
+  },
+  "fy1": {
+   "revenue": {
+    "value": 218700.0,
+    "source": "https://stockanalysis.com/stocks/adur/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "2 analysts; Zacks 0.25M"
+   },
+   "ebit": {
+    "value": -18840000.0,
+    "source": "https://stockanalysis.com/stocks/adur/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "fcf": {
+    "value": -38110000.0,
+    "source": "https://stockanalysis.com/stocks/adur/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -0.4,
+    "source": "https://www.zacks.com/stock/quote/ADUR/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "2 estimates; SA shows n/a"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: loss-making"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 6240000.0,
+    "source": "https://stockanalysis.com/stocks/adur/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Zacks 5.69M"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: behind SA paywall"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": -0.52,
+    "source": "https://www.zacks.com/stock/quote/ADUR/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: loss-making"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 4,
+    "source": "https://stockanalysis.com/stocks/adur/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "4 strong buy (S&P Global); MarketBeat 12-month population 4 buy/1 hold/1 sell"
+   },
+   "hold": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/adur/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/adur/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/ADUR/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 1,
+    "source": "https://www.zacks.com/stock/quote/ADUR/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 2,
+    "source": "https://www.zacks.com/stock/quote/ADUR/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks 60d: 0"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks 60d: 0"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 12.56,
+    "source": "https://finviz.com/quote.ashx?t=ADUR",
+    "as_of": "2026-09-24"
+   },
+   "enterprise_value": {
+    "value": 427060000.0,
+    "source": "https://stockanalysis.com/stocks/adur/statistics/",
+    "as_of": "2026-09-24",
+    "note": "Finviz 420.94M; net cash C$27.5M at May-26 before June raises"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "periods_aligned_evidence": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/adur/forecast/",
+   "as_of": "2026-09-24",
+   "note": "SA revenue in CAD; Zacks EPS currency not stated; not verified as matched"
+  }
+ },
+ "judgment": {
+  "prospect_pts": 1,
+  "prospect_why": "commercial plant not before 2028",
+  "competition_pts": 2,
+  "competition_why": "pre-revenue technology",
+  "macro_fit_pts": 0,
+  "macro_fit_why": "pre-revenue and diluting",
+  "narrative_pts": 1,
+  "narrative_why": "outside the themes",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

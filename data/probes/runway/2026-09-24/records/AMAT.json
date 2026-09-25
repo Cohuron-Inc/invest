@@ -1,0 +1,740 @@
+{
+ "ticker": "AMAT",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 474.25,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 739.67,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 196.2,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -35.88,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -3.56,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 12.83,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -1.21,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -29.0,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS Information Technology; SMH (semis) 1m +8.04%, 3m -5.71% from data/market/2026-09-24/yahoo/SMH.json"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24",
+   "note": "range 415-475 since the post-print slide; below 50d (-3.6%), above 200d (+12.8%), 50>200"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMAT (cached at data/market/2026-09-24/yahoo/AMAT.json)",
+   "as_of": "2026-09-24",
+   "note": "print day 2026-08-14 -5.12%; +5 sessions (2026-08-21) -7.90% vs pre-print close 534.54"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/amat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 39,
+   "source": "https://stockanalysis.com/stocks/amat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 640.89,
+   "source": "https://stockanalysis.com/stocks/amat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 900,
+   "source": "https://stockanalysis.com/stocks/amat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 358,
+   "source": "https://stockanalysis.com/stocks/amat/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: StockAnalysis and Finviz means within 10 points; MarketBeat not needed"
+  },
+  "pt_finviz_mean": {
+   "value": 667.09,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-22",
+     "broker": "Bernstein",
+     "action": "maintain Buy",
+     "target": 700,
+     "reason": null
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "Goldman Sachs",
+     "action": "maintain Buy",
+     "target": 670,
+     "reason": null
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "UBS",
+     "action": "maintain Buy, PT 675->695",
+     "target": 695,
+     "reason": null
+    },
+    {
+     "date": "2026-08-25",
+     "broker": "Mizuho",
+     "action": "reiterate Buy, PT 650->590",
+     "target": 590,
+     "reason": null
+    },
+    {
+     "date": "2026-08-20",
+     "broker": "J.P. Morgan",
+     "action": "maintain Buy",
+     "target": null,
+     "reason": null
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/amat/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis shows the five most recent actions only; reasons not stated on the page"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-13",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 9.12,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/earnings/",
+   "as_of": "2026-08-13",
+   "note": "USD billions"
+  },
+  "revenue_estimate": {
+   "value": 8.99,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/earnings/",
+   "as_of": "2026-08-13",
+   "note": "USD billions, consensus at print"
+  },
+  "eps_actual": {
+   "value": 3.5,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/earnings/",
+   "as_of": "2026-08-13"
+  },
+  "eps_estimate": {
+   "value": 3.4,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/earnings/",
+   "as_of": "2026-08-13"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/earnings/",
+   "as_of": "2026-08-13"
+  },
+  "guide_detail": {
+   "value": "Q4 FY26 guide EPS $3.82-4.22 vs $3.65, revenue $9.8-10.8B vs $9.5B consensus",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/earnings/",
+   "as_of": "2026-08-13"
+  },
+  "reaction_day_pct": {
+   "value": -5.12,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMAT (cached at data/market/2026-09-24/yahoo/AMAT.json)",
+   "as_of": "2026-09-24",
+   "note": "close-to-close from the pre-print session; Yahoo daily chart"
+  },
+  "reaction_5d_pct": {
+   "value": -7.9,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/AMAT (cached at data/market/2026-09-24/yahoo/AMAT.json)",
+   "as_of": "2026-09-24",
+   "note": "close-to-close from the pre-print session; Yahoo daily chart"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT?modules=earningsTrend",
+   "as_of": "2026-09-24",
+   "note": "Yahoo analysis page failed to load; values from the Yahoo quoteSummary earningsTrend API. FY1 flat 30d, up 90d; FY1 29 up / 1 down in 30d; FY2 16.30 -> 18.45 in 90d"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT?modules=earningsTrend",
+   "as_of": "2026-09-24",
+   "note": "Yahoo analysis page failed to load; values from the Yahoo quoteSummary earningsTrend API. FY1 flat 30d, up 90d; FY1 29 up / 1 down in 30d; FY2 16.30 -> 18.45 in 90d"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 12.79,
+    "d30": 12.79,
+    "d90": 12.24,
+    "fy2_current": 18.45,
+    "fy2_d30": 18.34,
+    "fy2_d90": 16.3
+   },
+   "source": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT?modules=earningsTrend",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year (FY1) consensus EPS"
+  },
+  "fcf_ttm": {
+   "value": 5623,
+   "source": "https://stockanalysis.com/stocks/amat/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-26",
+   "note": "USD millions, sum of last four quarters"
+  },
+  "net_income_ttm": {
+   "value": 9267,
+   "source": "https://stockanalysis.com/stocks/amat/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-26",
+   "note": "USD millions, sum of last four quarters"
+  },
+  "sbc_pct_revenue": {
+   "value": 2.27,
+   "source": "https://stockanalysis.com/stocks/amat/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-26",
+   "note": "TTM SBC / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: wafer-fab equipment upcycle (leading-edge logic, DRAM/HBM, packaging) lifts FY27 revenue ~35% to $46.1B consensus after record $9.12B quarter",
+   "source": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT?modules=earningsTrend",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "FY27 WFE growth; Q4 revenue $9.8-10.8B delivered",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: expectations after a 178% one-year run, China share down to ~28% from ~35%, margin expansion pace",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-shares-fall-strong-102943769.html",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/earnings/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "LRCX",
+    "ASML"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    48.02,
+    48.99,
+    49.9,
+    50.31
+   ],
+   "source": "https://stockanalysis.com/stocks/amat/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "oldest to newest"
+  },
+  "fwd_pe": {
+   "value": 25.34,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "LRCX": 25.89,
+    "ASML": 28.36
+   },
+   "source": "https://finviz.com/quote.ashx?t=LRCX,ASML",
+   "as_of": "2026-09-24",
+   "note": "KLAC not in the snapshot set"
+  },
+  "ev_sales": {
+   "value": 12.14,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "LRCX": 16.48,
+    "ASML": 15.96
+   },
+   "source": "https://finviz.com/quote.ashx?t=LRCX,ASML",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute or new entrant in the fetched sources"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table (saved HTML) reaches back to 2025-09-30, covering the full 2026-06-26..2026-09-24 window; exercises, Form 144 proposed sales, grants and gifts excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-08",
+     "name": "BRUNER JUDY",
+     "role": "Director",
+     "shares": 1000,
+     "price": 465.0,
+     "usd": 465000,
+     "shares_owned_after": 25544,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/6951/000162828026061408/xslF345X06/wk-form4_1789074224.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Hill Brice",
+     "role": "SVP, CFO",
+     "shares": 7500,
+     "price": 479.25,
+     "usd": 3594376,
+     "shares_owned_after": 128613,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/6951/000162828026059277/xslF345X06/wk-form4_1787864517.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-06-29",
+     "name": "DICKERSON GARY E",
+     "role": "President and CEO",
+     "shares": 58321,
+     "price": 700.36,
+     "usd": 40845895,
+     "shares_owned_after": 1619843,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/6951/000162828026046609/xslF345X06/wk-form4_1782940748.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-06-30",
+     "name": "DICKERSON GARY E",
+     "role": "President and CEO",
+     "shares": 20000,
+     "price": 735.22,
+     "usd": 14704425,
+     "shares_owned_after": 1599843,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/6951/000162828026046609/xslF345X06/wk-form4_1782940748.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24",
+   "note": "4 sales, total $59,609,696; unique sellers 3"
+  },
+  "finviz_net_change_pct": {
+   "value": -6.74,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24",
+   "note": "Finviz 6-month insider transaction %"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "13F filings reported Aug-Sep 2026 describe the quarter ended 2026-06-30"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives no net share figure; Fintel blocked (failure log)"
+  },
+  "holders_up": {
+   "value": 1918,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals excluded (CalSTRS-row risk)"
+  },
+  "holders_down": {
+   "value": 1408,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals excluded (CalSTRS-row risk)"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street Corp",
+     "change_pct": 85.4,
+     "shares": 69525842,
+     "note": "change looks anomalous; unverified"
+    },
+    {
+     "fund": "Andra AP fonden",
+     "change_pct": 34.4,
+     "shares": 126229
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "from the eight most recent 13F rows; small filers only"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Envestnet Portfolio Solutions",
+     "change_pct": -27.6,
+     "shares": 62962
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "inst_own_pct": {
+   "value": 80.56,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_change_pct": {
+   "value": 1.14,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 1.98,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 1.84,
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "short_shares": {
+   "value": "15.62M",
+   "source": "https://finviz.com/quote.ashx?t=AMAT",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Finviz shows the latest FINRA settlement figure without its date; secondary pages not fetched"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-12",
+    "event": "Q4 FY26 earnings",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/AMAT/earnings/",
+  "as_of": "2026-09-24",
+  "note": "MarketBeat estimate"
+ },
+ "why_it_fell": {
+  "value": "Sell-the-news after the 2026-08-13 print despite a beat and raised guide: elevated expectations after a 178% one-year run, China revenue share falling to ~28%, and a broad semis pullback",
+  "source": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-shares-fall-strong-102943769.html",
+  "as_of": "2026-08-14"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "revenue USD billions; EPS USD/share; EV USD billions",
+  "accounting_basis": "adjusted (non-GAAP) consensus EPS; revenue as reported",
+  "fy1_end": "2026-10-31",
+  "fy2_end": "2027-10-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "not available (no forward CFO/capex)",
+  "revision_period_end": "2026-09-24",
+  "note": "MarketBeat earnings page shows stale FY26 EPS $9.24 / Q4 $2.38; not used",
+  "fy1": {
+   "revenue": {
+    "value": 34.25,
+    "source": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT?modules=earningsTrend",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 12.79,
+    "source": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT?modules=earningsTrend",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no free consensus EBIT (StockAnalysis FY2+ is Pro-gated; Yahoo has no EBIT); EBITDA not substituted"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed analyst cash-flow model or company CFO guidance"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed consensus or guided capex for the fiscal year"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 46.13,
+    "source": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT?modules=earningsTrend",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 18.45,
+    "source": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT?modules=earningsTrend",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no free consensus EBIT (StockAnalysis FY2+ is Pro-gated; Yahoo has no EBIT); EBITDA not substituted"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed analyst cash-flow model or company CFO guidance"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed consensus or guided capex for the fiscal year"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 33,
+    "source": "https://stockanalysis.com/stocks/amat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 6,
+    "source": "https://stockanalysis.com/stocks/amat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/amat/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 29,
+    "source": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT?modules=earningsTrend",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS, Yahoo revision events"
+   },
+   "down_30d": {
+    "value": 1,
+    "source": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT?modules=earningsTrend",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS, Yahoo revision events"
+   },
+   "analysts": {
+    "value": 30,
+    "source": "https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT?modules=earningsTrend",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS estimate count"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 474.25,
+    "source": "https://finviz.com/quote.ashx?t=AMAT",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 374.48,
+    "source": "https://finviz.com/quote.ashx?t=AMAT",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: WACC not modelled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "WFE upcycle visible in the raised Q4 guide; FY27 revenue +35% is consensus",
+  "competition_pts": 5,
+  "competition_why": "GM 48.0 to 50.3% rising; fwd P/E 25.3 in line with LRCX and ASML; China share falling",
+  "macro_fit_pts": 4,
+  "macro_fit_why": "materials/industrials archetype 4",
+  "narrative_pts": 2,
+  "narrative_why": "semicap basket lagging and worsening, -24pp vs SPY over 3m",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

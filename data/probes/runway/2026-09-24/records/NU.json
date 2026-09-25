@@ -1,0 +1,757 @@
+{
+ "ticker": "NU",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 13.56,
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 18.98,
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 11.2,
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -5.77,
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -8.47,
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -10.44,
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 8.83,
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLF",
+   "source": "https://finviz.com/quote.ashx?t=XLF",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -6.48,
+   "source": "https://finviz.com/quote.ashx?t=XLF",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 2.02,
+   "source": "https://finviz.com/quote.ashx?t=XLF",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24",
+   "note": "below 50-day (-5.8%) and 200-day (-8.5%); +8.8% over 3 months, -10.4% in a month"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/nu/history/",
+   "as_of": "2026-09-24",
+   "note": "print after close Aug 13; Aug 14 +9.33%, +5 sessions close 4.67% above the pre-print close (gave back half)"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/nu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 22,
+   "source": "https://stockanalysis.com/stocks/nu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 18.78,
+   "source": "https://stockanalysis.com/stocks/nu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 23,
+   "source": "https://stockanalysis.com/stocks/nu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 12,
+   "source": "https://stockanalysis.com/stocks/nu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not needed: MarketBeat $17.92 (14 analysts) within 10 points of upside of StockAnalysis"
+  },
+  "finviz_target": {
+   "value": 18.54,
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded alongside"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-24",
+     "broker": "Goldman Sachs",
+     "action": "reiterate Buy",
+     "target": 23,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-16",
+     "broker": "Itau BBA",
+     "action": "downgrade Outperform -> Market Perform, 20->18",
+     "target": 18,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "Needham",
+     "action": "reiterate Buy",
+     "target": 19,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-25",
+     "broker": "Wolfe Research",
+     "action": "lower target 18->17, Outperform",
+     "target": 17,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-20",
+     "broker": "UBS",
+     "action": "raise target 16.90->18.20, Buy",
+     "target": 18.2,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-17",
+     "broker": "Morgan Stanley",
+     "action": "reiterate Overweight",
+     "target": 21,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-14",
+     "broker": "Susquehanna",
+     "action": "raise target 13->16, Neutral",
+     "target": 16,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-14",
+     "broker": "Bank of America",
+     "action": "maintain Underperform",
+     "target": 10,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/nu/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings page (latest 8) merged with MarketBeat forecast table https://www.marketbeat.com/stocks/NYSE/NU/forecast/; Weiss/Zacks excluded; reasons not stated on the source unless given"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-13",
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 5880000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 5390000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 0.216,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted EPS as MarketBeat reports it"
+  },
+  "eps_estimate": {
+   "value": 0.1984,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://www.nasdaq.com/press-release/nu-holdings-ltd-reports-second-quarter-2026-financial-results-2026-08-13",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "Nu does not issue quantitative financial guidance as a policy. Q2: first $1.1B quarterly net income (+49% YoY), ROE 33%, NIM +180bp to 22.9%, 139M customers",
+   "source": "https://www.nasdaq.com/press-release/nu-holdings-ltd-reports-second-quarter-2026-financial-results-2026-08-13",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": 9.33,
+   "source": "https://stockanalysis.com/stocks/nu/history/",
+   "as_of": "2026-09-24",
+   "note": "reaction measured on Aug 14 (print after the close Aug 13)"
+  },
+  "reaction_5d_pct": {
+   "value": 4.67,
+   "source": "https://stockanalysis.com/stocks/nu/history/",
+   "as_of": "2026-09-24",
+   "note": "close 5 sessions after the print vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://www.zacks.com/stock/quote/NU/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Yahoo /analysis/ load error twice; Zacks numbers used. FY2026 EPS 0.86 now vs 0.85 30d (+1.2%) vs 0.83 90d (+3.6%); band +/-2%"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/NU/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Yahoo /analysis/ load error twice; Zacks numbers used. FY2026 EPS 0.86 now vs 0.85 30d (+1.2%) vs 0.83 90d (+3.6%); band +/-2%"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 0.86,
+    "d30": 0.85,
+    "d90": 0.83
+   },
+   "source": "https://www.zacks.com/stock/quote/NU/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year EPS consensus now, 30 and 90 days ago"
+  },
+  "fcf_ttm": {
+   "value": -10320000000.0,
+   "source": "https://stockanalysis.com/stocks/nu/statistics/",
+   "as_of": "2026-09-24",
+   "note": "operating cash flow absorbs loan-book growth; not comparable to NI for a lender"
+  },
+  "net_income_ttm": {
+   "value": 3610000000.0,
+   "source": "https://stockanalysis.com/stocks/nu/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 4.2,
+   "source": "https://stockanalysis.com/stocks/nu/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "computed: SBC last 4 quarters $353.8M / TTM revenue $8.44B (StockAnalysis net basis)"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Nu compounds a 139M-customer Latin American digital bank at 33% ROE, with EPS growing ~40% this year and ~27% next as Mexico and Colombia scale.",
+   "source": "https://www.nasdaq.com/press-release/nu-holdings-ltd-reports-second-quarter-2026-financial-results-2026-08-13",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Net income growth sustained with NIM ~23% and credit losses contained in Brazil and Mexico",
+   "source": "https://www.nasdaq.com/press-release/nu-holdings-ltd-reports-second-quarter-2026-financial-results-2026-08-13",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Brazilian credit cycle and high Selic rates; Itau BBA downgrade; BofA Underperform $10; insider selling by the US CEO and CRO",
+   "source": "https://stockanalysis.com/stocks/nu/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "reported",
+   "source": "https://www.nasdaq.com/press-release/nu-holdings-ltd-reports-second-quarter-2026-financial-results-2026-08-13",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "MELI",
+    "ITUB"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=MELI",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "gaining",
+   "source": "https://www.nasdaq.com/press-release/nu-holdings-ltd-reports-second-quarter-2026-financial-results-2026-08-13",
+   "as_of": "2026-09-24",
+   "note": "~4M customers added in Q2 to 139M"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: StockAnalysis reports no gross margin for Nu (bank format)"
+  },
+  "fwd_pe": {
+   "value": 12.07,
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "MELI": 32.36,
+    "ITUB": 8.19
+   },
+   "source": "https://finviz.com/quote.ashx?t=MELI",
+   "as_of": "2026-09-24",
+   "note": "Finviz quote pages of each peer"
+  },
+  "ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Finviz EV/Sales blank; EV not meaningful for a deposit-funded balance sheet"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "MELI": "2.51",
+    "ITUB": "-"
+   },
+   "source": "https://finviz.com/quote.ashx?t=MELI",
+   "as_of": "2026-09-24",
+   "note": "'-' means not published"
+  },
+  "substitute": {
+   "value": "Mercado Pago banking licence; incumbent Brazilian banks (Itau)",
+   "source": "https://www.nasdaq.com/press-release/nu-holdings-ltd-reports-second-quarter-2026-financial-results-2026-08-13",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "foreign private issuer: no Form 4. Nu (Cayman) files Form 4s voluntarily; Finviz shows 4 sales ($5.6M) in the window, not a verified-complete record"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24",
+   "note": "no open-market buys seen on Finviz"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-08-25",
+     "name": "Junqueira Cristina Helena Zing",
+     "role": "US CEO and Chief Growth Officer",
+     "shares": 65000,
+     "price": 14.71,
+     "usd": 956456.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1691493/000095010326012947/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Junqueira Cristina Helena Zing",
+     "role": "US CEO and Chief Growth Officer",
+     "shares": 25000,
+     "price": 15.0,
+     "usd": 375000.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1691493/000095010326012947/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Fragelli Henrique Camossa Sald",
+     "role": "Chief Risk Officer",
+     "shares": 221707,
+     "price": 15.81,
+     "usd": 3505232.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1691493/000095010326012570/xslF345X06/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code S, 10b5-1 box unchecked; 979,446 held after (sold ~18% of holding)"
+    },
+    {
+     "date": "2026-08-14",
+     "name": "Junqueira Cristina Helena Zing",
+     "role": "US CEO and Chief Growth Officer",
+     "shares": 50000,
+     "price": 15.8,
+     "usd": 790000.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1691493/000095010326012569/xslF345X06/ownership.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz row; Form 4 linked, code and plan flag not opened"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24",
+   "note": "co-founder Junqueira $2.1M across three dates; CRO Fragelli $3.5M discretionary"
+  },
+  "excluded_90d": {
+   "value": [
+    "2026-08-25 CRISTINA HELENA ZINGARETTI JUN Proposed Sale",
+    "2026-08-24 THE CRISTINA H Z J REVOCABLE T Proposed Sale",
+    "2026-08-17 VICTORY LANE CAPITAL LTD Proposed Sale",
+    "2026-08-17 ZJ WY LLC Proposed Sale",
+    "2026-08-14 THE CRISTINA H Z J REVOCABLE T Proposed Sale",
+    "2026-08-14 HENRIQUE CAMOSSA SALDANHA FRAG Proposed Sale"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24",
+   "note": "option exercises, proposed sales (Form 144) and non-issuer rows excluded"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -0.06,
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest completed 13F cycle; MarketBeat most recent filing received 2026-09-23"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: fintel.io blocked (403 per failure log, not retried); MarketBeat does not give quarter net shares"
+  },
+  "holders_up": {
+   "value": 594,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 302,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split new vs increased holders"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split exited vs reduced holders"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Norges Bank",
+     "usd": 134520000.0
+    },
+    {
+     "fund": "Baillie Gifford",
+     "usd": 84990000.0
+    },
+    {
+     "fund": "State Street",
+     "usd": 43030000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest buyers by dollar volume, MarketBeat FAQ, 24-month window; sizes are purchase dollars not position change"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Capital Research Global Investors",
+     "usd": 30780000.0
+    },
+    {
+     "fund": "Jennison",
+     "usd": 23920000.0
+    },
+    {
+     "fund": "Orbis Allan Gray",
+     "usd": 23370000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest sellers by dollar volume, 24-month window; not confirmed full exits"
+  },
+  "short_pct_float": {
+   "value": 2.74,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 3.66% (no date); MarketBeat preferred because it states the settlement date"
+  },
+  "days_to_cover": {
+   "value": 2.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 1.69"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/NU/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "finviz_inst_trans_pct": {
+   "value": -0.47,
+   "source": "https://finviz.com/quote.ashx?t=NU",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-12",
+    "event": "Q3 2026 earnings",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NYSE/NU/earnings/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not applicable: drawdown from the 52-week high is less than 30%"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute currency units; EPS per share",
+  "accounting_basis": "gross revenue basis from FY2026 (StockAnalysis FY2025 6.99B is on a different, net basis; FY1 and FY2 share the new basis; Zacks 22.51B/27.93B agrees); adjusted EPS",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "StockAnalysis page retrieved 2026-09-24",
+  "model_assumptions": "none: no modelled leaves",
+  "fcf_basis": "not available: forward CFO/capex unpublished",
+  "revision_period_end": "2026-09-24",
+  "alignment_note": "revenue basis change between FY2025 and FY2026 on StockAnalysis; FY1/FY2 consistent",
+  "fy1": {
+   "revenue": {
+    "value": 22830000000.0,
+    "source": "https://stockanalysis.com/stocks/nu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 5530000000.0,
+    "source": "https://stockanalysis.com/stocks/nu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus operating income"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 0.89,
+    "source": "https://stockanalysis.com/stocks/nu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 27900000000.0,
+    "source": "https://stockanalysis.com/stocks/nu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis Pro paywall; Yahoo does not publish EBIT estimates",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 1.13,
+    "source": "https://stockanalysis.com/stocks/nu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 18,
+    "source": "https://stockanalysis.com/stocks/nu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global via StockAnalysis, Sep 2026 column; strong buy grouped with buy, strong sell with sell"
+   },
+   "hold": {
+    "value": 3,
+    "source": "https://stockanalysis.com/stocks/nu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/nu/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 2,
+    "source": "https://www.zacks.com/stock/quote/NU/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Zacks Agreement table, current year"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/NU/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 5,
+    "source": "https://www.zacks.com/stock/quote/NU/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimate count for the same fiscal year"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 13.56,
+    "source": "https://finviz.com/quote.ashx?t=NU",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Finviz EV blank for a bank",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: WACC not modelled in this pass",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "139M customers, ROE 33% reported",
+  "competition_pts": 5,
+  "competition_why": "fwd P/E 12.1 vs MELI 32.4",
+  "macro_fit_pts": 3,
+  "macro_fit_why": "EM archetype 3",
+  "narrative_pts": 3,
+  "narrative_why": "fintech fading",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

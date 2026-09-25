@@ -1,0 +1,782 @@
+{
+ "ticker": "LRCX",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 307.16,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 438.5,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 125.02,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -29.95,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 0.81,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 13.69,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -2.38,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -23.56,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS Information Technology; SMH (semis) 1m +8.04%, 3m -5.71% from data/market/2026-09-24/yahoo/SMH.json"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24",
+   "note": "range 269-316 since August; at 50d (+0.8%), above 200d (+13.7%), 50>200; 3m -23.6%"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX (cached at data/market/2026-09-24/yahoo/LRCX.json)",
+   "as_of": "2026-09-24",
+   "note": "print day 2026-07-30 +17.98%; +5 sessions (2026-08-06) +21.17% vs pre-print close 252.35"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/lrcx/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 35,
+   "source": "https://stockanalysis.com/stocks/lrcx/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 373.13,
+   "source": "https://stockanalysis.com/stocks/lrcx/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 500,
+   "source": "https://stockanalysis.com/stocks/lrcx/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 290,
+   "source": "https://stockanalysis.com/stocks/lrcx/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: StockAnalysis and Finviz means within 10 points; MarketBeat not needed"
+  },
+  "pt_finviz_mean": {
+   "value": 383.96,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-22",
+     "broker": "Bernstein",
+     "action": "maintain Buy",
+     "target": 385,
+     "reason": null
+    },
+    {
+     "date": "2026-09-20",
+     "broker": "Mizuho",
+     "action": "maintain Buy",
+     "target": 365,
+     "reason": null
+    },
+    {
+     "date": "2026-09-12",
+     "broker": "Susquehanna",
+     "action": "maintain Buy",
+     "target": 475,
+     "reason": null
+    },
+    {
+     "date": "2026-09-09",
+     "broker": "Berenberg",
+     "action": "maintain Buy, PT 350->420",
+     "target": 420,
+     "reason": null
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "UBS",
+     "action": "maintain Buy, PT 435->425",
+     "target": 425,
+     "reason": null
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/lrcx/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis shows the five most recent actions only; reasons not stated on the page"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-29",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 6.72,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/earnings/",
+   "as_of": "2026-07-29",
+   "note": "USD billions"
+  },
+  "revenue_estimate": {
+   "value": 6.66,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/earnings/",
+   "as_of": "2026-07-29",
+   "note": "USD billions, consensus at print"
+  },
+  "eps_actual": {
+   "value": 1.82,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/earnings/",
+   "as_of": "2026-07-29"
+  },
+  "eps_estimate": {
+   "value": 1.69,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/earnings/",
+   "as_of": "2026-07-29"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/earnings/",
+   "as_of": "2026-07-29"
+  },
+  "guide_detail": {
+   "value": "Q1 FY27 guide EPS $2.00-2.30 vs $1.81, revenue $7.7-8.5B vs $7.0B consensus",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/earnings/",
+   "as_of": "2026-07-29"
+  },
+  "reaction_day_pct": {
+   "value": 17.98,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX (cached at data/market/2026-09-24/yahoo/LRCX.json)",
+   "as_of": "2026-09-24",
+   "note": "close-to-close from the pre-print session; Yahoo daily chart"
+  },
+  "reaction_5d_pct": {
+   "value": 21.17,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/LRCX (cached at data/market/2026-09-24/yahoo/LRCX.json)",
+   "as_of": "2026-09-24",
+   "note": "close-to-close from the pre-print session; Yahoo daily chart"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/LRCX/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY1 (Jun-27) EPS 9.46 -> 9.51 30d (+0.5%), 8.06 90d ago; revisions 2 up / 0 down FY1, 22 up / 0 down current quarter"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/LRCX/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY1 (Jun-27) EPS 9.46 -> 9.51 30d (+0.5%), 8.06 90d ago; revisions 2 up / 0 down FY1, 22 up / 0 down current quarter"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 9.51,
+    "d30": 9.46,
+    "d90": 8.06,
+    "fy2_current": 11.74,
+    "fy2_d30": 11.56,
+    "fy2_d90": 9.85
+   },
+   "source": "https://finance.yahoo.com/quote/LRCX/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year (FY1) consensus EPS"
+  },
+  "fcf_ttm": {
+   "value": 4891,
+   "source": "https://stockanalysis.com/stocks/lrcx/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-28",
+   "note": "USD millions, sum of last four quarters"
+  },
+  "net_income_ttm": {
+   "value": 7265,
+   "source": "https://stockanalysis.com/stocks/lrcx/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-28",
+   "note": "USD millions, sum of last four quarters"
+  },
+  "sbc_pct_revenue": {
+   "value": 1.66,
+   "source": "https://stockanalysis.com/stocks/lrcx/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-28",
+   "note": "TTM SBC / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: memory (NAND/DRAM) upgrades and gate-all-around/advanced-packaging etch and deposition lift FY27 revenue ~50% to $34.9B consensus",
+   "source": "https://finance.yahoo.com/quote/LRCX/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Memory capex; Q1 FY27 revenue $7.7-8.5B delivered",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: FY28 growth slows to ~18%, memory-capex cyclicality, China exposure, steady executive selling",
+   "source": "https://finance.yahoo.com/quote/LRCX/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/earnings/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "AMAT",
+    "ASML"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    50.43,
+    49.6,
+    49.83,
+    51.75
+   ],
+   "source": "https://stockanalysis.com/stocks/lrcx/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "oldest to newest"
+  },
+  "fwd_pe": {
+   "value": 25.89,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "AMAT": 25.34,
+    "ASML": 28.36
+   },
+   "source": "https://finviz.com/quote.ashx?t=AMAT,ASML",
+   "as_of": "2026-09-24",
+   "note": "Tokyo Electron not US-listed"
+  },
+  "ev_sales": {
+   "value": 16.48,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "AMAT": 12.14,
+    "ASML": 15.96
+   },
+   "source": "https://finviz.com/quote.ashx?t=AMAT,ASML",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute or new entrant in the fetched sources"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table (saved HTML) reaches back to 2025-10-13, covering the full 2026-06-26..2026-09-24 window; exercises, Form 144 proposed sales, grants and gifts excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-09",
+     "name": "ARCHER TIMOTHY",
+     "role": "President and CEO",
+     "shares": 30000,
+     "price": 319.26,
+     "usd": 9577800,
+     "shares_owned_after": 1075966,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/707549/000134360026000013/xslF345X06/wk-form4_1789059918.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Mayer Bethany",
+     "role": "Director",
+     "shares": 9557,
+     "price": 314.74,
+     "usd": 3007970,
+     "shares_owned_after": 20995,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/707549/000140569326000011/xslF345X06/wk-form4_1789059862.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-09-02",
+     "name": "Varadarajan Seshasayee",
+     "role": "Senior Vice President",
+     "shares": 59750,
+     "price": 291.32,
+     "usd": 17406370,
+     "shares_owned_after": 205546,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/707549/000170782726000006/xslF345X06/wk-form4_1788462360.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-08-31",
+     "name": "Harter Ava",
+     "role": "Chief Legal Officer",
+     "shares": 5000,
+     "price": 302.46,
+     "usd": 1512300,
+     "shares_owned_after": 42462,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/707549/000164241526000012/xslF345X06/wk-form4_1788278890.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-08-06",
+     "name": "ARCHER TIMOTHY",
+     "role": "President and CEO",
+     "shares": 30000,
+     "price": 300.0,
+     "usd": 9000000,
+     "shares_owned_after": 1075966,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/707549/000134360026000011/xslF345X06/wk-form4_1786123467.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-07-13",
+     "name": "TALWALKAR ABHIJIT Y",
+     "role": "Director",
+     "shares": 18282,
+     "price": 335.0,
+     "usd": 6124470,
+     "shares_owned_after": 87142,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/707549/000131606526000012/xslF345X06/wk-form4_1784048170.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-07-02",
+     "name": "ARCHER TIMOTHY",
+     "role": "President and CEO",
+     "shares": 30000,
+     "price": 390.01,
+     "usd": 11700300,
+     "shares_owned_after": 1075966,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/707549/000134360026000009/xslF345X06/wk-form4_1783355605.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24",
+   "note": "7 sales, total $58,329,210; unique sellers 5"
+  },
+  "finviz_net_change_pct": {
+   "value": -7.47,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24",
+   "note": "Finviz 6-month insider transaction %"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "13F filings reported Aug-Sep 2026 describe the quarter ended 2026-06-30"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives no net share figure; Fintel blocked (failure log)"
+  },
+  "holders_up": {
+   "value": 1842,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals excluded (CalSTRS-row risk)"
+  },
+  "holders_down": {
+   "value": 1199,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals excluded (CalSTRS-row risk)"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street Corp",
+     "change_pct": 2.6,
+     "shares": 60704130
+    },
+    {
+     "fund": "Envestnet Asset Management",
+     "change_pct": 3.5,
+     "shares": 2958917
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "from the eight most recent 13F rows; small filers only"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Altar Rock LLC",
+     "change_pct": -54.7,
+     "shares": 802
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "inst_own_pct": {
+   "value": 84.61,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_change_pct": {
+   "value": 0.97,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 2.22,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 2.62,
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "short_shares": {
+   "value": "27.75M",
+   "source": "https://finviz.com/quote.ashx?t=LRCX",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Finviz shows the latest FINRA settlement figure without its date; secondary pages not fetched"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-21",
+    "event": "Q1 FY27 earnings",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/LRCX/earnings/",
+  "as_of": "2026-09-24",
+  "note": "MarketBeat estimate"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": "2026-09-24",
+  "note": "not applicable: 29.95% below 52w high (just under the 30% threshold); fell with semicap after June-30 peak"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "revenue USD billions; EPS USD/share; EV USD billions",
+  "accounting_basis": "adjusted (non-GAAP) consensus EPS; revenue as reported",
+  "fy1_end": "2027-06-30",
+  "fy2_end": "2028-06 (FY2028)",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "not available (no forward CFO/capex)",
+  "revision_period_end": "2026-09-24",
+  "note": null,
+  "fy1": {
+   "revenue": {
+    "value": 34.92,
+    "source": "https://stockanalysis.com/stocks/lrcx/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 9.51,
+    "source": "https://stockanalysis.com/stocks/lrcx/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no free consensus EBIT (StockAnalysis FY2+ is Pro-gated; Yahoo has no EBIT); EBITDA not substituted"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed analyst cash-flow model or company CFO guidance"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed consensus or guided capex for the fiscal year"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 41.23,
+    "source": "https://finance.yahoo.com/quote/LRCX/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 11.74,
+    "source": "https://finance.yahoo.com/quote/LRCX/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no free consensus EBIT (StockAnalysis FY2+ is Pro-gated; Yahoo has no EBIT); EBITDA not substituted"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed analyst cash-flow model or company CFO guidance"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed consensus or guided capex for the fiscal year"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 29,
+    "source": "https://stockanalysis.com/stocks/lrcx/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 6,
+    "source": "https://stockanalysis.com/stocks/lrcx/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/lrcx/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 2,
+    "source": "https://finance.yahoo.com/quote/LRCX/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS, Yahoo revision events"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/LRCX/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS, Yahoo revision events"
+   },
+   "analysts": {
+    "value": 30,
+    "source": "https://finance.yahoo.com/quote/LRCX/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS estimate count"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 307.16,
+    "source": "https://finviz.com/quote.ashx?t=LRCX",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 382.9,
+    "source": "https://finviz.com/quote.ashx?t=LRCX",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: WACC not modelled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "memory and GAA etch in the raised Q1 guide; FY27 revenue +50% consensus",
+  "competition_pts": 5,
+  "competition_why": "GM 49.6 to 51.8% rising; valuation in line with peers",
+  "macro_fit_pts": 4,
+  "macro_fit_why": "materials/industrials archetype 4",
+  "narrative_pts": 2,
+  "narrative_why": "semicap basket lagging and worsening",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

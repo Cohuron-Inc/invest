@@ -1,0 +1,725 @@
+{
+ "ticker": "APP",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:30:55+00:00",
+ "price": {
+  "close": {
+   "value": 312.47,
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 745.61,
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 297.5,
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -9.66,
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -33.28,
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 0.62,
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -29.93,
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24",
+   "note": "-9.7% vs 50-day, -33.3% vs 200-day, 5% above the 52-week low; judgment by the research subagent from the listed data, not a sourced fact"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/app/history/",
+   "as_of": "2026-09-24",
+   "note": "print-reaction day 2026-08-06 -19.66% (close 335.67 vs prior 417.8); five sessions later 2026-08-13 close 312.67 (-6.85% from print day, -25.16% vs pre-print close). true = the five-session close stayed at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/app/forecast/",
+   "as_of": "2026-09-24",
+   "note": "S&P Global: strong buy 20, buy 7, hold 6, sell 0, strong sell 0; Finviz Recom 1.46"
+  },
+  "analysts": {
+   "value": 33,
+   "source": "https://stockanalysis.com/stocks/app/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 498.37,
+   "source": "https://stockanalysis.com/stocks/app/forecast/",
+   "as_of": "2026-09-24",
+   "note": "31 targets; median 475; Finviz Target Price 499.58"
+  },
+  "pt_high": {
+   "value": 790,
+   "source": "https://stockanalysis.com/stocks/app/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 325,
+   "source": "https://stockanalysis.com/stocks/app/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat price-target page not fetched; StockAnalysis and Finviz means agree within 10%"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "broker": "Citi",
+     "action": "maintain",
+     "rating": "Buy",
+     "target": 600,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Morgan Stanley",
+     "action": "maintain",
+     "rating": "Buy",
+     "target": 450,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-08",
+     "broker": "BTIG",
+     "action": "reiterate (cut target)",
+     "rating": "Buy",
+     "target": 396,
+     "target_prior": 408,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "William Blair",
+     "action": "maintain",
+     "rating": "Buy",
+     "target": null,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-01",
+     "broker": "Evercore ISI",
+     "action": "maintain (cut target)",
+     "rating": "Buy",
+     "target": 510,
+     "target_prior": 630,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "Piper Sandler",
+     "action": "reiterate",
+     "rating": "Hold",
+     "target": 325,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-26",
+     "broker": "Needham",
+     "action": "reiterate (cut target)",
+     "rating": "Buy",
+     "target": 475,
+     "target_prior": 500,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-19",
+     "broker": "Wells Fargo",
+     "action": "maintain (cut target)",
+     "rating": "Hold",
+     "target": 325,
+     "target_prior": 357,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/app/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free tier shows only the 8 most recent actions; older actions inside 60 days may be missing"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-05",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 1920000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 1940000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 3.76,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_estimate": {
+   "value": 3.76,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "cut",
+   "source": "https://seekingalpha.com/news/4626587-applovin-craters-20-after-q2-revenue-falls-short-of-expectations",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "Q3 revenue guide midpoint about $2.07bn vs $2.08bn consensus; Q2 missed the company's own revenue and adjusted-EBITDA guidance midpoints for the first time since IPO (Piper Sandler). Labelled cut because the new guide landed below consensus, not because a prior range was lowered",
+   "source": "https://seekingalpha.com/news/4626587-applovin-craters-20-after-q2-revenue-falls-short-of-expectations",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": -19.66,
+   "source": "https://stockanalysis.com/stocks/app/history/",
+   "as_of": "2026-09-24",
+   "note": "2026-08-06 close vs prior close"
+  },
+  "reaction_5d_pct": {
+   "value": -25.16,
+   "source": "https://stockanalysis.com/stocks/app/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-13 vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://www.zacks.com/stock/quote/APP/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2026 EPS: 15.76 30d ago, 16.10 90d ago, 15.76 now; 30d: 0 up / 0 down of 10; 60d: 3 up / 6 down"
+  },
+  "revisions_90d": {
+   "value": "down",
+   "source": "https://www.zacks.com/stock/quote/APP/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2026 EPS: 15.76 30d ago, 16.10 90d ago, 15.76 now; 30d: 0 up / 0 down of 10; 60d: 3 up / 6 down"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 15.76,
+    "d30": 15.76,
+    "d60": 16.03,
+    "d90": 16.1
+   },
+   "source": "https://www.zacks.com/stock/quote/APP/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks consensus, current fiscal year EPS; numbers only, Zacks Rank not used"
+  },
+  "fcf_ttm": {
+   "value": 4527589000,
+   "source": "https://stockanalysis.com/stocks/app/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "sum of last four quarters 2026-06-30, 2026-03-31, 2025-12-31, 2025-09-30"
+  },
+  "net_income_ttm": {
+   "value": 4409952000,
+   "source": "https://stockanalysis.com/stocks/app/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 4.1,
+   "source": "https://stockanalysis.com/stocks/app/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): the Axon ad engine extends from gaming to e-commerce and web advertisers, sustaining 40%+ growth at 80%+ EBITDA margins, and the SEC closed its Axon data probe with no action.",
+   "source": "https://www.techtimes.com/articles/323336/20260806/applovin-stock-lost-40b-16m-miss-while-sec-cleared-axon-data-probe.htm",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "an e-commerce revenue ramp in 2H26 (BofA had $2.1bn for 2026)",
+   "source": "https://www.techtimes.com/articles/323336/20260806/applovin-stock-lost-40b-16m-miss-while-sec-cleared-axon-data-probe.htm",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: first miss against its own guide, softer gaming, a slower e-commerce ramp, short-seller allegations about data practices, and downgrades; estimates are drifting down.",
+   "source": "https://www.techtimes.com/articles/323336/20260806/applovin-stock-lost-40b-16m-miss-while-sec-cleared-axon-data-probe.htm",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.techtimes.com/articles/323336/20260806/applovin-stock-lost-40b-16m-miss-while-sec-cleared-axon-data-probe.htm",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "TTD",
+    "U"
+   ],
+   "source": "https://stockanalysis.com/stocks/app/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://stockanalysis.com/stocks/app/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "gross_margin_4q": {
+   "value": [
+    88.26,
+    88.95,
+    88.93,
+    87.56
+   ],
+   "source": "https://stockanalysis.com/stocks/app/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarters 2026-06-30, 2026-03-31, 2025-12-31, 2025-09-30, newest first"
+  },
+  "fwd_pe": {
+   "value": 15.55,
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward PE 17.471"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "TTD": 49.75,
+    "U": 37.88
+   },
+   "source": "https://finviz.com/quote.ashx?t=TTD,U",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 15.38,
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "TTD": 1.63,
+    "U": 9.11
+   },
+   "source": "https://finviz.com/quote.ashx?t=TTD,U",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "Meta and Google ad networks; Unity Vector in mobile gaming ads; named in coverage",
+   "source": "https://stockanalysis.com/stocks/app/statistics/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to 2025-11-07; every Sale row from 2026-06-26 to 2026-09-24 verified in its Form 4 XML on EDGAR (transaction code, shares, price, aff10b5One checkbox). Form 144 proposed sales and option exercises excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases (code P) in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-07-06",
+     "name": "WEBB MAYNARD G JR",
+     "role": "Director",
+     "shares": 3076,
+     "price": 521.29,
+     "usd": 1603489,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1209189/000120918926000008/primarydocument.xml",
+     "plan_10b5_1": true,
+     "history": "2.5% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=APP",
+   "as_of": "2026-09-24",
+   "note": "1 Form 4 sale lines, $1,603,489 total, 1 sellers; weighted-average price per filing-day. One director sale ($1.6m, 10b5-1). CEO Foroughi sold $27m in early April, outside the window."
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; filings dated Aug-Sep 2026 describe 2026-06-30 holdings"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel blocked (403 per failure log); MarketBeat gives no net share figure; dollar totals excluded per failure log"
+  },
+  "holders_up": {
+   "value": 1204,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_down": {
+   "value": 689,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no new-position count on MarketBeat; Fintel blocked"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no exited-position count on MarketBeat; Fintel blocked"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street Corp",
+     "change_pct": 28.3,
+     "shares": 15095667,
+     "filed": "2026-09-22"
+    },
+    {
+     "fund": "Amundi",
+     "change_pct": 19.5,
+     "shares": 1332633,
+     "filed": "2026-08-26"
+    },
+    {
+     "fund": "Manufacturers Life Insurance",
+     "change_pct": 409.6,
+     "shares": 776097,
+     "filed": "2026-09-09"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "from the most recent 13F filings listed on MarketBeat (Q2 2026 13F, late filers); the table shows the last ~40 filings only"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "no full exits visible in the recent-filings table; not a verified absence"
+  },
+  "short_pct_float": {
+   "value": 3.75,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Float 4.10% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 2.5,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Ratio 1.87"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APP/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "FINRA settlement date"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-04",
+    "event": "Q3 2026 earnings (estimated)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/app/statistics/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": "Down 58% from $745.61: short-seller reports and a reported SEC probe of Axon data practices (since closed with no action) hit the stock in early 2026; then the 5 Aug Q2 print missed revenue ($1.92bn vs $1.94bn) and guided Q3 below consensus, and the shares fell 20% the next day.",
+  "source": "https://seekingalpha.com/news/4626587-applovin-craters-20-after-q2-revenue-falls-short-of-expectations",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; per-share in USD",
+  "accounting_basis": "revenue as reported; EPS adjusted (S&P consensus basis) for both years; FY1 EBIT S&P consensus basis",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": "none; no modelled leaves",
+  "fcf_basis": "not available (CFO/capex consensus not published free)",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 8102234570,
+    "source": "https://stockanalysis.com/stocks/app/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global consensus, 31 analysts; Zacks 8.12B",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 16.6681,
+    "source": "https://stockanalysis.com/stocks/app/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks 15.76",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 6343676580,
+    "source": "https://stockanalysis.com/stocks/app/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus operating income, FY1",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published free; only consensus FCF",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published free",
+    "kind": "consensus"
+   },
+   "fcf_consensus": {
+    "value": 5189816670,
+    "source": "https://stockanalysis.com/stocks/app/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus FCF, informational; not split into CFO and capex",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 10261751300,
+    "source": "https://stockanalysis.com/stocks/app/forecast/",
+    "as_of": "2026-09-24",
+    "note": "Zacks 10.30B",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 20.98079,
+    "source": "https://stockanalysis.com/stocks/app/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks 20.25",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating-income consensus is behind the StockAnalysis paywall",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 27,
+    "source": "https://stockanalysis.com/stocks/app/forecast/",
+    "as_of": "2026-09-24",
+    "note": "strong buy + buy",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 6,
+    "source": "https://stockanalysis.com/stocks/app/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/app/forecast/",
+    "as_of": "2026-09-24",
+    "note": "sell + strong sell",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/APP/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "current fiscal year EPS, Zacks up-revisions last 30 days",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/APP/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 10,
+    "source": "https://www.zacks.com/stock/quote/APP/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "Zacks # of estimates, current fiscal year",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks shows 60-day counts only: up 3, down 6",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: see up_90d",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 312.47,
+    "source": "https://finviz.com/quote.ashx?t=APP",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 105030014297.0,
+    "source": "https://stockanalysis.com/stocks/app/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 4,
+  "prospect_why": "Axon e-commerce extension is a story; Q3 guided below consensus",
+  "competition_pts": 5,
+  "competition_why": "GM 87.6-89.0%; fwd P/E 15.6 below TTD 49.8",
+  "macro_fit_pts": 2,
+  "macro_fit_why": "AI software 1 plus 1: FCF 103% of NI at 15x",
+  "narrative_pts": 2,
+  "narrative_why": "AI applications fading; chart broken",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

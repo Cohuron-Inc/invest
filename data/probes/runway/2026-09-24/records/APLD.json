@@ -1,0 +1,690 @@
+{
+ "ticker": "APLD",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 27.06,
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 50.72,
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 19.0,
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -46.65,
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24",
+   "note": "computed from close and 52w high"
+  },
+  "sma50_pct": {
+   "value": -2.02,
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -16.09,
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -6.2,
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -33.92,
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS information technology; XLK used as the sector benchmark"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_down",
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24",
+   "note": "below 50d (-2.0%) and 200d (-16.1%), -33.9% quarter; 50d below 200d"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/apld/history/",
+   "as_of": "2026-09-24",
+   "note": "pre-print close 26.38, reaction-day close 26.62 (+0.91%), close Aug 4, 2026 31.27 (+18.54% vs pre-print). flat print day (+0.9%) then +18.5% in five sessions"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/apld/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 14,
+   "source": "https://stockanalysis.com/stocks/apld/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 66.18,
+   "source": "https://stockanalysis.com/stocks/apld/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 109,
+   "source": "https://stockanalysis.com/stocks/apld/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 22,
+   "source": "https://stockanalysis.com/stocks/apld/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 144.57,
+   "source": "https://stockanalysis.com/stocks/apld/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed vs Finviz close"
+  },
+  "pt_avg_alt": {
+   "value": 60.88,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat consensus of 20 analysts; Finviz target mean 64.84"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-23",
+     "broker": "UBS",
+     "action": "initiate Buy",
+     "target": 38,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Rothschild & Co Redburn",
+     "action": "initiate Hold",
+     "target": 22,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-20",
+     "broker": "Wells Fargo",
+     "action": "maintain Buy",
+     "target": null,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "Morgan Stanley",
+     "action": "reiterate Hold",
+     "target": 38,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-08-21",
+     "broker": "B. Riley",
+     "action": "maintain Buy",
+     "target": 75,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-08-20",
+     "broker": "Northland",
+     "action": "maintain Buy",
+     "target": 82,
+     "reason": "see source; reason not given on the ratings table"
+    },
+    {
+     "date": "2026-08-14",
+     "broker": "Needham",
+     "action": "maintain Buy",
+     "target": 83,
+     "reason": "see source; reason not given on the ratings table"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/apld/ratings/",
+   "as_of": "2026-09-24",
+   "note": "free tier shows the latest 5-8 actions only; sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-27",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/earnings/",
+   "as_of": "2026-07-27"
+  },
+  "revenue_actual": {
+   "value": 240.35,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/earnings/",
+   "as_of": "2026-07-27",
+   "note": "USD millions"
+  },
+  "revenue_estimate": {
+   "value": 96.85,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/earnings/",
+   "as_of": "2026-07-27",
+   "note": "USD millions; consensus at print"
+  },
+  "eps_actual": {
+   "value": -0.39,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/earnings/",
+   "as_of": "2026-07-27"
+  },
+  "eps_estimate": {
+   "value": -0.0917,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/earnings/",
+   "as_of": "2026-07-27"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://ir.applieddigital.com/news-events/press-releases/detail/159/applied-digital-reports-fiscal-fourth-quarter-and-full-year",
+   "as_of": "2026-07-27"
+  },
+  "guide_detail": {
+   "value": "No revenue/EPS guidance issued; disclosed $36.2B of 15-year take-or-pay lease backlog (1,410 MW) and a new 210MW Delta Forge 2 lease (~$5.2B)",
+   "source": "https://ir.applieddigital.com/news-events/press-releases/detail/159/applied-digital-reports-fiscal-fourth-quarter-and-full-year",
+   "as_of": "2026-07-27"
+  },
+  "reaction_day_pct": {
+   "value": 0.91,
+   "source": "https://stockanalysis.com/stocks/apld/history/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_5d_pct": {
+   "value": 18.54,
+   "source": "https://stockanalysis.com/stocks/apld/history/",
+   "as_of": "2026-09-24",
+   "note": "close 5 sessions after the reaction day vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: finance.yahoo.com /analysis/ returned an error page (\"Oops, something went wrong\"); StockAnalysis has no revision table"
+  },
+  "revisions_90d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: finance.yahoo.com /analysis/ returned an error page; no fallback carries revision history"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo analysis page errored"
+  },
+  "fcf_ttm": {
+   "value": -2780,
+   "source": "https://stockanalysis.com/stocks/apld/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD millions, trailing twelve months"
+  },
+  "net_income_ttm": {
+   "value": -250.26,
+   "source": "https://stockanalysis.com/stocks/apld/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD millions, trailing twelve months"
+  },
+  "sbc_pct_revenue": {
+   "value": 36.0,
+   "source": "https://stockanalysis.com/stocks/apld/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "TTM SBC / TTM revenue, computed"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: $36.2B of 15-year take-or-pay leases across 1,410MW (CoreWeave, investment-grade hyperscalers incl. Oracle at Polaris Forge 2) convert to rent as buildings energize, taking revenue from $0.6B to ~$2B by FY28.",
+   "source": "https://www.stocktitan.net/sec-filings/APLD/10-k-applied-digital-corp-files-annual-report-d66fc29f9461.html",
+   "as_of": "2026-07-27"
+  },
+  "depends_on": {
+   "value": "On-time energization of Polaris Forge 1/2 and Delta Forge buildings and project-level debt at acceptable spreads; CoreWeave credit",
+   "source": "https://www.stocktitan.net/sec-filings/APLD/10-k-applied-digital-corp-files-annual-report-d66fc29f9461.html",
+   "as_of": "2026-07-27"
+  },
+  "bear_case": {
+   "value": "Tenant concentration in CoreWeave (credit rests on springing guarantees); project debt at 7-9.25%; FCF -$2.8B TTM; FY27 EPS consensus -0.99; 22% of float short; Morgan Stanley and Rothschild at Hold with $22-38 targets.",
+   "source": "https://www.stocktitan.net/sec-filings/APLD/10-k-applied-digital-corp-files-annual-report-d66fc29f9461.html",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "reported",
+   "source": "https://www.stocktitan.net/sec-filings/APLD/10-k-applied-digital-corp-files-annual-report-d66fc29f9461.html",
+   "as_of": "2026-07-27"
+  },
+  "financing": {
+   "value": "APLD ComputeCo 2 $2.15B senior secured notes due 2031 (Mar 2026, PF2 for Oracle); ComputeCo 3 $1.59B 7.000% senior secured notes due 2031 (Jun 2026); existing 9.250% senior secured notes due 2030 (PF1/CoreWeave); $550M revolver (Goldman, May 2029); total debt $5.1B vs cash $1.59B; backlog $36.2B.",
+   "source": "https://www.tipranks.com/news/company-announcements/applied-digital-announces-1-59-billion-secured-notes-offering",
+   "as_of": "2026-09-24",
+   "note": "debt, converts, ATM and contracted backlog; real 10y yield 2.76% (macro.json)"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "CIFR",
+    "WULF"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    15.66,
+    42.49,
+    33.86,
+    13.41
+   ],
+   "source": "https://stockanalysis.com/stocks/apld/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "most recent quarter first; StockAnalysis gross margin (excludes some D&A; Finviz TTM gross margin 22.38%)"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: unprofitable on forward basis; Finviz shows \"-\""
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "CIFR": null,
+    "WULF": null
+   },
+   "source": "https://finviz.com/quote.ashx?t=CIFR",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 18.72,
+   "source": "https://stockanalysis.com/stocks/apld/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz EV/Sales 19.16"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "CIFR": 47.45,
+    "WULF": 64.19
+   },
+   "source": "https://finviz.com/quote.ashx?t=CIFR",
+   "as_of": "2026-09-24",
+   "note": "Finviz"
+  },
+  "substitute": {
+   "value": "Other miner-to-HPC landlords (CIFR, WULF, CORZ) and hyperscaler self-build",
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table reviewed back to Oct 2025; covers the full 90 days"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-08-04",
+     "name": "Nottenburg Richard N",
+     "role": "Director",
+     "shares": 75000,
+     "price": 31.15,
+     "usd": 2336250,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://finviz.com/quote.ashx?t=APLD",
+     "plan_10b5_1": null,
+     "history": "serial seller since Oct 2025; Form 4 not opened on EDGAR; figures from the Finviz insider table (Form 4 derived)"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -0.39,
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; filings dated Aug-Sep 2026"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel is blocked (failure log) and MarketBeat gives no net share total; dollar totals excluded (CalSTRS row)"
+  },
+  "holders_up": {
+   "value": 310,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter 13F count"
+  },
+  "holders_down": {
+   "value": 117,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published by MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published by MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Steamboat Capital Partners",
+     "change_pct": null,
+     "shares": 193105
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_trans_pct": {
+   "value": 5.06,
+   "source": "https://finviz.com/quote.ashx?t=APLD",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 21.94,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "MarketBeat 57.86M at 2026-09-15; Finviz 22.22% / 58.43M is the Aug 31 settlement"
+  },
+  "days_to_cover": {
+   "value": 4.1,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/APLD/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "FINRA settlement date per MarketBeat"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-08",
+    "event": "FQ1 FY27 earnings (estimated)",
+    "confirmed": false
+   },
+   {
+    "date": null,
+    "event": "Polaris Forge 1 Building 4 lease assignment to CoreWeave subsidiary upon IG rating (MOU)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/apld/statistics/",
+  "as_of": "2026-09-24",
+  "note": "confirmed = company-announced; earnings dates are StockAnalysis/MarketBeat estimates unless stated"
+ },
+ "why_it_fell": {
+  "value": "Down 47% from the 50.72 high, -34% in the quarter, as the AI-infrastructure trade rotated (bitcoin/AI-infra names lagged from late July) and new coverage from Morgan Stanley and Rothschild came in at Hold with $22-38 targets.",
+  "source": "https://www.cnbc.com/2026/07/27/crypto-stocks-rally-thanks-to-rotation-from-ai-infrastructure-bitcoin-miners-lag.html",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD millions; EPS in USD per share",
+  "accounting_basis": "revenue GAAP; EPS non-GAAP adjusted per S&P Global; EBIT = StockAnalysis operating-income consensus (FY1 only)",
+  "fy1_end": "2027-05-31",
+  "fy2_end": "2028-05-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "StockAnalysis consensus FCF (CFO minus capex, levered) shown as fcf_consensus; CFO and capex split not published",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 832.4,
+    "source": "https://stockanalysis.com/stocks/apld/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 72.62,
+    "source": "https://stockanalysis.com/stocks/apld/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by free sources",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex consensus not published; company capex guidance in prospect.financing where given",
+    "kind": "consensus"
+   },
+   "fcf_consensus": {
+    "value": -3440,
+    "source": "https://stockanalysis.com/stocks/apld/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -0.99,
+    "source": "https://stockanalysis.com/stocks/apld/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 1970,
+    "source": "https://stockanalysis.com/stocks/apld/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income behind StockAnalysis Pro paywall",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -0.25,
+    "source": "https://stockanalysis.com/stocks/apld/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 12,
+    "source": "https://stockanalysis.com/stocks/apld/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 2,
+    "source": "https://stockanalysis.com/stocks/apld/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/apld/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global Sep 2026 recommendation trend; strong buy grouped with buy, strong sell with sell",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Yahoo analysis page errored"
+   },
+   "down_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Yahoo analysis page errored"
+   },
+   "analysts": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Yahoo analysis page errored"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 27.06,
+    "source": "https://finviz.com/quote.ashx?t=APLD",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 11400,
+    "source": "https://stockanalysis.com/stocks/apld/statistics/",
+    "as_of": "2026-09-24",
+    "note": "USD millions",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modeled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 4,
+  "prospect_why": "$36.2B take-or-pay leases contracted; delivery ahead",
+  "competition_pts": 3,
+  "competition_why": "GM volatile 13-43%; EV/S 18.7 below CIFR and WULF",
+  "macro_fit_pts": 1,
+  "macro_fit_why": "long duration with project debt at 7-9.25%",
+  "narrative_pts": 1,
+  "narrative_why": "neoclouds lagging",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

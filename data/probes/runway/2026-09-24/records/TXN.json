@@ -1,0 +1,692 @@
+{
+ "ticker": "TXN",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 270.65,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 334.03,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 152.73,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -18.97,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -0.23,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 10.13,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 4.08,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -13.2,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS Information Technology; SMH (semis) 1m +8.04%, 3m -5.71% from data/market/2026-09-24/yahoo/SMH.json"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24",
+   "note": "range 253-280 since August; at 50d (-0.2%), above 200d (+10.1%), 50>200; 19% below June high"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/TXN (cached at data/market/2026-09-24/yahoo/TXN.json)",
+   "as_of": "2026-09-24",
+   "note": "print day 2026-07-23 -3.13%; +5 sessions (2026-07-30) -5.24% vs pre-print close 294.19"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/txn/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 36,
+   "source": "https://stockanalysis.com/stocks/txn/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 324.71,
+   "source": "https://stockanalysis.com/stocks/txn/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 400,
+   "source": "https://stockanalysis.com/stocks/txn/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 225,
+   "source": "https://stockanalysis.com/stocks/txn/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: StockAnalysis and Finviz means within 10 points; MarketBeat not needed"
+  },
+  "pt_finviz_mean": {
+   "value": 333.62,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-22",
+     "broker": "Bernstein",
+     "action": "maintain Hold",
+     "target": 290,
+     "reason": null
+    },
+    {
+     "date": "2026-09-15",
+     "broker": "TD Cowen",
+     "action": "maintain Buy",
+     "target": 340,
+     "reason": null
+    },
+    {
+     "date": "2026-08-17",
+     "broker": "Cantor Fitzgerald",
+     "action": "reiterate Hold",
+     "target": null,
+     "reason": null
+    },
+    {
+     "date": "2026-08-04",
+     "broker": "Citi",
+     "action": "maintain Buy",
+     "target": null,
+     "reason": null
+    },
+    {
+     "date": "2026-07-29",
+     "broker": "Mizuho",
+     "action": "maintain Hold",
+     "target": 305,
+     "reason": null
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/txn/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis shows the five most recent actions only; reasons not stated on the page"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-22",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 5.46,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/earnings/",
+   "as_of": "2026-07-22",
+   "note": "USD billions"
+  },
+  "revenue_estimate": {
+   "value": 5.26,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/earnings/",
+   "as_of": "2026-07-22",
+   "note": "USD billions, consensus at print"
+  },
+  "eps_actual": {
+   "value": 2.14,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/earnings/",
+   "as_of": "2026-07-22"
+  },
+  "eps_estimate": {
+   "value": 1.91,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/earnings/",
+   "as_of": "2026-07-22"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/earnings/",
+   "as_of": "2026-07-22"
+  },
+  "guide_detail": {
+   "value": "Q3 guide EPS $2.23-2.57 vs $2.11, revenue $5.7-6.2B vs $5.5B consensus",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/earnings/",
+   "as_of": "2026-07-22"
+  },
+  "reaction_day_pct": {
+   "value": -3.13,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/TXN (cached at data/market/2026-09-24/yahoo/TXN.json)",
+   "as_of": "2026-09-24",
+   "note": "close-to-close from the pre-print session; Yahoo daily chart"
+  },
+  "reaction_5d_pct": {
+   "value": -5.24,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/TXN (cached at data/market/2026-09-24/yahoo/TXN.json)",
+   "as_of": "2026-09-24",
+   "note": "close-to-close from the pre-print session; Yahoo daily chart"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/TXN/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY1 EPS 8.50 -> 8.51 30d (flat by level; Yahoo counts 25 up / 0 down), 7.68 90d ago (up)"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/TXN/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY1 EPS 8.50 -> 8.51 30d (flat by level; Yahoo counts 25 up / 0 down), 7.68 90d ago (up)"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 8.51,
+    "d30": 8.5,
+    "d90": 7.68,
+    "fy2_current": 10.1,
+    "fy2_d30": 10.03,
+    "fy2_d90": 8.89
+   },
+   "source": "https://finance.yahoo.com/quote/TXN/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year (FY1) consensus EPS"
+  },
+  "fcf_ttm": {
+   "value": 5355,
+   "source": "https://stockanalysis.com/stocks/txn/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "USD millions, sum of last four quarters"
+  },
+  "net_income_ttm": {
+   "value": 6052,
+   "source": "https://stockanalysis.com/stocks/txn/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "USD millions, sum of last four quarters"
+  },
+  "sbc_pct_revenue": {
+   "value": 2.11,
+   "source": "https://stockanalysis.com/stocks/txn/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "TTM SBC / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: analog/embedded cyclical recovery on 300mm capacity already built; capex falling ($1.2B -> $0.5B a quarter) inflects FCF, gross margin back to 61%",
+   "source": "https://stockanalysis.com/stocks/txn/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Industrial and auto demand recovery; Q3 revenue $5.7-6.2B",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: 26x forward P/E near a cyclical recovery, hold-heavy coverage (14 Hold, 2 Strong Sell), stock fell on a beat-and-raise",
+   "source": "https://stockanalysis.com/stocks/txn/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/earnings/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "NXPI",
+    "ON"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    57.42,
+    55.89,
+    58.01,
+    61.36
+   ],
+   "source": "https://stockanalysis.com/stocks/txn/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "oldest to newest"
+  },
+  "fwd_pe": {
+   "value": 26.34,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "NXPI": 12.66,
+    "ON": 16.26
+   },
+   "source": "https://finviz.com/quote.ashx?t=NXPI,ON",
+   "as_of": "2026-09-24",
+   "note": "ADI not in the snapshot set"
+  },
+  "ev_sales": {
+   "value": 13.07,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "NXPI": 5.02,
+    "ON": 4.73
+   },
+   "source": "https://finviz.com/quote.ashx?t=NXPI,ON",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute or new entrant in the fetched sources"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table (saved HTML) reaches back to 2025-11-13, covering the full 2026-06-26..2026-09-24 window; exercises, Form 144 proposed sales, grants and gifts excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-08-27",
+     "name": "Abraham Tsedeniya",
+     "role": "Sr. Vice President",
+     "shares": 7000,
+     "price": 264.63,
+     "usd": 1852413,
+     "shares_owned_after": 23181,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000156/xslF345X06/wk-form4_1788207928.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24",
+   "note": "1 sales, total $1,852,413; unique sellers 1"
+  },
+  "finviz_net_change_pct": {
+   "value": -9.88,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24",
+   "note": "Finviz 6-month insider transaction %"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "13F filings reported Aug-Sep 2026 describe the quarter ended 2026-06-30"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives no net share figure; Fintel blocked (failure log)"
+  },
+  "holders_up": {
+   "value": 1595,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals excluded (CalSTRS-row risk)"
+  },
+  "holders_down": {
+   "value": 1200,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals excluded (CalSTRS-row risk)"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Envestnet Portfolio Solutions",
+     "change_pct": 46.7,
+     "shares": 26126
+    },
+    {
+     "fund": "QRG Capital Management",
+     "change_pct": 13.8,
+     "shares": 141319
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "from the eight most recent 13F rows; small filers only"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "inst_own_pct": {
+   "value": 84.99,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_change_pct": {
+   "value": -0.53,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 2.17,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 2.65,
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "short_shares": {
+   "value": "19.75M",
+   "source": "https://finviz.com/quote.ashx?t=TXN",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Finviz shows the latest FINRA settlement figure without its date; secondary pages not fetched"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-27",
+    "event": "Q3 2026 earnings",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/TXN/earnings/",
+  "as_of": "2026-09-24",
+  "note": "MarketBeat estimate"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": "2026-09-24",
+  "note": "not applicable: 19.0% below 52w high"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "revenue USD billions; EPS USD/share; EV USD billions",
+  "accounting_basis": "adjusted (non-GAAP) consensus EPS; revenue as reported",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "not available (no forward CFO/capex)",
+  "revision_period_end": "2026-09-24",
+  "note": "StockAnalysis FY1 EPS 8.49 vs Yahoo 8.51; Yahoo used for both years for population consistency",
+  "fy1": {
+   "revenue": {
+    "value": 21.91,
+    "source": "https://finance.yahoo.com/quote/TXN/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 8.51,
+    "source": "https://finance.yahoo.com/quote/TXN/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no free consensus EBIT (StockAnalysis FY2+ is Pro-gated; Yahoo has no EBIT); EBITDA not substituted"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed analyst cash-flow model or company CFO guidance"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed consensus or guided capex for the fiscal year"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 24.93,
+    "source": "https://finance.yahoo.com/quote/TXN/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 10.1,
+    "source": "https://finance.yahoo.com/quote/TXN/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no free consensus EBIT (StockAnalysis FY2+ is Pro-gated; Yahoo has no EBIT); EBITDA not substituted"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed analyst cash-flow model or company CFO guidance"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed consensus or guided capex for the fiscal year"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 20,
+    "source": "https://stockanalysis.com/stocks/txn/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 14,
+    "source": "https://stockanalysis.com/stocks/txn/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 2,
+    "source": "https://stockanalysis.com/stocks/txn/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 25,
+    "source": "https://finance.yahoo.com/quote/TXN/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS, Yahoo revision events"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/TXN/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS, Yahoo revision events"
+   },
+   "analysts": {
+    "value": 26,
+    "source": "https://finance.yahoo.com/quote/TXN/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS estimate count"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 270.65,
+    "source": "https://finviz.com/quote.ashx?t=TXN",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 254.22,
+    "source": "https://finviz.com/quote.ashx?t=TXN",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: WACC not modelled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "analog recovery visible in the raised Q3 guide; capex roll-off lifts FCF",
+  "competition_pts": 5,
+  "competition_why": "GM 57.4 to 61.4% rising; fwd P/E 26.3 above NXPI 12.7 and ON 16.3",
+  "macro_fit_pts": 5,
+  "macro_fit_why": "quality megacap 4 plus 1: FCF 0.88x NI and a dividend fit a cash-flow regime",
+  "narrative_pts": 3,
+  "narrative_why": "semis improving; analog outside the AI narrative",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

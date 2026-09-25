@@ -1,0 +1,856 @@
+{
+ "ticker": "AI",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:30:55+00:00",
+ "price": {
+  "close": {
+   "value": 10.76,
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 20.22,
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 7.68,
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 7.97,
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 3.45,
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 9.91,
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 22.97,
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24",
+   "note": "+8.0% vs 50-day, +3.5% vs 200-day, basing 40% above the $7.68 low; judgment by the research subagent from the listed data, not a sourced fact"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/ai/history/",
+   "as_of": "2026-09-24",
+   "note": "print-reaction day 2026-09-03 +3.61% (close 10.9 vs prior 10.52); five sessions later 2026-09-11 close 10.54 (-3.30% from print day, +0.19% vs pre-print close). true = the five-session close stayed at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Sell",
+   "source": "https://stockanalysis.com/stocks/ai/forecast/",
+   "as_of": "2026-09-24",
+   "note": "S&P Global: strong buy 0, buy 0, hold 7, sell 3, strong sell 3; Finviz Recom 3.73"
+  },
+  "analysts": {
+   "value": 13,
+   "source": "https://stockanalysis.com/stocks/ai/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 8.3,
+   "source": "https://stockanalysis.com/stocks/ai/forecast/",
+   "as_of": "2026-09-24",
+   "note": "10 targets; median 7.5; Finviz Target Price 8.30"
+  },
+  "pt_high": {
+   "value": 12,
+   "source": "https://stockanalysis.com/stocks/ai/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 6,
+   "source": "https://stockanalysis.com/stocks/ai/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat price-target page not fetched; StockAnalysis and Finviz means agree within 10%"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-18",
+     "broker": "Morgan Stanley",
+     "action": "maintain",
+     "rating": "Sell",
+     "target": 7,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "Northland Securities",
+     "action": "maintain",
+     "rating": "Hold",
+     "target": 10,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "Canaccord Genuity",
+     "action": "maintain",
+     "rating": "Hold",
+     "target": 10,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "UBS",
+     "action": "reiterate",
+     "rating": "Hold",
+     "target": 12,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "D.A. Davidson",
+     "action": "maintain",
+     "rating": "Sell",
+     "target": 7,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "Needham",
+     "action": "maintain",
+     "rating": "Hold",
+     "target": null,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "Bank of America Securities",
+     "action": "reiterate",
+     "rating": "Sell",
+     "target": 8,
+     "target_prior": null,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/ai/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free tier shows only the 8 most recent actions; older actions inside 60 days may be missing"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-09-02",
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 52380000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 52060000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": -0.2,
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/earnings/",
+   "as_of": "2026-09-24",
+   "note": "non-GAAP EPS; GAAP EPS -$0.60"
+  },
+  "eps_estimate": {
+   "value": -0.2605,
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000119/ex991-fy27xq1earnings.htm",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "FY27 revenue guide $210-240m reiterated (first given 3 June 2026); Q2 FY27 revenue $51-55m and non-GAAP operating loss $34.5-42.5m; FY27 non-GAAP operating loss $123-155m. Consensus FY27 revenue $222-223m sits below the $225m midpoint. Q1: revenue $52.4m, FCF +$2.1m, bookings +73% q/q, cash $651m. Leadership: founder Thomas Siebel resumed as CEO and Chairman effective 8 May 2026 (Stephen Ehikian, CEO from Sept 2025, now President); sales force restructured and new leadership installed",
+   "source": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000119/ex991-fy27xq1earnings.htm",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": 3.61,
+   "source": "https://stockanalysis.com/stocks/ai/history/",
+   "as_of": "2026-09-24",
+   "note": "2026-09-03 close vs prior close"
+  },
+  "reaction_5d_pct": {
+   "value": 0.19,
+   "source": "https://stockanalysis.com/stocks/ai/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-09-11 vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/AI/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2027 (Apr-27) EPS: -0.82 30d and 90d ago, -0.77 now; 30d: 5 up / 0 down of 7"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/AI/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2027 (Apr-27) EPS: -0.82 30d and 90d ago, -0.77 now; 30d: 5 up / 0 down of 7"
+  },
+  "eps_trend": {
+   "value": {
+    "current": -0.77,
+    "d30": -0.82,
+    "d60": -0.82,
+    "d90": -0.82
+   },
+   "source": "https://www.zacks.com/stock/quote/AI/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks consensus, current fiscal year EPS; numbers only, Zacks Rank not used"
+  },
+  "fcf_ttm": {
+   "value": -155777000,
+   "source": "https://stockanalysis.com/stocks/ai/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "sum of last four quarters 2026-07-31, 2026-04-30, 2026-01-31, 2025-10-31"
+  },
+  "net_income_ttm": {
+   "value": -446412000,
+   "source": "https://stockanalysis.com/stocks/ai/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 111.1,
+   "source": "https://stockanalysis.com/stocks/ai/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): Siebel's return and the sales restructuring stabilize revenue near $52m a quarter, bookings (+73% q/q) turn into growth, and FCF is already positive, with $651m of cash (38% of market cap) as a floor.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000119/ex991-fy27xq1earnings.htm",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "FY27 revenue inside $210-240m and bookings converting into FY28 growth (consensus +10%)",
+   "source": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000119/ex991-fy27xq1earnings.htm",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: revenue fell 36% in FY26, SBC exceeds revenue, GAAP operating margin is -198%, consensus is Sell with a $8.30 average target below the price, short interest is 33% of float and the CEO keeps selling.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000119/ex991-fy27xq1earnings.htm",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000119/ex991-fy27xq1earnings.htm",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "PLTR",
+    "SNOW"
+   ],
+   "source": "https://stockanalysis.com/stocks/ai/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://stockanalysis.com/stocks/ai/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "gross_margin_4q": {
+   "value": [
+    31.83,
+    21.94,
+    17.34,
+    40.43
+   ],
+   "source": "https://stockanalysis.com/stocks/ai/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarters 2026-07-31, 2026-04-30, 2026-01-31, 2025-10-31, newest first"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward PE n/a"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "PLTR": 84.2,
+    "SNOW": 110.46
+   },
+   "source": "https://finviz.com/quote.ashx?t=PLTR,SNOW",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 4.67,
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "PLTR": 73.7,
+    "SNOW": 21.76
+   },
+   "source": "https://finviz.com/quote.ashx?t=PLTR,SNOW",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "Palantir AIP and hyperscaler/LLM platforms that let enterprises build AI applications in-house; named in coverage",
+   "source": "https://stockanalysis.com/stocks/ai/statistics/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to 2025-10-01; every Sale row from 2026-06-26 to 2026-09-24 verified in its Form 4 XML on EDGAR (transaction code, shares, price, aff10b5One checkbox). Form 144 proposed sales and option exercises excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases (code P) in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-16",
+     "name": "SIEBEL THOMAS M",
+     "role": "CEO and Chairman of the Board",
+     "shares": 162247,
+     "price": 10.54,
+     "usd": 1710083,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1031530/000157752626000130/wk-form4_1789685741.xml",
+     "plan_10b5_1": true,
+     "history": "18.3% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Lath Hitesh",
+     "role": "CHIEF FINANCIAL OFFICER",
+     "shares": 21077,
+     "price": 10.48,
+     "usd": 220887,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000132/wk-form4_1789685770.xml",
+     "plan_10b5_1": false,
+     "history": "5.4% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-15",
+     "name": "SIEBEL THOMAS M",
+     "role": "CEO and Chairman of the Board",
+     "shares": 282001,
+     "price": 10.9,
+     "usd": 3073811,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1031530/000157752626000130/wk-form4_1789685741.xml",
+     "plan_10b5_1": true,
+     "history": "28.1% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "SIEBEL THOMAS M",
+     "role": "CEO and Chairman of the Board",
+     "shares": 22780,
+     "price": 10.56,
+     "usd": 240557,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1031530/000157752626000128/wk-form4_1789516923.xml",
+     "plan_10b5_1": false,
+     "history": "3.0% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-02",
+     "name": "SIEBEL THOMAS M",
+     "role": "CEO and Chairman of the Board",
+     "shares": 16890,
+     "price": 10.3,
+     "usd": 173967,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1031530/000157752626000121/wk-form4_1788475629.xml",
+     "plan_10b5_1": false,
+     "history": "2.2% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-11",
+     "name": "SIEBEL THOMAS M",
+     "role": "CEO and Chairman of the Board",
+     "shares": 453314,
+     "price": 10.51,
+     "usd": 4764330,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1031530/000157752626000098/wk-form4_1786656439.xml",
+     "plan_10b5_1": true,
+     "history": "38.6% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-04",
+     "name": "Lath Hitesh",
+     "role": "CHIEF FINANCIAL OFFICER",
+     "shares": 20000,
+     "price": 10.0,
+     "usd": 200000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000096/wk-form4_1786048399.xml",
+     "plan_10b5_1": true,
+     "history": "5.2% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-03",
+     "name": "SIEBEL THOMAS M",
+     "role": "CEO and Chairman of the Board",
+     "shares": 139500,
+     "price": 9.61,
+     "usd": 1340595,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1031530/000157752626000094/wk-form4_1785891723.xml",
+     "plan_10b5_1": false,
+     "history": "13.9% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "SIEBEL THOMAS M",
+     "role": "CEO and Chairman of the Board",
+     "shares": 198465,
+     "price": 9.32,
+     "usd": 1849044,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1031530/000157752626000085/wk-form4_1784234443.xml",
+     "plan_10b5_1": true,
+     "history": "21.6% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-14",
+     "name": "SIEBEL THOMAS M",
+     "role": "CEO and Chairman of the Board",
+     "shares": 264100,
+     "price": 9.07,
+     "usd": 2395387,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1031530/000157752626000085/wk-form4_1784234443.xml",
+     "plan_10b5_1": true,
+     "history": "26.8% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Ehikian Stephen Bradley",
+     "role": "Chief Executive Officer",
+     "shares": 50542,
+     "price": 9.45,
+     "usd": 477622,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000083/wk-form4_1783027532.xml",
+     "plan_10b5_1": false,
+     "history": "7.2% of the reporting line's holding"
+    },
+    {
+     "date": "2026-06-30",
+     "name": "Lath Hitesh",
+     "role": "CHIEF FINANCIAL OFFICER",
+     "shares": 48619,
+     "price": 8.77,
+     "usd": 426389,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1577526/000157752626000081/wk-form4_1782945826.xml",
+     "plan_10b5_1": true,
+     "history": "11.3% of the reporting line's holding"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=AI",
+   "as_of": "2026-09-24",
+   "note": "12 Form 4 sale lines, $16,872,672 total, 3 sellers; weighted-average price per filing-day. CEO Siebel $15.5m (10b5-1 lines $13.8m; $1.8m not 10b5-1, mostly 139,500 sh on 8/3); CFO Lath $0.8m; former CEO Ehikian $0.5m (7/1, not 10b5-1)."
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; filings dated Aug-Sep 2026 describe 2026-06-30 holdings"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel blocked (403 per failure log); MarketBeat gives no net share figure; dollar totals excluded per failure log"
+  },
+  "holders_up": {
+   "value": 145,
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_down": {
+   "value": 63,
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no new-position count on MarketBeat; Fintel blocked"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no exited-position count on MarketBeat; Fintel blocked"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Engineers Gate Manager",
+     "change_pct": null,
+     "shares": 314126,
+     "filed": "2026-09-09",
+     "note": "Q2 13F, likely new"
+    },
+    {
+     "fund": "Bank of America Corp",
+     "change_pct": 55.1,
+     "shares": 3282183,
+     "filed": "2026-05-19",
+     "note": "Q1 13F, stale"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "from the most recent 13F filings listed on MarketBeat (Q2 2026 13F, late filers); the table shows the last ~40 filings only"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "no full exits visible in the recent-filings table; not a verified absence"
+  },
+  "short_pct_float": {
+   "value": 32.88,
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Float 29.73% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 6.9,
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Ratio 8.17"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/AI/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "FINRA settlement date"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-12-02",
+    "event": "Q2 FY2027 earnings (estimated)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/ai/statistics/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": "Down 47% from $20.22: FY26 revenue fell 36% to $250m after a sales reorganization and leadership disruption tied to the founder's health; Siebel resumed as CEO on 8 May 2026 and revenue has held near $52m a quarter since.",
+  "source": "https://www.businesswire.com/news/home/20260512004509/en/C3-AI-Announces-Preliminary-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results-Thomas-M.-Siebel-Resumes-Role-of-Chief-Executive-Officer",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; per-share in USD",
+  "accounting_basis": "revenue as reported; EPS adjusted (S&P consensus basis) for both years; FY1 EBIT S&P consensus basis",
+  "fy1_end": "2027-04-30",
+  "fy2_end": "2028-04-30",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": "none; no modelled leaves",
+  "fcf_basis": "not available (CFO/capex consensus not published free)",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 221947530,
+    "source": "https://stockanalysis.com/stocks/ai/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global consensus, 15 analysts; Zacks 223.01M",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -0.76127,
+    "source": "https://stockanalysis.com/stocks/ai/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks -0.77",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": -141767960,
+    "source": "https://stockanalysis.com/stocks/ai/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus operating income, FY1",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published free; only consensus FCF",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published free",
+    "kind": "consensus"
+   },
+   "fcf_consensus": {
+    "value": -104308830,
+    "source": "https://stockanalysis.com/stocks/ai/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus FCF, informational; not split into CFO and capex",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 245083980,
+    "source": "https://stockanalysis.com/stocks/ai/forecast/",
+    "as_of": "2026-09-24",
+    "note": "Zacks 247.31M",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -0.4777,
+    "source": "https://stockanalysis.com/stocks/ai/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks -0.48",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating-income consensus is behind the StockAnalysis paywall",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/ai/forecast/",
+    "as_of": "2026-09-24",
+    "note": "strong buy + buy",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 7,
+    "source": "https://stockanalysis.com/stocks/ai/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 6,
+    "source": "https://stockanalysis.com/stocks/ai/forecast/",
+    "as_of": "2026-09-24",
+    "note": "sell + strong sell",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 5,
+    "source": "https://www.zacks.com/stock/quote/AI/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "current fiscal year EPS, Zacks up-revisions last 30 days",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/AI/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 7,
+    "source": "https://www.zacks.com/stock/quote/AI/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "Zacks # of estimates, current fiscal year",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks shows 60-day counts only: up 5, down 0",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: see up_90d",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 10.76,
+    "source": "https://finviz.com/quote.ashx?t=AI",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 1138387251.0,
+    "source": "https://stockanalysis.com/stocks/ai/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 2,
+  "prospect_why": "restructuring under the returning founder; revenue fell 36%",
+  "competition_pts": 1,
+  "competition_why": "GM 17-40% volatile against PLTR and SNOW",
+  "macro_fit_pts": 1,
+  "macro_fit_why": "long duration, SBC 111% of revenue",
+  "narrative_pts": 2,
+  "narrative_why": "AI applications fading",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

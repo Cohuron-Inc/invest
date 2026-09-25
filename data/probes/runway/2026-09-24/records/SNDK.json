@@ -1,0 +1,807 @@
+{
+ "ticker": "SNDK",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 1753.62,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 2354.39,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 93.54,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -25.52,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24",
+   "note": "computed from Finviz close and 52w high"
+  },
+  "sma50_pct": {
+   "value": 16.18,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 59.4,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 18.43,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -24.9,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS Information Technology"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24",
+   "note": "judged from SMA50/SMA200 distance, drawdown and 1m/3m performance"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/sndk/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-13 (1528.11) vs pre-print close 2026-08-05 (1350.5); true = price 5 sessions after the print at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 25,
+   "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 2137.0,
+   "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 3600.0,
+   "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 1000.0,
+   "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 21.86,
+   "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+   "as_of": "2026-09-24",
+   "note": "SA average target vs Finviz close"
+  },
+  "pt_finviz": {
+   "value": 2269.12,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded for comparison"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "broker": "Rosenblatt Securities",
+     "action": "initiates",
+     "rating": "Buy",
+     "target": 2400,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-12",
+     "broker": "Susquehanna",
+     "action": "reiterates",
+     "rating": "Buy",
+     "target": 2745,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-09",
+     "broker": "Citi",
+     "action": "reiterates",
+     "rating": "Buy",
+     "target": 2100,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-09-08",
+     "broker": "Bernstein",
+     "action": "maintains",
+     "rating": "Buy",
+     "target": 3000,
+     "target_old": null,
+     "reason": "not stated on source page"
+    },
+    {
+     "date": "2026-08-25",
+     "broker": "Mizuho Securities",
+     "action": "reiterates",
+     "rating": "Buy",
+     "target": 1875,
+     "target_old": 1900,
+     "reason": "not stated on source page"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free page shows only the five most recent sell-side actions; older actions in the 60-day window may be missing"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat $2015.61 within 10 points of StockAnalysis (14.9% vs 21.9% upside); not needed"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-05",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 8970000000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 8420000000.0,
+   "source": "https://www.investing.com/news/company-news/sandisk-q4-fy2026-slides-record-results-ai-boom-stock-slides-93CH-4839689",
+   "as_of": "2026-09-24",
+   "note": "revenue estimate $8.42B from news coverage located by WebSearch (MarketBeat row shows no revenue estimate); EPS estimate is MarketBeat 33.28 (news cites 34.59)"
+  },
+  "eps_actual": {
+   "value": 39.25,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/earnings/",
+   "as_of": "2026-09-24",
+   "note": "non-GAAP"
+  },
+  "eps_estimate": {
+   "value": 33.28,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/earnings/",
+   "as_of": "2026-08-05"
+  },
+  "guide_detail": {
+   "value": "FQ1 FY27 guide revenue $10.3-10.8B vs $10.4B consensus; non-GAAP EPS $44-46 vs $41.45 consensus; new $14B buyback",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/earnings/",
+   "as_of": "2026-08-05"
+  },
+  "reaction_day_pct": {
+   "value": -6.81,
+   "source": "https://stockanalysis.com/stocks/sndk/history/",
+   "as_of": "2026-08-06",
+   "note": "2026-08-06 close 1258.58 vs 2026-08-05 close 1350.5"
+  },
+  "reaction_5d_pct": {
+   "value": 13.15,
+   "source": "https://stockanalysis.com/stocks/sndk/history/",
+   "as_of": "2026-08-13",
+   "note": "pre-print close to the close five sessions after the reaction day"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://finance.yahoo.com/quote/SNDK/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Jun-2027): current 213.9, 30d ago 214.1, 90d ago 188.88; flat = within 0.5%"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/SNDK/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Jun-2027): current 213.9, 30d ago 214.1, 90d ago 188.88; flat = within 0.5%"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 213.9,
+    "d30": 214.1,
+    "d90": 188.88
+   },
+   "source": "https://finance.yahoo.com/quote/SNDK/analysis/",
+   "as_of": "2026-09-24",
+   "note": "Current Year (FY Jun-2027)"
+  },
+  "fcf_ttm": {
+   "value": 11494000000,
+   "source": "https://stockanalysis.com/stocks/sndk/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-03",
+   "note": "sum of last four quarters, quarters ending 2026-07-03, 2026-04-03, 2026-01-02, 2025-10-03"
+  },
+  "net_income_ttm": {
+   "value": 11433000000,
+   "source": "https://stockanalysis.com/stocks/sndk/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-03"
+  },
+  "fcf_to_ni": {
+   "value": 1.01,
+   "source": "https://stockanalysis.com/stocks/sndk/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-03"
+  },
+  "sbc_pct_revenue": {
+   "value": 1.15,
+   "source": "https://stockanalysis.com/stocks/sndk/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-03",
+   "note": "TTM stock-based compensation / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): AI inference and enterprise SSD demand keep NAND pricing tight; consensus revenue goes from $20.2B (FY Jun-26) to $49.0B (FY Jun-27) and EPS from $70.88 to $213.90.",
+   "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "NAND contract pricing and hyperscaler eSSD volumes holding through FY2027",
+   "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: NAND is cyclical and the stock is up about 1,775% from its 52-week low; the CEO sold about $105M in September under a 10b5-1 plan; one Sell rating.",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/earnings/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "MU",
+    "WDC"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": null,
+   "note": "no source read states a share trend"
+  },
+  "gross_margin_4q": {
+   "value": [
+    84.57,
+    78.35,
+    50.94,
+    29.77
+   ],
+   "source": "https://stockanalysis.com/stocks/sndk/financials/?p=quarterly",
+   "as_of": "2026-07-03",
+   "note": "latest first, quarters ending 2026-07-03, 2026-04-03, 2026-01-02, 2025-10-03"
+  },
+  "fwd_pe": {
+   "value": 6.72,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "MU": 6.84,
+    "WDC": 13.74
+   },
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 12.46,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "MU": 13.3,
+    "WDC": 12.54
+   },
+   "source": "https://finviz.com/quote.ashx?t=MU",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute or new entrant in the sources read"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to before 2026-06-26 (full 90 days); every Form 4 sale opened on EDGAR and the 10b5-1 checkbox read; option exercises, Form 144 notices and withholding (F) excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-17",
+     "name": "Goeckeler David",
+     "role": "Chairman & CEO",
+     "shares": 33841,
+     "price": 1574.21,
+     "usd": 53272704,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1713941/000124264826000041/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 382,865 sh; The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on May 29, 2026"
+    },
+    {
+     "date": "2026-09-15",
+     "name": "Visoso Luis Felipe",
+     "role": "EVP & CFO",
+     "shares": 1000,
+     "price": 1568.83,
+     "usd": 1568830,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1816289/000124264826000033/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 130,976 sh; The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on May 22, 2026"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Goeckeler David",
+     "role": "Chairman & CEO",
+     "shares": 33838,
+     "price": 1527.87,
+     "usd": 51700130,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1713941/000124264826000032/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 413,410 sh; The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on May 29, 2026"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Ilkbahar Alper",
+     "role": "EVP & Chief Technology Officer",
+     "shares": 400,
+     "price": 1563.89,
+     "usd": 625557,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000029/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 43,734 sh; The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on June 4, 2026"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Ilkbahar Alper",
+     "role": "EVP & Chief Technology Officer",
+     "shares": 4712,
+     "price": 1540.58,
+     "usd": 7259191,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000028/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 44,134 sh; The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on June 4, 2026"
+    },
+    {
+     "date": "2026-09-08",
+     "name": "Shek Bernard",
+     "role": "Chief Legal Officer & Secty",
+     "shares": 2308,
+     "price": 1767.33,
+     "usd": 4078998,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/2023554/000124264826000027/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 25,305 sh; The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on March 4, 2026"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "Shek Bernard",
+     "role": "Chief Legal Officer & Secty",
+     "shares": 600,
+     "price": 1525.6,
+     "usd": 915360,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000074/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 29,884 sh; The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on March 4, 2026"
+    },
+    {
+     "date": "2026-08-03",
+     "name": "Shek Bernard",
+     "role": "Chief Legal Officer & Secty",
+     "shares": 600,
+     "price": 1162.16,
+     "usd": 697296,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000058/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 30,915 sh; The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on March 4, 2026"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Shek Bernard",
+     "role": "Chief Legal Officer & Secty",
+     "shares": 600,
+     "price": 2088.0,
+     "usd": 1252800,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/2023554/000136324926000056/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "owned after: 31,515 sh; The sales reported in this Form 4 were effected pursuant to a Rule 10b5-1 trading plan adopted by the Reporting Person on March 4, 2026"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24",
+   "note": "9 sales, $121,370,866; unique sellers 4"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -4.11,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle (Q2 2026) as shown on MarketBeat filings list"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel is 403 per failure log and MarketBeat dollar totals are excluded; no clean net share change"
+  },
+  "holders_up": {
+   "value": 897,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 196,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat first page lists only small advisers; no large named adds or exits"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 3.85,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 4.15% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 0.6,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 0.44"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/short-interest/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_trans_pct": {
+   "value": 1.69,
+   "source": "https://finviz.com/quote.ashx?t=SNDK",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-05",
+    "event": "FQ1 FY2027 earnings (estimate from prior-year date 2025-11-06; no aggregator date found)",
+    "confirmed": false,
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/earnings/"
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/earnings/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not found: drawdown -25.5% is less than 30% from the high; not required"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; EPS in USD per share",
+  "accounting_basis": "consensus adjusted (non-GAAP) EPS; revenue and operating income as S&P Global consensus",
+  "fy1_end": "2027-06-30",
+  "fy2_end": "2028-06-30",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "CFO minus capex; forward CFO/capex not published on free sources",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 48952245400,
+    "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": 38921780050,
+    "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global consensus operating income from the StockAnalysis estimates table"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward CFO not published; StockAnalysis shows consensus FY1 free cash flow of 29,875,122,220 only"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: forward capex not published on free sources"
+   },
+   "eps": {
+    "value": 213.90302,
+    "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "fcf_consensus": {
+    "value": 29875122220,
+    "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus FY1 free cash flow; not split into CFO and capex"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 57903120000,
+    "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis paywall"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": 263.48553,
+    "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 21,
+    "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global Sep '26: strong buy 17 + buy 4"
+   },
+   "hold": {
+    "value": 3,
+    "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/sndk/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell 1 + strong sell 0"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 12,
+    "source": "https://finance.yahoo.com/quote/SNDK/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 column; provider counts revision events"
+   },
+   "down_30d": {
+    "value": 7,
+    "source": "https://finance.yahoo.com/quote/SNDK/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": null
+   },
+   "analysts": {
+    "value": 21,
+    "source": "https://finance.yahoo.com/quote/SNDK/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "number of FY1 EPS estimates on the same page"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 1753.62,
+    "source": "https://finviz.com/quote.ashx?t=SNDK",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": null
+   },
+   "enterprise_value": {
+    "value": 252200000000.0,
+    "source": "https://finviz.com/quote.ashx?t=SNDK",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "Finviz enterprise value"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": null,
+    "note": "not found: WACC not modelled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 7,
+  "prospect_why": "NAND tightness is in the beat and raise and a $14B buyback",
+  "competition_pts": 4,
+  "competition_why": "GM 29.8 to 84.6% cyclical; fwd P/E 6.7 at peak",
+  "macro_fit_pts": 4,
+  "macro_fit_why": "materials/industrials 4",
+  "narrative_pts": 5,
+  "narrative_why": "memory improving; crowded among accounts",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

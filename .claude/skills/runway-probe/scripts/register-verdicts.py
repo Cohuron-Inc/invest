@@ -45,7 +45,9 @@ def main(data_dir: Path) -> None:
                 "registered_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                 "probe": manifest.get("window_end"), "ticker": ticker,
                 "close": close, "price_as_of": r["price_as_of"],
-                "tier": r["tier"], "total": r["total"], "gates_failed": r["gates_failed"],
+                # The red team can move a verdict down; the mechanical tier is kept beside it.
+                "tier": vd.get("tier_override", r["tier"]), "tier_mechanical": r["tier"],
+                "total": r["total"], "gates_failed": r["gates_failed"],
                 "edge": vd.get("edge"), "scenarios": tree, "expected_return": exp,
                 "bear_loss": (tree["bear"]["price"] / close - 1) if close else None,
                 "kill": vd.get("kill"), "premortem": vd.get("premortem"),

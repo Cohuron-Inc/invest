@@ -1,0 +1,862 @@
+{
+ "ticker": "RKLB",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:28:55+00:00",
+ "price": {
+  "close": {
+   "value": 73.61,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 151.0,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 37.57,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -51.25,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24",
+   "note": "computed from close and 52w high"
+  },
+  "sma50_pct": {
+   "value": 6.14,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -9.1,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  },
+  "fifty_above_200": {
+   "value": false,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price sits further above the 200 than the 50"
+  },
+  "perf_1m_pct": {
+   "value": 10.01,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -8.77,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLI",
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -5.36,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -8.3,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24",
+   "note": "above the 50-day (+6.1%), below the 200-day (-9.1%), +10% in a month; 51% off the high"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://stockanalysis.com/stocks/rklb/history/",
+   "as_of": "2026-09-24",
+   "note": "reaction-day close 2026-08-11 80.01 vs +5 sessions 2026-08-18 79.16; held = +5d close at or above reaction-day close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 20,
+   "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 109.37,
+   "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 150,
+   "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 64,
+   "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 48.58,
+   "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+   "as_of": "2026-09-24",
+   "note": "computed: StockAnalysis average target vs Finviz close"
+  },
+  "pt_avg_finviz": {
+   "value": 111.89,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean; recorded beside StockAnalysis, not in place of it"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat forecast page not fetched; Finviz mean target is within 10 upside points of StockAnalysis, so the alt is not required"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-18",
+     "broker": "Craig-Hallum",
+     "action": "maintain",
+     "target": null,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "Raymond James",
+     "action": "initiate",
+     "target": 80,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-09-02",
+     "broker": "Berenberg",
+     "action": "initiate",
+     "target": 83,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "BofA Securities",
+     "action": "lower",
+     "target": 110,
+     "reason": "Buy; 115 -> 110"
+    },
+    {
+     "date": "2026-08-20",
+     "broker": "BTIG",
+     "action": "maintain",
+     "target": null,
+     "reason": "Hold"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings table, rows dated 2026-07-26 onward as rendered; sell-side only"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-10",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RKLB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 234070000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RKLB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 231620000.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RKLB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": -0.08,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RKLB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_estimate": {
+   "value": -0.06,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RKLB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RKLB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "Q3 2026 revenue guide $250-265M vs consensus $236.4M; record backlog $2.36B; management warned the window for a 2026 Neutron debut is narrowing",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/RKLB/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": -0.04,
+   "source": "https://stockanalysis.com/stocks/rklb/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-11 vs prior close 2026-08-10 (80.04)"
+  },
+  "reaction_5d_pct": {
+   "value": -1.1,
+   "source": "https://stockanalysis.com/stocks/rklb/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-08-18 vs pre-print close 2026-08-10"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://api.nasdaq.com/api/analyst/RKLB/earnings-forecast",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq FY2026 EPS: 0 up / 0 down over 4 weeks (only 2 estimates)"
+  },
+  "revisions_90d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo /analysis/ load error; no 90-day series"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo EPS Trend table empty or failed for this name"
+  },
+  "fcf_ttm": {
+   "value": -371139000,
+   "source": "https://stockanalysis.com/stocks/rklb/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": -165459000,
+   "source": "https://stockanalysis.com/stocks/rklb/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "TTM to 2026-06-30"
+  },
+  "sbc_pct_revenue": {
+   "value": 10.61,
+   "source": "https://stockanalysis.com/stocks/rklb/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "SBC TTM 81,609,000 / Finviz sales TTM 769.15M"
+  },
+  "stock_issued_ttm": {
+   "value": 2521873000,
+   "source": "https://stockanalysis.com/stocks/rklb/financials/cash-flow-statement/?p=trailing",
+   "as_of": "2026-09-24",
+   "note": "common stock issued, TTM to 2026-06-30"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Electron cadence plus Space Systems (backlog $2.36B) grow revenue ~59% to ~$958M in 2026; Neutron's debut opens the medium-lift and constellation market.",
+   "source": "https://spaceflightnow.com/2026/08/10/window-for-2026-launch-debut-of-rocket-labs-neutron-rocket-is-narrowing-as-development-continues/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Neutron reaching the pad in Q4 2026 and a first flight; Q3 revenue $250-265M.",
+   "source": "https://spaceflightnow.com/2026/08/10/window-for-2026-launch-debut-of-rocket-labs-neutron-rocket-is-narrowing-as-development-continues/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Neutron likely slips to 2027 after a Jan stage-1 tank rupture; EV/sales ~54x; CEO trust sold ~$286M in July under a 10b5-1 plan; new $1.94B ATM.",
+   "source": "https://spaceflightnow.com/2026/08/10/window-for-2026-launch-debut-of-rocket-labs-neutron-rocket-is-narrowing-as-development-continues/",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://spaceflightnow.com/2026/08/10/window-for-2026-launch-debut-of-rocket-labs-neutron-rocket-is-narrowing-as-development-continues/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "SPCX",
+    "Firefly Aerospace"
+   ],
+   "source": "https://stockanalysis.com/stocks/rklb/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    36.96,
+    37.98,
+    38.18,
+    36.13
+   ],
+   "source": "https://stockanalysis.com/stocks/rklb/financials/income-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarters Q3-25..Q2-26, oldest first"
+  },
+  "fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no positive forward EPS"
+  },
+  "peer_fwd_pe": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peers not in the Finviz snapshot set or not US-listed"
+  },
+  "ev_sales": {
+   "value": 54.46,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: peer pages not fetched"
+  },
+  "substitute": {
+   "value": "SpaceX (listed as SPCX) rideshare and Falcon 9 pricing; Firefly Alpha in small launch.",
+   "source": "https://spaceflightnow.com/2026/08/10/window-for-2026-launch-debut-of-rocket-labs-neutron-rocket-is-narrowing-as-development-continues/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table runs back before 2026-06-26 for this name, so the full trailing 90 days is covered; exercises and proposed (Form 144) sales excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-02",
+     "name": "Spice Adam C.",
+     "role": "Chief Financial Officer",
+     "shares": 140157,
+     "price": 62.63,
+     "usd": 8777721,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1509421/000200101126000136/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Klein Frank",
+     "role": "Chief Operations Officer",
+     "shares": 35558,
+     "price": 66.61,
+     "usd": 2368354,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000133/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Kampani Arjun",
+     "role": "SVP & General Counsel",
+     "shares": 6034,
+     "price": 66.65,
+     "usd": 402186,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1671507/000200101126000132/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Spice Adam C.",
+     "role": "Chief Financial Officer",
+     "shares": 9677,
+     "price": 69.63,
+     "usd": 673790,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1509421/000200101126000129/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened; same-price cluster on 2026-08-24 may be sell-to-cover, not verified"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Ricupati Agostino",
+     "role": "VP Corp Controller & CAO",
+     "shares": 669,
+     "price": 69.63,
+     "usd": 46581,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1710066/000200101126000128/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened; same-price cluster on 2026-08-24 may be sell-to-cover, not verified"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Klein Frank",
+     "role": "Chief Operations Officer",
+     "shares": 45692,
+     "price": 69.63,
+     "usd": 3181443,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000127/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened; same-price cluster on 2026-08-24 may be sell-to-cover, not verified"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Kampani Arjun",
+     "role": "SVP & General Counsel",
+     "shares": 7754,
+     "price": 69.63,
+     "usd": 539896,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1671507/000200101126000126/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened; same-price cluster on 2026-08-24 may be sell-to-cover, not verified"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Clevenger Marvin Bradford",
+     "role": "President, Rocket Lab USA, Inc",
+     "shares": 15051,
+     "price": 69.63,
+     "usd": 1047972,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000125/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": null,
+     "history": "Finviz insider table; Form 4 URL from Finviz; plan status not opened; same-price cluster on 2026-08-24 may be sell-to-cover, not verified"
+    },
+    {
+     "date": "2026-07-07",
+     "name": "Beck Peter",
+     "role": "CEO",
+     "shares": 1298622,
+     "price": 84.92,
+     "usd": 110278981,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 checked: code S via Equatorial Trust under a 10b5-1 plan adopted 2026-03-27; 3 days sold ~3.28M sh, holdings 1,724,221 after (indirect)"
+    },
+    {
+     "date": "2026-07-06",
+     "name": "Beck Peter",
+     "role": "CEO",
+     "shares": 986197,
+     "price": 95.33,
+     "usd": 94015922,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 checked: code S via Equatorial Trust under a 10b5-1 plan adopted 2026-03-27; 3 days sold ~3.28M sh, holdings 1,724,221 after (indirect)"
+    },
+    {
+     "date": "2026-07-08",
+     "name": "Beck Peter",
+     "role": "CEO",
+     "shares": 990960,
+     "price": 82.86,
+     "usd": 82115292,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1819994/000200101126000109/xslF345X06/edgardoc.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 checked: code S via Equatorial Trust under a 10b5-1 plan adopted 2026-03-27; 3 days sold ~3.28M sh, holdings 1,724,221 after (indirect)"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24",
+   "note": "plan_10b5_1 null = not verified on the Form 4"
+  },
+  "finviz_net_change_pct": {
+   "value": -31.12,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://api.nasdaq.com/api/company/RKLB/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-holder rows dated 6/30/2026; Vanguard Group row still 12/31/2025"
+  },
+  "net_shares": {
+   "value": 32527328,
+   "source": "https://api.nasdaq.com/api/company/RKLB/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq 13F summary (latest filings, most dated 2026-06-30); net = increased-position shares minus decreased-position shares"
+  },
+  "holders_up": {
+   "value": 827,
+   "source": "https://api.nasdaq.com/api/company/RKLB/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_down": {
+   "value": 320,
+   "source": "https://api.nasdaq.com/api/company/RKLB/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_new": {
+   "value": 329,
+   "source": "https://api.nasdaq.com/api/company/RKLB/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "holders_exited": {
+   "value": 79,
+   "source": "https://api.nasdaq.com/api/company/RKLB/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Invesco",
+     "change_pct": 409.8,
+     "shares": 14745237
+    },
+    {
+     "fund": "JPMorgan Chase",
+     "change_pct": 29.3,
+     "shares": 3127308
+    },
+    {
+     "fund": "Goldman Sachs Group",
+     "change_pct": 117.5,
+     "shares": 3003173
+    },
+    {
+     "fund": "BlackRock",
+     "change_pct": 6.8,
+     "shares": 2594134
+    }
+   ],
+   "source": "https://api.nasdaq.com/api/company/RKLB/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "top-15 holders by value; change_pct null = new position"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://api.nasdaq.com/api/company/RKLB/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24",
+   "note": "no full exit among the top-15 holders; large reductions are listed in named_cuts"
+  },
+  "named_cuts": {
+   "value": [
+    {
+     "fund": "Baillie Gifford",
+     "change_pct": -43.6,
+     "shares": -8043531
+    }
+   ],
+   "source": "https://api.nasdaq.com/api/company/RKLB/institutional-holdings?limit=15&type=TOTAL&sortColumn=marketValue",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 7.7,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 2.39,
+   "source": "https://api.nasdaq.com/api/quote/RKLB/short-interest?assetClass=stocks",
+   "as_of": "2026-09-24",
+   "note": "Nasdaq, settlement 09/15/2026, 43,482,976 sh short; Finviz short ratio 2.26"
+  },
+  "short_as_of": {
+   "value": "2026-08-31",
+   "source": "https://api.nasdaq.com/api/quote/RKLB/short-interest?assetClass=stocks",
+   "as_of": "2026-09-24",
+   "note": "Finviz short interest 45.38M matches the Nasdaq row settling 08/31/2026"
+  },
+  "finviz_inst_change_pct": {
+   "value": 4.89,
+   "source": "https://finviz.com/quote.ashx?t=RKLB",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float_alt": {
+   "value": 8.15,
+   "source": "https://stockanalysis.com/stocks/rklb/statistics/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis float basis; differs from Finviz"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-09",
+    "event": "Q3 2026 earnings (MarketBeat estimate; not confirmed)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-12",
+    "event": "Neutron delivered to LC-3 pad and integrated static fire (company target Q4 2026; first launch may slip to 2027)",
+    "confirmed": false
+   },
+   {
+    "date": "2026-08-13",
+    "event": "Equity raise: replacement at-the-market program up to $1,944,369,826 announced (dilution overhang through the window)",
+    "confirmed": true
+   }
+  ],
+  "source": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-corporation-announces-dollar-dollar-replacement",
+  "as_of": "2026-09-24",
+  "note": "next 6 months; 'confirmed' means company-announced"
+ },
+ "why_it_fell": {
+  "value": "Down 51% from the high: executives said the 2026 Neutron window is narrowing (first flight likely 2027) after a January stage-1 tank rupture, the CEO's trust sold ~$286M in early July, and a replacement $1.94B ATM was announced 2026-08-13.",
+  "source": "https://finance.biggo.com/news/c277d7a2-9373-4c86-ae5c-a6825fd009c4",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute; EPS per share",
+  "accounting_basis": "revenue consensus; EPS = StockAnalysis adjusted (normalized) consensus; EBIT = StockAnalysis operating income consensus",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "not available (CFO/capex not published)",
+  "revision_period_end": "2026-09-24",
+  "note": "FY1/FY2 revenue and adjusted EPS from the same StockAnalysis snapshot; FY2 EBIT is behind a paywall",
+  "fy1": {
+   "revenue": {
+    "value": 958307660,
+    "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": -0.04286,
+    "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": -94352300,
+    "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF -220,430,500 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published: StockAnalysis shows FY1 consensus FCF -220,430,500 USD but not CFO and capex separately",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 1362542960,
+    "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 0.04556,
+    "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is [PRO]-gated on StockAnalysis",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate",
+    "kind": "consensus"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "consensus"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 16,
+    "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "strong buy + buy"
+   },
+   "hold": {
+    "value": 4,
+    "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/rklb/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "sell + strong sell"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://api.nasdaq.com/api/analyst/RKLB/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY2026 EPS; Nasdaq 4-week revision counts"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://api.nasdaq.com/api/analyst/RKLB/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 2,
+    "source": "https://api.nasdaq.com/api/analyst/RKLB/earnings-forecast",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimates for FY2026 EPS on that provider"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts from any fetchable source",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no 90-day revision counts",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 73.61,
+    "source": "https://finviz.com/quote.ashx?t=RKLB",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 41800000000.0,
+    "source": "https://stockanalysis.com/stocks/rklb/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 4,
+  "prospect_why": "Space Systems backlog $2.36B and the raised Q3 guide; Neutron slipping toward 2027",
+  "competition_pts": 4,
+  "competition_why": "GM 36-38% flat; EV/S 54.5 vs SpaceX 84",
+  "macro_fit_pts": 1,
+  "macro_fit_why": "space archetype 1: long duration with a $1.94B ATM",
+  "narrative_pts": 1,
+  "narrative_why": "space lagging and worsening",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

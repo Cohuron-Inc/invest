@@ -1,0 +1,1188 @@
+| # | Ticker | Tier | Close | Upside | R:R | Earn | Prosp | Comp | Insd | Inst | Retail | Up | RR | Chart | Macro | Narr | Total | Gates failed |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | NXPI | runway | 230.16 | 35% | 2.0 | 14 | 5 | 5 | 2 | 7 | 9 | 8 | 7 | 2 | 5 | 3 | 67 | none |
+| 2 | CSCO | runway | 106.97 | 28% | 3.0 | 14 | 5 | 4 | 2 | 7 | 9 | 6 | 7 | 3 | 5 | 3 | 65 | none |
+| 3 | UNH | runway | 375.01 | 28% | 5.4 | 14 | 6 | 5 | 2 | 7 | 3 | 6 | 10 | 3 | 5 | 3 | 64 | none |
+| 4 | KURA | runway | 10.86 | 195% | 20.1 | 6 | 5 | 4 | 9 | 7 | 6 | 10 | 10 | 3 | 1 | 2 | 63 | none |
+| 5 | GRAB | runway | 3.11 | 87% | 7.3 | 6 | 5 | 4 | 7 | 7 | 6 | 10 | 10 | 0 | 3 | 2 | 60 | none |
+| 6 | AMBA | runway | 69.86 | 28% | 4.0 | 10 | 4 | 3 | 2 | 7 | 9 | 6 | 10 | 3 | 2 | 3 | 59 | none |
+| 7 | AVGO | runway | 350.36 | 52% | 3.0 | 10 | 5 | 4 | 2 | 7 | 3 | 10 | 10 | 0 | 4 | 3 | 58 | none |
+| 8 | STIM | runway | 2.82 | 104% | 2.9 | 6 | 3 | 2 | 4 | 7 | 9 | 10 | 7 | 5 | 0 | 1 | 54 | none |
+| 9 | DAL | runway | 82.76 | 25% | 2.8 | 10 | 4 | 4 | 0 | 7 | 9 | 6 | 7 | 3 | 2 | 2 | 54 | none |
+| 10 | RARE | runway | 14.77 | 90% | 6.5 | 6 | 3 | 3 | 2 | 7 | 9 | 10 | 10 | 0 | 1 | 1 | 52 | none |
+| 11 | APLD | runway | 27.06 | 145% | 7.7 | 6 | 4 | 3 | 2 | 7 | 6 | 10 | 10 | 0 | 1 | 1 | 50 | none |
+| 12 | GRRR | runway | 14.36 | 140% | 3.8 | 6 | 2 | 2 | 3 | 7 | 3 | 10 | 10 | 3 | 1 | 2 | 49 | none |
+| 13 | ORCL | runway | 139.54 | 71% | 3.9 | 6 | 5 | 4 | 2 | 7 | 3 | 10 | 10 | 0 | 1 | 1 | 49 | none |
+| 14 | WYFI | runway | 20.26 | 100% | 2.1 | 6 | 2 | 2 | 3 | 3 | 6 | 10 | 7 | 0 | 0 | 1 | 40 | none |
+| 15 | TXN | one_leg_missing | 270.65 | 20% | 2.2 | 14 | 6 | 5 | 2 | 7 | 9 | 3 | 7 | 3 | 5 | 3 | 64 | upside |
+| 16 | UBER | one_leg_missing | 69.22 | 46% | 8.4 | 6 | 6 | 5 | 7 | 7 | 6 | 8 | 10 | 0 | 5 | 3 | 63 | delivery |
+| 17 | ASML | one_leg_missing | 1722.50 | 24% | 2.1 | 14 | 6 | 7 | 0 | 7 | 6 | 6 | 7 | 3 | 4 | 3 | 63 | insider |
+| 18 | WDC | one_leg_missing | 450.31 | 48% | 7.1 | 6 | 6 | 5 | 0 | 7 | 9 | 8 | 10 | 3 | 4 | 4 | 62 | upside |
+| 19 | AMAT | one_leg_missing | 474.25 | 35% | 3.1 | 6 | 6 | 5 | 2 | 7 | 9 | 8 | 10 | 3 | 4 | 2 | 62 | insider |
+| 20 | NVDA | one_leg_missing | 224.58 | 46% | 4.1 | 6 | 7 | 6 | 2 | 7 | 0 | 8 | 10 | 5 | 4 | 5 | 60 | insider |
+| 21 | LRCX | one_leg_missing | 307.16 | 21% | 3.8 | 6 | 6 | 5 | 2 | 7 | 9 | 6 | 10 | 3 | 4 | 2 | 60 | insider |
+| 22 | NU | one_leg_missing | 13.56 | 38% | 3.3 | 6 | 6 | 5 | 0 | 7 | 9 | 8 | 10 | 2 | 3 | 3 | 59 | insider |
+| 23 | AMZN | one_leg_missing | 249.38 | 32% | 4.1 | 6 | 6 | 6 | 2 | 7 | 3 | 6 | 10 | 3 | 4 | 6 | 59 | insider |
+| 24 | VST | one_leg_missing | 137.94 | 58% | 2.5 | 3 | 4 | 5 | 4 | 9 | 6 | 10 | 7 | 0 | 5 | 4 | 57 | delivery |
+| 25 | BABA | one_leg_missing | 110.63 | 68% | 4.9 | 3 | 4 | 4 | 7 | 7 | 6 | 10 | 10 | 0 | 2 | 3 | 56 | delivery |
+| 26 | RDDT | one_leg_missing | 152.72 | 40% | 2.7 | 10 | 5 | 4 | 2 | 7 | 9 | 8 | 7 | 0 | 2 | 2 | 56 | insider |
+| 27 | SPCX | one_leg_missing | 148.03 | 50% | 9.3 | 6 | 5 | 6 | 2 | 7 | 3 | 10 | 10 | 3 | 1 | 2 | 55 | insider |
+| 28 | GLW | one_leg_missing | 154.15 | 25% | 1.5 | 10 | 5 | 4 | 2 | 7 | 9 | 6 | 4 | 3 | 3 | 2 | 55 | upside |
+| 29 | UUUU | one_leg_missing | 11.32 | 113% | 20.4 | 3 | 3 | 3 | 7 | 9 | 6 | 10 | 10 | 0 | 1 | 1 | 53 | delivery |
+| 30 | CRDO | one_leg_missing | 195.97 | 43% | 7.7 | 10 | 6 | 4 | 0 | 7 | 3 | 8 | 10 | 3 | 1 | 1 | 53 | insider |
+| 31 | OSCR | one_leg_missing | 28.87 | 20% | 2.0 | 14 | 6 | 4 | 0 | 7 | 3 | 3 | 4 | 3 | 3 | 3 | 50 | upside |
+| 32 | ACHR | one_leg_missing | 5.71 | 86% | 4.0 | 6 | 1 | 2 | 2 | 9 | 6 | 10 | 10 | 2 | 0 | 1 | 49 | delivery |
+| 33 | IREN | one_leg_missing | 46.15 | 71% | 10.4 | 3 | 4 | 3 | 3 | 7 | 3 | 10 | 10 | 3 | 1 | 2 | 49 | delivery |
+| 34 | AKAM | one_leg_missing | 110.41 | 39% | 2.5 | 3 | 3 | 3 | 2 | 7 | 6 | 8 | 7 | 2 | 5 | 3 | 49 | delivery |
+| 35 | RKLB | one_leg_missing | 73.61 | 49% | 3.7 | 6 | 4 | 4 | 0 | 9 | 3 | 8 | 10 | 2 | 1 | 1 | 48 | insider |
+| 36 | PLPC | one_leg_missing | 429.82 | n/f% | n/f | 6 | 6 | 5 | 0 | 7 | 9 | 0 | 0 | 5 | 4 | 4 | 46 | upside |
+| 37 | WULF | one_leg_missing | 16.29 | 111% | 14.0 | 3 | 3 | 2 | 4 | 3 | 6 | 10 | 10 | 0 | 0 | 1 | 42 | delivery |
+| 38 | EOSE | one_leg_missing | 3.24 | 104% | 14.7 | 3 | 2 | 1 | 4 | 3 | 6 | 10 | 10 | 0 | 0 | 2 | 41 | delivery |
+| 39 | APP | one_leg_missing | 312.47 | 59% | n/f | 3 | 4 | 5 | 2 | 7 | 6 | 10 | 0 | 0 | 2 | 2 | 41 | delivery |
+| 40 | ONDS | one_leg_missing | 7.60 | 156% | 4.5 | 3 | 3 | 2 | 2 | 3 | 6 | 10 | 10 | 0 | 0 | 1 | 40 | delivery |
+| 41 | CIFR | one_leg_missing | 18.10 | 72% | 1.8 | 3 | 3 | 2 | 2 | 7 | 6 | 10 | 4 | 2 | 0 | 1 | 40 | delivery |
+| 42 | SOFI | one_leg_missing | 16.80 | 21% | 1.8 | 6 | 5 | 3 | 2 | 7 | 3 | 6 | 4 | 0 | 2 | 2 | 40 | upside |
+| 43 | CAT | no_runway | 805.25 | 21% | 0.7 | 14 | 7 | 6 | 2 | 7 | 9 | 6 | 1 | 3 | 5 | 4 | 64 | none |
+| 44 | ANET | no_runway | 205.70 | 18% | 2.3 | 14 | 7 | 6 | 0 | 7 | 9 | 3 | 7 | 5 | 3 | 3 | 64 | upside, insider |
+| 45 | VIAV | no_runway | 37.23 | 65% | 1.0 | 14 | 5 | 4 | 0 | 7 | 9 | 10 | 1 | 3 | 3 | 3 | 59 | none |
+| 46 | GEV | no_runway | 955.04 | 30% | 0.7 | 10 | 6 | 6 | 3 | 9 | 6 | 6 | 1 | 3 | 5 | 4 | 59 | none |
+| 47 | LITE | no_runway | 929.04 | 24% | 2.0 | 14 | 7 | 6 | 0 | 7 | 3 | 6 | 7 | 5 | 2 | 1 | 58 | upside, insider |
+| 48 | ON | no_runway | 73.15 | 42% | 1.1 | 14 | 4 | 4 | 3 | 7 | 9 | 8 | 1 | 0 | 4 | 3 | 57 | none |
+| 49 | SNDK | no_runway | 1753.62 | 22% | 0.6 | 14 | 7 | 4 | 2 | 7 | 3 | 6 | 1 | 3 | 4 | 5 | 56 | insider |
+| 50 | SNOW | no_runway | 334.00 | 27% | 0.8 | 14 | 7 | 4 | 0 | 7 | 6 | 6 | 1 | 5 | 1 | 3 | 54 | insider |
+| 51 | STLN | no_runway | 6.51 | 38% | 1.1 | 6 | 5 | 3 | 4 | 7 | 6 | 8 | 1 | 5 | 3 | 3 | 51 | none |
+| 52 | ISRG | no_runway | 399.52 | 19% | 1.1 | 10 | 5 | 5 | 2 | 7 | 9 | 3 | 1 | 2 | 3 | 4 | 51 | upside |
+| 53 | GOOGL | no_runway | 342.36 | 25% | 0.8 | 6 | 6 | 6 | 2 | 7 | 3 | 6 | 1 | 3 | 4 | 5 | 49 | none |
+| 54 | CRM | no_runway | 238.22 | 18% | 1.2 | 6 | 5 | 4 | 4 | 7 | 6 | 3 | 1 | 5 | 5 | 3 | 49 | upside |
+| 55 | COHR | no_runway | 290.61 | 43% | 0.7 | 6 | 6 | 5 | 0 | 7 | 9 | 8 | 1 | 3 | 2 | 1 | 48 | none |
+| 56 | CCJ | no_runway | 88.12 | 45% | 3.8 | 3 | 4 | 4 | 0 | 9 | 6 | 8 | 10 | 0 | 1 | 1 | 46 | insider, delivery |
+| 57 | MU | no_runway | 1080.53 | 40% | 1.0 | 6 | 7 | 5 | 0 | 7 | 0 | 8 | 1 | 3 | 4 | 5 | 46 | upside, insider |
+| 58 | SKHY | no_runway | 186.37 | 33% | 2.8 | 6 | 7 | 5 | 0 | 3 | 0 | 6 | 7 | 3 | 4 | 5 | 46 | flow, insider, delivery |
+| 59 | PYPL | no_runway | 52.60 | 8% | 0.3 | 10 | 4 | 4 | 2 | 7 | 6 | 1 | 1 | 3 | 5 | 3 | 46 | upside |
+| 60 | ALAB | no_runway | 360.51 | 8% | 0.2 | 14 | 6 | 4 | 2 | 7 | 6 | 1 | 1 | 3 | 1 | 1 | 46 | upside, insider |
+| 61 | ARM | no_runway | 306.34 | -6% | -0.2 | 14 | 5 | 3 | 2 | 7 | 6 | 0 | 0 | 3 | 3 | 3 | 46 | upside |
+| 62 | SE | no_runway | 100.73 | 56% | 2.4 | 3 | 5 | 3 | 0 | 7 | 3 | 10 | 7 | 0 | 3 | 2 | 43 | insider, delivery |
+| 63 | ABCL | no_runway | 12.65 | 35% | 1.2 | 3 | 3 | 3 | 3 | 7 | 6 | 8 | 1 | 5 | 1 | 3 | 43 | delivery |
+| 64 | GS | no_runway | 923.29 | 24% | 1.2 | 6 | 5 | 5 | 0 | 7 | 9 | 6 | 1 | 0 | 3 | 1 | 43 | none |
+| 65 | AMKR | no_runway | 52.69 | 45% | 1.0 | 3 | 3 | 2 | 2 | 7 | 6 | 8 | 1 | 2 | 3 | 2 | 39 | delivery |
+| 66 | ADUR | no_runway | 12.56 | 115% | 4.1 | 3 | 1 | 2 | 0 | 7 | 3 | 10 | 10 | 0 | 0 | 1 | 37 | insider, delivery |
+| 67 | META | no_runway | 777.59 | -2% | -0.1 | 3 | 7 | 6 | 2 | 7 | 0 | 0 | 0 | 3 | 4 | 5 | 37 | upside, insider, delivery |
+| 68 | AAOI | no_runway | 101.03 | 62% | 0.8 | 3 | 3 | 2 | 2 | 7 | 6 | 10 | 1 | 0 | 1 | 1 | 36 | delivery |
+| 69 | CRWV | no_runway | 90.13 | 56% | 1.7 | 3 | 4 | 2 | 0 | 7 | 3 | 10 | 4 | 2 | 0 | 1 | 36 | insider, delivery |
+| 70 | NKE | no_runway | 35.99 | 31% | 0.9 | 3 | 2 | 2 | 2 | 7 | 6 | 6 | 1 | 0 | 3 | 1 | 33 | delivery |
+| 71 | AI | no_runway | 10.76 | -23% | -0.8 | 10 | 2 | 1 | 0 | 3 | 9 | 0 | 0 | 3 | 1 | 2 | 31 | upside |
+| 72 | ASTS | no_runway | 61.06 | 30% | 1.4 | 3 | 2 | 2 | 4 | 3 | 6 | 6 | 1 | 2 | 0 | 1 | 30 | delivery |
+| 73 | NBIS | no_runway | 243.48 | 13% | 0.4 | 3 | 4 | 3 | 2 | 7 | 3 | 3 | 1 | 3 | 0 | 1 | 30 | upside, delivery |
+| 74 | PSNL | no_runway | 16.57 | -7% | -0.3 | 6 | 1 | 3 | 2 | 7 | 3 | 0 | 0 | 3 | 2 | 2 | 29 | upside |
+
+Why, per mechanical signal:
+
+- **NXPI** earnings: beat both, guide raised, revisions up; insider: no buys; sells $226,040 (all 10b5-1); institutional: net adds or holders up 674 vs down 504; retail: quiet with fundamentals: 4 posts, 3 accounts; chart: below the 200 (-6.2%) in a base
+- **CSCO** earnings: beat both, guide raised, revisions up; insider: no buys; sells $6,028,616 (all 10b5-1); institutional: net adds or holders up 2433 vs down 1923; retail: quiet with fundamentals: 3 posts, 3 accounts; chart: above the 200 (+10.5%) or breaking out; RS 3m -15.58
+- **UNH** earnings: beat both, guide raised, revisions up; insider: no buys; sells $660,910 (some outside a plan); institutional: net adds or holders up 2311 vs down 1897; retail: loud: 41 posts across 2 accounts; chart: above the 200 (+5.6%) or breaking out; RS 3m -18.9
+- **KURA** earnings: mixed print; insider: 2 buys incl. officer; $2,351,000; institutional: net adds or holders up 120 vs down 58; retail: moderate: 14 posts, 2 accounts; chart: above the 200 (+10.7%) or breaking out; RS 3m -4.32
+- **GRAB** earnings: beat both, guide raised, revisions up; cash conversion below 70% caps at 6; insider: 2 buys, $30,743,149; institutional: net adds or holders up 310 vs down 167; retail: moderate: 13 posts, 2 accounts; chart: below both (-8.7% / -20.2%), structure trend_down
+- **AMBA** earnings: beat, guide held or raised, revisions not down; insider: no buys; sells $2,963,921 (some outside a plan); institutional: net adds or holders up 182 vs down 123; retail: quiet with fundamentals: 4 posts, 3 accounts; chart: above the 200 (+2.2%) or breaking out; RS 3m 3.4800000000000004
+- **AVGO** earnings: beat, guide held or raised, revisions not down; insider: no buys; sells $20,840,209 (plan status unverified); institutional: net adds or holders up 3483 vs down 2447; retail: loud: 64 posts across 6 accounts; chart: below both (-7.1% / -5.0%), structure trend_down
+- **STIM** earnings: mixed print; insider: small buys $106,540; institutional: net adds or holders up 45 vs down 8; retail: quiet with fundamentals: 11 posts, 2 accounts; chart: above both averages, RS 3m 112.89999999999999
+- **DAL** earnings: beat, guide held or raised, revisions not down; insider: clustered or CEO selling $33,081,037, no buys; institutional: net adds or holders up 782 vs down 463; retail: quiet with fundamentals: 3 posts, 3 accounts; chart: above the 200 (+9.8%) or breaking out; RS 3m -1.8499999999999996
+- **RARE** earnings: mixed print; insider: no buys; sells $339,679 (plan status unverified); institutional: net adds or holders up 183 vs down 84; retail: quiet with fundamentals: 1 posts, 1 accounts; chart: below both (-35.3% / -40.3%), structure breakdown
+- **APLD** earnings: mixed print; insider: no buys; sells $2,336,250 (plan status unverified); institutional: net adds or holders up 310 vs down 117; retail: moderate: 17 posts, 4 accounts; chart: below both (-2.0% / -16.1%), structure trend_down
+- **GRRR** earnings: mixed print; insider: verified no qualifying insider activity; neutral, not positive conviction; institutional: net adds or holders up 26 vs down 8; retail: loud: 32 posts across 1 accounts; chart: above the 200 (+4.8%) or breaking out; RS 3m -20.52
+- **ORCL** earnings: beat, guide held or raised, revisions not down; cash conversion below 70% caps at 6; insider: no buys; sells $5,342,124 (plan status unverified); institutional: net adds or holders up 2629 vs down 2104; retail: loud: 39 posts across 7 accounts; chart: below both (-1.7% / -15.4%), structure trend_down
+- **WYFI** earnings: mixed print; insider: verified no qualifying insider activity; neutral, not positive conviction; institutional: net adds or holders up 70 vs down 6; short interest 50.49% of float; retail: loud after a -57% drawdown: capitulation watch; chart: below both (-9.6% / -5.9%), structure trend_down
+- **TXN** earnings: beat both, guide raised, revisions up; insider: no buys; sells $1,852,413 (plan status unverified); institutional: net adds or holders up 1595 vs down 1200; retail: quiet with fundamentals: 4 posts, 3 accounts; chart: above the 200 (+10.1%) or breaking out; RS 3m -18.689999999999998
+- **UBER** earnings: mixed print; insider: 2 buys, $15,314,016; institutional: net adds or holders up 1847 vs down 1063; retail: moderate: 10 posts, 5 accounts; chart: below both (-5.7% / -8.0%), structure trend_down
+- **ASML** earnings: beat both, guide raised, revisions up; insider: insider coverage unverified; no conviction credit; institutional: net adds or holders up 1496 vs down 909; retail: moderate: 23 posts, 7 accounts; chart: above the 200 (+13.2%) or breaking out; RS 3m -11.940000000000001
+- **WDC** earnings: beat both, guide raised, revisions up; cash conversion below 70% caps at 6; insider: clustered or CEO selling $15,777,915, no buys; institutional: net adds or holders up 1009 vs down 424; retail: quiet with fundamentals: 9 posts, 5 accounts; chart: above the 200 (+14.9%) or breaking out; RS 3m -38.82
+- **AMAT** earnings: beat both, guide raised, revisions up; cash conversion below 70% caps at 6; insider: no buys; sells $59,609,696 (plan status unverified); institutional: net adds or holders up 1918 vs down 1408; retail: quiet with fundamentals: 9 posts, 4 accounts; chart: above the 200 (+12.8%) or breaking out; RS 3m -34.49
+- **NVDA** earnings: beat both, guide raised, revisions up; cash conversion below 70% caps at 6; insider: no buys; sells $967,599,312 (plan status unverified); institutional: net adds or holders up 4283 vs down 3487; retail: loudest: 259 posts, 10 accounts, 3 high-conviction longs, near high; chart: above both averages, RS 3m 9.24
+- **LRCX** earnings: beat both, guide raised, revisions up; cash conversion below 70% caps at 6; insider: no buys; sells $58,329,210 (plan status unverified); institutional: net adds or holders up 1842 vs down 1199; retail: quiet with fundamentals: 11 posts, 4 accounts; chart: above the 200 (+13.7%) or breaking out; RS 3m -29.049999999999997
+- **NU** earnings: mixed print; cash conversion below 70% caps at 6; insider: insider coverage unverified; no conviction credit; institutional: net adds or holders up 594 vs down 302; retail: quiet with fundamentals: 5 posts, 3 accounts; chart: below the 200 (-8.5%) in a base
+- **AMZN** earnings: beat, guide held or raised, revisions not down; cash conversion below 70% caps at 6; insider: no buys; sells $365,022,212 (all 10b5-1); institutional: net adds or holders up 4634 vs down 3077; retail: loud: 76 posts across 9 accounts; chart: above the 200 (+3.6%) or breaking out; RS 3m 12.52
+- **VST** earnings: miss, guide cut, or revisions down; insider: small buys $1,173,069; institutional: net +3,094,073 sh, new 235 vs exited 135, named adds; retail: moderate: 9 posts, 4 accounts; chart: below both (-5.5% / -11.4%), structure trend_down
+- **BABA** earnings: miss, guide cut, or revisions down; cash conversion below 70% caps at 6; insider: 3 buys, $25,691,200; institutional: net adds or holders up 853 vs down 545; retail: loud after a -43% drawdown: capitulation watch; chart: below both (-6.2% / -16.4%), structure trend_down
+- **RDDT** earnings: beat, guide held or raised, revisions not down; insider: no buys; sells $50,058,820 (some outside a plan); institutional: net adds or holders up 647 vs down 277; retail: quiet with fundamentals: 7 posts, 3 accounts; chart: below both (-4.7% / -10.7%), structure trend_down
+- **SPCX** earnings: mixed print; insider: no buys; sells $52,546,493 (all 10b5-1); institutional: net adds or holders up 144 vs down 0; retail: loud: 82 posts across 6 accounts; chart: above the 200 (+3.5%) or breaking out; RS 3m 5.050000000000001
+- **GLW** earnings: beat, guide held or raised, revisions not down; insider: no buys; sells $3,485,642 (some outside a plan); institutional: net adds or holders up 1446 vs down 903; retail: quiet with fundamentals: 10 posts, 3 accounts; chart: above the 200 (+3.8%) or breaking out; RS 3m -37.88
+- **UUUU** earnings: miss, guide cut, or revisions down; insider: 2 buys, $1,018,700; institutional: net +18,866,054 sh, new 65 vs exited 48, named adds; retail: moderate: 3 posts, 3 accounts; chart: below both (-14.5% / -34.4%), structure breakdown
+- **CRDO** earnings: beat, guide held or raised, revisions not down; insider: clustered or CEO selling $101,508,977, no buys; institutional: net adds or holders up 582 vs down 277; retail: loud: 68 posts across 5 accounts; chart: above the 200 (+11.3%) or breaking out; RS 3m -32.38
+- **OSCR** earnings: beat both, guide raised, revisions up; insider: clustered or CEO selling $25,707,525, no buys; institutional: net adds or holders up 204 vs down 94; retail: loud: 89 posts across 1 accounts; chart: above the 200 (+34.2%) or breaking out; RS 3m -8.450000000000001
+- **ACHR** earnings: mixed print; insider: no buys; sells $1,690,731 (plan status unverified); institutional: net +14,982,467 sh, new 82 vs exited 79, named adds; retail: moderate: 3 posts, 3 accounts; chart: below the 200 (-9.4%) in a base
+- **IREN** earnings: miss, guide cut, or revisions down; insider: verified no qualifying insider activity; neutral, not positive conviction; institutional: net adds or holders up 319 vs down 90; retail: loud: 71 posts across 6 accounts; chart: above the 200 (+1.2%) or breaking out; RS 3m -8.82
+- **AKAM** earnings: miss, guide cut, or revisions down; insider: no buys; sells $720,440 (all 10b5-1); institutional: net adds or holders up 392 vs down 247; retail: moderate: 4 posts, 2 accounts; chart: below the 200 (-0.5%) in a base
+- **RKLB** earnings: mixed print; insider: clustered or CEO selling $303,448,138, no buys; institutional: net +32,527,328 sh, new 329 vs exited 79, named adds; retail: loud: 45 posts across 7 accounts; chart: below the 200 (-9.1%) in a base
+- **PLPC** earnings: mixed print; insider: clustered or CEO selling $3,009,746, no buys; institutional: net adds or holders up 91 vs down 37; retail: quiet with fundamentals: 0 posts, 0 accounts; chart: above both averages, RS 3m 14.43
+- **WULF** earnings: miss, guide cut, or revisions down; insider: small buys $189,916; institutional: net adds or holders up 289 vs down 103; short interest 34.67% of float; retail: moderate: 12 posts, 2 accounts; chart: below both (-3.6% / -9.8%), structure trend_down
+- **EOSE** earnings: miss, guide cut, or revisions down; insider: small buys $58,700; institutional: net +28,038,849 sh, new 79 vs exited 45, named adds; short interest 33.65% of float; retail: moderate: 11 posts, 2 accounts; chart: below both (-14.3% / -58.0%), structure trend_down
+- **APP** earnings: miss, guide cut, or revisions down; insider: no buys; sells $1,603,489 (all 10b5-1); institutional: net adds or holders up 1204 vs down 689; retail: moderate: 12 posts, 2 accounts; chart: below both (-9.7% / -33.3%), structure trend_down
+- **ONDS** earnings: miss, guide cut, or revisions down; cash conversion below 70% caps at 6; insider: no buys; sells $67,177 (all 10b5-1); institutional: net adds or holders up 214 vs down 41; short interest 42.19% of float; retail: moderate: 23 posts, 3 accounts; chart: below both (-4.8% / -19.8%), structure trend_down
+- **CIFR** earnings: miss, guide cut, or revisions down; insider: no buys; sells $4,935,375 (plan status unverified); institutional: net adds or holders up 260 vs down 82; retail: moderate: 23 posts, 3 accounts; chart: below the 200 (-1.5%) in a base
+- **SOFI** earnings: beat, guide held or raised, revisions not down; cash conversion below 70% caps at 6; insider: no buys; sells $890,704 (all 10b5-1); institutional: net adds or holders up 668 vs down 282; retail: loud: 29 posts across 3 accounts; chart: below both (-4.5% / -12.8%), structure trend_down
+- **CAT** earnings: beat both, guide raised, revisions up; insider: no buys; sells $26,211,761 (some outside a plan); institutional: net adds or holders up 2540 vs down 1817; retail: quiet with fundamentals: 4 posts, 4 accounts; chart: above the 200 (+2.1%) or breaking out; RS 3m -15.52
+- **ANET** earnings: beat both, guide raised, revisions up; insider: clustered or CEO selling $857,795,311, no buys; institutional: net adds or holders up 1474 vs down 939; retail: quiet with fundamentals: 6 posts, 3 accounts; chart: above both averages, RS 3m 18.839999999999996
+- **VIAV** earnings: beat both, guide raised, revisions up; insider: clustered or CEO selling $8,405,393, no buys; institutional: net adds or holders up 259 vs down 127; retail: quiet with fundamentals: 3 posts, 3 accounts; chart: above the 200 (+3.2%) or breaking out; RS 3m -31.68
+- **GEV** earnings: beat, guide held or raised, revisions not down; insider: verified no qualifying insider activity; neutral, not positive conviction; institutional: net +6,931,187 sh, new 500 vs exited 134, named adds; retail: moderate: 13 posts, 4 accounts; chart: above the 200 (+5.1%) or breaking out; RS 3m -3.719999999999999
+- **LITE** earnings: beat both, guide raised, revisions up; insider: clustered or CEO selling $63,123,980, no buys; institutional: net adds or holders up 670 vs down 290; retail: loud: 26 posts across 4 accounts; chart: above both averages, RS 3m 2.29
+- **ON** earnings: beat both, guide raised, revisions up; insider: verified no qualifying insider activity; neutral, not positive conviction; institutional: net adds or holders up 399 vs down 306; retail: quiet with fundamentals: 9 posts, 3 accounts; chart: below both (-6.2% / -8.3%), structure trend_down
+- **SNDK** earnings: beat both, guide raised, revisions up; insider: no buys; sells $121,370,866 (all 10b5-1); institutional: net adds or holders up 897 vs down 196; retail: loud: 121 posts across 7 accounts; chart: above the 200 (+59.4%) or breaking out; RS 3m -30.39
+- **SNOW** earnings: beat both, guide raised, revisions up; insider: clustered or CEO selling $555,829,747, no buys; institutional: net adds or holders up 889 vs down 503; retail: moderate: 14 posts, 3 accounts; chart: above both averages, RS 3m 41.61
+- **STLN** earnings: mixed print; insider: small buys $261,090; institutional: net adds or holders up 74 vs down 22; retail: moderate: 16 posts, 1 accounts; chart: above both averages, RS 3m 18.0
+- **ISRG** earnings: beat, guide held or raised, revisions not down; insider: no buys; sells $4,980,791 (all 10b5-1); institutional: net adds or holders up 1616 vs down 1003; retail: quiet with fundamentals: 4 posts, 3 accounts; chart: below the 200 (-11.6%) in a base
+- **GOOGL** earnings: mixed print; cash conversion below 70% caps at 6; insider: no buys; sells $3,540,328 (all 10b5-1); institutional: net adds or holders up 3756 vs down 3288; retail: loud: 90 posts across 5 accounts; chart: above the 200 (+1.3%) or breaking out; RS 3m -8.36
+- **CRM** earnings: mixed print; insider: small buys $999,451; institutional: net adds or holders up 2003 vs down 1565; retail: moderate: 23 posts, 4 accounts; chart: above both averages, RS 3m 53.12
+- **COHR** earnings: beat both, guide raised, revisions up; cash conversion below 70% caps at 6; insider: clustered or CEO selling $8,491,314, no buys; institutional: net adds or holders up 709 vs down 359; retail: quiet with fundamentals: 6 posts, 3 accounts; chart: above the 200 (+1.8%) or breaking out; RS 3m -34.13
+- **CCJ** earnings: miss, guide cut, or revisions down; insider: insider coverage unverified; no conviction credit; institutional: net +5,122,203 sh, new 127 vs exited 100, named adds; retail: moderate: 3 posts, 3 accounts; chart: below both (-7.0% / -16.7%), structure trend_down
+- **MU** earnings: beat both, guide raised, revisions up; cash conversion below 70% caps at 6; insider: clustered or CEO selling $182,156,235, no buys; institutional: net adds or holders up 2462 vs down 1246; retail: loudest: 242 posts, 9 accounts, 3 high-conviction longs, near high; chart: above the 200 (+64.5%) or breaking out; RS 3m -16.450000000000003
+- **SKHY** earnings: mixed print; cash conversion below 70% caps at 6; insider: insider coverage unverified; no conviction credit; institutional: not cleanly measurable; retail: loudest: 112 posts, 5 accounts, 3 high-conviction longs, near high; chart: above the 200 (+13.7%) or breaking out; RS 3m None
+- **PYPL** earnings: beat, guide held or raised, revisions not down; insider: no buys; sells $848,121 (all 10b5-1); institutional: net adds or holders up 960 vs down 906; retail: moderate: 14 posts, 4 accounts; chart: above the 200 (+4.2%) or breaking out; RS 3m 22.1
+- **ALAB** earnings: beat both, guide raised, revisions up; insider: no buys; sells $209,459,339 (plan status unverified); institutional: net adds or holders up 605 vs down 257; retail: moderate: 15 posts, 4 accounts; chart: above the 200 (+53.2%) or breaking out; RS 3m -14.91
+- **ARM** earnings: beat both, guide raised, revisions up; insider: no buys; sells $5,775,432 (plan status unverified); institutional: net adds or holders up 427 vs down 225; retail: moderate: 13 posts, 5 accounts; chart: above the 200 (+45.2%) or breaking out; RS 3m -17.39
+- **SE** earnings: miss, guide cut, or revisions down; insider: insider coverage unverified; no conviction credit; institutional: net adds or holders up 89 vs down 44; retail: loud: 43 posts across 2 accounts; chart: below both (-9.3% / -2.9%), structure trend_down
+- **ABCL** earnings: miss, guide cut, or revisions down; insider: verified no qualifying insider activity; neutral, not positive conviction; institutional: net adds or holders up 77 vs down 29; retail: moderate: 3 posts, 3 accounts; chart: above both averages, RS 3m 80.78999999999999
+- **GS** earnings: mixed print; cash conversion below 70% caps at 6; insider: clustered or CEO selling $1,092,676, no buys; institutional: net adds or holders up 2056 vs down 1370; retail: quiet with fundamentals: 4 posts, 3 accounts; chart: below both (-9.8% / -3.7%), structure breakdown
+- **AMKR** earnings: miss, guide cut, or revisions down; cash conversion below 70% caps at 6; insider: no buys; sells $3,974,597 (plan status unverified); institutional: net adds or holders up 324 vs down 153; retail: moderate: 4 posts, 3 accounts; chart: below the 200 (-7.6%) in a base
+- **ADUR** earnings: miss, guide cut, or revisions down; insider: insider coverage unverified; no conviction credit; institutional: net adds or holders up 15 vs down 1; retail: loud: 105 posts across 1 accounts; chart: below both (-11.1% / -4.5%), structure trend_down
+- **META** earnings: miss, guide cut, or revisions down; cash conversion below 70% caps at 6; insider: no buys; sells $82,728,510 (some outside a plan); institutional: net adds or holders up 3968 vs down 2687; retail: loudest: 140 posts, 12 accounts, 3 high-conviction longs, near high; chart: above the 200 (+24.2%) or breaking out; RS 3m 35.27
+- **AAOI** earnings: miss, guide cut, or revisions down; insider: no buys; sells $6,671,570 (some outside a plan); institutional: net adds or holders up 197 vs down 54; retail: moderate: 12 posts, 4 accounts; chart: below both (-9.5% / -5.3%), structure trend_down
+- **CRWV** earnings: miss, guide cut, or revisions down; insider: insider coverage unverified; no conviction credit; institutional: net adds or holders up 667 vs down 150; retail: loud: 54 posts across 6 accounts; chart: below the 200 (-2.2%) in a base
+- **NKE** earnings: miss, guide cut, or revisions down; insider: no buys; sells $771,333 (some outside a plan); institutional: net adds or holders up 1170 vs down 1011; retail: moderate: 20 posts, 2 accounts; chart: below both (-9.7% / -27.5%), structure trend_down
+- **AI** earnings: beat, guide held or raised, revisions not down; insider: clustered or CEO selling $16,872,672, no buys; institutional: net adds or holders up 145 vs down 63; short interest 32.88% of float; retail: quiet with fundamentals: 0 posts, 0 accounts; chart: above the 200 (+3.5%) or breaking out; RS 3m 17.479999999999997
+- **ASTS** earnings: miss, guide cut, or revisions down; insider: small buys $619,200; institutional: net +9,364,085 sh, new 180 vs exited 102, named adds; short interest 34.17% of float; retail: loud after a -54% drawdown: capitulation watch; chart: below the 200 (-25.2%) in a base
+- **NBIS** earnings: miss, guide cut, or revisions down; cash conversion below 70% caps at 6; insider: no buys; sells $46,328,029 (plan status unverified); institutional: net adds or holders up 571 vs down 199; retail: loud: 163 posts across 7 accounts; chart: above the 200 (+49.0%) or breaking out; RS 3m -10.61
+- **PSNL** earnings: mixed print; insider: no buys; sells $5,350,153 (plan status unverified); institutional: net adds or holders up 64 vs down 35; retail: loud: 33 posts across 1 accounts; chart: above the 200 (+60.6%) or breaking out; RS 3m 22.46
+
+Forward quality (separate from the legacy total; unknown is not zero):
+
+- **NXPI**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=73.33; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=68.00; peg=0.76; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **CSCO**: 1/3 covered checkpoints passed (6 possible); analyst_buy_pct=67.86; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=2.25; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **UNH**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=85.19; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=16.00; peg=1.37; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **KURA**: 1/1 covered checkpoints passed (6 possible); analyst_buy_pct=93.33; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=n/f; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - periods_aligned must confirm consecutive fiscal years, consistent currency/units/accounting
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **GRAB**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=100.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=50.00; peg=3.11; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **AMBA**: 1/3 covered checkpoints passed (6 possible); analyst_buy_pct=42.86; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=66.67; peg=2.21; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **AVGO**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=94.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=17.39; peg=0.45; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **STIM**: 1/1 covered checkpoints passed (6 possible); analyst_buy_pct=100.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=n/f; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - periods_aligned must confirm consecutive fiscal years, consistent currency/units/accounting
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **DAL**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=96.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=-16.67; peg=0.37; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **RARE**: 0/1 covered checkpoints passed (6 possible); analyst_buy_pct=55.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=n/f; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - periods_aligned must confirm consecutive fiscal years, consistent currency/units/accounting
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **APLD**: 1/1 covered checkpoints passed (6 possible); analyst_buy_pct=85.71; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **GRRR**: 1/1 covered checkpoints passed (6 possible); analyst_buy_pct=100.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ORCL**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=81.40; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=10.81; peg=0.49; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **WYFI**: 1/2 covered checkpoints passed (6 possible); analyst_buy_pct=90.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **TXN**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=55.56; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=96.15; peg=1.70; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **UBER**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=82.35; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=65.79; peg=0.66; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ASML**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=90.70; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=90.32; peg=1.13; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **WDC**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=80.77; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=0.39; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **AMAT**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=84.62; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=93.33; peg=0.84; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **NVDA**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=95.08; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=74.51; peg=0.35; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **LRCX**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=82.86; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=6.67; peg=1.38; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **NU**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=81.82; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=40.00; peg=0.57; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.enterprise_value: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **AMZN**: 2/2 covered checkpoints passed (6 possible); analyst_buy_pct=96.67; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=7.69; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **VST**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=95.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=-28.57; peg=0.79; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **BABA**: 1/2 covered checkpoints passed (6 possible); analyst_buy_pct=95.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=-20.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - periods_aligned must confirm consecutive fiscal years, consistent currency/units/accounting
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **RDDT**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=64.71; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=0.76; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **SPCX**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=80.56; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=26.67; peg=0.83; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **GLW**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=76.47; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=66.67; peg=1.44; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **UUUU**: 1/2 covered checkpoints passed (6 possible); analyst_buy_pct=100.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **CRDO**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=94.74; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=63.16; peg=0.58; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **OSCR**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=27.27; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=100.00; peg=1.11; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ACHR**: 1/2 covered checkpoints passed (6 possible); analyst_buy_pct=66.67; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **IREN**: 2/2 covered checkpoints passed (6 possible); analyst_buy_pct=82.35; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=25.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **AKAM**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=60.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=4.00; peg=2.12; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **RKLB**: 1/2 covered checkpoints passed (6 possible); analyst_buy_pct=80.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **PLPC**: 0/1 covered checkpoints passed (6 possible); analyst_buy_pct=50.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=n/f; ev_fcf=n/f
+  - fy1.revenue: missing, invalid, future-dated or older than 120 days
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.eps: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.revenue: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.eps: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - periods_aligned must confirm consecutive fiscal years, consistent currency/units/accounting
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **WULF**: 1/2 covered checkpoints passed (6 possible); analyst_buy_pct=100.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=-50.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **EOSE**: 0/2 covered checkpoints passed (6 possible); analyst_buy_pct=36.36; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=-66.67; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **APP**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=81.82; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=0.72; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ONDS**: 1/2 covered checkpoints passed (6 possible); analyst_buy_pct=100.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **CIFR**: 1/1 covered checkpoints passed (6 possible); analyst_buy_pct=100.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **SOFI**: 1/3 covered checkpoints passed (6 possible); analyst_buy_pct=34.62; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=0.76; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **CAT**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=50.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=7.69; peg=1.55; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ANET**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=100.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=92.86; peg=1.90; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **VIAV**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=87.50; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=87.50; peg=1.20; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **GEV**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=81.08; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=-5.00; peg=0.96; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **LITE**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=84.62; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=84.00; peg=0.72; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ON**: 1/3 covered checkpoints passed (6 possible); analyst_buy_pct=44.83; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=0.55; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **SNDK**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=84.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=23.81; peg=0.35; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **SNOW**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=86.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=66.67; peg=4.19; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **STLN**: 1/1 covered checkpoints passed (6 possible); analyst_buy_pct=100.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=n/f; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.eps: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.eps: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - periods_aligned must confirm consecutive fiscal years, consistent currency/units/accounting
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ISRG**: 1/3 covered checkpoints passed (6 possible); analyst_buy_pct=75.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=3.05; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **GOOGL**: 2/2 covered checkpoints passed (6 possible); analyst_buy_pct=91.94; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=11.76; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **CRM**: 1/1 covered checkpoints passed (6 possible); analyst_buy_pct=69.64; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.revenue: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.eps: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - periods_aligned must confirm consecutive fiscal years, consistent currency/units/accounting
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **COHR**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=78.26; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=81.82; peg=0.64; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **CCJ**: 1/2 covered checkpoints passed (6 possible); analyst_buy_pct=90.48; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - periods_aligned must confirm consecutive fiscal years, consistent currency/units/accounting
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **MU**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=91.84; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=0.13; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **SKHY**: 3/3 covered checkpoints passed (6 possible); analyst_buy_pct=93.33; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=12.82; peg=0.16; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.enterprise_value: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **PYPL**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=16.28; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=78.57; peg=1.31; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ALAB**: 2/2 covered checkpoints passed (6 possible); analyst_buy_pct=73.08; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=1.53; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ARM**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=65.12; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=58.97; peg=3.69; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **SE**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=96.55; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=0.74; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ABCL**: 1/1 covered checkpoints passed (6 possible); analyst_buy_pct=100.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=n/f; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - periods_aligned must confirm consecutive fiscal years, consistent currency/units/accounting
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **GS**: 0/3 covered checkpoints passed (6 possible); analyst_buy_pct=28.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=0.00; peg=2.79; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.enterprise_value: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **AMKR**: 2/3 covered checkpoints passed (6 possible); analyst_buy_pct=63.64; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=66.67; peg=2.20; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ADUR**: 1/2 covered checkpoints passed (6 possible); analyst_buy_pct=100.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=-50.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - periods_aligned must confirm consecutive fiscal years, consistent currency/units/accounting
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **META**: 1/3 covered checkpoints passed (6 possible); analyst_buy_pct=90.32; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=-17.65; peg=2.07; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **AAOI**: 1/3 covered checkpoints passed (6 possible); analyst_buy_pct=50.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=-33.33; peg=0.26; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **CRWV**: 2/2 covered checkpoints passed (6 possible); analyst_buy_pct=70.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=5.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **NKE**: 1/3 covered checkpoints passed (6 possible); analyst_buy_pct=23.81; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=-11.43; peg=0.63; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **AI**: 1/2 covered checkpoints passed (6 possible); analyst_buy_pct=0.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=71.43; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **ASTS**: 0/2 covered checkpoints passed (6 possible); analyst_buy_pct=35.71; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=-50.00; peg=n/f; ev_fcf=n/f
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **NBIS**: 1/2 covered checkpoints passed (6 possible); analyst_buy_pct=55.56; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=14.29; peg=n/f; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days
+- **PSNL**: 0/1 covered checkpoints passed (6 possible); analyst_buy_pct=40.00; operating_margin_expansion_pp=n/f; fcf_margin_expansion_pp=n/f; fcf_growth_pct=n/f; forward_roic_pct=n/f; roic_wacc_spread_pp=n/f; eps_revision_breadth_pct=n/f; peg=n/f; ev_fcf=n/f
+  - fy1.ebit: missing, invalid, future-dated or older than 120 days
+  - fy1.cfo: missing, invalid, future-dated or older than 120 days
+  - fy1.capex: missing, invalid, future-dated or older than 120 days
+  - fy1.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy1.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - fy2.ebit: missing, invalid, future-dated or older than 120 days
+  - fy2.cfo: missing, invalid, future-dated or older than 120 days
+  - fy2.capex: missing, invalid, future-dated or older than 120 days
+  - fy2.tax_rate_pct: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_begin: missing, invalid, future-dated or older than 120 days
+  - fy2.invested_capital_end: missing, invalid, future-dated or older than 120 days
+  - periods_aligned must confirm consecutive fiscal years, consistent currency/units/accounting
+  - revisions.up_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.down_30d: missing, invalid, future-dated or older than 120 days
+  - revisions.analysts: missing, invalid, future-dated or older than 120 days
+  - valuation.wacc_pct: missing, invalid, future-dated or older than 120 days

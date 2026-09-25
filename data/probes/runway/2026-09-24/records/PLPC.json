@@ -1,0 +1,768 @@
+{
+ "ticker": "PLPC",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 429.82,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 504.69,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 184.02,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -14.83,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 7.43,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 33.16,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "sma20_pct": {
+   "value": 5.18,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "fifty_above_200": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24",
+   "note": "derived: price sits further above the 200-day than the 50-day"
+  },
+  "perf_1m_pct": {
+   "value": 4.11,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 6.13,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLI",
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -5.36,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -8.3,
+   "source": "https://finviz.com/quote.ashx?t=XLI",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24",
+   "note": "14.8% below the 504.69 high, 7.4% above the 50-day and 33% above the 200-day; the Jul 30 +30% print gap held and extended; XLI as sector ETF"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/plpc/history/",
+   "as_of": "2026-09-24",
+   "note": "print-day close 2026-07-30 368.46 (+29.96% vs 2026-07-29 close 283.51); five sessions later 2026-08-06 460.75 (+62.52%). gap up held above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: StockAnalysis forecast page 404 (coverage too thin), as in the failure log"
+  },
+  "analysts": {
+   "value": 2,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat: 2 analysts in 12 months, \"Buy\" (1 hold, 1 strong buy)"
+  },
+  "pt_avg": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: only price target on record is Loop Capital $275 set 2026-03-09, stale and 36% below the price; not used as a consensus"
+  },
+  "pt_high": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: see pt_avg"
+  },
+  "pt_low": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: see pt_avg"
+  },
+  "pt_avg_alt": {
+   "value": 275.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/forecast/",
+   "as_of": "2026-03-09",
+   "note": "single stale Loop Capital target, recorded for completeness only"
+  },
+  "finviz_target": {
+   "value": 480.0,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24",
+   "note": "Finviz target 480 with Recom 1.00; the contributing analyst is not named on the page"
+  },
+  "upside_pct": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no current consensus target"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-08-04",
+     "broker": "Freedom Capital",
+     "action": "upgrade Hold to Strong Buy",
+     "target": null,
+     "reason": "post-print; target not shown on MarketBeat"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/forecast/",
+   "as_of": "2026-09-24",
+   "note": "Weiss downgrade 2026-09-18 excluded"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-29",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+   "as_of": "2026-07-29"
+  },
+  "revenue_actual": {
+   "value": 212.68,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+   "as_of": "2026-07-29",
+   "note": "USD m"
+  },
+  "revenue_estimate": {
+   "value": 193.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+   "as_of": "2026-07-29",
+   "note": "USD m, consensus at the print"
+  },
+  "eps_actual": {
+   "value": 4.49,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+   "as_of": "2026-07-29",
+   "note": "adjusted"
+  },
+  "eps_estimate": {
+   "value": 2.41,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+   "as_of": "2026-07-29",
+   "note": "MarketBeat consensus at the print, thin coverage (likely one or two estimates)"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://www.prnewswire.com/news-releases/preformed-line-products-announces-record-second-quarter-2026-financial-results-302837970.html",
+   "as_of": "2026-07-29"
+  },
+  "guide_detail": {
+   "value": "The company issues no quantitative guidance as a matter of policy. Record Q2: net sales +25% y/y and +21% q/q, USA sales +32%, gross margin 34.3% (+160 bp y/y), diluted EPS $4.49 (+75%).",
+   "source": "https://www.prnewswire.com/news-releases/preformed-line-products-announces-record-second-quarter-2026-financial-results-302837970.html",
+   "as_of": "2026-07-29"
+  },
+  "reaction_day_pct": {
+   "value": 29.96,
+   "source": "https://stockanalysis.com/stocks/plpc/history/",
+   "as_of": "2026-07-30",
+   "note": "close 2026-07-30 vs close 2026-07-29"
+  },
+  "reaction_5d_pct": {
+   "value": 62.52,
+   "source": "https://stockanalysis.com/stocks/plpc/history/",
+   "as_of": "2026-08-06",
+   "note": "close 2026-08-06 vs pre-print close 2026-07-29"
+  },
+  "revisions_30d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo analysis page carries no estimate tables for PLPC; StockAnalysis forecast 404"
+  },
+  "revisions_90d": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo analysis page carries no estimate tables for PLPC; StockAnalysis forecast 404"
+  },
+  "eps_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Yahoo analysis page carries no estimate tables for PLPC; StockAnalysis forecast 404"
+  },
+  "fcf_ttm": {
+   "value": 34.42,
+   "source": "https://stockanalysis.com/stocks/plpc/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD m, trailing four quarters"
+  },
+  "net_income_ttm": {
+   "value": 43.09,
+   "source": "https://stockanalysis.com/stocks/plpc/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD m, GAAP"
+  },
+  "sbc_pct_revenue": {
+   "value": 0.96,
+   "source": "https://stockanalysis.com/stocks/plpc/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "trailing four quarters SBC / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: utility grid hardening and fiber build-outs drive record US energy and communications sales, with gross margin rising to 34%.",
+   "source": "https://www.prnewswire.com/news-releases/preformed-line-products-announces-record-second-quarter-2026-financial-results-302837970.html",
+   "as_of": "2026-07-29"
+  },
+  "depends_on": {
+   "value": "Sustaining Q2 net sales near $213M and 34% gross margin in H2 2026",
+   "source": "https://www.prnewswire.com/news-releases/preformed-line-products-announces-record-second-quarter-2026-financial-results-302837970.html",
+   "as_of": "2026-07-29"
+  },
+  "bear_case": {
+   "value": "Bears: one quarter of margin may not repeat, 30x forward PE for an industrial, a 2.6M-share float with no real coverage, and the 10% owner selling",
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "reported",
+   "source": "https://www.prnewswire.com/news-releases/preformed-line-products-announces-record-second-quarter-2026-financial-results-302837970.html",
+   "as_of": "2026-07-29"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "HUBB",
+    "ATKR"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": null,
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    29.68,
+    29.82,
+    31.33,
+    34.33
+   ],
+   "source": "https://stockanalysis.com/stocks/plpc/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "GAAP gross margin, oldest to newest, last four reported quarters"
+  },
+  "fwd_pe": {
+   "value": 30.14,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward PE 31.79"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "HUBB": 20.34,
+    "ATKR": 14.91
+   },
+   "source": "https://finviz.com/quote.ashx?t=HUBB",
+   "as_of": "2026-09-24",
+   "note": "Finviz Forward P/E for each peer, fetched 2026-09-24"
+  },
+  "ev_sales": {
+   "value": 2.81,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "HUBB": 4.79,
+    "ATKR": 1.28
+   },
+   "source": "https://finviz.com/quote.ashx?t=HUBB",
+   "as_of": "2026-09-24",
+   "note": "Finviz EV/Sales for each peer"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute found in the sources read"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table (saved HTML) runs back before 2026-06-26, so the full trailing 90 days are covered; Form 144 \"Proposed Sale\" and option-exercise rows excluded; each sale checked against its EDGAR Form 4 for the 10b5-1 flag"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in the 90 days to 2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-08",
+     "name": "RUHLMAN RANDALL M",
+     "role": "10% Owner",
+     "role_full": "10% Owner",
+     "shares": 5000,
+     "price": 407.78,
+     "usd": 2038900,
+     "held_after": 446609,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/80035/000125749326000007/xslF345X06/wk-form4_1788985050.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 filed Sep 09 04:17 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-04",
+     "name": "RUHLMAN RANDALL M",
+     "role": "10% Owner",
+     "role_full": "10% Owner",
+     "shares": 142,
+     "price": 400.04,
+     "usd": 56806,
+     "held_after": 451609,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/80035/000125749326000007/xslF345X06/wk-form4_1788985050.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 filed Sep 09 04:17 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-05",
+     "name": "CORLETT GLEN E",
+     "role": "Director",
+     "role_full": "Director",
+     "shares": 2000,
+     "price": 457.02,
+     "usd": 914040,
+     "held_after": 0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/80035/000118861526000005/xslF345X06/wk-form4_1786047811.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 filed Aug 06 04:23 PM; plan status read from the Form 4 checkbox and footnotes"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24",
+   "note": "3 open-market sales, $3,009,746 total; 2 unique sellers; 0 flagged 10b5-1 on the Form 4; 10% owner Randall Ruhlman sold $2.1M, director Glen Corlett sold his whole 2,000-share holding; none flagged 10b5-1"
+  },
+  "finviz_net_change_pct": {
+   "value": -0.3,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24",
+   "note": "Finviz 6-month insider transaction %"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle in the MarketBeat holder table (filings dated Jul-Sep 2026)"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no share-count net flow published free; Fintel 403 per failure log, MarketBeat gives dollars only"
+  },
+  "holders_up": {
+   "value": 91,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals not used (CalSTRS rule)."
+  },
+  "holders_down": {
+   "value": 37,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals not used (CalSTRS rule)."
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Tidal Investments LLC",
+     "change_pct": 138.3,
+     "shares": 10027,
+     "filed": "2026-09-09"
+    },
+    {
+     "fund": "B. Metzler seel. Sohn & Co. AG",
+     "change_pct": 285.3,
+     "shares": 8083,
+     "filed": "2026-08-21"
+    },
+    {
+     "fund": "Susquehanna International Group LLP",
+     "change_pct": 35.6,
+     "shares": 7333,
+     "filed": "2026-08-20"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "Q2 2026 13F rows with >=0.1% of the company and a >=25% increase or a new position; "
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "no full exit (-100%) among material holders in the latest 100 13F rows"
+  },
+  "named_cuts": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "material holders cutting >=25% in the latest 13F rows"
+  },
+  "inst_own_pct": {
+   "value": 41.19,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_change_pct": {
+   "value": 5.61,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24",
+   "note": "secondary directional proxy"
+  },
+  "short_pct_float": {
+   "value": 4.52,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "MarketBeat settlement 2026-09-15, 148,104 shares; Finviz shows 5.81% float / 1.58 DTC undated"
+  },
+  "days_to_cover": {
+   "value": 2.2,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_pct_float_finviz": {
+   "value": 5.81,
+   "source": "https://finviz.com/quote.ashx?t=PLPC",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-28",
+    "event": "Q3 2026 earnings (MarketBeat/StockAnalysis estimate; timing before open vs after close conflicts)",
+    "confirmed": false
+   },
+   {
+    "date": "2027-03-03",
+    "event": "Q4 2026 earnings (estimated)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/earnings/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": "Not applicable: 14.8% below the 52-week high.",
+  "source": "https://finviz.com/quote.ashx?t=PLPC",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": false,
+  "currency": "USD",
+  "units": "millions (EPS per share)",
+  "accounting_basis": "revenue GAAP; EPS non-GAAP adjusted consensus",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "no consensus estimates found: StockAnalysis forecast 404, Yahoo analysis tables empty",
+  "model_assumptions": "none; no modelled leaves",
+  "fcf_basis": "CFO minus capex (levered); forward FCF not filled",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no consensus published"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EBIT consensus published"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward CFO not published free; not modelled"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward capex not published free; not modelled"
+   },
+   "eps": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EPS consensus published"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no consensus published"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: StockAnalysis FY2 operating income is behind the Pro paywall; Yahoo gives no EBIT"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward CFO not published free; not modelled"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward capex not published free; not modelled"
+   },
+   "eps": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no EPS consensus published"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 1,
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "MarketBeat population of 2; strong buy grouped with buy"
+   },
+   "hold": {
+    "value": 1,
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "MarketBeat population of 2"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://www.marketbeat.com/stocks/NASDAQ/PLPC/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "MarketBeat population of 2"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo has no revisions table for this name"
+   },
+   "down_30d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo has no revisions table for this name"
+   },
+   "analysts": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no analyst count"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7d and 30d counts only"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7d and 30d counts only"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 429.82,
+    "source": "https://finviz.com/quote.ashx?t=PLPC",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 2080.0,
+    "source": "https://finviz.com/quote.ashx?t=PLPC",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "USD m, Finviz"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modelled"
+   }
+  },
+  "evidence": {
+   "finviz_growth": {
+    "value": {
+     "eps_this_y_pct": 52.53,
+     "eps_next_y_pct": 7.46,
+     "forward_pe": 30.14
+    },
+    "source": "https://finviz.com/quote.ashx?t=PLPC",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Finviz shows growth rates and a forward PE but no EPS level; not converted into an EPS figure"
+   }
+  },
+  "periods_aligned_note": "no forward estimates to align (https://finance.yahoo.com/quote/PLPC/analysis/, 2026-09-24)"
+ },
+ "judgment": {
+  "prospect_pts": 6,
+  "prospect_why": "record Q2: GM 34.3%, EPS +75%, grid hardening and fiber build",
+  "competition_pts": 5,
+  "competition_why": "GM 29.7 to 34.3% rising; fwd P/E 30 above HUBB and ATKR",
+  "macro_fit_pts": 4,
+  "macro_fit_why": "materials/industrials 4",
+  "narrative_pts": 4,
+  "narrative_why": "grid theme improving; uncovered by the Street",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

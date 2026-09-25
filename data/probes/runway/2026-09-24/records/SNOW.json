@@ -1,0 +1,1209 @@
+{
+ "ticker": "SNOW",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T22:30:55+00:00",
+ "price": {
+  "close": {
+   "value": 334.0,
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 384.56,
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 118.3,
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 5.79,
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 48.78,
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 5.36,
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 47.1,
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24",
+   "note": "+5.8% vs 50-day, +48.8% vs 200-day, 13% below the 3 Sep high after a post-print pullback; judgment by the research subagent from the listed data, not a sourced fact"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/snow/history/",
+   "as_of": "2026-09-24",
+   "note": "print-reaction day 2026-09-03 +16.55% (close 356.47 vs prior 305.84); five sessions later 2026-09-11 close 328.99 (-7.71% from print day, +7.57% vs pre-print close). true = the five-session close stayed at or above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/snow/forecast/",
+   "as_of": "2026-09-24",
+   "note": "S&P Global: strong buy 34, buy 9, hold 6, sell 0, strong sell 1; Finviz Recom 1.36"
+  },
+  "analysts": {
+   "value": 50,
+   "source": "https://stockanalysis.com/stocks/snow/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 425.19,
+   "source": "https://stockanalysis.com/stocks/snow/forecast/",
+   "as_of": "2026-09-24",
+   "note": "47 targets; median 447; Finviz Target Price 440.54"
+  },
+  "pt_high": {
+   "value": 525,
+   "source": "https://stockanalysis.com/stocks/snow/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 110,
+   "source": "https://stockanalysis.com/stocks/snow/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat price-target page not fetched; StockAnalysis and Finviz means agree within 10%"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-18",
+     "broker": "Morgan Stanley",
+     "action": "maintain",
+     "rating": "Buy",
+     "target": 470,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-16",
+     "broker": "StoneX",
+     "action": "reiterate",
+     "rating": "Buy",
+     "target": 400,
+     "target_prior": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-04",
+     "broker": "Mizuho Securities",
+     "action": "maintain (raise target)",
+     "rating": "Buy",
+     "target": 425,
+     "target_prior": 355,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-04",
+     "broker": "Argus Research",
+     "action": "maintain (raise target)",
+     "rating": "Buy",
+     "target": 450,
+     "target_prior": 300,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "Goldman Sachs",
+     "action": "maintain (raise target)",
+     "rating": "Buy",
+     "target": 436,
+     "target_prior": 300,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "Monness",
+     "action": "maintain (raise target)",
+     "rating": "Buy",
+     "target": 450,
+     "target_prior": 380,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "Raymond James",
+     "action": "maintain (raise target)",
+     "rating": "Buy",
+     "target": 425,
+     "target_prior": 275,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-03",
+     "broker": "Deutsche Bank ",
+     "action": "reiterate (raise target)",
+     "rating": "Buy",
+     "target": 400,
+     "target_prior": 350,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/snow/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis free tier shows only the 8 most recent actions; older actions inside 60 days may be missing"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-09-02",
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 1550000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 1480000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 0.62,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
+   "as_of": "2026-09-24",
+   "note": "non-GAAP EPS; GAAP EPS -$0.55"
+  },
+  "eps_estimate": {
+   "value": 0.4468,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "FY27 product revenue raised to $6.07bn (+36%) from $5.84bn; Q3 product revenue $1.588-1.593bn (+37-38%); FY27 non-GAAP operating margin raised to 14.5% from 13.5%; new $3.7bn buyback",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": 16.55,
+   "source": "https://stockanalysis.com/stocks/snow/history/",
+   "as_of": "2026-09-24",
+   "note": "2026-09-03 close vs prior close"
+  },
+  "reaction_5d_pct": {
+   "value": 7.57,
+   "source": "https://stockanalysis.com/stocks/snow/history/",
+   "as_of": "2026-09-24",
+   "note": "close 2026-09-11 vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/SNOW/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2027 (Jan-27) EPS: 1.97 30d ago, 1.96 90d ago, 2.19 now; 30d: 11 up / 1 down of 15"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/SNOW/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks FY2027 (Jan-27) EPS: 1.97 30d ago, 1.96 90d ago, 2.19 now; 30d: 11 up / 1 down of 15"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 2.19,
+    "d30": 1.97,
+    "d60": 1.96,
+    "d90": 1.96
+   },
+   "source": "https://www.zacks.com/stock/quote/SNOW/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks consensus, current fiscal year EPS; numbers only, Zacks Rank not used"
+  },
+  "fcf_ttm": {
+   "value": 1195274000,
+   "source": "https://stockanalysis.com/stocks/snow/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "sum of last four quarters 2026-07-31, 2026-04-30, 2026-01-31, 2025-10-31"
+  },
+  "net_income_ttm": {
+   "value": -1090798000,
+   "source": "https://stockanalysis.com/stocks/snow/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 30.2,
+   "source": "https://stockanalysis.com/stocks/snow/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case (company and bulls): AI data workloads lift product revenue growth to 36-38% with non-GAAP margin expansion and a $3.7bn buyback.",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "product revenue growth at or above 35% and net revenue retention of 126%",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: 110x forward P/E and 21.8x EV/sales; SBC is 30% of revenue and GAAP losses persist; directors Slootman and Dageville led $556m of insider sales in 90 days; Databricks competes head-on.",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.sec.gov/Archives/edgar/data/0001640147/000164014726000033/fy2027q2earnings.htm",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "DDOG",
+    "PLTR"
+   ],
+   "source": "https://stockanalysis.com/stocks/snow/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": "https://stockanalysis.com/stocks/snow/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "gross_margin_4q": {
+   "value": [
+    67.02,
+    66.61,
+    66.8,
+    67.77
+   ],
+   "source": "https://stockanalysis.com/stocks/snow/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "quarters 2026-07-31, 2026-04-30, 2026-01-31, 2025-10-31, newest first"
+  },
+  "fwd_pe": {
+   "value": 110.46,
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward PE 132.924"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "DDOG": 86.74,
+    "PLTR": 84.2
+   },
+   "source": "https://finviz.com/quote.ashx?t=DDOG,PLTR",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 21.76,
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "DDOG": 22.32,
+    "PLTR": 73.7
+   },
+   "source": "https://finviz.com/quote.ashx?t=DDOG,PLTR",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "Databricks (private) and hyperscaler-native warehouses (BigQuery, Redshift, Fabric); named in coverage",
+   "source": "https://stockanalysis.com/stocks/snow/statistics/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table covers back to 2026-06-16; every Sale row from 2026-06-26 to 2026-09-24 verified in its Form 4 XML on EDGAR (transaction code, shares, price, aff10b5One checkbox). Form 144 proposed sales and option exercises excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases (code P) in the trailing 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-23",
+     "name": "Beaulier Jonathan Mead",
+     "role": "Chief Revenue Officer",
+     "shares": 755,
+     "price": 336.36,
+     "usd": 253953,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026063476/wk-form4_1790286824.xml",
+     "plan_10b5_1": false,
+     "history": "0.4% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-23",
+     "name": "Dageville Benoit",
+     "role": "Director",
+     "shares": 50000,
+     "price": 339.08,
+     "usd": 16954000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026063478/wk-form4_1790287028.xml",
+     "plan_10b5_1": true,
+     "history": "2.0% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-09-22",
+     "name": "Kleinerman Christian",
+     "role": "EVP, Product Management",
+     "shares": 2622,
+     "price": 344.5,
+     "usd": 903279,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000162828026063104/wk-form4_1790118466.xml",
+     "plan_10b5_1": true,
+     "history": "0.8% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-21",
+     "name": "Slootman Frank",
+     "role": "Director",
+     "shares": 102791,
+     "price": 335.22,
+     "usd": 34457293,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1402348/000162828026063114/wk-form4_1790119062.xml",
+     "plan_10b5_1": true,
+     "history": "84.4% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-18",
+     "name": "Slootman Frank",
+     "role": "Director",
+     "shares": 197209,
+     "price": 334.1,
+     "usd": 65888248,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1402348/000162828026063114/wk-form4_1790119062.xml",
+     "plan_10b5_1": true,
+     "history": "91.2% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Slootman Frank",
+     "role": "Director",
+     "shares": 8191,
+     "price": 318.51,
+     "usd": 2608915,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1402348/000140234826000018/wk-form4_1789605319.xml",
+     "plan_10b5_1": true,
+     "history": "30.1% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Kleinerman Christian",
+     "role": "EVP, Product Management",
+     "shares": 2986,
+     "price": 318.51,
+     "usd": 951071,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000020/wk-form4_1789605344.xml",
+     "plan_10b5_1": true,
+     "history": "0.9% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Ho Emily",
+     "role": "Chief Accounting Officer",
+     "shares": 768,
+     "price": 332.93,
+     "usd": 255693,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000201202426000009/wk-form4_1789605408.xml",
+     "plan_10b5_1": false,
+     "history": "1.9% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Raghunathan Vivek",
+     "role": "SVP, Engineering",
+     "shares": 3876,
+     "price": 318.51,
+     "usd": 1234545,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000203874026000011/wk-form4_1789605289.xml",
+     "plan_10b5_1": true,
+     "history": "1.6% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Beaulier Jonathan Mead",
+     "role": "Chief Revenue Officer",
+     "shares": 12292,
+     "price": 336.12,
+     "usd": 4131636,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000212702526000007/wk-form4_1789605465.xml",
+     "plan_10b5_1": false,
+     "history": "5.5% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Kleinerman Christian",
+     "role": "EVP, Product Management",
+     "shares": 2730,
+     "price": 335.72,
+     "usd": 916516,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000038/wk-form4_1789086839.xml",
+     "plan_10b5_1": true,
+     "history": "0.8% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Dageville Benoit",
+     "role": "Director",
+     "shares": 50000,
+     "price": 335.72,
+     "usd": 16786000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000013/wk-form4_1789086782.xml",
+     "plan_10b5_1": true,
+     "history": "1.9% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-09-04",
+     "name": "GARRETT MARK",
+     "role": "Director",
+     "shares": 50000,
+     "price": 350.0,
+     "usd": 17500000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1246215/000124621526000003/wk-form4_1788995196.xml",
+     "plan_10b5_1": false,
+     "history": "83.2% of the reporting line's holding"
+    },
+    {
+     "date": "2026-09-04",
+     "name": "Speiser Michael L",
+     "role": "Director",
+     "shares": 50741,
+     "price": 353.87,
+     "usd": 17955768,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1433644/000123191926001154/form4-09092026_090925.xml",
+     "plan_10b5_1": true,
+     "history": "4.2% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Kleinerman Christian",
+     "role": "EVP, Product Management",
+     "shares": 10000,
+     "price": 380.0,
+     "usd": 3800000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000018/wk-form4_1788476391.xml",
+     "plan_10b5_1": true,
+     "history": "35.0% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "Kleinerman Christian",
+     "role": "EVP, Product Management",
+     "shares": 15000,
+     "price": 325.57,
+     "usd": 4883550,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000018/wk-form4_1788476391.xml",
+     "plan_10b5_1": true,
+     "history": "4.4% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-26",
+     "name": "Dageville Benoit",
+     "role": "Director",
+     "shares": 50000,
+     "price": 309.44,
+     "usd": 15472000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000012/wk-form4_1787953016.xml",
+     "plan_10b5_1": true,
+     "history": "1.8% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-08-19",
+     "name": "Slootman Frank",
+     "role": "Director",
+     "shares": 48990,
+     "price": 320.78,
+     "usd": 15715004,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1402348/000140234826000017/wk-form4_1787269875.xml",
+     "plan_10b5_1": true,
+     "history": "63.2% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "Slootman Frank",
+     "role": "Director",
+     "shares": 251010,
+     "price": 325.53,
+     "usd": 81710061,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1402348/000140234826000017/wk-form4_1787269875.xml",
+     "plan_10b5_1": true,
+     "history": "89.8% of the reporting line's holding"
+    },
+    {
+     "date": "2026-08-12",
+     "name": "Dageville Benoit",
+     "role": "Director",
+     "shares": 50000,
+     "price": 335.7,
+     "usd": 16785000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000011/wk-form4_1786748461.xml",
+     "plan_10b5_1": true,
+     "history": "1.8% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-08-07",
+     "name": "Speiser Michael L",
+     "role": "Director",
+     "shares": 50741,
+     "price": 324.06,
+     "usd": 16443128,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1433644/000143364426000016/wk-form4_1786492337.xml",
+     "plan_10b5_1": true,
+     "history": "4.3% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-08-07",
+     "name": "Kleinerman Christian",
+     "role": "EVP, Product Management",
+     "shares": 30000,
+     "price": 325.0,
+     "usd": 9750000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000017/wk-form4_1786492379.xml",
+     "plan_10b5_1": true,
+     "history": "51.2% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-08-03",
+     "name": "Kleinerman Christian",
+     "role": "EVP, Product Management",
+     "shares": 10000,
+     "price": 297.0,
+     "usd": 2969950,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000016/wk-form4_1785975216.xml",
+     "plan_10b5_1": true,
+     "history": "2.7% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-31",
+     "name": "Kleinerman Christian",
+     "role": "EVP, Product Management",
+     "shares": 29986,
+     "price": 300.0,
+     "usd": 8995800,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000015/wk-form4_1785806116.xml",
+     "plan_10b5_1": true,
+     "history": "100.0% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-29",
+     "name": "Dageville Benoit",
+     "role": "Director",
+     "shares": 50000,
+     "price": 280.0,
+     "usd": 14000000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000010/wk-form4_1785452725.xml",
+     "plan_10b5_1": true,
+     "history": "1.7% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-21",
+     "name": "Slootman Frank",
+     "role": "Director",
+     "shares": 10315,
+     "price": 275.1,
+     "usd": 2837634,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1402348/000140234826000016/wk-form4_1784764296.xml",
+     "plan_10b5_1": true,
+     "history": "26.6% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-20",
+     "name": "Slootman Frank",
+     "role": "Director",
+     "shares": 289685,
+     "price": 274.39,
+     "usd": 79486057,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1402348/000140234826000016/wk-form4_1784764296.xml",
+     "plan_10b5_1": true,
+     "history": "91.0% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "Dageville Benoit",
+     "role": "Director",
+     "shares": 50000,
+     "price": 276.53,
+     "usd": 13826500,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000009/wk-form4_1784247467.xml",
+     "plan_10b5_1": true,
+     "history": "1.7% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-14",
+     "name": "Kleinerman Christian",
+     "role": "EVP, Product Management",
+     "shares": 2500,
+     "price": 275.0,
+     "usd": 687500,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000014/wk-form4_1784247495.xml",
+     "plan_10b5_1": true,
+     "history": "0.6% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-06",
+     "name": "Speiser Michael L",
+     "role": "Director",
+     "shares": 47381,
+     "price": 257.91,
+     "usd": 12219867,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1433644/000143364426000013/wk-form4_1783551727.xml",
+     "plan_10b5_1": true,
+     "history": "10.2% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-06",
+     "name": "Speiser Michael L",
+     "role": "Director",
+     "shares": 2520,
+     "price": 257.91,
+     "usd": 649926,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1433644/000143364426000014/wk-form4_1783551752.xml",
+     "plan_10b5_1": true,
+     "history": "8.6% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-06",
+     "name": "Speiser Michael L",
+     "role": "Director",
+     "shares": 840,
+     "price": 257.91,
+     "usd": 216642,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1433644/000143364426000015/wk-form4_1783551784.xml",
+     "plan_10b5_1": true,
+     "history": "3.0% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-06",
+     "name": "Briggs Teresa",
+     "role": "Director",
+     "shares": 343,
+     "price": 255.11,
+     "usd": 87503,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000176765926000016/wk-form4_1783383340.xml",
+     "plan_10b5_1": true,
+     "history": "6.3% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-02",
+     "name": "Briggs Teresa",
+     "role": "Director",
+     "shares": 344,
+     "price": 254.64,
+     "usd": 87596,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000176765926000016/wk-form4_1783383340.xml",
+     "plan_10b5_1": true,
+     "history": "6.0% of the reporting line's holding"
+    },
+    {
+     "date": "2026-07-02",
+     "name": "Dageville Benoit",
+     "role": "Director",
+     "shares": 190819,
+     "price": 254.64,
+     "usd": 48590150,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000182173726000007/wk-form4_1783383441.xml",
+     "plan_10b5_1": true,
+     "history": "6.1% of the reporting line's holding; includes indirect (trust/entity) holdings"
+    },
+    {
+     "date": "2026-07-01",
+     "name": "Kleinerman Christian",
+     "role": "EVP, Product Management",
+     "shares": 2500,
+     "price": 258.56,
+     "usd": 646400,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1640147/000197908826000013/wk-form4_1783383398.xml",
+     "plan_10b5_1": true,
+     "history": "0.6% of the reporting line's holding"
+    },
+    {
+     "date": "2026-06-29",
+     "name": "Slootman Frank",
+     "role": "Director",
+     "shares": 99900,
+     "price": 251.73,
+     "usd": 25147562,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1402348/000140234826000015/wk-form4_1782948778.xml",
+     "plan_10b5_1": true,
+     "history": "77.8% of the reporting line's holding"
+    },
+    {
+     "date": "2026-06-26",
+     "name": "Slootman Frank",
+     "role": "Director",
+     "shares": 100,
+     "price": 250.0,
+     "usd": 25000,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1402348/000140234826000014/wk-form4_1782770380.xml",
+     "plan_10b5_1": true,
+     "history": "0.3% of the reporting line's holding"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=SNOW",
+   "as_of": "2026-09-24",
+   "note": "38 Form 4 sale lines, $555,829,747 total, 9 sellers; weighted-average price per filing-day. Directors Slootman ($308m) and Dageville ($142m) under 10b5-1 plans; director Garrett $17.5m and CRO Beaulier $4.4m marked not 10b5-1."
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle; filings dated Aug-Sep 2026 describe 2026-06-30 holdings"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel blocked (403 per failure log); MarketBeat gives no net share figure; dollar totals excluded per failure log"
+  },
+  "holders_up": {
+   "value": 889,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_down": {
+   "value": 503,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; used as a proxy only"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no new-position count on MarketBeat; Fintel blocked"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no exited-position count on MarketBeat; Fintel blocked"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Engineers Gate Manager",
+     "change_pct": 434.3,
+     "shares": 156869,
+     "filed": "2026-09-09"
+    },
+    {
+     "fund": "Styrax Capital",
+     "change_pct": null,
+     "shares": 150000,
+     "filed": "2026-08-23",
+     "note": "likely new"
+    },
+    {
+     "fund": "National Pension Service",
+     "change_pct": 3.3,
+     "shares": 690349,
+     "filed": "2026-09-09"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "from the most recent 13F filings listed on MarketBeat (Q2 2026 13F, late filers); the table shows the last ~40 filings only"
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "no full exits visible in the recent-filings table; not a verified absence"
+  },
+  "short_pct_float": {
+   "value": 5.59,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Float 5.28% (different float denominator)"
+  },
+  "days_to_cover": {
+   "value": 2.6,
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "Finviz Short Ratio 3.38"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/SNOW/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "FINRA settlement date"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-12-02",
+    "event": "Q3 FY2027 earnings (estimated)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/snow/statistics/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not found: drawdown from the 52-week high is under 30%; not required"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "USD; per-share in USD",
+  "accounting_basis": "revenue as reported; EPS adjusted (S&P consensus basis) for both years; FY1 EBIT S&P consensus basis",
+  "fy1_end": "2027-01-31",
+  "fy2_end": "2028-01-31",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": "none; no modelled leaves",
+  "fcf_basis": "not available (CFO/capex consensus not published free)",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 6315072180,
+    "source": "https://stockanalysis.com/stocks/snow/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P Global consensus, 44 analysts; Zacks 6.29B",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 2.21727,
+    "source": "https://stockanalysis.com/stocks/snow/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks 2.19",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 918143610,
+    "source": "https://stockanalysis.com/stocks/snow/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus operating income, FY1; S&P shows +$918m for FY1, a normalized (non-GAAP) basis against GAAP operating losses of -$1.3bn in FY26",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published free; only consensus FCF",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published free",
+    "kind": "consensus"
+   },
+   "fcf_consensus": {
+    "value": 1427408320,
+    "source": "https://stockanalysis.com/stocks/snow/forecast/",
+    "as_of": "2026-09-24",
+    "note": "S&P consensus FCF, informational; not split into CFO and capex",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 8109311460,
+    "source": "https://stockanalysis.com/stocks/snow/forecast/",
+    "as_of": "2026-09-24",
+    "note": "Zacks 8.00B",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 3.01406,
+    "source": "https://stockanalysis.com/stocks/snow/forecast/",
+    "as_of": "2026-09-24",
+    "note": "adjusted EPS basis; Zacks 2.84",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating-income consensus is behind the StockAnalysis paywall",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published free",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate consensus",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 43,
+    "source": "https://stockanalysis.com/stocks/snow/forecast/",
+    "as_of": "2026-09-24",
+    "note": "strong buy + buy",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 6,
+    "source": "https://stockanalysis.com/stocks/snow/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/snow/forecast/",
+    "as_of": "2026-09-24",
+    "note": "sell + strong sell",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 11,
+    "source": "https://www.zacks.com/stock/quote/SNOW/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "current fiscal year EPS, Zacks up-revisions last 30 days",
+    "kind": "consensus"
+   },
+   "down_30d": {
+    "value": 1,
+    "source": "https://www.zacks.com/stock/quote/SNOW/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 15,
+    "source": "https://www.zacks.com/stock/quote/SNOW/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "note": "Zacks # of estimates, current fiscal year",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks shows 60-day counts only: up 11, down 1",
+    "kind": "consensus"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: see up_90d",
+    "kind": "consensus"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 334.0,
+    "source": "https://finviz.com/quote.ashx?t=SNOW",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 116147111000.0,
+    "source": "https://stockanalysis.com/stocks/snow/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 7,
+  "prospect_why": "product revenue guide raised to $6.07B with margin expansion",
+  "competition_pts": 4,
+  "competition_why": "GM ~67% flat; fwd P/E 110",
+  "macro_fit_pts": 1,
+  "macro_fit_why": "AI software archetype 1: SBC 30% of revenue",
+  "narrative_pts": 3,
+  "narrative_why": "cloud and AI software fading",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

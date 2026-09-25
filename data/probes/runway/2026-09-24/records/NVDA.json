@@ -1,0 +1,808 @@
+{
+ "ticker": "NVDA",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 224.58,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 236.54,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 164.27,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -5.06,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 4.15,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 12.7,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": 5.41,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 14.73,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24",
+   "note": "GICS Information Technology; SMH (semis) 1m +8.04%, 3m -5.71% from data/market/2026-09-24/yahoo/SMH.json"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24",
+   "note": "above 50d (+4.2%) and 200d (+12.7%), 50>200, 5% below 52w high"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA (cached at data/market/2026-09-24/yahoo/NVDA.json)",
+   "as_of": "2026-09-24",
+   "note": "print day 2026-08-27 +8.74%; +5 sessions (2026-09-03) +8.96% vs pre-print close 209.66"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/nvda/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 61,
+   "source": "https://stockanalysis.com/stocks/nvda/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 327.7,
+   "source": "https://stockanalysis.com/stocks/nvda/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 515,
+   "source": "https://stockanalysis.com/stocks/nvda/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 180,
+   "source": "https://stockanalysis.com/stocks/nvda/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: StockAnalysis and Finviz means within 10 points; MarketBeat not needed"
+  },
+  "pt_finviz_mean": {
+   "value": 333.47,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "broker": "Rothschild & Co Redburn",
+     "action": "maintain Buy",
+     "target": 325,
+     "reason": null
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Bernstein",
+     "action": "maintain Buy",
+     "target": 400,
+     "reason": null
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "Goldman Sachs",
+     "action": "maintain Buy",
+     "target": 300,
+     "reason": null
+    },
+    {
+     "date": "2026-09-09",
+     "broker": "Piper Sandler",
+     "action": "initiate Buy",
+     "target": 300,
+     "reason": null
+    },
+    {
+     "date": "2026-09-04",
+     "broker": "Needham",
+     "action": "maintain Buy",
+     "target": 300,
+     "reason": null
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/nvda/forecast/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis shows the five most recent actions only; reasons not stated on the page"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-26",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 96.22,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+   "as_of": "2026-08-26",
+   "note": "USD billions"
+  },
+  "revenue_estimate": {
+   "value": 92.27,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+   "as_of": "2026-08-26",
+   "note": "USD billions, consensus at print"
+  },
+  "eps_actual": {
+   "value": 2.22,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+   "as_of": "2026-08-26"
+  },
+  "eps_estimate": {
+   "value": 2.09,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+   "as_of": "2026-08-26"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+   "as_of": "2026-08-26"
+  },
+  "guide_detail": {
+   "value": "Q3 FY27 revenue guide $105.8-110.2B vs consensus $103.5B",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+   "as_of": "2026-08-26"
+  },
+  "reaction_day_pct": {
+   "value": 8.74,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA (cached at data/market/2026-09-24/yahoo/NVDA.json)",
+   "as_of": "2026-09-24",
+   "note": "close-to-close from the pre-print session; Yahoo daily chart"
+  },
+  "reaction_5d_pct": {
+   "value": 8.96,
+   "source": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA (cached at data/market/2026-09-24/yahoo/NVDA.json)",
+   "as_of": "2026-09-24",
+   "note": "close-to-close from the pre-print session; Yahoo daily chart"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/NVDA/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY1 EPS 9.31 vs 8.98 30d ago and 8.93 90d ago; FY1 revisions 39 up / 1 down in 30d; FY2 12.88 -> 15.68 in 30d"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/NVDA/analysis/",
+   "as_of": "2026-09-24",
+   "note": "FY1 EPS 9.31 vs 8.98 30d ago and 8.93 90d ago; FY1 revisions 39 up / 1 down in 30d; FY2 12.88 -> 15.68 in 30d"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 9.31,
+    "d30": 8.98,
+    "d90": 8.93,
+    "fy2_current": 15.68,
+    "fy2_d30": 12.88,
+    "fy2_d90": 12.67
+   },
+   "source": "https://finance.yahoo.com/quote/NVDA/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year (FY1) consensus EPS"
+  },
+  "fcf_ttm": {
+   "value": 127006,
+   "source": "https://stockanalysis.com/stocks/nvda/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-26",
+   "note": "USD millions, sum of last four quarters"
+  },
+  "net_income_ttm": {
+   "value": 192880,
+   "source": "https://stockanalysis.com/stocks/nvda/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-26",
+   "note": "USD millions, sum of last four quarters"
+  },
+  "sbc_pct_revenue": {
+   "value": 2.39,
+   "source": "https://stockanalysis.com/stocks/nvda/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-07-26",
+   "note": "TTM SBC / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: AI data-center demand keeps compounding; FY28 (Jan-28) consensus revenue $683B vs $412B FY27, Q3 guide above consensus",
+   "source": "https://finance.yahoo.com/quote/NVDA/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Hyperscaler and sovereign AI capex holding through 2027; Q3 FY27 revenue $105.8-110.2B delivered",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: AI capex ROI doubts, custom ASIC substitution (AVGO), heavy insider selling (~$967M in 90d, director Stevens)",
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "AMD",
+    "AVGO"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": "2026-09-24",
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    73.41,
+    75.0,
+    74.93,
+    74.98
+   ],
+   "source": "https://stockanalysis.com/stocks/nvda/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "oldest to newest"
+  },
+  "fwd_pe": {
+   "value": 14.27,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "AMD": 39.63,
+    "AVGO": 18.2
+   },
+   "source": "https://finviz.com/quote.ashx?t=AMD,AVGO",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 17.66,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "AMD": 24.66,
+    "AVGO": 19.17
+   },
+   "source": "https://finviz.com/quote.ashx?t=AMD,AVGO",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "custom accelerators (Broadcom XPUs) at hyperscalers",
+   "source": null,
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table (saved HTML) reaches back to 2025-10-08, covering the full 2026-06-26..2026-09-24 window; exercises, Form 144 proposed sales, grants and gifts excluded"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in 90 days"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "name": "Teter Timothy S.",
+     "role": "EVP, General Counsel and Sec",
+     "shares": 30460,
+     "price": 222.8,
+     "usd": 6786533,
+     "shares_owned_after": 2687660,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000014/xslF345X06/wk-form4_1790196985.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-09-18",
+     "name": "STEVENS MARK A",
+     "role": "Director",
+     "shares": 1366000,
+     "price": 219.73,
+     "usd": 300147095,
+     "shares_owned_after": 970531,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000016/xslF345X06/wk-form4_1790110579.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-09-17",
+     "name": "Kress Colette",
+     "role": "EVP & Chief Financial Officer",
+     "shares": 34918,
+     "price": 219.05,
+     "usd": 7648632,
+     "shares_owned_after": 765103,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1045810/000158867026000014/xslF345X06/wk-form4_1789765959.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-09-04",
+     "name": "STEVENS MARK A",
+     "role": "Director",
+     "shares": 622239,
+     "price": 231.62,
+     "usd": 144122944,
+     "shares_owned_after": 2336531,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/xslF345X06/wk-form4_1788901755.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "STEVENS MARK A",
+     "role": "Director",
+     "shares": 400000,
+     "price": 228.78,
+     "usd": 91513923,
+     "shares_owned_after": 2958770,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000014/xslF345X06/wk-form4_1788901755.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-09-02",
+     "name": "STEVENS MARK A",
+     "role": "Director",
+     "shares": 1200000,
+     "price": 223.33,
+     "usd": 268001520,
+     "shares_owned_after": 3358770,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/xslF345X06/wk-form4_1788387031.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-08-31",
+     "name": "STEVENS MARK A",
+     "role": "Director",
+     "shares": 585000,
+     "price": 220.29,
+     "usd": 128868190,
+     "shares_owned_after": 4622271,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/xslF345X06/wk-form4_1788387031.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "STEVENS MARK A",
+     "role": "Director",
+     "shares": 63501,
+     "price": 220.06,
+     "usd": 13973960,
+     "shares_owned_after": 4558770,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1045810/000119903926000012/xslF345X06/wk-form4_1788387031.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    },
+    {
+     "date": "2026-08-31",
+     "name": "Teter Timothy S.",
+     "role": "EVP, General Counsel and Sec",
+     "shares": 30000,
+     "price": 217.88,
+     "usd": 6536515,
+     "shares_owned_after": 2687660,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1045810/000169684126000010/xslF345X06/wk-form4_1788386836.xml",
+     "plan_10b5_1": null,
+     "history": "Form 4 link from the Finviz insider table; 10b5-1 checkbox not verified in the filing"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24",
+   "note": "9 sales, total $967,599,312; unique sellers 3"
+  },
+  "finviz_net_change_pct": {
+   "value": -0.7,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24",
+   "note": "Finviz 6-month insider transaction %"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "13F filings reported Aug-Sep 2026 describe the quarter ended 2026-06-30"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat gives no net share figure; Fintel blocked (failure log)"
+  },
+  "holders_up": {
+   "value": 4283,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals excluded (CalSTRS-row risk)"
+  },
+  "holders_down": {
+   "value": 3487,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat buyer/seller counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals excluded (CalSTRS-row risk)"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not on MarketBeat page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "State Street Corp",
+     "change_pct": 1.6,
+     "shares": 1009783437
+    },
+    {
+     "fund": "Envestnet Asset Management",
+     "change_pct": 3.7,
+     "shares": 23901229
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "from the eight most recent 13F rows; small filers only"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Andra AP fonden",
+     "change_pct": -15.6,
+     "shares": 2972998
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "inst_own_pct": {
+   "value": 65.27,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_change_pct": {
+   "value": 0.5,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 1.29,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "days_to_cover": {
+   "value": 2.34,
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "short_shares": {
+   "value": "298.30M",
+   "source": "https://finviz.com/quote.ashx?t=NVDA",
+   "as_of": "2026-09-24"
+  },
+  "short_as_of": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Finviz shows the latest FINRA settlement figure without its date; secondary pages not fetched"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-18",
+    "event": "Q3 FY27 earnings (AMC)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/earnings/",
+  "as_of": "2026-09-24",
+  "note": "MarketBeat estimate"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": "2026-09-24",
+  "note": "not applicable: 5.1% below 52w high"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "revenue USD billions; EPS USD/share; EV USD billions",
+  "accounting_basis": "adjusted (non-GAAP) consensus EPS; revenue as reported",
+  "fy1_end": "2027-01-31",
+  "fy2_end": "2028-01 (FY2028)",
+  "estimate_vintage": "2026-09-24",
+  "model_assumptions": null,
+  "fcf_basis": "not available (no forward CFO/capex)",
+  "revision_period_end": "2026-09-24",
+  "note": null,
+  "fy1": {
+   "revenue": {
+    "value": 411.56,
+    "source": "https://stockanalysis.com/stocks/nvda/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 9.31,
+    "source": "https://stockanalysis.com/stocks/nvda/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no free consensus EBIT (StockAnalysis FY2+ is Pro-gated; Yahoo has no EBIT); EBITDA not substituted"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed analyst cash-flow model or company CFO guidance"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed consensus or guided capex for the fiscal year"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 682.73,
+    "source": "https://finance.yahoo.com/quote/NVDA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 15.68,
+    "source": "https://finance.yahoo.com/quote/NVDA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no free consensus EBIT (StockAnalysis FY2+ is Pro-gated; Yahoo has no EBIT); EBITDA not substituted"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed analyst cash-flow model or company CFO guidance"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: no disclosed consensus or guided capex for the fiscal year"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 58,
+    "source": "https://stockanalysis.com/stocks/nvda/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "hold": {
+    "value": 2,
+    "source": "https://stockanalysis.com/stocks/nvda/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/nvda/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 39,
+    "source": "https://finance.yahoo.com/quote/NVDA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS, Yahoo revision events"
+   },
+   "down_30d": {
+    "value": 1,
+    "source": "https://finance.yahoo.com/quote/NVDA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS, Yahoo revision events"
+   },
+   "analysts": {
+    "value": 51,
+    "source": "https://finance.yahoo.com/quote/NVDA/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "FY1 EPS estimate count"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 224.58,
+    "source": "https://finviz.com/quote.ashx?t=NVDA",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 5351.87,
+    "source": "https://finviz.com/quote.ashx?t=NVDA",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: WACC not modelled in this pass"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 7,
+  "prospect_why": "the case is in the last two prints: Q2 beat and Q3 guide raised to $105.8-110.2B; FY28 revenue consensus $683B",
+  "competition_pts": 6,
+  "competition_why": "GM 73.4 to 75.0% rising with share held; fwd P/E 14.3 below AMD 39.6 and AVGO 18.2",
+  "macro_fit_pts": 4,
+  "macro_fit_why": "quality megacap archetype 4; self-funding, net cash",
+  "narrative_pts": 5,
+  "narrative_why": "Mag 7 accelerating but semis only improving; loudest name in the corpus",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

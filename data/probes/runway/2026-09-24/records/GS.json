@@ -1,0 +1,751 @@
+{
+ "ticker": "GS",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 923.29,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 1153.99,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 740.01,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -9.83,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": -3.72,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24"
+  },
+  "perf_1m_pct": {
+   "value": -12.81,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -13.31,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLF",
+   "source": "https://finviz.com/quote.ashx?t=XLF",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -6.48,
+   "source": "https://finviz.com/quote.ashx?t=XLF",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 2.02,
+   "source": "https://finviz.com/quote.ashx?t=XLF",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "breakdown",
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24",
+   "note": "fell through the 200-day (-3.7%), -9.8% vs 50-day, -12.8% in a month after the CEO trading/expense warning"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://finance.yahoo.com/quote/GS/history/",
+   "as_of": "2026-09-24",
+   "note": "print day Jul 14 +9.00% (1045.91 -> 1140.00); +5 sessions (Jul 21) 1085.56 = +3.79% above the pre-print close, faded more than half"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Hold",
+   "source": "https://stockanalysis.com/stocks/gs/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 25,
+   "source": "https://stockanalysis.com/stocks/gs/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 1142,
+   "source": "https://stockanalysis.com/stocks/gs/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 1325,
+   "source": "https://stockanalysis.com/stocks/gs/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 730,
+   "source": "https://stockanalysis.com/stocks/gs/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not needed: MarketBeat $1055.71 (24 analysts) within 10 points of upside of StockAnalysis"
+  },
+  "finviz_target": {
+   "value": 1163.57,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded alongside"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-23",
+     "broker": "Citigroup",
+     "action": "lower target 1200->1050, Neutral",
+     "target": 1050,
+     "reason": "reset after mid-quarter trading/expense update"
+    },
+    {
+     "date": "2026-09-21",
+     "broker": "Morgan Stanley",
+     "action": "reiterate Equal Weight",
+     "target": 1145,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-09-17",
+     "broker": "Barclays",
+     "action": "maintain Overweight",
+     "target": 1245,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "Jefferies",
+     "action": "maintain Buy",
+     "target": 1299,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "RBC Capital",
+     "action": "maintain Sector Perform",
+     "target": 1220,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-06",
+     "broker": "DBS",
+     "action": "maintain Buy",
+     "target": 1200,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-05",
+     "broker": "HSBC",
+     "action": "upgrade Hold -> Buy (MarketBeat); StockAnalysis dates an HSBC upgrade Jul 20 at $995",
+     "target": null,
+     "reason": "not stated on source"
+    },
+    {
+     "date": "2026-08-03",
+     "broker": "UBS",
+     "action": "raise target 1120->1150, Neutral",
+     "target": 1150,
+     "reason": "not stated on source"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/gs/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings page (latest 8) merged with MarketBeat forecast table https://www.marketbeat.com/stocks/NYSE/GS/forecast/; Weiss/Zacks excluded; reasons not stated on the source unless given"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-14",
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_actual": {
+   "value": 20340000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "revenue_estimate": {
+   "value": 16220000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 20.98,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted EPS as MarketBeat reports it"
+  },
+  "eps_estimate": {
+   "value": 14.47,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "none",
+   "source": "https://www.investing.com/news/stock-market-news/goldman-sachs-stock-falls-after-ceo-warns-of-softer-trading-4904361",
+   "as_of": "2026-09-24"
+  },
+  "guide_detail": {
+   "value": "Goldman does not issue numerical guidance as policy. Mid-quarter (Sep 16) CEO warned of softer FICC trading and non-comp expenses up >$500M vs the prior quarter",
+   "source": "https://www.investing.com/news/stock-market-news/goldman-sachs-stock-falls-after-ceo-warns-of-softer-trading-4904361",
+   "as_of": "2026-09-24"
+  },
+  "reaction_day_pct": {
+   "value": 9.0,
+   "source": "https://finance.yahoo.com/quote/GS/history/",
+   "as_of": "2026-09-24",
+   "note": "closes from the repo Yahoo chart file data/market/2026-09-24/yahoo/GS.json (StockAnalysis history starts Jul 16)"
+  },
+  "reaction_5d_pct": {
+   "value": 3.79,
+   "source": "https://finance.yahoo.com/quote/GS/history/",
+   "as_of": "2026-09-24",
+   "note": "close 5 sessions after the print vs pre-print close"
+  },
+  "revisions_30d": {
+   "value": "flat",
+   "source": "https://www.zacks.com/stock/quote/GS/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Yahoo /analysis/ load error twice; Zacks numbers used. FY2026 EPS 69.64 now vs 68.89 30d (+1.1%) vs 59.99 90d (+16%); Q3 estimate cut 15.62->15.18 in the last 7 days"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/GS/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Yahoo /analysis/ load error twice; Zacks numbers used. FY2026 EPS 69.64 now vs 68.89 30d (+1.1%) vs 59.99 90d (+16%); Q3 estimate cut 15.62->15.18 in the last 7 days"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 69.64,
+    "d30": 68.89,
+    "d90": 59.99
+   },
+   "source": "https://www.zacks.com/stock/quote/GS/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year EPS consensus now, 30 and 90 days ago"
+  },
+  "fcf_ttm": {
+   "value": -41520000000.0,
+   "source": "https://stockanalysis.com/stocks/gs/statistics/",
+   "as_of": "2026-09-24",
+   "note": "broker-dealer operating cash flow swings with trading assets; not meaningful vs NI"
+  },
+  "net_income_ttm": {
+   "value": 19980000000.0,
+   "source": "https://stockanalysis.com/stocks/gs/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "sbc_pct_revenue": {
+   "value": 5.1,
+   "source": "https://stockanalysis.com/stocks/gs/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "computed: SBC last 4 quarters $3,464M / TTM revenue $67.57B"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: Goldman earns a mid-to-high-teens ROE on a record capital-markets cycle (IB and equities), with FY2026 EPS ~$70 (+36%) and a rising dividend.",
+   "source": "https://stockanalysis.com/stocks/gs/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Investment-banking fees and equities trading staying near Q2 records into 2027",
+   "source": "https://stockanalysis.com/stocks/gs/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "FY2027 EPS growth only ~5%; trading normalises (CEO flagged softer FICC and higher expenses); stock trades at 2.45x book",
+   "source": "https://www.investing.com/news/stock-market-news/goldman-sachs-stock-falls-after-ceo-warns-of-softer-trading-4904361",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "reported",
+   "source": "https://stockanalysis.com/stocks/gs/forecast/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "MS",
+    "JPM"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=MS",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no league-table share in the window fetched"
+  },
+  "gross_margin_4q": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: gross margin not meaningful for a bank/lender income statement"
+  },
+  "fwd_pe": {
+   "value": 12.62,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "MS": 14.34,
+    "JPM": 13.47
+   },
+   "source": "https://finviz.com/quote.ashx?t=MS",
+   "as_of": "2026-09-24",
+   "note": "Finviz quote pages of each peer"
+  },
+  "ev_sales": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Finviz EV/Sales blank; EV not meaningful for a deposit-funded balance sheet"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "MS": "-",
+    "JPM": "-"
+   },
+   "source": "https://finviz.com/quote.ashx?t=MS",
+   "as_of": "2026-09-24",
+   "note": "'-' means not published"
+  },
+  "substitute": {
+   "value": "private-credit and boutique advisory firms",
+   "source": "https://www.investing.com/news/stock-market-news/goldman-sachs-stock-falls-after-ceo-warns-of-softer-trading-4904361",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table checked for the full window 2026-06-26 to 2026-09-24 (table extends back to 2026-01-16); every buy/sale Form 4 opened on EDGAR for code and 10b5-1 flag"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24",
+   "note": "no open-market buys by GS insiders"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-08-28",
+     "name": "LESLIE ERICKA T",
+     "role": "Chief Administrative Officer",
+     "shares": 600,
+     "price": 1033.8,
+     "usd": 620280.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/886982/000191038826000010/xslF345X06/wk-form4_1788293040.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code S, 10b5-1 box unchecked (aff10b5One=0)"
+    },
+    {
+     "date": "2026-08-04",
+     "name": "LESLIE ERICKA T",
+     "role": "Chief Administrative Officer",
+     "shares": 175,
+     "price": 1053.97,
+     "usd": 184445.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/886982/000191038826000007/xslF345X06/wk-form4_1786046655.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code S, 10b5-1 box unchecked (aff10b5One=0)"
+    },
+    {
+     "date": "2026-07-15",
+     "name": "LESLIE ERICKA T",
+     "role": "Chief Administrative Officer",
+     "shares": 250,
+     "price": 1151.8,
+     "usd": 287951.0,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/886982/000191038826000005/xslF345X06/wk-form4_1784318618.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 opened: code S, 10b5-1 box unchecked (aff10b5One=0)"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24",
+   "note": "CAO three discretionary sales, $1.09M total; GS-as-10%-owner rows (another issuer at $17-21) excluded"
+  },
+  "excluded_90d": {
+   "value": [
+    "2026-08-05 GOLDMAN SACHS GROUP INC Proposed Sale",
+    "2026-08-28 LESLIE ERICKA T Proposed Sale",
+    "2026-08-06 GOLDMAN SACHS GROUP INC Buy (reporting owner is the company itself trading another issuer's stock)",
+    "2026-08-05 GOLDMAN SACHS GROUP INC Buy (reporting owner is the company itself trading another issuer's stock)",
+    "2026-08-05 GOLDMAN SACHS GROUP INC Sale (reporting owner is the company itself trading another issuer's stock)",
+    "2026-08-04 LESLIE ERICKA T Proposed Sale",
+    "2026-07-23 Ruemmler Kathryn H. Proposed Sale",
+    "2026-07-15 LESLIE ERICKA T Proposed Sale"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24",
+   "note": "option exercises, proposed sales (Form 144) and non-issuer rows excluded"
+  },
+  "finviz_insider_trans_pct": {
+   "value": -2.65,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest completed 13F cycle; MarketBeat most recent filing received 2026-09-23"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: fintel.io blocked (403 per failure log, not retried); MarketBeat does not give quarter net shares"
+  },
+  "holders_up": {
+   "value": 2056,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional buyers, trailing 12 months, not a quarter-over-quarter count"
+  },
+  "holders_down": {
+   "value": 1370,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat institutional sellers, trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split new vs increased holders"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: MarketBeat does not split exited vs reduced holders"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Kingstone Capital Partners Texas",
+     "usd": 29060000.0
+    },
+    {
+     "fund": "BlackRock",
+     "usd": 23900000.0
+    },
+    {
+     "fund": "Norges Bank",
+     "usd": 8680000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest buyers by dollar volume, MarketBeat FAQ, 24-month window; sizes are purchase dollars not position change"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Dodge & Cox",
+     "usd": 1600000.0
+    },
+    {
+     "fund": "BNY Mellon",
+     "usd": 750000.0
+    },
+    {
+     "fund": "State Street",
+     "usd": 710000.0
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "largest sellers by dollar volume, 24-month window; not confirmed full exits"
+  },
+  "short_pct_float": {
+   "value": 2.39,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz shows 2.39% (no date); MarketBeat preferred because it states the settlement date"
+  },
+  "days_to_cover": {
+   "value": 3.9,
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "Finviz short ratio 3.43"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/GS/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "finviz_inst_trans_pct": {
+   "value": 0.16,
+   "source": "https://finviz.com/quote.ashx?t=GS",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-13",
+    "event": "Q3 2026 earnings (Finviz Oct 13 BMO; MarketBeat estimated)",
+    "confirmed": false
+   },
+   {
+    "date": "2027-01-15",
+    "event": "Q4 2026 earnings (pattern; not published)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://www.marketbeat.com/stocks/NYSE/GS/earnings/",
+  "as_of": "2026-09-24",
+  "note": "earnings dates are aggregator estimates unless marked confirmed"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not applicable: drawdown from the 52-week high is less than 30%"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "absolute currency units; EPS per share",
+  "accounting_basis": "net revenues and adjusted EPS (S&P Global via StockAnalysis); EBIT = pre-tax operating income",
+  "fy1_end": "2026-12-31",
+  "fy2_end": "2027-12-31",
+  "estimate_vintage": "StockAnalysis page retrieved 2026-09-24",
+  "model_assumptions": "none: no modelled leaves",
+  "fcf_basis": "not available: forward CFO/capex unpublished",
+  "revision_period_end": "2026-09-24",
+  "alignment_note": null,
+  "fy1": {
+   "revenue": {
+    "value": 71970000000.0,
+    "source": "https://stockanalysis.com/stocks/gs/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": 28830000000.0,
+    "source": "https://stockanalysis.com/stocks/gs/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "StockAnalysis consensus operating (pre-tax) income"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 70.72,
+    "source": "https://stockanalysis.com/stocks/gs/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 73360000000.0,
+    "source": "https://stockanalysis.com/stocks/gs/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: FY2 operating income is behind the StockAnalysis Pro paywall; Yahoo does not publish EBIT estimates",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward CFO not published by any free source",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: forward capex not published by any free source",
+    "kind": "consensus"
+   },
+   "eps": {
+    "value": 74.03,
+    "source": "https://stockanalysis.com/stocks/gs/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: no forward tax-rate estimate published",
+    "kind": "model"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled; no forecast balance sheet",
+    "kind": "model"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 7,
+    "source": "https://stockanalysis.com/stocks/gs/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "S&P Global via StockAnalysis, Sep 2026 column; strong buy grouped with buy, strong sell with sell"
+   },
+   "hold": {
+    "value": 16,
+    "source": "https://stockanalysis.com/stocks/gs/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 2,
+    "source": "https://stockanalysis.com/stocks/gs/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 1,
+    "source": "https://www.zacks.com/stock/quote/GS/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Zacks Agreement table, current year"
+   },
+   "down_30d": {
+    "value": 1,
+    "source": "https://www.zacks.com/stock/quote/GS/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 8,
+    "source": "https://www.zacks.com/stock/quote/GS/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "estimate count for the same fiscal year"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 923.29,
+    "source": "https://finviz.com/quote.ashx?t=GS",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: EV not meaningful for a bank; Finviz blank",
+    "kind": "reported"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: WACC not modelled in this pass",
+    "kind": "model"
+   }
+  }
+ },
+ "judgment": {
+  "prospect_pts": 5,
+  "prospect_why": "record capital markets in the last print; CEO warned on FICC",
+  "competition_pts": 5,
+  "competition_why": "fwd P/E 12.6 in line with MS and JPM",
+  "macro_fit_pts": 3,
+  "macro_fit_why": "banks 4 minus 1: bear-flattening curve",
+  "narrative_pts": 1,
+  "narrative_why": "banks lagging and worsening; a corpus account is short",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

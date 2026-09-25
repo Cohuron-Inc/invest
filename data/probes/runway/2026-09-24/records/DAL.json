@@ -1,0 +1,835 @@
+{
+ "ticker": "DAL",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 82.76,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 95.68,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 55.03,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -13.5,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": -1.58,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 9.83,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24"
+  },
+  "sma50_above_sma200": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24",
+   "note": "derived: SMA50 above SMA200 iff price distance to SMA50 < distance to SMA200"
+  },
+  "perf_1m_pct": {
+   "value": -1.03,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": -10.15,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finance.yahoo.com/quote/SPY/history/ (data/market/2026-09-24/yahoo/SPY.json, 21/63-session windows, matches Finviz Perf Month/Quarter window)",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLI",
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": -5.36,
+   "source": "https://finance.yahoo.com/quote/XLI/history/ (data/market/2026-09-24/yahoo/XLI.json)",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": -8.3,
+   "source": "https://finance.yahoo.com/quote/XLI/history/ (data/market/2026-09-24/yahoo/XLI.json)",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "base",
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24",
+   "note": "range 78-96 since July: 9.8% above 200 DMA, 1.6% below 50 DMA, 50>200; rebounding off mid-Sep low 77.87"
+  },
+  "print_gap_held": {
+   "value": false,
+   "source": "https://finance.yahoo.com/quote/DAL/history/",
+   "as_of": "2026-09-24",
+   "note": "print 2026-07-10 BMO: -1.81% on the day, close 5 sessions later 84.17 (-5.43% vs pre-print 89.00)"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Strong Buy",
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "analysts": {
+   "value": 25,
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg": {
+   "value": 103.44,
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_high": {
+   "value": 125,
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_low": {
+   "value": 50,
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "upside_pct": {
+   "value": 24.99,
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "pt_finviz": {
+   "value": 106.02,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24"
+  },
+  "pt_avg_alt": {
+   "value": 100.62,
+   "source": "https://www.marketbeat.com/stocks/NYSE/DAL/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat Moderate Buy, 25 analysts (0 sell/2 hold/23 buy), low $72; within 10 points, recorded for reference"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-24",
+     "broker": "UBS",
+     "action": "raise target",
+     "target": 105,
+     "reason": "Buy; 99->105 (after 112->99 cut on 09-10)"
+    },
+    {
+     "date": "2026-09-24",
+     "broker": "Wells Fargo",
+     "action": "reiterate",
+     "target": 105,
+     "reason": "Overweight"
+    },
+    {
+     "date": "2026-09-18",
+     "broker": "Rothschild & Co Redburn",
+     "action": "raise target",
+     "target": 105,
+     "reason": "Buy; 104->105"
+    },
+    {
+     "date": "2026-09-11",
+     "broker": "Barclays",
+     "action": "cut target",
+     "target": 95,
+     "reason": "Overweight; 105->95"
+    },
+    {
+     "date": "2026-09-10",
+     "broker": "UBS",
+     "action": "cut target",
+     "target": 99,
+     "reason": "Buy; 112->99"
+    },
+    {
+     "date": "2026-08-24",
+     "broker": "Raymond James",
+     "action": "cut target",
+     "target": 98,
+     "reason": "Outperform; 104->98"
+    },
+    {
+     "date": "2026-08-24",
+     "broker": "TD Cowen",
+     "action": "cut target",
+     "target": 105,
+     "reason": "Buy; 106/112->105"
+    },
+    {
+     "date": "2026-08-21",
+     "broker": "Jefferies",
+     "action": "reiterate",
+     "target": 110,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-13",
+     "broker": "DBS",
+     "action": "reiterate",
+     "target": 110,
+     "reason": "Buy"
+    },
+    {
+     "date": "2026-08-03",
+     "broker": "Goldman Sachs",
+     "action": "reiterate",
+     "target": null,
+     "reason": "Buy"
+    }
+   ],
+   "source": "https://stockanalysis.com/stocks/dal/ratings/",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis ratings + MarketBeat table; target cuts reflect fuel cost (WTI ~$96)"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-07-10",
+   "source": "https://www.sec.gov/Archives/edgar/data/27904/000002790426000029/deltaairlinesannouncesjune.htm",
+   "as_of": "2026-09-24",
+   "note": "8-K filed 2026-07-10; MarketBeat lists 07-09"
+  },
+  "revenue_actual": {
+   "value": 17670000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/DAL/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted operating revenue"
+  },
+  "revenue_estimate": {
+   "value": 17430000000.0,
+   "source": "https://www.marketbeat.com/stocks/NYSE/DAL/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "eps_actual": {
+   "value": 1.56,
+   "source": "https://www.marketbeat.com/stocks/NYSE/DAL/earnings/",
+   "as_of": "2026-09-24",
+   "note": "adjusted; GAAP 2.44"
+  },
+  "eps_estimate": {
+   "value": 1.49,
+   "source": "https://www.marketbeat.com/stocks/NYSE/DAL/earnings/",
+   "as_of": "2026-09-24"
+  },
+  "guide": {
+   "value": "held",
+   "source": "https://finance.yahoo.com/markets/stocks/article/delta-q2-earnings-top-estimates-reinstates-full-year-guidance-as-fuel-prices-bite-175815467.html",
+   "as_of": "2026-07-10",
+   "note": "FY guide reinstated after earlier withdrawal; neither raise nor cut"
+  },
+  "guide_detail": {
+   "value": "Q3 EPS $2.00-2.50, revenue up upper-mid-teens, op margin 11-13%; FY26 adj EPS $6.50-7.50, FCF $3-4B reinstated; dividend +15%. Current consensus FY EPS 6.23 sits below the guided low end",
+   "source": "https://finance.yahoo.com/markets/stocks/article/delta-q2-earnings-top-estimates-reinstates-full-year-guidance-as-fuel-prices-bite-175815467.html",
+   "as_of": "2026-07-10"
+  },
+  "reaction_day_pct": {
+   "value": -1.81,
+   "source": "https://finance.yahoo.com/quote/DAL/history/",
+   "as_of": "2026-07-10"
+  },
+  "reaction_5d_pct": {
+   "value": -5.43,
+   "source": "https://finance.yahoo.com/quote/DAL/history/",
+   "as_of": "2026-07-17"
+  },
+  "revisions_30d": {
+   "value": "down",
+   "source": "https://www.zacks.com/stock/quote/DAL/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Yahoo /analysis/ load error; Zacks FY26: 0 up / 1 down in 30d, 6.42 -> 6.23"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://www.zacks.com/stock/quote/DAL/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "FY26 EPS 5.58 (90d, pre-print) -> 6.23; peaked 6.54 at 60d, falling since"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 6.23,
+    "d30": 6.42,
+    "d90": 5.58
+   },
+   "source": "https://www.zacks.com/stock/quote/DAL/detailed-earning-estimates",
+   "as_of": "2026-09-24",
+   "note": "Zacks consensus, FY Dec-26"
+  },
+  "fcf_ttm": {
+   "value": 3410000000.0,
+   "source": "https://stockanalysis.com/stocks/dal/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30"
+  },
+  "net_income_ttm": {
+   "value": 3950000000.0,
+   "source": "https://stockanalysis.com/stocks/dal/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "FCF/NI 0.86; Q2 FCF only $137M on $1.46B capex"
+  },
+  "sbc_pct_revenue": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: SBC line not shown on StockAnalysis; immaterial for an airline"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: premium and loyalty (Amex) revenue keep Delta the margin leader, with FY27 EPS +36% as fuel normalises and capacity discipline holds.",
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "depends_on": {
+   "value": "Jet fuel cost (WTI $96) and premium/corporate demand; FY27 EPS 8.49 consensus",
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "bear_case": {
+   "value": "Bears: record fuel expense, consensus already below the FY guide low end, Q2 FCF $137M, cyclical demand risk and heavy insider selling in early August",
+   "source": "https://www.sec.gov/Archives/edgar/data/27904/000002790426000029/deltaairlinesannouncesjune.htm",
+   "as_of": "2026-09-24"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.sec.gov/Archives/edgar/data/27904/000002790426000029/deltaairlinesannouncesjune.htm",
+   "as_of": "2026-09-24"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "UAL",
+    "AAL"
+   ],
+   "source": "https://stockanalysis.com/stocks/ual/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "stable",
+   "source": "https://stockanalysis.com/stocks/dal/statistics/",
+   "as_of": "2026-09-24",
+   "note": "no share source; qualitative"
+  },
+  "gross_margin_4q": {
+   "value": [
+    18.4,
+    15.11,
+    19.93,
+    20.94
+   ],
+   "source": "https://stockanalysis.com/stocks/dal/financials/?p=quarterly",
+   "as_of": "2026-06-30",
+   "note": "SA gross margin, Q2-26 back to Q3-25; down from 23.9% a year ago"
+  },
+  "fwd_pe": {
+   "value": 10.66,
+   "source": "https://stockanalysis.com/stocks/dal/statistics/",
+   "as_of": "2026-09-24",
+   "note": "Finviz 9.77"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "UAL": 9.19,
+    "AAL": 13.9
+   },
+   "source": "https://stockanalysis.com/stocks/ual/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "ev_sales": {
+   "value": 1.02,
+   "source": "https://stockanalysis.com/stocks/dal/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "UAL": 0.85,
+    "AAL": 0.62
+   },
+   "source": "https://stockanalysis.com/stocks/aal/statistics/",
+   "as_of": "2026-09-24"
+  },
+  "substitute": {
+   "value": "none named",
+   "source": "https://stockanalysis.com/stocks/dal/statistics/",
+   "as_of": "2026-09-24"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24",
+   "note": "Finviz table (to Oct 2025) and EDGAR Form 4s checked for 2026-06-26..09-24. No buys. ~$33M of sales in one post-print window, five officers/directors, none flagged 10b5-1; the executive sales are same-day option exercise-and-sell"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24",
+   "note": "window 2026-06-26 to 2026-09-24; Finviz insider table, each trade verified on the EDGAR Form 4 XML"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-08-04",
+     "name": "Edward Bastian",
+     "role": "CEO",
+     "shares": 206510,
+     "price": 92.8,
+     "usd": 19164128,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/27904/000168316826006000/xslF345X06/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "exercise-and-sell of options struck at $49.33 (M then S); 1,363,448 shares after; no 10b5-1 flag"
+    },
+    {
+     "date": "2026-08-04",
+     "name": "Peter Carter",
+     "role": "President",
+     "shares": 39900,
+     "price": 92.98,
+     "usd": 3709902,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/27904/000168316826006002/xslF345X06/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "exercise-and-sell; 424,704 after"
+    },
+    {
+     "date": "2026-08-04",
+     "name": "Alain Bellemare",
+     "role": "EVP & President International",
+     "shares": 35000,
+     "price": 92.72,
+     "usd": 3245200,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/27904/000168316826006001/xslF345X06/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "exercise-and-sell; 95,025 after"
+    },
+    {
+     "date": "2026-08-05",
+     "name": "Steven Sear",
+     "role": "EVP Global Sales",
+     "shares": 40460,
+     "price": 93.55,
+     "usd": 3785033,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/27904/000168316826006058/xslF345X06/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "exercise-and-sell; 104,404 after"
+    },
+    {
+     "date": "2026-08-05",
+     "name": "Michael Huerta",
+     "role": "Director",
+     "shares": 3100,
+     "price": 94.11,
+     "usd": 291741,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/27904/000168316826006060/xslF345X06/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "32,525 after"
+    },
+    {
+     "date": "2026-08-03",
+     "name": "David DeWalt",
+     "role": "Director",
+     "shares": 31756,
+     "price": 90.85,
+     "usd": 2885033,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/27904/000168316826005999/xslF345X06/ownership.xml",
+     "plan_10b5_1": false,
+     "history": "footnote: relates to a transfer under a domestic relations order; 22,358 after"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24",
+   "note": "open-market S-code sales only; option-exercise legs (M), tax withholding (F) and sell-to-cover excluded; plan flag from Form 4 10b5-1 checkbox/footnote"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NYSE/DAL/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_up": {
+   "value": 782,
+   "source": "https://www.marketbeat.com/stocks/NYSE/DAL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_down": {
+   "value": 463,
+   "source": "https://www.marketbeat.com/stocks/NYSE/DAL/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "trailing 12 months"
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: Fintel 403"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "Baird Financial",
+     "change_pct": 45.1,
+     "shares": 139864
+    },
+    {
+     "fund": "Munich Re",
+     "change_pct": 129.6,
+     "shares": 101725
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/DAL/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "named_exits": {
+   "value": [
+    {
+     "fund": "Wellington Management",
+     "change_pct": -16.7,
+     "shares": -699756
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NYSE/DAL/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "short_pct_float": {
+   "value": 4.01,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat 4.02%"
+  },
+  "days_to_cover": {
+   "value": 4.09,
+   "source": "https://finviz.com/quote.ashx?t=DAL",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat 4.9"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NYSE/DAL/short-interest/",
+   "as_of": "2026-09-24",
+   "note": "26.22M shares, +3.8%"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-10-09",
+    "event": "Q3 earnings (BMO)",
+    "confirmed": false
+   },
+   {
+    "date": "2027-01-13",
+    "event": "Q4 earnings (estimated)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/dal/statistics/",
+  "as_of": "2026-09-24",
+  "note": "Finviz and StockAnalysis both show Oct 9; MarketBeat marks it estimated"
+ },
+ "why_it_fell": {
+  "value": null,
+  "source": null,
+  "as_of": null,
+  "note": "not applicable: 13.5% below 52w high"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": {
+   "value": "USD",
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "units": {
+   "value": "USD; EPS per share",
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "accounting_basis": {
+   "value": "adjusted EPS",
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy1_end": {
+   "value": "2026-12-31",
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "fy2_end": {
+   "value": "2027-12-31",
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "estimate_vintage": {
+   "value": "2026-09-24",
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "model_assumptions": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "no model"
+  },
+  "fcf_basis": {
+   "value": "CFO minus capex (SA consensus FCF)",
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24"
+  },
+  "revision_period_end": {
+   "value": "2026-09-24",
+   "source": "https://www.zacks.com/stock/quote/DAL/detailed-earning-estimates",
+   "as_of": "2026-09-24"
+  },
+  "fy1": {
+   "revenue": {
+    "value": 73400000000.0,
+    "source": "https://stockanalysis.com/stocks/dal/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "SA; Zacks 66.58B (different revenue basis, ex-refinery?)"
+   },
+   "ebit": {
+    "value": 6160000000.0,
+    "source": "https://stockanalysis.com/stocks/dal/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published",
+    "kind": "consensus"
+   },
+   "fcf": {
+    "value": 3970000000.0,
+    "source": "https://stockanalysis.com/stocks/dal/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "company guide $3-4B"
+   },
+   "eps": {
+    "value": 6.23,
+    "source": "https://stockanalysis.com/stocks/dal/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "tax_rate_pct": {
+    "value": 22.31,
+    "source": "https://stockanalysis.com/stocks/dal/statistics/",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 75020000000.0,
+    "source": "https://stockanalysis.com/stocks/dal/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: behind SA paywall"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "eps": {
+    "value": 8.49,
+    "source": "https://stockanalysis.com/stocks/dal/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Zacks 8.56"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not published"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not computed"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 24,
+    "source": "https://stockanalysis.com/stocks/dal/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "19 strong buy + 5 buy"
+   },
+   "hold": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/dal/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "sell": {
+    "value": 1,
+    "source": "https://stockanalysis.com/stocks/dal/forecast/",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 0,
+    "source": "https://www.zacks.com/stock/quote/DAL/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Zacks revision counts, FY26; Zacks population 6"
+   },
+   "down_30d": {
+    "value": 1,
+    "source": "https://www.zacks.com/stock/quote/DAL/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "analysts": {
+    "value": 6,
+    "source": "https://www.zacks.com/stock/quote/DAL/detailed-earning-estimates",
+    "as_of": "2026-09-24",
+    "kind": "consensus"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks gives 60d: 0 up"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: Zacks gives 60d: 2 down"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 82.76,
+    "source": "https://finviz.com/quote.ashx?t=DAL",
+    "as_of": "2026-09-24"
+   },
+   "enterprise_value": {
+    "value": 70550000000.0,
+    "source": "https://stockanalysis.com/stocks/dal/statistics/",
+    "as_of": "2026-09-24"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "note": "not found: not modelled"
+   }
+  },
+  "periods_aligned_evidence": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/dal/forecast/",
+   "as_of": "2026-09-24",
+   "note": "FY=calendar; SA and Zacks agree on FY26/FY27"
+  }
+ },
+ "judgment": {
+  "prospect_pts": 4,
+  "prospect_why": "premium revenue in the last print; consensus below its own guide on fuel",
+  "competition_pts": 4,
+  "competition_why": "fwd P/E 10.7 vs UAL 9.2",
+  "macro_fit_pts": 2,
+  "macro_fit_why": "oil shock is the direct headwind for an airline",
+  "narrative_pts": 2,
+  "narrative_why": "consumer and travel lagging",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}

@@ -1,0 +1,1285 @@
+{
+ "ticker": "LITE",
+ "probe_tier": "universe",
+ "fetched_at": "2026-09-24T23:30:00Z",
+ "price": {
+  "close": {
+   "value": 929.04,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  },
+  "high_52w": {
+   "value": 1085.68,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  },
+  "low_52w": {
+   "value": 144.52,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  },
+  "drawdown_pct": {
+   "value": -14.43,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  },
+  "sma50_pct": {
+   "value": 8.74,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  },
+  "sma200_pct": {
+   "value": 27.93,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  },
+  "sma20_pct": {
+   "value": 1.82,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  },
+  "fifty_above_200": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24",
+   "note": "derived: price sits further above the 200-day than the 50-day"
+  },
+  "perf_1m_pct": {
+   "value": 4.91,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  },
+  "perf_3m_pct": {
+   "value": 7.78,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  },
+  "spy_1m_pct": {
+   "value": 0.17,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "spy_3m_pct": {
+   "value": 4.48,
+   "source": "https://finviz.com/quote.ashx?t=SPY",
+   "as_of": "2026-09-24"
+  },
+  "sector_etf": {
+   "value": "XLK",
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_1m_pct": {
+   "value": 7.14,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "sector_3m_pct": {
+   "value": 5.49,
+   "source": "https://finviz.com/quote.ashx?t=XLK",
+   "as_of": "2026-09-24"
+  },
+  "structure": {
+   "value": "trend_up",
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24",
+   "note": "14% below the high, 8.7% above the 50-day and 27.9% above the 200-day with the 50 above the 200; uptrend intact, though the Aug 12 gap up faded within five sessions"
+  },
+  "print_gap_held": {
+   "value": true,
+   "source": "https://stockanalysis.com/stocks/lite/history/",
+   "as_of": "2026-09-24",
+   "note": "print-day close 2026-08-12 932.47 (+13.63% vs 2026-08-11 close 820.59); five sessions later 2026-08-19 827.6 (+0.85%). gap up held above the pre-print close"
+  }
+ },
+ "consensus": {
+  "label": {
+   "value": "Buy",
+   "source": "https://stockanalysis.com/stocks/lite/forecast/",
+   "as_of": "2026-09-23"
+  },
+  "analysts": {
+   "value": 26,
+   "source": "https://stockanalysis.com/stocks/lite/forecast/",
+   "as_of": "2026-09-23"
+  },
+  "pt_avg": {
+   "value": 1149,
+   "source": "https://stockanalysis.com/stocks/lite/forecast/",
+   "as_of": "2026-09-23"
+  },
+  "pt_high": {
+   "value": 1400,
+   "source": "https://stockanalysis.com/stocks/lite/forecast/",
+   "as_of": "2026-09-23"
+  },
+  "pt_low": {
+   "value": 820,
+   "source": "https://stockanalysis.com/stocks/lite/forecast/",
+   "as_of": "2026-09-23"
+  },
+  "upside_pct": {
+   "value": 23.68,
+   "source": "https://stockanalysis.com/stocks/lite/forecast/",
+   "as_of": "2026-09-24",
+   "note": "pt_avg vs 2026-09-24 close"
+  },
+  "finviz_target": {
+   "value": 1148.76,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24",
+   "note": "Finviz consensus mean, recorded alongside StockAnalysis"
+  },
+  "actions_60d": {
+   "value": [
+    {
+     "date": "2026-09-23",
+     "broker": "Stifel",
+     "action": "maintain Buy",
+     "target": 1100,
+     "reason": ""
+    },
+    {
+     "date": "2026-09-23",
+     "broker": "Rosenblatt",
+     "action": "reiterate Buy",
+     "target": 1300,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "Deutsche Bank",
+     "action": "initiate Buy",
+     "target": 1200,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-31",
+     "broker": "Evercore ISI",
+     "action": "initiate Outperform",
+     "target": 1100,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-24",
+     "broker": "Morgan Stanley",
+     "action": "maintain Equal Weight",
+     "target": 1000,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-21",
+     "broker": "Wolfe Research",
+     "action": "reiterate Outperform",
+     "target": null,
+     "reason": ""
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "UBS",
+     "action": "set target",
+     "target": 820,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "TD Cowen",
+     "action": "maintain Hold, raise target",
+     "target": 820,
+     "reason": "post-print; 800 to 820"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "Raymond James",
+     "action": "reiterate Outperform",
+     "target": 1036,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "Needham",
+     "action": "reiterate Buy",
+     "target": 1040,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "Mizuho",
+     "action": "maintain Outperform, raise target",
+     "target": 1140,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "Citigroup",
+     "action": "reiterate Buy",
+     "target": null,
+     "reason": "post-print"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "Morgan Stanley",
+     "action": "maintain Equal Weight, raise target",
+     "target": 1000,
+     "reason": "post-print; 900 to 1000"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "Bank of America",
+     "action": "maintain Neutral, lower target",
+     "target": 1000,
+     "reason": "post-print; 1100 to 1000"
+    },
+    {
+     "date": "2026-08-12",
+     "broker": "J.P. Morgan",
+     "action": "maintain Overweight, raise target",
+     "target": 1280,
+     "reason": "post-print"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat ratings table plus StockAnalysis latest-forecasts rows; Weiss, Zacks and Freedom-style quant rows excluded unless sell-side"
+  },
+  "pt_avg_alt": {
+   "value": 1053.83,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/forecast/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat: 22 analysts, Moderate Buy (1 sell, 5 hold), low $240; upside 13.4% vs StockAnalysis 23.7%, more than 10 points apart"
+  }
+ },
+ "earnings": {
+  "print_date": {
+   "value": "2026-08-11",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/earnings/",
+   "as_of": "2026-08-11"
+  },
+  "revenue_actual": {
+   "value": 1006.0,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/earnings/",
+   "as_of": "2026-08-11",
+   "note": "USD m"
+  },
+  "revenue_estimate": {
+   "value": 987.7,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/earnings/",
+   "as_of": "2026-08-11",
+   "note": "USD m, consensus at the print"
+  },
+  "eps_actual": {
+   "value": 3.23,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/earnings/",
+   "as_of": "2026-08-11",
+   "note": "adjusted"
+  },
+  "eps_estimate": {
+   "value": 2.97,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/earnings/",
+   "as_of": "2026-08-11"
+  },
+  "guide": {
+   "value": "raised",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm",
+   "as_of": "2026-08-11"
+  },
+  "guide_detail": {
+   "value": "Fiscal Q1 FY27 guided revenue $1.225-1.275B and non-GAAP EPS $4.05-4.35 (op margin 39.5-40.5%); the Q1 EPS consensus was $3.63 sixty days ago and moved to $4.21 after the guide. GAAP net loss of $7.2B came from a $7.8B non-cash loss on extinguishment when convertible notes were equitized.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm",
+   "as_of": "2026-08-11"
+  },
+  "reaction_day_pct": {
+   "value": 13.63,
+   "source": "https://stockanalysis.com/stocks/lite/history/",
+   "as_of": "2026-08-12",
+   "note": "close 2026-08-12 vs close 2026-08-11"
+  },
+  "reaction_5d_pct": {
+   "value": 0.85,
+   "source": "https://stockanalysis.com/stocks/lite/history/",
+   "as_of": "2026-08-19",
+   "note": "close 2026-08-19 vs pre-print close 2026-08-11"
+  },
+  "revisions_30d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/LITE/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "revisions_90d": {
+   "value": "up",
+   "source": "https://finance.yahoo.com/quote/LITE/analysis/",
+   "as_of": "2026-09-24"
+  },
+  "eps_trend": {
+   "value": {
+    "current": 21.67,
+    "d30": 21.62,
+    "d90": 18.13
+   },
+   "source": "https://finance.yahoo.com/quote/LITE/analysis/",
+   "as_of": "2026-09-24",
+   "note": "current fiscal year EPS consensus now / 30 / 90 days ago"
+  },
+  "fcf_ttm": {
+   "value": 300.1,
+   "source": "https://stockanalysis.com/stocks/lite/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD m, trailing four quarters"
+  },
+  "net_income_ttm": {
+   "value": -6940.0,
+   "source": "https://stockanalysis.com/stocks/lite/statistics/",
+   "as_of": "2026-09-24",
+   "note": "USD m, GAAP; distorted by the $7.8B non-cash loss on convertible-note extinguishment in fiscal Q4"
+  },
+  "sbc_pct_revenue": {
+   "value": 5.65,
+   "source": "https://stockanalysis.com/stocks/lite/financials/cash-flow-statement/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "trailing four quarters SBC / TTM revenue"
+  }
+ },
+ "prospect": {
+  "case": {
+   "value": "The case: EML/CW laser and transceiver demand for AI scale-out more than doubles FY27 revenue to about $6.3B at 50%+ gross margin, EPS about $21.7.",
+   "source": "https://stockanalysis.com/stocks/lite/forecast/",
+   "as_of": "2026-09-23"
+  },
+  "depends_on": {
+   "value": "FY27 revenue consensus $6.32B and gross margin expansion from 37.7% to 49.3% over four quarters continuing",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm",
+   "as_of": "2026-08-11"
+  },
+  "bear_case": {
+   "value": "Bears: 42.9x FY1 PE and 27x EV/sales leave no room for a supply-chain or hyperscaler capex pause; share count up 7% y/y after note equitization; $1.6B of converts still current",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm",
+   "as_of": "2026-08-11"
+  },
+  "visibility": {
+   "value": "guided",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm",
+   "as_of": "2026-08-11"
+  }
+ },
+ "competition": {
+  "peers": {
+   "value": [
+    "COHR",
+    "AAOI"
+   ],
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  },
+  "share_trend": {
+   "value": "unknown",
+   "source": null,
+   "as_of": null,
+   "note": "no source states share"
+  },
+  "gross_margin_4q": {
+   "value": [
+    37.65,
+    39.02,
+    46.55,
+    49.34
+   ],
+   "source": "https://stockanalysis.com/stocks/lite/financials/?p=quarterly",
+   "as_of": "2026-09-24",
+   "note": "GAAP gross margin, oldest to newest, last four reported quarters"
+  },
+  "fwd_pe": {
+   "value": 27.39,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24",
+   "note": "StockAnalysis forward PE 42.87"
+  },
+  "peer_fwd_pe": {
+   "value": {
+    "COHR": 20.65,
+    "AAOI": 18.2
+   },
+   "source": "https://finviz.com/quote.ashx?t=COHR",
+   "as_of": "2026-09-24",
+   "note": "Finviz Forward P/E for each peer, fetched 2026-09-24"
+  },
+  "ev_sales": {
+   "value": 27.3,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  },
+  "peer_ev_sales": {
+   "value": {
+    "COHR": 8.26,
+    "AAOI": 14.04
+   },
+   "source": "https://finviz.com/quote.ashx?t=COHR",
+   "as_of": "2026-09-24",
+   "note": "Finviz EV/Sales for each peer"
+  },
+  "substitute": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no named substitute found in the sources read"
+  }
+ },
+ "insiders": {
+  "coverage_complete": {
+   "value": true,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24",
+   "note": "Finviz insider table (saved HTML) runs back before 2026-06-26, so the full trailing 90 days are covered; Form 144 \"Proposed Sale\" and option-exercise rows excluded; each sale checked against its EDGAR Form 4 for the 10b5-1 flag"
+  },
+  "buys_90d": {
+   "value": [],
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24",
+   "note": "no open-market purchases in the 90 days to 2026-09-24"
+  },
+  "sells_90d": {
+   "value": [
+    {
+     "date": "2026-09-21",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 959.27,
+     "usd": 479635,
+     "held_after": 111127,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000013/xslF345X06/form4-09232026_080919.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 23 04:47 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-23",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 946.56,
+     "usd": 473280,
+     "held_after": 110127,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000013/xslF345X06/form4-09232026_080919.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 23 04:47 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-22",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 935.55,
+     "usd": 467775,
+     "held_after": 110627,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000013/xslF345X06/form4-09232026_080919.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 23 04:47 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-17",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 933.45,
+     "usd": 466725,
+     "held_after": 112127,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000012/xslF345X06/form4-09182026_080946.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 18 04:52 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-18",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 920.0,
+     "usd": 460000,
+     "held_after": 111627,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000012/xslF345X06/form4-09182026_080946.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 18 04:52 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-16",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 856.83,
+     "usd": 428415,
+     "held_after": 112627,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000012/xslF345X06/form4-09182026_080946.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 18 04:52 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-11",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 944.41,
+     "usd": 472205,
+     "held_after": 114127,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000011/xslF345X06/form4-09152026_110904.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 filed Sep 15 07:09 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-14",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 862.14,
+     "usd": 431070,
+     "held_after": 113627,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000011/xslF345X06/form4-09152026_110904.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 filed Sep 15 07:09 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-15",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 841.51,
+     "usd": 420755,
+     "held_after": 113127,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000011/xslF345X06/form4-09152026_110904.xml",
+     "plan_10b5_1": false,
+     "history": "Form 4 filed Sep 15 07:09 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-09",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 978.54,
+     "usd": 489270,
+     "held_after": 115127,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000010/xslF345X06/form4-09102026_090944.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 10 05:35 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-10",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 961.44,
+     "usd": 480720,
+     "held_after": 114627,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000010/xslF345X06/form4-09102026_090944.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 10 05:35 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-08",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 895.99,
+     "usd": 447995,
+     "held_after": 115627,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000010/xslF345X06/form4-09102026_090944.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 10 05:35 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-03",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 870.01,
+     "usd": 435005,
+     "held_after": 116627,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000009/xslF345X06/form4-09042026_080916.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 04 04:16 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-02",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 864.49,
+     "usd": 432245,
+     "held_after": 117127,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000009/xslF345X06/form4-09042026_080916.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 04 04:16 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-04",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 860.0,
+     "usd": 430000,
+     "held_after": 116127,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000009/xslF345X06/form4-09042026_080916.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 04 04:16 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-28",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 940.95,
+     "usd": 470475,
+     "held_after": 118627,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000008/xslF345X06/form4-09022026_010927.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 01 09:19 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-09-01",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 901.04,
+     "usd": 450520,
+     "held_after": 117627,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000008/xslF345X06/form4-09022026_010927.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 01 09:19 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-31",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 895.0,
+     "usd": 447500,
+     "held_after": 118127,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000008/xslF345X06/form4-09022026_010927.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Sep 01 09:19 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "HURLSTON MICHAEL E.",
+     "role": "CEO",
+     "role_full": "President and CEO",
+     "shares": 548,
+     "price": 958.66,
+     "usd": 525346,
+     "held_after": 186951,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1573338/000157333826000017/xslF345X06/form4-08282026_010801.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 27 09:59 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-27",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 958.66,
+     "usd": 479330,
+     "held_after": 119127,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000007/xslF345X06/form4-08282026_010839.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 27 09:57 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Retort Vincent",
+     "role": "SEE REMARKS",
+     "role_full": "SEE REMARKS",
+     "shares": 38663,
+     "price": 852.59,
+     "usd": 32963734,
+     "held_after": 78440,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1633978/000164825626000008/xslF345X06/form4-08282026_010803.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 27 09:57 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Kim Jae",
+     "role": "SVP, GENERAL COUNSEL",
+     "role_full": "SVP, GENERAL COUNSEL",
+     "shares": 12000,
+     "price": 852.58,
+     "usd": 10231015,
+     "held_after": 37804,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1570465/000157046526000007/xslF345X06/form4-08282026_010820.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 27 09:56 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-26",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 882.15,
+     "usd": 441075,
+     "held_after": 91729,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000005/xslF345X06/form4-08262026_110800.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 26 07:33 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-25",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 856.64,
+     "usd": 428322,
+     "held_after": 92229,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000005/xslF345X06/form4-08262026_110800.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 26 07:33 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-24",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 824.24,
+     "usd": 412120,
+     "held_after": 92729,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000005/xslF345X06/form4-08262026_110800.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 26 07:33 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-20",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 1500,
+     "price": 827.82,
+     "usd": 1241730,
+     "held_after": 100434,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000004/xslF345X06/form4-08222026_120847.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 21 08:43 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-21",
+     "name": "Wupen Yuen",
+     "role": "PRESIDENT, GLOBAL BUS. UNITS",
+     "role_full": "PRESIDENT, GLOBAL BUS. UNITS",
+     "shares": 500,
+     "price": 898.15,
+     "usd": 449075,
+     "held_after": 93229,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1489550/000148955026000004/xslF345X06/form4-08222026_120847.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 21 08:43 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-20",
+     "name": "Retort Vincent",
+     "role": "SEE REMARKS",
+     "role_full": "SEE REMARKS",
+     "shares": 2483,
+     "price": 827.82,
+     "usd": 2055477,
+     "held_after": 109438,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1633978/000164825626000006/xslF345X06/form4-08222026_120820.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 21 08:42 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-20",
+     "name": "Kim Jae",
+     "role": "SVP, GENERAL COUNSEL",
+     "role_full": "SVP, GENERAL COUNSEL",
+     "shares": 1904,
+     "price": 827.82,
+     "usd": 1576169,
+     "held_after": 42096,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1570465/000157046526000005/xslF345X06/form4-08222026_120806.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 21 08:41 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "Retort Vincent",
+     "role": "SEE REMARKS",
+     "role_full": "SEE REMARKS",
+     "shares": 3183,
+     "price": 909.43,
+     "usd": 2894716,
+     "held_after": 114495,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1633978/000164825626000005/xslF345X06/form4-08192026_120810.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 18 08:47 PM; plan status read from the Form 4 checkbox and footnotes"
+    },
+    {
+     "date": "2026-08-18",
+     "name": "Kim Jae",
+     "role": "SVP, GENERAL COUNSEL",
+     "role_full": "SVP, GENERAL COUNSEL",
+     "shares": 1366,
+     "price": 909.43,
+     "usd": 1242281,
+     "held_after": 45973,
+     "transaction_code": "S",
+     "open_market": true,
+     "form4": "https://www.sec.gov/Archives/edgar/data/1570465/000157046526000004/xslF345X06/form4-08192026_120815.xml",
+     "plan_10b5_1": true,
+     "history": "Form 4 filed Aug 18 08:45 PM; plan status read from the Form 4 checkbox and footnotes"
+    }
+   ],
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24",
+   "note": "31 open-market sales, $63,123,980 total; 4 unique sellers; 28 flagged 10b5-1 on the Form 4; President Wupen Yuen sells 500 shares near-daily under a plan; GC Kim and officer Retort sold $43M on Aug 25"
+  },
+  "finviz_net_change_pct": {
+   "value": -4.78,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24",
+   "note": "Finviz 6-month insider transaction %"
+  }
+ },
+ "institutions": {
+  "quarter_end": {
+   "value": "2026-06-30",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "latest 13F cycle in the MarketBeat holder table (filings dated Jul-Sep 2026)"
+  },
+  "net_shares": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: no share-count net flow published free; Fintel 403 per failure log, MarketBeat gives dollars only"
+  },
+  "holders_up": {
+   "value": 670,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals not used (CalSTRS rule)."
+  },
+  "holders_down": {
+   "value": 290,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "MarketBeat counts are trailing twelve months, not a quarter-over-quarter 13F holders table; dollar totals not used (CalSTRS rule)."
+  },
+  "holders_new": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat free page"
+  },
+  "holders_exited": {
+   "value": null,
+   "source": null,
+   "as_of": null,
+   "note": "not found: not published on MarketBeat free page"
+  },
+  "named_adds": {
+   "value": [
+    {
+     "fund": "National Pension Service",
+     "change_pct": 2501.2,
+     "shares": 104049,
+     "filed": "2026-09-09"
+    },
+    {
+     "fund": "Amundi",
+     "change_pct": 188.7,
+     "shares": 658427,
+     "filed": "2026-08-26"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "Q2 2026 13F rows with >=0.1% of the company and a >=25% increase or a new position; "
+  },
+  "named_exits": {
+   "value": [],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "no full exit (-100%) among material holders in the latest 100 13F rows"
+  },
+  "named_cuts": {
+   "value": [
+    {
+     "fund": "Styrax Capital LP",
+     "change_pct": -35.7,
+     "shares": 90000,
+     "filed": "2026-08-23"
+    },
+    {
+     "fund": "Wellington Management Group LLP",
+     "change_pct": -28.4,
+     "shares": 121234,
+     "filed": "2026-08-19"
+    }
+   ],
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/institutional-ownership/",
+   "as_of": "2026-09-24",
+   "note": "material holders cutting >=25% in the latest 13F rows"
+  },
+  "inst_own_pct": {
+   "value": 94.05,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/institutional-ownership/",
+   "as_of": "2026-09-24"
+  },
+  "finviz_inst_change_pct": {
+   "value": 4.04,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24",
+   "note": "secondary directional proxy"
+  },
+  "short_pct_float": {
+   "value": 7.29,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/short-interest/",
+   "as_of": "2026-09-15",
+   "note": "MarketBeat settlement 2026-09-15, 6.51M shares; Finviz shows 8.15% float / 1.52 DTC undated"
+  },
+  "days_to_cover": {
+   "value": 1.6,
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_as_of": {
+   "value": "2026-09-15",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/LITE/short-interest/",
+   "as_of": "2026-09-15"
+  },
+  "short_pct_float_finviz": {
+   "value": 8.15,
+   "source": "https://finviz.com/quote.ashx?t=LITE",
+   "as_of": "2026-09-24"
+  }
+ },
+ "catalysts": {
+  "value": [
+   {
+    "date": "2026-11-03",
+    "event": "Q1 FY27 earnings (StockAnalysis/MarketBeat estimate)",
+    "confirmed": false
+   },
+   {
+    "date": "2027-02-02",
+    "event": "Q2 FY27 earnings (estimated)",
+    "confirmed": false
+   }
+  ],
+  "source": "https://stockanalysis.com/stocks/lite/statistics/",
+  "as_of": "2026-09-24"
+ },
+ "why_it_fell": {
+  "value": "Not applicable: 14.4% below the 52-week high.",
+  "source": "https://finviz.com/quote.ashx?t=LITE",
+  "as_of": "2026-09-24"
+ },
+ "forward": {
+  "periods_aligned": true,
+  "currency": "USD",
+  "units": "millions (EPS per share)",
+  "accounting_basis": "revenue GAAP; EPS non-GAAP adjusted consensus",
+  "fy1_end": "2027-06-30",
+  "fy2_end": "2028-06-30",
+  "estimate_vintage": "Yahoo analysis page read 2026-09-24; StockAnalysis forecast last updated 2026-09-23",
+  "model_assumptions": "none; no modelled leaves",
+  "fcf_basis": "CFO minus capex (levered); forward FCF not filled",
+  "revision_period_end": "2026-09-24",
+  "fy1": {
+   "revenue": {
+    "value": 6320,
+    "source": "https://finance.yahoo.com/quote/LITE/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "USD m, Yahoo avg; matches StockAnalysis forecast"
+   },
+   "ebit": {
+    "value": 2570,
+    "source": "https://stockanalysis.com/stocks/lite/forecast/",
+    "as_of": "2026-09-23",
+    "kind": "consensus",
+    "note": "StockAnalysis FY1 \"Operating Income\" consensus; basis (adjusted vs GAAP) not stated by the page"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward CFO not published free; not modelled"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward capex not published free; not modelled"
+   },
+   "eps": {
+    "value": 21.67,
+    "source": "https://finance.yahoo.com/quote/LITE/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "non-GAAP EPS"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "fy2": {
+   "revenue": {
+    "value": 9610,
+    "source": "https://finance.yahoo.com/quote/LITE/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "USD m, Yahoo avg"
+   },
+   "ebit": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: StockAnalysis FY2 operating income is behind the Pro paywall; Yahoo gives no EBIT"
+   },
+   "cfo": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward CFO not published free; not modelled"
+   },
+   "capex": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: forward capex not published free; not modelled"
+   },
+   "eps": {
+    "value": 34.52,
+    "source": "https://finance.yahoo.com/quote/LITE/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "non-GAAP EPS; StockAnalysis shows $35.10, Yahoo $34.52 (Yahoo 7 days ago showed 39.70, a noisy series)"
+   },
+   "tax_rate_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_begin": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   },
+   "invested_capital_end": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: not modelled"
+   }
+  },
+  "ratings": {
+   "buy": {
+    "value": 22,
+    "source": "https://stockanalysis.com/stocks/lite/forecast/",
+    "as_of": "2026-09-23",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   },
+   "hold": {
+    "value": 4,
+    "source": "https://stockanalysis.com/stocks/lite/forecast/",
+    "as_of": "2026-09-23",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   },
+   "sell": {
+    "value": 0,
+    "source": "https://stockanalysis.com/stocks/lite/forecast/",
+    "as_of": "2026-09-23",
+    "kind": "consensus",
+    "note": "StockAnalysis/S&P Global recommendation trend, current month; strong buy grouped with buy"
+   }
+  },
+  "revisions": {
+   "up_30d": {
+    "value": 21,
+    "source": "https://finance.yahoo.com/quote/LITE/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current fiscal year, up last 30 days"
+   },
+   "down_30d": {
+    "value": 0,
+    "source": "https://finance.yahoo.com/quote/LITE/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo EPS Revisions, current fiscal year, down last 30 days; \"--\" read as 0"
+   },
+   "analysts": {
+    "value": 25,
+    "source": "https://finance.yahoo.com/quote/LITE/analysis/",
+    "as_of": "2026-09-24",
+    "kind": "consensus",
+    "note": "Yahoo number of analysts, current fiscal year EPS"
+   },
+   "up_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7d and 30d counts only"
+   },
+   "down_90d": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "consensus",
+    "note": "not found: Yahoo shows 7d and 30d counts only"
+   }
+  },
+  "valuation": {
+   "price": {
+    "value": 929.04,
+    "source": "https://finviz.com/quote.ashx?t=LITE",
+    "as_of": "2026-09-24",
+    "kind": "reported"
+   },
+   "enterprise_value": {
+    "value": 82270.0,
+    "source": "https://finviz.com/quote.ashx?t=LITE",
+    "as_of": "2026-09-24",
+    "kind": "reported",
+    "note": "USD m, Finviz"
+   },
+   "wacc_pct": {
+    "value": null,
+    "source": null,
+    "as_of": null,
+    "kind": "model",
+    "note": "not found: not modelled"
+   }
+  },
+  "evidence": {
+   "sa_fy1_fcf_consensus": {
+    "value": 1140,
+    "source": "https://stockanalysis.com/stocks/lite/forecast/",
+    "as_of": "2026-09-23",
+    "kind": "consensus",
+    "note": "StockAnalysis FY1 free cash flow consensus, USD m; FY2 paywalled"
+   }
+  },
+  "periods_aligned_note": "Yahoo and StockAnalysis fiscal-year labels and FY1 values checked against each other (https://finance.yahoo.com/quote/LITE/analysis/, 2026-09-24)"
+ },
+ "judgment": {
+  "prospect_pts": 7,
+  "prospect_why": "EML and CW lasers in the last two prints; Q1 EPS guide $4.05-4.35 vs $3.63",
+  "competition_pts": 6,
+  "competition_why": "GM 37.7 to 49.3% rising fast; share held",
+  "macro_fit_pts": 2,
+  "macro_fit_why": "AI networking 1 plus 1: earnings inflecting",
+  "narrative_pts": 1,
+  "narrative_why": "AI networking and optics lagging and worsening",
+  "by": "main agent, 2026-09-24",
+  "label": "analyst judgment, not measured"
+ }
+}
